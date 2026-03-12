@@ -1,29 +1,139 @@
 {
-  "ticker_items": [],
+  "ticker_items": [
+    "Iran effectively shuts down Strait of Hormuz, blocking 20% global oil flow",
+    "Israeli airstrikes continue targeting Beirut and Hezbollah strongholds",
+    "US-Israeli strikes kill over 1,300 civilians in first 12 days",
+    "Iranian drones hit US Embassy in Riyadh after massive air campaign",
+    "FBI warns California police of potential Iranian drone retaliation attacks"
+  ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Ecuador faces U.S. military action as Trump authorizes operations in the latest country to experience American military might."
   },
   "strikes_today": {
     "eastern_europe": [],
-    "middle_east": []
+    "middle_east": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut",
+        "description": "IDF executes precision strikes across Lebanon targeting Hezbollah strongholds in southern Beirut.",
+        "method": "Air/Precision Strike"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh",
+        "description": "Iranian drones strike US Embassy in Riyadh causing limited fire and minor material damage.",
+        "method": "Air/Drone"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States and Israel",
+        "target_country": "Iran",
+        "target_location": "Southern Iran",
+        "description": "US-Israeli airstrikes hit Iranian targets including a school where over 170 people were killed.",
+        "method": "Air/Precision Strike"
+      }
+    ]
   },
   "casualties": {
-    "today": [],
+    "today": [
+      {
+        "incident": "Israeli strikes on Lebanon",
+        "kia": "est. 570",
+        "wia": "",
+        "civilian": true
+      },
+      {
+        "incident": "US-Israeli strikes first 12 days",
+        "kia": "est. 1,300",
+        "wia": "",
+        "civilian": true
+      },
+      {
+        "incident": "Iranian school strike",
+        "kia": "est. 170",
+        "wia": "",
+        "civilian": true
+      }
+    ],
     "cumulative": {}
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
-    "middle_east": []
+    "ukraine": [
+      {
+        "text": "Put more pressure on Putin, 'not on me'",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-03-12"
+      }
+    ],
+    "middle_east": [
+      {
+        "text": "I think, overall, what's accomplished is remarkable",
+        "speaker": "John Fetterman",
+        "title": "Democratic Senator",
+        "date": "2026-03-12"
+      },
+      {
+        "text": "We'll attack economic institutions",
+        "speaker": "Iranian forces",
+        "title": "Military announcement",
+        "date": "2026-03-12"
+      }
+    ]
   },
-  "observers": [],
+  "observers": [
+    {
+      "country": "Australia",
+      "flag": "\ud83c\udde6\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "Prime Minister Albanese has deployed Australian troops to the Middle East, with Senator Nick McKim warning that Australia is helping the US 'rain down horror' on Iran. Australia has been criticized for hitching itself to the US-Israeli conflict through military support."
+    },
+    {
+      "country": "South Africa",
+      "flag": "\ud83c\uddff\ud83c\udde6",
+      "status": "Strategic balancer",
+      "description": "Pretoria is performing an awkward diplomatic dance between Washington and Tehran as the Iran war intensifies. South Africa is attempting to navigate between competing pressures from both sides while maintaining strategic relationships."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Supplying dual-use goods",
+      "description": "China is strengthening its influence over North Korea through new infrastructure projects and increased investment. Beijing is also rebuilding its grip on Pyongyang as tensions rise globally, while controlling critical warfare technologies including drone components."
+    }
+  ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Rising",
     "wheat_futures": "Unchanged",
-    "notes": ""
+    "notes": "Oil prices rising as Iran effectively halts traffic through Strait of Hormuz, blocking 20% of global crude oil and natural gas flows."
   },
-  "update_log": [],
-  "last_updated": "2026-03-12T23:40:44Z"
+  "update_log": [
+    {
+      "time": "Unknown",
+      "text": "Iran effectively shuts down vital Strait of Hormuz chokepoint, blocking 20% of global oil and gas flows"
+    },
+    {
+      "time": "Unknown",
+      "text": "Israeli forces continue precision airstrikes targeting Hezbollah strongholds across Beirut and southern Lebanon"
+    },
+    {
+      "time": "Unknown",
+      "text": "Iranian drones strike US Embassy in Riyadh in retaliation for US-Israeli air campaign"
+    },
+    {
+      "time": "Unknown",
+      "text": "FBI warns California police departments of possible Iranian drone attacks in retaliation for joint strikes"
+    },
+    {
+      "time": "Unknown",
+      "text": "US-Israeli strikes kill over 1,300 civilians in first 12 days of Iran war, hitting over 10,000 civilian sites"
+    }
+  ],
+  "last_updated": "2026-03-12T23:53:56Z"
 }
