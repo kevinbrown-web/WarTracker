@@ -23,11 +23,11 @@ def fetch_headlines():
     ]
     articles = []
     for q in queries:
+        # No 'from' date filter — works on NewsAPI free tier
         params = urllib.parse.urlencode({
             "q": q,
-            "from": TODAY,
             "sortBy": "publishedAt",
-            "pageSize": 5,
+            "pageSize": 8,
             "apiKey": NEWS_API_KEY,
             "language": "en"
         })
