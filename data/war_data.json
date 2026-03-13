@@ -1,105 +1,62 @@
 {
+  "escalation": {
+    "score": 8,
+    "delta": "Unknown",
+    "level": "High",
+    "rationale": "Active US-Israel war against Iran with Strait of Hormuz blockade, oil tanker attacks, cyberattacks on medical infrastructure, and 600,000-1 million Iranian civilians displaced."
+  },
   "ticker_items": [
-    "Iran war enters 12th day with mounting civilian casualties",
-    "140 US service members wounded in initial Iran strikes",
-    "Strait of Hormuz blocked disrupting global oil supplies",
-    "Girls school bombing in Iran kills over 170",
-    "Hezbollah launches 100+ rockets at Israeli targets"
+    "Iran's new Supreme Leader vows continued Strait of Hormuz blockade",
+    "Oil prices surge over $100 as Iranian tanker attacks continue",
+    "US admits inability to control Strait of Hormuz shipping",
+    "Iranian hackers strike medical device maker Stryker globally",
+    "600,000-1 million Iranians internally displaced from ongoing conflict"
   ],
   "new_entrant": {
     "active": false,
     "text": ""
   },
   "strikes_today": {
-    "eastern_europe": [
-      {
-        "time_utc": "Unknown",
-        "attacker": "Ukraine",
-        "target_country": "Russia",
-        "target_location": "Bryansk",
-        "description": "Ukrainian air strike hits Russian military electronics plant with seven killed.",
-        "method": "Air/Precision Strike",
-        "lat": 53.25,
-        "lng": 34.37
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Russia",
-        "target_country": "Ukraine",
-        "target_location": "Railway infrastructure",
-        "description": "Russia targets Ukraine's railways with drone attacks to disrupt economy and supply lines.",
-        "method": "Air/Drone",
-        "lat": 50.45,
-        "lng": 30.52
-      }
-    ],
+    "eastern_europe": [],
     "middle_east": [
       {
         "time_utc": "Unknown",
-        "attacker": "Unknown",
-        "target_country": "Iran",
-        "target_location": "Shajareh Tayyebeh Elementary School",
-        "description": "Attack on Iranian girls' school kills more than 170 people.",
-        "method": "Air/Precision Strike",
-        "lat": 35.69,
-        "lng": 51.39
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Hezbollah",
-        "target_country": "Israel",
-        "target_location": "Multiple targets",
-        "description": "Hezbollah launches over 100 rockets, drones, and missiles at 50+ Israeli targets in joint IRGC operation.",
-        "method": "Rocket/Surface",
-        "lat": 31.77,
-        "lng": 35.23
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Israel",
-        "target_country": "Lebanon",
-        "target_location": "Civilian dwelling",
-        "description": "Israeli tank fire kills Catholic priest in civilian dwelling in Lebanon.",
-        "method": "Ground/Armored",
-        "lat": 33.89,
-        "lng": 35.5
-      },
-      {
-        "time_utc": "Unknown",
         "attacker": "Iran",
-        "target_country": "Persian Gulf",
-        "target_location": "Commercial vessels",
-        "description": "Three commercial ships damaged in Persian Gulf maritime attacks.",
-        "method": "Naval/USV",
+        "target_country": "International Waters",
+        "target_location": "Persian Gulf",
+        "description": "Iran attacked two oil tankers in the Persian Gulf as part of economic warfare strategy.",
+        "method": "Anti-Ship Missile",
         "lat": 26.0,
-        "lng": 52.0
+        "lng": 51.0
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "US/Israel",
+        "target_country": "Iran",
+        "target_location": "Various locations",
+        "description": "US confirmed using AI in bombardment operations against Iranian targets.",
+        "method": "Air/Precision Strike",
+        "lat": 32.0,
+        "lng": 53.0
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iranian hackers",
+        "target_country": "US",
+        "target_location": "Stryker medical facilities",
+        "description": "Iranian hacktivists struck medical device maker Stryker, shutting down systems globally.",
+        "method": "Cyber",
+        "lat": 42.0,
+        "lng": -85.0
       }
     ]
   },
   "casualties": {
     "today": [
       {
-        "incident": "Bryansk plant strike",
-        "kia": "7",
-        "wia": "",
-        "civilian": false
-      },
-      {
-        "incident": "Iran girls school bombing",
-        "kia": "170+",
-        "wia": "",
-        "civilian": true
-      },
-      {
-        "incident": "US Iran strikes",
-        "kia": "",
-        "wia": "140",
-        "civilian": false
-      },
-      {
-        "incident": "Lebanon priest killing",
-        "kia": "1",
-        "wia": "",
+        "incident": "Iran war related violence",
+        "kia": "est. 1,100+",
+        "wia": "Unknown",
         "civilian": true
       }
     ],
@@ -110,78 +67,78 @@
     "ukraine": [],
     "middle_east": [
       {
-        "text": "Iran's President Masoud Pezeshkian has urged international bodies to denounce the US-Israeli aggression against Iran's civilian infrastructure and ordinary people",
-        "speaker": "Masoud Pezeshkian",
-        "title": "President of Iran",
-        "date": "2026-03-13"
+        "text": "Tehran will keep strait of Hormuz closed and continue attacks on US assets",
+        "speaker": "Mojtaba Khamenei",
+        "title": "Supreme Leader of Iran",
+        "date": "2026-03-12"
       },
       {
-        "text": "very complete, pretty much",
+        "text": "Iran men's national soccer team is welcome to participate in the 2026 World Cup, but believes it is not appropriate that they be there for their own life and safety",
         "speaker": "Donald Trump",
         "title": "US President",
-        "date": "2026-03-13"
+        "date": "2026-03-12"
+      },
+      {
+        "text": "NATO forces will strike into the heart of Russia if Moscow invades Baltic countries",
+        "speaker": "Unknown",
+        "title": "Estonia's Foreign Minister",
+        "date": "2026-03-12"
       }
     ]
   },
   "observers": [
     {
+      "country": "Estonia",
+      "flag": "\ud83c\uddea\ud83c\uddea",
+      "status": "Active materiel + troops",
+      "description": "Estonia's Foreign Minister declared NATO forces will strike into Russia's heart if Moscow invades Baltic states. Estonia is urging allies to prepare for Russian veterans returning from Ukraine war."
+    },
+    {
       "country": "Germany",
       "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Active materiel + troops",
+      "description": "Germany plans to use Ukrainian military trainers to prepare for potential war with Russia by 2029. The German army head confirmed this preparation strategy."
+    },
+    {
+      "country": "UAE",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "Strategic balancer",
+      "description": "UAE's energy playbook is paying off amid global turmoil as energy markets enter unprecedented crisis. The country is positioning itself strategically among major producers."
+    },
+    {
+      "country": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
       "status": "Mediator + arms supplier",
-      "description": "Foreign Minister Wadephul visits Cyprus, Israel and Saudi Arabia focusing on Middle East escalation. Germany remains committed to peace and security in the region while maintaining close contact with allies and partners."
-    },
-    {
-      "country": "China",
-      "flag": "\ud83c\udde8\ud83c\uddf3",
-      "status": "Strategic balancer",
-      "description": "China steps up shuttle diplomacy amid Strait of Hormuz tensions. Beijing is rebuilding its grip on North Korea with new infrastructure projects and increased investment along their shared border."
-    },
-    {
-      "country": "South Korea",
-      "flag": "\ud83c\uddf0\ud83c\uddf7",
-      "status": "Active materiel + troops",
-      "description": "US transfers THAAD missile system components from South Korea to Middle East amid Iran conflict. South Korea pays the price as US burns anti-missile munitions at furious rate."
-    },
-    {
-      "country": "Australia",
-      "flag": "\ud83c\udde6\ud83c\uddfa",
-      "status": "Active materiel + troops",
-      "description": "Prime Minister Albanese criticized for sending Australian troops to Middle East. Senator warns Australia is helping US 'rain down horror' on Iran by hitching to the conflict."
-    },
-    {
-      "country": "South Africa",
-      "flag": "\ud83c\uddff\ud83c\udde6",
-      "status": "Strategic balancer",
-      "description": "Pretoria navigates awkward diplomatic dance between Washington and Tehran during Iran war. South Africa maintains complex balancing act between competing global powers."
+      "description": "French President Emmanuel Macron is leading international efforts for naval escorts to reopen the vital Strait of Hormuz for oil and gas shipments."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "High levels",
+    "brent_crude": "Over $100",
     "wheat_futures": "Unchanged",
-    "notes": "Global oil prices linger at high levels due to Strait of Hormuz blockade disrupting world energy supplies."
+    "notes": "Oil prices surged over $100 as Iran maintains Strait of Hormuz blockade and continues tanker attacks, with analysts comparing oil trading to meme stock volatility."
   },
   "update_log": [
     {
       "time": "Unknown",
-      "text": "Iran war enters 12th day with mounting civilian casualties and deepening regional conflict risks"
+      "text": "Iran's new Supreme Leader Mojtaba Khamenei calls for continued Strait of Hormuz closure in first public statement"
     },
     {
       "time": "Unknown",
-      "text": "UN Security Council adopts Resolution 2817 condemning Iran's attacks against neighbors"
+      "text": "Iranian hacktivists strike Stryker medical device maker, causing global system shutdowns"
     },
     {
       "time": "Unknown",
-      "text": "Strait of Hormuz blocked by Iran disrupting global oil and gas shipments"
+      "text": "Iran attacks two oil tankers in Persian Gulf, sending oil prices over $100"
     },
     {
       "time": "Unknown",
-      "text": "Hezbollah declares military campaign against Israel in joint IRGC operation"
+      "text": "UN reports 600,000 to 1 million Iranian households internally displaced from ongoing conflict"
     },
     {
       "time": "Unknown",
-      "text": "Iranian girls' school bombing becomes focal point of civilian casualty concerns"
+      "text": "US admits inability to control Strait of Hormuz as Iranian attacks halt oil flow"
     }
   ],
-  "last_updated": "2026-03-13T07:59:10Z"
+  "last_updated": "2026-03-13T20:55:12Z"
 }
