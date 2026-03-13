@@ -67,7 +67,7 @@ Return this exact JSON structure, filling in what you can from the headlines.
 For anything not mentioned in the headlines, use empty arrays [] or empty strings "".
 Casualty numbers should be strings like "~500" or "est. 1,200" — never raw integers.
 Strike methods: use one of: Air/Drone, Missile/Surface, Ground/Armored, Naval/USV, Naval/Cruise Missile, Ballistic Missile, Anti-Ship Missile, Air/Precision Strike, Rocket/Surface
-
+For lat and lng, provide the decimal coordinates of the target_location. Example: Kyiv is 50.45, 30.52. Beirut is 33.89, 35.50.
 {{
   "ticker_items": ["3 to 5 short breaking news bullets from today, each under 15 words"],
   "new_entrant": {{
@@ -75,14 +75,16 @@ Strike methods: use one of: Air/Drone, Missile/Surface, Ground/Armored, Naval/US
     "text": "One sentence if a new country entered or exited the conflict today, else empty string"
   }},
   "strikes_today": {{
-    "eastern_europe": [
+    ""eastern_europe": [
       {{
         "time_utc": "HH:MM or Unknown",
         "attacker": "Country or group",
         "target_country": "Country",
         "target_location": "City or region",
         "description": "One sentence factual description",
-        "method": "Strike method from list above"
+        "method": "Strike method from list above",
+        "lat": 0.0,
+        "lng": 0.0
       }}
     ],
     "middle_east": [
@@ -92,7 +94,9 @@ Strike methods: use one of: Air/Drone, Missile/Surface, Ground/Armored, Naval/US
         "target_country": "Country",
         "target_location": "City or region",
         "description": "One sentence factual description",
-        "method": "Strike method from list above"
+        "method": "Strike method from list above",
+        "lat": 0.0,
+        "lng": 0.0
       }}
     ]
   }},
