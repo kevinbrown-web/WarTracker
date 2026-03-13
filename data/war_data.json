@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.5,
-    "delta": "+0.5 from yesterday",
+    "score": 8.7,
+    "delta": "+0.2 from yesterday",
     "level": "High",
-    "rationale": "U.S.-Israel war with Iran continues with Strait of Hormuz blockade, oil tanker attacks, and cyberattacks on medical infrastructure."
+    "rationale": "Iran's new Supreme Leader orders continued Strait of Hormuz blockade while Israeli strikes hit central Beirut and Iranian missiles target central Israel."
   },
   "ticker_items": [
-    "Iran attacks oil tankers in Persian Gulf with explosions",
-    "New Iranian Supreme Leader vows continued Strait of Hormuz blockade",
-    "Iranian hackers strike U.S. medical device maker Stryker globally",
-    "Oil surges over $100 as U.S. admits cannot control Hormuz",
-    "Over 1,100 children killed or injured since Iran war started"
+    "Iran's new Supreme Leader vows to keep Strait of Hormuz closed",
+    "Israeli airstrikes hit central Beirut near government headquarters",
+    "Iranian missile strike sets building ablaze in central Israel",
+    "Oil surges over $100 as Strait of Hormuz remains blocked",
+    "Over 1,100 children killed or injured since Iran war began"
   ],
   "new_entrant": {
     "active": false,
@@ -21,63 +21,84 @@
     "middle_east": [
       {
         "time_utc": "Unknown",
-        "attacker": "Iran",
-        "target_country": "International waters",
-        "target_location": "Persian Gulf",
-        "description": "Iranian forces attacked two oil tankers with explosions in the Persian Gulf.",
-        "method": "Anti-Ship Missile",
-        "lat": 26.5,
-        "lng": 52.0
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Central Beirut",
+        "description": "Israeli airstrikes hit two buildings near Lebanese government headquarters",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
       },
       {
         "time_utc": "Unknown",
-        "attacker": "United States",
-        "target_country": "Iran",
-        "target_location": "Minab",
-        "description": "Video evidence suggests U.S. struck a girls' elementary school in Minab, Iran.",
-        "method": "Air/Precision Strike",
-        "lat": 27.15,
-        "lng": 57.08
+        "attacker": "Iran",
+        "target_country": "Israel",
+        "target_location": "Central Israel",
+        "description": "Iranian missile strike sets building ablaze in central Israel",
+        "method": "Ballistic Missile",
+        "lat": 31.77,
+        "lng": 35.23,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Persian Gulf",
+        "target_location": "Persian Gulf",
+        "description": "Iran attacks two oil tankers in Persian Gulf as part of economic warfare",
+        "method": "Anti-Ship Missile",
+        "lat": 26.5,
+        "lng": 53.0,
+        "source_tier": "unverified"
       }
     ]
   },
   "casualties": {
     "today": [
       {
-        "incident": "Minab elementary school strike",
-        "kia": "Unknown",
+        "incident": "Sudan market drone attack",
+        "kia": "11",
         "wia": "Unknown",
-        "civilian": true
-      },
-      {
-        "incident": "Iran war children casualties",
-        "kia": "~1,100",
-        "wia": "~1,100",
-        "civilian": true
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
-    "cumulative": {}
+    "claimed_totals": [
+      {
+        "claim": "Total casualties in US-Israel Iran war",
+        "figure": "1,489",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-13"
+      },
+      {
+        "claim": "Children killed or injured since Iran war started",
+        "figure": "~1,100",
+        "claimed_by": "UN Children's Fund",
+        "as_of": "2026-03-12"
+      }
+    ]
   },
   "quotes": {
     "russia": [],
     "ukraine": [],
     "middle_east": [
       {
-        "text": "I am a pretty religious person, or at least I was.",
-        "speaker": "Orian",
-        "title": "Israeli teen survivor",
+        "text": "We'll attack economic institutions",
+        "speaker": "Iranian forces",
+        "title": "Military statement",
+        "date": "2026-03-11"
+      },
+      {
+        "text": "Israel 'stronger than ever' in first speech since Iran war",
+        "speaker": "Netanyahu",
+        "title": "Prime Minister",
         "date": "2026-03-12"
       },
       {
-        "text": "NATO forces will strike into the heart of Russia if Moscow invades Baltic countries.",
-        "speaker": "Estonia's Foreign Minister",
-        "title": "Foreign Minister",
-        "date": "2026-03-12"
-      },
-      {
-        "text": "Take their skirts off, maybe put some boots on and help the rest of the world out.",
-        "speaker": "GOP Senator",
-        "title": "U.S. Senator",
+        "text": "We will avenge the blood of our martyrs",
+        "speaker": "Ayatollah Mojtaba Khamenei",
+        "title": "Supreme Leader",
         "date": "2026-03-12"
       }
     ]
@@ -87,48 +108,48 @@
       "country": "Poland",
       "flag": "\ud83c\uddf5\ud83c\uddf1",
       "status": "Strategic balancer",
-      "description": "President vetoed participation in EU's defense spending loan scheme, prompting PM Tusk to call extraordinary cabinet meeting. Poland appears to be resisting deeper EU military integration amid regional tensions."
+      "description": "President vetoes participation in EU's defence spending loan scheme. Prime Minister calls extraordinary cabinet meeting in response. Growing tensions over EU defense integration amid regional conflicts."
     },
     {
-      "country": "Germany",
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "status": "Active materiel + troops",
-      "description": "German army head announced plans to use Ukrainian military trainers to prepare for potential war with Russia by 2029. This represents significant escalation in German military preparedness and cooperation with Ukraine."
+      "country": "UAE",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "Strategic balancer",
+      "description": "Energy playbook paying off amid global turmoil as energy markets enter unprecedented crisis. Positioning as alternative supplier while largest producers face disruptions."
     },
     {
       "country": "Estonia",
       "flag": "\ud83c\uddea\ud83c\uddea",
       "status": "Active materiel + troops",
-      "description": "Foreign Minister declared Europe was like an 'old fat lazy cat' after Cold War and vowed NATO would strike 'into the heart of Russia' if Moscow invades Baltic countries. Estonia is urging allies to prepare for Russian veterans returning from Ukraine war."
+      "description": "Foreign Minister warns Europe was like 'old fat lazy cat' after Cold War. Vows NATO forces will strike 'into the heart of Russia' if Moscow invades Baltic countries."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Over $100",
     "wheat_futures": "Unchanged",
-    "notes": "Oil surged over $100 per barrel as markets fear prolonged Iran war with U.S. unable to control Strait of Hormuz."
+    "notes": "Oil surges over $100 as US admits inability to control Strait of Hormuz with analysts calling it largest oil disruption ever."
   },
   "update_log": [
     {
-      "time": "18:00 UTC",
-      "text": "Oil prices surge over $100 as U.S. admits inability to control Strait of Hormuz"
-    },
-    {
-      "time": "15:30 UTC",
-      "text": "Iranian hackers attack U.S. medical device company Stryker with global system shutdown"
-    },
-    {
-      "time": "14:00 UTC",
-      "text": "Iran's new Supreme Leader issues first statement vowing continued Strait of Hormuz blockade"
+      "time": "13:08 UTC",
+      "text": "Iranian missile strike sets building ablaze in central Israel",
+      "source_tier": "unverified"
     },
     {
       "time": "12:00 UTC",
-      "text": "Iranian forces attack two oil tankers in Persian Gulf with dramatic explosions"
+      "text": "Israeli airstrikes hit central Beirut near government headquarters",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "Iran's new Supreme Leader calls for Strait of Hormuz to remain shut",
+      "source_tier": "unverified"
     },
     {
       "time": "10:00 UTC",
-      "text": "Video evidence suggests U.S. strike on girls' elementary school in Minab, Iran"
+      "text": "Drone attack on market in Sudan kills 11 civilians",
+      "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-13T21:32:41Z"
+  "last_updated": "2026-03-13T22:09:36Z"
 }
