@@ -178,11 +178,20 @@ def save_data(new_data):
 
     new_data["last_updated"] = NOW
     new_data.setdefault("casualties", {})
-    new_data["casualties"]["cumulative"] = cumulative  # preserve running totals
+    new_data["casualties"]["cumulative"] = cumulative
 
+    # Save current data
     os.makedirs("data", exist_ok=True)
     with open(OUTPUT_PATH, "w") as f:
         json.dump(new_data, f, indent=2)
+
+    # Save dated archive copy — never overwritten
+    archive_dir = "data/archive"
+    os.makedirs(archive_dir, exist_ok=True)
+    archive_path = f"{archive_dir}/{TODAY}.json"
+    with open(archive_path, "w") as f:
+        json.dump(new_data, f, indent=2)
+    print(f"✓ Archive saved: {archive_path}")
     print(f"✓ war_data.json updated at {NOW}")
     print(f"  Strikes (EU): {len(new_data.get('strikes_today',{}).get('eastern_europe',[]))}")
     print(f"  Strikes (ME): {len(new_data.get('strikes_today',{}).get('middle_east',[]))}")
