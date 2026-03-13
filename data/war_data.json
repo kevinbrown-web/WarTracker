@@ -1,54 +1,44 @@
 {
   "ticker_items": [
-    "Iran halts Strait of Hormuz traffic after US-Israeli strikes",
-    "New Iranian Supreme Leader Mojtaba Khamenei injured in airstrikes",
-    "Israeli forces continue targeting Hezbollah strongholds in Beirut",
-    "Indian ship attacked near Strait of Hormuz amid escalating tensions",
-    "Pentagon burns billions as Iran war enters second week"
+    "First 6 days of Iran war cost $11.3 billion, Pentagon tells Congress",
+    "Iran's new Supreme Leader Mojtaba Khamenei injured in initial US-Israel airstrikes",
+    "Saudi Arabia intercepts drone headed to Shaybah oil field",
+    "Iran threatens to target US and Israeli economic institutions",
+    "Developed nations release record emergency oil reserves amid war"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Australia deployed troops to the Middle East, with senators warning the country is helping the US in the Iran conflict."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [],
     "middle_east": [
       {
         "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Saudi Arabia",
+        "target_location": "Shaybah oil field",
+        "description": "Saudi Arabia intercepted Iranian drone headed to Shaybah oil field",
+        "method": "Air/Drone",
+        "lat": 22.5,
+        "lng": 53.97
+      },
+      {
+        "time_utc": "Unknown",
         "attacker": "Israel",
         "target_country": "Lebanon",
         "target_location": "Beirut",
-        "description": "IDF executed precision airstrikes across Beirut targeting Hezbollah strongholds.",
+        "description": "Israeli strikes targeted 10 Hezbollah targets in Beirut",
         "method": "Air/Precision Strike",
         "lat": 33.89,
         "lng": 35.5
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Iran",
-        "target_country": "India",
-        "target_location": "Strait of Hormuz",
-        "description": "Iranian forces attacked Indian commercial ship bound for Kandla port.",
-        "method": "Naval/USV",
-        "lat": 26.57,
-        "lng": 56.25
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Iran",
-        "target_country": "Saudi Arabia",
-        "target_location": "Riyadh",
-        "description": "US Embassy in Riyadh hit by two Iranian drones causing limited fire and minor damage.",
-        "method": "Air/Drone",
-        "lat": 24.71,
-        "lng": 46.67
       }
     ]
   },
   "casualties": {
     "today": [
       {
-        "incident": "Iran War Second Week",
+        "incident": "Iran war overall",
         "kia": "~1,500",
         "wia": "",
         "civilian": true
@@ -61,62 +51,66 @@
     "ukraine": [],
     "middle_east": [
       {
-        "text": "History Is Repeating Itself",
-        "speaker": "Lebanese activist",
-        "title": "Activist",
+        "text": "under no circumstances can we participate in the World Cup",
+        "speaker": "Ahmad Donyamali",
+        "title": "Iran's minister of sport and youth",
         "date": "2026-03-13"
       }
     ]
   },
   "observers": [
     {
-      "country": "India",
-      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Strategic balancer",
+      "description": "Putin is profiting from rising oil prices amid the Iran war. Russia is no longer the lead disruptor of the postwar global order as Trump's conflict takes center stage."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Monitoring",
-      "description": "India condemned Iranian attacks on its commercial vessels for the first time. Defense stocks are rising on expectations of increased military spending due to regional tensions."
+      "description": "China is watching warily as war spreads across the Middle East. Beijing is simultaneously strengthening its influence over North Korea with new infrastructure projects along their shared border."
     },
     {
       "country": "Australia",
       "flag": "\ud83c\udde6\ud83c\uddfa",
       "status": "Active materiel + troops",
-      "description": "Australia has deployed troops to the Middle East to assist US operations. Senator Nick McKim warned that Prime Minister Albanese has hitched Australia to the conflict."
+      "description": "Australia is helping the US in the Iran conflict by sending troops to the Middle East. Senator Nick McKim warned that Prime Minister Albanese has 'hitched' Australia to the conflict."
     },
     {
       "country": "South Africa",
       "flag": "\ud83c\uddff\ud83c\udde6",
       "status": "Strategic balancer",
-      "description": "South Africa is navigating an awkward diplomatic dance between Washington and Tehran. Pretoria is attempting to maintain relations with both sides of the conflict."
-    },
-    {
-      "country": "China",
-      "flag": "\ud83c\udde8\ud83c\uddf3",
-      "status": "Supplying dual-use goods",
-      "description": "China is strengthening ties with North Korea amid the Middle East crisis. New infrastructure projects are underway along the China-North Korea border to boost trade and influence."
+      "description": "South Africa is navigating an awkward diplomatic dance between Washington and Tehran during the Iran war. Pretoria is attempting to balance its relationships with both sides of the conflict."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Rising",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices are rising due to Iran halting traffic through the Strait of Hormuz, while Trump announced releasing Strategic Petroleum Reserves to ease market pressure."
+    "notes": "Developed nations agreed to release record emergency oil reserves to counter rising prices from the Iran war."
   },
   "update_log": [
     {
-      "time": "Unknown UTC",
-      "text": "Iranian drones struck US Embassy in Riyadh causing minor damage"
+      "time": "Unknown",
+      "text": "Pentagon reveals first 6 days of Iran war cost $11.3 billion"
     },
     {
-      "time": "Unknown UTC",
-      "text": "Israel continued precision airstrikes on Hezbollah positions in Beirut"
+      "time": "Unknown",
+      "text": "Iran's new Supreme Leader Mojtaba Khamenei injured in initial US-Israel airstrikes"
     },
     {
-      "time": "Unknown UTC",
-      "text": "Iran attacked Indian commercial ship in Strait of Hormuz"
+      "time": "Unknown",
+      "text": "Saudi Arabia intercepts Iranian drone targeting Shaybah oil field"
     },
     {
-      "time": "Unknown UTC",
-      "text": "Reports emerged of Iranian Supreme Leader Mojtaba Khamenei being injured in initial airstrikes"
+      "time": "Unknown",
+      "text": "Israel strikes 10 Hezbollah targets in Beirut"
+    },
+    {
+      "time": "Unknown",
+      "text": "Developed nations release record emergency oil reserves amid rising prices"
     }
   ],
-  "last_updated": "2026-03-13T00:19:04Z"
+  "last_updated": "2026-03-13T00:47:23Z"
 }
