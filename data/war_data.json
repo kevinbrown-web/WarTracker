@@ -1,45 +1,104 @@
 {
   "ticker_items": [
-    "US-Israel war on Iran enters second week, costs $11.3 billion in six days",
-    "Iranian Supreme Leader Mojtaba Khamenei injured in initial airstrikes",
-    "Israel strikes 10 Hezbollah targets in Beirut amid regional escalation",
-    "Iran threatens to target US-Israeli economic institutions across Middle East",
-    "Qatar PM calls for resilience as Saudi intercepts drone at oil field"
+    "Iran war enters 12th day with mounting civilian casualties",
+    "140 US service members wounded in initial Iran strikes",
+    "Strait of Hormuz blocked disrupting global oil supplies",
+    "Girls school bombing in Iran kills over 170",
+    "Hezbollah launches 100+ rockets at Israeli targets"
   ],
   "new_entrant": {
     "active": false,
     "text": ""
   },
   "strikes_today": {
-    "eastern_europe": [],
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Bryansk",
+        "description": "Ukrainian air strike hits Russian military electronics plant with seven killed.",
+        "method": "Air/Precision Strike",
+        "lat": 53.25,
+        "lng": 34.37
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Railway infrastructure",
+        "description": "Russia targets Ukraine's railways with drone attacks to disrupt economy and supply lines.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52
+      }
+    ],
     "middle_east": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown",
+        "target_country": "Iran",
+        "target_location": "Shajareh Tayyebeh Elementary School",
+        "description": "Attack on Iranian girls' school kills more than 170 people.",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.39
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Israel",
+        "target_location": "Multiple targets",
+        "description": "Hezbollah launches over 100 rockets, drones, and missiles at 50+ Israeli targets in joint IRGC operation.",
+        "method": "Rocket/Surface",
+        "lat": 31.77,
+        "lng": 35.23
+      },
       {
         "time_utc": "Unknown",
         "attacker": "Israel",
         "target_country": "Lebanon",
-        "target_location": "Beirut",
-        "description": "Israeli forces conducted precision strikes against 10 Hezbollah targets in Beirut.",
-        "method": "Air/Precision Strike",
+        "target_location": "Civilian dwelling",
+        "description": "Israeli tank fire kills Catholic priest in civilian dwelling in Lebanon.",
+        "method": "Ground/Armored",
         "lat": 33.89,
         "lng": 35.5
       },
       {
         "time_utc": "Unknown",
         "attacker": "Iran",
-        "target_country": "Saudi Arabia",
-        "target_location": "Shaybah oil field",
-        "description": "Saudi Arabia intercepted Iranian drone headed toward Shaybah oil field.",
-        "method": "Air/Drone",
-        "lat": 22.52,
-        "lng": 53.97
+        "target_country": "Persian Gulf",
+        "target_location": "Commercial vessels",
+        "description": "Three commercial ships damaged in Persian Gulf maritime attacks.",
+        "method": "Naval/USV",
+        "lat": 26.0,
+        "lng": 52.0
       }
     ]
   },
   "casualties": {
     "today": [
       {
-        "incident": "Iran war week 2",
-        "kia": "~1,500",
+        "incident": "Bryansk plant strike",
+        "kia": "7",
+        "wia": "",
+        "civilian": false
+      },
+      {
+        "incident": "Iran girls school bombing",
+        "kia": "170+",
+        "wia": "",
+        "civilian": true
+      },
+      {
+        "incident": "US Iran strikes",
+        "kia": "",
+        "wia": "140",
+        "civilian": false
+      },
+      {
+        "incident": "Lebanon priest killing",
+        "kia": "1",
         "wia": "",
         "civilian": true
       }
@@ -51,60 +110,78 @@
     "ukraine": [],
     "middle_east": [
       {
-        "text": "under no circumstances can we participate in the World Cup",
-        "speaker": "Ahmad Donyamali",
-        "title": "Iran's Minister of Sport and Youth",
+        "text": "Iran's President Masoud Pezeshkian has urged international bodies to denounce the US-Israeli aggression against Iran's civilian infrastructure and ordinary people",
+        "speaker": "Masoud Pezeshkian",
+        "title": "President of Iran",
+        "date": "2026-03-13"
+      },
+      {
+        "text": "very complete, pretty much",
+        "speaker": "Donald Trump",
+        "title": "US President",
         "date": "2026-03-13"
       }
     ]
   },
   "observers": [
     {
-      "country": "Qatar",
-      "flag": "\ud83c\uddf6\ud83c\udde6",
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Mediator + arms supplier",
+      "description": "Foreign Minister Wadephul visits Cyprus, Israel and Saudi Arabia focusing on Middle East escalation. Germany remains committed to peace and security in the region while maintaining close contact with allies and partners."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Strategic balancer",
-      "description": "Qatar's Prime Minister called for strengthening the country's resilience amid regional war. The nation is positioning itself to withstand hardship while maintaining regional stability."
+      "description": "China steps up shuttle diplomacy amid Strait of Hormuz tensions. Beijing is rebuilding its grip on North Korea with new infrastructure projects and increased investment along their shared border."
+    },
+    {
+      "country": "South Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf7",
+      "status": "Active materiel + troops",
+      "description": "US transfers THAAD missile system components from South Korea to Middle East amid Iran conflict. South Korea pays the price as US burns anti-missile munitions at furious rate."
     },
     {
       "country": "Australia",
       "flag": "\ud83c\udde6\ud83c\uddfa",
       "status": "Active materiel + troops",
-      "description": "Senator Nick McKim criticized Prime Minister Albanese for hitching Australia to the conflict by sending troops to the Middle East. Australia is being accused of helping the US 'rain down horror' on Iran."
+      "description": "Prime Minister Albanese criticized for sending Australian troops to Middle East. Senator warns Australia is helping US 'rain down horror' on Iran by hitching to the conflict."
     },
     {
       "country": "South Africa",
       "flag": "\ud83c\uddff\ud83c\udde6",
       "status": "Strategic balancer",
-      "description": "Pretoria is conducting an awkward diplomatic dance between Washington and Tehran during the Iran war. South Africa is attempting to navigate competing pressures from both sides of the conflict."
+      "description": "Pretoria navigates awkward diplomatic dance between Washington and Tehran during Iran war. South Africa maintains complex balancing act between competing global powers."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Rising",
+    "brent_crude": "High levels",
     "wheat_futures": "Unchanged",
-    "notes": "Developed nations agreed to release record emergency oil reserves amid market pressure from US-Iran conflict, while Trump's Strategic Petroleum Reserve announcement stunned allies."
+    "notes": "Global oil prices linger at high levels due to Strait of Hormuz blockade disrupting world energy supplies."
   },
   "update_log": [
     {
-      "time": "Unknown UTC",
-      "text": "Iran threatens to target US and Israeli-affiliated banks and economic institutions across Middle East"
+      "time": "Unknown",
+      "text": "Iran war enters 12th day with mounting civilian casualties and deepening regional conflict risks"
     },
     {
-      "time": "Unknown UTC",
-      "text": "Israeli forces strike 10 Hezbollah targets in Beirut as regional conflict expands"
+      "time": "Unknown",
+      "text": "UN Security Council adopts Resolution 2817 condemning Iran's attacks against neighbors"
     },
     {
-      "time": "Unknown UTC",
-      "text": "Saudi Arabia intercepts Iranian drone headed toward Shaybah oil field"
+      "time": "Unknown",
+      "text": "Strait of Hormuz blocked by Iran disrupting global oil and gas shipments"
     },
     {
-      "time": "Unknown UTC",
-      "text": "Pentagon reports first 6 days of Iran war cost $11.3 billion"
+      "time": "Unknown",
+      "text": "Hezbollah declares military campaign against Israel in joint IRGC operation"
     },
     {
-      "time": "Unknown UTC",
-      "text": "Iran's new Supreme Leader Mojtaba Khamenei reportedly injured in initial US-Israeli airstrikes"
+      "time": "Unknown",
+      "text": "Iranian girls' school bombing becomes focal point of civilian casualty concerns"
     }
   ],
-  "last_updated": "2026-03-13T00:50:44Z"
+  "last_updated": "2026-03-13T07:59:10Z"
 }
