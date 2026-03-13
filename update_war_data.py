@@ -17,13 +17,12 @@ def fetch_headlines():
         "Ukraine Russia war military",
         "Israel Iran war strikes",
         "Gaza Lebanon Hezbollah",
-        "NATO military conflict 2026",
+        "NATO military conflict",
         "North Korea Russia troops",
         "Houthi Red Sea attack"
     ]
     articles = []
     for q in queries:
-        # No 'from' date filter — works on NewsAPI free tier
         params = urllib.parse.urlencode({
             "q": q,
             "sortBy": "publishedAt",
@@ -35,29 +34,52 @@ def fetch_headlines():
         try:
             with urllib.request.urlopen(url, timeout=10) as r:
                 data = json.loads(r.read())
+                status = data.get("status")
+                total  = data.get("totalResults", 0)
+                print(f"  Query '{q}': status={status}, results={total}")
                 for a in data.get("articles", []):
-                    title = a.get("title", "")
-                    desc  = a.get("description", "")
+                    title  = a.get("title", "") or ""
+                    desc   = a.get("description", "") or ""
                     source = a.get("source", {}).get("name", "Unknown")
-                    if title:
-                        articles.append(f"[{source}] {title}: {desc}")
+                    pub    = a.get("publishedAt", "")[:10]
+                    if title and "[Removed]" not in title:
+                        articles.append(f"[{source} {pub}] {title}: {desc}")
         except Exception as e:
-            print(f"News fetch error for '{q}': {e}")
-    # deduplicate and cap at 40 headlines
+            print(f"  News fetch error for '{q}': {e}")
+
     seen, unique = set(), []
     for a in articles:
         if a not in seen:
             seen.add(a)
             unique.append(a)
-    return unique[:40]
 
-# ── STEP 2: ASK CLAUDE TO STRUCTURE THE DATA ─────────────
-def ask_claude(headlines):
+    print(f"Total unique headlines: {len(unique)}")
+    return unique[:48]
+
+# ── STEP 2: LOAD PREVIOUS ESCALATION SCORE ───────────────
+def load_previous_escalation():
+    try:
+        with open(OUTPUT_PATH, "r") as f:
+            existing = json.load(f)
+        esc = existing.get("escalation", {})
+        return esc.get("score", None)
+    except Exception:
+        return None
+
+# ── STEP 3: ASK CLAUDE TO STRUCTURE THE DATA ─────────────
+def ask_claude(headlines, prev_score):
+    if not headlines:
+        print("No headlines — skipping Claude call.")
+        return None
+
     headlines_text = "\n".join(f"- {h}" for h in headlines)
+    prev_score_text = f"Yesterday's escalation score was {prev_score}/10." if prev_score else "No previous escalation score available."
+
     prompt = f"""You are a neutral, factual conflict-data analyst for a war tracking website.
 Today is {TODAY}.
+{prev_score_text}
 
-Below are today's news headlines about ongoing global military conflicts.
+Below are recent news headlines about ongoing global military conflicts.
 Extract structured data and return ONLY a valid JSON object — no explanation, no markdown, no code fences.
 
 Headlines:
@@ -68,14 +90,28 @@ For anything not mentioned in the headlines, use empty arrays [] or empty string
 Casualty numbers should be strings like "~500" or "est. 1,200" — never raw integers.
 Strike methods: use one of: Air/Drone, Missile/Surface, Ground/Armored, Naval/USV, Naval/Cruise Missile, Ballistic Missile, Anti-Ship Missile, Air/Precision Strike, Rocket/Surface
 For lat and lng, provide the decimal coordinates of the target_location. Example: Kyiv is 50.45, 30.52. Beirut is 33.89, 35.50.
+
+Escalation score rules:
+1-3 = Low: Diplomatic tensions only, no active strikes
+4-5 = Guarded: Sporadic strikes, proxy activity only
+6-7 = Elevated: Active multi-front conflict, direct state-on-state strikes
+8-9 = High: Superpower direct involvement, nuclear rhetoric, mass mobilization
+10 = Critical: Imminent or active WMD use / full superpower war
+
 {{
-  "ticker_items": ["3 to 5 short breaking news bullets from today, each under 15 words"],
+  "escalation": {{
+    "score": 6.5,
+    "delta": "+0.3 from yesterday",
+    "level": "Elevated",
+    "rationale": "One sentence explaining why the score is what it is today, citing specific events."
+  }},
+  "ticker_items": ["3 to 5 short breaking news bullets, each under 15 words"],
   "new_entrant": {{
     "active": true or false,
     "text": "One sentence if a new country entered or exited the conflict today, else empty string"
   }},
   "strikes_today": {{
-    ""eastern_europe": [
+    "eastern_europe": [
       {{
         "time_utc": "HH:MM or Unknown",
         "attacker": "Country or group",
@@ -136,7 +172,7 @@ For lat and lng, provide the decimal coordinates of the target_location. Example
     "notes": "One sentence on any significant financial development today"
   }},
   "update_log": [
-    {{"time": "HH:MM UTC", "text": "What happened — one sentence per major event, most recent first"}}
+    {{"time": "HH:MM UTC", "text": "One sentence per major event, most recent first"}}
   ]
 }}"""
 
@@ -157,18 +193,18 @@ For lat and lng, provide the decimal coordinates of the target_location. Example
     )
     with urllib.request.urlopen(req, timeout=60) as r:
         response = json.loads(r.read())
-    raw = response["content"][0]["text"].strip()
 
-    # Strip markdown fences if Claude adds them despite instructions
+    raw = response["content"][0]["text"].strip()
+    print(f"Claude response length: {len(raw)} chars")
+
     if raw.startswith("```"):
         raw = raw.split("\n", 1)[1]
         raw = raw.rsplit("```", 1)[0]
 
     return json.loads(raw)
 
-# ── STEP 3: MERGE WITH EXISTING DATA & SAVE ──────────────
+# ── STEP 4: MERGE WITH EXISTING DATA & SAVE ──────────────
 def save_data(new_data):
-    # Load existing file to preserve cumulative figures
     try:
         with open(OUTPUT_PATH, "r") as f:
             existing = json.load(f)
@@ -184,6 +220,7 @@ def save_data(new_data):
     os.makedirs("data", exist_ok=True)
     with open(OUTPUT_PATH, "w") as f:
         json.dump(new_data, f, indent=2)
+    print(f"✓ war_data.json updated at {NOW}")
 
     # Save dated archive copy — never overwritten
     archive_dir = "data/archive"
@@ -192,21 +229,34 @@ def save_data(new_data):
     with open(archive_path, "w") as f:
         json.dump(new_data, f, indent=2)
     print(f"✓ Archive saved: {archive_path}")
-    print(f"✓ war_data.json updated at {NOW}")
-    print(f"  Strikes (EU): {len(new_data.get('strikes_today',{}).get('eastern_europe',[]))}")
-    print(f"  Strikes (ME): {len(new_data.get('strikes_today',{}).get('middle_east',[]))}")
-    print(f"  Ticker items: {len(new_data.get('ticker_items',[]))}")
+
+    print(f"  Escalation:   {new_data.get('escalation', {}).get('score', '—')}/10")
+    print(f"  Ticker items: {len(new_data.get('ticker_items', []))}")
+    print(f"  Strikes (EU): {len(new_data.get('strikes_today', {}).get('eastern_europe', []))}")
+    print(f"  Strikes (ME): {len(new_data.get('strikes_today', {}).get('middle_east', []))}")
+    print(f"  Quotes:       {sum(len(v) for v in new_data.get('quotes', {}).values())}")
 
 # ── MAIN ─────────────────────────────────────────────────
 if __name__ == "__main__":
     print(f"── War Tracker Daily Update ── {TODAY} ──")
     print("Fetching headlines...")
     headlines = fetch_headlines()
-    print(f"Got {len(headlines)} headlines")
+
+    if not headlines:
+        print("ERROR: No headlines returned. Check NEWS_API_KEY.")
+        exit(1)
+
+    print("Loading previous escalation score...")
+    prev_score = load_previous_escalation()
+    print(f"  Previous score: {prev_score}")
 
     print("Asking Claude to structure data...")
-    structured = ask_claude(headlines)
+    structured = ask_claude(headlines, prev_score)
+
+    if structured is None:
+        print("No data to save.")
+        exit(1)
 
     print("Saving data...")
     save_data(structured)
-    print("Done.")
+    print("Done ✓")
