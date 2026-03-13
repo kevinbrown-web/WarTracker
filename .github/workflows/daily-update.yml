@@ -2,21 +2,19 @@ name: Daily War Data Update
 
 on:
   schedule:
-    # Runs every day at 06:00 UTC
-    - cron: '0 6 * * *'
-  # Also lets you trigger it manually from GitHub with a button click
+    - cron: '0 6,12,18 * * *'
   workflow_dispatch:
 
 jobs:
   update-data:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
-
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,10 +27,12 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python update_war_data.py
 
-      - name: Commit updated data file
+      - name: Commit updated data
         run: |
           git config user.name  "War Tracker Bot"
           git config user.email "bot@wartracker.auto"
+          git fetch origin main
+          git reset --soft origin/main
           git add data/
-          git diff --staged --quiet || git commit -m "Daily update: $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
+          git diff --staged --quiet || git commit -m "Data update: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push origin main
