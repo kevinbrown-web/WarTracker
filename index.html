@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The World at War: WWIII Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --ink: #1a1a1a; --ink-2: #3d3d3d; --ink-3: #6b6b6b;
+    --rule: #c8c8c8; --rule-light: #e8e8e8;
+    --paper: #faf8f4; --paper-2: #f2efe9;
+    --accent: #b02a2a; --new: #1a4a8a;
+    --mono: 'JetBrains Mono', monospace;
+    --serif: 'Source Serif 4', Georgia, serif;
+    --display: 'Playfair Display', Georgia, serif;
+    --col-max: 1280px;
+  }
+  html { font-size: 16px; scroll-behavior: smooth; }
+  body { background: var(--paper); color: var(--ink); font-family: var(--serif); line-height: 1.6; -webkit-font-smoothing: antialiased; }
+  .masthead { border-bottom: 3px double var(--ink); }
+  .masthead-top { display: flex; align-items: center; justify-content: space-between; padding: 10px 40px; border-bottom: 1px solid var(--rule); font-family: var(--mono); font-size: 0.72rem; color: var(--ink-3); letter-spacing: 0.04em; text-transform: uppercase; }
+  .live { display: flex; align-items: center; gap: 6px; color: var(--accent); font-weight: 500; }
+  .live-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); animation: pulse 1.6s ease-in-out infinite; }
+  @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)} }
+  .masthead-title { text-align: center; padding: 24px 40px 18px; }
+  .masthead-eyebrow { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+  .masthead-title h1 { font-family: var(--display); font-size: clamp(2.4rem,5vw,4.2rem); font-weight: 900; line-height: 1.05; letter-spacing: -0.02em; }
+  .masthead-title h1 em { font-style: italic; color: var(--accent); }
+  .masthead-sub { font-size: 0.95rem; color: var(--ink-3); margin-top: 8px; font-style: italic; font-weight: 300; }
+  .masthead-nav { display: flex; justify-content: center; border-top: 1px solid var(--rule); margin-top: 16px; overflow-x: auto; }
+  .masthead-nav a { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2); text-decoration: none; padding: 10px 18px; border-right: 1px solid var(--rule); white-space: nowrap; transition: background .15s,color .15s; }
+  .masthead-nav a:first-child { border-left: 1px solid var(--rule); }
+  .masthead-nav a:hover { background: var(--ink); color: #fff; }
+  .alert-banner { background: var(--accent); color: #fff; padding: 9px 40px; display: flex; align-items: center; gap: 14px; font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.06em; overflow: hidden; }
+  .alert-label { background: #fff; color: var(--accent); padding: 2px 8px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; flex-shrink: 0; }
+  .alert-ticker { overflow: hidden; flex: 1; }
+  .alert-ticker-inner { display: flex; gap: 60px; animation: ticker 32s linear infinite; white-space: nowrap; }
+  @keyframes ticker { 0%{transform:translateX(0)}100%{transform:translateX(-50%)} }
+  .new-entrant-banner { background: var(--new); color: #fff; padding: 14px 24px; display: flex; align-items: center; gap: 20px; margin-bottom: 20px; }
+  .new-entrant-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; background: #fff; color: var(--new); padding: 3px 8px; flex-shrink: 0; }
+  .new-entrant-text { font-family: var(--display); font-size: 1.1rem; font-style: italic; }
+  .container { max-width: var(--col-max); margin: 0 auto; padding: 0 40px; }
+  .section { padding: 36px 0; border-bottom: 1px solid var(--rule); }
+  .section-header { display: flex; align-items: baseline; gap: 16px; margin-bottom: 24px; padding-bottom: 10px; border-bottom: 2px solid var(--ink); }
+  .section-title { font-family: var(--display); font-size: 1.5rem; font-weight: 700; }
+  .section-count { font-family: var(--mono); font-size: 0.65rem; color: var(--ink-3); letter-spacing: 0.08em; text-transform: uppercase; margin-left: auto; }
+  .section-date { font-family: var(--mono); font-size: 0.68rem; color: var(--accent); letter-spacing: 0.05em; }
+  .grid-2 { display: grid; grid-template-columns: repeat(2,1fr); gap: 1px; background: var(--rule); }
+  .grid-3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--rule); }
+  .grid-cell { background: var(--paper); padding: 20px; }
+  .conflict-tag { display: inline-block; font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; background: #1a1a1a; color: #fff; padding: 2px 7px; margin-bottom: 8px; }
+  .conflict-tag.russia { background: #5a1a1a; }
+  .conflict-tag.nato { background: #1a3a6a; }
+  .conflict-tag.mideast { background: #4a3000; }
+  .strike-entry { display: grid; grid-template-columns: 90px 1fr auto; gap: 0 20px; align-items: start; padding: 14px 0; border-bottom: 1px solid var(--rule-light); }
+  .strike-entry:last-child { border-bottom: none; }
+  .strike-time { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-3); padding-top: 2px; }
+  .strike-desc { font-size: 0.92rem; line-height: 1.5; }
+  .strike-desc strong { font-weight: 600; }
+  .strike-method { font-family: var(--mono); font-size: 0.6rem; color: var(--accent); text-transform: uppercase; letter-spacing: 0.08em; white-space: nowrap; padding-top: 3px; }
+  .loss-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  .loss-table th { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); text-align: left; padding: 8px 12px; border-bottom: 2px solid var(--ink); background: var(--paper-2); }
+  .loss-table td { padding: 10px 12px; border-bottom: 1px solid var(--rule-light); vertical-align: top; }
+  .loss-table tr:hover td { background: var(--paper-2); }
+  .loss-num { font-family: var(--mono); font-size: 0.85rem; font-weight: 500; }
+  .fin-card { padding: 18px 20px; border: 1px solid var(--rule); background: var(--paper); }
+  .fin-title { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); margin-bottom: 6px; }
+  .fin-value { font-family: var(--display); font-size: 1.9rem; font-weight: 700; line-height: 1.1; }
+  .fin-change { font-family: var(--mono); font-size: 0.7rem; margin-top: 4px; }
+  .fin-change.neg { color: var(--accent); }
+  .quote-card { padding: 20px; border-left: 3px solid var(--ink); background: var(--paper-2); margin-bottom: 14px; }
+  .quote-text { font-family: var(--display); font-size: 1.05rem; font-style: italic; line-height: 1.55; margin-bottom: 12px; }
+  .quote-attr { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+  .quote-attr strong { color: var(--ink); display: block; font-size: 0.7rem; margin-bottom: 2px; }
+  .observer-row { display: flex; gap: 20px; padding: 14px 0; border-bottom: 1px solid var(--rule-light); align-items: start; }
+  .observer-flag { font-size: 1.6rem; flex-shrink: 0; }
+  .observer-name { font-family: var(--display); font-size: 1rem; font-weight: 700; margin-bottom: 2px; }
+  .observer-status { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 2px 7px; display: inline-block; margin-bottom: 6px; }
+  .status-supplying { background: #f0e0e0; color: var(--accent); border: 1px solid var(--accent); }
+  .status-monitoring { background: #f0f0e0; color: #6b6b00; border: 1px solid #c8c800; }
+  .status-neutral { background: #e0e0f0; color: var(--new); border: 1px solid var(--new); }
+  .observer-desc { font-size: 0.85rem; color: var(--ink-2); line-height: 1.5; }
+  .update-entry { display: flex; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--rule-light); font-size: 0.88rem; }
+  .update-time { font-family: var(--mono); font-size: 0.65rem; color: var(--accent); flex-shrink: 0; padding-top: 2px; width: 80px; }
+  .empty-state { font-family: var(--mono); font-size: 0.72rem; color: var(--ink-3); letter-spacing: 0.08em; padding: 20px 0; font-style: italic; }
+  .loading-overlay { position: fixed; inset: 0; background: var(--paper); display: flex; align-items: center; justify-content: center; z-index: 999; transition: opacity 0.4s; }
+  .loading-overlay.hidden { opacity: 0; pointer-events: none; }
+  .loading-title { font-family: var(--display); font-size: 1.8rem; font-weight: 900; margin-bottom: 8px; text-align:center; }
+  .loading-title em { font-style: italic; color: var(--accent); }
+  .loading-sub { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-3); text-align:center; }
+  .loading-bar { width: 200px; height: 2px; background: var(--rule); margin: 16px auto 0; overflow: hidden; }
+  .loading-bar-fill { height: 100%; background: var(--accent); animation: loadbar 1.2s ease-in-out infinite; }
+  @keyframes loadbar { 0%{transform:translateX(-100%)}100%{transform:translateX(200%)} }
+  footer { background: var(--ink); color: #a0a0a0; padding: 36px 40px; margin-top: 60px; }
+  .footer-inner { max-width: var(--col-max); margin: 0 auto; }
+  .footer-title { font-family: var(--display); font-size: 1.3rem; color: #fff; font-style: italic; margin-bottom: 10px; }
+  .footer-meta { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.05em; line-height: 2; color: #6b6b6b; border-top: 1px solid #333; margin-top: 20px; padding-top: 20px; }
+  @media(max-width:900px){
+    .container{padding:0 20px;} .masthead-top{padding:8px 20px;} .masthead-title{padding:16px 20px 12px;}
+    .grid-2,.grid-3{grid-template-columns:1fr;} .strike-entry{grid-template-columns:1fr;gap:4px;}
+    footer{padding:24px 20px;} .alert-banner{padding:8px 20px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="loading-overlay" id="loadingOverlay">
+  <div>
+    <div class="loading-title">The World at War<br><em>WWIII Tracker</em></div>
+    <div class="loading-sub">Loading latest data&hellip;</div>
+    <div class="loading-bar"><div class="loading-bar-fill"></div></div>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="masthead-top">
+    <span id="masthead-date">Loading&hellip;</span>
+    <span class="live"><span class="live-dot"></span> Updating daily at 06:00 UTC</span>
+    <span>All times UTC unless noted</span>
+  </div>
+  <div class="masthead-title">
+    <p class="masthead-eyebrow">Independent conflict documentation</p>
+    <h1>The World at War<br><em>WWIII Tracker</em></h1>
+    <p class="masthead-sub">Fact-based, source-cited reporting on global military conflict &mdash; updated daily</p>
+  </div>
+  <nav class="masthead-nav">
+    <a href="#strikes">Daily Strikes</a>
+    <a href="#casualties">Casualties</a>
+    <a href="#financial">Financial</a>
+    <a href="#quotes">Leadership</a>
+    <a href="#observers">Observers</a>
+    <a href="#updates">Updates</a>
+  </nav>
+</header>
+
+<div class="alert-banner">
+  <span class="alert-label">Breaking</span>
+  <div class="alert-ticker">
+    <div class="alert-ticker-inner" id="tickerInner">
+      <span id="tickerText">Loading latest updates&hellip;</span>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="padding-top:20px;">
+  <div class="new-entrant-banner" id="newEntrantBanner" style="display:none;">
+    <span class="new-entrant-label">&#9873; New Actor</span>
+    <span class="new-entrant-text" id="newEntrantText"></span>
+  </div>
+</div>
+
+<section class="section" id="strikes">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Today's Military Actions</h2>
+      <span class="section-date" id="strikesDate">—</span>
+      <span class="section-count" id="strikesCount">—</span>
+    </div>
+    <div class="grid-2">
+      <div class="grid-cell">
+        <div style="margin-bottom:16px;"><span class="conflict-tag russia">Eastern Europe Theater</span></div>
+        <div id="strikesEU"><div class="empty-state">No strikes reported for this theater today.</div></div>
+      </div>
+      <div class="grid-cell">
+        <div style="margin-bottom:16px;"><span class="conflict-tag mideast">Middle East Theater</span></div>
+        <div id="strikesME"><div class="empty-state">No strikes reported for this theater today.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="casualties">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Casualty Estimates</h2>
+      <span class="section-date">All theaters — today's reported incidents</span>
+    </div>
+    <div class="grid-2">
+      <div class="grid-cell">
+        <p style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:12px;">Today's Reported Incidents</p>
+        <table class="loss-table" id="casualtiesToday">
+          <tr><th>Incident</th><th>KIA</th><th>WIA</th><th>Civilian</th></tr>
+        </table>
+        <div id="casualtiesTodayEmpty" class="empty-state" style="display:none;">No casualty figures reported today.</div>
+      </div>
+      <div class="grid-cell">
+        <p style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:12px;">Cumulative Totals</p>
+        <div id="casualtiesCumulative"><div class="empty-state">Cumulative figures accumulate over time. Check back daily.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="financial">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Financial Indicators</h2>
+      <span class="section-date" id="finDate">—</span>
+    </div>
+    <div class="grid-3">
+      <div class="grid-cell"><div class="fin-card">
+        <div class="fin-title">USD / RUB Exchange</div>
+        <div class="fin-value" id="finRub">—</div>
+        <div class="fin-change neg" id="finRubNote"></div>
+      </div></div>
+      <div class="grid-cell"><div class="fin-card">
+        <div class="fin-title">Brent Crude</div>
+        <div class="fin-value" id="finOil">—</div>
+        <div class="fin-change neg" id="finOilNote"></div>
+      </div></div>
+      <div class="grid-cell"><div class="fin-card">
+        <div class="fin-title">Wheat Futures</div>
+        <div class="fin-value" id="finWheat">—</div>
+        <div class="fin-change neg" id="finNotes"></div>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="quotes">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Voices of Leadership</h2>
+      <span class="section-date">Recent significant statements</span>
+    </div>
+    <div class="grid-3">
+      <div class="grid-cell">
+        <span class="conflict-tag russia" style="margin-bottom:14px;display:inline-block;">Russia</span>
+        <div id="quotesRussia"><div class="empty-state">No quotes recorded today.</div></div>
+      </div>
+      <div class="grid-cell">
+        <span class="conflict-tag nato" style="margin-bottom:14px;display:inline-block;">Ukraine</span>
+        <div id="quotesUkraine"><div class="empty-state">No quotes recorded today.</div></div>
+      </div>
+      <div class="grid-cell">
+        <span class="conflict-tag mideast" style="margin-bottom:14px;display:inline-block;">Middle East</span>
+        <div id="quotesMiddleEast"><div class="empty-state">No quotes recorded today.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="observers">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Indirect Actors &amp; Observers</h2>
+      <span class="section-date">Nations with significant involvement short of direct combat</span>
+    </div>
+    <div class="grid-2">
+      <div class="grid-cell" id="observersLeft"><div class="empty-state">No observer data today.</div></div>
+      <div class="grid-cell" id="observersRight"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="updates">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Today's Update Log</h2>
+      <span class="section-date" id="updateLogDate">—</span>
+    </div>
+    <div style="max-width:720px;" id="updateLog">
+      <div class="empty-state">No updates logged yet.</div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-title">The World at War — WWIII Tracker</div>
+    <p style="font-size:0.85rem;line-height:1.7;max-width:680px;">Committed to factual, source-cited reporting on global military conflict. No editorial spin, no sides taken, no unverified claims amplified. All figures sourced and attributed.</p>
+    <div class="footer-meta">
+      <p>SOURCES: NewsAPI · Anthropic Claude · UN OHCHR · UNHCR · OCHA · Oryx · ISW · ACLED · Reuters · AP · BBC · Bellingcat</p>
+      <p style="margin-top:8px;">Last data update: <span id="footerLastUpdated">—</span> &nbsp;·&nbsp; Next scheduled update: 06:00 UTC daily</p>
+      <p style="margin-top:8px;">No government funding. No advertising. No political affiliation.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+function el(id){ return document.getElementById(id); }
+function esc(str){
+  if(!str) return '';
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function fmtDate(iso){
+  if(!iso) return '—';
+  try {
+    return new Date(iso).toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric',timeZone:'UTC'});
+  } catch(e){ return iso; }
+}
+
+function renderTicker(items){
+  if(!items||!items.length) return;
+  const txt = items.join(' · ');
+  el('tickerInner').innerHTML = '<span>'+esc(txt)+'</span><span>'+esc(txt)+'</span>';
+}
+
+function renderNewEntrant(ne){
+  if(ne&&ne.active&&ne.text){
+    el('newEntrantBanner').style.display='flex';
+    el('newEntrantText').textContent=ne.text;
+  }
+}
+
+function renderStrikes(strikes){
+  const eu=strikes.eastern_europe||[];
+  const me=strikes.middle_east||[];
+  el('strikesCount').textContent=(eu.length+me.length)+' incidents reported';
+  el('strikesDate').textContent=fmtDate(new Date().toISOString());
+  function build(list,id){
+    const c=el(id);
+    if(!list.length){c.innerHTML='<div class="empty-state">No strikes reported for this theater today.</div>';return;}
+    c.innerHTML=list.map(s=>`<div class="strike-entry">
+      <span class="strike-time">${esc(s.time_utc||'Unknown')}</span>
+      <div class="strike-desc"><strong>${esc(s.attacker)} &rarr; ${esc(s.target_country)}</strong>${s.target_location?' — '+esc(s.target_location):''}: ${esc(s.description)}</div>
+      <span class="strike-method">${esc(s.method||'')}</span>
+    </div>`).join('');
+  }
+  build(eu,'strikesEU');
+  build(me,'strikesME');
+}
+
+function renderCasualties(cas){
+  const today=cas.today||[];
+  const tbl=el('casualtiesToday');
+  if(!today.length){
+    tbl.style.display='none';
+    el('casualtiesTodayEmpty').style.display='block';
+  } else {
+    tbl.style.display='';
+    el('casualtiesTodayEmpty').style.display='none';
+    while(tbl.rows.length>1) tbl.deleteRow(1);
+    today.forEach(c=>{
+      const r=tbl.insertRow();
+      r.innerHTML=`<td>${esc(c.incident)}</td><td class="loss-num">${esc(c.kia||'—')}</td><td class="loss-num">${esc(c.wia||'—')}</td><td class="loss-num">${c.civilian?'Yes':'No'}</td>`;
+    });
+  }
+  const cum=cas.cumulative||{};
+  const cumEl=el('casualtiesCumulative');
+  const entries=Object.entries(cum).filter(([k,v])=>v);
+  if(!entries.length){
+    cumEl.innerHTML='<div class="empty-state">Cumulative figures accumulate over time. Check back daily.</div>';
+  } else {
+    cumEl.innerHTML=entries.map(([k,v])=>`<div style="display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--rule-light);font-size:0.88rem;"><span>${esc(k)}</span><span style="font-family:var(--mono);font-weight:500;">${esc(v)}</span></div>`).join('');
+  }
+}
+
+function renderFinancial(fin,lastUpdated){
+  el('finDate').textContent=fmtDate(lastUpdated);
+  el('finRub').textContent=fin.usd_rub||'—';
+  el('finOil').textContent=fin.brent_crude||'—';
+  el('finWheat').textContent=fin.wheat_futures||'—';
+  if(fin.notes) el('finNotes').textContent=fin.notes;
+}
+
+function renderQuotes(quotes){
+  function build(list,id){
+    const c=el(id);
+    if(!list||!list.length){c.innerHTML='<div class="empty-state">No quotes recorded today.</div>';return;}
+    c.innerHTML=list.map(q=>`<div class="quote-card">
+      <div class="quote-text">&ldquo;${esc(q.text)}&rdquo;</div>
+      <div class="quote-attr"><strong>${esc(q.speaker)}</strong>${esc(q.title)}${q.date?' &mdash; '+esc(q.date):''}</div>
+    </div>`).join('');
+  }
+  build(quotes.russia,'quotesRussia');
+  build(quotes.ukraine,'quotesUkraine');
+  build(quotes.middle_east,'quotesMiddleEast');
+}
+
+function renderObservers(observers){
+  if(!observers||!observers.length){
+    el('observersLeft').innerHTML='<div class="empty-state">No observer data today.</div>';
+    el('observersRight').innerHTML='';
+    return;
+  }
+  function cls(s){
+    if(!s) return 'status-neutral';
+    const l=s.toLowerCase();
+    if(l.includes('supply')||l.includes('materiel')||l.includes('basing')) return 'status-supplying';
+    if(l.includes('monitor')||l.includes('abstain')) return 'status-monitoring';
+    return 'status-neutral';
+  }
+  function row(o){return `<div class="observer-row">
+    <span class="observer-flag">${esc(o.flag||'')}</span>
+    <div>
+      <div class="observer-name">${esc(o.country)}</div>
+      <span class="observer-status ${cls(o.status)}">${esc(o.status||'')}</span>
+      <div class="observer-desc">${esc(o.description||'')}</div>
+    </div>
+  </div>`;}
+  const mid=Math.ceil(observers.length/2);
+  el('observersLeft').innerHTML=observers.slice(0,mid).map(row).join('');
+  el('observersRight').innerHTML=observers.slice(mid).map(row).join('');
+}
+
+function renderUpdateLog(log,lastUpdated){
+  el('updateLogDate').textContent=fmtDate(lastUpdated);
+  const c=el('updateLog');
+  if(!log||!log.length){c.innerHTML='<div class="empty-state">No updates logged yet.</div>';return;}
+  c.innerHTML=log.map(u=>`<div class="update-entry">
+    <span class="update-time">${esc(u.time||'—')}</span>
+    <span>${esc(u.text)}</span>
+  </div>`).join('');
+}
+
+async function loadData(){
+  try {
+    const res=await fetch('data/war_data.json?v='+Date.now());
+    if(!res.ok) throw new Error('fetch failed');
+    const data=await res.json();
+    el('masthead-date').textContent=fmtDate(data.last_updated)+' — Live tracker';
+    el('footerLastUpdated').textContent=data.last_updated||'—';
+    renderTicker(data.ticker_items);
+    renderNewEntrant(data.new_entrant);
+    renderStrikes(data.strikes_today||{eastern_europe:[],middle_east:[]});
+    renderCasualties(data.casualties||{});
+    renderFinancial(data.financial||{},data.last_updated);
+    renderQuotes(data.quotes||{});
+    renderObservers(data.observers||[]);
+    renderUpdateLog(data.update_log||[],data.last_updated);
+  } catch(err){
+    console.error('Data load error:',err);
+    el('masthead-date').textContent='Data unavailable — check back shortly';
+  } finally {
+    const o=el('loadingOverlay');
+    o.classList.add('hidden');
+    setTimeout(()=>o.remove(),500);
+  }
+}
+
+loadData();
+</script>
+</body>
+</html>
