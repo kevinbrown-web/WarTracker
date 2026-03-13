@@ -1,14 +1,14 @@
 {
   "ticker_items": [
-    "Iran effectively shuts down Strait of Hormuz, blocking 20% global oil flow",
-    "Israeli airstrikes continue targeting Beirut and Hezbollah strongholds",
-    "US-Israeli strikes kill over 1,300 civilians in first 12 days",
-    "Iranian drones hit US Embassy in Riyadh after massive air campaign",
-    "FBI warns California police of potential Iranian drone retaliation attacks"
+    "Iran halts Strait of Hormuz traffic after US-Israeli strikes",
+    "New Iranian Supreme Leader Mojtaba Khamenei injured in airstrikes",
+    "Israeli forces continue targeting Hezbollah strongholds in Beirut",
+    "Indian ship attacked near Strait of Hormuz amid escalating tensions",
+    "Pentagon burns billions as Iran war enters second week"
   ],
   "new_entrant": {
     "active": true,
-    "text": "Ecuador faces U.S. military action as Trump authorizes operations in the latest country to experience American military might."
+    "text": "Australia deployed troops to the Middle East, with senators warning the country is helping the US in the Iran conflict."
   },
   "strikes_today": {
     "eastern_europe": [],
@@ -18,44 +18,38 @@
         "attacker": "Israel",
         "target_country": "Lebanon",
         "target_location": "Beirut",
-        "description": "IDF executes precision strikes across Lebanon targeting Hezbollah strongholds in southern Beirut.",
-        "method": "Air/Precision Strike"
+        "description": "IDF executed precision airstrikes across Beirut targeting Hezbollah strongholds.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "India",
+        "target_location": "Strait of Hormuz",
+        "description": "Iranian forces attacked Indian commercial ship bound for Kandla port.",
+        "method": "Naval/USV",
+        "lat": 26.57,
+        "lng": 56.25
       },
       {
         "time_utc": "Unknown",
         "attacker": "Iran",
         "target_country": "Saudi Arabia",
         "target_location": "Riyadh",
-        "description": "Iranian drones strike US Embassy in Riyadh causing limited fire and minor material damage.",
-        "method": "Air/Drone"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "United States and Israel",
-        "target_country": "Iran",
-        "target_location": "Southern Iran",
-        "description": "US-Israeli airstrikes hit Iranian targets including a school where over 170 people were killed.",
-        "method": "Air/Precision Strike"
+        "description": "US Embassy in Riyadh hit by two Iranian drones causing limited fire and minor damage.",
+        "method": "Air/Drone",
+        "lat": 24.71,
+        "lng": 46.67
       }
     ]
   },
   "casualties": {
     "today": [
       {
-        "incident": "Israeli strikes on Lebanon",
-        "kia": "est. 570",
-        "wia": "",
-        "civilian": true
-      },
-      {
-        "incident": "US-Israeli strikes first 12 days",
-        "kia": "est. 1,300",
-        "wia": "",
-        "civilian": true
-      },
-      {
-        "incident": "Iranian school strike",
-        "kia": "est. 170",
+        "incident": "Iran War Second Week",
+        "kia": "~1,500",
         "wia": "",
         "civilian": true
       }
@@ -64,76 +58,65 @@
   },
   "quotes": {
     "russia": [],
-    "ukraine": [
-      {
-        "text": "Put more pressure on Putin, 'not on me'",
-        "speaker": "Volodymyr Zelenskyy",
-        "title": "President of Ukraine",
-        "date": "2026-03-12"
-      }
-    ],
+    "ukraine": [],
     "middle_east": [
       {
-        "text": "I think, overall, what's accomplished is remarkable",
-        "speaker": "John Fetterman",
-        "title": "Democratic Senator",
-        "date": "2026-03-12"
-      },
-      {
-        "text": "We'll attack economic institutions",
-        "speaker": "Iranian forces",
-        "title": "Military announcement",
-        "date": "2026-03-12"
+        "text": "History Is Repeating Itself",
+        "speaker": "Lebanese activist",
+        "title": "Activist",
+        "date": "2026-03-13"
       }
     ]
   },
   "observers": [
     {
+      "country": "India",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "status": "Monitoring",
+      "description": "India condemned Iranian attacks on its commercial vessels for the first time. Defense stocks are rising on expectations of increased military spending due to regional tensions."
+    },
+    {
       "country": "Australia",
       "flag": "\ud83c\udde6\ud83c\uddfa",
       "status": "Active materiel + troops",
-      "description": "Prime Minister Albanese has deployed Australian troops to the Middle East, with Senator Nick McKim warning that Australia is helping the US 'rain down horror' on Iran. Australia has been criticized for hitching itself to the US-Israeli conflict through military support."
+      "description": "Australia has deployed troops to the Middle East to assist US operations. Senator Nick McKim warned that Prime Minister Albanese has hitched Australia to the conflict."
     },
     {
       "country": "South Africa",
       "flag": "\ud83c\uddff\ud83c\udde6",
       "status": "Strategic balancer",
-      "description": "Pretoria is performing an awkward diplomatic dance between Washington and Tehran as the Iran war intensifies. South Africa is attempting to navigate between competing pressures from both sides while maintaining strategic relationships."
+      "description": "South Africa is navigating an awkward diplomatic dance between Washington and Tehran. Pretoria is attempting to maintain relations with both sides of the conflict."
     },
     {
       "country": "China",
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Supplying dual-use goods",
-      "description": "China is strengthening its influence over North Korea through new infrastructure projects and increased investment. Beijing is also rebuilding its grip on Pyongyang as tensions rise globally, while controlling critical warfare technologies including drone components."
+      "description": "China is strengthening ties with North Korea amid the Middle East crisis. New infrastructure projects are underway along the China-North Korea border to boost trade and influence."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Rising",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices rising as Iran effectively halts traffic through Strait of Hormuz, blocking 20% of global crude oil and natural gas flows."
+    "notes": "Oil prices are rising due to Iran halting traffic through the Strait of Hormuz, while Trump announced releasing Strategic Petroleum Reserves to ease market pressure."
   },
   "update_log": [
     {
-      "time": "Unknown",
-      "text": "Iran effectively shuts down vital Strait of Hormuz chokepoint, blocking 20% of global oil and gas flows"
+      "time": "Unknown UTC",
+      "text": "Iranian drones struck US Embassy in Riyadh causing minor damage"
     },
     {
-      "time": "Unknown",
-      "text": "Israeli forces continue precision airstrikes targeting Hezbollah strongholds across Beirut and southern Lebanon"
+      "time": "Unknown UTC",
+      "text": "Israel continued precision airstrikes on Hezbollah positions in Beirut"
     },
     {
-      "time": "Unknown",
-      "text": "Iranian drones strike US Embassy in Riyadh in retaliation for US-Israeli air campaign"
+      "time": "Unknown UTC",
+      "text": "Iran attacked Indian commercial ship in Strait of Hormuz"
     },
     {
-      "time": "Unknown",
-      "text": "FBI warns California police departments of possible Iranian drone attacks in retaliation for joint strikes"
-    },
-    {
-      "time": "Unknown",
-      "text": "US-Israeli strikes kill over 1,300 civilians in first 12 days of Iran war, hitting over 10,000 civilian sites"
+      "time": "Unknown UTC",
+      "text": "Reports emerged of Iranian Supreme Leader Mojtaba Khamenei being injured in initial airstrikes"
     }
   ],
-  "last_updated": "2026-03-12T23:53:56Z"
+  "last_updated": "2026-03-13T00:19:04Z"
 }
