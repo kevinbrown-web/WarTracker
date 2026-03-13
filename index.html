@@ -51,35 +51,28 @@
   .alert-banner { background: var(--accent); color: #fff; padding: 9px 40px; display: flex; align-items: center; gap: 14px; font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.06em; overflow: hidden; }
   .alert-label { background: #fff; color: var(--accent); padding: 2px 8px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; flex-shrink: 0; }
   .alert-ticker { overflow: hidden; flex: 1; }
-  .alert-ticker-inner { display: flex; gap: 60px; animation: ticker 32s linear infinite; white-space: nowrap; }
+  .alert-ticker-inner { display: flex; gap: 60px; animation: ticker 18s linear infinite; white-space: nowrap; }
   @keyframes ticker { 0%{transform:translateX(0)}100%{transform:translateX(-50%)} }
 
-  /* MARKETS TICKER */
-  .markets-bar { background: var(--ink); padding: 0; overflow: hidden; }
-
-  /* ESCALATION METER */
+  /* ESCALATION */
   .escalation-panel { background: var(--ink); color: #fff; padding: 28px 40px; border-bottom: 1px solid #333; }
   .escalation-inner { max-width: var(--col-max); margin: 0 auto; display: grid; grid-template-columns: auto 1fr auto; gap: 0 40px; align-items: center; }
   .escalation-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase; color: #666; margin-bottom: 6px; }
   .escalation-score { font-family: var(--display); font-size: 4rem; font-weight: 900; line-height: 1; }
-  .escalation-score.low { color: #4caf50; }
-  .escalation-score.guarded { color: #ffeb3b; }
-  .escalation-score.elevated { color: #ff9800; }
-  .escalation-score.high { color: #f44336; }
-  .escalation-score.critical { color: #b71c1c; }
   .escalation-level { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.15em; text-transform: uppercase; margin-top: 4px; }
-  .escalation-level.low { color: #4caf50; }
-  .escalation-level.guarded { color: #ffeb3b; }
-  .escalation-level.elevated { color: #ff9800; }
-  .escalation-level.high { color: #f44336; }
-  .escalation-level.critical { color: #b71c1c; }
-  .escalation-bar-wrap { flex: 1; }
+  .low { color: #4caf50; } .guarded { color: #ffeb3b; } .elevated { color: #ff9800; } .high { color: #f44336; } .critical { color: #b71c1c; }
   .escalation-bar-bg { height: 6px; background: #333; position: relative; margin: 12px 0 8px; }
   .escalation-bar-fill { position: absolute; left: 0; top: 0; bottom: 0; transition: width 1s ease; }
   .escalation-rationale { font-size: 0.92rem; color: #ccc; font-style: italic; line-height: 1.5; }
-  .escalation-delta { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.08em; color: #666; }
-  .escalation-out-of { font-family: var(--mono); font-size: 0.6rem; color: #444; letter-spacing: 0.1em; text-align: right; }
-  .escalation-max { font-family: var(--display); font-size: 1.2rem; color: #333; }
+  .escalation-delta { font-family: var(--mono); font-size: 0.65rem; color: #666; margin-top: 8px; }
+
+  /* SOURCE TIER BADGES */
+  .tier { display: inline-block; font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 1px 5px; margin-right: 5px; vertical-align: middle; border-radius: 2px; }
+  .tier-verified { background: #e8f5e9; color: #2e7d32; border: 1px solid #a5d6a7; }
+  .tier-analyst { background: #fff8e1; color: #f57f17; border: 1px solid #ffe082; }
+  .tier-unverified { background: #ffebee; color: #c62828; border: 1px solid #ef9a9a; }
+  .tier-legend { display: flex; gap: 16px; padding: 10px 0; flex-wrap: wrap; }
+  .tier-legend-note { font-family: var(--mono); font-size: 0.6rem; color: var(--ink-3); font-style: italic; margin-top: 4px; }
 
   /* NEW ENTRANT */
   .new-entrant-banner { background: var(--new); color: #fff; padding: 14px 24px; display: flex; align-items: center; gap: 20px; margin-bottom: 20px; }
@@ -116,15 +109,9 @@
   .map-legend { display: flex; gap: 20px; padding: 10px 0; font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
   .legend-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 5px; vertical-align: middle; }
   .leaflet-popup-content-wrapper { border-radius: 0 !important; font-family: var(--serif) !important; }
-  .popup-method { font-family: var(--mono); font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-bottom: 4px; }
+  .popup-method { font-family: var(--mono); font-size: 0.6rem; text-transform: uppercase; color: var(--accent); margin-bottom: 4px; }
   .popup-title { font-weight: 600; margin-bottom: 4px; font-size: 0.88rem; }
   .popup-desc { color: var(--ink-2); font-size: 0.82rem; }
-
-  /* LIVE TRACKERS */
-  .tracker-buttons { display: flex; gap: 16px; margin-top: 20px; flex-wrap: wrap; }
-  .tracker-btn { display: inline-flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 12px 20px; text-decoration: none; border: 1px solid var(--rule); color: var(--ink-2); background: var(--paper-2); transition: background .15s, color .15s; }
-  .tracker-btn:hover { background: var(--ink); color: #fff; border-color: var(--ink); }
-  .marine-embed { margin-top: 20px; border: 1px solid var(--rule); overflow: hidden; }
 
   /* TABLES */
   .loss-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
@@ -156,8 +143,13 @@
   .status-neutral { background: #e0e0f0; color: var(--new); border: 1px solid var(--new); }
   .observer-desc { font-size: 0.85rem; color: var(--ink-2); line-height: 1.5; }
 
+  /* LIVE TRACKERS */
+  .tracker-buttons { display: flex; gap: 16px; margin-top: 20px; flex-wrap: wrap; }
+  .tracker-btn { display: inline-flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 12px 20px; text-decoration: none; border: 1px solid var(--rule); color: var(--ink-2); background: var(--paper-2); transition: background .15s,color .15s; }
+  .tracker-btn:hover { background: var(--ink); color: #fff; border-color: var(--ink); }
+
   /* UPDATE LOG */
-  .update-entry { display: flex; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--rule-light); font-size: 0.88rem; }
+  .update-entry { display: flex; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--rule-light); font-size: 0.88rem; align-items: baseline; }
   .update-time { font-family: var(--mono); font-size: 0.65rem; color: var(--accent); flex-shrink: 0; padding-top: 2px; width: 80px; }
 
   /* EMPTY */
@@ -184,7 +176,6 @@
     .grid-2,.grid-3{grid-template-columns:1fr;} .strike-entry{grid-template-columns:1fr;gap:4px;}
     footer{padding:24px 20px;} .alert-banner{padding:8px 20px;}
     .escalation-inner{grid-template-columns:1fr;gap:16px;} .escalation-panel{padding:20px;}
-    .tracker-buttons{flex-direction:column;}
   }
 </style>
 </head>
@@ -198,17 +189,16 @@
   </div>
 </div>
 
-<!-- MASTHEAD -->
 <header class="masthead">
   <div class="masthead-top">
     <span id="masthead-date">Loading&hellip;</span>
-    <span class="live"><span class="live-dot"></span> Updating daily at 06:00 UTC</span>
+    <span class="live"><span class="live-dot"></span> Updated 3&times; daily</span>
     <span>All times UTC unless noted</span>
   </div>
   <div class="masthead-title">
     <p class="masthead-eyebrow">Independent conflict documentation</p>
     <h1>The World at War<br><em>WWIII Tracker</em></h1>
-    <p class="masthead-sub">Fact-based, source-cited reporting on global military conflict &mdash; updated daily</p>
+    <p class="masthead-sub">Fact-based, source-cited reporting on global military conflict &mdash; updated 3&times; daily</p>
   </div>
   <nav class="masthead-nav">
     <a href="#escalation">Escalation</a>
@@ -221,12 +211,6 @@
     <a href="#updates">Updates</a>
   </nav>
 </header>
-
-<!-- MARKETS TICKER -->
-<div class="markets-bar">
-  <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>
-  <tv-ticker-tape symbols='FOREXCOM:SPXUSD,FOREXCOM:NSXUSD,FOREXCOM:DJI,BITSTAMP:BTCUSD,CMCMARKETS:GOLD,TVC:USOIL,FOREXCOM:WHEAT,FX_IDC:USDRUB,FOREXCOM:USDILS,NYSE:RTX,NYSE:LMT' color-theme="dark"></tv-ticker-tape>
-</div>
 
 <!-- BREAKING NEWS TICKER -->
 <div class="alert-banner">
@@ -246,16 +230,16 @@
       <div class="escalation-score" id="escScore">—</div>
       <div class="escalation-level" id="escLevel">—</div>
     </div>
-    <div class="escalation-bar-wrap">
+    <div>
       <div class="escalation-bar-bg">
         <div class="escalation-bar-fill" id="escBarFill" style="width:0%;"></div>
       </div>
       <div class="escalation-rationale" id="escRationale">Loading escalation assessment&hellip;</div>
-      <div class="escalation-delta" id="escDelta" style="margin-top:8px;"></div>
+      <div class="escalation-delta" id="escDelta"></div>
     </div>
     <div style="text-align:right;">
       <div class="escalation-label">Scale</div>
-      <div class="escalation-max">/ 10</div>
+      <div style="font-family:var(--display);font-size:1.2rem;color:#333;">/ 10</div>
       <div style="margin-top:12px;font-family:var(--mono);font-size:0.55rem;color:#333;line-height:1.8;">
         1&ndash;3 LOW<br>4&ndash;5 GUARDED<br>6&ndash;7 ELEVATED<br>8&ndash;9 HIGH<br>10 CRITICAL
       </div>
@@ -279,7 +263,14 @@
       <span class="section-date" id="strikesDate">—</span>
       <span class="section-count" id="strikesCount">—</span>
     </div>
-    <div class="grid-2" style="margin-bottom:24px;">
+    <!-- SOURCE TIER LEGEND -->
+    <div class="tier-legend">
+      <span><span class="tier tier-verified">Verified</span> Reuters, AP, BBC, UN, Al Jazeera</span>
+      <span><span class="tier tier-analyst">Analyst</span> ISW, Bellingcat, War on the Rocks</span>
+      <span><span class="tier tier-unverified">Unverified</span> Frontline / OSINT — not independently confirmed</span>
+    </div>
+    <p class="tier-legend-note">Reports marked unverified originate from sources close to active conflict zones and have not been independently confirmed.</p>
+    <div class="grid-2" style="margin-top:20px;margin-bottom:24px;">
       <div class="grid-cell">
         <div style="margin-bottom:16px;"><span class="conflict-tag russia">Eastern Europe Theater</span></div>
         <div id="strikesEU"><div class="empty-state">No strikes reported for this theater today.</div></div>
@@ -304,13 +295,18 @@
   <div class="container">
     <div class="section-header">
       <h2 class="section-title">Casualty Estimates</h2>
-      <span class="section-date">All theaters — today's reported incidents</span>
+      <span class="section-date">All theaters</span>
     </div>
-    <div class="grid-2">
+    <div class="grid-3">
       <div class="grid-cell">
         <p style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:12px;">Today's Reported Incidents</p>
-        <table class="loss-table" id="casualtiesToday"><tr><th>Incident</th><th>KIA</th><th>WIA</th><th>Civilian</th></tr></table>
-        <div id="casualtiesTodayEmpty" class="empty-state" style="display:none;">No casualty figures reported today.</div>
+        <table class="loss-table" id="casualtiesToday"><tr><th>Incident</th><th>KIA</th><th>WIA</th><th>Civ.</th><th>Source</th></tr></table>
+        <div id="casualtiesTodayEmpty" class="empty-state" style="display:none;">No figures reported today.</div>
+      </div>
+      <div class="grid-cell">
+        <p style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:12px;">Claimed War Totals <span style="font-weight:400;text-transform:none;letter-spacing:0;">(by source)</span></p>
+        <div id="claimedTotals"><div class="empty-state">Claimed figures accumulate as reported.</div></div>
+        <p style="font-family:var(--mono);font-size:0.58rem;color:var(--ink-3);margin-top:10px;font-style:italic;">Figures represent claims by named parties, not verified totals. Wide variance expected.</p>
       </div>
       <div class="grid-cell">
         <p style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:12px;">Cumulative Totals</p>
@@ -343,6 +339,12 @@
         <div class="fin-value" id="finWheat">—</div>
         <div class="fin-change neg" id="finNotes"></div>
       </div></div>
+    </div>
+    <!-- MARKETS TICKER -->
+    <div style="margin-top:24px;">
+      <p style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:10px;">Global Markets &mdash; Live</p>
+      <script type="module" src="https://widgets.tradingview-widget.com/w/en/tv-ticker-tape.js"></script>
+      <tv-ticker-tape symbols='FOREXCOM:SPXUSD,FOREXCOM:NSXUSD,FOREXCOM:DJI,BITSTAMP:BTCUSD,CMCMARKETS:GOLD,TVC:USOIL,FOREXCOM:WHEAT,FX_IDC:USDRUB,FOREXCOM:USDILS,NYSE:RTX,NYSE:LMT' color-theme="light"></tv-ticker-tape>
     </div>
   </div>
 </section>
@@ -392,22 +394,14 @@
       <h2 class="section-title">Live Trackers</h2>
       <span class="section-date">Real-time ship &amp; flight data</span>
     </div>
-
-    <p style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:12px;">Naval Traffic — Persian Gulf, Red Sea &amp; Eastern Mediterranean</p>
-    <div class="marine-embed">
+    <p style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:12px;">Naval Traffic &mdash; Persian Gulf, Red Sea &amp; Eastern Mediterranean</p>
+    <div style="border:1px solid var(--rule);overflow:hidden;">
       <iframe src="https://www.marinetraffic.com/en/ais/embed/maptype:0/mmsi:0/shipid:0/latitude:22/longitude:45/zoom:5/shownames:false/remember:false/showmenu:false/language:en" style="width:100%;height:400px;border:none;" loading="lazy" title="Live Ship Traffic"></iframe>
     </div>
-
-    <div class="tracker-buttons" style="margin-top:24px;">
-      <a href="https://www.flightradar24.com/26.37,52.46/6" target="_blank" rel="noopener" class="tracker-btn">
-        ✈ Live Flight Tracker — Middle East &amp; Eastern Europe &rarr;
-      </a>
-      <a href="https://www.marinetraffic.com" target="_blank" rel="noopener" class="tracker-btn">
-        🚢 Full Marine Traffic Map &rarr;
-      </a>
-      <a href="https://globe.adsbexchange.com" target="_blank" rel="noopener" class="tracker-btn">
-        📡 ADS-B Exchange (unfiltered military) &rarr;
-      </a>
+    <div class="tracker-buttons">
+      <a href="https://www.flightradar24.com/26.37,52.46/6" target="_blank" rel="noopener" class="tracker-btn">&#9992; Live Flight Tracker &mdash; Middle East &rarr;</a>
+      <a href="https://www.marinetraffic.com" target="_blank" rel="noopener" class="tracker-btn">&#128674; Full Marine Traffic Map &rarr;</a>
+      <a href="https://globe.adsbexchange.com" target="_blank" rel="noopener" class="tracker-btn">&#128225; ADS-B Exchange (unfiltered military) &rarr;</a>
     </div>
   </div>
 </section>
@@ -429,10 +423,10 @@
 <footer>
   <div class="footer-inner">
     <div class="footer-title">The World at War — WWIII Tracker</div>
-    <p style="font-size:0.85rem;line-height:1.7;max-width:680px;">Committed to factual, source-cited reporting on global military conflict. No editorial spin, no sides taken, no unverified claims amplified.</p>
+    <p style="font-size:0.85rem;line-height:1.7;max-width:680px;">Committed to factual, source-cited reporting on global military conflict. No editorial spin, no sides taken, no unverified claims amplified. All figures sourced and attributed.</p>
     <div class="footer-meta">
-      <p>SOURCES: NewsAPI · Anthropic Claude · UN OHCHR · UNHCR · Oryx · ISW · ACLED · Reuters · AP · BBC · Bellingcat · MarineTraffic · Flightradar24</p>
-      <p style="margin-top:8px;">Last data update: <span id="footerLastUpdated">—</span> &nbsp;·&nbsp; Next scheduled: 06:00 UTC daily</p>
+      <p>SOURCES: NewsAPI · Anthropic Claude · Bellingcat · ISW · War on the Rocks · RFE/RL · Al Jazeera · UN OHCHR · UNHCR · Reuters · AP · BBC · Oryx · ACLED · MarineTraffic · Flightradar24</p>
+      <p style="margin-top:8px;">Last data update: <span id="footerLastUpdated">—</span> &nbsp;·&nbsp; Updated 3&times; daily at 06:00, 12:00, 18:00 UTC</p>
       <p style="margin-top:8px;">No government funding. No advertising. No political affiliation.</p>
       <div style="margin-top:24px;padding-top:20px;border-top:1px solid #333;text-align:center;">
         <p style="font-size:0.72rem;color:#555;margin-bottom:12px;letter-spacing:0.08em;text-transform:uppercase;">This site is free, independent, and ad-free. If you find it useful:</p>
@@ -448,7 +442,15 @@ function el(id){ return document.getElementById(id); }
 function esc(str){ if(!str)return''; return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function fmtDate(iso){ if(!iso)return'—'; try{ return new Date(iso).toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}); }catch(e){return iso;} }
 
-// ── ESCALATION ────────────────────────────────────────────
+function tierBadge(tier) {
+  if (!tier) return '';
+  const t = tier.toLowerCase();
+  if (t === 'verified') return '<span class="tier tier-verified">Verified</span>';
+  if (t === 'analyst')  return '<span class="tier tier-analyst">Analyst</span>';
+  return '<span class="tier tier-unverified">Unverified</span>';
+}
+
+// ESCALATION
 function escalationColor(score) {
   if (score <= 3) return '#4caf50';
   if (score <= 5) return '#ffeb3b';
@@ -466,26 +468,22 @@ function escalationClass(level) {
   if (l.includes('crit')) return 'critical';
   return 'elevated';
 }
-
-function renderEscalation(esc_data) {
-  if (!esc_data) return;
-  const score = parseFloat(esc_data.score) || 0;
-  const cls = escalationClass(esc_data.level);
-  const color = escalationColor(score);
-
+function renderEscalation(data) {
+  if (!data) return;
+  const score = parseFloat(data.score) || 0;
+  const cls = escalationClass(data.level);
   el('escScore').textContent = score.toFixed(1);
   el('escScore').className = 'escalation-score ' + cls;
-  el('escLevel').textContent = esc_data.level || '—';
+  el('escLevel').textContent = data.level || '—';
   el('escLevel').className = 'escalation-level ' + cls;
-  el('escRationale').textContent = esc_data.rationale || '';
-  el('escDelta').textContent = esc_data.delta || '';
-
+  el('escRationale').textContent = data.rationale || '';
+  el('escDelta').textContent = data.delta || '';
   const fill = el('escBarFill');
   fill.style.width = (score / 10 * 100) + '%';
-  fill.style.background = `linear-gradient(90deg, #4caf50, #ffeb3b, #ff9800, ${color})`;
+  fill.style.background = `linear-gradient(90deg, #4caf50, #ffeb3b, #ff9800, ${escalationColor(score)})`;
 }
 
-// ── MAP ───────────────────────────────────────────────────
+// MAP
 const map = L.map('strikeMap', { center:[35,35], zoom:4 });
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
   attribution:'&copy; CARTO', subdomains:'abcd', maxZoom:16
@@ -497,7 +495,6 @@ function strikeColor(theater, method) {
   if (m.includes('naval')||m.includes('anti-ship')) return '#1a4a8a';
   return theater==='eu'?'#b02a2a':'#d44a1a';
 }
-
 function addStrikeMarkers(strikes, theater) {
   strikes.forEach(s => {
     const lat=parseFloat(s.lat), lng=parseFloat(s.lng);
@@ -517,7 +514,6 @@ function addStrikeMarkers(strikes, theater) {
   });
 }
 
-// ── RENDER FUNCTIONS ──────────────────────────────────────
 function renderTicker(items){
   if(!items||!items.length)return;
   const txt=items.join(' · ');
@@ -542,7 +538,7 @@ function renderStrikes(strikes,lastUpdated){
     if(!list.length){c.innerHTML='<div class="empty-state">No strikes reported for this theater today.</div>';return;}
     c.innerHTML=list.map(s=>`<div class="strike-entry">
       <span class="strike-time">${esc(s.time_utc||'Unknown')}</span>
-      <div class="strike-desc"><strong>${esc(s.attacker)} &rarr; ${esc(s.target_country)}</strong>${s.target_location?' &mdash; '+esc(s.target_location):''}${s.description?': '+esc(s.description):''}</div>
+      <div class="strike-desc">${tierBadge(s.source_tier)}<strong>${esc(s.attacker)} &rarr; ${esc(s.target_country)}</strong>${s.target_location?' &mdash; '+esc(s.target_location):''}${s.description?': '+esc(s.description):''}</div>
       <span class="strike-method">${esc(s.method||'')}</span>
     </div>`).join('');
   }
@@ -551,9 +547,7 @@ function renderStrikes(strikes,lastUpdated){
   addStrikeMarkers(eu,'eu');
   addStrikeMarkers(me,'me');
   const all=[...eu,...me].filter(s=>s.lat&&s.lng&&!(s.lat===0&&s.lng===0));
-  if(all.length>0){
-    map.fitBounds(all.map(s=>[parseFloat(s.lat),parseFloat(s.lng)]),{padding:[40,40],maxZoom:7});
-  }
+  if(all.length>0) map.fitBounds(all.map(s=>[parseFloat(s.lat),parseFloat(s.lng)]),{padding:[40,40],maxZoom:7});
 }
 
 function renderCasualties(cas){
@@ -568,9 +562,26 @@ function renderCasualties(cas){
     while(tbl.rows.length>1)tbl.deleteRow(1);
     today.forEach(c=>{
       const r=tbl.insertRow();
-      r.innerHTML=`<td>${esc(c.incident)}</td><td class="loss-num">${esc(c.kia||'—')}</td><td class="loss-num">${esc(c.wia||'—')}</td><td class="loss-num">${c.civilian?'Yes':'No'}</td>`;
+      r.innerHTML=`<td>${esc(c.incident)}</td><td class="loss-num">${esc(c.kia||'—')}</td><td class="loss-num">${esc(c.wia||'—')}</td><td class="loss-num">${c.civilian?'Yes':'No'}</td><td>${tierBadge(c.source_tier)}</td>`;
     });
   }
+
+  // Claimed totals
+  const claimed = cas.claimed_totals || [];
+  const claimedEl = el('claimedTotals');
+  if (!claimed.length) {
+    claimedEl.innerHTML = '<div class="empty-state">Claimed figures accumulate as reported.</div>';
+  } else {
+    claimedEl.innerHTML = claimed.map(c => `
+      <div style="padding:8px 0;border-bottom:1px solid var(--rule-light);">
+        <div style="font-size:0.85rem;font-weight:600;">${esc(c.claim)}</div>
+        <div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:2px;">
+          <span style="font-family:var(--mono);font-size:0.9rem;">${esc(c.figure)}</span>
+          <span style="font-family:var(--mono);font-size:0.58rem;color:var(--ink-3);">${esc(c.claimed_by)} &mdash; ${esc(c.as_of||'')}</span>
+        </div>
+      </div>`).join('');
+  }
+
   const cum=cas.cumulative||{};
   const entries=Object.entries(cum).filter(([k,v])=>v);
   const cumEl=el('casualtiesCumulative');
@@ -633,11 +644,10 @@ function renderUpdateLog(log,lastUpdated){
   if(!log||!log.length){c.innerHTML='<div class="empty-state">No updates logged yet.</div>';return;}
   c.innerHTML=log.map(u=>`<div class="update-entry">
     <span class="update-time">${esc(u.time||'—')}</span>
-    <span>${esc(u.text)}</span>
+    <span>${tierBadge(u.source_tier)}${esc(u.text)}</span>
   </div>`).join('');
 }
 
-// ── MAIN ─────────────────────────────────────────────────
 async function loadData(){
   try {
     const res=await fetch('data/war_data.json?v='+Date.now());
