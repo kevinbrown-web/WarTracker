@@ -1,10 +1,10 @@
 {
   "ticker_items": [
-    "First 6 days of Iran war cost $11.3 billion, Pentagon tells Congress",
-    "Iran's new Supreme Leader Mojtaba Khamenei injured in initial US-Israel airstrikes",
-    "Saudi Arabia intercepts drone headed to Shaybah oil field",
-    "Iran threatens to target US and Israeli economic institutions",
-    "Developed nations release record emergency oil reserves amid war"
+    "US-Israel war on Iran enters second week, costs $11.3 billion in six days",
+    "Iranian Supreme Leader Mojtaba Khamenei injured in initial airstrikes",
+    "Israel strikes 10 Hezbollah targets in Beirut amid regional escalation",
+    "Iran threatens to target US-Israeli economic institutions across Middle East",
+    "Qatar PM calls for resilience as Saudi intercepts drone at oil field"
   ],
   "new_entrant": {
     "active": false,
@@ -15,30 +15,30 @@
     "middle_east": [
       {
         "time_utc": "Unknown",
-        "attacker": "Iran",
-        "target_country": "Saudi Arabia",
-        "target_location": "Shaybah oil field",
-        "description": "Saudi Arabia intercepted Iranian drone headed to Shaybah oil field",
-        "method": "Air/Drone",
-        "lat": 22.5,
-        "lng": 53.97
-      },
-      {
-        "time_utc": "Unknown",
         "attacker": "Israel",
         "target_country": "Lebanon",
         "target_location": "Beirut",
-        "description": "Israeli strikes targeted 10 Hezbollah targets in Beirut",
+        "description": "Israeli forces conducted precision strikes against 10 Hezbollah targets in Beirut.",
         "method": "Air/Precision Strike",
         "lat": 33.89,
         "lng": 35.5
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Saudi Arabia",
+        "target_location": "Shaybah oil field",
+        "description": "Saudi Arabia intercepted Iranian drone headed toward Shaybah oil field.",
+        "method": "Air/Drone",
+        "lat": 22.52,
+        "lng": 53.97
       }
     ]
   },
   "casualties": {
     "today": [
       {
-        "incident": "Iran war overall",
+        "incident": "Iran war week 2",
         "kia": "~1,500",
         "wia": "",
         "civilian": true
@@ -53,64 +53,58 @@
       {
         "text": "under no circumstances can we participate in the World Cup",
         "speaker": "Ahmad Donyamali",
-        "title": "Iran's minister of sport and youth",
+        "title": "Iran's Minister of Sport and Youth",
         "date": "2026-03-13"
       }
     ]
   },
   "observers": [
     {
-      "country": "Russia",
-      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "country": "Qatar",
+      "flag": "\ud83c\uddf6\ud83c\udde6",
       "status": "Strategic balancer",
-      "description": "Putin is profiting from rising oil prices amid the Iran war. Russia is no longer the lead disruptor of the postwar global order as Trump's conflict takes center stage."
-    },
-    {
-      "country": "China",
-      "flag": "\ud83c\udde8\ud83c\uddf3",
-      "status": "Monitoring",
-      "description": "China is watching warily as war spreads across the Middle East. Beijing is simultaneously strengthening its influence over North Korea with new infrastructure projects along their shared border."
+      "description": "Qatar's Prime Minister called for strengthening the country's resilience amid regional war. The nation is positioning itself to withstand hardship while maintaining regional stability."
     },
     {
       "country": "Australia",
       "flag": "\ud83c\udde6\ud83c\uddfa",
       "status": "Active materiel + troops",
-      "description": "Australia is helping the US in the Iran conflict by sending troops to the Middle East. Senator Nick McKim warned that Prime Minister Albanese has 'hitched' Australia to the conflict."
+      "description": "Senator Nick McKim criticized Prime Minister Albanese for hitching Australia to the conflict by sending troops to the Middle East. Australia is being accused of helping the US 'rain down horror' on Iran."
     },
     {
       "country": "South Africa",
       "flag": "\ud83c\uddff\ud83c\udde6",
       "status": "Strategic balancer",
-      "description": "South Africa is navigating an awkward diplomatic dance between Washington and Tehran during the Iran war. Pretoria is attempting to balance its relationships with both sides of the conflict."
+      "description": "Pretoria is conducting an awkward diplomatic dance between Washington and Tehran during the Iran war. South Africa is attempting to navigate competing pressures from both sides of the conflict."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Rising",
     "wheat_futures": "Unchanged",
-    "notes": "Developed nations agreed to release record emergency oil reserves to counter rising prices from the Iran war."
+    "notes": "Developed nations agreed to release record emergency oil reserves amid market pressure from US-Iran conflict, while Trump's Strategic Petroleum Reserve announcement stunned allies."
   },
   "update_log": [
     {
-      "time": "Unknown",
-      "text": "Pentagon reveals first 6 days of Iran war cost $11.3 billion"
+      "time": "Unknown UTC",
+      "text": "Iran threatens to target US and Israeli-affiliated banks and economic institutions across Middle East"
     },
     {
-      "time": "Unknown",
-      "text": "Iran's new Supreme Leader Mojtaba Khamenei injured in initial US-Israel airstrikes"
+      "time": "Unknown UTC",
+      "text": "Israeli forces strike 10 Hezbollah targets in Beirut as regional conflict expands"
     },
     {
-      "time": "Unknown",
-      "text": "Saudi Arabia intercepts Iranian drone targeting Shaybah oil field"
+      "time": "Unknown UTC",
+      "text": "Saudi Arabia intercepts Iranian drone headed toward Shaybah oil field"
     },
     {
-      "time": "Unknown",
-      "text": "Israel strikes 10 Hezbollah targets in Beirut"
+      "time": "Unknown UTC",
+      "text": "Pentagon reports first 6 days of Iran war cost $11.3 billion"
     },
     {
-      "time": "Unknown",
-      "text": "Developed nations release record emergency oil reserves amid rising prices"
+      "time": "Unknown UTC",
+      "text": "Iran's new Supreme Leader Mojtaba Khamenei reportedly injured in initial US-Israeli airstrikes"
     }
   ],
-  "last_updated": "2026-03-13T00:47:23Z"
+  "last_updated": "2026-03-13T00:50:44Z"
 }
