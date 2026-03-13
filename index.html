@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
@@ -95,6 +96,17 @@
   .loading-bar { width: 200px; height: 2px; background: var(--rule); margin: 16px auto 0; overflow: hidden; }
   .loading-bar-fill { height: 100%; background: var(--accent); animation: loadbar 1.2s ease-in-out infinite; }
   @keyframes loadbar { 0%{transform:translateX(-100%)}100%{transform:translateX(200%)} }
+
+  /* MAP */
+  #strikeMap { height: 420px; width: 100%; border: 1px solid var(--rule); margin-top: 24px; }
+  .map-legend { display: flex; gap: 20px; padding: 10px 0; font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+  .legend-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 5px; vertical-align: middle; }
+  .leaflet-popup-content-wrapper { border-radius: 0 !important; border: 1px solid var(--rule) !important; box-shadow: 2px 2px 8px rgba(0,0,0,0.15) !important; font-family: var(--serif) !important; }
+  .leaflet-popup-content { font-size: 0.85rem; line-height: 1.5; }
+  .popup-method { font-family: var(--mono); font-size: 0.6rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-bottom: 4px; }
+  .popup-title { font-weight: 600; margin-bottom: 4px; }
+  .popup-desc { color: var(--ink-2); font-size: 0.82rem; }
+
   footer { background: var(--ink); color: #a0a0a0; padding: 36px 40px; margin-top: 60px; }
   .footer-inner { max-width: var(--col-max); margin: 0 auto; }
   .footer-title { font-family: var(--display); font-size: 1.3rem; color: #fff; font-style: italic; margin-bottom: 10px; }
@@ -141,7 +153,7 @@
   <span class="alert-label">Breaking</span>
   <div class="alert-ticker">
     <div class="alert-ticker-inner" id="tickerInner">
-      <span id="tickerText">Loading latest updates&hellip;</span>
+      <span>Loading latest updates&hellip;</span>
     </div>
   </div>
 </div>
@@ -153,6 +165,7 @@
   </div>
 </div>
 
+<!-- STRIKES + MAP -->
 <section class="section" id="strikes">
   <div class="container">
     <div class="section-header">
@@ -160,7 +173,9 @@
       <span class="section-date" id="strikesDate">—</span>
       <span class="section-count" id="strikesCount">—</span>
     </div>
-    <div class="grid-2">
+
+    <!-- STRIKE LISTS -->
+    <div class="grid-2" style="margin-bottom:24px;">
       <div class="grid-cell">
         <div style="margin-bottom:16px;"><span class="conflict-tag russia">Eastern Europe Theater</span></div>
         <div id="strikesEU"><div class="empty-state">No strikes reported for this theater today.</div></div>
@@ -170,9 +185,21 @@
         <div id="strikesME"><div class="empty-state">No strikes reported for this theater today.</div></div>
       </div>
     </div>
+
+    <!-- MAP -->
+    <div style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:8px;">
+      Strike Map &mdash; <span id="mapDate">—</span>
+    </div>
+    <div id="strikeMap"></div>
+    <div class="map-legend">
+      <span><span class="legend-dot" style="background:#b02a2a;"></span>Eastern Europe</span>
+      <span><span class="legend-dot" style="background:#d44a1a;"></span>Middle East</span>
+      <span><span class="legend-dot" style="background:#1a4a8a;"></span>Naval / Red Sea</span>
+    </div>
   </div>
 </section>
 
+<!-- CASUALTIES -->
 <section class="section" id="casualties">
   <div class="container">
     <div class="section-header">
@@ -189,12 +216,13 @@
       </div>
       <div class="grid-cell">
         <p style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:12px;">Cumulative Totals</p>
-        <div id="casualtiesCumulative"><div class="empty-state">Cumulative figures accumulate over time. Check back daily.</div></div>
+        <div id="casualtiesCumulative"><div class="empty-state">Cumulative figures accumulate over time.</div></div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- FINANCIAL -->
 <section class="section" id="financial">
   <div class="container">
     <div class="section-header">
@@ -221,6 +249,7 @@
   </div>
 </section>
 
+<!-- QUOTES -->
 <section class="section" id="quotes">
   <div class="container">
     <div class="section-header">
@@ -244,6 +273,7 @@
   </div>
 </section>
 
+<!-- OBSERVERS -->
 <section class="section" id="observers">
   <div class="container">
     <div class="section-header">
@@ -257,6 +287,7 @@
   </div>
 </section>
 
+<!-- UPDATE LOG -->
 <section class="section" id="updates">
   <div class="container">
     <div class="section-header">
@@ -272,32 +303,80 @@
 <footer>
   <div class="footer-inner">
     <div class="footer-title">The World at War — WWIII Tracker</div>
-    <p style="font-size:0.85rem;line-height:1.7;max-width:680px;">Committed to factual, source-cited reporting on global military conflict. No editorial spin, no sides taken, no unverified claims amplified. All figures sourced and attributed.</p>
+    <p style="font-size:0.85rem;line-height:1.7;max-width:680px;">Committed to factual, source-cited reporting on global military conflict. No editorial spin, no sides taken, no unverified claims amplified.</p>
     <div class="footer-meta">
-      <p>SOURCES: NewsAPI · Anthropic Claude · UN OHCHR · UNHCR · OCHA · Oryx · ISW · ACLED · Reuters · AP · BBC · Bellingcat</p>
-      <p style="margin-top:8px;">Last data update: <span id="footerLastUpdated">—</span> &nbsp;·&nbsp; Next scheduled update: 06:00 UTC daily</p>
+      <p>SOURCES: NewsAPI · Anthropic Claude · UN OHCHR · UNHCR · Oryx · ISW · ACLED · Reuters · AP · BBC · Bellingcat</p>
+      <p style="margin-top:8px;">Last data update: <span id="footerLastUpdated">—</span> &nbsp;·&nbsp; Next scheduled: 06:00 UTC daily</p>
       <p style="margin-top:8px;">No government funding. No advertising. No political affiliation.</p>
     </div>
   </div>
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <script>
 function el(id){ return document.getElementById(id); }
-function esc(str){
-  if(!str) return '';
-  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
-}
-function fmtDate(iso){
-  if(!iso) return '—';
-  try {
-    return new Date(iso).toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric',timeZone:'UTC'});
-  } catch(e){ return iso; }
+function esc(str){ if(!str)return''; return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function fmtDate(iso){ if(!iso)return'—'; try{ return new Date(iso).toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}); }catch(e){return iso;} }
+
+// ── MAP SETUP ─────────────────────────────────────────────
+const map = L.map('strikeMap', {
+  center: [35, 35],
+  zoom: 4,
+  zoomControl: true,
+  attributionControl: true
+});
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+  subdomains: 'abcd',
+  maxZoom: 16
+}).addTo(map);
+
+function strikeColor(theater, method) {
+  if (!method) return theater === 'eu' ? '#b02a2a' : '#d44a1a';
+  const m = method.toLowerCase();
+  if (m.includes('naval') || m.includes('anti-ship')) return '#1a4a8a';
+  return theater === 'eu' ? '#b02a2a' : '#d44a1a';
 }
 
+function addStrikeMarkers(strikes, theater) {
+  strikes.forEach(s => {
+    const lat = parseFloat(s.lat);
+    const lng = parseFloat(s.lng);
+    if (!lat || !lng || (lat === 0 && lng === 0)) return;
+
+    const color = strikeColor(theater, s.method);
+
+    const icon = L.divIcon({
+      className: '',
+      html: `<div style="
+        width:12px;height:12px;border-radius:50%;
+        background:${color};border:2px solid #fff;
+        box-shadow:0 0 0 2px ${color}, 0 0 12px ${color}88;
+        animation:none;
+      "></div>`,
+      iconSize: [12, 12],
+      iconAnchor: [6, 6]
+    });
+
+    const popup = `
+      <div class="popup-method">${esc(s.method||'Strike')}</div>
+      <div class="popup-title">${esc(s.attacker)} &rarr; ${esc(s.target_country)}</div>
+      <div style="font-family:var(--mono);font-size:0.6rem;color:#999;margin-bottom:4px;">${esc(s.target_location||'')} &nbsp;|&nbsp; ${esc(s.time_utc||'Time unknown')}</div>
+      <div class="popup-desc">${esc(s.description||'')}</div>
+    `;
+
+    L.marker([lat, lng], { icon })
+      .addTo(map)
+      .bindPopup(popup, { maxWidth: 280 });
+  });
+}
+
+// ── RENDER FUNCTIONS ──────────────────────────────────────
 function renderTicker(items){
   if(!items||!items.length) return;
-  const txt = items.join(' · ');
-  el('tickerInner').innerHTML = '<span>'+esc(txt)+'</span><span>'+esc(txt)+'</span>';
+  const txt=items.join(' · ');
+  el('tickerInner').innerHTML='<span>'+esc(txt)+'</span><span>'+esc(txt)+'</span>';
 }
 
 function renderNewEntrant(ne){
@@ -307,22 +386,36 @@ function renderNewEntrant(ne){
   }
 }
 
-function renderStrikes(strikes){
+function renderStrikes(strikes, lastUpdated){
   const eu=strikes.eastern_europe||[];
   const me=strikes.middle_east||[];
-  el('strikesCount').textContent=(eu.length+me.length)+' incidents reported';
-  el('strikesDate').textContent=fmtDate(new Date().toISOString());
+  const total=eu.length+me.length;
+  el('strikesCount').textContent=total+' incidents reported';
+  el('strikesDate').textContent=fmtDate(lastUpdated);
+  el('mapDate').textContent=fmtDate(lastUpdated);
+
   function build(list,id){
     const c=el(id);
     if(!list.length){c.innerHTML='<div class="empty-state">No strikes reported for this theater today.</div>';return;}
     c.innerHTML=list.map(s=>`<div class="strike-entry">
       <span class="strike-time">${esc(s.time_utc||'Unknown')}</span>
-      <div class="strike-desc"><strong>${esc(s.attacker)} &rarr; ${esc(s.target_country)}</strong>${s.target_location?' — '+esc(s.target_location):''}: ${esc(s.description)}</div>
+      <div class="strike-desc"><strong>${esc(s.attacker)} &rarr; ${esc(s.target_country)}</strong>${s.target_location?' &mdash; '+esc(s.target_location):''}${s.description?': '+esc(s.description):''}</div>
       <span class="strike-method">${esc(s.method||'')}</span>
     </div>`).join('');
   }
   build(eu,'strikesEU');
   build(me,'strikesME');
+
+  // Add map markers
+  addStrikeMarkers(eu, 'eu');
+  addStrikeMarkers(me, 'me');
+
+  // Auto-fit map if there are markers
+  const allStrikes = [...eu, ...me].filter(s => s.lat && s.lng && !(s.lat===0 && s.lng===0));
+  if (allStrikes.length > 0) {
+    const bounds = allStrikes.map(s => [parseFloat(s.lat), parseFloat(s.lng)]);
+    map.fitBounds(bounds, { padding: [40, 40], maxZoom: 7 });
+  }
 }
 
 function renderCasualties(cas){
@@ -341,8 +434,8 @@ function renderCasualties(cas){
     });
   }
   const cum=cas.cumulative||{};
-  const cumEl=el('casualtiesCumulative');
   const entries=Object.entries(cum).filter(([k,v])=>v);
+  const cumEl=el('casualtiesCumulative');
   if(!entries.length){
     cumEl.innerHTML='<div class="empty-state">Cumulative figures accumulate over time. Check back daily.</div>';
   } else {
@@ -379,13 +472,13 @@ function renderObservers(observers){
     return;
   }
   function cls(s){
-    if(!s) return 'status-neutral';
+    if(!s)return'status-neutral';
     const l=s.toLowerCase();
-    if(l.includes('supply')||l.includes('materiel')||l.includes('basing')) return 'status-supplying';
-    if(l.includes('monitor')||l.includes('abstain')) return 'status-monitoring';
-    return 'status-neutral';
+    if(l.includes('supply')||l.includes('materiel')||l.includes('basing'))return'status-supplying';
+    if(l.includes('monitor')||l.includes('abstain'))return'status-monitoring';
+    return'status-neutral';
   }
-  function row(o){return `<div class="observer-row">
+  function row(o){return`<div class="observer-row">
     <span class="observer-flag">${esc(o.flag||'')}</span>
     <div>
       <div class="observer-name">${esc(o.country)}</div>
@@ -408,6 +501,7 @@ function renderUpdateLog(log,lastUpdated){
   </div>`).join('');
 }
 
+// ── MAIN ─────────────────────────────────────────────────
 async function loadData(){
   try {
     const res=await fetch('data/war_data.json?v='+Date.now());
@@ -417,7 +511,7 @@ async function loadData(){
     el('footerLastUpdated').textContent=data.last_updated||'—';
     renderTicker(data.ticker_items);
     renderNewEntrant(data.new_entrant);
-    renderStrikes(data.strikes_today||{eastern_europe:[],middle_east:[]});
+    renderStrikes(data.strikes_today||{eastern_europe:[],middle_east:[]}, data.last_updated);
     renderCasualties(data.casualties||{});
     renderFinancial(data.financial||{},data.last_updated);
     renderQuotes(data.quotes||{});
