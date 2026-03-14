@@ -4,6 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The World at War: WWIII Tracker</title>
+<meta name="description" content="Real-time global conflict tracker — daily strikes, casualties, escalation index, financial indicators, and live maps. Updated 3x daily.">
+<meta name="keywords" content="WWIII, world war 3, conflict tracker, Ukraine Russia war, Israel Iran war, military strikes, escalation index">
+<meta property="og:title" content="The World at War — WWIII Tracker">
+<meta property="og:description" content="Real-time global conflict tracker updated 3x daily. Escalation index, strike maps, casualties, leadership quotes.">
+<meta property="og:url" content="https://www.ww3tracker.co">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The World at War — WWIII Tracker">
+<meta name="twitter:description" content="Real-time global conflict tracker — escalation index, strikes, casualties. Updated 3x daily.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -171,6 +181,22 @@
   .footer-title { font-family: var(--display); font-size: 1.3rem; color: #fff; font-style: italic; margin-bottom: 10px; }
   .footer-meta { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.05em; line-height: 2; color: #6b6b6b; border-top: 1px solid #333; margin-top: 20px; padding-top: 20px; }
 
+
+  /* WEATHER STRIP */
+  .weather-strip { background: var(--paper-2); border-bottom: 1px solid var(--rule); padding: 8px 40px; display: flex; gap: 0; overflow-x: auto; }
+  .weather-city { display: flex; align-items: center; gap: 10px; padding: 4px 20px; border-right: 1px solid var(--rule); flex-shrink: 0; }
+  .weather-city:first-child { padding-left: 0; }
+  .weather-flag { font-size: 1rem; }
+  .weather-info { font-family: var(--mono); font-size: 0.62rem; }
+  .weather-name { color: var(--ink-3); letter-spacing: 0.06em; text-transform: uppercase; }
+  .weather-temp { color: var(--ink); font-weight: 500; }
+  .weather-cond { color: var(--ink-3); }
+
+  /* SUBSCRIBE FORM */
+  .subscribe-section { background: var(--ink); color: #fff; padding: 36px 40px; text-align: center; }
+  .subscribe-title { font-family: var(--display); font-size: 1.6rem; font-style: italic; margin-bottom: 8px; }
+  .subscribe-sub { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: #666; margin-bottom: 20px; }
+
   @media(max-width:900px){
     .container{padding:0 20px;} .masthead-top{padding:8px 20px;} .masthead-title{padding:16px 20px 12px;}
     .grid-2,.grid-3{grid-template-columns:1fr;} .strike-entry{grid-template-columns:1fr;gap:4px;}
@@ -210,8 +236,19 @@
     <a href="#trackers">Live Trackers</a>
     <a href="#updates">Updates</a>
     <a href="archive.html">Archive</a>
+    <a href="about.html">About</a>
+    <a href="https://buymeacoffee.com/wartracker" target="_blank" style="color:var(--accent);">☕ Support</a>
   </nav>
 </header>
+
+<!-- WEATHER STRIP -->
+<div class="weather-strip" id="weatherStrip">
+  <div class="weather-city"><span class="weather-flag">🇺🇦</span><div class="weather-info"><div class="weather-name">Kyiv</div><div id="w-kyiv" class="weather-temp">—</div></div></div>
+  <div class="weather-city"><span class="weather-flag">🇷🇺</span><div class="weather-info"><div class="weather-name">Moscow</div><div id="w-moscow" class="weather-temp">—</div></div></div>
+  <div class="weather-city"><span class="weather-flag">🇮🇱</span><div class="weather-info"><div class="weather-name">Tel Aviv</div><div id="w-telaviv" class="weather-temp">—</div></div></div>
+  <div class="weather-city"><span class="weather-flag">🇮🇷</span><div class="weather-info"><div class="weather-name">Tehran</div><div id="w-tehran" class="weather-temp">—</div></div></div>
+  <div class="weather-city"><span class="weather-flag">🌊</span><div class="weather-info"><div class="weather-name">Red Sea</div><div id="w-redsea" class="weather-temp">—</div></div></div>
+</div>
 
 <!-- BREAKING NEWS TICKER -->
 <div class="alert-banner">
@@ -237,6 +274,7 @@
       </div>
       <div class="escalation-rationale" id="escRationale">Loading escalation assessment&hellip;</div>
       <div class="escalation-delta" id="escDelta"></div>
+      <button onclick="shareEscalation()" style="margin-top:12px;background:transparent;border:1px solid #444;color:#888;font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;padding:6px 14px;cursor:pointer;transition:all .15s;" onmouseover="this.style.background='#fff';this.style.color='#000'" onmouseout="this.style.background='transparent';this.style.color='#888'">&#8679; Share Escalation Score</button>
     </div>
     <div style="text-align:right;">
       <div class="escalation-label">Scale</div>
@@ -248,12 +286,23 @@
   </div>
 </div>
 
+<!-- DONATE NUDGE -->
+<div style="background:var(--paper-2);border-bottom:1px solid var(--rule);padding:8px 40px;text-align:center;">
+  <span style="font-family:var(--mono);font-size:0.62rem;color:var(--ink-3);letter-spacing:0.06em;">This tracker is free &amp; independent &mdash; </span><a href="https://buymeacoffee.com/wartracker" target="_blank" style="font-family:var(--mono);font-size:0.62rem;color:var(--accent);letter-spacing:0.06em;text-decoration:none;">☕ buymeacoffee.com/wartracker</a>
+</div>
+
 <!-- NEW ENTRANT -->
 <div class="container" style="padding-top:20px;">
   <div class="new-entrant-banner" id="newEntrantBanner" style="display:none;">
     <span class="new-entrant-label">&#9873; New Actor</span>
     <span class="new-entrant-text" id="newEntrantText"></span>
   </div>
+</div>
+
+<!-- FIRST TIME EXPLAINER -->
+<div style="background:var(--new);color:#fff;padding:12px 40px;display:flex;align-items:center;justify-content:space-between;" id="explainerBar">
+  <span style="font-family:var(--mono);font-size:0.65rem;letter-spacing:0.08em;">First time here? This site tracks global military conflict in real time — updated 3&times; daily by AI. <a href="about.html" style="color:#fff;text-decoration:underline;">Learn how it works &rarr;</a></span>
+  <button onclick="document.getElementById('explainerBar').style.display='none'" style="background:transparent;border:none;color:#fff;cursor:pointer;font-family:var(--mono);font-size:0.7rem;padding:0 0 0 20px;">&#10005;</button>
 </div>
 
 <!-- STRIKES -->
@@ -421,6 +470,14 @@
 </section>
 
 <!-- FOOTER -->
+<!-- SUBSCRIBE -->
+<div class="subscribe-section">
+  <div class="subscribe-title">Get the Daily Briefing</div>
+  <div class="subscribe-sub">Free &mdash; No spam &mdash; Unsubscribe anytime</div>
+  <script async src="https://subscribe-forms.beehiiv.com/embed.js"></script>
+  <iframe src="https://subscribe-forms.beehiiv.com/c9bfce6d-61f5-4fff-bfa3-513879a49096" class="beehiiv-embed" frameborder="0" scrolling="no" style="width:100%;max-width:560px;height:291px;margin:0 auto;display:block;background:transparent;border:none;"></iframe>
+</div>
+
 <footer>
   <div class="footer-inner">
     <div class="footer-title">The World at War — WWIII Tracker</div>
@@ -675,6 +732,63 @@ async function loadData(){
   }
 }
 loadData();
+
+// ── WEATHER ──────────────────────────────────────────────
+async function loadWeather() {
+  const cities = [
+    { id: 'w-kyiv',    lat: 50.45, lon: 30.52 },
+    { id: 'w-moscow',  lat: 55.75, lon: 37.62 },
+    { id: 'w-telaviv', lat: 32.08, lon: 34.78 },
+    { id: 'w-tehran',  lat: 35.69, lon: 51.39 },
+    { id: 'w-redsea',  lat: 15.00, lon: 42.00 }
+  ];
+  // Weather key is server-side only — we'll show a static note if unavailable
+  // For client-side we use Open-Meteo (free, no key needed)
+  for (const city of cities) {
+    try {
+      const url = `https://api.open-meteo.com/v1/forecast?latitude=${city.lat}&longitude=${city.lon}&current=temperature_2m,weathercode,windspeed_10m&temperature_unit=fahrenheit`;
+      const res = await fetch(url);
+      const data = await res.json();
+      const temp = Math.round(data.current.temperature_2m);
+      const wind = Math.round(data.current.windspeed_10m);
+      const code = data.current.weathercode;
+      const cond = weatherCode(code);
+      const el = document.getElementById(city.id);
+      if (el) el.innerHTML = `${temp}°F ${cond} · ${wind}mph wind`;
+    } catch(e) {
+      const el = document.getElementById(city.id);
+      if (el) el.textContent = 'Unavailable';
+    }
+  }
+}
+
+function weatherCode(code) {
+  if (code === 0) return '☀️ Clear';
+  if (code <= 3) return '⛅ Partly cloudy';
+  if (code <= 49) return '🌫️ Fog';
+  if (code <= 59) return '🌦️ Drizzle';
+  if (code <= 69) return '🌧️ Rain';
+  if (code <= 79) return '❄️ Snow';
+  if (code <= 84) return '🌨️ Snow showers';
+  if (code <= 99) return '⛈️ Thunderstorm';
+  return '🌡️';
+}
+
+// ── SHARE ESCALATION ─────────────────────────────────────
+function shareEscalation() {
+  const score = document.getElementById('escScore').textContent;
+  const level = document.getElementById('escLevel').textContent;
+  const rationale = document.getElementById('escRationale').textContent;
+  const text = `🌍 Global Escalation Index: ${score}/10 — ${level}\n\n"${rationale}"\n\nFull tracker: ww3tracker.co`;
+  if (navigator.share) {
+    navigator.share({ title: 'WW3 Tracker Escalation Index', text, url: 'https://www.ww3tracker.co' });
+  } else {
+    navigator.clipboard.writeText(text).then(() => alert('Escalation score copied to clipboard!'));
+  }
+}
+
+loadWeather();
+
 </script>
 </body>
 </html>
