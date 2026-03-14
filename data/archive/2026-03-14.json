@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 8.5,
-    "delta": "N/A - no previous score",
+    "delta": "No previous data",
     "level": "High",
-    "rationale": "Active US-Israeli military operations against Iran with Strait of Hormuz blockade disrupting global shipping and energy markets."
+    "rationale": "Active US-Israel war against Iran entering third week with Strait of Hormuz closure, regional missile strikes, and expanding theater to Lebanon and Gulf states."
   },
   "ticker_items": [
-    "Iran blocks Strait of Hormuz, 90% drop in shipping traffic",
-    "US airstrikes hit Tehran facilities, Iran's leader wounded",
-    "Oil prices surge above $100 amid Gulf shipping crisis",
-    "Hezbollah fires 100 rockets at Israel from Lebanon",
-    "Trump threatens to hit Iran 'very hard' after claiming 90% missile destruction"
+    "Iran closes Strait of Hormuz, shipping traffic drops 90%",
+    "Trump threatens to hit Iran 'very hard' after two weeks of war",
+    "Israeli strikes kill 773 in Lebanon, threaten Gaza-scale destruction",
+    "Oil prices surge over $100 as Iran warns UAE ports are targets",
+    "F1 cancels Bahrain and Saudi Arabia races due to regional conflict"
   ],
   "new_entrant": {
     "active": false,
@@ -194,6 +194,28 @@
         "lat": 33.4667,
         "lng": 35.5833,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut neighbourhoods",
+        "description": "Israeli forces destroyed bridge and expanded assault to more Beirut areas.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Tehran",
+        "description": "Blast rocks Tehran amid latest wave of US and Israeli airstrikes.",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.39,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -362,6 +384,24 @@
         "figure": "4 million",
         "claimed_by": "The New Humanitarian",
         "as_of": "2026-03-13"
+      },
+      {
+        "claim": "Total war deaths after two weeks",
+        "figure": "~2,000",
+        "claimed_by": "The Times of India",
+        "as_of": "2026-03-13"
+      },
+      {
+        "claim": "Iranian deaths",
+        "figure": "1,444",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-13"
+      },
+      {
+        "claim": "Lebanese deaths from Israeli strikes",
+        "figure": "773",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-03-13"
       }
     ]
   },
@@ -466,6 +506,30 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-03-13"
+      },
+      {
+        "text": "US will hit Iran 'very hard' after easing sanctions on Russian oil",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-03-13"
+      },
+      {
+        "text": "When I feel it in my bones",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-03-13"
+      },
+      {
+        "text": "Many countries will send warships to Hormuz amid Iran blockade",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-03-14"
+      },
+      {
+        "text": "Strait of Hormuz closed to tankers and ships of enemies",
+        "speaker": "Iran",
+        "title": "Iranian officials",
+        "date": "2026-03-14"
       }
     ]
   },
@@ -517,15 +581,52 @@
       "flag": "\ud83c\uddf7\ud83c\uddf8",
       "status": "Supplying dual-use goods",
       "description": "Serbia, despite being a NATO partner and EU candidate, purchased Chinese supersonic missiles for its air force. This arms acquisition suggests Serbia is hedging between Western and Eastern military suppliers."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Strategic balancer",
+      "description": "Analysis suggests next escalation could involve US-Turkey tensions over Kurdish strategy against Iran. Washington may use Kurds as tool against Iranian regime, creating new regional friction."
+    },
+    {
+      "country": "Canada",
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "status": "Abstaining",
+      "description": "Prime Minister Carney says Canada holding firm on Russian sanctions despite Trump administration's decision to ease restrictions on shadow fleet tankers."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Above $100",
+    "brent_crude": "Over $100",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices surged above $100 as Iran's Strait of Hormuz blockade creates global shipping crisis affecting 20% of global oil supply."
+    "notes": "Oil prices surge past $100 as Iran's Strait of Hormuz closure threatens global energy supplies and food crisis looms."
   },
   "update_log": [
+    {
+      "time": "19:17 UTC",
+      "text": "Iran warns UAE ports and American hideouts are potential targets",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Formula One cancels Bahrain and Saudi Arabia races due to regional conflict",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Israeli strikes kill 773 in Lebanon as military expands Beirut assault",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Strait of Hormuz shipping traffic drops 90% following Iranian blockade",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "US moves THAAD missile components from South Korea to Middle East",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:00 UTC",
       "text": "Iran confirms Strait of Hormuz will remain closed to US ships",
@@ -667,5 +768,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-14T16:41:26Z"
+  "last_updated": "2026-03-14T19:17:09Z"
 }
