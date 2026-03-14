@@ -400,6 +400,275 @@ def save_data(final_data, cumulative):
     print(f"  Update log:     {len(final_data.get('update_log',[]))}")
     print(f"  Claimed totals: {len(final_data.get('casualties',{}).get('claimed_totals',[]))}")
 
+
+
+# ── TELEGRAM AUTO-POST ───────────────────────────────────
+def post_to_telegram(data):
+    """Post daily summary to Telegram channel."""
+    token = os.environ.get("TELEGRAM")
+    if not token:
+        print("  No TELEGRAM token found — skipping")
+        return
+
+    channel = "@ww3tracker"
+    esc = data.get("escalation", {})
+    score = esc.get("score", "—")
+    level = esc.get("level", "—")
+    rationale = esc.get("rationale", "")
+    ticker = data.get("ticker_items", [])
+    strikes_eu = data.get("strikes_today", {}).get("eastern_europe", [])
+    strikes_me = data.get("strikes_today", {}).get("middle_east", [])
+
+    # Build message
+    lines = []
+    lines.append(f"🌍 *WW3 Tracker Update* — {TODAY}")
+    lines.append("")
+    lines.append(f"⚠️ *Global Escalation: {score}/10 — {level}*")
+    if rationale:
+        lines.append(f"_{rationale}_")
+    lines.append("")
+
+    if ticker:
+        lines.append("📡 *Breaking:*")
+        for item in ticker[:3]:
+            lines.append(f"• {item}")
+        lines.append("")
+
+    total_strikes = len(strikes_eu) + len(strikes_me)
+    if total_strikes:
+        lines.append(f"💥 *{total_strikes} military actions recorded today*")
+        for s in (strikes_eu + strikes_me)[:3]:
+            lines.append(f"• {s.get('attacker','')} → {s.get('target_country','')} — {s.get('description','')[:80]}")
+        lines.append("")
+
+    lines.append("📊 Full tracker, maps & archive: ww3tracker.co")
+    lines.append("☕ Support: buymeacoffee.com/wartracker")
+
+    message = "\n".join(lines)
+
+    payload = json.dumps({
+        "chat_id": channel,
+        "text": message,
+        "parse_mode": "Markdown",
+        "disable_web_page_preview": True
+    }).encode()
+
+    url = f"https://api.telegram.org/bot{token}/sendMessage"
+    req = urllib.request.Request(url, data=payload, headers={"Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=15) as r:
+            result = json.loads(r.read())
+        if result.get("ok"):
+            print(f"  ✓ Telegram post sent to {channel}")
+        else:
+            print(f"  Telegram error: {result}")
+    except Exception as e:
+        print(f"  Telegram post error: {e}")
+
+# ── NEWSLETTER: DRAFT IN BEEHIIV ─────────────────────────
+def load_yesterday_data():
+    """Load yesterday's archive for the morning newsletter."""
+    yesterday = (datetime.datetime.utcnow() - datetime.timedelta(days=1)).strftime("%Y-%m-%d")
+    archive_path = f"data/archive/{yesterday}.json"
+    try:
+        with open(archive_path, "r") as f:
+            data = json.load(f)
+        print(f"  Loaded yesterday's data: {yesterday}")
+        return data, yesterday
+    except Exception as e:
+        print(f"  Could not load yesterday's data: {e}")
+        return None, yesterday
+
+def write_newsletter(data, date_str):
+    """Ask Claude to write a newsletter draft from yesterday's data."""
+    if not data:
+        return None
+
+    esc = data.get("escalation", {})
+    strikes_eu = data.get("strikes_today", {}).get("eastern_europe", [])
+    strikes_me = data.get("strikes_today", {}).get("middle_east", [])
+    quotes = data.get("quotes", {})
+    financial = data.get("financial", {})
+    update_log = data.get("update_log", [])
+    claimed = data.get("casualties", {}).get("claimed_totals", [])
+
+    prompt = f"""You are writing a daily conflict briefing newsletter for ww3tracker.co.
+Write a compelling, factual, neutral newsletter recapping yesterday's events ({date_str}).
+
+Use this data:
+
+ESCALATION: {esc.get('score','—')}/10 — {esc.get('level','—')}
+Rationale: {esc.get('rationale','')}
+Delta: {esc.get('delta','')}
+
+EASTERN EUROPE STRIKES ({len(strikes_eu)} recorded):
+{json.dumps(strikes_eu[:5], indent=2)}
+
+MIDDLE EAST STRIKES ({len(strikes_me)} recorded):
+{json.dumps(strikes_me[:5], indent=2)}
+
+KEY QUOTES:
+Russia: {json.dumps(quotes.get('russia',[])[:1])}
+Ukraine: {json.dumps(quotes.get('ukraine',[])[:1])}
+Middle East: {json.dumps(quotes.get('middle_east',[])[:1])}
+
+FINANCIAL: Oil={financial.get('brent_crude','—')} | USD/RUB={financial.get('usd_rub','—')} | {financial.get('notes','')}
+
+UPDATE LOG (top items):
+{json.dumps(update_log[:5], indent=2)}
+
+CLAIMED CASUALTY TOTALS:
+{json.dumps(claimed[:4], indent=2)}
+
+Write the newsletter in this exact format — return ONLY the newsletter text, no JSON, no code fences:
+
+SUBJECT: [A compelling subject line under 60 chars referencing the biggest story]
+
+---
+
+[Opening paragraph — 2-3 sentences setting the scene for yesterday. Factual, no spin.]
+
+ESCALATION INDEX: [score]/10 — [LEVEL]
+[One sentence explaining the score and whether it moved up or down.]
+
+---
+
+MILITARY ACTIONS
+
+[2-4 bullet points covering the most significant strikes from both theaters. Each bullet: bold attacker → target, one sentence description.]
+
+---
+
+LEADERSHIP
+
+[1-2 quotes from world leaders, attributed properly. Format: "Quote text" — Name, Title]
+
+---
+
+FINANCIAL PULSE
+
+[2-3 sentences on the key financial developments — oil, currency, markets.]
+
+---
+
+CASUALTIES (claimed figures — sources vary widely)
+
+[2-3 bullet points of the most significant claimed casualty figures, each attributed to source.]
+
+---
+
+[Closing sentence — neutral, factual, directing reader to full tracker.]
+
+Full details, maps, and live trackers: ww3tracker.co
+
+---
+
+This briefing is free and independent. If you find it useful:
+buymeacoffee.com/wartracker
+
+Unsubscribe | ww3tracker.co"""
+
+    payload = json.dumps({
+        "model": "claude-sonnet-4-20250514",
+        "max_tokens": 2000,
+        "messages": [{"role": "user", "content": prompt}]
+    }).encode()
+
+    req = urllib.request.Request(
+        "https://api.anthropic.com/v1/messages",
+        data=payload,
+        headers={
+            "Content-Type": "application/json",
+            "x-api-key": ANTHROPIC_KEY,
+            "anthropic-version": "2023-06-01"
+        }
+    )
+    with urllib.request.urlopen(req, timeout=60) as r:
+        response = json.loads(r.read())
+
+    text = response["content"][0]["text"].strip()
+    print(f"  Newsletter draft: {len(text)} chars")
+    return text
+
+def post_to_beehiiv(newsletter_text, date_str):
+    """Post newsletter as a draft to Beehiiv."""
+    beehiiv_key = os.environ.get("BEEHIIV_API_KEY")
+    if not beehiiv_key:
+        print("  No BEEHIIV_API_KEY found — skipping newsletter post")
+        return False
+
+    pub_id = "pub_82c6731b-90e5-4d36-be5b-62e3eb300bea"
+
+    # Extract subject line from newsletter text
+    subject = f"WWIII Tracker — Daily Briefing {date_str}"
+    lines = newsletter_text.split("\n")
+    for line in lines:
+        if line.startswith("SUBJECT:"):
+            subject = line.replace("SUBJECT:", "").strip()
+            break
+
+    # Remove subject line from body
+    body_lines = [l for l in lines if not l.startswith("SUBJECT:")]
+    body_text = "\n".join(body_lines).strip()
+
+    # Convert plain text to simple HTML
+    html_body = "<br>\n".join(
+        f"<strong>{l[2:].strip()}</strong>" if l.startswith("• ") or l.startswith("- ")
+        else f"<hr>" if l.strip() == "---"
+        else f"<p>{l}</p>" if l.strip()
+        else ""
+        for l in body_text.split("\n")
+    )
+
+    payload = json.dumps({
+        "subject": subject,
+        "content": {
+            "free": html_body
+        },
+        "status": "draft",
+        "send_at": None
+    }).encode()
+
+    url = f"https://api.beehiiv.com/v2/publications/{pub_id}/posts"
+    req = urllib.request.Request(
+        url,
+        data=payload,
+        headers={
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {beehiiv_key}"
+        }
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            result = json.loads(r.read())
+        post_id = result.get("data", {}).get("id", "unknown")
+        print(f"  ✓ Newsletter draft posted to Beehiiv: {post_id}")
+        print(f"  Subject: {subject}")
+        return True
+    except Exception as e:
+        print(f"  Beehiiv post error: {e}")
+        return False
+
+def run_newsletter():
+    """Full newsletter pipeline — only runs on 6am UTC run."""
+    current_hour = datetime.datetime.utcnow().hour
+    if current_hour != 6:
+        print(f"  Skipping newsletter — not 6am run (current hour: {current_hour} UTC)")
+        return
+
+    print("Writing morning newsletter...")
+    yesterday_data, yesterday_str = load_yesterday_data()
+    if not yesterday_data:
+        print("  No yesterday data available — skipping newsletter")
+        return
+
+    newsletter_text = write_newsletter(yesterday_data, yesterday_str)
+    if not newsletter_text:
+        print("  Newsletter generation failed")
+        return
+
+    post_to_beehiiv(newsletter_text, yesterday_str)
+
 # ── MAIN ─────────────────────────────────────────────────
 if __name__ == "__main__":
     print(f"── War Tracker Update ── {NOW} ──")
@@ -447,4 +716,8 @@ if __name__ == "__main__":
 
     print("Saving data...")
     save_data(final_data, cumulative)
+    print("Posting to Telegram...")
+    post_to_telegram(final_data)
+    print("Running newsletter pipeline...")
+    run_newsletter()
     print("Done ✓")
