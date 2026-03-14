@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — The World at War: WWIII Tracker</title>
+<meta name="description" content="How the WW3 Tracker works — methodology, sources, and the team behind ww3tracker.co">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --ink: #1a1a1a; --ink-2: #3d3d3d; --ink-3: #6b6b6b;
+    --rule: #c8c8c8; --rule-light: #e8e8e8;
+    --paper: #faf8f4; --paper-2: #f2efe9;
+    --accent: #b02a2a; --new: #1a4a8a;
+    --mono: 'JetBrains Mono', monospace;
+    --serif: 'Source Serif 4', Georgia, serif;
+    --display: 'Playfair Display', Georgia, serif;
+    --col-max: 780px;
+  }
+  html { font-size: 16px; scroll-behavior: smooth; }
+  body { background: var(--paper); color: var(--ink); font-family: var(--serif); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+
+  .masthead { border-bottom: 3px double var(--ink); }
+  .masthead-top { display: flex; align-items: center; justify-content: space-between; padding: 10px 40px; border-bottom: 1px solid var(--rule); font-family: var(--mono); font-size: 0.72rem; color: var(--ink-3); letter-spacing: 0.04em; text-transform: uppercase; }
+  .masthead-title { text-align: center; padding: 24px 40px 18px; }
+  .masthead-eyebrow { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+  .masthead-title h1 { font-family: var(--display); font-size: clamp(2rem,4vw,3rem); font-weight: 900; line-height: 1.05; letter-spacing: -0.02em; }
+  .masthead-title h1 em { font-style: italic; color: var(--accent); }
+  .masthead-nav { display: flex; justify-content: center; border-top: 1px solid var(--rule); margin-top: 16px; overflow-x: auto; }
+  .masthead-nav a { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2); text-decoration: none; padding: 10px 18px; border-right: 1px solid var(--rule); white-space: nowrap; transition: background .15s,color .15s; }
+  .masthead-nav a:first-child { border-left: 1px solid var(--rule); }
+  .masthead-nav a:hover { background: var(--ink); color: #fff; }
+  .masthead-nav a.active { background: var(--ink); color: #fff; }
+
+  .container { max-width: var(--col-max); margin: 0 auto; padding: 60px 40px; }
+
+  h2 { font-family: var(--display); font-size: 1.6rem; font-weight: 700; margin: 48px 0 16px; padding-bottom: 10px; border-bottom: 2px solid var(--ink); }
+  h2:first-of-type { margin-top: 0; }
+  h3 { font-family: var(--display); font-size: 1.1rem; font-weight: 700; margin: 24px 0 8px; }
+  p { margin-bottom: 16px; font-size: 1rem; color: var(--ink-2); }
+  p strong { color: var(--ink); font-weight: 600; }
+
+  .tier { display: inline-block; font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 2px 7px; margin-right: 8px; border-radius: 2px; }
+  .tier-verified { background: #e8f5e9; color: #2e7d32; border: 1px solid #a5d6a7; }
+  .tier-analyst  { background: #fff8e1; color: #f57f17; border: 1px solid #ffe082; }
+  .tier-unverified { background: #ffebee; color: #c62828; border: 1px solid #ef9a9a; }
+
+  .source-row { display: flex; align-items: baseline; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--rule-light); font-size: 0.9rem; }
+  .source-name { font-weight: 600; flex: 1; }
+  .source-desc { color: var(--ink-3); font-size: 0.85rem; }
+
+  .pipeline-step { display: flex; gap: 20px; padding: 16px 0; border-bottom: 1px solid var(--rule-light); }
+  .pipeline-num { font-family: var(--display); font-size: 2rem; font-weight: 900; color: var(--rule); flex-shrink: 0; width: 40px; line-height: 1; }
+  .pipeline-content h3 { margin: 0 0 4px; }
+  .pipeline-content p { margin: 0; font-size: 0.88rem; }
+
+  .callout { background: var(--paper-2); border-left: 3px solid var(--accent); padding: 16px 20px; margin: 20px 0; font-size: 0.92rem; color: var(--ink-2); }
+
+  footer { background: var(--ink); color: #a0a0a0; padding: 36px 40px; margin-top: 60px; }
+  .footer-inner { max-width: var(--col-max); margin: 0 auto; }
+  .footer-title { font-family: var(--display); font-size: 1.1rem; color: #fff; font-style: italic; margin-bottom: 8px; }
+  .footer-meta { font-family: var(--mono); font-size: 0.62rem; color: #6b6b6b; border-top: 1px solid #333; margin-top: 16px; padding-top: 16px; line-height: 2; }
+
+  @media(max-width:600px){ .container{padding:40px 20px;} .masthead-top{padding:8px 20px;} footer{padding:24px 20px;} }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-top">
+    <span><a href="index.html" style="color:var(--accent);text-decoration:none;font-family:var(--mono);font-size:0.68rem;">&#8592; Live Tracker</a></span>
+    <span style="font-family:var(--mono);font-size:0.68rem;">About &amp; Methodology</span>
+  </div>
+  <div class="masthead-title">
+    <p class="masthead-eyebrow">Transparency &amp; methodology</p>
+    <h1>About <em>WW3 Tracker</em></h1>
+  </div>
+  <nav class="masthead-nav">
+    <a href="index.html">&#8592; Live Tracker</a>
+    <a href="archive.html">Archive</a>
+    <a href="about.html" class="active">About</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <h2>What This Is</h2>
+  <p><strong>WW3 Tracker (ww3tracker.co)</strong> is an independent, automated conflict documentation site tracking ongoing global military conflicts — primarily the Russia-Ukraine war and the Israel-Iran-US conflict in the Middle East, along with any nations drawn into those theaters.</p>
+  <p>The site updates three times daily — at 06:00, 12:00, and 18:00 UTC. Each update pulls the latest reporting from wire services, analytical publications, and open-source intelligence sources, structures it using AI, and publishes it to this site automatically.</p>
+  <p>This is not a news outlet. We do not have reporters in the field. We do not editorialize, take sides, or amplify unverified claims without attribution. Our goal is to be a single, reliable place where anyone can understand the state of global conflict on any given day.</p>
+
+  <div class="callout">
+    <strong>A note on uncertainty:</strong> War is inherently uncertain. Casualty figures vary wildly between parties. Strike reports are sometimes fabricated or exaggerated for propaganda purposes. We label every piece of information with its source tier so you know how much weight to give it.
+  </div>
+
+  <h2>How It Works</h2>
+
+  <div class="pipeline-step">
+    <div class="pipeline-num">1</div>
+    <div class="pipeline-content">
+      <h3>News Aggregation</h3>
+      <p>Three times daily, an automated script fetches the latest conflict-related headlines from NewsAPI (aggregating Reuters, AP, BBC, and dozens of outlets) plus RSS feeds from Bellingcat, ISW, War on the Rocks, Radio Free Europe, and Al Jazeera.</p>
+    </div>
+  </div>
+
+  <div class="pipeline-step">
+    <div class="pipeline-num">2</div>
+    <div class="pipeline-content">
+      <h3>AI Structuring</h3>
+      <p>The headlines are passed to Claude (Anthropic's AI) with a detailed prompt instructing it to extract structured data — strikes, casualties, quotes, financial indicators, observer activity — and assign a source credibility tier to each item. Claude does not invent information; it only structures what appears in the source material.</p>
+    </div>
+  </div>
+
+  <div class="pipeline-step">
+    <div class="pipeline-num">3</div>
+    <div class="pipeline-content">
+      <h3>Within-Day Accumulation</h3>
+      <p>Each day's three updates accumulate rather than overwrite. New strikes, quotes, and log entries are merged into the day's record. The escalation score and financial figures update to reflect the latest assessment.</p>
+    </div>
+  </div>
+
+  <div class="pipeline-step">
+    <div class="pipeline-num">4</div>
+    <div class="pipeline-content">
+      <h3>Archive</h3>
+      <p>At the end of each day, a complete JSON snapshot is saved permanently. The full historical archive is browsable at <a href="archive.html" style="color:var(--accent);">ww3tracker.co/archive.html</a>. No day is ever deleted or overwritten.</p>
+    </div>
+  </div>
+
+  <div class="pipeline-step">
+    <div class="pipeline-num">5</div>
+    <div class="pipeline-content">
+      <h3>Morning Newsletter</h3>
+      <p>Each morning at 06:00 UTC, Claude drafts a newsletter summarizing the previous day's events, which is distributed to subscribers via Beehiiv.</p>
+    </div>
+  </div>
+
+  <h2>Source Credibility Tiers</h2>
+  <p>Every strike report, casualty figure, and update log entry is tagged with one of three source tiers:</p>
+
+  <div class="source-row">
+    <span class="tier tier-verified">Verified</span>
+    <span class="source-name">Wire services &amp; institutional sources</span>
+    <span class="source-desc">Reuters, AP, BBC, UN OHCHR, Al Jazeera, Radio Free Europe. Independent editorial standards, established track records.</span>
+  </div>
+  <div class="source-row">
+    <span class="tier tier-analyst">Analyst</span>
+    <span class="source-name">Credible analytical publications</span>
+    <span class="source-desc">ISW (Institute for the Study of War), Bellingcat, War on the Rocks. Rigorous methodology, named researchers, documented sourcing.</span>
+  </div>
+  <div class="source-row" style="border-bottom:none;">
+    <span class="tier tier-unverified">Unverified</span>
+    <span class="source-name">Frontline &amp; OSINT reports</span>
+    <span class="source-desc">Social media accounts, Telegram channels, unnamed sources operating close to active conflict. High timeliness, lower reliability. Always treat with caution.</span>
+  </div>
+
+  <h2>The Escalation Index</h2>
+  <p>The Global Escalation Index is a 1–10 score assessed by Claude each update based on the day's reported events. It is not a predictive model — it reflects the current observable state of conflict intensity.</p>
+  <p><strong>1–3 Low:</strong> Diplomatic tensions, sanctions, rhetoric. No active military exchanges.<br>
+  <strong>4–5 Guarded:</strong> Sporadic strikes, proxy activity, no direct superpower confrontation.<br>
+  <strong>6–7 Elevated:</strong> Active multi-front conflict, direct state-on-state strikes, carrier deployments.<br>
+  <strong>8–9 High:</strong> Superpower direct involvement, nuclear rhetoric, mass mobilization.<br>
+  <strong>10 Critical:</strong> Imminent or active use of weapons of mass destruction.</p>
+  <p>The score carries inherent uncertainty and should be understood as one input among many, not a definitive assessment.</p>
+
+  <h2>What We Are Not</h2>
+  <p>We are not affiliated with any government, military, intelligence agency, political party, or advocacy organization. We do not accept advertising. We do not receive government funding. We do not have a political agenda.</p>
+  <p>We are one person with an interest in keeping an accurate public record of a historic moment, using automation to do at scale what would otherwise be impossible manually.</p>
+
+  <h2>Corrections</h2>
+  <p>If you identify a factual error, please reach out. The archive is a permanent record — we do not retroactively alter historical entries, but we will note corrections prominently.</p>
+
+  <h2>Support</h2>
+  <p>This site costs almost nothing to run and is provided free to anyone who finds it useful. If you'd like to support it: <a href="https://buymeacoffee.com/wartracker" target="_blank" style="color:var(--accent);">buymeacoffee.com/wartracker</a></p>
+
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-title">The World at War — WWIII Tracker</div>
+    <div class="footer-meta">
+      <p><a href="index.html" style="color:#888;">Live Tracker</a> &nbsp;·&nbsp; <a href="archive.html" style="color:#888;">Archive</a> &nbsp;·&nbsp; <a href="about.html" style="color:#fff;">About</a></p>
+      <p style="margin-top:8px;">No government funding. No advertising. No political affiliation.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
