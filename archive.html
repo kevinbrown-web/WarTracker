@@ -1,1 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Archive — The World at War: WWIII Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N0FLGVEX6F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-N0FLGVEX6F');
+</script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --ink: #1a1a1a; --ink-2: #3d3d3d; --ink-3: #6b6b6b;
+    --rule: #c8c8c8; --rule-light: #e8e8e8;
+    --paper: #faf8f4; --paper-2: #f2efe9;
+    --accent: #b02a2a; --new: #1a4a8a;
+    --mono: 'JetBrains Mono', monospace;
+    --serif: 'Source Serif 4', Georgia, serif;
+    --display: 'Playfair Display', Georgia, serif;
+    --col-max: 1280px;
+  }
+  html { font-size: 16px; scroll-behavior: smooth; }
+  body { background: var(--paper); color: var(--ink); font-family: var(--serif); line-height: 1.6; -webkit-font-smoothing: antialiased; }
 
+  .masthead { border-bottom: 3px double var(--ink); }
+  .masthead-top { display: flex; align-items: center; justify-content: space-between; padding: 10px 40px; border-bottom: 1px solid var(--rule); font-family: var(--mono); font-size: 0.72rem; color: var(--ink-3); letter-spacing: 0.04em; text-transform: uppercase; }
+  .masthead-title { text-align: center; padding: 24px 40px 18px; }
+  .masthead-eyebrow { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+  .masthead-title h1 { font-family: var(--display); font-size: clamp(2rem,4vw,3.2rem); font-weight: 900; line-height: 1.05; letter-spacing: -0.02em; }
+  .masthead-title h1 em { font-style: italic; color: var(--accent); }
+  .masthead-nav { display: flex; justify-content: center; border-top: 1px solid var(--rule); margin-top: 16px; overflow-x: auto; }
+  .masthead-nav a { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-2); text-decoration: none; padding: 10px 18px; border-right: 1px solid var(--rule); white-space: nowrap; transition: background .15s,color .15s; }
+  .masthead-nav a:first-child { border-left: 1px solid var(--rule); }
+  .masthead-nav a:hover, .masthead-nav a.active { background: var(--ink); color: #fff; }
+
+  .container { max-width: var(--col-max); margin: 0 auto; padding: 0 40px; }
+  .section { padding: 36px 0; border-bottom: 1px solid var(--rule); }
+  .section-header { display: flex; align-items: baseline; gap: 16px; margin-bottom: 24px; padding-bottom: 10px; border-bottom: 2px solid var(--ink); }
+  .section-title { font-family: var(--display); font-size: 1.5rem; font-weight: 700; }
+  .section-count { font-family: var(--mono); font-size: 0.65rem; color: var(--ink-3); letter-spacing: 0.08em; text-transform: uppercase; margin-left: auto; }
+  .section-date { font-family: var(--mono); font-size: 0.68rem; color: var(--accent); }
+  .grid-2 { display: grid; grid-template-columns: repeat(2,1fr); gap: 1px; background: var(--rule); }
+  .grid-3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--rule); }
+  .grid-cell { background: var(--paper); padding: 20px; }
+
+  /* DATE PICKER */
+  .date-nav { background: var(--ink); padding: 20px 40px; display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+  .date-nav-label { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: #666; }
+  .date-input { font-family: var(--mono); font-size: 0.85rem; background: #222; color: #fff; border: 1px solid #444; padding: 8px 14px; cursor: pointer; }
+  .date-btn { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; background: transparent; color: #888; border: 1px solid #444; padding: 8px 14px; cursor: pointer; transition: all .15s; }
+  .date-btn:hover { background: #fff; color: #000; border-color: #fff; }
+  .date-btn.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .date-btn.primary:hover { background: #8a1a1a; }
+  .date-display { font-family: var(--display); font-size: 1.1rem; font-style: italic; color: #ccc; margin-left: auto; }
+
+  /* ESCALATION */
+  .escalation-panel { background: var(--ink); color: #fff; padding: 28px 40px; border-bottom: 1px solid #333; }
+  .escalation-inner { max-width: var(--col-max); margin: 0 auto; display: grid; grid-template-columns: auto 1fr auto; gap: 0 40px; align-items: center; }
+  .escalation-label { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.18em; text-transform: uppercase; color: #666; margin-bottom: 6px; }
+  .escalation-score { font-family: var(--display); font-size: 4rem; font-weight: 900; line-height: 1; }
+  .escalation-level { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.15em; text-transform: uppercase; margin-top: 4px; }
+  .low { color: #4caf50; } .guarded { color: #ffeb3b; } .elevated { color: #ff9800; } .high { color: #f44336; } .critical { color: #b71c1c; }
+  .escalation-bar-bg { height: 6px; background: #333; position: relative; margin: 12px 0 8px; }
+  .escalation-bar-fill { position: absolute; left: 0; top: 0; bottom: 0; }
+  .escalation-rationale { font-size: 0.92rem; color: #ccc; font-style: italic; line-height: 1.5; }
+  .escalation-delta { font-family: var(--mono); font-size: 0.65rem; color: #666; margin-top: 8px; }
+
+  /* TAGS */
+  .conflict-tag { display: inline-block; font-family: var(--mono); font-size: 0.58rem; letter-spacing: 0.12em; text-transform: uppercase; background: #1a1a1a; color: #fff; padding: 2px 7px; margin-bottom: 8px; }
+  .conflict-tag.russia { background: #5a1a1a; }
+  .conflict-tag.nato { background: #1a3a6a; }
+  .conflict-tag.mideast { background: #4a3000; }
+  .tier { display: inline-block; font-family: var(--mono); font-size: 0.55rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 1px 5px; margin-right: 5px; vertical-align: middle; border-radius: 2px; }
+  .tier-verified { background: #e8f5e9; color: #2e7d32; border: 1px solid #a5d6a7; }
+  .tier-analyst  { background: #fff8e1; color: #f57f17; border: 1px solid #ffe082; }
+  .tier-unverified { background: #ffebee; color: #c62828; border: 1px solid #ef9a9a; }
+
+  .strike-entry { display: grid; grid-template-columns: 90px 1fr auto; gap: 0 20px; align-items: start; padding: 14px 0; border-bottom: 1px solid var(--rule-light); }
+  .strike-entry:last-child { border-bottom: none; }
+  .strike-time { font-family: var(--mono); font-size: 0.68rem; color: var(--ink-3); padding-top: 2px; }
+  .strike-desc { font-size: 0.92rem; line-height: 1.5; }
+  .strike-desc strong { font-weight: 600; }
+  .strike-method { font-family: var(--mono); font-size: 0.6rem; color: var(--accent); text-transform: uppercase; letter-spacing: 0.08em; white-space: nowrap; padding-top: 3px; }
+
+  #archiveMap { height: 360px; width: 100%; border: 1px solid var(--rule); margin-top: 20px; }
+  .map-legend { display: flex; gap: 20px; padding: 10px 0; font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+  .legend-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 5px; vertical-align: middle; }
+
+  .loss-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+  .loss-table th { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); text-align: left; padding: 8px 12px; border-bottom: 2px solid var(--ink); background: var(--paper-2); }
+  .loss-table td { padding: 10px 12px; border-bottom: 1px solid var(--rule-light); vertical-align: top; }
+  .loss-num { font-family: var(--mono); font-size: 0.85rem; font-weight: 500; }
+
+  .quote-card { padding: 20px; border-left: 3px solid var(--ink); background: var(--paper-2); margin-bottom: 14px; }
+  .quote-text { font-family: var(--display); font-size: 1.05rem; font-style: italic; line-height: 1.55; margin-bottom: 12px; }
+  .quote-attr { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+  .quote-attr strong { color: var(--ink); display: block; font-size: 0.7rem; margin-bottom: 2px; }
+
+  .observer-row { display: flex; gap: 20px; padding: 14px 0; border-bottom: 1px solid var(--rule-light); align-items: start; }
+  .observer-flag { font-size: 1.6rem; flex-shrink: 0; }
+  .observer-name { font-family: var(--display); font-size: 1rem; font-weight: 700; margin-bottom: 2px; }
+  .observer-status { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 2px 7px; display: inline-block; margin-bottom: 6px; }
+  .status-supplying { background: #f0e0e0; color: var(--accent); border: 1px solid var(--accent); }
+  .status-monitoring { background: #f0f0e0; color: #6b6b00; border: 1px solid #c8c800; }
+  .status-neutral { background: #e0e0f0; color: var(--new); border: 1px solid var(--new); }
+  .observer-desc { font-size: 0.85rem; color: var(--ink-2); line-height: 1.5; }
+
+  .update-entry { display: flex; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--rule-light); font-size: 0.88rem; align-items: baseline; }
+  .update-time { font-family: var(--mono); font-size: 0.65rem; color: var(--accent); flex-shrink: 0; width: 80px; }
+
+  .empty-state { font-family: var(--mono); font-size: 0.72rem; color: var(--ink-3); padding: 20px 0; font-style: italic; }
+
+  .loading-overlay { position: fixed; inset: 0; background: var(--paper); display: flex; align-items: center; justify-content: center; z-index: 999; transition: opacity 0.4s; }
+  .loading-overlay.hidden { opacity: 0; pointer-events: none; }
+  .loading-title { font-family: var(--display); font-size: 1.8rem; font-weight: 900; margin-bottom: 8px; text-align:center; }
+  .loading-title em { font-style: italic; color: var(--accent); }
+  .loading-sub { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--ink-3); text-align:center; }
+  .loading-bar { width: 200px; height: 2px; background: var(--rule); margin: 16px auto 0; overflow: hidden; }
+  .loading-bar-fill { height: 100%; background: var(--accent); animation: loadbar 1.2s ease-in-out infinite; }
+  @keyframes loadbar { 0%{transform:translateX(-100%)}100%{transform:translateX(200%)} }
+
+  .error-state { text-align: center; padding: 60px 40px; }
+  .error-state h2 { font-family: var(--display); font-size: 1.8rem; margin-bottom: 12px; }
+  .error-state p { font-family: var(--mono); font-size: 0.72rem; color: var(--ink-3); }
+
+  footer { background: var(--ink); color: #a0a0a0; padding: 36px 40px; margin-top: 60px; }
+  .footer-inner { max-width: var(--col-max); margin: 0 auto; }
+  .footer-title { font-family: var(--display); font-size: 1.3rem; color: #fff; font-style: italic; margin-bottom: 10px; }
+  .footer-meta { font-family: var(--mono); font-size: 0.65rem; color: #6b6b6b; border-top: 1px solid #333; margin-top: 20px; padding-top: 20px; line-height: 2; }
+
+  @media(max-width:900px){
+    .container{padding:0 20px;} .masthead-top{padding:8px 20px;} .masthead-title{padding:16px 20px 12px;}
+    .grid-2,.grid-3{grid-template-columns:1fr;} .strike-entry{grid-template-columns:1fr;gap:4px;}
+    .date-nav{padding:16px 20px;} .escalation-inner{grid-template-columns:1fr;gap:16px;}
+    footer{padding:24px 20px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="loading-overlay" id="loadingOverlay">
+  <div>
+    <div class="loading-title">The World at War<br><em>Archive</em></div>
+    <div class="loading-sub">Loading historical data&hellip;</div>
+    <div class="loading-bar"><div class="loading-bar-fill"></div></div>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="masthead-top">
+    <span>Historical Archive &mdash; ww3tracker.co</span>
+    <span><a href="index.html" style="color:var(--accent);text-decoration:none;font-family:var(--mono);font-size:0.68rem;">&#8592; Back to Live Tracker</a></span>
+  </div>
+  <div class="masthead-title">
+    <p class="masthead-eyebrow">Historical Record</p>
+    <h1>The World at War<br><em>Archive</em></h1>
+  </div>
+  <nav class="masthead-nav">
+    <a href="index.html">&#8592; Live Tracker</a>
+    <a href="#escalation">Escalation</a>
+    <a href="#strikes">Strikes</a>
+    <a href="#casualties">Casualties</a>
+    <a href="#quotes">Leadership</a>
+    <a href="#updates">Updates</a>
+  </nav>
+</header>
+
+<!-- DATE NAVIGATION -->
+<div class="date-nav">
+  <span class="date-nav-label">Viewing date:</span>
+  <input type="date" class="date-input" id="datePicker" min="2026-03-13">
+  <button class="date-btn" id="prevDay">&#8592; Previous</button>
+  <button class="date-btn" id="nextDay">Next &#8594;</button>
+  <button class="date-btn primary" id="goToday">Today</button>
+  <span class="date-display" id="dateDisplay">Select a date</span>
+</div>
+
+<!-- ESCALATION -->
+<div class="escalation-panel" id="escalation">
+  <div class="escalation-inner">
+    <div>
+      <div class="escalation-label">Escalation Index &mdash; That Day</div>
+      <div class="escalation-score" id="escScore">—</div>
+      <div class="escalation-level" id="escLevel">—</div>
+    </div>
+    <div>
+      <div class="escalation-bar-bg"><div class="escalation-bar-fill" id="escBarFill" style="width:0%;"></div></div>
+      <div class="escalation-rationale" id="escRationale">Select a date to load archive data.</div>
+      <div class="escalation-delta" id="escDelta"></div>
+    </div>
+    <div style="text-align:right;">
+      <div class="escalation-label">Scale</div>
+      <div style="font-family:var(--display);font-size:1.2rem;color:#333;">/ 10</div>
+      <div style="margin-top:12px;font-family:var(--mono);font-size:0.55rem;color:#333;line-height:1.8;">
+        1&ndash;3 LOW<br>4&ndash;5 GUARDED<br>6&ndash;7 ELEVATED<br>8&ndash;9 HIGH<br>10 CRITICAL
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="mainContent" style="display:none;">
+
+<!-- STRIKES -->
+<section class="section" id="strikes">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Military Actions</h2>
+      <span class="section-date" id="strikesDate">—</span>
+      <span class="section-count" id="strikesCount">—</span>
+    </div>
+    <div class="grid-2" style="margin-bottom:24px;">
+      <div class="grid-cell">
+        <div style="margin-bottom:16px;"><span class="conflict-tag russia">Eastern Europe</span></div>
+        <div id="strikesEU"><div class="empty-state">No strikes recorded.</div></div>
+      </div>
+      <div class="grid-cell">
+        <div style="margin-bottom:16px;"><span class="conflict-tag mideast">Middle East</span></div>
+        <div id="strikesME"><div class="empty-state">No strikes recorded.</div></div>
+      </div>
+    </div>
+    <div id="archiveMap"></div>
+    <div class="map-legend">
+      <span><span class="legend-dot" style="background:#b02a2a;"></span>Eastern Europe</span>
+      <span><span class="legend-dot" style="background:#d44a1a;"></span>Middle East</span>
+      <span><span class="legend-dot" style="background:#1a4a8a;"></span>Naval</span>
+    </div>
+  </div>
+</section>
+
+<!-- CASUALTIES -->
+<section class="section" id="casualties">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Casualty Estimates</h2>
+      <span class="section-date" id="casDate">—</span>
+    </div>
+    <div class="grid-2">
+      <div class="grid-cell">
+        <p style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:12px;">Incidents That Day</p>
+        <table class="loss-table" id="casualtiesToday"><tr><th>Incident</th><th>KIA</th><th>WIA</th><th>Civ.</th></tr></table>
+        <div id="casualtiesTodayEmpty" class="empty-state" style="display:none;">No figures recorded.</div>
+      </div>
+      <div class="grid-cell">
+        <p style="font-family:var(--mono);font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:12px;">Claimed War Totals (as of that date)</p>
+        <div id="claimedTotals"><div class="empty-state">No claimed figures recorded.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTES -->
+<section class="section" id="quotes">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Voices of Leadership</h2>
+      <span class="section-date">Statements recorded that day</span>
+    </div>
+    <div class="grid-3">
+      <div class="grid-cell">
+        <span class="conflict-tag russia" style="margin-bottom:14px;display:inline-block;">Russia</span>
+        <div id="quotesRussia"><div class="empty-state">No quotes recorded.</div></div>
+      </div>
+      <div class="grid-cell">
+        <span class="conflict-tag nato" style="margin-bottom:14px;display:inline-block;">Ukraine</span>
+        <div id="quotesUkraine"><div class="empty-state">No quotes recorded.</div></div>
+      </div>
+      <div class="grid-cell">
+        <span class="conflict-tag mideast" style="margin-bottom:14px;display:inline-block;">Middle East</span>
+        <div id="quotesMiddleEast"><div class="empty-state">No quotes recorded.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- UPDATE LOG -->
+<section class="section" id="updates">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Update Log</h2>
+      <span class="section-date" id="updateLogDate">—</span>
+    </div>
+    <div style="max-width:720px;" id="updateLog">
+      <div class="empty-state">No updates recorded.</div>
+    </div>
+  </div>
+</section>
+
+</div><!-- end mainContent -->
+
+<div id="errorState" style="display:none;" class="container">
+  <div class="error-state">
+    <h2>No Data for This Date</h2>
+    <p>Archive data for this date is not available. The tracker began recording on March 13, 2026.</p>
+    <p style="margin-top:12px;">Try selecting a different date above.</p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-title">The World at War — WWIII Tracker Archive</div>
+    <p style="font-size:0.85rem;line-height:1.7;max-width:680px;">Historical record of global military conflict, documented daily. All data sourced and attributed at time of recording.</p>
+    <div class="footer-meta">
+      <p>Archive begins: March 13, 2026 &nbsp;·&nbsp; <a href="index.html" style="color:#888;">Return to live tracker</a></p>
+      <p style="margin-top:8px;">No government funding. No advertising. No political affiliation.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+function el(id){ return document.getElementById(id); }
+function esc(str){ if(!str)return''; return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function fmtDate(iso){ if(!iso)return'—'; try{ return new Date(iso).toLocaleDateString('en-US',{weekday:'long',year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}); }catch(e){return iso;} }
+function fmtDateShort(iso){ if(!iso)return'—'; try{ return new Date(iso+'T00:00:00Z').toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}); }catch(e){return iso;} }
+
+function tierBadge(tier){
+  if(!tier)return'';
+  const t=tier.toLowerCase();
+  if(t==='verified')return'<span class="tier tier-verified">Verified</span>';
+  if(t==='analyst')return'<span class="tier tier-analyst">Analyst</span>';
+  return'<span class="tier tier-unverified">Unverified</span>';
+}
+
+// MAP
+let archiveMap = null;
+function initMap(){
+  if(archiveMap) archiveMap.remove();
+  archiveMap = L.map('archiveMap',{center:[35,35],zoom:4});
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{
+    attribution:'&copy; CARTO',subdomains:'abcd',maxZoom:16
+  }).addTo(archiveMap);
+}
+
+function strikeColor(theater,method){
+  if(!method)return theater==='eu'?'#b02a2a':'#d44a1a';
+  const m=method.toLowerCase();
+  if(m.includes('naval')||m.includes('anti-ship'))return'#1a4a8a';
+  return theater==='eu'?'#b02a2a':'#d44a1a';
+}
+function addMarkers(strikes,theater){
+  strikes.forEach(s=>{
+    const lat=parseFloat(s.lat),lng=parseFloat(s.lng);
+    if(!lat||!lng||(lat===0&&lng===0))return;
+    const color=strikeColor(theater,s.method);
+    const icon=L.divIcon({className:'',html:`<div style="width:12px;height:12px;border-radius:50%;background:${color};border:2px solid #fff;box-shadow:0 0 0 2px ${color};"></div>`,iconSize:[12,12],iconAnchor:[6,6]});
+    L.marker([lat,lng],{icon}).addTo(archiveMap).bindPopup(`
+      <div style="font-family:monospace;font-size:0.6rem;color:var(--accent);text-transform:uppercase;">${esc(s.method||'Strike')}</div>
+      <div style="font-weight:600;font-size:0.88rem;">${esc(s.attacker)} &rarr; ${esc(s.target_country)}</div>
+      <div style="font-size:0.82rem;color:#666;">${esc(s.description||'')}</div>
+    `,{maxWidth:280});
+  });
+}
+
+function escalationClass(level){
+  if(!level)return'';
+  const l=level.toLowerCase();
+  if(l.includes('low'))return'low';
+  if(l.includes('guard'))return'guarded';
+  if(l.includes('elev'))return'elevated';
+  if(l.includes('high'))return'high';
+  if(l.includes('crit'))return'critical';
+  return'elevated';
+}
+function escalationColor(score){
+  if(score<=3)return'#4caf50';
+  if(score<=5)return'#ffeb3b';
+  if(score<=7)return'#ff9800';
+  if(score<=9)return'#f44336';
+  return'#b71c1c';
+}
+
+function renderAll(data, dateStr){
+  // Show main content
+  el('mainContent').style.display='block';
+  el('errorState').style.display='none';
+
+  // Escalation
+  const esc_data = data.escalation || {};
+  const score = parseFloat(esc_data.score)||0;
+  const cls = escalationClass(esc_data.level);
+  el('escScore').textContent = score.toFixed(1);
+  el('escScore').className = 'escalation-score '+cls;
+  el('escLevel').textContent = esc_data.level||'—';
+  el('escLevel').className = 'escalation-level '+cls;
+  el('escRationale').textContent = esc_data.rationale||'';
+  el('escDelta').textContent = esc_data.delta||'';
+  const fill=el('escBarFill');
+  fill.style.width=(score/10*100)+'%';
+  fill.style.background=`linear-gradient(90deg,#4caf50,#ffeb3b,#ff9800,${escalationColor(score)})`;
+
+  // Date displays
+  const fmtd = fmtDateShort(dateStr);
+  el('strikesDate').textContent = fmtd;
+  el('casDate').textContent = fmtd;
+  el('updateLogDate').textContent = fmtd;
+  el('dateDisplay').textContent = fmtd;
+
+  // Strikes
+  const eu=(data.strikes_today||{}).eastern_europe||[];
+  const me=(data.strikes_today||{}).middle_east||[];
+  el('strikesCount').textContent=(eu.length+me.length)+' incidents recorded';
+
+  function buildStrikes(list,id){
+    const c=el(id);
+    if(!list.length){c.innerHTML='<div class="empty-state">No strikes recorded.</div>';return;}
+    c.innerHTML=list.map(s=>`<div class="strike-entry">
+      <span class="strike-time">${esc(s.time_utc||'Unknown')}</span>
+      <div class="strike-desc">${tierBadge(s.source_tier)}<strong>${esc(s.attacker)} &rarr; ${esc(s.target_country)}</strong>${s.target_location?' &mdash; '+esc(s.target_location):''}${s.description?': '+esc(s.description):''}</div>
+      <span class="strike-method">${esc(s.method||'')}</span>
+    </div>`).join('');
+  }
+  buildStrikes(eu,'strikesEU');
+  buildStrikes(me,'strikesME');
+
+  // Map
+  initMap();
+  addMarkers(eu,'eu');
+  addMarkers(me,'me');
+  const all=[...eu,...me].filter(s=>s.lat&&s.lng&&!(s.lat===0&&s.lng===0));
+  if(all.length>0) archiveMap.fitBounds(all.map(s=>[parseFloat(s.lat),parseFloat(s.lng)]),{padding:[40,40],maxZoom:7});
+
+  // Casualties
+  const today=(data.casualties||{}).today||[];
+  const tbl=el('casualtiesToday');
+  if(!today.length){
+    tbl.style.display='none';
+    el('casualtiesTodayEmpty').style.display='block';
+  } else {
+    tbl.style.display='';
+    el('casualtiesTodayEmpty').style.display='none';
+    while(tbl.rows.length>1)tbl.deleteRow(1);
+    today.forEach(c=>{
+      const r=tbl.insertRow();
+      r.innerHTML=`<td>${esc(c.incident)}</td><td class="loss-num">${esc(c.kia||'—')}</td><td class="loss-num">${esc(c.wia||'—')}</td><td class="loss-num">${c.civilian?'Yes':'No'}</td>`;
+    });
+  }
+
+  const claimed=(data.casualties||{}).claimed_totals||[];
+  const claimedEl=el('claimedTotals');
+  if(!claimed.length){
+    claimedEl.innerHTML='<div class="empty-state">No claimed figures recorded.</div>';
+  } else {
+    claimedEl.innerHTML=claimed.map(c=>`<div style="padding:8px 0;border-bottom:1px solid var(--rule-light);">
+      <div style="font-size:0.85rem;font-weight:600;">${esc(c.claim)}</div>
+      <div style="display:flex;justify-content:space-between;margin-top:2px;">
+        <span style="font-family:var(--mono);font-size:0.9rem;">${esc(c.figure)}</span>
+        <span style="font-family:var(--mono);font-size:0.58rem;color:var(--ink-3);">${esc(c.claimed_by)}</span>
+      </div>
+    </div>`).join('');
+  }
+
+  // Quotes
+  function buildQuotes(list,id){
+    const c=el(id);
+    if(!list||!list.length){c.innerHTML='<div class="empty-state">No quotes recorded.</div>';return;}
+    c.innerHTML=list.map(q=>`<div class="quote-card">
+      <div class="quote-text">&ldquo;${esc(q.text)}&rdquo;</div>
+      <div class="quote-attr"><strong>${esc(q.speaker)}</strong>${esc(q.title)}${q.date?' &mdash; '+esc(q.date):''}</div>
+    </div>`).join('');
+  }
+  buildQuotes((data.quotes||{}).russia,'quotesRussia');
+  buildQuotes((data.quotes||{}).ukraine,'quotesUkraine');
+  buildQuotes((data.quotes||{}).middle_east,'quotesMiddleEast');
+
+  // Update log
+  const log=data.update_log||[];
+  const logEl=el('updateLog');
+  if(!log.length){logEl.innerHTML='<div class="empty-state">No updates recorded.</div>';}
+  else{
+    logEl.innerHTML=log.map(u=>`<div class="update-entry">
+      <span class="update-time">${esc(u.time||'—')}</span>
+      <span>${tierBadge(u.source_tier)}${esc(u.text)}</span>
+    </div>`).join('');
+  }
+}
+
+// ── DATE LOGIC ────────────────────────────────────────────
+function todayStr(){
+  return new Date().toISOString().slice(0,10);
+}
+
+function adjustDate(dateStr, days){
+  const d = new Date(dateStr+'T00:00:00Z');
+  d.setUTCDate(d.getUTCDate()+days);
+  return d.toISOString().slice(0,10);
+}
+
+async function loadDate(dateStr){
+  el('mainContent').style.display='none';
+  el('errorState').style.display='none';
+  el('escRationale').textContent='Loading archive data\u2026';
+  el('escScore').textContent='—';
+  el('escLevel').textContent='—';
+  el('escBarFill').style.width='0%';
+  el('dateDisplay').textContent='Loading\u2026';
+
+  // Update URL
+  const url = new URL(window.location);
+  url.searchParams.set('date', dateStr);
+  window.history.pushState({}, '', url);
+
+  // Update picker
+  el('datePicker').value = dateStr;
+
+  try {
+    const res = await fetch(`data/archive/${dateStr}.json?v=${Date.now()}`);
+    if(!res.ok) throw new Error('not found');
+    const data = await res.json();
+    renderAll(data, dateStr);
+  } catch(err) {
+    el('mainContent').style.display='none';
+    el('errorState').style.display='block';
+    el('escRationale').textContent='No data available for this date.';
+    el('dateDisplay').textContent = fmtDateShort(dateStr);
+    el('escBarFill').style.width='0%';
+  }
+}
+
+// ── INIT ──────────────────────────────────────────────────
+const params = new URLSearchParams(window.location.search);
+let currentDate = params.get('date') || todayStr();
+
+el('datePicker').value = currentDate;
+el('datePicker').max = todayStr();
+
+el('datePicker').addEventListener('change', e => {
+  currentDate = e.target.value;
+  loadDate(currentDate);
+});
+
+el('prevDay').addEventListener('click', () => {
+  currentDate = adjustDate(currentDate, -1);
+  loadDate(currentDate);
+});
+
+el('nextDay').addEventListener('click', () => {
+  const next = adjustDate(currentDate, 1);
+  if(next <= todayStr()){
+    currentDate = next;
+    loadDate(currentDate);
+  }
+});
+
+el('goToday').addEventListener('click', () => {
+  currentDate = todayStr();
+  loadDate(currentDate);
+});
+
+// Load initial date
+const overlay = el('loadingOverlay');
+loadDate(currentDate).finally(() => {
+  overlay.classList.add('hidden');
+  setTimeout(() => overlay.remove(), 500);
+});
+</script>
+</body>
+</html>
