@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 8.5,
-    "delta": "Unknown - no previous score available",
+    "delta": "N/A - no previous score",
     "level": "High",
-    "rationale": "Active US-Israeli war against Iran with Iranian blockade of Strait of Hormuz causing global shipping crisis and oil over $100."
+    "rationale": "Active US-Israeli military operations against Iran with Strait of Hormuz blockade disrupting global shipping and energy markets."
   },
   "ticker_items": [
-    "Iran blocks 90% of Strait of Hormuz traffic, oil hits $100+",
-    "Trump claims 90% of Iranian missiles destroyed in strikes",
-    "Iran's new Supreme Leader reportedly wounded and disfigured",
-    "4 million displaced by Iran war, Israeli strikes expand in Lebanon",
-    "Hezbollah fires 100 rockets at Israel, Iron Dome intercepts half"
+    "Iran blocks Strait of Hormuz, 90% drop in shipping traffic",
+    "US airstrikes hit Tehran facilities, Iran's leader wounded",
+    "Oil prices surge above $100 amid Gulf shipping crisis",
+    "Hezbollah fires 100 rockets at Israel from Lebanon",
+    "Trump threatens to hit Iran 'very hard' after claiming 90% missile destruction"
   ],
   "new_entrant": {
     "active": false,
@@ -338,6 +338,30 @@
         "figure": "~700",
         "claimed_by": "Democracy Now",
         "as_of": "Past two weeks"
+      },
+      {
+        "claim": "US-Israel Iran war deaths",
+        "figure": "1,444",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-13"
+      },
+      {
+        "claim": "Israeli deaths in Iran conflict",
+        "figure": "~15",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-13"
+      },
+      {
+        "claim": "US military KIA",
+        "figure": "11",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-13"
+      },
+      {
+        "claim": "Iran war displaced persons",
+        "figure": "4 million",
+        "claimed_by": "The New Humanitarian",
+        "as_of": "2026-03-13"
       }
     ]
   },
@@ -436,6 +460,12 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-03-13"
+      },
+      {
+        "text": "It is an 'honour' to be killing Iran's leadership, calling them 'deranged scumbags' and boasting of decimating their military",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-03-13"
       }
     ]
   },
@@ -491,11 +521,31 @@
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Over $100",
+    "brent_crude": "Above $100",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices surged above $100 due to Iran's effective blockade of the Strait of Hormuz, with daily maritime traffic dropping 90%."
+    "notes": "Oil prices surged above $100 as Iran's Strait of Hormuz blockade creates global shipping crisis affecting 20% of global oil supply."
   },
   "update_log": [
+    {
+      "time": "14:00 UTC",
+      "text": "Iran confirms Strait of Hormuz will remain closed to US ships",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Israeli drone strikes hit Basij checkpoints in Tehran",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Hezbollah launches 100 rockets at northern Israel from Lebanon",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Trump vows to hit Iran 'very hard' after claiming 90% missile destruction",
+      "source_tier": "unverified"
+    },
     {
       "time": "Unknown",
       "text": "Iran allows limited Indian LPG tankers through Strait of Hormuz while maintaining blockade",
@@ -617,5 +667,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-14T16:37:37Z"
+  "last_updated": "2026-03-14T16:41:26Z"
 }
