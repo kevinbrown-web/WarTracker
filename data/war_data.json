@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 9.2,
-    "delta": "+0.5 from yesterday",
+    "score": 8.5,
+    "delta": "No previous score available",
     "level": "High",
-    "rationale": "US-Israel war on Iran enters day 15 with attacks on oil facilities, embassy strikes, and Strait of Hormuz blockade causing global shipping crisis."
+    "rationale": "Active US-Israeli war against Iran continues with major oil supply disruption, Strait of Hormuz blockade, and expanding regional conflict involving Lebanon."
   },
   "ticker_items": [
-    "US attacks Iran's Kharg oil island as Tehran threatens retaliation",
-    "US Embassy Baghdad hit by missile, helipad damaged",
-    "Israel kills 12 medics in southern Lebanon strike",
-    "Strait of Hormuz shipping drops 90% amid blockade",
-    "French soldier killed in Iraq attack"
+    "Oil tops $100 as Strait of Hormuz traffic drops 90%",
+    "Israel strikes Hezbollah positions in Beirut city center",
+    "Iranian hacktivists hit medical device maker Stryker globally",
+    "US considers naval escorts through Strait of Hormuz",
+    "Tehran residential areas struck in latest US-Israeli raids"
   ],
   "new_entrant": {
     "active": false,
@@ -62,6 +62,39 @@
         "lat": 33.89,
         "lng": 35.5,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut",
+        "description": "Israeli forces target Hezbollah positions in Beirut city center amid escalating conflict.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "US-Israel",
+        "target_country": "Iran",
+        "target_location": "Tehran",
+        "description": "US-Israeli strikes hit residential areas in Tehran causing civilian casualties.",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.39,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Israel",
+        "target_location": "Northern Israel",
+        "description": "Hezbollah launches approximately 100 rockets at northern Israel with Iron Dome intercepting half.",
+        "method": "Rocket/Surface",
+        "lat": 32.75,
+        "lng": 35.21,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -80,6 +113,20 @@
         "wia": "Several",
         "civilian": false,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Gaza daily attacks",
+        "kia": "5",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Lebanon strikes",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -88,11 +135,42 @@
         "figure": "1,444 in Iran, 15 in Israel, 11 US soldiers, 19 in Gulf states",
         "claimed_by": "Al Jazeera casualty tracker",
         "as_of": "2026-03-13"
+      },
+      {
+        "claim": "Total war casualties Iran",
+        "figure": "~1,444",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "March 13, 2026"
+      },
+      {
+        "claim": "Total war casualties Israel",
+        "figure": "~15",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "March 13, 2026"
+      },
+      {
+        "claim": "Total war casualties US soldiers",
+        "figure": "11",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "March 13, 2026"
+      },
+      {
+        "claim": "Lebanon casualties past two weeks",
+        "figure": "~700",
+        "claimed_by": "Democracy Now",
+        "as_of": "March 13, 2026"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Moscow on Friday urged the United States to lift more sanctions on its oil exports to stabilise the global energy markets, upended by the war in the Middle East.",
+        "speaker": "Unknown official",
+        "title": "Russian official",
+        "date": "March 13, 2026"
+      }
+    ],
     "ukraine": [],
     "middle_east": [
       {
@@ -106,6 +184,18 @@
         "speaker": "Iranian forces",
         "title": "Military spokesman",
         "date": "2026-03-11"
+      },
+      {
+        "text": "US President Donald Trump said the US was willing to escort ships through the Strait of Hormuz to protect them from Iranian attack, as his administration searches for ways to ease high oil prices fuelled by the US-Israeli war on Iran.",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "March 13, 2026"
+      },
+      {
+        "text": "Iranian forces announce that US- and Israeli-affiliated banks and economic institutions in the Middle East will now be targeted.",
+        "speaker": "Iranian forces",
+        "title": "Military spokesman",
+        "date": "March 11, 2026"
       }
     ]
   },
@@ -127,15 +217,52 @@
       "flag": "\ud83c\uddee\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "Congress criticizes government for co-sponsoring UN resolution condemning Iran. Former air chief emphasizes need for stronger air defense systems based on West Asia conflict lessons."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Strategic balancer",
+      "description": "Russia reportedly provided Iran with target data for attacks on US military assets in the Persian Gulf. Moscow is urging the US to lift oil sanctions to stabilize global energy markets disrupted by the Iran war."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Supplying dual-use goods",
+      "description": "Serbia, a NATO partner, purchased Chinese supersonic missiles for its air force. China continues to provide technological support to regional actors amid global instability."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "$100+",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices remain above $100 despite temporary US waiver on Russian oil sanctions as Strait of Hormuz blockade continues."
+    "notes": "Oil prices surged above $100 per barrel due to Strait of Hormuz blockade causing largest oil supply shock in history with 10 million bpd disrupted."
   },
   "update_log": [
+    {
+      "time": "12:44 UTC",
+      "text": "Global shipping crisis as Strait of Hormuz blockade forces 90% drop in maritime traffic.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "Israeli strikes target Hezbollah positions in Beirut city center as conflict expands.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:45 UTC",
+      "text": "Iranian hacktivists strike medical device maker Stryker causing global system shutdown.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:20 UTC",
+      "text": "US-Israeli strikes hit residential areas in Tehran with rescue teams pulling families from rubble.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:15 UTC",
+      "text": "Hezbollah fires approximately 100 rockets at northern Israel with Iron Dome intercepting half.",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:00 UTC",
       "text": "US attacks military sites on Iran's Kharg island containing major oil facilities",
@@ -162,5 +289,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-14T07:50:54Z"
+  "last_updated": "2026-03-14T12:44:10Z"
 }
