@@ -11,6 +11,7 @@ ANTHROPIC_KEY   = os.environ["ANTHROPIC_API_KEY"]
 OUTPUT_PATH     = "data/war_data.json"
 TODAY           = datetime.datetime.utcnow().strftime("%Y-%m-%d")
 NOW             = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+ARCHIVE_PATH    = f"data/archive/{TODAY}.json"
 
 # ── STEP 1: FETCH NEWSAPI HEADLINES ─────────────────────
 def fetch_headlines():
@@ -49,7 +50,6 @@ def fetch_headlines():
                     source = a.get("source", {}).get("name", "Unknown")
                     pub    = a.get("publishedAt", "")[:10]
                     if title and "[Removed]" not in title:
-                        # Tag tier based on source
                         tier = get_source_tier(source)
                         articles.append(f"[{tier}][{source} {pub}] {title}: {desc}")
         except Exception as e:
@@ -84,7 +84,6 @@ def fetch_rss():
                 title = item.findtext("title", "") or ""
                 desc  = item.findtext("description", "") or ""
                 pub   = item.findtext("pubDate", "")[:16] if item.findtext("pubDate") else ""
-                # Only include conflict-relevant items
                 keywords = ["war","conflict","ukraine","russia","israel","iran","gaza","houthi","military","strike","missile","attack","killed","troops","ceasefire","nato","hezbollah"]
                 combined = (title + desc).lower()
                 if any(k in combined for k in keywords):
@@ -95,18 +94,16 @@ def fetch_rss():
     print(f"Total RSS articles: {len(articles)}")
     return articles
 
-# ── STEP 3: FETCH AL JAZEERA LIVE TRACKER ───────────────
+# ── STEP 3: FETCH AL JAZEERA TRACKER ────────────────────
 def fetch_aljazeera_tracker():
     url = "https://www.aljazeera.com/news/2026/3/1/us-israel-attacks-on-iran-death-toll-and-injuries-live-tracker"
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=15) as r:
             raw = r.read().decode("utf-8", errors="ignore")
-        # Extract text between common HTML tags, strip tags
         import re
         text = re.sub(r'<[^>]+>', ' ', raw)
         text = re.sub(r'\s+', ' ', text).strip()
-        # Grab first 3000 chars of meaningful content
         snippet = text[:3000]
         print(f"  AJ tracker fetched: {len(snippet)} chars")
         return f"[VERIFIED][Al Jazeera Live Tracker] Casualty tracker data: {snippet}"
@@ -117,62 +114,150 @@ def fetch_aljazeera_tracker():
 # ── HELPER: SOURCE TIER ──────────────────────────────────
 def get_source_tier(source_name):
     verified = ["reuters","associated press","ap news","bbc","un ","united nations","al jazeera","radio free europe","rferl","the guardian","new york times","washington post","financial times"]
-    analyst  = ["bellingcat","isw","institute for the study","war on the rocks","foreign policy","foreign affairs","defense one","breaking defense","jane's"]
+    analyst  = ["bellingcat","isw","institute for the study","war on the rocks","foreign policy","foreign affairs","defense one","breaking defense"]
     s = source_name.lower()
     if any(v in s for v in verified):  return "VERIFIED"
     if any(a in s for a in analyst):   return "ANALYST"
     return "REPORTED"
 
-# ── STEP 4: LOAD PREVIOUS DATA ───────────────────────────
-def load_previous_data():
+# ── STEP 4: LOAD TODAY'S EXISTING DATA ──────────────────
+def load_today_data():
+    """Load today's archive if it exists — for within-day accumulation."""
+    try:
+        with open(ARCHIVE_PATH, "r") as f:
+            data = json.load(f)
+        print(f"  Found existing data for {TODAY} — will accumulate")
+        return data
+    except Exception:
+        print(f"  No existing data for {TODAY} — starting fresh")
+        return None
+
+def load_previous_escalation():
+    """Load previous escalation score for delta calculation."""
     try:
         with open(OUTPUT_PATH, "r") as f:
             existing = json.load(f)
-        return {
-            "escalation_score": existing.get("escalation", {}).get("score", None),
-            "cumulative": existing.get("casualties", {}).get("cumulative", {})
-        }
+        # Only use previous score if it's from a different day
+        last_updated = existing.get("last_updated", "")[:10]
+        if last_updated != TODAY:
+            score = existing.get("escalation", {}).get("score", None)
+            print(f"  Previous escalation score: {score} (from {last_updated})")
+            return score
+        return None
     except Exception:
-        return {"escalation_score": None, "cumulative": {}}
+        return None
 
-# ── STEP 5: ASK CLAUDE ───────────────────────────────────
-def ask_claude(all_headlines, prev_data):
+def load_cumulative():
+    """Always preserve cumulative casualty totals."""
+    try:
+        with open(OUTPUT_PATH, "r") as f:
+            existing = json.load(f)
+        return existing.get("casualties", {}).get("cumulative", {})
+    except Exception:
+        return {}
+
+# ── STEP 5: MERGE NEW DATA INTO EXISTING ────────────────
+def merge_data(existing, new_data):
+    """
+    Merge new run's data into existing today's data.
+    Accumulate: strikes, casualties today, quotes, update_log, observers, claimed_totals
+    Replace: escalation, ticker_items, financial, new_entrant
+    """
+    merged = existing.copy()
+
+    # Always replace with latest assessment
+    merged["escalation"]   = new_data.get("escalation", merged.get("escalation", {}))
+    merged["ticker_items"] = new_data.get("ticker_items", merged.get("ticker_items", []))
+    merged["financial"]    = new_data.get("financial", merged.get("financial", {}))
+    merged["new_entrant"]  = new_data.get("new_entrant", merged.get("new_entrant", {}))
+
+    # Accumulate strikes — deduplicate by description
+    def merge_strikes(existing_list, new_list):
+        existing_descs = {s.get("description","") for s in existing_list}
+        for s in new_list:
+            if s.get("description","") not in existing_descs:
+                existing_list.append(s)
+                existing_descs.add(s.get("description",""))
+        return existing_list
+
+    merged.setdefault("strikes_today", {"eastern_europe": [], "middle_east": []})
+    merged["strikes_today"]["eastern_europe"] = merge_strikes(
+        merged["strikes_today"].get("eastern_europe", []),
+        new_data.get("strikes_today", {}).get("eastern_europe", [])
+    )
+    merged["strikes_today"]["middle_east"] = merge_strikes(
+        merged["strikes_today"].get("middle_east", []),
+        new_data.get("strikes_today", {}).get("middle_east", [])
+    )
+
+    # Accumulate casualties today — deduplicate by incident name
+    merged.setdefault("casualties", {})
+    existing_incidents = {c.get("incident","") for c in merged["casualties"].get("today", [])}
+    new_incidents = [c for c in new_data.get("casualties", {}).get("today", [])
+                     if c.get("incident","") not in existing_incidents]
+    merged["casualties"]["today"] = merged["casualties"].get("today", []) + new_incidents
+
+    # Accumulate claimed totals — deduplicate by claim+claimed_by
+    existing_claims = {(c.get("claim",""), c.get("claimed_by",""))
+                       for c in merged["casualties"].get("claimed_totals", [])}
+    new_claims = [c for c in new_data.get("casualties", {}).get("claimed_totals", [])
+                  if (c.get("claim",""), c.get("claimed_by","")) not in existing_claims]
+    merged["casualties"]["claimed_totals"] = merged["casualties"].get("claimed_totals", []) + new_claims
+
+    # Accumulate quotes — deduplicate by speaker+text
+    merged.setdefault("quotes", {"russia": [], "ukraine": [], "middle_east": []})
+    for theater in ["russia", "ukraine", "middle_east"]:
+        existing_quotes = {(q.get("speaker",""), q.get("text","")[:50])
+                           for q in merged["quotes"].get(theater, [])}
+        new_quotes = [q for q in new_data.get("quotes", {}).get(theater, [])
+                      if (q.get("speaker",""), q.get("text","")[:50]) not in existing_quotes]
+        merged["quotes"][theater] = merged["quotes"].get(theater, []) + new_quotes
+
+    # Accumulate update log — prepend new items, deduplicate by text
+    existing_texts = {u.get("text","") for u in merged.get("update_log", [])}
+    new_updates = [u for u in new_data.get("update_log", [])
+                   if u.get("text","") not in existing_texts]
+    merged["update_log"] = new_updates + merged.get("update_log", [])
+
+    # Accumulate observers — deduplicate by country
+    existing_countries = {o.get("country","") for o in merged.get("observers", [])}
+    new_observers = [o for o in new_data.get("observers", [])
+                     if o.get("country","") not in existing_countries]
+    merged["observers"] = merged.get("observers", []) + new_observers
+
+    return merged
+
+# ── STEP 6: ASK CLAUDE ───────────────────────────────────
+def ask_claude(all_headlines, prev_score):
     if not all_headlines:
         print("No headlines — skipping Claude call.")
         return None
 
     headlines_text = "\n".join(f"- {h}" for h in all_headlines[:60])
-    prev_score = prev_data.get("escalation_score")
     prev_score_text = f"Yesterday's escalation score was {prev_score}/10." if prev_score else "No previous escalation score available."
 
     prompt = f"""You are a neutral, factual conflict-data analyst for a war tracking website.
-Today is {TODAY}.
+Today is {TODAY}. This is update run {NOW}.
 {prev_score_text}
 
-Headlines are tagged with their source tier:
+Headlines are tagged with source tier:
 [VERIFIED] = Reuters, AP, BBC, UN, Al Jazeera, RFE/RL
 [ANALYST] = Bellingcat, ISW, War on the Rocks, established analysts
-[REPORTED] = Other news outlets
-Items without a tag should be treated as [REPORTED].
+[REPORTED] = Other outlets
 
-Below are recent headlines about ongoing global military conflicts.
 Extract structured data and return ONLY a valid JSON object — no explanation, no markdown, no code fences.
 
 Headlines:
 {headlines_text}
 
-Return this exact JSON structure. For anything not in headlines use empty arrays [] or empty strings "".
+For anything not in headlines use empty arrays [] or empty strings "".
 Casualty numbers: strings like "~500" or "est. 1,200" — never raw integers.
 Strike methods: Air/Drone, Missile/Surface, Ground/Armored, Naval/USV, Naval/Cruise Missile, Ballistic Missile, Anti-Ship Missile, Air/Precision Strike, Rocket/Surface
 For lat/lng: decimal coordinates of target_location. Kyiv=50.45,30.52. Beirut=33.89,35.50.
-For source_tier on strikes/updates: use "verified", "analyst", or "unverified" based on where the info came from.
+source_tier on strikes/updates/casualties: "verified", "analyst", or "unverified"
 
-Escalation score rules:
-1-3=Low: Diplomatic tensions only
-4-5=Guarded: Sporadic strikes, proxy activity
-6-7=Elevated: Active multi-front conflict, direct state strikes
-8-9=High: Superpower involvement, nuclear rhetoric, mass mobilization
-10=Critical: Imminent/active WMD or full superpower war
+Escalation score:
+1-3=Low, 4-5=Guarded, 6-7=Elevated, 8-9=High, 10=Critical
 
 {{
   "escalation": {{
@@ -226,7 +311,7 @@ Escalation score rules:
     ],
     "claimed_totals": [
       {{
-        "claim": "Description of claimed figure e.g. Russian military KIA",
+        "claim": "e.g. Russian military KIA",
         "figure": "~680,000",
         "claimed_by": "Ukraine MoD",
         "as_of": "Date or approximate"
@@ -234,15 +319,9 @@ Escalation score rules:
     ]
   }},
   "quotes": {{
-    "russia": [
-      {{"text": "Quote if found", "speaker": "Name", "title": "Title", "date": "Date"}}
-    ],
-    "ukraine": [
-      {{"text": "Quote if found", "speaker": "Name", "title": "Title", "date": "Date"}}
-    ],
-    "middle_east": [
-      {{"text": "Quote if found", "speaker": "Name", "title": "Title", "date": "Date"}}
-    ]
+    "russia": [{{"text": "Quote", "speaker": "Name", "title": "Title", "date": "Date"}}],
+    "ukraine": [{{"text": "Quote", "speaker": "Name", "title": "Title", "date": "Date"}}],
+    "middle_east": [{{"text": "Quote", "speaker": "Name", "title": "Title", "date": "Date"}}]
   }},
   "observers": [
     {{
@@ -256,7 +335,7 @@ Escalation score rules:
     "usd_rub": "Rate or Unchanged",
     "brent_crude": "Price or Unchanged",
     "wheat_futures": "Price or Unchanged",
-    "notes": "One sentence on any significant financial development today"
+    "notes": "One sentence on any significant financial development"
   }},
   "update_log": [
     {{
@@ -294,33 +373,32 @@ Escalation score rules:
 
     return json.loads(raw)
 
-# ── STEP 6: SAVE ─────────────────────────────────────────
-def save_data(new_data, prev_cumulative):
-    new_data["last_updated"] = NOW
-    new_data.setdefault("casualties", {})
-
-    # Preserve cumulative totals from previous runs
-    if prev_cumulative:
-        new_data["casualties"]["cumulative"] = prev_cumulative
+# ── STEP 7: SAVE ─────────────────────────────────────────
+def save_data(final_data, cumulative):
+    final_data["last_updated"] = NOW
+    final_data.setdefault("casualties", {})
+    if cumulative:
+        final_data["casualties"]["cumulative"] = cumulative
 
     os.makedirs("data", exist_ok=True)
     with open(OUTPUT_PATH, "w") as f:
-        json.dump(new_data, f, indent=2)
-    print(f"✓ war_data.json updated at {NOW}")
+        json.dump(final_data, f, indent=2)
+    print(f"✓ war_data.json saved")
 
-    archive_dir = "data/archive"
-    os.makedirs(archive_dir, exist_ok=True)
-    archive_path = f"{archive_dir}/{TODAY}.json"
-    with open(archive_path, "w") as f:
-        json.dump(new_data, f, indent=2)
-    print(f"✓ Archive saved: {archive_path}")
+    os.makedirs("data/archive", exist_ok=True)
+    with open(ARCHIVE_PATH, "w") as f:
+        json.dump(final_data, f, indent=2)
+    print(f"✓ Archive saved: {ARCHIVE_PATH}")
 
-    esc = new_data.get("escalation", {})
-    print(f"  Escalation:   {esc.get('score','—')}/10 ({esc.get('level','—')})")
-    print(f"  Ticker items: {len(new_data.get('ticker_items',[]))}")
-    print(f"  Strikes EU:   {len(new_data.get('strikes_today',{}).get('eastern_europe',[]))}")
-    print(f"  Strikes ME:   {len(new_data.get('strikes_today',{}).get('middle_east',[]))}")
-    print(f"  Claimed totals: {len(new_data.get('casualties',{}).get('claimed_totals',[]))}")
+    esc = final_data.get("escalation", {})
+    eu  = final_data.get("strikes_today", {}).get("eastern_europe", [])
+    me  = final_data.get("strikes_today", {}).get("middle_east", [])
+    print(f"  Escalation:     {esc.get('score','—')}/10 ({esc.get('level','—')})")
+    print(f"  Strikes EU:     {len(eu)}")
+    print(f"  Strikes ME:     {len(me)}")
+    print(f"  Ticker items:   {len(final_data.get('ticker_items',[]))}")
+    print(f"  Update log:     {len(final_data.get('update_log',[]))}")
+    print(f"  Claimed totals: {len(final_data.get('casualties',{}).get('claimed_totals',[]))}")
 
 # ── MAIN ─────────────────────────────────────────────────
 if __name__ == "__main__":
@@ -345,17 +423,28 @@ if __name__ == "__main__":
 
     print(f"Total sources: {len(all_headlines)}")
 
-    print("Loading previous data...")
-    prev_data = load_previous_data()
-    print(f"  Previous escalation: {prev_data.get('escalation_score')}")
+    # Load previous escalation for delta
+    prev_score = load_previous_escalation()
+
+    # Load cumulative totals (always preserved)
+    cumulative = load_cumulative()
 
     print("Asking Claude to structure data...")
-    structured = ask_claude(all_headlines, prev_data)
+    new_data = ask_claude(all_headlines, prev_score)
 
-    if structured is None:
-        print("No data to save.")
+    if new_data is None:
+        print("No data returned from Claude.")
         exit(1)
 
+    # Check if today's data already exists — accumulate if so
+    existing_today = load_today_data()
+    if existing_today:
+        print("Merging with existing today's data...")
+        final_data = merge_data(existing_today, new_data)
+    else:
+        print("Fresh day — using new data as-is...")
+        final_data = new_data
+
     print("Saving data...")
-    save_data(structured, prev_data.get("cumulative", {}))
+    save_data(final_data, cumulative)
     print("Done ✓")
