@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 8.5,
-    "delta": "No previous data",
+    "delta": "Unknown - no previous score available",
     "level": "High",
-    "rationale": "Active US-Israeli war against Iran with Strait of Hormuz blockade causing 90% drop in shipping traffic and oil prices exceeding $100."
+    "rationale": "Active US-Israeli war against Iran with Iranian blockade of Strait of Hormuz causing global shipping crisis and oil over $100."
   },
   "ticker_items": [
-    "Iran closes Strait of Hormuz to US ships permanently",
-    "Israeli strikes hit Basij checkpoints in Tehran",
-    "Oil prices surge over $100 amid shipping crisis",
+    "Iran blocks 90% of Strait of Hormuz traffic, oil hits $100+",
+    "Trump claims 90% of Iranian missiles destroyed in strikes",
     "Iran's new Supreme Leader reportedly wounded and disfigured",
-    "4 million displaced by Iran war"
+    "4 million displaced by Iran war, Israeli strikes expand in Lebanon",
+    "Hezbollah fires 100 rockets at Israel, Iron Dome intercepts half"
   ],
   "new_entrant": {
     "active": false,
@@ -161,6 +161,39 @@
         "lat": 33.27,
         "lng": 35.58,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "Tehran",
+        "description": "Israeli drone strikes hit Basij paramilitary checkpoints in Tehran",
+        "method": "Air/Drone",
+        "lat": 35.6944,
+        "lng": 51.4215,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Israel",
+        "target_location": "Northern Israel",
+        "description": "Hezbollah launched approximately 100 rockets from Lebanon into northern Israel",
+        "method": "Rocket/Surface",
+        "lat": 33.2774,
+        "lng": 35.8066,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Qlayaa",
+        "description": "Israeli attack killed a priest in Lebanese church shelling",
+        "method": "Air/Precision Strike",
+        "lat": 33.4667,
+        "lng": 35.5833,
+        "source_tier": "verified"
       }
     ]
   },
@@ -275,6 +308,36 @@
         "figure": "4 million",
         "claimed_by": "The New Humanitarian",
         "as_of": "2026-03-13"
+      },
+      {
+        "claim": "Total deaths in US-Israel attacks on Iran",
+        "figure": "~1,444",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-03-13"
+      },
+      {
+        "claim": "Israeli deaths in Iran conflict",
+        "figure": "~15",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-03-13"
+      },
+      {
+        "claim": "US soldier deaths",
+        "figure": "11",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-03-13"
+      },
+      {
+        "claim": "Deaths in Gulf states",
+        "figure": "19",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-03-13"
+      },
+      {
+        "claim": "Lebanese deaths from Israeli strikes",
+        "figure": "~700",
+        "claimed_by": "Democracy Now",
+        "as_of": "Past two weeks"
       }
     ]
   },
@@ -298,6 +361,12 @@
         "text": "The Ukrainian president is in Paris for talks with one of Kyiv's staunchest allies as the US-Israeli war on Iran has removed pressure on Moscow.",
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
+        "date": "2026-03-13"
+      },
+      {
+        "text": "US 30-day waiver on Russian oil sanctions is 'not the right decision' and won't help bring a stop to Russia's more than 4-year-old invasion of Ukraine",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "Ukrainian President",
         "date": "2026-03-13"
       }
     ],
@@ -349,6 +418,24 @@
         "speaker": "Iranian Expediency Council member",
         "title": "Council Member",
         "date": "2026-03-14"
+      },
+      {
+        "text": "honour to be killing Iranian military, calling them 'deranged scumbags' and boasting of decimating their military",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-03-13"
+      },
+      {
+        "text": "the new so-called not-so-supreme leader is wounded and likely disfigured. He issued a weak written statement yesterday, but there was no voice or video",
+        "speaker": "Pete Hegseth",
+        "title": "US Defense Secretary",
+        "date": "2026-03-13"
+      },
+      {
+        "text": "the US was willing to escort ships through the Strait of Hormuz to protect them from Iranian attack",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-03-13"
       }
     ]
   },
@@ -394,15 +481,41 @@
       "flag": "\ud83c\uddea\ud83c\uddfa",
       "status": "Strategic balancer",
       "description": "EU nations remain divided on Iran war response, balancing political loyalty with energy security concerns. France leads efforts for international naval escorts to reopen Strait of Hormuz shipping routes."
+    },
+    {
+      "country": "Serbia",
+      "flag": "\ud83c\uddf7\ud83c\uddf8",
+      "status": "Supplying dual-use goods",
+      "description": "Serbia, despite being a NATO partner and EU candidate, purchased Chinese supersonic missiles for its air force. This arms acquisition suggests Serbia is hedging between Western and Eastern military suppliers."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Over $100",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices surged above $100 due to Strait of Hormuz blockade causing global shipping crisis with 90% traffic drop."
+    "notes": "Oil prices surged above $100 due to Iran's effective blockade of the Strait of Hormuz, with daily maritime traffic dropping 90%."
   },
   "update_log": [
+    {
+      "time": "Unknown",
+      "text": "Iran allows limited Indian LPG tankers through Strait of Hormuz while maintaining blockade",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Israeli drone strikes hit Basij paramilitary checkpoints in Tehran",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Vatican envoy visits Lebanese church after priest killed in Israeli shelling",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Hezbollah fires 100 rockets at northern Israel, Iron Dome intercepts approximately half",
+      "source_tier": "unverified"
+    },
     {
       "time": "16:20 UTC",
       "text": "Iran declares Strait of Hormuz permanently closed to US ships according to Expediency Council member.",
@@ -504,5 +617,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-14T16:28:14Z"
+  "last_updated": "2026-03-14T16:37:37Z"
 }
