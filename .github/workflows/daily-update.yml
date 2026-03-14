@@ -25,6 +25,9 @@ jobs:
         env:
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM: ${{ secrets.TELEGRAM }}
+          BEEHIIV: ${{ secrets.BEEHIIV }}
+          WEATHER: ${{ secrets.WEATHER }}
         run: python update_war_data.py
 
       - name: Commit updated data
