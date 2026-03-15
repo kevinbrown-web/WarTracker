@@ -197,12 +197,12 @@ def merge_data(existing, new_data):
                      if c.get("incident","") not in existing_incidents]
     merged["casualties"]["today"] = merged["casualties"].get("today", []) + new_incidents
 
-   # Accumulate claimed totals — deduplicate by figure+claimed_by
-existing_claims = {(c.get("figure",""), c.get("claimed_by",""))
+    # Accumulate claimed totals — deduplicate by figure+claimed_by
+    existing_claims = {(c.get("figure",""), c.get("claimed_by",""))
                    for c in merged["casualties"].get("claimed_totals", [])}
-new_claims = [c for c in new_data.get("casualties", {}).get("claimed_totals", [])
+    new_claims = [c for c in new_data.get("casualties", {}).get("claimed_totals", [])
               if (c.get("figure",""), c.get("claimed_by","")) not in existing_claims]
-merged["casualties"]["claimed_totals"] = merged["casualties"].get("claimed_totals", []) + new_claims
+    merged["casualties"]["claimed_totals"] = merged["casualties"].get("claimed_totals", []) + new_claims
 
     # Accumulate quotes — deduplicate by speaker+text
     merged.setdefault("quotes", {"russia": [], "ukraine": [], "middle_east": []})
