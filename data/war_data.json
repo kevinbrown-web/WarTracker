@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 8,
-    "delta": "No previous data",
+    "delta": "N/A - first assessment",
     "level": "High",
-    "rationale": "Active US-Iran war in third week with strikes on US Embassy Baghdad, Israeli ground operations in Lebanon, and Iran closing Strait of Hormuz affecting global shipping."
+    "rationale": "Active US-Iran war in third week with Iranian missile strikes on Tel Aviv, US embassy Baghdad hit, and Israel planning massive Lebanon ground invasion."
   },
   "ticker_items": [
-    "Iran-US war enters third week, US Embassy Baghdad hit by drone",
-    "Israeli medics killed in southern Lebanon attack, 12 dead",
-    "Russian strike on Kyiv region kills 4, wounds 15",
-    "North Korea fires 10 ballistic missiles toward eastern sea",
-    "Strait of Hormuz blockade causes 90% drop in shipping traffic"
+    "Iranian missile strikes Tel Aviv - CCTV footage released",
+    "US Embassy Baghdad hit by Iranian drone attack",
+    "Israel planning massive ground invasion of southern Lebanon",
+    "Iran closes Strait of Hormuz - shipping traffic drops 90%",
+    "Hamas urges Iran to stop targeting neighboring countries"
   ],
   "new_entrant": {
     "active": false,
@@ -46,6 +46,17 @@
         "target_country": "Ukraine",
         "target_location": "Kyiv region",
         "description": "Combined missile and drone attack hit four districts, damaging residential buildings and critical infrastructure.",
+        "method": "Missile/Surface",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv region",
+        "description": "Combined missile and drone attack kills 4 and wounds 15 in four districts",
         "method": "Missile/Surface",
         "lat": 50.45,
         "lng": 30.52,
@@ -140,6 +151,50 @@
         "lat": 24.3,
         "lng": 54.7,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Israel",
+        "target_location": "Tel Aviv",
+        "description": "Iranian missile strikes street in Tel Aviv captured on CCTV",
+        "method": "Ballistic Missile",
+        "lat": 32.08,
+        "lng": 34.78,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Iraq",
+        "target_location": "Baghdad",
+        "description": "Missile strikes helipad inside US Embassy compound",
+        "method": "Missile/Surface",
+        "lat": 33.33,
+        "lng": 44.39,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "Tehran",
+        "description": "Israeli drones strike Basij paramilitary checkpoints",
+        "method": "Air/Drone",
+        "lat": 35.69,
+        "lng": 51.42,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "UAE",
+        "target_location": "UAE oil hub",
+        "description": "Fire at UAE oil facility amid Iranian retaliation warnings",
+        "method": "Air/Drone",
+        "lat": 25.2,
+        "lng": 55.27,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -172,6 +227,13 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Russian strikes Kyiv region",
+        "kia": "4",
+        "wia": "15",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -186,12 +248,31 @@
         "figure": "1,444 dead in Iran, 15 in Israel, 13 US soldiers, 19 in Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-15"
+      },
+      {
+        "claim": "US-Israel Iran war total deaths",
+        "figure": "1,491",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-03-15"
+      },
+      {
+        "claim": "Iranian deaths",
+        "figure": "1,444",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-03-15"
       }
     ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "30-day US waiver on Russian oil sanctions amid the Iran war is 'not the right decision'",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-03-14"
+      }
+    ],
     "middle_east": [
       {
         "text": "The United States on Friday attacked military targets on Iran's main oil hub of Kharg Island, threatening to strike oil infrastructure on the island if Iran continues to block shipping through the Strait of Hormuz.",
@@ -216,6 +297,12 @@
         "speaker": "Iran's representative",
         "title": "Iranian official in India",
         "date": "2026-03-14"
+      },
+      {
+        "text": "It's costing American taxpayers $1 billion a day to fund this war",
+        "speaker": "Elizabeth Warren",
+        "title": "US Senator",
+        "date": "2026-03-14"
       }
     ]
   },
@@ -237,15 +324,46 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Monitoring",
       "description": "Fired approximately 10 ballistic missiles toward eastern sea in show of force as South Korea conducts joint military exercises with United States."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "Russia delivered over 13 tons of emergency medical supplies to Iran via Azerbaijan. Moscow continues strikes on Ukraine while benefiting from diverted US attention to Middle East conflict."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Over $100",
+    "brent_crude": "$100+",
     "wheat_futures": "Unchanged",
-    "notes": "Oil trading over $100 after US admitted inability to control Strait of Hormuz, with 90% drop in maritime traffic through critical chokepoint."
+    "notes": "Oil prices surge above $100 after Iran effectively closes Strait of Hormuz chokepoint handling 20% of global supply."
   },
   "update_log": [
+    {
+      "time": "16:54 UTC",
+      "text": "Iranian missile strikes Tel Aviv street captured on CCTV footage",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:45 UTC",
+      "text": "US Embassy Baghdad compound hit by Iranian missile on helipad",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:30 UTC",
+      "text": "Israel planning massive ground invasion of southern Lebanon up to Litani River",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:15 UTC",
+      "text": "Russian strikes on Kyiv region kill 4 civilians and wound 15",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Hamas calls on Iran to stop targeting neighboring Gulf countries",
+      "source_tier": "unverified"
+    },
     {
       "time": "13:59 UTC",
       "text": "Iran strikes US Embassy Baghdad compound with drone as Middle East war enters third week",
@@ -307,5 +425,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-15T13:59:26Z"
+  "last_updated": "2026-03-15T16:54:08Z"
 }
