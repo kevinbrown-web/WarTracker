@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.8,
-    "delta": "+0.3 from yesterday",
+    "score": 8,
+    "delta": "No previous data",
     "level": "High",
-    "rationale": "US strikes on Iran's Kharg Island oil hub, continued Strait of Hormuz blockade, and Israeli attacks killing medical staff in Lebanon maintain high regional tensions."
+    "rationale": "Active US-Iran war in third week with strikes on US Embassy Baghdad, Israeli ground operations in Lebanon, and Iran closing Strait of Hormuz affecting global shipping."
   },
   "ticker_items": [
-    "US strikes military targets on Iran's Kharg Island oil hub",
-    "North Korea fires 10 ballistic missiles during US-South Korea exercises",
-    "Israeli strike kills 12 medical staff in southern Lebanon",
-    "Iran maintains Strait of Hormuz blockade, oil prices surge",
-    "US embassy Baghdad attacked by Iran-backed groups"
+    "Iran-US war enters third week, US Embassy Baghdad hit by drone",
+    "Israeli medics killed in southern Lebanon attack, 12 dead",
+    "Russian strike on Kyiv region kills 4, wounds 15",
+    "North Korea fires 10 ballistic missiles toward eastern sea",
+    "Strait of Hormuz blockade causes 90% drop in shipping traffic"
   ],
   "new_entrant": {
     "active": false,
@@ -38,6 +38,17 @@
         "method": "Ballistic Missile",
         "lat": 38.0,
         "lng": 129.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv region",
+        "description": "Combined missile and drone attack hit four districts, damaging residential buildings and critical infrastructure.",
+        "method": "Missile/Surface",
+        "lat": 50.45,
+        "lng": 30.52,
         "source_tier": "unverified"
       }
     ],
@@ -96,6 +107,39 @@
         "lat": 32.08,
         "lng": 34.78,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Iraq",
+        "target_location": "Baghdad",
+        "description": "Drone strike hit US Embassy compound helipad causing significant alarm.",
+        "method": "Air/Drone",
+        "lat": 33.31,
+        "lng": 44.36,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli attack killed 12 medics including doctors, paramedics and nurses on duty.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "UAE",
+        "target_location": "Energy facility",
+        "description": "Debris from intercepted Iranian drone caused damage to major Emirati energy facility.",
+        "method": "Air/Drone",
+        "lat": 24.3,
+        "lng": 54.7,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -114,11 +158,31 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Kyiv region strike",
+        "kia": "4",
+        "wia": "15",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Southern Lebanon medics attack",
+        "kia": "12",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
       {
         "claim": "Iran war casualties",
+        "figure": "1,444 dead in Iran, 15 in Israel, 13 US soldiers, 19 in Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-15"
+      },
+      {
+        "claim": "US-Israel Iran war casualties",
         "figure": "1,444 dead in Iran, 15 in Israel, 13 US soldiers, 19 in Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-15"
@@ -140,6 +204,18 @@
         "speaker": "Iranian officials",
         "title": "Government representatives",
         "date": "2026-03-14"
+      },
+      {
+        "text": "Hamas called on Iran to refrain from targeting neighboring countries, while affirming Tehran's right to defend itself",
+        "speaker": "Hamas",
+        "title": "Palestinian organization",
+        "date": "2026-03-14"
+      },
+      {
+        "text": "Of course. Yes - Indian ships will be permitted passage through the Strait of Hormuz",
+        "speaker": "Iran's representative",
+        "title": "Iranian official in India",
+        "date": "2026-03-14"
       }
     ]
   },
@@ -155,15 +231,41 @@
       "flag": "\ud83c\udde8\ud83c\udde6",
       "status": "Active materiel + troops",
       "description": "Canada is holding firm on Russian shadow fleet sanctions despite Trump administration's decision to ease restrictions. Prime Minister-designate Carney stated Canada's independent position on maintaining pressure on Russian oil exports."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Monitoring",
+      "description": "Fired approximately 10 ballistic missiles toward eastern sea in show of force as South Korea conducts joint military exercises with United States."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Over $100",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices surged above $100 due to continued Strait of Hormuz blockade and US strikes on Iran's Kharg Island oil hub."
+    "notes": "Oil trading over $100 after US admitted inability to control Strait of Hormuz, with 90% drop in maritime traffic through critical chokepoint."
   },
   "update_log": [
+    {
+      "time": "13:59 UTC",
+      "text": "Iran strikes US Embassy Baghdad compound with drone as Middle East war enters third week",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:59 UTC",
+      "text": "Israel kills 12 medics in southern Lebanon attack according to Al Jazeera",
+      "source_tier": "verified"
+    },
+    {
+      "time": "13:59 UTC",
+      "text": "Russian combined missile and drone strike on Kyiv region kills 4 civilians, wounds 15",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:59 UTC",
+      "text": "North Korea fires about 10 ballistic missiles toward eastern sea in show of force",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:30 UTC",
       "text": "Al Jazeera casualty tracker updated with preliminary war death tolls.",
@@ -205,5 +307,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-15T07:55:46Z"
+  "last_updated": "2026-03-15T13:59:26Z"
 }
