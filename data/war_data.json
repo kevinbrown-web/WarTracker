@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 8.5,
-    "delta": "+0.5 from yesterday",
+    "delta": "No previous data",
     "level": "High",
-    "rationale": "US strikes on Iran's Kharg Island oil hub escalate conflict while Iran expands attacks to Gulf states including Dubai airport disruption."
+    "rationale": "Active US-Israel war against Iran continues with strikes on Isfahan nuclear facilities, Strait of Hormuz closure disrupting global oil supply, and expanding regional involvement including Lebanon ground invasion preparations."
   },
   "ticker_items": [
-    "US strikes Iran's critical Kharg Island oil export hub",
-    "Iran drone strike disrupts Dubai airport, flights suspended",
-    "Spain permanently withdraws ambassador from Israel",
-    "North Korea fires 10 ballistic missiles during US-ROK exercises",
-    "Strait of Hormuz blockade causes 90% drop in shipping traffic"
+    "US-Israeli strikes hit Iran's Isfahan nuclear sites as Trump rejects deal",
+    "Iran closes Strait of Hormuz, oil prices soar globally",
+    "Israel prepares massive ground invasion of southern Lebanon",
+    "Iran fires advanced Sejjil ballistic missile at Israel for first time",
+    "F1 cancels Bahrain and Saudi Arabia races due to Iran war"
   ],
   "new_entrant": {
     "active": false,
@@ -24,6 +24,17 @@
         "target_country": "Ukraine",
         "target_location": "Kyiv region",
         "description": "Russian missile and drone attacks killed six people including father of two in Brovary.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple regions including Kyiv",
+        "description": "Russian missiles and drones killed six people across several Ukrainian regions",
         "method": "Air/Drone",
         "lat": 50.45,
         "lng": 30.52,
@@ -74,6 +85,28 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "US-Israel",
+        "target_country": "Iran",
+        "target_location": "Isfahan",
+        "description": "Coordinated airstrikes targeted military and nuclear facilities in Isfahan",
+        "method": "Air/Precision Strike",
+        "lat": 32.65,
+        "lng": 51.68,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Israel",
+        "target_location": "Israel",
+        "description": "Iran deployed Sejjil ballistic missile for first time in conflict",
+        "method": "Ballistic Missile",
+        "lat": 31.77,
+        "lng": 35.23,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -99,6 +132,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian strikes on Ukraine",
+        "kia": "6",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -107,12 +147,37 @@
         "figure": "1,444 dead in Iran, 15 in Israel, 13 US soldiers, 19 in Gulf states",
         "claimed_by": "Al Jazeera",
         "as_of": "March 15, 2026"
+      },
+      {
+        "claim": "Iran war deaths",
+        "figure": "1,444",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "March 16, 2026"
+      },
+      {
+        "claim": "Israeli deaths in Iran war",
+        "figure": "~15",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "March 16, 2026"
+      },
+      {
+        "claim": "US military deaths in Iran war",
+        "figure": "13",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "March 16, 2026"
       }
     ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "I am ready for the next trilateral peace talks with the U.S. and Russia, but the meeting depends on Washington and Moscow",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "Ukrainian President",
+        "date": "March 15, 2026"
+      }
+    ],
     "middle_east": [
       {
         "text": "T\u00fcrkiye will resist all kinds of provocations amid rising tensions in the Middle East",
@@ -125,6 +190,18 @@
         "speaker": "Ant\u00f3nio Guterres",
         "title": "UN Secretary-General",
         "date": "March 14, 2026"
+      },
+      {
+        "text": "We don't see any reason why we should talk with Americans",
+        "speaker": "Abbas Araghchi",
+        "title": "Iranian Foreign Minister",
+        "date": "March 15, 2026"
+      },
+      {
+        "text": "Not ready for a deal with Iran",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "March 15, 2026"
       }
     ]
   },
@@ -146,15 +223,47 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Monitoring",
       "description": "North Korea fired approximately 10 ballistic missiles toward the eastern sea as a show of force during US-South Korea joint military exercises. The timing suggests coordination with broader anti-US messaging."
+    },
+    {
+      "country": "Kenya",
+      "flag": "\ud83c\uddf0\ud83c\uddea",
+      "status": "Mediator + arms supplier",
+      "description": "Foreign Minister Musalia Mudavadi flew to Moscow to halt illegal recruitment of over 1,000 Kenyan citizens for the Ukraine war. Kenya and Russia agreed no Kenyans will be recruited for the Ukraine conflict going forward."
+    },
+    {
+      "country": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "status": "Mediator + arms supplier",
+      "description": "France offered to broker talks between Lebanon and Israel amid threats of Israeli ground invasion in southern Lebanon. The diplomatic efforts come as Israel continues sustained air raids in the region."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Soaring",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices soaring due to Iran's effective closure of Strait of Hormuz with 90% drop in maritime traffic."
+    "notes": "Strategic oil releases from US and allies steady markets but cannot fix Strait of Hormuz disruption causing global energy supply uncertainty."
   },
   "update_log": [
+    {
+      "time": "Unknown",
+      "text": "US and Israeli forces launch coordinated airstrikes on Isfahan nuclear facilities",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Iran deploys advanced Sejjil ballistic missile against Israel for first time",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Formula 1 cancels April races in Bahrain and Saudi Arabia due to Iran war safety concerns",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Lebanon prepares delegation for talks as Israel plans massive ground invasion",
+      "source_tier": "unverified"
+    },
     {
       "time": "09:00 UTC",
       "text": "Iran drone strike disrupts Dubai airport operations with temporary flight suspensions",
@@ -181,5 +290,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-16T09:17:18Z"
+  "last_updated": "2026-03-16T15:44:36Z"
 }
