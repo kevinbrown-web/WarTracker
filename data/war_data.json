@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 8.5,
-    "delta": "+0.5 from yesterday",
+    "delta": "No previous data",
     "level": "High",
-    "rationale": "US strikes near Chabahar Free Trade Zone near Pakistan border while Iran continues Gulf attacks including Dubai airport disruption."
+    "rationale": "Active US-Israeli war against Iran in third week with Strait of Hormuz closed, Israeli ground operations in Lebanon launched, and multiple strikes ongoing."
   },
   "ticker_items": [
-    "Iranian drone strikes Dubai airport, flights suspended temporarily",
-    "US jets hit military facility near Chabahar Free Trade Zone",
-    "Trump claims US has 'virtually unlimited' ammunition stocks",
-    "Iran maintains stranglehold on Strait of Hormuz shipping",
-    "Israel plans at least three more weeks of Iran operations"
+    "Israel launches limited ground operations in southern Lebanon against Hezbollah",
+    "Strait of Hormuz remains closed to US/Israeli vessels, allies refuse military help",
+    "US airstrikes hit Hamadan as Iran-US war enters third week",
+    "Qatar Airways announces limited flight operations from March 18",
+    "Trump threatens strikes on Iran's Kharg Island in PBS phone call"
   ],
   "new_entrant": {
     "active": false,
@@ -50,6 +50,28 @@
         "method": "Air/Precision Strike",
         "lat": 33.85,
         "lng": 35.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Hamadan",
+        "description": "US airstrikes pounded the western Iranian city of Hamadan as part of ongoing military campaign.",
+        "method": "Air/Precision Strike",
+        "lat": 34.8,
+        "lng": 48.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli forces began limited targeted ground operations against Hezbollah strongholds in southern Lebanon.",
+        "method": "Ground/Armored",
+        "lat": 33.3,
+        "lng": 35.4,
         "source_tier": "unverified"
       }
     ]
@@ -111,6 +133,18 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-03-16"
+      },
+      {
+        "text": "Shiites won't return to south of Litani River",
+        "speaker": "Israel Katz",
+        "title": "Israeli Defense Minister",
+        "date": "March 16, 2026"
+      },
+      {
+        "text": "Iran is being decimated",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "March 16, 2026"
       }
     ]
   },
@@ -132,15 +166,53 @@
       "flag": "\ud83c\uddec\ud83c\udde7",
       "status": "Basing + logistics",
       "description": "Starmer says UK working with allies on Strait of Hormuz plan after Trump call but insists UK won't be dragged into broader conflict. Britain balancing alliance obligations with domestic concerns."
+    },
+    {
+      "country": "European Union",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "status": "Abstaining",
+      "description": "EU leaders rejected military involvement in Strait of Hormuz operations despite Trump's demands. Foreign ministers are examining shifting focus of Red Sea naval mission but maintain this is 'not NATO's war'."
+    },
+    {
+      "country": "Qatar",
+      "flag": "\ud83c\uddf6\ud83c\udde6",
+      "status": "Mediator + arms supplier",
+      "description": "Qatar Airways announced limited flight operations starting March 18, indicating regional aviation disruption. Qatar maintains neutral stance while experiencing indirect conflict effects."
+    },
+    {
+      "country": "South Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf7",
+      "status": "Active materiel + troops",
+      "description": "US has diverted South Korea's missile defense systems to support Iran war operations. This redeployment creates geopolitical ripple effects in East Asia amid North Korean missile tests."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Soaring",
+    "brent_crude": "Elevated",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices volatile as investors assess Kharg Island attack impact while gas prices up 25% since Iran war started."
+    "notes": "Oil prices remain elevated due to Strait of Hormuz closure affecting one-fifth of global oil and LNG supplies."
   },
   "update_log": [
+    {
+      "time": "15:30 UTC",
+      "text": "EU leaders formally reject military involvement in Strait of Hormuz operations",
+      "source_tier": "verified"
+    },
+    {
+      "time": "14:20 UTC",
+      "text": "Israel announces limited ground operations in southern Lebanon against Hezbollah",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Fresh US airstrikes reported on Hamadan as Iran war enters third week",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:30 UTC",
+      "text": "Qatar Airways announces limited flight operations starting March 18",
+      "source_tier": "verified"
+    },
     {
       "time": "08:00 UTC",
       "text": "US officials predict Iran war will end within weeks despite Tehran claiming it can outlast enemies",
@@ -162,5 +234,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-17T08:06:00Z"
+  "last_updated": "2026-03-17T15:43:45Z"
 }
