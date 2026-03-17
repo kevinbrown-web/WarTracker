@@ -1,23 +1,34 @@
 {
   "escalation": {
     "score": 8.5,
-    "delta": "No previous data",
+    "delta": "Unknown - no previous data",
     "level": "High",
-    "rationale": "Active US-Israeli war against Iran in third week with Strait of Hormuz closed, Israeli ground operations in Lebanon launched, and multiple strikes ongoing."
+    "rationale": "Active US-Israel war against Iran continues with Israeli ground operations in Lebanon and Iran's Strait of Hormuz blockade causing global oil crisis."
   },
   "ticker_items": [
-    "Israel launches limited ground operations in southern Lebanon against Hezbollah",
-    "Strait of Hormuz remains closed to US/Israeli vessels, allies refuse military help",
-    "US airstrikes hit Hamadan as Iran-US war enters third week",
-    "Qatar Airways announces limited flight operations from March 18",
-    "Trump threatens strikes on Iran's Kharg Island in PBS phone call"
+    "Israel launches limited ground assault in southern Lebanon against Hezbollah",
+    "Iran blocks Strait of Hormuz, oil prices surge 40-50%",
+    "US allies refuse Trump's request for Hormuz coalition support",
+    "Israeli strikes continue pounding Iran, three-week war plan announced"
   ],
   "new_entrant": {
     "active": false,
     "text": ""
   },
   "strikes_today": {
-    "eastern_europe": [],
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "North Korea",
+        "target_country": "Sea of Japan",
+        "target_location": "Eastern Sea",
+        "description": "North Korea fired about 10 ballistic missiles toward the eastern sea in show of force during US-South Korea exercises.",
+        "method": "Ballistic Missile",
+        "lat": 37.5,
+        "lng": 129.0,
+        "source_tier": "unverified"
+      }
+    ],
     "middle_east": [
       {
         "time_utc": "Unknown",
@@ -73,6 +84,50 @@
         "lat": 33.3,
         "lng": 35.4,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli forces launched limited ground operations against Hezbollah in southern Lebanon.",
+        "method": "Ground/Armored",
+        "lat": 33.2,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "Multiple sites",
+        "description": "Israeli airstrikes pounded sites across Iran overnight as part of ongoing three-week war campaign.",
+        "method": "Air/Precision Strike",
+        "lat": 32.4,
+        "lng": 53.7,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "UAE",
+        "target_location": "Dubai",
+        "description": "Iranian drone attacks temporarily shut Dubai airport and hit key oil facility.",
+        "method": "Air/Drone",
+        "lat": 25.3,
+        "lng": 55.3,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Bahrain",
+        "target_location": "Bahrain",
+        "description": "Iran targeted Bahrain with drone strikes in show of defiance.",
+        "method": "Air/Drone",
+        "lat": 26.1,
+        "lng": 50.6,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -106,7 +161,14 @@
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "The EU has failed as a credible mediator in the Ukraine peace talks",
+        "speaker": "Sergey Lavrov",
+        "title": "Russian Foreign Minister",
+        "date": "2026-03-16"
+      }
+    ],
     "ukraine": [
       {
         "text": "The Druzhba pipeline will stay closed as Ukraine hopes to punish Slovakia for desiring peace between Kiev and Moscow",
@@ -145,6 +207,18 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "March 16, 2026"
+      },
+      {
+        "text": "We want to make sure they are as weak as possible",
+        "speaker": "Israeli military spokesperson",
+        "title": "IDF Spokesperson",
+        "date": "2026-03-16"
+      },
+      {
+        "text": "Some are less than enthusiastic",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-03-16"
       }
     ]
   },
@@ -184,15 +258,41 @@
       "flag": "\ud83c\uddf0\ud83c\uddf7",
       "status": "Active materiel + troops",
       "description": "US has diverted South Korea's missile defense systems to support Iran war operations. This redeployment creates geopolitical ripple effects in East Asia amid North Korean missile tests."
+    },
+    {
+      "country": "Kenya",
+      "flag": "\ud83c\uddf0\ud83c\uddea",
+      "status": "Strategic balancer",
+      "description": "Kenya's Foreign Minister met with Lavrov in Moscow, reaching agreement that Kenyans will cease enlisting in Russian military operations in Ukraine. This diplomatic shift affects over a thousand Kenyan fighters previously recruited for the conflict."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated",
+    "brent_crude": "Surged 40-50%",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices remain elevated due to Strait of Hormuz closure affecting one-fifth of global oil and LNG supplies."
+    "notes": "Global oil prices have surged dramatically due to Iran's blockade of the Strait of Hormuz, threatening recession concerns."
   },
   "update_log": [
+    {
+      "time": "19:00 UTC",
+      "text": "Israel launches limited ground operations against Hezbollah in southern Lebanon",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "Trump says allies are 'less than enthusiastic' about Hormuz coalition as requests go unanswered",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:00 UTC",
+      "text": "Iranian drone strikes temporarily shut Dubai airport and hit UAE oil facilities",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Israel announces plans for at least three more weeks of war as airstrikes continue pounding Iran",
+      "source_tier": "unverified"
+    },
     {
       "time": "15:30 UTC",
       "text": "EU leaders formally reject military involvement in Strait of Hormuz operations",
@@ -234,5 +334,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-17T15:43:45Z"
+  "last_updated": "2026-03-17T20:01:18Z"
 }
