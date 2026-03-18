@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.8,
-    "delta": "+0.3 from yesterday",
+    "score": 8,
+    "delta": "No previous data",
     "level": "High",
-    "rationale": "Multiple high-casualty strikes including Pakistan airstrikes on Kabul hospital killing 400 and escalating Iranian missile attacks on Israel killing 2."
+    "rationale": "Killing of Iran's security chief Ali Larijani and new Israeli ground operations in Lebanon mark significant escalation in US-Israel war against Iran."
   },
   "ticker_items": [
-    "Pakistan airstrikes kill 400 at Kabul hospital",
-    "Iranian missiles hit central Israel, 2 dead",
-    "Israel begins ground offensive in Lebanon",
-    "Iran hits UAE gas field, closes Hormuz Strait",
-    "US embassy Baghdad hit by rockets, drones"
+    "Iran security chief Ali Larijani killed in Israeli overnight strike",
+    "Israel launches new ground operations in Lebanon displacing 1M",
+    "Trump seeks NATO help reopening blocked Strait of Hormuz",
+    "US counterterrorism director resigns over Iran war policy",
+    "Iranian attack on South Pars gasfield threatens Gulf energy"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Pakistan has escalated involvement through deadly airstrikes on Afghanistan territory targeting Kabul hospital."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [],
@@ -73,6 +73,28 @@
         "lat": 33.31,
         "lng": 44.37,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "Unknown location",
+        "description": "Israeli strike killed Iran's Supreme National Security Council head Ali Larijani and paramilitary commander",
+        "method": "Air/Precision Strike",
+        "lat": 32.0,
+        "lng": 53.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "South Pars gasfield",
+        "description": "Israeli attack on Iran's offshore South Pars gasfield threatens Gulf energy infrastructure",
+        "method": "Air/Precision Strike",
+        "lat": 27.5,
+        "lng": 52.0,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -112,12 +134,37 @@
         "figure": "~15",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-17"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "~1,444",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-18"
+      },
+      {
+        "claim": "Israeli deaths in Iran conflict",
+        "figure": "~17",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-18"
+      },
+      {
+        "claim": "US military deaths",
+        "figure": "~13",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-18"
       }
     ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Ukraine Ready to Defend Americans 'Without Second Thought' in Iran War",
+        "speaker": "Volodymyr Zelensky",
+        "title": "Ukrainian President",
+        "date": "2026-03-17"
+      }
+    ],
     "middle_east": [
       {
         "text": "Iran will continue to resist attack by the US armed forces until US President Donald Trump realizes that the conflict he initiated was a mistake and must never be repeated",
@@ -129,6 +176,12 @@
         "text": "Will hit enemy where it least expects",
         "speaker": "Rear Admiral Shahram Irani",
         "title": "Iranian Navy Commander",
+        "date": "2026-03-17"
+      },
+      {
+        "text": "US had $10 million prize on Larijani's head, we did it for free",
+        "speaker": "Gideon Sa'ar",
+        "title": "Israeli Minister",
         "date": "2026-03-17"
       }
     ]
@@ -151,15 +204,47 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "US Treasury Secretary rejected reports that Trump threatened to delay China visit over Hormuz Strait assistance request."
+    },
+    {
+      "country": "Belgium",
+      "flag": "\ud83c\udde7\ud83c\uddea",
+      "status": "Mediator + arms supplier",
+      "description": "Prime Minister Bart De Wever urged European authorities to negotiate directly with Russia. European leaders beginning to admit need for productive dialogue with Moscow over Ukraine conflict."
+    },
+    {
+      "country": "South Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf7",
+      "status": "Active materiel + troops",
+      "description": "US reportedly diverted South Korean missile shield systems to support Iran war operations. The redeployment shows geopolitical ripple effects of Middle East conflict extending to East Asia."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Rising due to Hormuz closure",
+    "brent_crude": "Rising on Strait of Hormuz closure",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices impacted by Iran's effective closure of Strait of Hormuz carrying one-fifth of global oil supplies."
+    "notes": "US stocks gained as investors bought the dip despite Iran war escalation, while gold prices held steady despite war uncertainty."
   },
   "update_log": [
+    {
+      "time": "12:46 UTC",
+      "text": "Iran threatens to strike Gulf energy facilities after South Pars gasfield attack",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Israeli defense minister confirms killing of Iran security chief Ali Larijani in overnight strike",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Israel launches new ground operations in Lebanon displacing nearly one million people",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "US counterterrorism director Joe Kent resigns over Iran war citing lack of imminent threat",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:00 UTC",
       "text": "Pakistan conducted deadly airstrikes on Kabul hospital, Afghanistan claims 400 killed",
@@ -186,5 +271,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-18T08:03:37Z"
+  "last_updated": "2026-03-18T15:55:39Z"
 }
