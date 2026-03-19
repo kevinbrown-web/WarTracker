@@ -1,15 +1,16 @@
 {
   "escalation": {
-    "score": 8.8,
-    "delta": "+0.3 from yesterday",
+    "score": 8.5,
+    "delta": "Unknown (no previous data)",
     "level": "High",
-    "rationale": "Iranian cluster munition attacks on Israeli cities killed two civilians while Israel struck critical Iranian energy infrastructure including Bushehr nuclear plant grounds."
+    "rationale": "Active US-Israel war with Iran continues with high-level assassinations, energy infrastructure strikes, and Iranian threats against Gulf states."
   },
   "ticker_items": [
-    "Projectile hits Iran's Bushehr nuclear plant complex, no radiation leak",
-    "Iran strikes Tel Aviv with cluster warheads, 2 killed in Ramat Gan",
-    "Israel targets South Pars gas field, 12M cubic meters daily output affected",
-    "Trump seeks NATO help securing Hormuz Strait, allies refuse participation"
+    "Israeli strike kills Iranian Intelligence Minister Esmaeil Khatib",
+    "Iran threatens Gulf energy assets after South Pars attack",
+    "US-Israel casualty count: 1,444 Iran, 18 Israel, 13 US",
+    "Russia sharing satellite intel and drone tech with Iran",
+    "Child pulled from rubble of US-Israeli attack in Iran"
   ],
   "new_entrant": {
     "active": false,
@@ -61,6 +62,39 @@
         "lat": 26.57,
         "lng": 56.25,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "Unknown location",
+        "description": "Israeli airstrike kills Iranian Intelligence Minister Esmaeil Khatib",
+        "method": "Air/Precision Strike",
+        "lat": 32.4279,
+        "lng": 53.688,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut",
+        "description": "Israeli strike on central Beirut as war expands",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Israel",
+        "target_location": "Ramat Gan",
+        "description": "Iranian cluster missile kills elderly couple in Ramat Gan",
+        "method": "Ballistic Missile",
+        "lat": 32.0853,
+        "lng": 34.8162,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -70,6 +104,20 @@
         "incident": "Iranian cluster munitions on Israel",
         "kia": "2",
         "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Ramat Gan missile attack",
+        "kia": "2",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US-Israeli attack survivors",
+        "kia": "Unknown",
+        "wia": "Multiple including child",
         "civilian": true,
         "source_tier": "unverified"
       }
@@ -98,6 +146,12 @@
         "figure": "~21",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-18"
+      },
+      {
+        "claim": "Iran war casualties",
+        "figure": "1,444 Iran, 18 Israel, 13 US, 21 Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-19"
       }
     ]
   },
@@ -122,6 +176,12 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-03-18"
+      },
+      {
+        "text": "Last night, the IDF took out Commander of the Basij Soleimani and his deputy, and Secretary of the Supreme National Security Council Ali Larijani. The Iranians are safer without them.",
+        "speaker": "FM Sa'ar",
+        "title": "Israeli Foreign Minister",
+        "date": "2026-03-18"
       }
     ]
   },
@@ -143,15 +203,53 @@
       "flag": "\ud83c\udde6\ud83c\uddfa",
       "status": "Monitoring",
       "description": "Central bank hiked interest rates citing sharply higher fuel prices driven by US-Israel war on Iran. Economic impacts from blocked Hormuz shipping affecting domestic monetary policy decisions."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "Russia reportedly sharing satellite imagery and drone technology with Iran to aid targeting of US forces. The Kremlin denies these intelligence sharing claims as 'fake news'."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Abstaining",
+      "description": "China maintains silence on Iran war, revealing prioritization of core interests over partnerships. Beijing's muted response contrasts with expectations of stronger support for Tehran."
+    },
+    {
+      "country": "Finland",
+      "flag": "\ud83c\uddeb\ud83c\uddee",
+      "status": "Monitoring",
+      "description": "PM Orpo states Europe should help secure Hormuz Strait but characterizes the conflict as a US-Israel war rather than broader Western engagement."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Sharply higher",
+    "brent_crude": "Elevated due to Hormuz disruption",
     "wheat_futures": "Unchanged",
-    "notes": "Global fuel prices soaring due to Strait of Hormuz blockade affecting tanker traffic and energy supplies worldwide."
+    "notes": "Oil markets pricing in long-term disruption as Strait of Hormuz attacks choke exports and overwhelm bypass capacity."
   },
   "update_log": [
+    {
+      "time": "13:43 UTC",
+      "text": "Child among survivors pulled from rubble of US-Israeli attack in Iran",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Iranian Intelligence Minister Esmaeil Khatib confirmed killed by Israeli airstrike",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Iran threatens Gulf energy assets as 'legitimate targets' after South Pars strike",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "IDF kills Basij Commander Soleimani and Security Council Secretary Larijani",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:00 UTC",
       "text": "Iran declares Gulf oil facilities legitimate targets after Israeli attacks on South Pars gasfield",
@@ -173,5 +271,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-19T08:00:08Z"
+  "last_updated": "2026-03-19T14:38:25Z"
 }
