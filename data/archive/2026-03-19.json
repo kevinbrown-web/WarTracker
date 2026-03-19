@@ -1,20 +1,18 @@
 {
   "escalation": {
     "score": 8.5,
-    "delta": "Unknown (no previous data)",
+    "delta": "No previous data",
     "level": "High",
-    "rationale": "Active US-Israel war with Iran continues with high-level assassinations, energy infrastructure strikes, and Iranian threats against Gulf states."
+    "rationale": "Active US-Israel war against Iran with strikes on energy infrastructure, Iranian missile attacks on Israeli territory, and Iranian leadership assassinations indicating severe regional escalation."
   },
   "ticker_items": [
-    "Israeli strike kills Iranian Intelligence Minister Esmaeil Khatib",
-    "Iran threatens Gulf energy assets after South Pars attack",
-    "US-Israel casualty count: 1,444 Iran, 18 Israel, 13 US",
-    "Russia sharing satellite intel and drone tech with Iran",
-    "Child pulled from rubble of US-Israeli attack in Iran"
+    "Iranian missile strikes Israeli oil refinery in Haifa",
+    "Iran hits Qatar gas facility, cutting 17% of LNG exports",
+    "Israel kills Iranian Intelligence Minister in Tehran airstrike"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Finland offers support for US war on Iran contingent on increased Ukraine aid according to President Stubb."
   },
   "strikes_today": {
     "eastern_europe": [],
@@ -95,6 +93,39 @@
         "lat": 32.0853,
         "lng": 34.8162,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Israel",
+        "target_location": "Haifa",
+        "description": "Iranian missile struck oil refinery in Haifa",
+        "method": "Missile/Surface",
+        "lat": 32.82,
+        "lng": 34.99,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Qatar",
+        "target_location": "Ras Laffan",
+        "description": "Iranian strike on gas facility cutting 17% of Qatar's LNG exports for 3-5 years",
+        "method": "Missile/Surface",
+        "lat": 25.99,
+        "lng": 51.45,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "Tehran",
+        "description": "Israeli airstrike killed Iranian Intelligence Minister Esmail Khatib",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.39,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -119,6 +150,20 @@
         "kia": "Unknown",
         "wia": "Multiple including child",
         "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Iranian Intelligence Minister assassination",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Gaza police officers attack",
+        "kia": "~10",
+        "wia": "Unknown",
+        "civilian": false,
         "source_tier": "unverified"
       }
     ],
@@ -152,6 +197,18 @@
         "figure": "1,444 Iran, 18 Israel, 13 US, 21 Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-19"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "1,444",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-19"
+      },
+      {
+        "claim": "Israeli deaths in Iran conflict",
+        "figure": "~18",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-19"
       }
     ]
   },
@@ -182,6 +239,18 @@
         "speaker": "FM Sa'ar",
         "title": "Israeli Foreign Minister",
         "date": "2026-03-18"
+      },
+      {
+        "text": "Iran posed no imminent threat to our nation, and we started this war due to pressure from Israel and its powerful American lobby",
+        "speaker": "Joe Kent",
+        "title": "Former Trump counterterrorism chief",
+        "date": "2026-03-18"
+      },
+      {
+        "text": "Iran's claims that it is targeting US bases is unacceptable and unjustified",
+        "speaker": "Qatar Prime Minister",
+        "title": "Prime Minister",
+        "date": "2026-03-19"
       }
     ]
   },
@@ -221,15 +290,41 @@
       "flag": "\ud83c\uddeb\ud83c\uddee",
       "status": "Monitoring",
       "description": "PM Orpo states Europe should help secure Hormuz Strait but characterizes the conflict as a US-Israel war rather than broader Western engagement."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Abstaining",
+      "description": "Pakistan announced pause in strikes against Afghanistan for Ramadan at request of Saudi Arabia, Qatar and Turkey. This represents regional diplomatic efforts to contain conflicts during the broader Middle East crisis."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated due to Hormuz disruption",
+    "brent_crude": "Surging",
     "wheat_futures": "Unchanged",
-    "notes": "Oil markets pricing in long-term disruption as Strait of Hormuz attacks choke exports and overwhelm bypass capacity."
+    "notes": "Oil prices surging as Iran-Israel conflict targets energy infrastructure with Strait of Hormuz disruption choking global exports."
   },
   "update_log": [
+    {
+      "time": "19:55 UTC",
+      "text": "Iran strikes Qatar gas facility cutting 17% of LNG exports for 3-5 years",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:30 UTC",
+      "text": "Iranian missile strikes Israeli oil refinery in Haifa",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:45 UTC",
+      "text": "Israeli airstrike kills Iranian Intelligence Minister Esmail Khatib in Tehran",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:20 UTC",
+      "text": "US intelligence chief Gabbard testifies Iran was not rebuilding enrichment prior to war",
+      "source_tier": "verified"
+    },
     {
       "time": "13:43 UTC",
       "text": "Child among survivors pulled from rubble of US-Israeli attack in Iran",
@@ -271,5 +366,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-19T14:38:25Z"
+  "last_updated": "2026-03-19T19:55:44Z"
 }
