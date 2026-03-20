@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.8,
-    "delta": "+0.3 from yesterday",
+    "score": 8,
+    "delta": "Unknown - no previous data",
     "level": "High",
-    "rationale": "Iranian strikes on Qatar's largest LNG facility and Kuwaiti refineries significantly expand regional energy infrastructure targeting."
+    "rationale": "Active US-Israeli military operations against Iran continue with strikes on energy infrastructure and naval targets, Iran blocking Strait of Hormuz, and oil prices reaching $112/barrel."
   },
   "ticker_items": [
-    "Iran strikes Qatar's largest LNG facility twice, causing extensive damage",
-    "Kuwaiti refineries hit by drone attacks, fires reported",
-    "Trump threatens to destroy Iran's South Pars gas field",
-    "Oil analysts say $200/barrel no longer far-fetched",
-    "EU summit focuses on Iran war fallout, energy crisis"
+    "Iran claims F-35 shot down, releases military video",
+    "IRGC spokesman Ali Mohammad Naini killed in US-Israeli attack",
+    "Oil hits $112/barrel as Iran targets Gulf refineries",
+    "Pentagon seeks $200 billion for Iran war funding",
+    "European allies refuse military support for Iran operations"
   ],
   "new_entrant": {
     "active": false,
@@ -63,6 +63,28 @@
         "lat": 32.43,
         "lng": 53.69,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "Northern Iran",
+        "description": "Israeli air strikes hit Iranian naval vessels on Caspian Sea coast",
+        "method": "Air/Precision Strike",
+        "lat": 37.5,
+        "lng": 50.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Gulf States",
+        "target_location": "Multiple Gulf refineries",
+        "description": "Iran hits multiple Gulf oil refineries in retaliation",
+        "method": "Missile/Surface",
+        "lat": 26.0,
+        "lng": 50.5,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -82,12 +104,43 @@
         "figure": "1,444 dead in Iran, 18 in Israel, 13 US soldiers, 21 in Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-19"
+      },
+      {
+        "claim": "Total deaths from US-Israel attacks on Iran",
+        "figure": "1,444",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-20"
+      },
+      {
+        "claim": "Israeli casualties",
+        "figure": "18",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-20"
+      },
+      {
+        "claim": "US military casualties",
+        "figure": "13",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-20"
+      },
+      {
+        "claim": "Gulf states casualties",
+        "figure": "21",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-20"
       }
     ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Iran and Russia are democratising suicide attack drones to such an extent that soon aerial strikes will be within the reach of terrorists",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President of Ukraine",
+        "date": "2026-03-19"
+      }
+    ],
     "middle_east": [
       {
         "text": "NATO allies benefit far more from reopening of Strait of Hormuz than US",
@@ -100,6 +153,12 @@
         "speaker": "Tulsi Gabbard",
         "title": "US Intelligence Chief",
         "date": "2026-03-18"
+      },
+      {
+        "text": "Iran has not gotten anywhere close to developing nuclear weapons over the last year",
+        "speaker": "Joe Kent",
+        "title": "Former Counterterrorism Director",
+        "date": "2026-03-19"
       }
     ]
   },
@@ -115,15 +174,41 @@
       "flag": "\ud83c\uddec\ud83c\udde7",
       "status": "Abstaining",
       "description": "Britain saying no to Trump's Iran war despite historic US-UK relationship. UK refusing to commit military aid to Iran conflict operations. Nigerian President conducting historic visit to UK amid regional tensions."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Monitoring",
+      "description": "Asian countries including those near China are scrambling to conserve energy as Iran war disrupts oil and gas supplies, raising concerns about regional stability and economic impacts."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Rising substantially",
+    "brent_crude": "$112",
     "wheat_futures": "Unchanged",
-    "notes": "Gulf energy producers lost estimated $15.1 billion in revenues since US-Israeli strikes began, oil could hit $200/barrel."
+    "notes": "Oil prices jumped to $112/barrel as Iran conflict widens and energy infrastructure comes under fire, with Gulf states losing an estimated $15.1 billion in energy revenues."
   },
   "update_log": [
+    {
+      "time": "14:00 UTC",
+      "text": "Iran releases video allegedly showing air defense systems hitting US F-35 aircraft",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "IRGC spokesman Ali Mohammad Naini reported killed in US-Israeli attack",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Israel widens attacks to northern Iran, hitting naval vessels on Caspian Sea coast",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Pentagon reportedly seeking $200 billion from Congress for Iran war funding",
+      "source_tier": "unverified"
+    },
     {
       "time": "Unknown UTC",
       "text": "Iran launches double strike on Qatar's largest LNG facility causing extensive damage",
@@ -145,5 +230,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-20T07:58:41Z"
+  "last_updated": "2026-03-20T14:29:57Z"
 }
