@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8,
-    "delta": "Unknown - no previous data",
+    "score": 8.5,
+    "delta": "New baseline",
     "level": "High",
-    "rationale": "Active US-Israeli military operations against Iran continue with strikes on energy infrastructure and naval targets, Iran blocking Strait of Hormuz, and oil prices reaching $112/barrel."
+    "rationale": "Active US-Israel war against Iran with strikes on energy infrastructure, Strait of Hormuz blockade, and Gulf energy facilities targeted."
   },
   "ticker_items": [
-    "Iran claims F-35 shot down, releases military video",
-    "IRGC spokesman Ali Mohammad Naini killed in US-Israeli attack",
-    "Oil hits $112/barrel as Iran targets Gulf refineries",
-    "Pentagon seeks $200 billion for Iran war funding",
-    "European allies refuse military support for Iran operations"
+    "Iran targets Gulf refineries as energy war escalates",
+    "Trump claims no Iranian leaders left to negotiate with",
+    "Oil hits $112/barrel amid Strait of Hormuz closure",
+    "Europe refuses military support for Iran operations",
+    "Pentagon requests $200B for Iran war funding"
   ],
   "new_entrant": {
     "active": false,
@@ -85,6 +85,28 @@
         "lat": 26.0,
         "lng": 50.5,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Gulf States",
+        "target_location": "Multiple refineries",
+        "description": "Iranian forces target multiple Gulf energy refineries in escalation of energy infrastructure war",
+        "method": "Missile/Surface",
+        "lat": 26.0,
+        "lng": 50.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "South Pars gas field",
+        "description": "Israeli strikes on Iran's South Pars gas field as part of coordinated energy infrastructure targeting",
+        "method": "Air/Precision Strike",
+        "lat": 27.5,
+        "lng": 52.5,
+        "source_tier": "analyst"
       }
     ]
   },
@@ -128,6 +150,12 @@
         "figure": "21",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-20"
+      },
+      {
+        "claim": "Israeli deaths",
+        "figure": "~18",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-20"
       }
     ]
   },
@@ -159,6 +187,18 @@
         "speaker": "Joe Kent",
         "title": "Former Counterterrorism Director",
         "date": "2026-03-19"
+      },
+      {
+        "text": "Iranian leaders are all gone and we have nobody left to talk to",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-03-20"
+      },
+      {
+        "text": "Come on! Fake news reports that I dragged Trump into war with Iran",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Israeli Prime Minister",
+        "date": "2026-03-19"
       }
     ]
   },
@@ -180,15 +220,64 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Monitoring",
       "description": "Asian countries including those near China are scrambling to conserve energy as Iran war disrupts oil and gas supplies, raising concerns about regional stability and economic impacts."
+    },
+    {
+      "country": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "status": "Mediator + arms supplier",
+      "description": "President Macron calls for Middle East de-escalation while Trump pushes military pressure against Iran. Trump rates Macron 'an 8' despite growing diplomatic rifts over regional strategy."
+    },
+    {
+      "country": "Belgium",
+      "flag": "\ud83c\udde7\ud83c\uddea",
+      "status": "Strategic balancer",
+      "description": "Prime Minister Bart de Wever advocates for dialogue with Putin, being labeled 'reasonable in public' which is considered problematic in Brussels. Belgium represents growing European dissent from US Middle East policy."
+    },
+    {
+      "country": "Japan",
+      "flag": "\ud83c\uddef\ud83c\uddf5",
+      "status": "Basing + logistics",
+      "description": "Prime Minister Sanae Takaichi met with Trump in Oval Office as he compared US strikes on Iran to Pearl Harbor. Japan signals readiness to contribute to Strait of Hormuz protection efforts."
+    },
+    {
+      "country": "Australia",
+      "flag": "\ud83c\udde6\ud83c\uddfa",
+      "status": "Strategic balancer",
+      "description": "Australia appears to have found its red line with Trump's Iran war policies. The conflict is heaping pressure on Australia's relationship with the US and may come with consequences for the alliance."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "$112",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices jumped to $112/barrel as Iran conflict widens and energy infrastructure comes under fire, with Gulf states losing an estimated $15.1 billion in energy revenues."
+    "notes": "Gulf states lose estimated $15.1 billion in energy revenues since US-Israeli strikes began in late February."
   },
   "update_log": [
+    {
+      "time": "19:50 UTC",
+      "text": "Iran targets multiple Gulf refineries as energy infrastructure war escalates",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Trump claims no Iranian leaders left to negotiate with as war continues",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:45 UTC",
+      "text": "European leaders refuse to join US-Israeli military campaigns in Middle East",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "Pentagon requests $200 billion for Iran war operations exceeding Ukraine costs",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:10 UTC",
+      "text": "WHO warns of worst-case nuclear scenario in Iran amid ongoing strikes",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:00 UTC",
       "text": "Iran releases video allegedly showing air defense systems hitting US F-35 aircraft",
@@ -230,5 +319,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-20T14:29:57Z"
+  "last_updated": "2026-03-20T19:50:01Z"
 }
