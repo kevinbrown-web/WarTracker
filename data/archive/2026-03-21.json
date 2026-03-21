@@ -1,19 +1,20 @@
 {
   "escalation": {
-    "score": 8.5,
+    "score": 8,
     "delta": "No previous data",
     "level": "High",
-    "rationale": "US-Israel war with Iran escalates with strikes on nuclear facilities, energy infrastructure attacks across Gulf states, and threats of ground invasion."
+    "rationale": "Active US-Israel war against Iran with strikes on Tehran, energy facilities targeted across Gulf states, and Strait of Hormuz blockade operations underway."
   },
   "ticker_items": [
-    "Israel strikes Iran's Natanz nuclear facility, no radioactive leakage reported",
-    "Iran threatens global tourism sites as war enters day 20",
-    "US F-35 damaged by Iranian fire in first combat loss",
-    "Netanyahu says ground component needed for Iran war victory"
+    "US deploys second amphibious assault ship to Middle East",
+    "Iran fires on Israel and Gulf energy sites on Islamic holy day",
+    "NATO withdraws all troops from Iraq mission as conflict spreads",
+    "Trump calls NATO allies 'cowards' over Hormuz support",
+    "Tehran holds Eid prayers after overnight airstrikes on capital"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Ukraine has deployed military units to five Middle Eastern countries to help intercept drones according to security council secretary."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [],
@@ -83,6 +84,39 @@
         "lat": 33.31,
         "lng": 44.37,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "US-Israel",
+        "target_country": "Iran",
+        "target_location": "Tehran",
+        "description": "Overnight airstrikes conducted on Iranian capital during Eid al-Fitr.",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.42,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Israel",
+        "target_location": "Multiple sites",
+        "description": "Iranian forces fired on Israeli targets on Islamic holy day.",
+        "method": "Missile/Surface",
+        "lat": 31.77,
+        "lng": 35.23,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Gulf States",
+        "target_location": "Energy facilities",
+        "description": "Iranian strikes targeted energy sites in neighboring Gulf Arab states.",
+        "method": "Missile/Surface",
+        "lat": 25.2,
+        "lng": 55.27,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -126,11 +160,24 @@
         "figure": "1,444 Iranian dead, 18 Israeli dead, 13 US soldiers, 21 Gulf states",
         "claimed_by": "Al Jazeera casualty tracker",
         "as_of": "March 20, 2026"
+      },
+      {
+        "claim": "US-Israel Iran war total casualties",
+        "figure": "1,444 Iranian, 18 Israeli, 13 US, 21 Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-20"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Moscow proposed a quid pro quo to the U.S. under which the Kremlin would stop sharing intelligence information with Iran if Washington ceased supplying Ukraine with intel",
+        "speaker": "Putin",
+        "title": "Russian President",
+        "date": "2026-03-20"
+      }
+    ],
     "ukraine": [
       {
         "text": "Ukraine has deployed military units to five Middle Eastern countries to help protect critical and civilian infrastructure against drones",
@@ -157,6 +204,18 @@
         "speaker": "Benjamin Netanyahu",
         "title": "Israeli Prime Minister",
         "date": "March 20, 2026"
+      },
+      {
+        "text": "Without the U.S.A., NATO IS A PAPER TIGER!",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-03-20"
+      },
+      {
+        "text": "We have killed their leadership, the replacement leaders, and militia members",
+        "speaker": "Anonymous US official",
+        "title": "Military source",
+        "date": "2026-03-20"
       }
     ]
   },
@@ -190,15 +249,41 @@
       "flag": "\ud83c\uddee\ud83c\uddf3",
       "status": "Monitoring",
       "description": "Indian Navy planning evacuation of ships from Persian Gulf with naval escorts through Strait of Hormuz to secure energy supplies and protect against economic fallout."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Monitoring",
+      "description": "Published propaganda images of Kim Jong-un's daughter driving a tank while regional tensions escalate. Asia-Pacific countries fear Iran war leaves them exposed to North Korean threats."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Iran war continues to roil global energy markets as attacks on Gulf energy infrastructure escalate supply crisis concerns."
+    "notes": "Global aviation logistics significantly complicated by restricted flight corridors between Europe and Asia due to Middle East conflict."
   },
   "update_log": [
+    {
+      "time": "10:45 UTC",
+      "text": "Al Jazeera casualty tracker updated with preliminary death toll figures from US-Israel Iran conflict",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "NATO completes withdrawal of all troops from Iraq advisory mission as Iran war repercussions spread",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Iran fires on Israel and Gulf energy facilities on Islamic holy day despite ongoing US-Israeli strikes",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "US deploys second amphibious assault ship to Middle East amid speculation of Kharg Island seizure operation",
+      "source_tier": "unverified"
+    },
     {
       "time": "10:45 UTC",
       "text": "Iran says US and Israel attacked Natanz nuclear facility with no radioactive leakage reported",
@@ -240,5 +325,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-21T13:53:59Z"
+  "last_updated": "2026-03-21T19:03:04Z"
 }
