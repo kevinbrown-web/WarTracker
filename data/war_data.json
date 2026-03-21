@@ -1,20 +1,19 @@
 {
   "escalation": {
-    "score": 9.2,
-    "delta": "+0.7 from yesterday",
+    "score": 8.5,
+    "delta": "No previous data",
     "level": "High",
-    "rationale": "Iran war intensifies on day 21 with fresh Israeli strikes on Tehran, Iranian retaliation hitting West Jerusalem and Haifa, and expanded regional conflict involving Gulf states."
+    "rationale": "US-Israel war with Iran escalates with strikes on nuclear facilities, energy infrastructure attacks across Gulf states, and threats of ground invasion."
   },
   "ticker_items": [
-    "Israel launches new wave of strikes on Tehran after Netanyahu claims Iran 'decimated'",
-    "Iran strikes West Jerusalem and Haifa in retaliation - IRGC",
-    "US F-35 stealth fighter reportedly damaged during Iran mission",
-    "Gulf states face fresh Iranian attacks as conflict spreads regionally",
-    "Japan ready to help secure Hormuz Strait amid intensifying war"
+    "Israel strikes Iran's Natanz nuclear facility, no radioactive leakage reported",
+    "Iran threatens global tourism sites as war enters day 20",
+    "US F-35 damaged by Iranian fire in first combat loss",
+    "Netanyahu says ground component needed for Iran war victory"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Ukraine has deployed military units to five Middle Eastern countries to help intercept drones according to security council secretary."
   },
   "strikes_today": {
     "eastern_europe": [],
@@ -51,11 +50,52 @@
         "lat": 32.794,
         "lng": 34.9896,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "US-Israel",
+        "target_country": "Iran",
+        "target_location": "Natanz nuclear facility",
+        "description": "Attack on nuclear facility with no reported radioactive material leakage",
+        "method": "Air/Precision Strike",
+        "lat": 33.73,
+        "lng": 51.73,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "Tehran",
+        "description": "Fresh wave of strikes on Iranian capital as part of ongoing bombardment",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.42,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Iraq",
+        "target_location": "Baghdad",
+        "description": "Drone strike near Iraqi intelligence headquarters kills one police officer",
+        "method": "Air/Drone",
+        "lat": 33.31,
+        "lng": 44.37,
+        "source_tier": "unverified"
       }
     ]
   },
   "casualties": {
-    "today": [],
+    "today": [
+      {
+        "incident": "Baghdad drone strike",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      }
+    ],
     "claimed_totals": [
       {
         "claim": "Iran war total deaths",
@@ -80,12 +120,25 @@
         "figure": "21",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-20"
+      },
+      {
+        "claim": "Total war casualties Iran-US-Israel conflict",
+        "figure": "1,444 Iranian dead, 18 Israeli dead, 13 US soldiers, 21 Gulf states",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "March 20, 2026"
       }
     ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Ukraine has deployed military units to five Middle Eastern countries to help protect critical and civilian infrastructure against drones",
+        "speaker": "Rustem Umerov",
+        "title": "Ukrainian Security Council Secretary",
+        "date": "March 20, 2026"
+      }
+    ],
     "middle_east": [
       {
         "text": "We are winning and Iran is being decimated",
@@ -98,6 +151,12 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-03-21"
+      },
+      {
+        "text": "There has to be a ground component",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Israeli Prime Minister",
+        "date": "March 20, 2026"
       }
     ]
   },
@@ -119,15 +178,47 @@
       "flag": "\ud83c\udde9\ud83c\uddf0",
       "status": "Monitoring",
       "description": "Denmark was reportedly ready to blow up Greenland runways if US invaded, with Danish soldiers sent to Arctic island in January also given blood supplies in case of combat. Reveals tensions over Greenland amid broader geopolitical shifts."
+    },
+    {
+      "country": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "status": "Monitoring",
+      "description": "French military operational security compromised when soldier revealed aircraft carrier location in Mediterranean through workout app. France offering post-ceasefire assistance for Strait of Hormuz security alongside Italy and Germany."
+    },
+    {
+      "country": "India",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "status": "Monitoring",
+      "description": "Indian Navy planning evacuation of ships from Persian Gulf with naval escorts through Strait of Hormuz to secure energy supplies and protect against economic fallout."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Lower from near-four-year highs",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices fell from near-four-year highs as US and Israel sought to ease Iran war concerns, while emerging market stocks fluctuated ahead of weekend."
+    "notes": "Iran war continues to roil global energy markets as attacks on Gulf energy infrastructure escalate supply crisis concerns."
   },
   "update_log": [
+    {
+      "time": "10:45 UTC",
+      "text": "Iran says US and Israel attacked Natanz nuclear facility with no radioactive leakage reported",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Drone strike near Iraqi intelligence headquarters in Baghdad kills one police officer",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Israel launches fresh wave of strikes on Tehran as Netanyahu claims Iran being decimated",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "US F-35 stealth fighter makes emergency landing after being damaged by Iranian fire",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:46 UTC",
       "text": "Al Jazeera reports Iran war day 21 with Trump rejecting ceasefire and Khamenei issuing defiant message",
@@ -149,5 +240,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-21T07:46:04Z"
+  "last_updated": "2026-03-21T13:53:59Z"
 }
