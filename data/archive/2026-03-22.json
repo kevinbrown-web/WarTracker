@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 8.5,
-    "delta": "No baseline available",
+    "delta": "No previous score available",
     "level": "High",
-    "rationale": "Iran strikes Tel Aviv and threatens regional energy infrastructure while US considers military action against Iranian nuclear facilities."
+    "rationale": "Iran demonstrates unprecedented range with missile strikes on Diego Garcia base while Israel threatens surge in attacks and Strait of Hormuz remains closed."
   },
   "ticker_items": [
-    "Iran strikes central Tel Aviv, hitting bridge with missiles",
-    "US eases Iranian oil sanctions to contain surging energy prices",
-    "Iran threatens to destroy regional energy sites if attacked",
-    "Trump considers 'winding down' Iran war amid rising costs",
-    "20+ countries unite to guarantee Strait of Hormuz passage"
+    "Iran fires missiles at UK-US Diego Garcia base, showing extended range capabilities",
+    "Israel strikes 200+ Hezbollah and Iranian targets across Iran and Lebanon",
+    "Strait of Hormuz closure halts one-fifth of global oil and gas supply",
+    "IAEA calls for restraint after reported strike on Iran's Natanz nuclear facility",
+    "Netanyahu vows to back US strikes on Iran's power grid"
   ],
   "new_entrant": {
     "active": false,
@@ -118,6 +118,39 @@
         "lat": 33.0,
         "lng": 35.3,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "UK-US (Diego Garcia)",
+        "target_location": "Diego Garcia",
+        "description": "Iran fired missiles at joint UK-US military base in Indian Ocean demonstrating long-range capabilities.",
+        "method": "Ballistic Missile",
+        "lat": -7.32,
+        "lng": 72.42,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "Natanz",
+        "description": "Reported strike on Iran's Shahid Ahmadi-Roshan uranium enrichment complex at Natanz nuclear facility.",
+        "method": "Air/Precision Strike",
+        "lat": 33.73,
+        "lng": 51.73,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran and Lebanon",
+        "target_location": "Multiple locations",
+        "description": "IDF conducted simultaneous strikes against 200+ Hezbollah and Iranian targets across Iran and Lebanon.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -161,6 +194,12 @@
         "figure": "~1,444 Iran, ~18 Israel, ~13 US, ~21 Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-20"
+      },
+      {
+        "claim": "Israeli deaths in conflict",
+        "figure": "18",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-20"
       }
     ]
   },
@@ -171,6 +210,12 @@
         "speaker": "Unknown Russian Official",
         "title": "Government Official",
         "date": "2026-03-20"
+      },
+      {
+        "text": "Russia is a loyal friend, reliable partner of Iran",
+        "speaker": "Vladimir Putin",
+        "title": "Russian President",
+        "date": "2026-03-21"
       }
     ],
     "ukraine": [],
@@ -204,6 +249,18 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-03-21"
+      },
+      {
+        "text": "War will escalate, IDF and home front are ready",
+        "speaker": "Israel Katz",
+        "title": "Israeli Defense Minister",
+        "date": "2026-03-21"
+      },
+      {
+        "text": "We do it together, in confidence",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Israeli Prime Minister",
+        "date": "2026-03-22"
       }
     ]
   },
@@ -231,15 +288,46 @@
       "flag": "\ud83c\uddeb\ud83c\uddee",
       "status": "Abstaining",
       "description": "Finland joined 19 other countries condemning Iran's attacks on commercial vessels but explicitly stated it will not participate in military operations in the Persian Gulf."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Strategic balancer",
+      "description": "Putin declared Russia a 'loyal friend' of Iran while summoning Israel's ambassador over journalist injuries in Lebanon strikes, with Kremlin aide warning of deeper energy market shifts."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Soaring",
     "wheat_futures": "Unchanged",
-    "notes": "Energy prices surge as Strait of Hormuz closure halts one-fifth of global oil and gas supply, prompting US to ease Iranian sanctions."
+    "notes": "Oil and gas prices soaring due to Strait of Hormuz closure halting one-fifth of global energy supply."
   },
   "update_log": [
+    {
+      "time": "19:05 UTC",
+      "text": "Netanyahu backs US strikes on Iran power grid if Tehran doesn't reopen Strait of Hormuz",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Lebanon's Aoun warns Israeli bridge attack is prelude to ground invasion",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:45 UTC",
+      "text": "Iran fires missiles at UK-US Diego Garcia base demonstrating extended range capabilities",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "IAEA chief calls for military restraint after reported Natanz nuclear facility strike",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:00 UTC",
+      "text": "IDF strikes 200+ Hezbollah and Iranian targets across Iran and Lebanon simultaneously",
+      "source_tier": "unverified"
+    },
     {
       "time": "13:55 UTC",
       "text": "Iran threatens to destroy regional energy infrastructure if US and Israel target power plants",
@@ -286,5 +374,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-03-22T13:55:07Z"
+  "last_updated": "2026-03-22T19:05:36Z"
 }
