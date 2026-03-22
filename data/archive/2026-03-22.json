@@ -1,23 +1,35 @@
 {
   "escalation": {
     "score": 8.5,
-    "delta": "+0.5 from yesterday",
+    "delta": "No baseline available",
     "level": "High",
-    "rationale": "Israel launches fresh strikes on Tehran and Beirut while Trump threatens to 'obliterate' Iranian power plants amid ongoing Strait of Hormuz blockade."
+    "rationale": "Iran strikes Tel Aviv and threatens regional energy infrastructure while US considers military action against Iranian nuclear facilities."
   },
   "ticker_items": [
-    "Trump threatens to 'obliterate' Iran power plants unless Hormuz opens",
-    "Israel strikes Tehran weapon factories and Beirut Hezbollah targets",
-    "Iran fires ballistic missiles at Diego Garcia US base",
-    "US deploys Marines to Middle East as conflict escalates",
-    "Pentagon requests $200 billion for Iran war operations"
+    "Iran strikes central Tel Aviv, hitting bridge with missiles",
+    "US eases Iranian oil sanctions to contain surging energy prices",
+    "Iran threatens to destroy regional energy sites if attacked",
+    "Trump considers 'winding down' Iran war amid rising costs",
+    "20+ countries unite to guarantee Strait of Hormuz passage"
   ],
   "new_entrant": {
     "active": false,
     "text": ""
   },
   "strikes_today": {
-    "eastern_europe": [],
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Bashkortostan oil refineries",
+        "description": "Ukrainian drone attacks repelled near Bashneft oil refineries in Bashkortostan region",
+        "method": "Air/Drone",
+        "lat": 54.74,
+        "lng": 55.97,
+        "source_tier": "unverified"
+      }
+    ],
     "middle_east": [
       {
         "time_utc": "Unknown",
@@ -62,11 +74,63 @@
         "lat": 31.2461,
         "lng": 34.794,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Israel",
+        "target_location": "Tel Aviv",
+        "description": "Iranian strike hits bridge in central Tel Aviv startling pedestrians",
+        "method": "Missile/Surface",
+        "lat": 32.08,
+        "lng": 34.78,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "UK/US",
+        "target_location": "Diego Garcia",
+        "description": "Iran allegedly launches missiles at joint UK-US base in Indian Ocean",
+        "method": "Ballistic Missile",
+        "lat": -7.32,
+        "lng": 72.42,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "Natanz",
+        "description": "Israeli strike reportedly hits Iran's Natanz nuclear facility",
+        "method": "Air/Precision Strike",
+        "lat": 33.73,
+        "lng": 51.73,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Israel",
+        "target_location": "Northern Israel",
+        "description": "Hezbollah attack kills one person in northern Israel",
+        "method": "Rocket/Surface",
+        "lat": 33.0,
+        "lng": 35.3,
+        "source_tier": "unverified"
       }
     ]
   },
   "casualties": {
-    "today": [],
+    "today": [
+      {
+        "incident": "Hezbollah attack northern Israel",
+        "kia": "1",
+        "wia": "",
+        "civilian": true,
+        "source_tier": "unverified"
+      }
+    ],
     "claimed_totals": [
       {
         "claim": "Iran conflict deaths",
@@ -91,6 +155,12 @@
         "figure": "~1,000",
         "claimed_by": "Lebanon Health Ministry",
         "as_of": "2026-03-21"
+      },
+      {
+        "claim": "US-Israel Iran war deaths",
+        "figure": "~1,444 Iran, ~18 Israel, ~13 US, ~21 Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-20"
       }
     ]
   },
@@ -122,6 +192,18 @@
         "speaker": "Yemeni Armed Forces",
         "title": "Military Statement",
         "date": "2026-03-20"
+      },
+      {
+        "text": "We will irreversibly destroy vital infrastructure across region if power plants targeted",
+        "speaker": "Iranian officials",
+        "title": "Government representatives",
+        "date": "2026-03-22"
+      },
+      {
+        "text": "Pentagon is getting close to meeting our objectives",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-03-21"
       }
     ]
   },
@@ -143,15 +225,41 @@
       "flag": "\ud83c\udded\ud83c\uddfa",
       "status": "Strategic balancer",
       "description": "Hungary continues to block the \u20ac90bn EU loan package to Ukraine despite the bloc's attempts to break the veto. This action reflects Hungary's position of limiting Western support for Ukraine amid the broader regional conflicts."
+    },
+    {
+      "country": "Finland",
+      "flag": "\ud83c\uddeb\ud83c\uddee",
+      "status": "Abstaining",
+      "description": "Finland joined 19 other countries condemning Iran's attacks on commercial vessels but explicitly stated it will not participate in military operations in the Persian Gulf."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Soaring",
     "wheat_futures": "Unchanged",
-    "notes": "US Treasury signals possible easing of sanctions on stranded Iranian oil amid global supply crisis concerns."
+    "notes": "Energy prices surge as Strait of Hormuz closure halts one-fifth of global oil and gas supply, prompting US to ease Iranian sanctions."
   },
   "update_log": [
+    {
+      "time": "13:55 UTC",
+      "text": "Iran threatens to destroy regional energy infrastructure if US and Israel target power plants",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:30 UTC",
+      "text": "Iranian missile strike hits bridge in central Tel Aviv according to reports",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Hezbollah attack kills one person in northern Israel as Lebanon assault continues",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:30 UTC",
+      "text": "Iran allegedly launches missiles at UK-US base on Diego Garcia island",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:45 UTC",
       "text": "Trump threatens to obliterate Iran power plants unless Strait of Hormuz reopens",
@@ -178,5 +286,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-03-22T07:51:40Z"
+  "last_updated": "2026-03-22T13:55:07Z"
 }
