@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 8.5,
-    "delta": "+1.2 from yesterday",
+    "delta": "New baseline - first assessment",
     "level": "High",
-    "rationale": "Trump issued 48-hour ultimatum to Iran over Hormuz closure while threatening power plant strikes, marking dangerous escalation in fourth week of US-Iran war."
+    "rationale": "Trump issued 48-hour ultimatum to Iran threatening power plant destruction while Iran threatens complete Strait of Hormuz closure and regional infrastructure targeting."
   },
   "ticker_items": [
-    "Trump gives Iran 48-hour ultimatum to reopen Strait of Hormuz",
-    "Russian tanker adrift in Mediterranean after drone strike",
-    "Israel orders destruction of Lebanon bridges and border homes",
-    "Iran strikes reported at US-UK Diego Garcia base",
-    "WHO warns of health risks from nuclear facility strikes"
+    "Trump gives Iran 48 hours to open Strait of Hormuz or face power plant strikes",
+    "Iran threatens complete Strait closure and regional infrastructure attacks",
+    "Israel destroys main bridge in southern Lebanon, orders Litani River demolitions",
+    "Possible Iranian missile attack on Diego Garcia base disputed",
+    "Senator Graham calls for US seizure of Iran's Kharg Island oil facility"
   ],
   "new_entrant": {
     "active": false,
@@ -74,6 +74,28 @@
         "lat": 33.3,
         "lng": 35.4,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon bridge",
+        "description": "Israeli forces struck main bridge linking southern Lebanon to rest of country",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "British Indian Ocean Territory",
+        "target_location": "Diego Garcia",
+        "description": "Alleged Iranian missile attack on US-UK airbase disputed by Tehran",
+        "method": "Ballistic Missile",
+        "lat": -7.32,
+        "lng": 72.42,
+        "source_tier": "verified"
       }
     ]
   },
@@ -97,6 +119,12 @@
       {
         "claim": "US-Israel war casualties",
         "figure": "~1,500 dead in Iran, ~18 in Israel, ~13 US soldiers, ~21 in Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-23"
+      },
+      {
+        "claim": "US-Israel Iran war total deaths",
+        "figure": "~1,500 Iranian, ~18 Israeli, ~13 US soldiers, ~21 Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-23"
       }
@@ -123,6 +151,24 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-03-22"
+      },
+      {
+        "text": "From now on, based on the information we have about you, even parks, recreational areas, and tourist destinations anywhere in the world will no longer be safe for you",
+        "speaker": "Iranian military official",
+        "title": "Senior military official",
+        "date": "2026-03-22"
+      },
+      {
+        "text": "We Did Iwo Jima, We Can Do This! Take Kharg Island",
+        "speaker": "Lindsey Graham",
+        "title": "US Senator",
+        "date": "2026-03-22"
+      },
+      {
+        "text": "The operation against Hezbollah has only begun and would be prolonged",
+        "speaker": "Israeli army chief",
+        "title": "IDF Chief of Staff",
+        "date": "2026-03-22"
       }
     ]
   },
@@ -144,15 +190,47 @@
       "flag": "\ud83c\udde9\ud83c\uddf0",
       "status": "Monitoring",
       "description": "Danish election shaped by Trump's Greenland grab has elevated foreign and security policy concerns. Voters experiencing major shifts on Europe, defense and energy policies."
+    },
+    {
+      "country": "European Union",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "status": "Abstaining",
+      "description": "EU leaders reportedly refusing participation in Iran war according to Russian sources. Danish election influenced by Trump's Greenland demands affecting European defense policy."
+    },
+    {
+      "country": "Saudi Arabia",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "status": "Strategic balancer",
+      "description": "Saudi East-West pipeline highlighted as crucial alternative to Strait of Hormuz. Iran threatens Saudi energy infrastructure in potential retaliation scenario."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Soaring",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices surging as Strait of Hormuz closure halts one-fifth of global oil and gas supply."
+    "notes": "Oil prices surge as Strait of Hormuz remains effectively closed to commercial traffic affecting global energy supplies."
   },
   "update_log": [
+    {
+      "time": "18:00 UTC",
+      "text": "Trump issues 48-hour ultimatum to Iran threatening power plant destruction if Strait of Hormuz not reopened",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:30 UTC",
+      "text": "Iran threatens complete closure of Strait of Hormuz and attacks on regional infrastructure",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Israel destroys main bridge in southern Lebanon and orders demolition of all Litani River crossings",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "UK condemns alleged Iranian missile attack on Diego Garcia airbase while Tehran denies involvement",
+      "source_tier": "verified"
+    },
     {
       "time": "15:30 UTC",
       "text": "Trump postpones strikes on Iranian power plants while maintaining Hormuz ultimatum",
@@ -194,5 +272,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-23T15:39:43Z"
+  "last_updated": "2026-03-23T20:00:10Z"
 }
