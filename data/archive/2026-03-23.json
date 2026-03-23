@@ -1,23 +1,35 @@
 {
   "escalation": {
-    "score": 9.2,
-    "delta": "+0.7 from yesterday",
+    "score": 8.5,
+    "delta": "+1.2 from yesterday",
     "level": "High",
-    "rationale": "Trump's 48-hour ultimatum to Iran regarding Strait of Hormuz closure creates imminent escalation risk with threats to target Iranian power plants."
+    "rationale": "Trump issued 48-hour ultimatum to Iran over Hormuz closure while threatening power plant strikes, marking dangerous escalation in fourth week of US-Iran war."
   },
   "ticker_items": [
     "Trump gives Iran 48-hour ultimatum to reopen Strait of Hormuz",
-    "Pentagon requests $200bn for Iran war operations",
-    "Iranian missiles wound ~100 in Israeli southern towns",
-    "British submarine HMS Anson deployed to Arabian Sea",
-    "IEA warns of 'very severe' global energy crisis"
+    "Russian tanker adrift in Mediterranean after drone strike",
+    "Israel orders destruction of Lebanon bridges and border homes",
+    "Iran strikes reported at US-UK Diego Garcia base",
+    "WHO warns of health risks from nuclear facility strikes"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Britain has deployed nuclear-powered submarine HMS Anson with Tomahawk missiles to Arabian Sea."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
-    "eastern_europe": [],
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown",
+        "target_country": "Russia",
+        "target_location": "Mediterranean Sea",
+        "description": "Russian oil tanker targeted by drones, left adrift with no crew aboard",
+        "method": "Air/Drone",
+        "lat": 35.0,
+        "lng": 18.0,
+        "source_tier": "unverified"
+      }
+    ],
     "middle_east": [
       {
         "time_utc": "Unknown",
@@ -40,6 +52,28 @@
         "lat": 31.78,
         "lng": 35.22,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "UK",
+        "target_location": "Diego Garcia",
+        "description": "Iranian missiles reportedly targeted US-UK airbase in Indian Ocean",
+        "method": "Ballistic Missile",
+        "lat": -7.3,
+        "lng": 72.4,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "South Lebanon",
+        "description": "Israeli forces struck main bridge and ordered destruction of homes near border",
+        "method": "Air/Precision Strike",
+        "lat": 33.3,
+        "lng": 35.4,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -59,6 +93,12 @@
         "figure": "1,444 in Iran, 18 in Israel, 13 US soldiers, 21 in Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-20"
+      },
+      {
+        "claim": "US-Israel war casualties",
+        "figure": "~1,500 dead in Iran, ~18 in Israel, ~13 US soldiers, ~21 in Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-23"
       }
     ]
   },
@@ -77,6 +117,12 @@
         "speaker": "Unknown analyst",
         "title": "Military analyst",
         "date": "2026-03-23"
+      },
+      {
+        "text": "Iran has 48 hours to reopen Strait of Hormuz or face military action",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-03-22"
       }
     ]
   },
@@ -104,9 +150,29 @@
     "usd_rub": "Unchanged",
     "brent_crude": "Soaring",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices soaring as Strait of Hormuz closure halts one-fifth of world's oil and gas supply creating global energy crisis."
+    "notes": "Oil prices surging as Strait of Hormuz closure halts one-fifth of global oil and gas supply."
   },
   "update_log": [
+    {
+      "time": "15:30 UTC",
+      "text": "Trump postpones strikes on Iranian power plants while maintaining Hormuz ultimatum",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:15 UTC",
+      "text": "WHO issues urgent health warnings over strikes near Iranian and Israeli nuclear sites",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:45 UTC",
+      "text": "Israel orders military to intensify demolitions of bridges and homes in southern Lebanon",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:30 UTC",
+      "text": "Russian tanker reported adrift in Mediterranean after drone attack with environmental risks",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:30 UTC",
       "text": "IEA chief warns of very severe global energy crisis as Iran war hits supply",
@@ -128,5 +194,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-23T08:37:47Z"
+  "last_updated": "2026-03-23T15:39:43Z"
 }
