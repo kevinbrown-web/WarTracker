@@ -1,15 +1,15 @@
 {
   "escalation": {
-    "score": 7.2,
-    "delta": "-1.3 from yesterday",
-    "level": "Elevated",
-    "rationale": "Trump backed down from Iran power plant strike threat amid market pressure, though Israeli strikes on Tehran continue and Strait of Hormuz remains closed."
+    "score": 8.5,
+    "delta": "N/A - No previous escalation score available",
+    "level": "High",
+    "rationale": "Active US-Israel war on Iran with Strait of Hormuz closure, fresh Israeli strikes on Tehran, Iran threatening Gulf mining, and Trump considering ground invasion."
   },
   "ticker_items": [
-    "Trump delays Iran power plant strikes as markets plummet",
-    "Israel launches fresh strikes on Tehran amid energy crisis",
-    "Strait of Hormuz blockade enters day 23, oil under $90",
-    "IEA releases 400M barrels from strategic reserves",
+    "Israel launches renewed strikes on Tehran infrastructure",
+    "Iran threatens to mine Persian Gulf if US launches ground invasion",
+    "Trump delays threat to obliterate Iran's energy sites for 5 days",
+    "Strait of Hormuz closure creates global energy crisis",
     "Iran denies firing missiles at Diego Garcia base"
   ],
   "new_entrant": {
@@ -51,6 +51,39 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "Tehran",
+        "description": "IDF announces new wave of airstrikes against regime infrastructure in Tehran.",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.42,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Gaza refugee camp",
+        "description": "IDF strikes kill three Palestinians in Gaza refugee camp.",
+        "method": "Air/Precision Strike",
+        "lat": 31.35,
+        "lng": 34.31,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Lebanon",
+        "description": "Israeli strikes kill five people in Lebanon as part of expanding assault.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -89,18 +122,43 @@
         "figure": "13",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "March 24, 2026"
+      },
+      {
+        "claim": "Gulf states deaths",
+        "figure": "21",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-24"
       }
     ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Very bad feeling about Iran war causing global shortage of air defence missiles",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President of Ukraine",
+        "date": "2026-03-23"
+      }
+    ],
     "middle_east": [
       {
         "text": "Iran denies the long-range missile attack, which could change the calculus of the war for US allies.",
         "speaker": "Esmaeil Baghaei",
         "title": "Iranian spokesperson",
         "date": "March 23, 2026"
+      },
+      {
+        "text": "Good and productive talks with Iran could bring the conflict to an end soon",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-03-23"
+      },
+      {
+        "text": "Iran is ready to mine the entire Persian Gulf if the US launches a ground incursion",
+        "speaker": "Iranian officials",
+        "title": "Government representatives",
+        "date": "2026-03-23"
       }
     ]
   },
@@ -116,15 +174,58 @@
       "flag": "\ud83c\uddf6\ud83c\udde6",
       "status": "Strategic balancer",
       "description": "QatarEnergy declared force majeure on some LNG contracts due to production disruptions from the Iran war. The move highlights Gulf states' economic vulnerability to regional conflict escalation."
+    },
+    {
+      "country": "International Energy Agency",
+      "flag": "\ud83c\udf0d",
+      "status": "Strategic balancer",
+      "description": "IEA members agreed to release 400 million barrels of oil from strategic reserves to counter the global energy crisis. The organization warns this crisis could be worse than the 1970s oil shocks due to the Strait of Hormuz closure."
+    },
+    {
+      "country": "Saudi Arabia",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "status": "Strategic balancer",
+      "description": "Saudi Arabia's East-West pipeline has become crucial for global oil flow as an alternative to the blocked Strait of Hormuz. The 1,200-kilometer pipeline is now rerouting millions of barrels daily to prevent complete supply disruption."
+    },
+    {
+      "country": "European Union",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "status": "Abstaining",
+      "description": "Former French Ambassador to US Gerard Araud argues Europe is right to avoid the US-Israeli war on Iran. Trump is reportedly asking for European help but facing resistance from allies who view the conflict as unnecessary."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Under $90",
+    "brent_crude": "Surging",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices dropped below $90 after Trump backed down from Iran strikes, triggering $1.7 trillion stock market rally."
+    "notes": "Gas prices across the US have increased by $1 per gallon in less than a month due to the Iran conflict and Strait of Hormuz closure."
   },
   "update_log": [
+    {
+      "time": "Unknown",
+      "text": "Iran denies claims it fired missiles at Diego Garcia US base, calling it a false flag attack",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Iran names Mohammad Bagher Zolghadr as successor to security chief killed in US-Israeli attack",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Trump postpones strikes against Iranian power plants and energy infrastructure for five days",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Israel launches fresh wave of airstrikes against regime infrastructure in Tehran",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "IEA members agree to release 400 million barrels from strategic oil reserves",
+      "source_tier": "verified"
+    },
     {
       "time": "15:30 UTC",
       "text": "QatarEnergy declares force majeure on LNG contracts due to Iran war disruptions.",
@@ -151,5 +252,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-03-24T15:46:03Z"
+  "last_updated": "2026-03-24T20:00:28Z"
 }
