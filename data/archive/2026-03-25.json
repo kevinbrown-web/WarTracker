@@ -1,23 +1,35 @@
 {
   "escalation": {
-    "score": 8.8,
-    "delta": "+0.3 from yesterday",
+    "score": 8.5,
+    "delta": "No prior data",
     "level": "High",
-    "rationale": "Iran launched fresh missile waves at Israel while the US-Israel conflict enters day 26 with reports of joint targeting of Iranian leadership."
+    "rationale": "Multiple active conflicts with Russia launching 400 drones at Ukraine, ongoing US-Iran war with casualties, and Israel planning to occupy southern Lebanon."
   },
   "ticker_items": [
-    "Iran fires new missile waves at Israel, 6 injured in Tel Aviv",
-    "Trump claims 'very good talks' with Iran; Tehran denies any negotiations",
-    "US-Israel war on Iran enters day 26 with escalating strikes",
-    "Strait of Hormuz remains closed, oil hits $100 in Europe",
-    "Reports suggest Netanyahu argued for joint killing of Khamenei"
+    "Russia fires ~400 drones at Ukraine in major spring offensive launch",
+    "Iran sets 5 conditions to end war as US claims ongoing talks",
+    "Israel announces plans to occupy southern Lebanon to Litani River",
+    "Ukrainian drones crash in Baltic NATO states Lithuania, Latvia, Estonia",
+    "Strait of Hormuz partially reopening for 'non-hostile vessels'"
   ],
   "new_entrant": {
     "active": false,
     "text": ""
   },
   "strikes_today": {
-    "eastern_europe": [],
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Lviv",
+        "description": "Daylight drone strike on apartment block during massive 400-drone barrage",
+        "method": "Air/Drone",
+        "lat": 49.84,
+        "lng": 24.03,
+        "source_tier": "unverified"
+      }
+    ],
     "middle_east": [
       {
         "time_utc": "Unknown",
@@ -40,6 +52,17 @@
         "lat": 25.2,
         "lng": 55.27,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Israel",
+        "target_location": "Multiple locations",
+        "description": "Iranian missiles and drones targeted Israel and Gulf Arab states",
+        "method": "Missile/Surface",
+        "lat": 31.77,
+        "lng": 35.23,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -51,6 +74,20 @@
         "wia": "6",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian drone attack on Ukraine",
+        "kia": "4",
+        "wia": "35+",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Chad strike by Sudan RSF",
+        "kia": "17+",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "analyst"
       }
     ],
     "claimed_totals": [
@@ -65,6 +102,18 @@
         "figure": "~18",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-24"
+      },
+      {
+        "claim": "Israeli deaths in Iran conflict",
+        "figure": "18+",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-25"
+      },
+      {
+        "claim": "US soldier deaths in Iran conflict",
+        "figure": "13",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-25"
       }
     ]
   },
@@ -82,6 +131,24 @@
         "text": "Now is the time for every citizen, enterprise and institution, including government, to make resilience an everyday part of how we think and act.",
         "speaker": "General Sir Richard Barrons",
         "title": "Former British military commander",
+        "date": "2026-03-24"
+      },
+      {
+        "text": "Israel will occupy southern Lebanon up to the Litani River to create a defensive buffer",
+        "speaker": "Israel Katz",
+        "title": "Israeli Defence Minister",
+        "date": "2026-03-24"
+      },
+      {
+        "text": "Iranian armed forces will attack Israeli troops in the Gaza Strip if Israel continues its attacks on Lebanon and Palestinian territories",
+        "speaker": "IRGC",
+        "title": "Islamic Revolutionary Guard Corps",
+        "date": "2026-03-24"
+      },
+      {
+        "text": "The United States is talking to the right people in Iran in an effort to end hostilities and the Iranians want to reach a deal very badly",
+        "speaker": "Donald Trump",
+        "title": "US President",
         "date": "2026-03-24"
       }
     ]
@@ -104,15 +171,64 @@
       "flag": "\ud83c\udde8\ud83c\udde6",
       "status": "Monitoring",
       "description": "Intelligence experts assess Iranian 'sleeper cell' threats as rhetoric spikes since US-Israel war began. Over 125,000 Syrians fleeing Israeli strikes in Lebanon return home via Canadian-monitored border crossings."
+    },
+    {
+      "country": "Poland",
+      "flag": "\ud83c\uddf5\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "NATO scrambled Polish fighter jets as Russian drone strikes neared Polish airspace during the massive 400-drone barrage on Ukraine. Poland continues providing military support and hosting Ukrainian refugees."
+    },
+    {
+      "country": "Denmark",
+      "flag": "\ud83c\udde9\ud83c\uddf0",
+      "status": "Strategic balancer",
+      "description": "Holding elections clouded by Trump's push on Greenland while Danish military officials warn Europe needs to prepare for potential Russian attack on NATO by decade's end."
+    },
+    {
+      "country": "Saudi Arabia",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "status": "Strategic balancer",
+      "description": "Prince Mohammed bin Salman reportedly pressuring Trump to intensify the Iran war while Saudi's East-West pipeline becomes crucial for global oil flow with Hormuz disrupted."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Abstaining",
+      "description": "German President calls for permanent rupture with US over Trump's Iran war, marking significant departure from traditional German support for US military actions."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "$100",
+    "brent_crude": "Elevated",
     "wheat_futures": "Unchanged",
-    "notes": "Oil reached $100 in Europe while gas hit \u20ac54 amid Strait of Hormuz closure and escalating Middle East conflict."
+    "notes": "Global gas markets reaching boiling point with Iran-Hormuz crisis disrupting energy flows despite partial reopening for non-hostile vessels."
   },
   "update_log": [
+    {
+      "time": "19:57 UTC",
+      "text": "Iran sets five conditions to end war according to state TV broadcast",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "UN chief calls Middle East conflict 'out of control' and demands end to Iran war",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:45 UTC",
+      "text": "Ukrainian drones confirmed crashed in Lithuania, Latvia, and Estonia",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:20 UTC",
+      "text": "Russia launches nearly 400 drones at Ukraine signaling spring offensive start",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:15 UTC",
+      "text": "Israel announces plans to occupy southern Lebanon up to Litani River",
+      "source_tier": "verified"
+    },
     {
       "time": "Unknown",
       "text": "Iran launches fresh wave of missiles at Israel, 6 injured in Tel Aviv attack.",
@@ -134,5 +250,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-25T08:05:09Z"
+  "last_updated": "2026-03-25T19:57:34Z"
 }
