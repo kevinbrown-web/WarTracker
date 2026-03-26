@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.8,
-    "delta": "+0.3 from yesterday",
+    "score": 8.5,
+    "delta": "+1.2 from yesterday",
     "level": "High",
-    "rationale": "Russia launched massive 400-drone assault on Ukraine signaling spring offensive while Iran continues missile strikes amid disputed US peace talks."
+    "rationale": "Israel killed Iranian naval commander Alireza Tangsiri in strike near Strait of Hormuz as tensions escalate on day 26 of US-Israel war on Iran."
   },
   "ticker_items": [
-    "Russia fires ~400 drones at Ukraine, spring offensive begins",
-    "Iran denies US peace talks despite Trump claims",
-    "Israel announces occupation of southern Lebanon to Litani River",
-    "Strait of Hormuz remains closed, oil prices soaring",
-    "Two teenagers killed in Iran strikes on Shiraz"
+    "Israeli strike kills Iranian naval commander Tangsiri near Strait of Hormuz",
+    "Iran launches 80th wave of retaliatory strikes against Israeli territories",
+    "Russia begins spring offensive with 400 drones against Ukraine",
+    "Pakistan confirms mediating indirect US-Iran peace talks",
+    "Britain to lead coalition keeping Strait of Hormuz open"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Pakistan officially confirmed its role mediating indirect talks between the US and Iran."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -28,6 +28,17 @@
         "lat": 49.84,
         "lng": 24.03,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations including Lviv",
+        "description": "Russia launched nearly 400 drones plus 23 cruise missiles and 7 ballistic missiles in major assault.",
+        "method": "Air/Drone",
+        "lat": 49.84,
+        "lng": 24.03,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -52,6 +63,39 @@
         "lat": 24.45,
         "lng": 54.37,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "Bandar Abbas",
+        "description": "Israeli strike killed IRGC naval commander Alireza Tangsiri near Strait of Hormuz.",
+        "method": "Air/Precision Strike",
+        "lat": 27.19,
+        "lng": 56.28,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Israel",
+        "target_location": "Northern and central territories",
+        "description": "IRGC launched 80th wave of Operation True Promise 4 strikes against Israeli positions.",
+        "method": "Missile/Surface",
+        "lat": 32.09,
+        "lng": 34.88,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Unknown location",
+        "description": "Israeli strike killed 15-year-old volunteer paramedic and colleague in Lebanon.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -70,6 +114,27 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Ukraine drone attacks",
+        "kia": "4",
+        "wia": "35+",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strike Lebanon",
+        "kia": "2",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Iranian naval commander",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -78,17 +143,48 @@
         "figure": "~1,500",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-25"
+      },
+      {
+        "claim": "Iran war total deaths",
+        "figure": "~1,937",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-26"
+      },
+      {
+        "claim": "Israeli deaths in Iran war",
+        "figure": "19+",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-26"
+      },
+      {
+        "claim": "US military deaths",
+        "figure": "13",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-26"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Moscow is hearing speculation about preparations for a ground operation on Iran's island of Kharg but hopes it will be limited to words and threats",
+        "speaker": "Maria Zakharova",
+        "title": "Russian Foreign Ministry spokesperson",
+        "date": "2026-03-25"
+      }
+    ],
     "ukraine": [
       {
         "text": "absolute depravity",
         "speaker": "Volodymyr Zelensky",
         "title": "President of Ukraine",
         "date": "2026-03-25"
+      },
+      {
+        "text": "Kyiv faces a deficit of missiles as Washington is focused on its war on Iran",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "Ukrainian President",
+        "date": "2026-03-24"
       }
     ],
     "middle_east": [
@@ -102,6 +198,12 @@
         "text": "US talking to itself",
         "speaker": "Iranian officials",
         "title": "Iranian Foreign Ministry",
+        "date": "2026-03-25"
+      },
+      {
+        "text": "Iranian armed forces will attack Israeli troops in the Gaza Strip if Israel continues its attacks on Lebanon and Palestinian territories",
+        "speaker": "IRGC",
+        "title": "Islamic Revolutionary Guard Corps",
         "date": "2026-03-25"
       }
     ]
@@ -124,15 +226,64 @@
       "flag": "\ud83c\uddf1\ud83c\udde7",
       "status": "Monitoring",
       "description": "Lebanon ejected Iranian ambassador, giving him five days to leave the country as Israel announces plans to occupy southern Lebanon up to Litani River."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan officially confirmed it is mediating indirect talks between the US and Iran aimed at ending the war. This represents a significant diplomatic development as Islamabad positions itself as a key regional mediator."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "Britain agreed to lead an international coalition to keep the Strait of Hormuz open for navigation. British military officers are embedded with CENTCOM in preparation for long-term freedom of navigation missions."
+    },
+    {
+      "country": "Spain",
+      "flag": "\ud83c\uddea\ud83c\uddf8",
+      "status": "Abstaining",
+      "description": "Spanish Prime Minister Pedro S\u00e1nchez condemned the US-Israel war on Iran as 'absurd, cruel and illegal' and a challenge to international law. Spain has ruled out helping secure the Strait of Hormuz until the conflict ends."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "The Iran war and resulting energy shock could revive China's interest in Russia's stalled Power of Siberia 2 pipeline. Beijing is reassessing its energy strategy as the conflict disrupts Gulf supplies through the Strait of Hormuz."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Soaring",
+    "brent_crude": "Elevated",
     "wheat_futures": "Unchanged",
-    "notes": "Global fuel prices soaring due to Iran war and Strait of Hormuz closure affecting commodity markets beyond oil and gas."
+    "notes": "Energy markets remain volatile as Iran effectively controls the Strait of Hormuz, forcing reliance on Saudi Arabia's East-West pipeline."
   },
   "update_log": [
+    {
+      "time": "12:35 UTC",
+      "text": "Al Jazeera casualty tracker updated showing 1,937 dead in Iran, 19 in Israel, 13 US soldiers",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Israel claims killing Iranian naval commander Alireza Tangsiri near Bandar Abbas",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Pakistan confirms mediating indirect US-Iran talks aimed at ending war",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Iran launches 80th wave of retaliatory Operation True Promise 4 strikes",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Russia launches spring offensive with 400 drones against Ukrainian civilian areas",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:32 UTC",
       "text": "Al Jazeera reports two teenagers killed in Shiraz, two dead in Abu Dhabi as Iran war expands",
@@ -154,5 +305,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-26T08:35:41Z"
+  "last_updated": "2026-03-26T15:57:46Z"
 }
