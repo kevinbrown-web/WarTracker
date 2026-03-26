@@ -3,18 +3,18 @@
     "score": 8.5,
     "delta": "+1.2 from yesterday",
     "level": "High",
-    "rationale": "Israel killed Iranian naval commander Alireza Tangsiri in strike near Strait of Hormuz as tensions escalate on day 26 of US-Israel war on Iran."
+    "rationale": "US deploys scatterable mines in Iranian villages, Iran fires missile barrage across Israel, and Russia launches 400-drone spring offensive against Ukraine."
   },
   "ticker_items": [
-    "Israeli strike kills Iranian naval commander Tangsiri near Strait of Hormuz",
-    "Iran launches 80th wave of retaliatory strikes against Israeli territories",
-    "Russia begins spring offensive with 400 drones against Ukraine",
-    "Pakistan confirms mediating indirect US-Iran peace talks",
-    "Britain to lead coalition keeping Strait of Hormuz open"
+    "Iran fires widespread missile barrage across Israel causing extensive damage",
+    "US allegedly deploys Gator mines over Iranian village near Shiraz",
+    "Russia launches 400-drone assault signaling spring offensive start",
+    "Iran rejects Trump's 15-point peace plan, demands war reparations",
+    "Israel intensifies Lebanon strikes ahead of possible ceasefire talks"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Pakistan officially confirmed its role mediating indirect talks between the US and Iran."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -39,6 +39,17 @@
         "lat": 49.84,
         "lng": 24.03,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple civilian areas",
+        "description": "Russia fires nearly 400 drones plus 23 cruise missiles and 7 ballistic missiles in major spring offensive launch.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -96,6 +107,28 @@
         "lat": 33.89,
         "lng": 35.5,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Israel",
+        "target_location": "Multiple locations",
+        "description": "Iranian missiles cause widespread damage across Israel in latest wave of attacks.",
+        "method": "Ballistic Missile",
+        "lat": 31.77,
+        "lng": 35.23,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Overnight",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Kafari village near Shiraz",
+        "description": "US appears to have deployed Gator Scatterable Mine system over Iranian village, killing several people.",
+        "method": "Air/Precision Strike",
+        "lat": 29.61,
+        "lng": 52.53,
+        "source_tier": "analyst"
       }
     ]
   },
@@ -135,6 +168,20 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian drone/missile assault on Ukraine",
+        "kia": "4",
+        "wia": "35+",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes in Lebanon in March",
+        "kia": "1,094",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -159,6 +206,12 @@
       {
         "claim": "US military deaths",
         "figure": "13",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-26"
+      },
+      {
+        "claim": "Total deaths from US-Israel attacks on Iran",
+        "figure": "1,937",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-26"
       }
@@ -205,6 +258,18 @@
         "speaker": "IRGC",
         "title": "Islamic Revolutionary Guard Corps",
         "date": "2026-03-25"
+      },
+      {
+        "text": "Iran will end the war",
+        "speaker": "Iranian officials",
+        "title": "Government representatives",
+        "date": "2026-03-25"
+      },
+      {
+        "text": "Iran's navy is gone",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-03-25"
       }
     ]
   },
@@ -250,15 +315,41 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "The Iran war and resulting energy shock could revive China's interest in Russia's stalled Power of Siberia 2 pipeline. Beijing is reassessing its energy strategy as the conflict disrupts Gulf supplies through the Strait of Hormuz."
+    },
+    {
+      "country": "New Zealand",
+      "flag": "\ud83c\uddf3\ud83c\uddff",
+      "status": "Monitoring",
+      "description": "New Zealand is among 22 nations weighing participation in a mission to secure the Strait of Hormuz. The country faces pressure to contribute to maintaining critical shipping lanes."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated",
+    "brent_crude": "Surging on supply disruptions",
     "wheat_futures": "Unchanged",
-    "notes": "Energy markets remain volatile as Iran effectively controls the Strait of Hormuz, forcing reliance on Saudi Arabia's East-West pipeline."
+    "notes": "Global energy crisis deepening with 40% of Russia's oil export capacity halted and Strait of Hormuz effectively closed to normal commercial traffic."
   },
   "update_log": [
+    {
+      "time": "19:30 UTC",
+      "text": "Iranian missiles cause widespread damage across Israel in latest wave of attacks",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:45 UTC",
+      "text": "Trump says Iran 'begging' for deal as Tehran issues new demands for war reparations",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:20 UTC",
+      "text": "Evidence points to US deploying scatterable mines over Iranian village near Shiraz",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Russia fires nearly 400 drones at Ukraine signaling start of spring offensive",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:35 UTC",
       "text": "Al Jazeera casualty tracker updated showing 1,937 dead in Iran, 19 in Israel, 13 US soldiers",
@@ -305,5 +396,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-26T15:57:46Z"
+  "last_updated": "2026-03-26T19:59:27Z"
 }
