@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 9.0,
-    "delta": "+0.5 from yesterday",
-    "level": "High",
-    "rationale": "US deploying scatterable mines in Iranian villages, Israel expanding occupation in Lebanon, Iran maintaining Strait of Hormuz blockade, and Russian spring offensive beginning in Ukraine."
+    "score": 7.5,
+    "delta": "Unknown (no previous data)",
+    "level": "Elevated",
+    "rationale": "US considering diversion of Ukraine arms to Iran war while Russia launches 400-drone offensive signals major multi-theater escalation."
   },
   "ticker_items": [
-    "US deploys Gator mines over Iranian village near Shiraz",
-    "Israel announces full occupation of southern Lebanon to Litani River",
-    "Russia launches 400-drone assault marking spring offensive start",
-    "Iran maintains toll booth regime in Strait of Hormuz",
-    "Israeli opposition warns military forces in collapse"
+    "Russia fires nearly 400 drones at Ukraine signaling spring offensive",
+    "US weighing diversion of Ukraine-bound weapons to Iran conflict",
+    "Trump warns Iran to 'get serious' on war talks",
+    "Ukrainian drone strikes Russian patrol ship under construction",
+    "Zelensky says US ties security guarantees to Donbas withdrawal"
   ],
   "new_entrant": {
     "active": false,
@@ -38,6 +38,28 @@
         "method": "Air/Drone",
         "lat": 0.0,
         "lng": 0.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia launched nearly 400 drones plus 23 cruise missiles and 7 ballistic missiles targeting civilian areas.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Vyborg Shipyard",
+        "description": "Ukrainian drone strike damaged Russian Project 23550 patrol ship Purga under construction.",
+        "method": "Air/Drone",
+        "lat": 60.71,
+        "lng": 28.74,
         "source_tier": "unverified"
       }
     ],
@@ -74,6 +96,17 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Kafari village near Shiraz",
+        "description": "US appears to have deployed Gator Scatterable Mine system over Iranian village.",
+        "method": "Air/Precision Strike",
+        "lat": 29.61,
+        "lng": 52.53,
+        "source_tier": "analyst"
       }
     ]
   },
@@ -88,6 +121,20 @@
       },
       {
         "incident": "US mine deployment Kafari village",
+        "kia": "Several",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "analyst"
+      },
+      {
+        "incident": "Russian drone/missile strikes on Ukraine",
+        "kia": "4",
+        "wia": "35+",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US mine deployment in Iran",
         "kia": "Several",
         "wia": "Unknown",
         "civilian": true,
@@ -118,6 +165,12 @@
         "figure": "25",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-26"
+      },
+      {
+        "claim": "Israeli deaths in Iran conflict",
+        "figure": "19+",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-27"
       }
     ]
   },
@@ -130,7 +183,14 @@
         "date": "2026-03-26"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "The United States linked future security guarantees to Kyiv's withdrawal from the Donbas region",
+        "speaker": "Volodymyr Zelensky",
+        "title": "Ukrainian President",
+        "date": "2026-03-26"
+      }
+    ],
     "middle_east": [
       {
         "text": "President Donald Trump is ready to 'unleash hell' on Iran if it remains defiant",
@@ -155,6 +215,12 @@
         "speaker": "Yair Lapid",
         "title": "Israeli opposition leader",
         "date": "2026-03-27"
+      },
+      {
+        "text": "Get serious soon or it won't be pretty",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-03-26"
       }
     ]
   },
@@ -182,15 +248,52 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Strategic balancer",
       "description": "Kim Jong Un holds talks with Belarus President Lukashenko in Pyongyang, signing friendship treaty. Meeting strengthens anti-Western axis amid global conflicts."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan confirmed facilitating indirect negotiations between US and Iran. Diplomatic efforts are accelerating with proposals being exchanged through Pakistani channels despite Iranian denials of direct talks."
+    },
+    {
+      "country": "Saudi Arabia",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "status": "Active materiel + troops",
+      "description": "Ukraine announced a 'mutually beneficial' defense deal with Saudi Arabia. The pact involves sharing Ukrainian expertise on countering drones amid the Iran war."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Rising",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices surge as Iran maintains de facto toll booth regime in Strait of Hormuz with some payments in Chinese yuan."
+    "notes": "Global energy crisis reported with gasoline shortages in Thailand and diesel queues affecting regional markets."
   },
   "update_log": [
+    {
+      "time": "14:00 UTC",
+      "text": "Ukraine announces defense deal with Saudi Arabia focusing on drone countermeasures",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Evidence emerges of US scattering mines over Iranian village near Shiraz",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Russian spring offensive begins with 400-drone barrage on Ukrainian civilian areas",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Ukrainian drone damages Russian patrol ship under construction at Vyborg Shipyard",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "Trump warns Iran to get serious on war talks before it's too late",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:00 UTC",
       "text": "Israeli opposition leader warns military forces are in collapse as multi-front war continues",
@@ -217,5 +320,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-27T08:08:45Z"
+  "last_updated": "2026-03-27T14:44:02Z"
 }
