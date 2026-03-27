@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "Unknown (no previous data)",
-    "level": "Elevated",
-    "rationale": "US considering diversion of Ukraine arms to Iran war while Russia launches 400-drone offensive signals major multi-theater escalation."
+    "score": 8.5,
+    "delta": "No previous baseline",
+    "level": "High",
+    "rationale": "Active US-Iran war with confirmed US scatterable mine deployment in Iranian villages and Iranian control over Strait of Hormuz threatening global energy supplies."
   },
   "ticker_items": [
-    "Russia fires nearly 400 drones at Ukraine signaling spring offensive",
-    "US weighing diversion of Ukraine-bound weapons to Iran conflict",
-    "Trump warns Iran to 'get serious' on war talks",
-    "Ukrainian drone strikes Russian patrol ship under construction",
-    "Zelensky says US ties security guarantees to Donbas withdrawal"
+    "US deploys scatterable mines in Iranian village near Shiraz, civilians killed",
+    "Iran controls Strait of Hormuz, threatens Bab al-Mandab shipping chokepoint",
+    "Russia launches 400-drone spring offensive against Ukrainian civilians",
+    "Rubio says US expects Iran war to end in weeks not months",
+    "Global fuel shortages reported in multiple regions amid energy crisis"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Ukraine reportedly sent 201 drone specialists to support US-Israeli operations against Iran."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -60,6 +60,28 @@
         "method": "Air/Drone",
         "lat": 60.71,
         "lng": 28.74,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple civilian areas",
+        "description": "Russia fired nearly 400 drones plus 23 cruise missiles and 7 ballistic missiles in spring offensive launch",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Vyborg Shipyard",
+        "description": "Ukrainian drone strike damaged Russian Project 23550 Arctic patrol ship Purga under construction",
+        "method": "Air/Drone",
+        "lat": 60.71,
+        "lng": 28.75,
         "source_tier": "unverified"
       }
     ],
@@ -107,6 +129,28 @@
         "lat": 29.61,
         "lng": 52.53,
         "source_tier": "analyst"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Kafari village near Shiraz",
+        "description": "US deployed Gator Scatterable Mine system over Iranian village, several civilians killed",
+        "method": "Air/Precision Strike",
+        "lat": 29.61,
+        "lng": 52.53,
+        "source_tier": "analyst"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "IDF 162nd Division joined expanded ground operations against Hezbollah targets",
+        "method": "Ground/Armored",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -135,6 +179,20 @@
       },
       {
         "incident": "US mine deployment in Iran",
+        "kia": "Several",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "analyst"
+      },
+      {
+        "incident": "Russian drone/missile barrage on Ukraine",
+        "kia": "4",
+        "wia": "35+",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US scatterable mines in Iranian village",
         "kia": "Several",
         "wia": "Unknown",
         "civilian": true,
@@ -189,6 +247,12 @@
         "speaker": "Volodymyr Zelensky",
         "title": "Ukrainian President",
         "date": "2026-03-26"
+      },
+      {
+        "text": "Kyiv faces a deficit of missiles as Washington is focused on its war on Iran",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-03-24"
       }
     ],
     "middle_east": [
@@ -221,6 +285,18 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-03-26"
+      },
+      {
+        "text": "The Iranian negotiators are very different and strange. They are begging us to make a deal, which they should be doing since they have been militarily obliterated, with zero chance of a comeback",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-03-26"
+      },
+      {
+        "text": "The US expects its military operation in Iran to conclude in weeks, not months",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
+        "date": "2026-03-27"
       }
     ]
   },
@@ -260,15 +336,46 @@
       "flag": "\ud83c\uddf8\ud83c\udde6",
       "status": "Active materiel + troops",
       "description": "Ukraine announced a 'mutually beneficial' defense deal with Saudi Arabia. The pact involves sharing Ukrainian expertise on countering drones amid the Iran war."
+    },
+    {
+      "country": "Australia",
+      "flag": "\ud83c\udde6\ud83c\uddfa",
+      "status": "Abstaining",
+      "description": "Trump singled out Australia as unwilling to help secure Strait of Hormuz amid Iran war. Australian government appears reluctant to commit forces to US-led operation despite alliance obligations."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Surging",
     "wheat_futures": "Unchanged",
-    "notes": "Global energy crisis reported with gasoline shortages in Thailand and diesel queues affecting regional markets."
+    "notes": "Global energy crisis threatens Ukraine war effort with soaring fuel costs while Strait of Hormuz disruptions spike oil prices globally."
   },
   "update_log": [
+    {
+      "time": "19:53 UTC",
+      "text": "Rubio states US expects Iran war to conclude in weeks not months",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Evidence emerges of US scatterable mine deployment in Iranian village near Shiraz",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "16:45 UTC",
+      "text": "Iran parliament speaker issues warning to regional neighbor over potential island occupation",
+      "source_tier": "verified"
+    },
+    {
+      "time": "14:20 UTC",
+      "text": "Reports confirm Russia launched nearly 400 drones in major Ukrainian offensive",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:15 UTC",
+      "text": "Ukraine reportedly sent 201 drone specialists to support US-Israeli Iran operations",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:00 UTC",
       "text": "Ukraine announces defense deal with Saudi Arabia focusing on drone countermeasures",
@@ -320,5 +427,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-27T14:44:02Z"
+  "last_updated": "2026-03-27T19:53:17Z"
 }
