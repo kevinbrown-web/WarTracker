@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 9.2,
-    "delta": "+0.7 from yesterday",
+    "score": 8.5,
+    "delta": "No previous data",
     "level": "High",
-    "rationale": "US-Israel war against Iran intensifying with strikes on Tehran, Iran threatening nuclear action, and Houthis preparing to join conflict."
+    "rationale": "Iran struck US troops at Saudi airbase while US-Israeli forces hit Iranian nuclear sites and deployed scatterable mines in Iranian villages."
   },
   "ticker_items": [
-    "Iran threatens nuclear action, claims 'one million fighters' ready",
-    "Israel strikes Tehran as diplomatic talks stall completely",
-    "Houthis signal readiness to join Iran war, threaten shipping",
-    "Russia launches 400+ drones at Ukraine in spring offensive",
-    "US considers redirecting Ukraine weapons to Middle East conflict"
+    "At least 15 US troops wounded in Iran strike on Saudi airbase",
+    "US-Israeli forces hit Iranian nuclear sites as war continues",
+    "Houthis ready to join Iran war, threaten Red Sea shipping",
+    "Russia launches spring offensive with 400 drones against Ukraine",
+    "Israel invades Lebanon amid multi-front war"
   ],
   "new_entrant": {
     "active": false,
@@ -39,6 +39,17 @@
         "lat": 60.71,
         "lng": 28.74,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia launches nearly 400 drones, 23 cruise missiles and 7 ballistic missiles in spring offensive escalation.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -74,6 +85,28 @@
         "lat": 29.34,
         "lng": 47.93,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Saudi Arabia",
+        "target_location": "Saudi airbase",
+        "description": "Iran strikes Saudi airbase hosting US forces, wounding at least 15 American troops.",
+        "method": "Missile/Surface",
+        "lat": 24.71,
+        "lng": 46.67,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "US-Israel",
+        "target_country": "Iran",
+        "target_location": "Nuclear sites",
+        "description": "US-Israeli forces strike Iranian nuclear facilities as part of ongoing military campaign.",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.39,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -83,6 +116,20 @@
         "incident": "Russian drone assault on Ukraine",
         "kia": "4",
         "wia": "~35",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Iran strike on Saudi airbase",
+        "kia": "0",
+        "wia": "15+",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US strike on Iran school",
+        "kia": "175+",
+        "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
       }
@@ -105,11 +152,24 @@
         "figure": "13",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-27"
+      },
+      {
+        "claim": "Iran war casualties",
+        "figure": "1,937 dead in Iran, 19 in Israel, 13 US soldiers, 25 in Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-27"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Iran violated none of its international commitments prior to the war, while Ukraine trampled on its promises",
+        "speaker": "Sergey Lavrov",
+        "title": "Foreign Minister",
+        "date": "2026-03-27"
+      }
+    ],
     "ukraine": [
       {
         "text": "Kyiv faces a deficit of missiles as Washington is focused on its war on Iran",
@@ -136,6 +196,18 @@
         "speaker": "Iranian Military",
         "title": "Official Statement",
         "date": "2026-03-27"
+      },
+      {
+        "text": "They will be weaker than they've been in recent history",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
+        "date": "2026-03-27"
+      },
+      {
+        "text": "The military is stretched to the limit and beyond",
+        "speaker": "Yair Lapid",
+        "title": "Israeli Opposition Leader",
+        "date": "2026-03-27"
       }
     ]
   },
@@ -157,15 +229,47 @@
       "flag": "\ud83c\udde9\ud83c\uddea",
       "status": "Supplying dual-use goods",
       "description": "German defense spending reached 2.4% of GDP in 2025. Iranian missiles displayed messages thanking 'People of Germany' during latest strikes on Israel."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "UK commits additional \u00a3100 million air defence package for Ukraine to protect cities and critical infrastructure. The funding aims to help defend against Russia's relentless attacks on civilian targets."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Supplying dual-use goods",
+      "description": "Ukrainian forces report Iran is adopting Russian drone tactics, with military delegation stating Iran, North Korea, China and Russia represent one unified war effort. China continues strategic support through technology transfers."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Rising",
+    "brent_crude": "Up 50%+ this month",
     "wheat_futures": "Unchanged",
-    "notes": "Defense stocks showing strong growth prospects with up to 52% upside expected as global tensions drive increased military spending."
+    "notes": "Oil prices drive higher amid fears of longer Iran war, with Brent Crude up more than 50% this month."
   },
   "update_log": [
+    {
+      "time": "14:00 UTC",
+      "text": "Iran strikes Saudi airbase hosting US forces, wounding at least 15 American troops",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "US-Israeli forces hit Iranian nuclear sites as Secretary Rubio trails end to Iran war",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Russia launches nearly 400 drones at Ukraine signaling spring offensive has begun",
+      "source_tier": "verified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Houthis signal readiness to join Iran war, threatening Red Sea shipping disruption",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:56 UTC",
       "text": "Iran threatens nuclear action against US as IRGC claims one million fighters ready for ground invasion",
@@ -187,5 +291,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-28T07:56:27Z"
+  "last_updated": "2026-03-28T14:02:35Z"
 }
