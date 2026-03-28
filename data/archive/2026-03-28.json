@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 8.5,
-    "delta": "No previous data",
+    "delta": "New baseline established",
     "level": "High",
-    "rationale": "Iran struck US troops at Saudi airbase while US-Israeli forces hit Iranian nuclear sites and deployed scatterable mines in Iranian villages."
+    "rationale": "Active US-Israeli war against Iran with nuclear facilities targeted, Russian spring offensive launched against Ukraine, and US warning of potential weapons redirection from Ukraine to Iran conflict."
   },
   "ticker_items": [
-    "At least 15 US troops wounded in Iran strike on Saudi airbase",
-    "US-Israeli forces hit Iranian nuclear sites as war continues",
-    "Houthis ready to join Iran war, threaten Red Sea shipping",
-    "Russia launches spring offensive with 400 drones against Ukraine",
-    "Israel invades Lebanon amid multi-front war"
+    "Israel strikes Iranian nuclear reactor; UN warns of potential catastrophe",
+    "US deploys landmines in Iran, 20,000 sailors trapped in Persian Gulf",
+    "Russia launches spring offensive with 400-drone barrage on Ukraine",
+    "Rubio claims Iran war will end 'within weeks' without ground troops",
+    "IDF chief warns of army 'collapse' as Lebanon ground offensive intensifies"
   ],
   "new_entrant": {
     "active": false,
@@ -46,6 +46,17 @@
         "target_country": "Ukraine",
         "target_location": "Multiple locations",
         "description": "Russia launches nearly 400 drones, 23 cruise missiles and 7 ballistic missiles in spring offensive escalation.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia fired nearly 400 drones plus cruise and ballistic missiles in major spring offensive launch",
         "method": "Air/Drone",
         "lat": 50.45,
         "lng": 30.52,
@@ -107,6 +118,28 @@
         "lat": 35.69,
         "lng": 51.39,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "Khondab heavy water reactor",
+        "description": "Israeli airstrikes hit Iranian heavy water nuclear reactor with no reported radiation leak",
+        "method": "Air/Precision Strike",
+        "lat": 33.67,
+        "lng": 50.11,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Kafari village near Shiraz",
+        "description": "US deployed Gator Scatterable Mine system over Iranian village, several casualties reported",
+        "method": "Air/Drone",
+        "lat": 29.61,
+        "lng": 52.53,
+        "source_tier": "analyst"
       }
     ]
   },
@@ -130,6 +163,20 @@
         "incident": "US strike on Iran school",
         "kia": "175+",
         "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US landmine deployment Iran",
+        "kia": "Several",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "analyst"
+      },
+      {
+        "incident": "Russian drone barrage Ukraine",
+        "kia": "4",
+        "wia": "35+",
         "civilian": true,
         "source_tier": "unverified"
       }
@@ -158,6 +205,12 @@
         "figure": "1,937 dead in Iran, 19 in Israel, 13 US soldiers, 25 in Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-27"
+      },
+      {
+        "claim": "Iran war casualties",
+        "figure": "1,937 dead Iran, 19 Israel, 13 US soldiers, 25 Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-27"
       }
     ]
   },
@@ -176,6 +229,12 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-03-24"
+      },
+      {
+        "text": "Iran has aided Russia's invasion of his country",
+        "speaker": "Volodymyr Zelensky",
+        "title": "Ukrainian President",
+        "date": "2026-03-27"
       }
     ],
     "middle_east": [
@@ -207,6 +266,18 @@
         "text": "The military is stretched to the limit and beyond",
         "speaker": "Yair Lapid",
         "title": "Israeli Opposition Leader",
+        "date": "2026-03-27"
+      },
+      {
+        "text": "US objectives in Iran can be achieved without ground troops",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
+        "date": "2026-03-27"
+      },
+      {
+        "text": "War with Iran will end in weeks, not months",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
         "date": "2026-03-27"
       }
     ]
@@ -241,15 +312,52 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Supplying dual-use goods",
       "description": "Ukrainian forces report Iran is adopting Russian drone tactics, with military delegation stating Iran, North Korea, China and Russia represent one unified war effort. China continues strategic support through technology transfers."
+    },
+    {
+      "country": "Belarus",
+      "flag": "\ud83c\udde7\ud83c\uddfe",
+      "status": "Active materiel + troops",
+      "description": "Announced plans to open embassy in North Korea following talks between Lukashenko and Kim Jong-un. Signed new treaty on friendship and cooperation, marking shift to 'fundamentally new stage' in relations."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Reprising its historical role as diplomatic broker as US and Iran edge closer to wider confrontation. Facing separate escalating conflict with Taliban-controlled Afghanistan as another nuclear threshold approaches."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Up 50%+ this month",
+    "brent_crude": "Elevated due to Strait of Hormuz blockade",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices drive higher amid fears of longer Iran war, with Brent Crude up more than 50% this month."
+    "notes": "Iranian blockade of Strait of Hormuz has trapped 20,000 sailors and continues disrupting global maritime trade routes."
   },
   "update_log": [
+    {
+      "time": "19:00 UTC",
+      "text": "Ukrainian President Zelensky signs defense deals with UAE and Qatar during Gulf tour",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Iranian politicians push for exit from Nuclear Non-Proliferation Treaty as war rages",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Israel strikes Iranian heavy water nuclear reactor at Khondab facility",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Evidence reveals US may be dropping landmines on Iranian villages using Gator system",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Russia launches spring offensive with 400-drone barrage hitting Ukrainian civilian areas",
+      "source_tier": "verified"
+    },
     {
       "time": "14:00 UTC",
       "text": "Iran strikes Saudi airbase hosting US forces, wounding at least 15 American troops",
@@ -291,5 +399,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-28T14:02:35Z"
+  "last_updated": "2026-03-28T19:26:40Z"
 }
