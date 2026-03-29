@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.5,
-    "delta": "N/A - first assessment",
-    "level": "High",
-    "rationale": "US-Israel war on Iran enters second month with Houthis joining conflict and Iranian strikes on US forces in Saudi Arabia."
+    "score": 7.5,
+    "delta": "Unknown",
+    "level": "Elevated",
+    "rationale": "Houthis opened third front against Israel with missile attack while Russia intensifies spring offensive against Ukraine with 400-drone assault."
   },
   "ticker_items": [
-    "Yemen Houthis fire ballistic missiles at Israel, enter Iran conflict",
-    "Iran strikes US airbase in Saudi Arabia, 15 troops wounded",
-    "Russia launches 270+ drones at Ukraine, kills 5 civilians",
-    "US-Israel war on Iran reaches day 29, casualties near 2000",
-    "Belarus-North Korea sign cooperation treaty in Pyongyang"
+    "Houthis launch first missile at Israel since Iran war began",
+    "Russian spring offensive underway with 400-drone barrage on Ukraine",
+    "Israeli airstrike kills 3 journalists in southern Lebanon",
+    "Ukraine signs defense agreements with UAE and Qatar",
+    "Iran strike wounds US troops at Saudi airbase"
   ],
   "new_entrant": {
     "active": true,
-    "text": "Yemen's Houthis entered the US-Israel-Iran war by launching ballistic missiles at Israel for the first time."
+    "text": "Houthis opened third front against Israel with first missile attack since US-Israel war on Iran began."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -49,6 +49,17 @@
         "method": "Air/Drone",
         "lat": 46.48,
         "lng": 30.73,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russian forces killed 4 people and damaged maternity hospital in ongoing spring offensive strikes.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
         "source_tier": "unverified"
       }
     ],
@@ -129,6 +140,39 @@
         "lat": 31.5,
         "lng": 34.47,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Israel",
+        "target_location": "Israel",
+        "description": "Houthis launched ballistic missile toward Israel from Yemen, intercepted by Israeli military.",
+        "method": "Ballistic Missile",
+        "lat": 31.77,
+        "lng": 35.23,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli airstrike on car killed three journalists covering Israel-Hezbollah war.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Saudi Arabia",
+        "target_location": "US airbase",
+        "description": "Iranian strike on US airbase in Saudi Arabia wounded several American service members.",
+        "method": "Missile/Surface",
+        "lat": 24.71,
+        "lng": 46.67,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -168,6 +212,27 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Russian strikes on Ukraine",
+        "kia": "4",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli airstrike Lebanon",
+        "kia": "3",
+        "wia": "0",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Iranian strike Saudi base",
+        "kia": "0",
+        "wia": "Several",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -200,6 +265,24 @@
         "figure": "~1,937 Iran, 19 Israel, 13 US, 25 Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-27"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "1,937",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-03-27"
+      },
+      {
+        "claim": "Israeli deaths in Iran war",
+        "figure": "19",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-03-27"
+      },
+      {
+        "claim": "US soldiers killed in Iran war",
+        "figure": "13",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-03-27"
       }
     ]
   },
@@ -217,6 +300,12 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "Ukrainian President",
         "date": "2026-03-28"
+      },
+      {
+        "text": "Ukraine's President Zelenskyy warns that Kyiv faces a deficit of missiles as Washington is focused on its war on Iran",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-03-24"
       }
     ],
     "middle_east": [
@@ -243,6 +332,12 @@
         "speaker": "Houthis",
         "title": "Yemen Houthi rebels",
         "date": "2026-03-28"
+      },
+      {
+        "text": "Iran, North Korea, China, and Russia\u2014that's all one war",
+        "speaker": "Ukrainian military delegation",
+        "title": "Military officials",
+        "date": "2026-03-27"
       }
     ]
   },
@@ -270,15 +365,52 @@
       "flag": "\ud83c\uddec\ud83c\udde7",
       "status": "Active materiel + troops",
       "description": "UK commits additional \u00a3100 million air defense package for Ukraine to protect cities and critical infrastructure. Britain continues supporting Ukraine while US focus shifts to Iran war."
+    },
+    {
+      "country": "United Arab Emirates",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "Active materiel + troops",
+      "description": "UAE signed defense cooperation agreement with Ukraine focusing on countering Iranian drones and missiles. President Sheikh Mohammed bin Zayed Al Nahyan met with Zelenskyy as Ukraine seeks Gulf support against Russian attacks."
+    },
+    {
+      "country": "Qatar",
+      "flag": "\ud83c\uddf6\ud83c\udde6",
+      "status": "Active materiel + troops",
+      "description": "Qatar signed defense agreement with Ukraine including cooperation on countering missile and drone threats. Zelenskyy visited Qatar as part of Middle East tour seeking military cooperation and fuel supply deals."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Surging",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Oil price surges from US-Iran war forcing Latin American governments to abandon costly fuel subsidies amid public backlash."
+    "notes": "US consumers suffering from skyrocketing gas prices, soaring interest rates and plummeting stock market one month into Iran war."
   },
   "update_log": [
+    {
+      "time": "19:47 UTC",
+      "text": "Houthis launched first ballistic missile at Israel since Iran war began, intercepted by Israeli military",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:47 UTC",
+      "text": "Israeli airstrike killed three journalists in southern Lebanon covering Israel-Hezbollah war",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:47 UTC",
+      "text": "Ukraine signed defense agreements with UAE and Qatar during Zelenskyy's Middle East tour",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:47 UTC",
+      "text": "Iranian strike on US airbase in Saudi Arabia wounded several American service members",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:47 UTC",
+      "text": "Russian spring offensive underway with 400-drone assault on Ukrainian civilian areas killing 4",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:00 UTC",
       "text": "Yemen Houthis fire ballistic missiles at Israel, declaring war and entering month-old Iran conflict",
@@ -330,5 +462,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-29T14:03:18Z"
+  "last_updated": "2026-03-29T19:47:26Z"
 }
