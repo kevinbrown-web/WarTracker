@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.2,
-    "delta": "+0.7 from yesterday",
-    "level": "High",
-    "rationale": "Houthis officially entered Iran conflict with missile strikes on Israel, Pentagon preparing ground operations in Iran, and Russia launching major spring offensive in Ukraine."
+    "score": 7.5,
+    "delta": "No previous data",
+    "level": "Elevated",
+    "rationale": "Houthis officially entered Iran war with missile strikes on Israel while Netanyahu announced expansion of Lebanon security zone."
   },
   "ticker_items": [
-    "Pentagon readies weeks of US ground operations in Iran",
-    "Houthis enter Iran war, launch missiles at Israel",
-    "Iran attacks Gulf aluminum plants, threatens global supply",
-    "Russia begins spring offensive with 400-drone barrage on Ukraine",
-    "Diplomatic talks in Pakistan seek to end Iran conflict"
+    "Houthis launch first missiles at Israel since Iran war began",
+    "Netanyahu announces expansion of security zone in Lebanon",
+    "Iran threatens USS Abraham Lincoln if within range",
+    "Three journalists killed in Israeli strike in Lebanon",
+    "Russia launches ~400 drones in spring offensive against Ukraine"
   ],
   "new_entrant": {
     "active": true,
-    "text": "Yemen's Houthi rebels officially entered the monthlong US-Israel war against Iran with missile strikes toward Israel."
+    "text": "Yemen's Houthis officially entered the Iran war by launching ballistic missiles and drones at Israel."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -28,6 +28,17 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Oil terminals",
+        "description": "Ukrainian forces struck Russian oil revenue targets in response to increased attacks.",
+        "method": "Air/Drone",
+        "lat": 0.0,
+        "lng": 0.0,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -63,6 +74,39 @@
         "lat": 33.89,
         "lng": 35.5,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Yemen Houthis",
+        "target_country": "Israel",
+        "target_location": "Unknown",
+        "description": "Houthis launched ballistic missiles and drones at Israel in first attack since Iran war began.",
+        "method": "Ballistic Missile",
+        "lat": 31.77,
+        "lng": 35.23,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Police checkpoints",
+        "description": "Israeli air strikes hit two Hamas police checkpoints killing at least six including a child.",
+        "method": "Air/Precision Strike",
+        "lat": 31.5,
+        "lng": 34.47,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Jezzine",
+        "description": "Israeli strike killed three journalists when their vehicle was hit.",
+        "method": "Air/Precision Strike",
+        "lat": 33.55,
+        "lng": 35.59,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -74,6 +118,27 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Lebanon journalist strike",
+        "kia": "3",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Gaza checkpoint strikes",
+        "kia": "6",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Lebanon combat",
+        "kia": "1",
+        "wia": "3",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -82,6 +147,12 @@
         "figure": "1,937 dead in Iran, 19 in Israel, 13 US soldiers, 25 in Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-03-27"
+      },
+      {
+        "claim": "Iran war casualties",
+        "figure": "~1,937 dead in Iran, ~20 in Israel, ~13 US soldiers, ~26 in Gulf states",
+        "claimed_by": "Al Jazeera",
+        "as_of": "March 30, 2026"
       }
     ]
   },
@@ -93,6 +164,12 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "Ukrainian President",
         "date": "2026-03-29"
+      },
+      {
+        "text": "Kyiv faces a deficit of missiles as Washington is focused on its war on Iran",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President",
+        "date": "March 24, 2026"
       }
     ],
     "middle_east": [
@@ -107,6 +184,24 @@
         "speaker": "Ukrainian military delegation",
         "title": "Military officials",
         "date": "2026-03-27"
+      },
+      {
+        "text": "We are expanding the security zone in Lebanon",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister",
+        "date": "March 29, 2026"
+      },
+      {
+        "text": "Iran will never acquire nuclear weapons",
+        "speaker": "Marco Rubio",
+        "title": "Secretary of State",
+        "date": "March 30, 2026"
+      },
+      {
+        "text": "Any U.S. troops would be on fire as soon as they arrive",
+        "speaker": "Iranian officials",
+        "title": "Government",
+        "date": "March 29, 2026"
       }
     ]
   },
@@ -128,15 +223,52 @@
       "flag": "\ud83c\uddec\ud83c\udde7",
       "status": "Abstaining",
       "description": "Prime Minister Starmer accused Trump of publicly badmouthing him in crude attempt to drag Britain into Iran war. UK refuses along with other NATO members to help with Trump's Middle East operations."
+    },
+    {
+      "country": "Ireland",
+      "flag": "\ud83c\uddee\ud83c\uddea",
+      "status": "Supplying dual-use goods",
+      "description": "EU Sanctions Envoy expressed concern that Irish alumina products may be indirectly assisting the Russian war machine. The sale of these products may need to be banned."
+    },
+    {
+      "country": "Belarus",
+      "flag": "\ud83c\udde7\ud83c\uddfe",
+      "status": "Active materiel + troops",
+      "description": "Belarus announced plans to open an embassy in North Korea following talks between President Lukashenko and Kim Jong-un. The two countries signed a new treaty on friendship and cooperation."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated due to Hormuz control",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Iran controlling Hormuz Strait as 'toll booth' generating hundreds of millions in extra oil revenue during conflict."
+    "notes": "Houthi threats to block Bab al-Mandeb strait could prove disastrous for global economy."
   },
   "update_log": [
+    {
+      "time": "15:55 UTC",
+      "text": "Rubio tells Al Jazeera that Strait of Hormuz to reopen one way or another",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:16 UTC",
+      "text": "Al Jazeera updates Iran war casualty tracker with preliminary death toll figures",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Netanyahu announces expansion of ground operations and security zone in Lebanon",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Houthis launch first missile strikes at Israel since Iran war began",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Three journalists killed in Israeli strike on vehicle in Jezzine Lebanon",
+      "source_tier": "unverified"
+    },
     {
       "time": "10:42 UTC",
       "text": "Pentagon preparing weeks of US ground operations in Iran according to reports",
@@ -163,5 +295,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-30T10:42:52Z"
+  "last_updated": "2026-03-30T15:55:55Z"
 }
