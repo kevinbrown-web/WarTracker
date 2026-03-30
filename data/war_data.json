@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.5,
+    "score": 8,
     "delta": "No previous data",
-    "level": "Elevated",
-    "rationale": "Houthis officially entered Iran war with missile strikes on Israel while Netanyahu announced expansion of Lebanon security zone."
+    "level": "High",
+    "rationale": "Active US-Israel war on Iran with ground troops deployed, Houthis opening new front, and expanded Israeli invasion of Lebanon."
   },
   "ticker_items": [
-    "Houthis launch first missiles at Israel since Iran war began",
-    "Netanyahu announces expansion of security zone in Lebanon",
-    "Iran threatens USS Abraham Lincoln if within range",
-    "Three journalists killed in Israeli strike in Lebanon",
-    "Russia launches ~400 drones in spring offensive against Ukraine"
+    "Houthis enter Iran war, attack Israeli military sites",
+    "Iran warns US ground troops would be 'set on fire'",
+    "Israel expands Lebanon invasion toward Litani River",
+    "Pakistan to host US-Iran talks amid escalation",
+    "Ukrainian children recovery may take 'dozens of years'"
   ],
   "new_entrant": {
     "active": true,
-    "text": "Yemen's Houthis officially entered the Iran war by launching ballistic missiles and drones at Israel."
+    "text": "Yemen's Houthi rebels have entered the Iran war by attacking Israeli military sites."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -38,6 +38,17 @@
         "method": "Air/Drone",
         "lat": 0.0,
         "lng": 0.0,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia launches spring offensive with increased attacks across Ukraine",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
         "source_tier": "verified"
       }
     ],
@@ -107,6 +118,28 @@
         "lat": 33.55,
         "lng": 35.59,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Israel",
+        "target_location": "Military sites",
+        "description": "Houthi rebels attack Israeli military installations as new front opens",
+        "method": "Missile/Surface",
+        "lat": 31.77,
+        "lng": 35.23,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Police checkpoints",
+        "description": "Israeli strikes hit two Gaza police checkpoints killing six including a child",
+        "method": "Air/Precision Strike",
+        "lat": 31.35,
+        "lng": 34.31,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -139,6 +172,20 @@
         "wia": "3",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Lebanese journalist killings",
+        "kia": "3",
+        "wia": "0",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "UN peacekeepers Lebanon",
+        "kia": "2",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -152,6 +199,12 @@
         "claim": "Iran war casualties",
         "figure": "~1,937 dead in Iran, ~20 in Israel, ~13 US soldiers, ~26 in Gulf states",
         "claimed_by": "Al Jazeera",
+        "as_of": "March 30, 2026"
+      },
+      {
+        "claim": "Iran war casualties",
+        "figure": "~1,937 dead in Iran, ~20 in Israel, ~13 US soldiers",
+        "claimed_by": "Al Jazeera tracker",
         "as_of": "March 30, 2026"
       }
     ]
@@ -170,6 +223,12 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "President",
         "date": "March 24, 2026"
+      },
+      {
+        "text": "Abducted Ukrainian kids may take 'dozens of years' to return",
+        "speaker": "Olena Zelenska",
+        "title": "First Lady of Ukraine",
+        "date": "March 29, 2026"
       }
     ],
     "middle_east": [
@@ -201,6 +260,12 @@
         "text": "Any U.S. troops would be on fire as soon as they arrive",
         "speaker": "Iranian officials",
         "title": "Government",
+        "date": "March 29, 2026"
+      },
+      {
+        "text": "U.S. ground troops would be 'set on fire'",
+        "speaker": "Iranian official",
+        "title": "Senior Iranian Official",
         "date": "March 29, 2026"
       }
     ]
@@ -235,15 +300,41 @@
       "flag": "\ud83c\udde7\ud83c\uddfe",
       "status": "Active materiel + troops",
       "description": "Belarus announced plans to open an embassy in North Korea following talks between President Lukashenko and Kim Jong-un. The two countries signed a new treaty on friendship and cooperation."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Supplying dual-use goods",
+      "description": "China is expanding Arctic presence with icebreakers as NATO scrambles to keep up. Analysts describe Iran, North Korea, China and Russia as 'one war' due to interconnected support."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Houthi threats to block Bab al-Mandeb strait could prove disastrous for global economy."
+    "notes": "Iranian strikes on Gulf aluminum plants raise supply fears with Strait of Hormuz effectively closed."
   },
   "update_log": [
+    {
+      "time": "20:04 UTC",
+      "text": "Houthis open new front in Iran war by attacking Israeli military sites",
+      "source_tier": "verified"
+    },
+    {
+      "time": "19:30 UTC",
+      "text": "Iran warns US ground troops would be set on fire as regional diplomats meet in Pakistan",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:45 UTC",
+      "text": "Netanyahu orders expansion of Israeli invasion into southern Lebanon",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:20 UTC",
+      "text": "Two more UN peacekeepers killed in southern Lebanon amid expanding violence",
+      "source_tier": "unverified"
+    },
     {
       "time": "15:55 UTC",
       "text": "Rubio tells Al Jazeera that Strait of Hormuz to reopen one way or another",
@@ -295,5 +386,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-30T15:55:55Z"
+  "last_updated": "2026-03-30T20:04:24Z"
 }
