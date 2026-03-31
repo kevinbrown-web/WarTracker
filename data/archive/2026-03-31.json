@@ -3,18 +3,18 @@
     "score": 8.5,
     "delta": "+1.2 from yesterday",
     "level": "High",
-    "rationale": "Houthis entered Iran war with first attacks on Israel while Iranian strike wounded 12 US troops in Saudi Arabia, expanding conflict geography significantly."
+    "rationale": "Iran war escalates with Houthis entering conflict, Spain closing airspace to US forces, and Trump threatening to obliterate Kharg Island oil hub."
   },
   "ticker_items": [
-    "Houthis launch first missiles at Israel since Iran war began",
-    "Iranian strike wounds 12 US troops at Saudi base",
-    "Pentagon considers weeks of ground operations in Iran",
-    "Spain closes airspace to US warplanes amid growing European opposition",
-    "Trump approval rating crashes to 33% as Iran war drags on"
+    "Houthis launch first missiles at Israel, enter Iran war",
+    "Spain closes airspace to US military aircraft attacking Iran",
+    "Trump threatens to 'obliterate' Iran's Kharg Island oil hub",
+    "12 US troops wounded in Iranian strike on Saudi base",
+    "Oil prices spike above $102 as conflict widens"
   ],
   "new_entrant": {
     "active": true,
-    "text": "Yemen's Houthi rebels entered the Iran conflict by launching their first missile attacks on Israel."
+    "text": "Houthis launched their first attacks on Israel since the Iran war began, officially entering the conflict."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -39,6 +39,17 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia launches spring offensive with massive drone and missile barrage hitting civilian areas.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -107,6 +118,50 @@
         "lat": 31.77,
         "lng": 35.23,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut southern suburbs",
+        "description": "Israeli strike hits building in Beirut's southern suburbs.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "US-Israel",
+        "target_country": "Iran",
+        "target_location": "Near Isfahan",
+        "description": "Bunker-buster bombs trigger massive secondary explosions at mountainous area.",
+        "method": "Air/Precision Strike",
+        "lat": 32.65,
+        "lng": 51.68,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Saudi Arabia",
+        "target_location": "Prince Sultan Air Base",
+        "description": "Iranian missiles and drones strike US base wounding at least 12 troops.",
+        "method": "Missile/Surface",
+        "lat": 23.89,
+        "lng": 46.63,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Israel",
+        "target_location": "Unknown",
+        "description": "Houthis launch first missile attacks on Israel since Iran war began.",
+        "method": "Missile/Surface",
+        "lat": 31.77,
+        "lng": 35.23,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -139,6 +194,20 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes in Lebanon",
+        "kia": "~10",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "UNIFIL peacekeepers killed",
+        "kia": "2",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -153,6 +222,18 @@
         "figure": "1,937",
         "claimed_by": "Al Jazeera casualty tracker",
         "as_of": "2026-03-30"
+      },
+      {
+        "claim": "Iran war total deaths",
+        "figure": "1,937",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-30"
+      },
+      {
+        "claim": "Iranian targets struck",
+        "figure": "~11,000",
+        "claimed_by": "White House",
+        "as_of": "2026-03-30"
       }
     ]
   },
@@ -164,6 +245,12 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-03-30"
+      },
+      {
+        "text": "Kyiv faces a deficit of missiles as Washington is focused on its war on Iran",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-03-24"
       }
     ],
     "middle_east": [
@@ -183,6 +270,18 @@
         "text": "I have just concluded an assessment at Northern Command with the Defense Minister, the IDF Chief-of-Staff, the Head of Northern Command, and also the division commanders.",
         "speaker": "Benjamin Netanyahu",
         "title": "Israeli Prime Minister",
+        "date": "2026-03-30"
+      },
+      {
+        "text": "Operation Epic Fury is moving ahead successfully",
+        "speaker": "Karoline Leavitt",
+        "title": "White House Press Secretary",
+        "date": "2026-03-30"
+      },
+      {
+        "text": "There are a lot of people in Dearborn who are sad about Khamenei's death",
+        "speaker": "Abdul El-Sayed",
+        "title": "Michigan Senate candidate",
         "date": "2026-03-30"
       }
     ]
@@ -211,15 +310,47 @@
       "flag": "\ud83c\udde7\ud83c\uddfe",
       "status": "Strategic balancer",
       "description": "Belarus leader Lukashenko made rare visit to North Korea as part of Kim's broader push to deepen ties with Russia's sphere of influence. This strengthens the Russia-North Korea axis amid ongoing conflicts."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Purchasing",
+      "description": "China continues importing Iranian oil despite sanctions, serving as Iran's primary crude oil market through often opaque supply arrangements at discounted prices."
+    },
+    {
+      "country": "Australia",
+      "flag": "\ud83c\udde6\ud83c\uddfa",
+      "status": "Monitoring",
+      "description": "Over 10,000 Australians have returned home from Middle East since Iran war began. Government faces questions about fuel crisis during parliamentary sessions."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "$102+",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices topped $102 with Brent heading for record monthly rise as Houthi attacks widen Gulf conflict and threaten Red Sea shipping."
+    "notes": "Oil prices spike above $102 with Brent heading for record monthly rise as Houthis enter conflict threatening Red Sea shipping."
   },
   "update_log": [
+    {
+      "time": "20:00 UTC",
+      "text": "Trump threatens to obliterate Kharg Island if Iran refuses peace deal",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:30 UTC",
+      "text": "Spain closes airspace to US military aircraft involved in Iran operations",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:45 UTC",
+      "text": "Houthis launch first missile attacks on Israel since war began",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:15 UTC",
+      "text": "Israeli strike hits building in Beirut southern suburbs",
+      "source_tier": "unverified"
+    },
     {
       "time": "15:45 UTC",
       "text": "Houthis launch first missile attacks on Israel since Iran war began, opening new front",
@@ -261,5 +392,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-31T15:52:48Z"
+  "last_updated": "2026-03-31T20:03:07Z"
 }
