@@ -1,20 +1,20 @@
 {
   "escalation": {
     "score": 8.5,
-    "delta": "+0.5 from yesterday",
+    "delta": "+1.2 from yesterday",
     "level": "High",
-    "rationale": "Yemen's Houthis opened new front against Israel while Iran struck US forces in Saudi Arabia, expanding the US-Israel-Iran war geographically."
+    "rationale": "Houthis entered Iran war with first attacks on Israel while Iranian strike wounded 12 US troops in Saudi Arabia, expanding conflict geography significantly."
   },
   "ticker_items": [
-    "Houthis launch first missiles at Israel since US-Iran war began",
-    "Iran strikes wound 12 US troops at Saudi base",
-    "Trump threatens to seize Iran's Kharg Island oil terminal",
-    "Over 500 US troops reportedly targeted in Dubai strikes",
-    "Oil futures surge above $100 as conflict enters second month"
+    "Houthis launch first missiles at Israel since Iran war began",
+    "Iranian strike wounds 12 US troops at Saudi base",
+    "Pentagon considers weeks of ground operations in Iran",
+    "Spain closes airspace to US warplanes amid growing European opposition",
+    "Trump approval rating crashes to 33% as Iran war drags on"
   ],
   "new_entrant": {
     "active": true,
-    "text": "Yemen's Houthis entered the US-Israel-Iran conflict with their first missile attacks on Israel since the war began."
+    "text": "Yemen's Houthi rebels entered the Iran conflict by launching their first missile attacks on Israel."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -27,6 +27,17 @@
         "method": "Air/Drone",
         "lat": 0.0,
         "lng": 0.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia launched nearly 400 drones at Ukrainian civilian areas as spring offensive intensifies",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
         "source_tier": "unverified"
       }
     ],
@@ -74,6 +85,28 @@
         "lat": 31.77,
         "lng": 35.23,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Saudi Arabia",
+        "target_location": "Prince Sultan Air Base",
+        "description": "Iranian missile and drone strike wounded at least 12 US troops stationed at Saudi base",
+        "method": "Missile/Surface",
+        "lat": 24.06,
+        "lng": 47.68,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Israel",
+        "target_location": "Unspecified",
+        "description": "Houthis launched first missile attacks on Israel since Iran war began",
+        "method": "Missile/Surface",
+        "lat": 31.77,
+        "lng": 35.23,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -92,6 +125,20 @@
         "wia": "Several",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Iranian strike on Saudi base",
+        "kia": "0",
+        "wia": "12",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes in Gaza/West Bank",
+        "kia": "6",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -99,6 +146,12 @@
         "claim": "Iran war total deaths",
         "figure": "1,937 in Iran, 20 in Israel, 13 US soldiers, 26 in Gulf states",
         "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-03-30"
+      },
+      {
+        "claim": "Total deaths from US-Israel attacks on Iran",
+        "figure": "1,937",
+        "claimed_by": "Al Jazeera casualty tracker",
         "as_of": "2026-03-30"
       }
     ]
@@ -125,6 +178,12 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-03-30"
+      },
+      {
+        "text": "I have just concluded an assessment at Northern Command with the Defense Minister, the IDF Chief-of-Staff, the Head of Northern Command, and also the division commanders.",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Israeli Prime Minister",
+        "date": "2026-03-30"
       }
     ]
   },
@@ -140,15 +199,47 @@
       "flag": "\ud83c\udde9\ud83c\uddea",
       "status": "Active materiel + troops",
       "description": "Volkswagen considers repurposing factory to produce Iron Dome components for Israel. Germany exploring nuclear deterrent options amid rising global tensions."
+    },
+    {
+      "country": "Spain",
+      "flag": "\ud83c\uddea\ud83c\uddf8",
+      "status": "Abstaining",
+      "description": "Spain closed its airspace to American warplanes in a further rebuke to Trump's Iran war policy. This represents growing European opposition to US military operations in the region."
+    },
+    {
+      "country": "Belarus",
+      "flag": "\ud83c\udde7\ud83c\uddfe",
+      "status": "Strategic balancer",
+      "description": "Belarus leader Lukashenko made rare visit to North Korea as part of Kim's broader push to deepen ties with Russia's sphere of influence. This strengthens the Russia-North Korea axis amid ongoing conflicts."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "$107.86",
+    "brent_crude": "$102+",
     "wheat_futures": "Unchanged",
-    "notes": "Oil futures surged above $100 with Brent heading for record monthly gains as Iran war enters second month."
+    "notes": "Oil prices topped $102 with Brent heading for record monthly rise as Houthi attacks widen Gulf conflict and threaten Red Sea shipping."
   },
   "update_log": [
+    {
+      "time": "15:45 UTC",
+      "text": "Houthis launch first missile attacks on Israel since Iran war began, opening new front",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:30 UTC",
+      "text": "Iranian strike wounds 12 US troops at Prince Sultan Air Base in Saudi Arabia",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:20 UTC",
+      "text": "Spain closes airspace to US warplanes amid growing European opposition to Iran war",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:15 UTC",
+      "text": "Pentagon considers weeks of ground operations in Iran as diplomatic efforts continue",
+      "source_tier": "unverified"
+    },
     {
       "time": "09:44 UTC",
       "text": "Houthis launch first missile attacks on Israel since US-Iran war began",
@@ -170,5 +261,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-03-31T09:44:33Z"
+  "last_updated": "2026-03-31T15:52:48Z"
 }
