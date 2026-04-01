@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.7,
-    "delta": "+0.2 from yesterday",
+    "score": 8.5,
+    "delta": "Unknown (no previous data)",
     "level": "High",
-    "rationale": "US strikes on Iranian nuclear facilities in Isfahan while Iran attacks Kuwaiti oil tanker escalates conflict significantly."
+    "rationale": "Active US-Israel war against Iran with 67,000 US troops deployed, naval attacks in Gulf, and expanding regional conflict involving Lebanon and Houthis."
   },
   "ticker_items": [
-    "US bombs Iranian nuclear site in Isfahan with bunker-buster bombs",
-    "Iran strikes Kuwaiti oil tanker off Dubai coast",
-    "Spain closes airspace to US warplanes involved in Iran operations",
-    "Houthis launch coordinated missile attack on Israel with Iran",
-    "Oil prices hit multi-year highs amid Persian Gulf tensions"
+    "Iran attacks Kuwaiti oil tanker off Dubai with drone strike",
+    "US has 67,000 troops in Iran as war enters day 32",
+    "France blocks US aircraft from using airspace for Israel supplies",
+    "Israel establishes security zone in Lebanon to Litani River",
+    "Houthis enter Iran war, firing missiles at Israel"
   ],
   "new_entrant": {
     "active": true,
-    "text": "Spain effectively entered opposition by closing airspace to US aircraft involved in Iran operations."
+    "text": "Houthis have entered the Iran war by firing missiles at Israel, expanding the regional conflict."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -24,6 +24,17 @@
         "target_country": "Ukraine",
         "target_location": "Multiple locations",
         "description": "Russia continues spring offensive with drone and missile attacks on civilian areas",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia launched spring offensive with 400 drones and multiple missile strikes on civilian areas.",
         "method": "Air/Drone",
         "lat": 50.45,
         "lng": 30.52,
@@ -63,6 +74,28 @@
         "lat": 31.77,
         "lng": 35.23,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Kuwait/UAE waters",
+        "target_location": "Off Dubai",
+        "description": "Iran attacked and set fire to a Kuwaiti oil tanker with drone strike.",
+        "method": "Air/Drone",
+        "lat": 25.27,
+        "lng": 55.3,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Multiple",
+        "target_location": "Across Middle East",
+        "description": "Iran fired missiles across Middle East as Tehran hit by fresh explosions.",
+        "method": "Missile/Surface",
+        "lat": 35.69,
+        "lng": 51.42,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -96,12 +129,37 @@
         "figure": "~1,937 Iranian dead, ~24 Israeli, ~13 US soldiers, ~27 Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-01"
+      },
+      {
+        "claim": "US-Israel Iran war deaths",
+        "figure": "1,937",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-01"
+      },
+      {
+        "claim": "Israeli deaths in Iran war",
+        "figure": "24",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-01"
+      },
+      {
+        "claim": "US military deaths",
+        "figure": "13",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-01"
       }
     ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Kyiv faces a deficit of missiles as Washington is focused on its war on Iran",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-03-24"
+      }
+    ],
     "middle_east": [
       {
         "text": "US war objectives would be achieved in 'weeks'",
@@ -120,6 +178,18 @@
         "speaker": "Abbas Araghchi",
         "title": "Iranian Foreign Minister",
         "date": "2026-04-01"
+      },
+      {
+        "text": "USA will remember!!!",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-03-31"
+      },
+      {
+        "text": "US will continue blasting Iran into oblivion until Strait of Hormuz is reopened",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-01"
       }
     ]
   },
@@ -135,15 +205,53 @@
       "flag": "\ud83c\uddea\ud83c\uddfa",
       "status": "Monitoring",
       "description": "EU diplomats visited Ukraine to mark Bucha massacre anniversary while warning member states to prepare for prolonged energy upheaval from Middle East conflict. Energy damage expected to take a year to repair according to Irish officials."
+    },
+    {
+      "country": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "status": "Abstaining",
+      "description": "France blocked US aircraft from using its airspace for military supplies to Israel and refuses to support US-Israeli military actions in Iran. Trump has criticized France calling them unhelpful and promising the USA will remember their stance."
+    },
+    {
+      "country": "India",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "India is doubling down on Russian air defense systems from Tunguska to S-400 while also offering Gulf nations interceptors to shield against Iranian drone attacks. The country continues balancing relationships with both Russia and the West."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Monitoring",
+      "description": "Russia is profiting significantly from the Iran war due to surging oil prices and increased energy deals. Nikki Haley warned Russia could be the biggest winner as oil prices rise and Moscow secures new energy partnerships with countries like India."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "$98.50",
+    "brent_crude": "Rising for fourth day, set for largest monthly gain on record",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices hit multi-year highs with Brent poised for largest monthly gain on record due to Persian Gulf supply disruptions."
+    "notes": "US gasoline prices hit $4/gallon for first time since 2022 due to Iran war supply disruptions."
   },
   "update_log": [
+    {
+      "time": "15:57 UTC",
+      "text": "Iran denies Trump's claim that Iranian president requested ceasefire",
+      "source_tier": "verified"
+    },
+    {
+      "time": "14:30 UTC",
+      "text": "Oil prices reverse course after report Trump open to ending Iran campaign",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Iran attacks Kuwaiti oil tanker off Dubai in drone strike",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Houthis enter Iran war by firing missiles at Israel",
+      "source_tier": "unverified"
+    },
     {
       "time": "09:51 UTC",
       "text": "Houthis claim coordinated missile attack on Israel with Iran and Hezbollah",
@@ -170,5 +278,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-01T09:51:56Z"
+  "last_updated": "2026-04-01T15:57:51Z"
 }
