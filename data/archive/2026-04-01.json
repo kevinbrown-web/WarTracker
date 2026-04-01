@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.5,
-    "delta": "Unknown (no previous data)",
+    "score": 8,
+    "delta": "No previous data",
     "level": "High",
-    "rationale": "Active US-Israel war against Iran with 67,000 US troops deployed, naval attacks in Gulf, and expanding regional conflict involving Lebanon and Houthis."
+    "rationale": "Iran launches large missile barrage on central Israel with 67,000 US troops in Iran and Iranian forces attacking oil tankers."
   },
   "ticker_items": [
-    "Iran attacks Kuwaiti oil tanker off Dubai with drone strike",
-    "US has 67,000 troops in Iran as war enters day 32",
-    "France blocks US aircraft from using airspace for Israel supplies",
-    "Israel establishes security zone in Lebanon to Litani River",
-    "Houthis enter Iran war, firing missiles at Israel"
+    "Iran fires one of largest missile barrages in weeks at central Israel",
+    "67,000 US troops reported in Iran amid escalating conflict",
+    "Iranian forces attack Kuwaiti oil tanker near Dubai",
+    "Israel vows to occupy southern Lebanon after war ends",
+    "Oil prices hit multi-year highs on Persian Gulf tensions"
   ],
   "new_entrant": {
     "active": true,
-    "text": "Houthis have entered the Iran war by firing missiles at Israel, expanding the regional conflict."
+    "text": "Houthis enter Iran war, firing missiles at Israel and complicating conflict for US."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -35,6 +35,17 @@
         "target_country": "Ukraine",
         "target_location": "Multiple locations",
         "description": "Russia launched spring offensive with 400 drones and multiple missile strikes on civilian areas.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia launches spring offensive with increased attacks across Ukrainian territory",
         "method": "Air/Drone",
         "lat": 50.45,
         "lng": 30.52,
@@ -96,6 +107,39 @@
         "lat": 35.69,
         "lng": 51.42,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Israel",
+        "target_location": "Central Israel",
+        "description": "Iran launches one of largest missile barrages in weeks injuring at least 14 people",
+        "method": "Ballistic Missile",
+        "lat": 31.77,
+        "lng": 35.23,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Kuwait",
+        "target_location": "Off Dubai",
+        "description": "Iranian drone attack hits fully laden Kuwaiti oil tanker",
+        "method": "Air/Drone",
+        "lat": 25.27,
+        "lng": 55.3,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut Dahieh",
+        "description": "Israeli bombardment near Iranian embassy in Dahieh district",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -119,6 +163,13 @@
         "incident": "UN peacekeepers Lebanon",
         "kia": "2",
         "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Iran missile barrage on Israel",
+        "kia": "0",
+        "wia": "14",
         "civilian": true,
         "source_tier": "unverified"
       }
@@ -151,7 +202,14 @@
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Russian President Vladimir Putin has called for de-escalation of the Middle East war as tanker attacks and rising fuel costs add to tensions",
+        "speaker": "Vladimir Putin",
+        "title": "Russian President",
+        "date": "2026-03-31"
+      }
+    ],
     "ukraine": [
       {
         "text": "Kyiv faces a deficit of missiles as Washington is focused on its war on Iran",
@@ -190,6 +248,18 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-04-01"
+      },
+      {
+        "text": "Go get your own oil",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-03-31"
+      },
+      {
+        "text": "Israel will destroy all homes in Lebanese villages near the border and 600,000 people who fled the south will not be allowed home until northern Israel is secure",
+        "speaker": "Israeli Defence Minister",
+        "title": "Defence Minister",
+        "date": "2026-03-31"
       }
     ]
   },
@@ -223,15 +293,41 @@
       "flag": "\ud83c\uddf7\ud83c\uddfa",
       "status": "Monitoring",
       "description": "Russia is profiting significantly from the Iran war due to surging oil prices and increased energy deals. Nikki Haley warned Russia could be the biggest winner as oil prices rise and Moscow secures new energy partnerships with countries like India."
+    },
+    {
+      "country": "Saudi Arabia",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "status": "Strategic balancer",
+      "description": "Gulf allies including Saudi Arabia and UAE privately urge Trump to continue fighting until Iran is decisively defeated. They argue the month of strikes has not weakened Tehran enough."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Rising for fourth day, set for largest monthly gain on record",
+    "brent_crude": "Multi-year high",
     "wheat_futures": "Unchanged",
-    "notes": "US gasoline prices hit $4/gallon for first time since 2022 due to Iran war supply disruptions."
+    "notes": "Oil prices climb for fourth consecutive day with Brent crude set for largest monthly gain ever due to Middle East supply concerns."
   },
   "update_log": [
+    {
+      "time": "20:06 UTC",
+      "text": "Iran launches one of largest missile barrages in weeks hitting central Israel",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:30 UTC",
+      "text": "Iranian drone attack hits Kuwaiti oil tanker off Dubai",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:45 UTC",
+      "text": "Israeli bombardment reported near Iranian embassy in Beirut",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Reports indicate 67,000 US troops deployed in Iran",
+      "source_tier": "unverified"
+    },
     {
       "time": "15:57 UTC",
       "text": "Iran denies Trump's claim that Iranian president requested ceasefire",
@@ -278,5 +374,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-01T15:57:51Z"
+  "last_updated": "2026-04-01T20:06:21Z"
 }
