@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.5,
-    "delta": "+0.5 from yesterday",
-    "level": "High",
-    "rationale": "US-Iran war enters second month with expanded Iranian missile attacks across Middle East and Trump threatening withdrawal from NATO."
+    "score": 7,
+    "delta": "No previous data",
+    "level": "Elevated",
+    "rationale": "Active US-Iran war enters fifth week with Trump threatening Iran's oil infrastructure and considering NATO withdrawal amid alliance fractures."
   },
   "ticker_items": [
-    "Iran fires missiles across Middle East after Trump threatens oil infrastructure",
-    "IRGC Major General Eshaqi killed in US-Israeli strikes",
-    "Trump considers NATO withdrawal after alliance refuses Iran war support",
-    "Ukraine warns of missile shortages as Russia launches spring offensive",
-    "Strait of Hormuz remains largely closed under Iranian control"
+    "Trump threatens Iran oil hub, considers NATO withdrawal",
+    "Iran reportedly requests ceasefire, Tehran denies claims",
+    "UAE offers military support for Strait of Hormuz operation",
+    "Russia launches spring offensive with 400 drones on Ukraine",
+    "Markets rally on Iran war de-escalation hopes"
   ],
   "new_entrant": {
     "active": true,
-    "text": "Argentina designates Islamic Revolutionary Guard Corps a terrorist organization amid escalating Iran conflict."
+    "text": "UAE offers military support to US for forcing open Strait of Hormuz, potentially entering Iran conflict."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -24,6 +24,17 @@
         "target_country": "Ukraine",
         "target_location": "Multiple locations",
         "description": "Russia launched nearly 400 drones at Ukrainian civilian areas as spring offensive continues.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russian daytime drone strikes kill four across Ukraine as war enters fifth year.",
         "method": "Air/Drone",
         "lat": 50.45,
         "lng": 30.52,
@@ -52,6 +63,17 @@
         "lat": 33.89,
         "lng": 35.5,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Dahieh, Beirut",
+        "description": "Israeli bombardment near Iranian embassy in Dahieh causes chaos with armed men in streets.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -62,6 +84,13 @@
         "kia": "1",
         "wia": "Unknown",
         "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Ukraine drone strikes",
+        "kia": "4",
+        "wia": "Unknown",
+        "civilian": true,
         "source_tier": "unverified"
       }
     ],
@@ -77,6 +106,24 @@
         "figure": "1,937",
         "claimed_by": "Al Jazeera",
         "as_of": "April 2, 2026"
+      },
+      {
+        "claim": "Iran war deaths",
+        "figure": "~1,937",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-02"
+      },
+      {
+        "claim": "Israeli deaths in Iran war",
+        "figure": "~24",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-02"
+      },
+      {
+        "claim": "US soldiers killed in Iran war",
+        "figure": "13",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-02"
       }
     ]
   },
@@ -108,6 +155,18 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "April 1, 2026"
+      },
+      {
+        "text": "Marking one month of our joint campaign with the US, we are systematically crushing the terrorist regime that for decades cried: 'Death to America, Death to Israel.'",
+        "speaker": "Netanyahu",
+        "title": "Prime Minister",
+        "date": "2026-04-01"
+      },
+      {
+        "text": "Open the Strait of Hormuz or we will send you back to the Stone Age",
+        "speaker": "Trump",
+        "title": "President",
+        "date": "2026-04-01"
       }
     ]
   },
@@ -129,15 +188,53 @@
       "flag": "\ud83c\udde6\ud83c\uddf7",
       "status": "Active materiel + troops",
       "description": "Argentina officially designated the Islamic Revolutionary Guard Corps as a terrorist organization. This represents a significant shift in the country's position and marks its formal alignment with US-Israeli operations against Iran."
+    },
+    {
+      "country": "United Arab Emirates",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "Active materiel + troops",
+      "description": "UAE offers military support to US for Strait of Hormuz operations and urges UN Security Council approval for military action. Authorities reportedly downplaying damage from Iranian strikes according to Bellingcat analysis."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Strategic balancer",
+      "description": "PM Starmer uses Iran conflict and frayed US relations to justify closer EU ties. UK part of widening transatlantic rift over Mideast war response."
+    },
+    {
+      "country": "India",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "Views Trump's NATO threats as defense opportunity with Europe seeking new partners. Recent EU defense pact positions India as alternative to US reliance."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Dropped",
+    "brent_crude": "Falling",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices slumped on hopes that the Iran war may end in the coming weeks, while UK and European bonds surged."
+    "notes": "Global stocks rally and oil prices fall on hopes of Iran war de-escalation after Trump ceasefire claims."
   },
   "update_log": [
+    {
+      "time": "15:30 UTC",
+      "text": "World markets surge on Iran war de-escalation hopes following Trump ceasefire claims",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "UAE offers military support for US Strait of Hormuz operations",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Trump claims Iran requested ceasefire, threatens oil infrastructure",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Russian daytime drone strikes across Ukraine kill four civilians",
+      "source_tier": "unverified"
+    },
     {
       "time": "09:30 UTC",
       "text": "Iran fires missiles across Middle East as Trump threatens key oil infrastructure",
@@ -164,5 +261,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-02T09:38:59Z"
+  "last_updated": "2026-04-02T15:37:47Z"
 }
