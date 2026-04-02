@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7,
+    "score": 8,
     "delta": "No previous data",
-    "level": "Elevated",
-    "rationale": "Active US-Iran war enters fifth week with Trump threatening Iran's oil infrastructure and considering NATO withdrawal amid alliance fractures."
+    "level": "High",
+    "rationale": "Active US-Iran war with missile exchanges, Trump threatening NATO withdrawal, and projectiles striking central Israel."
   },
   "ticker_items": [
-    "Trump threatens Iran oil hub, considers NATO withdrawal",
-    "Iran reportedly requests ceasefire, Tehran denies claims",
-    "UAE offers military support for Strait of Hormuz operation",
-    "Russia launches spring offensive with 400 drones on Ukraine",
-    "Markets rally on Iran war de-escalation hopes"
+    "Trump to address nation tonight on Iran war timeline",
+    "Projectile strikes central Israel after Iranian attack",
+    "US burning through weapons faster than replenishment capacity",
+    "Trump threatens NATO exit over Strait of Hormuz dispute",
+    "Iran attacks Kuwaiti oil tanker near Dubai"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "UAE offers military support to US for forcing open Strait of Hormuz, potentially entering Iran conflict."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -38,6 +38,17 @@
         "method": "Air/Drone",
         "lat": 50.45,
         "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Luhansk region",
+        "description": "Russia claims full control of Luhansk region, denied by Ukrainian officials",
+        "method": "Ground/Armored",
+        "lat": 48.9,
+        "lng": 38.5,
         "source_tier": "unverified"
       }
     ],
@@ -73,6 +84,39 @@
         "method": "Air/Precision Strike",
         "lat": 33.89,
         "lng": 35.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Israel",
+        "target_location": "Central Israel",
+        "description": "Projectile strikes central Israel with loud explosion heard on impact",
+        "method": "Missile/Surface",
+        "lat": 31.5,
+        "lng": 34.75,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Kuwait",
+        "target_location": "Off Dubai",
+        "description": "Iranian drone attacks fully laden Kuwaiti oil tanker",
+        "method": "Air/Drone",
+        "lat": 25.2,
+        "lng": 55.27,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "Tehran and Karaj",
+        "description": "Israeli soft-kill munitions disrupt electrical networks without physical damage",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.39,
         "source_tier": "unverified"
       }
     ]
@@ -124,6 +168,18 @@
         "figure": "13",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-02"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "1,937",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-02"
+      },
+      {
+        "claim": "Israeli deaths in Iran conflict",
+        "figure": "24",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-02"
       }
     ]
   },
@@ -167,6 +223,24 @@
         "speaker": "Trump",
         "title": "President",
         "date": "2026-04-01"
+      },
+      {
+        "text": "This is not our war. We will not be drawn into the conflict",
+        "speaker": "Keir Starmer",
+        "title": "UK Prime Minister",
+        "date": "2026-04-01"
+      },
+      {
+        "text": "US will exit Iran 'pretty quickly,' return for spot hits if needed",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-01"
+      },
+      {
+        "text": "Israel had dealt its enemies ten blows",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Israeli Prime Minister",
+        "date": "2026-04-01"
       }
     ]
   },
@@ -206,15 +280,41 @@
       "flag": "\ud83c\uddee\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "Views Trump's NATO threats as defense opportunity with Europe seeking new partners. Recent EU defense pact positions India as alternative to US reliance."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Strategic balancer",
+      "description": "Kim Jong-un expanding nuclear arsenal after witnessing Iran's vulnerability. DPRK using conflict as justification for accelerated weapons development."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Falling",
+    "brent_crude": "Higher",
     "wheat_futures": "Unchanged",
-    "notes": "Global stocks rally and oil prices fall on hopes of Iran war de-escalation after Trump ceasefire claims."
+    "notes": "Higher crude prices from Strait of Hormuz disruption benefiting Russian energy export revenues."
   },
   "update_log": [
+    {
+      "time": "20:00",
+      "text": "Trump scheduled to address nation tonight with Iran war timeline",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Projectile strikes central Israel following Iranian attack",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Iran attacks Kuwaiti oil tanker with drone near Dubai",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Israel uses soft-kill munitions to disrupt Tehran electrical grid",
+      "source_tier": "unverified"
+    },
     {
       "time": "15:30 UTC",
       "text": "World markets surge on Iran war de-escalation hopes following Trump ceasefire claims",
@@ -261,5 +361,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-02T15:37:47Z"
+  "last_updated": "2026-04-02T20:00:32Z"
 }
