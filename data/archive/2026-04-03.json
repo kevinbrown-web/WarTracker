@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "No prior data",
-    "level": "Elevated",
-    "rationale": "Active US-Israeli bombing campaign against Iran with Strait of Hormuz blockaded, ongoing strikes across Gulf states, and Trump promising 2-3 more weeks of intensive operations."
+    "score": 8.2,
+    "delta": "No baseline",
+    "level": "High",
+    "rationale": "Iranian missile strikes on Israel, Trump threatening 'Stone Age' bombing of Iran, and Strait of Hormuz shipping reduced to 5% of normal traffic."
   },
   "ticker_items": [
-    "Trump vows to hit Iran 'extremely hard' for 2-3 more weeks",
-    "Strait of Hormuz remains blocked, 40-nation coalition seeks reopening",
-    "Iran threatens 18 US-Israeli corporations with attacks",
-    "Russia launches spring offensive with 400 drones against Ukraine",
-    "Casualty totals: 2,076 dead in Iran, 24 in Israel, 13 US soldiers"
+    "Iranian ballistic missile strikes Petah Tikva, Israel",
+    "Trump threatens to bomb Iran 'back to Stone Age'",
+    "Strait of Hormuz reduced to 7 ships daily, 5% normal traffic",
+    "UK hosts 40-nation talks on reopening Hormuz shipping",
+    "Houthis launch 'Holy Jihad Battle' operation against Israel"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Yemen's Houthis formally joined the Iran conflict announcing 'Holy Jihad Battle' operation against Israel."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -74,6 +74,28 @@
         "lat": 33.89,
         "lng": 35.5,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Israel",
+        "target_location": "Petah Tikva",
+        "description": "Iranian ballistic missile strikes central Israeli city",
+        "method": "Ballistic Missile",
+        "lat": 32.09,
+        "lng": 34.89,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "US/Israel",
+        "target_country": "Iran",
+        "target_location": "Military facilities",
+        "description": "Strikes hit Revolutionary Guards command centers and terror infrastructure",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.39,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -84,6 +106,20 @@
         "kia": "4",
         "wia": "~35",
         "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Iranian healthcare attacks",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "UAE gas facility attack",
+        "kia": "1+",
+        "wia": "Unknown",
+        "civilian": false,
         "source_tier": "unverified"
       }
     ],
@@ -111,6 +147,12 @@
         "figure": "2,076 dead in Iran, 24 in Israel, 13 US soldiers, 27 in Gulf states",
         "claimed_by": "Al Jazeera tracking",
         "as_of": "2026-04-03"
+      },
+      {
+        "claim": "Iran conflict deaths",
+        "figure": "2,076 Iran, 24 Israel, 13 US, 27 Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 3, 2026"
       }
     ]
   },
@@ -148,6 +190,18 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-04-02"
+      },
+      {
+        "text": "Iran rejects Donald Trump's address as 'nonsense' and claims 7 million are taking up arms",
+        "speaker": "Iranian officials",
+        "title": "Government representatives",
+        "date": "April 2, 2026"
+      },
+      {
+        "text": "When you want to be serious, you don't say the opposite every day of what you said the day before",
+        "speaker": "Emmanuel Macron",
+        "title": "French President",
+        "date": "April 2, 2026"
       }
     ]
   },
@@ -181,9 +235,29 @@
     "usd_rub": "Unchanged",
     "brent_crude": "Surging",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices climbing due to Strait of Hormuz blockade affecting 20% of global oil and gas transit."
+    "notes": "Oil prices climbing as Strait of Hormuz remains effectively blocked with shipping at 5% of normal levels."
   },
   "update_log": [
+    {
+      "time": "19:54 UTC",
+      "text": "WHO reports more than 20 attacks on Iranian healthcare facilities since March 1",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:30 UTC",
+      "text": "At least one killed at UAE's Habshan gas facility after intercepted attack causes fires",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:45 UTC",
+      "text": "UK completes 40-nation virtual summit on reopening Strait of Hormuz shipping lanes",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "Video verified showing Iranian ballistic missile striking Petah Tikva in central Israel",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:26 UTC",
       "text": "Trump promises to hit Iran extremely hard for 2-3 more weeks in address to nation",
@@ -225,5 +299,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-03T14:26:36Z"
+  "last_updated": "2026-04-03T19:54:31Z"
 }
