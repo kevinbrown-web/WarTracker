@@ -1,23 +1,35 @@
 {
   "escalation": {
-    "score": 8.5,
-    "delta": "+0.5 from yesterday",
-    "level": "High",
-    "rationale": "Trump threatens NATO withdrawal while vowing Iran war escalation, Iranian ex-FM assassination attempt, and expanded Israeli operations in Lebanon heighten tensions."
+    "score": 7.5,
+    "delta": "No prior data",
+    "level": "Elevated",
+    "rationale": "Active US-Israeli bombing campaign against Iran with Strait of Hormuz blockaded, ongoing strikes across Gulf states, and Trump promising 2-3 more weeks of intensive operations."
   },
   "ticker_items": [
-    "Iran's ex-foreign minister Kharazi gravely wounded in assassination attempt",
-    "Trump strongly considering NATO withdrawal over Iran war disagreements",
-    "US-Israeli strikes hit Tehran medical center and bridge",
-    "Iran threatens 'destructive' attacks on US after Trump victory speech",
-    "Oil markets surge as hopes for swift war end diminish"
+    "Trump vows to hit Iran 'extremely hard' for 2-3 more weeks",
+    "Strait of Hormuz remains blocked, 40-nation coalition seeks reopening",
+    "Iran threatens 18 US-Israeli corporations with attacks",
+    "Russia launches spring offensive with 400 drones against Ukraine",
+    "Casualty totals: 2,076 dead in Iran, 24 in Israel, 13 US soldiers"
   ],
   "new_entrant": {
     "active": false,
     "text": ""
   },
   "strikes_today": {
-    "eastern_europe": [],
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia launched approximately 400 drones plus cruise and ballistic missiles in major assault.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      }
+    ],
     "middle_east": [
       {
         "time_utc": "Unknown",
@@ -40,11 +52,41 @@
         "lat": 33.1,
         "lng": 35.6,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Gulf states",
+        "target_location": "Persian Gulf",
+        "description": "Iran continued targeting Gulf countries with ballistic missiles and drones despite Trump warnings.",
+        "method": "Ballistic Missile",
+        "lat": 26.0,
+        "lng": 51.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut Dahieh",
+        "description": "Israeli bombardment near Iranian embassy in Dahieh district of Beirut.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
       }
     ]
   },
   "casualties": {
-    "today": [],
+    "today": [
+      {
+        "incident": "Ukrainian drone/missile attacks",
+        "kia": "4",
+        "wia": "~35",
+        "civilian": true,
+        "source_tier": "unverified"
+      }
+    ],
     "claimed_totals": [
       {
         "claim": "Iran war total deaths",
@@ -63,12 +105,25 @@
         "figure": "13",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-03"
+      },
+      {
+        "claim": "Iran war casualties",
+        "figure": "2,076 dead in Iran, 24 in Israel, 13 US soldiers, 27 in Gulf states",
+        "claimed_by": "Al Jazeera tracking",
+        "as_of": "2026-04-03"
       }
     ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Kyiv faces a deficit of missiles as Washington is focused on its war on Iran",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-03-24"
+      }
+    ],
     "middle_east": [
       {
         "text": "Iran rejects U.S. ultimatum as missile strikes and rising oil prices heighten Middle East crisis",
@@ -78,6 +133,18 @@
       },
       {
         "text": "Washington was close to achieving its objectives",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-02"
+      },
+      {
+        "text": "Seven million Iranians are waiting for you, ready and armed",
+        "speaker": "Iranian official",
+        "title": "Unknown",
+        "date": "2026-04-02"
+      },
+      {
+        "text": "All objectives will be completed shortly and asked for patience from the American people",
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-04-02"
@@ -96,15 +163,47 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Strategic balancer",
       "description": "Expanding nuclear arsenal after witnessing Iran's vulnerability to US-Israeli attacks. Kim Jong-un citing Iranian case as evidence smaller powers need nuclear deterrence against superpower aggression."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Mediator + arms supplier",
+      "description": "Britain convened virtual summit with 40 countries to explore reopening Strait of Hormuz. UK leading international coalition efforts to resolve shipping crisis in Persian Gulf."
+    },
+    {
+      "country": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "status": "Strategic balancer",
+      "description": "President Macron publicly rebuked Trump over personal remarks about his wife and marriage. France maintaining distance from US-Israeli Iran operations while NATO faces internal tensions."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Surged",
+    "brent_crude": "Surging",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices surged after Trump vowed continued Iran war escalation, disappointing investors hoping for swift conflict resolution."
+    "notes": "Oil prices climbing due to Strait of Hormuz blockade affecting 20% of global oil and gas transit."
   },
   "update_log": [
+    {
+      "time": "14:26 UTC",
+      "text": "Trump promises to hit Iran extremely hard for 2-3 more weeks in address to nation",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "UK hosts 40-nation virtual summit seeking to reopen blocked Strait of Hormuz",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:30 UTC",
+      "text": "Iran continues missile and drone strikes across Persian Gulf despite US warnings",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:45 UTC",
+      "text": "Russia launches major drone offensive against Ukraine with approximately 400 drones",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:30 UTC",
       "text": "Iran's ex-foreign minister Kharazi gravely wounded in apparent assassination attempt on his home",
@@ -126,5 +225,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-03T08:35:46Z"
+  "last_updated": "2026-04-03T14:26:36Z"
 }
