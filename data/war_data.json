@@ -1,20 +1,20 @@
 {
   "escalation": {
     "score": 8.5,
-    "delta": "+2.1 from yesterday",
+    "delta": "N/A - first assessment",
     "level": "High",
-    "rationale": "Iran shoots down multiple US fighter jets including F-35s while projectile hits near Bushehr nuclear facility, marking significant escalation in 34-day war."
+    "rationale": "Multiple US aircraft losses in Iran war, expanded regional involvement with UAE facility attacked, and Trump proposing massive defense budget increases signal significant escalation."
   },
   "ticker_items": [
-    "Iran shoots down US F-35 fighter jet, bounty placed on pilots",
-    "Projectile strikes near Iran's Bushehr nuclear plant, killing one",
-    "Israeli strikes damage Lebanese hospital in Tyre ground invasion",
-    "Russia launches 400-drone assault marking spring offensive against Ukraine",
-    "UK hosts 40-nation summit on reopening blocked Strait of Hormuz"
+    "Second US warplane crashes in Iran war, pilot rescued",
+    "UAE gas facility attacked, one killed in interception",
+    "Trump proposes $1.5 trillion defense budget amid Iran conflict",
+    "20,000 sailors stranded in Persian Gulf shipping crisis",
+    "Russia launches spring offensive with 400 drones on Ukraine"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Yemen's Houthis formally announce 'Holy Jihad Battle' operation joining Iran-Hezbollah alliance against Israel."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -39,6 +39,17 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russian strikes kill 8 civilians in daytime barrages targeting infrastructure",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -107,6 +118,39 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown",
+        "target_country": "UAE",
+        "target_location": "Habshan gas facility",
+        "description": "Attack intercepted by UAE air defenses but caused significant damage and fires",
+        "method": "Air/Drone",
+        "lat": 24.0,
+        "lng": 54.0,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Persian Gulf",
+        "target_location": "Strait of Hormuz",
+        "description": "Second US aircraft crashes, A-10 Warthog and F-15E reported down",
+        "method": "Air/Precision Strike",
+        "lat": 26.57,
+        "lng": 56.25,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Central Gaza",
+        "description": "Israeli drone strike engulfs vehicle in flames",
+        "method": "Air/Drone",
+        "lat": 31.35,
+        "lng": 34.31,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -146,6 +190,20 @@
         "wia": "3+",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Russian strikes on Ukraine",
+        "kia": "8",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "UAE Habshan facility attack",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -172,6 +230,24 @@
         "figure": "2,076 Iranian dead, 24 Israeli dead, 13 US soldiers dead",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-03"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "2,076",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 3, 2026"
+      },
+      {
+        "claim": "Israeli deaths in Iran conflict",
+        "figure": "24",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 3, 2026"
+      },
+      {
+        "claim": "US soldiers killed",
+        "figure": "13",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 3, 2026"
       }
     ]
   },
@@ -224,15 +300,47 @@
       "flag": "\ud83c\uddec\ud83c\udde7",
       "status": "Mediator + arms supplier",
       "description": "Britain convened virtual summit with 40 countries exploring ways to reopen Strait of Hormuz as global oil prices surge. UK taking diplomatic leadership role in crisis resolution."
+    },
+    {
+      "country": "Italy",
+      "flag": "\ud83c\uddee\ud83c\uddf9",
+      "status": "Monitoring",
+      "description": "Prime Minister Meloni became first EU and NATO leader to visit Gulf region since Iran war began, meeting Qatar emir on energy issues. Italy seeking alternative energy partnerships as regional conflict disrupts supplies."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Strategic balancer",
+      "description": "Expanding nuclear arsenal after witnessing Iran's vulnerability to US-Israeli attacks. Kim Jong-un views nuclear weapons as only protection for smaller powers against superpower aggression."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Surging",
     "wheat_futures": "Unchanged",
-    "notes": "Global oil prices climbing as UK hosts 40-nation talks on reopening Iran-blocked Strait of Hormuz chokepoint."
+    "notes": "Oil prices climbing as Strait of Hormuz remains effectively blocked, with only five ships passing through in 24 hours."
   },
   "update_log": [
+    {
+      "time": "19:44 UTC",
+      "text": "Second US aircraft crashes in Iran war operations, pilot rescued",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "UAE Habshan gas facility suffers significant damage after intercepted attack",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:15 UTC",
+      "text": "Trump proposes historic $1.5 trillion defense budget with $500 billion increase",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Russia launches spring offensive with 400 drone assault on Ukrainian civilians",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:00 UTC",
       "text": "Iran shoots down second US F-35 fighter jet over central parts of country according to Tehran claims",
@@ -274,5 +382,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-04T14:02:49Z"
+  "last_updated": "2026-04-04T19:44:37Z"
 }
