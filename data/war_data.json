@@ -1,20 +1,20 @@
 {
   "escalation": {
     "score": 8.5,
-    "delta": "+0.3 from yesterday",
+    "delta": "+2.1 from yesterday",
     "level": "High",
-    "rationale": "US fighter jet shot down over Iran while NATO faces existential crisis as Trump threatens withdrawal over Strait of Hormuz dispute."
+    "rationale": "Iran shoots down multiple US fighter jets including F-35s while projectile hits near Bushehr nuclear facility, marking significant escalation in 34-day war."
   },
   "ticker_items": [
-    "US fighter jet shot down over Iran, crew missing",
-    "Trump threatens NATO withdrawal over European Hormuz inaction",
-    "Iranian missiles hit central Israel residential areas",
-    "Yemen's Houthis launch 'Holy Jihad Battle' operation",
-    "Russia begins spring offensive with 400-drone barrage"
+    "Iran shoots down US F-35 fighter jet, bounty placed on pilots",
+    "Projectile strikes near Iran's Bushehr nuclear plant, killing one",
+    "Israeli strikes damage Lebanese hospital in Tyre ground invasion",
+    "Russia launches 400-drone assault marking spring offensive against Ukraine",
+    "UK hosts 40-nation summit on reopening blocked Strait of Hormuz"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Yemen's Houthis formally announce 'Holy Jihad Battle' operation joining Iran-Hezbollah alliance against Israel."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -28,6 +28,17 @@
         "lat": 55.7558,
         "lng": 37.6173,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russian forces kill at least 4 people in aerial attacks as spring offensive continues.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -63,6 +74,39 @@
         "lat": 25.2048,
         "lng": 55.2708,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "US",
+        "target_location": "Central Iran airspace",
+        "description": "Iran shoots down US F-35 fighter jet with search underway for crew.",
+        "method": "Anti-Air",
+        "lat": 32.43,
+        "lng": 53.69,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel/US",
+        "target_country": "Iran",
+        "target_location": "Bushehr nuclear plant",
+        "description": "Projectile hits near Bushehr nuclear facility killing one person, fourth such attack.",
+        "method": "Air/Precision Strike",
+        "lat": 28.96,
+        "lng": 50.84,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Tyre",
+        "description": "Israeli strikes damage Lebanese Italian Hospital injuring 11 people during ground invasion.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -81,6 +125,27 @@
         "wia": "95",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Iranian nuclear plant strike",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Lebanese hospital strike",
+        "kia": "0",
+        "wia": "11",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian attacks on Ukraine",
+        "kia": "4",
+        "wia": "3+",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -101,12 +166,25 @@
         "figure": "~13",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "April 3, 2026"
+      },
+      {
+        "claim": "Iran war casualties",
+        "figure": "2,076 Iranian dead, 24 Israeli dead, 13 US soldiers dead",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-03"
       }
     ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Kyiv faces a deficit of missiles as Washington is focused on its war on Iran",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-03-24"
+      }
+    ],
     "middle_east": [
       {
         "text": "We all need stability, calm, a return to peace - this isn't a show!",
@@ -119,6 +197,12 @@
         "speaker": "Iranian military spokesperson",
         "title": "IRGC Representative",
         "date": "April 3, 2026"
+      },
+      {
+        "text": "Our military hasn't even started to destroy what is left of Iran",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-03"
       }
     ]
   },
@@ -146,9 +230,29 @@
     "usd_rub": "Unchanged",
     "brent_crude": "Surging",
     "wheat_futures": "Unchanged",
-    "notes": "Global oil prices climbing amid Strait of Hormuz closure and ongoing Middle East war."
+    "notes": "Global oil prices climbing as UK hosts 40-nation talks on reopening Iran-blocked Strait of Hormuz chokepoint."
   },
   "update_log": [
+    {
+      "time": "14:00 UTC",
+      "text": "Iran shoots down second US F-35 fighter jet over central parts of country according to Tehran claims",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:30 UTC",
+      "text": "Israeli strikes damage Lebanese Italian Hospital in Tyre injuring 11 as ground invasion advances",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:45 UTC",
+      "text": "Projectile hits near Iran's Bushehr nuclear plant killing one person in fourth such attack",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:20 UTC",
+      "text": "Yemen's Houthis announce Holy Jihad Battle operation joining Iran-Hezbollah alliance against Israel",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:59 UTC",
       "text": "Iranian missile attack hits residential areas across central Israel with nine impact sites reported.",
@@ -170,5 +274,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-04T07:59:51Z"
+  "last_updated": "2026-04-04T14:02:49Z"
 }
