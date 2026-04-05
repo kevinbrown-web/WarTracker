@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.7,
-    "delta": "+0.2 from yesterday",
+    "score": 8.5,
+    "delta": "No previous score available",
     "level": "High",
-    "rationale": "Iran claims downing second US aircraft during rescue operation and continues Strait of Hormuz blockade."
+    "rationale": "Active US-Iran war on day 36 with US aircraft shot down, nuclear facility attacked, and Strait of Hormuz blockade affecting global oil supplies."
   },
   "ticker_items": [
-    "US rescues second pilot downed in Iran, Iran claims another aircraft shot",
-    "Houthis claim cluster missile attack on Ben Gurion airport",
-    "Russia kills 14 in massive daytime attacks across Ukraine",
-    "UK convenes 40-nation talks to reopen Strait of Hormuz",
-    "Day 37 of US-Israeli attacks on Iran continues"
+    "US pilot rescued after F-15E shot down over Iran",
+    "Projectile hits near Iran's Bushehr nuclear plant, one killed",
+    "Iran blocks Strait of Hormuz as oil prices surge globally",
+    "Russia launches spring offensive against Ukraine with 400 drones",
+    "40-nation summit seeks to reopen blocked Hormuz shipping lane"
   ],
   "new_entrant": {
     "active": false,
@@ -24,6 +24,17 @@
         "target_country": "Ukraine",
         "target_location": "Multiple cities",
         "description": "Russian daytime attacks using over 500 drones and dozens of missiles killed 14 people.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russian strikes killed 14 people in daytime barrages on 1,500th day of war",
         "method": "Air/Drone",
         "lat": 50.45,
         "lng": 30.52,
@@ -52,6 +63,39 @@
         "lat": 32.43,
         "lng": 53.69,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown",
+        "target_country": "Iran",
+        "target_location": "Near Bushehr nuclear plant",
+        "description": "Projectile hits near Iran's Bushehr nuclear plant, killing one person",
+        "method": "Missile/Surface",
+        "lat": 28.96,
+        "lng": 50.82,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut",
+        "description": "IDF strikes Beirut as part of ongoing Lebanon operations",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Yemen Houthis",
+        "target_country": "Israel",
+        "target_location": "Tel Aviv",
+        "description": "Iran-backed Houthis claim barrage of ballistic missiles struck Tel Aviv",
+        "method": "Ballistic Missile",
+        "lat": 32.08,
+        "lng": 34.78,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -63,6 +107,20 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian strikes on Ukraine",
+        "kia": "14",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Bushehr nuclear facility attack",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -71,6 +129,12 @@
         "figure": "~2,076 Iranian dead, ~24 Israeli dead, ~13 US soldiers, ~27 Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-03"
+      },
+      {
+        "claim": "Iran war casualties",
+        "figure": "2,076 dead in Iran, 24 in Israel, 13 US soldiers, 27 in Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 3, 2026"
       }
     ]
   },
@@ -89,6 +153,12 @@
         "speaker": "Masoud Pezeshkian",
         "title": "Iranian President",
         "date": "2026-04-04"
+      },
+      {
+        "text": "Hopefully, he's looking for an off-ramp",
+        "speaker": "Pope Leo XIV",
+        "title": "Pope",
+        "date": "April 4, 2026"
       }
     ]
   },
@@ -104,15 +174,47 @@
       "flag": "\ud83c\uddec\ud83c\udde7",
       "status": "Active materiel + troops",
       "description": "Britain convened virtual summit with 40 countries to explore reopening Strait of Hormuz as global oil prices climb. UK hosting diplomatic efforts to address Iranian blockade of vital Persian Gulf chokepoint."
+    },
+    {
+      "country": "India",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "External Affairs Minister Jaishankar calls to 'hedge, de-risk, diversify' resources amid West Asia conflict. Emphasizing building national capabilities while navigating global shocks from ongoing wars."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Supplying dual-use goods",
+      "description": "Volkswagen planning to convert factory to produce Iron Dome components for Israel. German conscription deadline passes as Europe faces pressure from extended Iran conflict."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Surging",
     "wheat_futures": "Unchanged",
-    "notes": "Global oil prices climbing as Iran maintains Strait of Hormuz blockade affecting energy supplies."
+    "notes": "Oil prices climbing due to Iran's effective blockade of Strait of Hormuz, prompting free gas distributions in Chicago."
   },
   "update_log": [
+    {
+      "time": "12:00 UTC",
+      "text": "US pilot from downed F-15E fighter jet rescued after 48 hours in Iran",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:30 UTC",
+      "text": "Projectile hits near Iran's Bushehr nuclear plant, fourth such attack during war",
+      "source_tier": "verified"
+    },
+    {
+      "time": "09:15 UTC",
+      "text": "Russian strikes kill 14 people across Ukraine in daytime barrages",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "UK hosts 40-nation virtual summit to explore reopening Strait of Hormuz",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:00 UTC",
       "text": "Trump confirms rescue of second US pilot downed in Iran, Iran claims another aircraft shot down during rescue",
@@ -129,5 +231,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-05T08:03:12Z"
+  "last_updated": "2026-04-05T12:29:43Z"
 }
