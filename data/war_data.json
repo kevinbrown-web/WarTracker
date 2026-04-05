@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.5,
-    "delta": "No previous score available",
+    "score": 8,
+    "delta": "No previous data",
     "level": "High",
-    "rationale": "Active US-Iran war on day 36 with US aircraft shot down, nuclear facility attacked, and Strait of Hormuz blockade affecting global oil supplies."
+    "rationale": "US fighter jet downed over Iran with missing pilot, Trump's 10-day ultimatum deadline approaching, and strikes near Iranian nuclear facility."
   },
   "ticker_items": [
-    "US pilot rescued after F-15E shot down over Iran",
-    "Projectile hits near Iran's Bushehr nuclear plant, one killed",
-    "Iran blocks Strait of Hormuz as oil prices surge globally",
-    "Russia launches spring offensive against Ukraine with 400 drones",
-    "40-nation summit seeks to reopen blocked Hormuz shipping lane"
+    "US fighter jet downed over Iran, pilot missing on day two",
+    "Trump warns Iran 'time is running out' on 10-day deadline",
+    "US-Israeli strikes reported near Bushehr nuclear facility",
+    "Iran claims responsibility for downing two US warplanes",
+    "IAEA demands 'maximum military restraint' after nuclear plant strike"
   ],
   "new_entrant": {
     "active": false,
@@ -96,6 +96,39 @@
         "lat": 32.08,
         "lng": 34.78,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut",
+        "description": "Israeli air strikes and shelling across Lebanon from Beirut to Tyre killing at least 14 people.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "US-Israel",
+        "target_country": "Iran",
+        "target_location": "Bushehr",
+        "description": "Strikes targeted location close to Iran's Bushehr Nuclear Power Plant.",
+        "method": "Air/Precision Strike",
+        "lat": 28.97,
+        "lng": 50.88,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Israel",
+        "target_location": "Tel Aviv",
+        "description": "Yemen's Houthis claim to have struck Tel Aviv with barrage of ballistic missiles.",
+        "method": "Ballistic Missile",
+        "lat": 32.08,
+        "lng": 34.78,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -121,6 +154,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Israeli strikes on Lebanon",
+        "kia": "14",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -135,6 +175,12 @@
         "figure": "2,076 dead in Iran, 24 in Israel, 13 US soldiers, 27 in Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "April 3, 2026"
+      },
+      {
+        "claim": "Iran war death toll",
+        "figure": "2,076 Iran, 24 Israel, 13 US, 27 Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-03"
       }
     ]
   },
@@ -159,6 +205,18 @@
         "speaker": "Pope Leo XIV",
         "title": "Pope",
         "date": "April 4, 2026"
+      },
+      {
+        "text": "Time is running out",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-04"
+      },
+      {
+        "text": "Hopefully, he's looking for an off-ramp",
+        "speaker": "Leo XIV",
+        "title": "Pope",
+        "date": "2026-04-04"
       }
     ]
   },
@@ -190,11 +248,31 @@
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Surging",
+    "brent_crude": "Rising",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices climbing due to Iran's effective blockade of Strait of Hormuz, prompting free gas distributions in Chicago."
+    "notes": "Global oil prices climbing as Iran blocks Strait of Hormuz during ongoing war, OPEC+ agrees to symbolic output hike."
   },
   "update_log": [
+    {
+      "time": "18:00 UTC",
+      "text": "IAEA confirms strikes near Bushehr nuclear facility, demands maximum restraint",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Search for missing US pilot enters second day after fighter jet downed over Iran",
+      "source_tier": "verified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Israeli strikes across Lebanon kill at least 14 people from Beirut to Tyre",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Iran claims responsibility for downing two US warplanes on day 36 of conflict",
+      "source_tier": "verified"
+    },
     {
       "time": "12:00 UTC",
       "text": "US pilot from downed F-15E fighter jet rescued after 48 hours in Iran",
@@ -231,5 +309,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-05T12:29:43Z"
+  "last_updated": "2026-04-05T18:25:47Z"
 }
