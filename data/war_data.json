@@ -1,23 +1,46 @@
 {
   "escalation": {
     "score": 8.5,
-    "delta": "+0.5 from yesterday",
+    "delta": "No previous data",
     "level": "High",
-    "rationale": "Trump issues 48-hour ultimatum to Iran over Strait of Hormuz as Iran strikes Kuwait energy sites and executes suspected Israeli-linked prisoners."
+    "rationale": "Trump's 48-hour ultimatum to Iran over Strait of Hormuz closure threatens imminent escalation of US-Israeli war on Iran entering day 37."
   },
   "ticker_items": [
-    "Trump gives Iran 48 hours to open Strait of Hormuz",
-    "Iran strikes energy facilities in Kuwait",
-    "Two US airmen rescued from Iran after jet downing",
-    "Iran executes two men convicted of Israeli links",
-    "NATO allies deny US base access over Iran conflict"
+    "Trump threatens Iran 'Power Plant Day' if Hormuz stays closed",
+    "US F-15 crew rescued from Iran; second aircraft still missing",
+    "Pakistan proposes 45-day ceasefire plan for US-Iran war",
+    "Ukraine strikes Russian Lukoil refinery, continues oil facility attacks",
+    "NATO allies deny US base access for Iran operations"
   ],
   "new_entrant": {
     "active": false,
     "text": ""
   },
   "strikes_today": {
-    "eastern_europe": [],
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Lukoil Norsi Refinery",
+        "description": "Ukrainian strike causes fire at one of Russia's largest refineries as part of continued attacks on energy infrastructure.",
+        "method": "Air/Drone",
+        "lat": 55.1,
+        "lng": 61.4,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple regions",
+        "description": "Widespread Russian drone attacks killed at least one civilian overnight.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      }
+    ],
     "middle_east": [
       {
         "time_utc": "Unknown",
@@ -40,6 +63,28 @@
         "lat": 32.08,
         "lng": 34.78,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut",
+        "description": "Israeli airstrikes hit Lebanese capital and southern suburbs in ongoing aggression.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Israel",
+        "target_location": "Tel Aviv",
+        "description": "Yemen's Houthis claim barrage of ballistic missiles struck Tel Aviv.",
+        "method": "Ballistic Missile",
+        "lat": 32.08,
+        "lng": 34.78,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -58,6 +103,20 @@
         "wia": "0",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian drone attacks on Ukraine",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Lebanon health workers killed",
+        "kia": "54",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -66,6 +125,18 @@
         "figure": "~2,140",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-03"
+      },
+      {
+        "claim": "US-Israel war on Iran casualties",
+        "figure": "2,076 Iranian dead, 26 Israeli, 13 US soldiers, 28 Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-06"
+      },
+      {
+        "claim": "Lebanon total deaths in Israeli invasion",
+        "figure": "~1,400",
+        "claimed_by": "Lebanese authorities",
+        "as_of": "2026-04-05"
       }
     ]
   },
@@ -84,6 +155,18 @@
         "speaker": "Leo XIV",
         "title": "Pope",
         "date": "2026-04-04"
+      },
+      {
+        "text": "Hopefully, he's looking for an off-ramp.",
+        "speaker": "Pope Leo XIV",
+        "title": "Pope",
+        "date": "2026-04-04"
+      },
+      {
+        "text": "The U.S. will need to 'reexamine' its role in NATO once its military conflict with Iran concludes.",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
+        "date": "2026-03-31"
       }
     ]
   },
@@ -105,15 +188,46 @@
       "flag": "\ud83c\uddec\ud83c\udde7",
       "status": "Basing + logistics",
       "description": "UK hosts 40-nation virtual summit to explore reopening Strait of Hormuz as oil prices surge. Britain convenes international coalition while maintaining some distance from direct US military operations."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan has offered a two-phased truce deal to end the US-Israeli war on Iran. Iran is reviewing the proposal but refuses to reopen Hormuz as part of a temporary ceasefire."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Surging",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices climbing amid Iran's effective shutdown of Strait of Hormuz chokepoint affecting global energy supplies."
+    "notes": "Global oil prices climbing as Iran effectively shuts down Strait of Hormuz during ongoing US-Israeli military campaign."
   },
   "update_log": [
+    {
+      "time": "12:42 UTC",
+      "text": "Trump threatens Iran with 'Power Plant Day' if Strait of Hormuz not reopened by April 7.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:30 UTC",
+      "text": "Pakistan proposes 45-day ceasefire plan for US-Iran war with Turkey and Egypt as co-mediators.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:15 UTC",
+      "text": "US announces rescue of missing F-15 crew member from downed aircraft in Iran.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:45 UTC",
+      "text": "Ukraine strikes Russian Lukoil Norsi refinery causing major fire at energy facility.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:30 UTC",
+      "text": "Serbian authorities find explosives cache near gas pipeline carrying Russian gas to Hungary.",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:00 UTC",
       "text": "Iran rejects Trump's 48-hour Strait of Hormuz ultimatum, condemns threats as incitement to war crimes",
@@ -135,5 +249,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-06T07:15:14Z"
+  "last_updated": "2026-04-06T12:42:30Z"
 }
