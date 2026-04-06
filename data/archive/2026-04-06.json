@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 8.5,
-    "delta": "No previous data",
+    "delta": "Unknown (no previous data)",
     "level": "High",
-    "rationale": "Trump's 48-hour ultimatum to Iran over Strait of Hormuz closure threatens imminent escalation of US-Israeli war on Iran entering day 37."
+    "rationale": "Trump's 48-hour ultimatum to Iran over Strait of Hormuz closure combined with ongoing US-Israeli strikes and Iranian counter-threats creates imminent escalation risk."
   },
   "ticker_items": [
-    "Trump threatens Iran 'Power Plant Day' if Hormuz stays closed",
-    "US F-15 crew rescued from Iran; second aircraft still missing",
-    "Pakistan proposes 45-day ceasefire plan for US-Iran war",
-    "Ukraine strikes Russian Lukoil refinery, continues oil facility attacks",
-    "NATO allies deny US base access for Iran operations"
+    "Trump gives Iran 48-hour ultimatum to reopen Strait of Hormuz",
+    "US aviator rescued after being shot down over Iran",
+    "Explosives found near Serbia-Hungary gas pipeline carrying Russian gas",
+    "At least 14 killed in Israeli strikes across Lebanon",
+    "Russia launches massive 400-drone assault on Ukraine"
   ],
   "new_entrant": {
     "active": false,
@@ -35,6 +35,17 @@
         "target_country": "Ukraine",
         "target_location": "Multiple regions",
         "description": "Widespread Russian drone attacks killed at least one civilian overnight.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia launched nearly 400 drones plus cruise and ballistic missiles hitting civilian areas",
         "method": "Air/Drone",
         "lat": 50.45,
         "lng": 30.52,
@@ -85,6 +96,39 @@
         "lat": 32.08,
         "lng": 34.78,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Multiple locations",
+        "description": "Israeli strikes across Lebanon killed at least 14 people",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "US-Israel",
+        "target_country": "Iran",
+        "target_location": "Tehran",
+        "description": "US-Israeli strikes hit research buildings at Tehran's Sharif University",
+        "method": "Air/Precision Strike",
+        "lat": 35.7,
+        "lng": 51.42,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "US-Israel",
+        "target_country": "Iran",
+        "target_location": "Bushehr",
+        "description": "Repeated strikes on Bushehr nuclear plant raising contamination risks",
+        "method": "Air/Precision Strike",
+        "lat": 28.96,
+        "lng": 50.82,
+        "source_tier": "verified"
       }
     ]
   },
@@ -117,6 +161,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes on Lebanon",
+        "kia": "14+",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -136,6 +187,30 @@
         "claim": "Lebanon total deaths in Israeli invasion",
         "figure": "~1,400",
         "claimed_by": "Lebanese authorities",
+        "as_of": "2026-04-05"
+      },
+      {
+        "claim": "Total deaths in Iran from US-Israeli attacks",
+        "figure": "~2,076",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-06"
+      },
+      {
+        "claim": "Israeli deaths",
+        "figure": "26+",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-06"
+      },
+      {
+        "claim": "US military deaths",
+        "figure": "13",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-06"
+      },
+      {
+        "claim": "Lebanese health workers killed",
+        "figure": "54+",
+        "claimed_by": "Lebanon authorities",
         "as_of": "2026-04-05"
       }
     ]
@@ -167,6 +242,24 @@
         "speaker": "Marco Rubio",
         "title": "US Secretary of State",
         "date": "2026-03-31"
+      },
+      {
+        "text": "If an agreement is not reached within the next 48 hours, he will launch severe attacks on Iran's energy and transportation infrastructure",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-05"
+      },
+      {
+        "text": "Hopefully, he's looking for an off-ramp",
+        "speaker": "Pope Leo XIV",
+        "title": "Pope",
+        "date": "2026-04-05"
+      },
+      {
+        "text": "Anyone attacking vital infrastructure would face a merciless response",
+        "speaker": "Aleksandar Vucic",
+        "title": "Serbian President",
+        "date": "2026-04-05"
       }
     ]
   },
@@ -194,15 +287,52 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Mediator + arms supplier",
       "description": "Pakistan has offered a two-phased truce deal to end the US-Israeli war on Iran. Iran is reviewing the proposal but refuses to reopen Hormuz as part of a temporary ceasefire."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Strategic balancer",
+      "description": "South Korea reports North Korea is keeping Iran at arm's length and remaining wary as it seeks to renew diplomatic dialogue with the US."
+    },
+    {
+      "country": "Serbia",
+      "flag": "\ud83c\uddf7\ud83c\uddf8",
+      "status": "Monitoring",
+      "description": "Serbian President Vucic reported discovery of explosives near pipeline carrying Russian gas to Hungary and Serbia, warning of merciless response to infrastructure attacks."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Surging",
+    "brent_crude": "Rising",
     "wheat_futures": "Unchanged",
-    "notes": "Global oil prices climbing as Iran effectively shuts down Strait of Hormuz during ongoing US-Israeli military campaign."
+    "notes": "Global oil prices climbing due to Iran's effective shutdown of Strait of Hormuz chokepoint amid ongoing conflict."
   },
   "update_log": [
+    {
+      "time": "18:30 UTC",
+      "text": "Pentagon announces largest volume of strikes on Iran since war began as Hormuz deadline approaches",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:45 UTC",
+      "text": "US-Israeli strikes hit Tehran's Sharif University research buildings",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:20 UTC",
+      "text": "At least 14 killed in Israeli strikes across Lebanon as Hezbollah fires projectiles northward",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:15 UTC",
+      "text": "Explosives discovered near Serbia-Hungary gas pipeline carrying Russian gas",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:30 UTC",
+      "text": "Trump issues expletive-laden 48-hour ultimatum to Iran over Strait of Hormuz closure",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:42 UTC",
       "text": "Trump threatens Iran with 'Power Plant Day' if Strait of Hormuz not reopened by April 7.",
@@ -249,5 +379,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-06T12:42:30Z"
+  "last_updated": "2026-04-06T18:39:41Z"
 }
