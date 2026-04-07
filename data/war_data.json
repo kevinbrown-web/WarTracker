@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.8,
-    "delta": "+0.3 from yesterday",
+    "score": 8.5,
+    "delta": "No baseline",
     "level": "High",
-    "rationale": "Trump threatens Iran power plant strikes on Tuesday deadline while US-Israeli air campaign continues with synagogue hit in Tehran."
+    "rationale": "Active US-Israel war with Iran enters sixth week, 45-day ceasefire talks ongoing amid Strait of Hormuz closure and 1.2 million Lebanese displaced."
   },
   "ticker_items": [
-    "Trump threatens Iran power plant strikes by Tuesday deadline",
-    "US-Israeli projectile hits Tehran synagogue amid ongoing bombing campaign",
-    "Russia downs 148 Ukrainian drones in 3-hour period",
-    "Israel pushes deeper into southern Lebanon since March 2 escalation",
-    "Strait of Hormuz remains blocked as 40-nation talks convene"
+    "45-day US-Iran ceasefire talks underway, agreement possible today",
+    "1.2 million Lebanese displaced as Israel deepens southern Lebanon operations",
+    "Russian drone strike kills 3 in Odesa including 2-year-old",
+    "Oil tankers beginning to pass through Strait of Hormuz",
+    "Russia launches spring offensive with 400 drone barrage"
   ],
   "new_entrant": {
     "active": false,
@@ -27,6 +27,17 @@
         "method": "Air/Drone",
         "lat": 55.7558,
         "lng": 37.6176,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Odesa",
+        "description": "Overnight Russian drone strike on southern Ukrainian port killed at least three people including a 2-year-old girl and her mother.",
+        "method": "Air/Drone",
+        "lat": 46.48,
+        "lng": 30.73,
         "source_tier": "unverified"
       }
     ],
@@ -70,6 +81,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Odesa drone strike",
+        "kia": "3",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -78,6 +96,24 @@
         "figure": "2,076 dead in Iran, 26 in Israel, 13 US soldiers, 28 in Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-06"
+      },
+      {
+        "claim": "US-Israel war casualties in Iran",
+        "figure": "2,076",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-07"
+      },
+      {
+        "claim": "Israeli casualties",
+        "figure": "26",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-07"
+      },
+      {
+        "claim": "US military casualties",
+        "figure": "13",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-07"
       }
     ]
   },
@@ -87,6 +123,12 @@
     "middle_east": [
       {
         "text": "Tuesday will be power plant day",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-07"
+      },
+      {
+        "text": "Iran's 10-point peace plan that Trump says is 'not good enough'",
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-04-07"
@@ -111,15 +153,36 @@
       "flag": "\ud83c\uddf6\ud83c\udde6",
       "status": "Strategic balancer",
       "description": "Two Qatari LNG tankers attempting first exit through Strait of Hormuz since Iran war began. Qatar maintaining energy exports despite regional tensions."
+    },
+    {
+      "country": "Hungary",
+      "flag": "\ud83c\udded\ud83c\uddfa",
+      "status": "Strategic balancer",
+      "description": "Prime Minister Orb\u00e1n suggested Ukraine may be behind attempted bombing of major gas pipeline just days before contested election. Hungary faces most significant electoral challenge in decades amid regional tensions."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Surge reported",
+    "brent_crude": "Lower on Hormuz passage reports",
     "wheat_futures": "Unchanged",
-    "notes": "Global oil prices climbing as Strait of Hormuz remains effectively blocked by Iran during ongoing conflict."
+    "notes": "Oil prices edged down as some tankers successfully pass through Strait of Hormuz despite ongoing tensions."
   },
   "update_log": [
+    {
+      "time": "12:52 UTC",
+      "text": "JD Vance conducting overnight talks with Iran and Pakistan on potential ceasefire agreement",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:26 UTC",
+      "text": "Al Jazeera updates casualty tracker showing 2,076 Iranian deaths in US-Israeli war",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Russian overnight drone strike on Odesa kills 3 civilians including 2-year-old girl",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:02 UTC",
       "text": "Trump threatens Iran power plant strikes by Tuesday deadline in vulgar social media post",
@@ -141,5 +204,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-07T07:02:09Z"
+  "last_updated": "2026-04-07T12:52:36Z"
 }
