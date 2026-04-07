@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 8.5,
-    "delta": "No baseline",
+    "delta": "No previous data",
     "level": "High",
-    "rationale": "Active US-Israel war with Iran enters sixth week, 45-day ceasefire talks ongoing amid Strait of Hormuz closure and 1.2 million Lebanese displaced."
+    "rationale": "US-Israel war against Iran continues with Trump's ultimatum deadline looming, Israeli strikes on Iranian petrochemical plants, and up to 1.2 million Lebanese displaced."
   },
   "ticker_items": [
-    "45-day US-Iran ceasefire talks underway, agreement possible today",
-    "1.2 million Lebanese displaced as Israel deepens southern Lebanon operations",
-    "Russian drone strike kills 3 in Odesa including 2-year-old",
-    "Oil tankers beginning to pass through Strait of Hormuz",
-    "Russia launches spring offensive with 400 drone barrage"
+    "Trump warns Iran deadline 'final' as Strait of Hormuz remains closed",
+    "Israeli forces strike Iran's South Pars petrochemical plant",
+    "Up to 1.2 million Lebanese forced to flee Israeli attacks",
+    "Ukrainian drones set Russian Black Sea oil terminal ablaze",
+    "Doomsday Plane spotted over US base amid Middle East tensions"
   ],
   "new_entrant": {
     "active": false,
@@ -39,6 +39,28 @@
         "lat": 46.48,
         "lng": 30.73,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Black Sea oil terminal",
+        "description": "Ukrainian drones struck Russian Black Sea oil terminal causing fire",
+        "method": "Air/Drone",
+        "lat": 44.6,
+        "lng": 37.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Odesa",
+        "description": "Russian drone attack killed four civilians including women and child",
+        "method": "Air/Drone",
+        "lat": 46.48,
+        "lng": 30.73,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -63,6 +85,17 @@
         "lat": 33.2734,
         "lng": 35.2044,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "South Pars petrochemical plant",
+        "description": "Israeli forces struck Iran's South Pars petrochemical plant, world's largest gas field",
+        "method": "Air/Precision Strike",
+        "lat": 27.5,
+        "lng": 52.5,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -86,6 +119,13 @@
         "incident": "Odesa drone strike",
         "kia": "3",
         "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian drone strike on Odesa",
+        "kia": "4",
+        "wia": "11",
         "civilian": true,
         "source_tier": "unverified"
       }
@@ -118,8 +158,22 @@
     ]
   },
   "quotes": {
-    "russia": [],
-    "ukraine": [],
+    "russia": [
+      {
+        "text": "Almost the entire Middle East is on fire as result of the US-Israeli attack on Iran",
+        "speaker": "Dmitry Peskov",
+        "title": "Kremlin spokesman",
+        "date": "2026-04-06"
+      }
+    ],
+    "ukraine": [
+      {
+        "text": "Eleven people were hospitalized, including a pregnant woman and two children \u2014 the youngest less than a year old",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President",
+        "date": "2026-04-06"
+      }
+    ],
     "middle_east": [
       {
         "text": "Tuesday will be power plant day",
@@ -159,15 +213,52 @@
       "flag": "\ud83c\udded\ud83c\uddfa",
       "status": "Strategic balancer",
       "description": "Prime Minister Orb\u00e1n suggested Ukraine may be behind attempted bombing of major gas pipeline just days before contested election. Hungary faces most significant electoral challenge in decades amid regional tensions."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Supplying dual-use goods",
+      "description": "Suspected chemical shipments from China to Iran raise concerns over potential missile expansion. Chinese vessel Hamouna departed Gaolan port bound for Persian Gulf in February before US-Israeli air campaign began."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan leads last-ditch US-Iran mediation efforts with VP JD Vance joining backchannel talks. Iran seeks indirect engagement through US vice president as Pakistan mediates between parties."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Lower on Hormuz passage reports",
+    "brent_crude": "Elevated",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices edged down as some tankers successfully pass through Strait of Hormuz despite ongoing tensions."
+    "notes": "Global oil prices surge amid Strait of Hormuz closure with UK hosting 40-nation talks to reopen vital Persian Gulf chokepoint."
   },
   "update_log": [
+    {
+      "time": "18:00 UTC",
+      "text": "Trump warns Iran deadline 'final' as proposal deemed insufficient to avert infrastructure threats",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:30 UTC",
+      "text": "Israeli forces strike Iran's South Pars petrochemical plant as Tehran rejects ceasefire",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Up to 1.2 million Lebanese forced to flee as Israeli attacks pummel Lebanon",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Ukrainian drones set Russian Black Sea oil terminal on fire confirmed by satellite imagery",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Russian drone attack on Odesa kills four civilians including pregnant woman and toddler",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:52 UTC",
       "text": "JD Vance conducting overnight talks with Iran and Pakistan on potential ceasefire agreement",
@@ -204,5 +295,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-07T12:52:36Z"
+  "last_updated": "2026-04-07T18:44:10Z"
 }
