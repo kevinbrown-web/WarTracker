@@ -1,19 +1,20 @@
 {
   "escalation": {
-    "score": 8.5,
+    "score": 8,
     "delta": "No previous data",
     "level": "High",
-    "rationale": "Multiple active conflicts with US-Iran war at critical phase with Trump's deadline approaching, plus ongoing strikes across Gulf states despite ceasefire claims."
+    "rationale": "Active US-Iran war with threatened massive escalation and Tuesday deadline for Strait of Hormuz reopening."
   },
   "ticker_items": [
-    "Gulf states report attacks despite announced US-Iran ceasefire",
-    "Trump's Iran deadline approaches as strikes hit bridges, power plants",
-    "Russian drone kills 4 civilians on Ukrainian bus in Nikopol",
-    "Italy begins jet fuel rationing amid Middle East energy crisis"
+    "Trump threatens Iran with 'whole civilization will die' ultimatum",
+    "Strait of Hormuz remains blocked, Iran vows Bab el-Mandeb closure",
+    "Houthis and Hezbollah join Iran strikes on Israel",
+    "US special forces rescue downed jet crew in Iran theater",
+    "Russia launches spring offensive against Ukraine with 400 drones"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Cameroon confirmed 16 soldiers killed fighting for Russia in Ukraine."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -37,6 +38,39 @@
         "method": "Air/Drone",
         "lat": 47.57,
         "lng": 34.4,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russian artillery and aerial strikes hit bus and other civilian targets.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Russian-occupied regions",
+        "description": "Ukrainian drone strikes killed at least five including 12-year-old boy.",
+        "method": "Air/Drone",
+        "lat": 0.0,
+        "lng": 0.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Mediterranean",
+        "description": "Ukrainian forces operating from Libya attacked Russian tanker.",
+        "method": "Naval/USV",
+        "lat": 35.0,
+        "lng": 18.0,
         "source_tier": "unverified"
       }
     ],
@@ -84,6 +118,39 @@
         "lat": 25.2,
         "lng": 55.27,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran, Hezbollah, Houthis",
+        "target_country": "Israel",
+        "target_location": "Multiple locations",
+        "description": "Coordinated strike by Iran-backed axis against Israeli targets.",
+        "method": "Ballistic Missile",
+        "lat": 31.77,
+        "lng": 35.23,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Israel",
+        "target_location": "Tel Aviv",
+        "description": "Houthis claimed barrage of ballistic missiles against Tel Aviv.",
+        "method": "Ballistic Missile",
+        "lat": 32.08,
+        "lng": 34.78,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut",
+        "description": "Israeli strikes on Beirut amid ground invasion expansion.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -109,6 +176,20 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Ukraine bus strike",
+        "kia": "Several",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian soldiers in Ukraine",
+        "kia": "16",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -177,6 +258,18 @@
         "speaker": "Margus Tsahkna",
         "title": "Estonian Foreign Minister",
         "date": "2026-04-07"
+      },
+      {
+        "text": "A whole civilisation will die if the US and Iran do not reach a deal in the coming hours",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "April 7, 2026"
+      },
+      {
+        "text": "A massive US attack will prompt its ally the Houthis to further try to strangle the flow of oil and goods through the region",
+        "speaker": "Iranian officials",
+        "title": "Government representatives",
+        "date": "April 7, 2026"
       }
     ]
   },
@@ -216,15 +309,58 @@
       "flag": "\ud83c\uddee\ud83c\uddf9",
       "status": "Monitoring",
       "description": "Multiple airports begin jet fuel rationing due to Middle East conflict disrupting energy supplies, showing economic spillover effects."
+    },
+    {
+      "country": "Saudi Arabia",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "status": "Strategic balancer",
+      "description": "Saudi Arabia reportedly cheerleading Trump's Iran war while avoiding direct involvement. The kingdom sidesteps costly role despite supporting US actions behind scenes."
+    },
+    {
+      "country": "Hungary",
+      "flag": "\ud83c\udded\ud83c\uddfa",
+      "status": "Strategic balancer",
+      "description": "Viktor Orb\u00e1n faces electoral challenge with support from both Trump's VP Vance and Putin. EU accused of election interference against Hungary's pro-Russia stance."
+    },
+    {
+      "country": "United Arab Emirates",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "Strategic balancer",
+      "description": "UAE authorities accused of downplaying Iranian strike damage and mischaracterizing interceptions. Country trying to manage narrative around regional conflict involvement."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Rising",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices jumping as Trump's Iran deadline approaches with markets falling on escalation concerns."
+    "notes": "Economic damage from Iran war expected to stretch through end of decade with shortages beyond oil and gas."
   },
   "update_log": [
+    {
+      "time": "18:59 UTC",
+      "text": "Trump issues apocalyptic warning to Iran as Tuesday deadline approaches for Strait of Hormuz reopening.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Iran-backed axis conducts coordinated strikes on Israel with Hezbollah and Houthis participation.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "US special operators complete risky rescue mission for downed jet crew in Iran conflict zone.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Russia confirms 16 Cameroonian soldiers killed fighting in Ukraine war.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Russia launches major drone assault on Ukraine civilian areas with nearly 400 drones.",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:52 UTC",
       "text": "Gulf states report multiple attacks despite US-Iran ceasefire announcement",
@@ -266,5 +402,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-04-08T12:52:18Z"
+  "last_updated": "2026-04-08T18:59:24Z"
 }
