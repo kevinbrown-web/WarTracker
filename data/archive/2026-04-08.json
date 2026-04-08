@@ -1,15 +1,15 @@
 {
   "escalation": {
-    "score": 6.5,
-    "delta": "-2.0 from yesterday",
-    "level": "Elevated",
-    "rationale": "US-Iran ceasefire announcement reduces immediate escalation despite ongoing missile strikes and infrastructure threats."
+    "score": 8.5,
+    "delta": "No previous data",
+    "level": "High",
+    "rationale": "Multiple active conflicts with US-Iran war at critical phase with Trump's deadline approaching, plus ongoing strikes across Gulf states despite ceasefire claims."
   },
   "ticker_items": [
-    "Trump announces two-week US-Iran ceasefire for negotiations",
-    "Iran fires missiles at Saudi oil facilities as deadline approached",
-    "Ukraine strikes Russian Black Sea oil terminal with drones",
-    "Czech Republic plans to cut military aid to Ukraine"
+    "Gulf states report attacks despite announced US-Iran ceasefire",
+    "Trump's Iran deadline approaches as strikes hit bridges, power plants",
+    "Russian drone kills 4 civilians on Ukrainian bus in Nikopol",
+    "Italy begins jet fuel rationing amid Middle East energy crisis"
   ],
   "new_entrant": {
     "active": false,
@@ -26,6 +26,17 @@
         "method": "Air/Drone",
         "lat": 44.62,
         "lng": 37.78,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Nikopol",
+        "description": "Russian FPV drone targeted municipal bus killing 4 passengers and wounding 16",
+        "method": "Air/Drone",
+        "lat": 47.57,
+        "lng": 34.4,
         "source_tier": "unverified"
       }
     ],
@@ -51,6 +62,28 @@
         "lat": 31.77,
         "lng": 35.23,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel/US",
+        "target_country": "Iran",
+        "target_location": "Multiple locations",
+        "description": "Airstrikes hit two bridges and a train station in Iran",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.39,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Gulf States",
+        "target_location": "UAE, Kuwait, Bahrain",
+        "description": "Multiple strikes reported across Gulf region despite ceasefire announcement",
+        "method": "Missile/Surface",
+        "lat": 25.2,
+        "lng": 55.27,
+        "source_tier": "verified"
       }
     ]
   },
@@ -59,6 +92,20 @@
       {
         "incident": "Minab school strike commemoration",
         "kia": "168",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Nikopol bus attack",
+        "kia": "4",
+        "wia": "16",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Various Ukraine strikes",
+        "kia": "4 including 1 child",
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
@@ -82,6 +129,18 @@
         "figure": "13",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-07"
+      },
+      {
+        "claim": "US-Israel war on Iran casualties",
+        "figure": "2,076 dead in Iran, 26 in Israel, 13 US soldiers, 28 in Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-07"
+      },
+      {
+        "claim": "Cameroonian soldiers in Ukraine",
+        "figure": "16",
+        "claimed_by": "Russia via Cameroon",
+        "as_of": "2026-04-07"
       }
     ]
   },
@@ -100,6 +159,24 @@
         "speaker": "Iranian Ambassador to Pakistan",
         "title": "Ambassador",
         "date": "2026-04-08"
+      },
+      {
+        "text": "Every bridge in Iran will be decimated by 12 o'clock tomorrow night. Power plants will be burning, exploding and never to be used again.",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-07"
+      },
+      {
+        "text": "14 million have offered to risk their lives just to stand up to Trump",
+        "speaker": "Iranian President",
+        "title": "President of Iran",
+        "date": "2026-04-07"
+      },
+      {
+        "text": "Western nations must keep Ukraine as a priority and increase pressure on Russia amid the US-Israeli war with Iran",
+        "speaker": "Margus Tsahkna",
+        "title": "Estonian Foreign Minister",
+        "date": "2026-04-07"
       }
     ]
   },
@@ -121,15 +198,53 @@
       "flag": "\ud83c\uddf5\ud83c\uddf1",
       "status": "Strategic balancer",
       "description": "Growing calls for 'Polexit' are becoming central theme in power struggle between Donald Tusk's centrist coalition and hard-right populists. EU membership support faces unprecedented challenges."
+    },
+    {
+      "country": "Cameroon",
+      "flag": "\ud83c\udde8\ud83c\uddf2",
+      "status": "Active materiel + troops",
+      "description": "Russia confirmed deaths of 16 Cameroonian soldiers fighting in Ukraine, indicating African mercenary involvement in the conflict."
+    },
+    {
+      "country": "Estonia",
+      "flag": "\ud83c\uddea\ud83c\uddea",
+      "status": "Supplying dual-use goods",
+      "description": "Foreign Minister urges continued Western focus on Ukraine despite Iran war diverting attention from European security concerns."
+    },
+    {
+      "country": "Italy",
+      "flag": "\ud83c\uddee\ud83c\uddf9",
+      "status": "Monitoring",
+      "description": "Multiple airports begin jet fuel rationing due to Middle East conflict disrupting energy supplies, showing economic spillover effects."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Rising",
     "wheat_futures": "Unchanged",
-    "notes": "IMF warns Middle East war will lead to higher inflation and slower global growth."
+    "notes": "Oil prices jumping as Trump's Iran deadline approaches with markets falling on escalation concerns."
   },
   "update_log": [
+    {
+      "time": "12:52 UTC",
+      "text": "Gulf states report multiple attacks despite US-Iran ceasefire announcement",
+      "source_tier": "verified"
+    },
+    {
+      "time": "11:30 UTC",
+      "text": "Russian FPV drone targets civilian bus in Nikopol killing 4 passengers",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:15 UTC",
+      "text": "Iran organizes human chains to protect power plants as Trump deadline nears",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:45 UTC",
+      "text": "Russia expands gasoline export ban amid drone strikes on oil facilities",
+      "source_tier": "unverified"
+    },
     {
       "time": "10:26 UTC",
       "text": "Al Jazeera updates casualty tracker showing 2,076 Iranian deaths from US-Israeli attacks",
@@ -151,5 +266,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-04-08T07:04:08Z"
+  "last_updated": "2026-04-08T12:52:18Z"
 }
