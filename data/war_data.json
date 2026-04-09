@@ -1,19 +1,20 @@
 {
   "escalation": {
-    "score": 6.5,
-    "delta": "-1.5 from yesterday",
+    "score": 6,
+    "delta": "No previous score available",
     "level": "Elevated",
-    "rationale": "US-Iran two-week ceasefire agreement brokered by Pakistan temporarily reduces tensions despite ongoing strikes in Lebanon and Ukraine."
+    "rationale": "US-Iran ceasefire announced but Israel continues bombing Lebanon while Iran strikes Gulf states in retaliation."
   },
   "ticker_items": [
-    "US-Iran agree two-week ceasefire, Strait of Hormuz reopens",
-    "Israeli strikes kill 254 in Lebanon, national mourning declared",
-    "Russia launches spring offensive with 400 drones on Ukraine",
-    "Pakistan emerges as key mediator in US-Iran truce talks"
+    "US-Iran announce 14-day ceasefire, Pakistan to host talks April 10",
+    "Iran strikes UAE and Kuwait after agreeing to fragile truce",
+    "Israel continues Lebanon bombing despite ceasefire exclusion concerns",
+    "Global bonds surge 20% on ceasefire news, oil markets stabilize",
+    "NATO chief Rutte meets Trump amid alliance strain over Iran war"
   ],
   "new_entrant": {
     "active": true,
-    "text": "Yemen's Houthis officially joined Iran in coordinated strikes against Israel alongside Hezbollah."
+    "text": "Yemen's Houthis officially joined Iran in strikes on Israel alongside Hezbollah."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -27,6 +28,17 @@
         "lat": 47.9,
         "lng": 35.0,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia launches spring offensive with 400 drones and missile strikes on civilian areas.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -36,6 +48,28 @@
         "target_country": "Lebanon",
         "target_location": "Multiple locations",
         "description": "Israeli attacks across Lebanon killed at least 254 people in single day operations.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "UAE",
+        "target_location": "Multiple facilities",
+        "description": "Iran strikes UAE and Kuwait in retaliation for attacks on oil facilities.",
+        "method": "Missile/Surface",
+        "lat": 24.47,
+        "lng": 54.37,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Multiple areas",
+        "description": "Israel continues bombing Lebanon despite ceasefire announcement.",
         "method": "Air/Precision Strike",
         "lat": 33.89,
         "lng": 35.5,
@@ -58,6 +92,20 @@
         "wia": "~24",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian drone attacks on Ukraine",
+        "kia": "4",
+        "wia": "35+",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strike in Gaza",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -71,13 +119,26 @@
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Kyiv faces a deficit of missiles as Washington is focused on its war on Iran",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President",
+        "date": "2026-03-24"
+      }
+    ],
     "middle_east": [
       {
         "text": "Big day for world peace",
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "April 8, 2026"
+      },
+      {
+        "text": "The Strait of Hormuz remains open for global commerce",
+        "speaker": "Pete Hegseth",
+        "title": "US Defense Secretary",
+        "date": "2026-04-08"
       }
     ]
   },
@@ -93,15 +154,41 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "China's Iran peace initiative failed to gain headlines despite diplomatic efforts. Beijing continues abstaining on key UN Security Council resolutions regarding the conflict."
+    },
+    {
+      "country": "European Union",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "status": "Strategic balancer",
+      "description": "European nations remain hesitant to join US operations in Strait of Hormuz amid NATO tensions. Natural gas futures plummeted 20% on ceasefire news, providing economic relief to European markets."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Declined on ceasefire news",
+    "brent_crude": "Declining on ceasefire",
     "wheat_futures": "Unchanged",
-    "notes": "Strait of Hormuz reopening provides immediate relief to exporters and reduces shipping disruption costs."
+    "notes": "Global bonds surged and European gas futures fell 20% on US-Iran ceasefire announcement."
   },
   "update_log": [
+    {
+      "time": "12:54 UTC",
+      "text": "Iran strikes UAE and Kuwait facilities in retaliation after announcing ceasefire with US",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "Pakistan confirms hosting US-Iran ceasefire talks on April 10 following diplomatic breakthrough",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Global markets rally as European gas futures drop 20% on ceasefire relief",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "World Athletics postpones Doha Diamond League event amid regional conflict",
+      "source_tier": "verified"
+    },
     {
       "time": "07:00 UTC",
       "text": "Lebanon declares national mourning after Israeli strikes kill 254 people in single day.",
@@ -118,5 +205,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-09T07:08:08Z"
+  "last_updated": "2026-04-09T12:54:45Z"
 }
