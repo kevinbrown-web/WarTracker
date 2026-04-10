@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 6.5,
-    "delta": "-0.5 from yesterday",
+    "score": 7,
+    "delta": "No previous score available",
     "level": "Elevated",
-    "rationale": "US-Iran ceasefire holding but fragile with continued Israeli strikes in Lebanon and Trump's NATO threats escalating diplomatic tensions."
+    "rationale": "Fragile US-Iran ceasefire immediately threatened by Israeli strikes on Lebanon killing 250+, while Trump threatens NATO withdrawal."
   },
   "ticker_items": [
-    "US-Iran ceasefire under strain as Israel intensifies Lebanon strikes",
-    "Trump threatens NATO withdrawal after closed-door meeting with Rutte",
-    "Iran attacks Saudi oil pipeline despite ceasefire agreement",
-    "Ukraine faces Russian spring offensive with 400 drone strikes",
-    "Kuwait blames Iran for drone attack, Iran denies involvement"
+    "Israel kills 250+ in Lebanon strikes hours after US-Iran ceasefire",
+    "Iran threatens to abort ceasefire over Israeli Lebanon attacks",
+    "Trump threatens NATO exit after closed-door meeting",
+    "UK-Norway forces deter Russian submarines in North Atlantic",
+    "Saudi oil pipeline hit in Iranian drone attack"
   ],
   "new_entrant": {
     "active": false,
@@ -63,6 +63,28 @@
         "lat": 29.34,
         "lng": 47.66,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut",
+        "description": "Israeli forces conducted massive bombardment killing at least 250 people in heaviest attack since war began.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Saudi Arabia",
+        "target_location": "East-West Pipeline",
+        "description": "Iranian drone struck pumping station on Saudi Arabia's East-West oil pipeline.",
+        "method": "Air/Drone",
+        "lat": 25.0,
+        "lng": 47.0,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -74,6 +96,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Israeli strikes on Lebanon",
+        "kia": "250+",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -82,6 +111,12 @@
         "figure": "2,076 Iran, 26 Israel, 13 US, 28 Gulf states",
         "claimed_by": "Al Jazeera",
         "as_of": "2026-04-07"
+      },
+      {
+        "claim": "US-Iran conflict total deaths",
+        "figure": "~2,143",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 10, 2026"
       }
     ]
   },
@@ -106,6 +141,18 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-04-09"
+      },
+      {
+        "text": "Ceasefire violations carry explicit costs and strong responses",
+        "speaker": "Mohammad Bagher Ghalibaf",
+        "title": "Iran Parliament Speaker",
+        "date": "April 9, 2026"
+      },
+      {
+        "text": "The military will be hanging around in Iran, won't go anywhere",
+        "speaker": "Pete Hegseth",
+        "title": "US Defense Secretary",
+        "date": "April 9, 2026"
       }
     ]
   },
@@ -121,15 +168,53 @@
       "flag": "\ud83c\uddef\ud83c\uddf5",
       "status": "Monitoring",
       "description": "Mitsui OSK Lines monitoring US-Iran ceasefire implementation before allowing vessels through Strait of Hormuz. Major shipping company taking cautious approach to testing strategic waterway amid fragile truce."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan successfully brokered the two-week US-Iran ceasefire agreement announced April 7. Islamabad is now hosting the first direct US-Iran peace talks as Israeli attacks threaten the fragile truce."
+    },
+    {
+      "country": "Norway",
+      "flag": "\ud83c\uddf3\ud83c\uddf4",
+      "status": "Active materiel + troops",
+      "description": "Norwegian military forces joined UK-led operation to deter Russian submarines in North Atlantic. Reports suggest Norway is also providing specialists to Ukraine for potential maritime sabotage operations against Russian vessels."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "UK military exposed covert Russian submarine operations in British waters, forcing vessels to retreat. British and Norwegian forces conducted weeks-long deterrent operation against Russian submarines suspected of malign activity in North Atlantic."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Record highs",
     "wheat_futures": "Unchanged",
-    "notes": "Energy prices may take months to normalize despite ceasefire due to continued Strait of Hormuz uncertainties."
+    "notes": "Oil prices reaching record highs due to Iran's continued blockade of Strait of Hormuz despite ceasefire."
   },
   "update_log": [
+    {
+      "time": "12:41 UTC",
+      "text": "Analysis shows fragile US-Iran ceasefire threatened by Israeli strikes killing 250+ in Lebanon",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:35 UTC",
+      "text": "Iran threatens to abort ceasefire if Israel continues Lebanon attacks",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "Trump reportedly discussed leaving NATO after closed-door meeting",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:25 UTC",
+      "text": "UK and Norway completed operation deterring Russian submarines in North Atlantic",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:13 UTC",
       "text": "Kuwait blames Iran for overnight drone strike, Iran denies responsibility",
@@ -151,5 +236,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-10T07:13:06Z"
+  "last_updated": "2026-04-10T12:41:01Z"
 }
