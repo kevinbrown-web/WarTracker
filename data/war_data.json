@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 7,
-    "delta": "No previous score available",
+    "delta": "N/A - No previous score available",
     "level": "Elevated",
-    "rationale": "Fragile US-Iran ceasefire immediately threatened by Israeli strikes on Lebanon killing 250+, while Trump threatens NATO withdrawal."
+    "rationale": "US-Iran ceasefire appears fragile with continued Israeli strikes on Lebanon and Iran's control over Strait of Hormuz creating ongoing tensions."
   },
   "ticker_items": [
-    "Israel kills 250+ in Lebanon strikes hours after US-Iran ceasefire",
-    "Iran threatens to abort ceasefire over Israeli Lebanon attacks",
-    "Trump threatens NATO exit after closed-door meeting",
-    "UK-Norway forces deter Russian submarines in North Atlantic",
-    "Saudi oil pipeline hit in Iranian drone attack"
+    "Iran blocks Strait of Hormuz as two-week US ceasefire takes effect",
+    "Israeli airstrikes continue in Lebanon despite ceasefire agreement",
+    "Iran strikes Saudi Arabia's East-West oil pipeline with drones",
+    "Pakistan hosts crucial US-Iran peace talks in Islamabad",
+    "Russia launches spring offensive with 400 drone assault on Ukraine"
   ],
   "new_entrant": {
     "active": false,
@@ -28,6 +28,17 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia launched nearly 400 drones and multiple missiles in major assault on civilian areas.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -85,6 +96,28 @@
         "lat": 25.0,
         "lng": 47.0,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "IDF struck and killed Hezbollah commander Maher Qassem Hamdan and eight militants in Chebaa area.",
+        "method": "Air/Precision Strike",
+        "lat": 33.4,
+        "lng": 35.7,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Saudi Arabia",
+        "target_location": "East-West Pipeline",
+        "description": "Iranian drone attacked pumping station along Saudi Arabia's 1,200 km East-West oil pipeline.",
+        "method": "Air/Drone",
+        "lat": 25.0,
+        "lng": 45.0,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -103,6 +136,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Lebanon IDF strike",
+        "kia": "9",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -117,12 +157,37 @@
         "figure": "~2,143",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "April 10, 2026"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "~2,076",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-10"
+      },
+      {
+        "claim": "Israeli deaths in Iran conflict",
+        "figure": "26+",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-10"
+      },
+      {
+        "claim": "US soldiers killed in Iran conflict",
+        "figure": "13",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-10"
       }
     ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Kyiv faces a deficit of missiles as Washington is focused on its war on Iran",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-03-24"
+      }
+    ],
     "middle_east": [
       {
         "text": "Remember Greenland, that big, poorly run, piece of ice!!!",
@@ -153,6 +218,18 @@
         "speaker": "Pete Hegseth",
         "title": "US Defense Secretary",
         "date": "April 9, 2026"
+      },
+      {
+        "text": "Iran will seek retribution for attacks on the country and is resolute in taking revenge for its late supreme leader",
+        "speaker": "Mojataba Ali Khamenei",
+        "title": "Supreme Leader of Iran",
+        "date": "2026-04-09"
+      },
+      {
+        "text": "There is no ceasefire - Israeli strikes have continued against Lebanon",
+        "speaker": "Jessica Tarlov",
+        "title": "Fox News Host",
+        "date": "2026-04-09"
       }
     ]
   },
@@ -186,15 +263,47 @@
       "flag": "\ud83c\uddec\ud83c\udde7",
       "status": "Active materiel + troops",
       "description": "UK military exposed covert Russian submarine operations in British waters, forcing vessels to retreat. British and Norwegian forces conducted weeks-long deterrent operation against Russian submarines suspected of malign activity in North Atlantic."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Strategic balancer",
+      "description": "Chancellor Friedrich Merz told President Trump that Germany would back a mission to secure sea lanes in the Strait of Hormuz. However, Germany insists it would first need an international UN mandate before participating in any such operation."
+    },
+    {
+      "country": "Spain",
+      "flag": "\ud83c\uddea\ud83c\uddf8",
+      "status": "Strategic balancer",
+      "description": "Spain is moving to reopen its embassy in Tehran following the US-Iran ceasefire agreement. The diplomatic move comes as Trump has been critical of NATO allies' reluctance to join the war effort against Iran."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Record highs",
+    "brent_crude": "Elevated due to Hormuz blockade",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices reaching record highs due to Iran's continued blockade of Strait of Hormuz despite ceasefire."
+    "notes": "Iran's control over Strait of Hormuz is impacting global energy markets despite ceasefire."
   },
   "update_log": [
+    {
+      "time": "18:30 UTC",
+      "text": "Pakistan confirms hosting US-Iran peace talks in Islamabad with tight security measures",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:45 UTC",
+      "text": "Germany offers support for Hormuz mission but demands UN mandate first",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "Iran strikes Saudi oil pipeline infrastructure with drone attack",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:10 UTC",
+      "text": "Israeli airstrikes continue in southern Lebanon targeting Hezbollah positions",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:41 UTC",
       "text": "Analysis shows fragile US-Iran ceasefire threatened by Israeli strikes killing 250+ in Lebanon",
@@ -236,5 +345,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-10T12:41:01Z"
+  "last_updated": "2026-04-10T18:37:16Z"
 }
