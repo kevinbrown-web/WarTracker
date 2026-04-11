@@ -3,14 +3,14 @@
     "score": 6.5,
     "delta": "+0.3 from yesterday",
     "level": "Elevated",
-    "rationale": "US-Iran ceasefire remains fragile as Israel continues strikes in Lebanon and Iran attacks Saudi pipeline, while US-Iran talks begin in Pakistan."
+    "rationale": "US-Iran ceasefire talks in Pakistan underway while Israel continues heavy strikes on Lebanon threatening truce."
   },
   "ticker_items": [
-    "US-Iran talks begin in Islamabad amid fragile ceasefire",
-    "Israel continues Lebanon strikes despite peace negotiations",
-    "Iran attacks Saudi East-West oil pipeline with drones",
-    "Trump considers NATO troop repositioning over Iran war response",
-    "Russia-Ukraine agree Orthodox Easter ceasefire through Sunday"
+    "JD Vance leads US-Iran peace talks in Pakistan",
+    "Israel pounds Lebanon with heaviest strikes yet",
+    "Iran sets conditions including Lebanon ceasefire for negotiations",
+    "Strait of Hormuz remains effectively shut despite ceasefire",
+    "Trump issues new 24-hour ultimatum to Iran"
   ],
   "new_entrant": {
     "active": false,
@@ -28,6 +28,17 @@
         "lat": 0.0,
         "lng": 0.0,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Gaza Strip",
+        "description": "Israeli air strikes killed seven people in overnight attacks.",
+        "method": "Air/Precision Strike",
+        "lat": 31.5,
+        "lng": 34.45,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -74,6 +85,17 @@
         "lat": 25.0,
         "lng": 45.0,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Multiple locations",
+        "description": "Israel conducted its heaviest strikes yet on Lebanon, killing hundreds.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -82,6 +104,20 @@
       {
         "incident": "Lebanon bombardment",
         "kia": "~300",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes on Gaza",
+        "kia": "7",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes on Lebanon",
+        "kia": "hundreds",
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
@@ -117,6 +153,12 @@
         "figure": "28",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-10"
+      },
+      {
+        "claim": "US-Iran conflict deaths",
+        "figure": "~2,143",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-04-10"
       }
     ]
   },
@@ -128,6 +170,12 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "President",
         "date": "April 10, 2026"
+      },
+      {
+        "text": "The EU needs more countries to help fight Russia",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President of Ukraine",
+        "date": "2026-04-10"
       }
     ],
     "middle_east": [
@@ -153,6 +201,18 @@
         "text": "Ceasefire arrangements should help quell the war and restore peace and stability",
         "speaker": "Mao Ning",
         "title": "Chinese Foreign Ministry spokesperson",
+        "date": "2026-04-10"
+      },
+      {
+        "text": "Iran is doing a very poor job at reopening the Strait of Hormuz",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-10"
+      },
+      {
+        "text": "Looking forward to positive negotiations but warns Tehran not to 'play us'",
+        "speaker": "JD Vance",
+        "title": "US Vice President",
         "date": "2026-04-10"
       }
     ]
@@ -193,9 +253,24 @@
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Iran considering Bitcoin payments for Strait of Hormuz transit as sanctions evasion tactic amid continued control over key shipping route."
+    "notes": "Economic impacts of Iran war ceasefire being felt by Americans as Strait of Hormuz remains effectively shut."
   },
   "update_log": [
+    {
+      "time": "18:26 UTC",
+      "text": "US-Iran direct talks underway in Pakistan as ceasefire remains fragile",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Israel conducts heaviest strikes on Lebanon threatening ceasefire agreement",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Iran sets conditions for talks including Lebanon ceasefire and asset release",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:30 UTC",
       "text": "US-Iran talks begin in Islamabad as fragile ceasefire continues with Iranian and American delegations arriving in Pakistan.",
@@ -237,5 +312,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-11T12:30:28Z"
+  "last_updated": "2026-04-11T18:26:33Z"
 }
