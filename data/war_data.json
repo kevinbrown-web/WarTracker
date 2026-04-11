@@ -1,20 +1,20 @@
 {
   "escalation": {
     "score": 6.5,
-    "delta": "-0.5 from yesterday",
+    "delta": "+0.3 from yesterday",
     "level": "Elevated",
-    "rationale": "US-Iran ceasefire talks commence in Pakistan while Israeli strikes on Lebanon continue, threatening truce stability."
+    "rationale": "US-Iran ceasefire remains fragile as Israel continues strikes in Lebanon and Iran attacks Saudi pipeline, while US-Iran talks begin in Pakistan."
   },
   "ticker_items": [
-    "Senior Iranian officials arrive in Islamabad for US-Iran peace talks",
-    "Israel continues Lebanon bombardment despite ceasefire calls",
-    "Ukraine-Russia declare 32-hour Orthodox Easter ceasefire",
-    "Iran maintains Strait of Hormuz blockade amid Trump warnings",
-    "1.2 million displaced in Lebanon as fighting escalates"
+    "US-Iran talks begin in Islamabad amid fragile ceasefire",
+    "Israel continues Lebanon strikes despite peace negotiations",
+    "Iran attacks Saudi East-West oil pipeline with drones",
+    "Trump considers NATO troop repositioning over Iran war response",
+    "Russia-Ukraine agree Orthodox Easter ceasefire through Sunday"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Pakistan emerges as active mediator hosting critical US-Iran ceasefire negotiations."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -52,6 +52,28 @@
         "lat": 0.0,
         "lng": 0.0,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut",
+        "description": "Israeli airstrikes hit busy Beirut street affecting civilians including teenager who filmed herself fleeing.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Saudi Arabia",
+        "target_location": "East-West Pipeline",
+        "description": "Iranian drone strikes Saudi Arabia's East-West oil pipeline pumping station.",
+        "method": "Drone",
+        "lat": 25.0,
+        "lng": 45.0,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -71,6 +93,30 @@
         "figure": "2,143",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "April 10, 2026"
+      },
+      {
+        "claim": "Iran conflict deaths",
+        "figure": "~2,076",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-10"
+      },
+      {
+        "claim": "Israeli deaths in Iran conflict",
+        "figure": "26",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-10"
+      },
+      {
+        "claim": "US military deaths",
+        "figure": "13",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-10"
+      },
+      {
+        "claim": "Gulf states deaths",
+        "figure": "28",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-10"
       }
     ]
   },
@@ -102,6 +148,12 @@
         "speaker": "Donald Trump",
         "title": "President",
         "date": "April 10, 2026"
+      },
+      {
+        "text": "Ceasefire arrangements should help quell the war and restore peace and stability",
+        "speaker": "Mao Ning",
+        "title": "Chinese Foreign Ministry spokesperson",
+        "date": "2026-04-10"
       }
     ]
   },
@@ -123,15 +175,42 @@
       "flag": "\ud83c\udde6\ud83c\uddea",
       "status": "Strategic balancer",
       "description": "Gulf nations are providing Ukraine with fuel aid in exchange for anti-drone support against Iranian attacks. The arrangement highlights shifting regional alliances as Gulf states seek protection from Iranian drone capabilities while maintaining energy partnerships."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "China calling for ceasefire arrangements to restore stability while tensions with Japan rise over Taiwan remarks. Foreign Ministry blames Japanese PM Takaichi's Taiwan comments for strained China-Japan relations."
+    },
+    {
+      "country": "Hungary",
+      "flag": "\ud83c\udded\ud83c\uddfa",
+      "status": "Strategic balancer",
+      "description": "Hungarians voting in parliamentary elections on April 12 with government's Russia relationship under intense scrutiny. Election being closely watched in Kyiv, Moscow and beyond as war continues in neighboring Ukraine."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Rising on Hormuz concerns",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices extended gains amid worries Israel's Lebanon attacks could shatter US-Iran peace process and continued Hormuz blockade."
+    "notes": "Iran considering Bitcoin payments for Strait of Hormuz transit as sanctions evasion tactic amid continued control over key shipping route."
   },
   "update_log": [
+    {
+      "time": "12:30 UTC",
+      "text": "US-Iran talks begin in Islamabad as fragile ceasefire continues with Iranian and American delegations arriving in Pakistan.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "11:45 UTC",
+      "text": "Israel continues strikes in Lebanon despite ceasefire, with teenager filming herself fleeing Beirut airstrikes.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:30 UTC",
+      "text": "Iran attacks Saudi Arabia's East-West oil pipeline with drone strike on pumping station.",
+      "source_tier": "unverified"
+    },
     {
       "time": "06:00 UTC",
       "text": "Senior Iranian officials arrive in Islamabad for US-Iran peace talks",
@@ -158,5 +237,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-11T06:45:38Z"
+  "last_updated": "2026-04-11T12:30:28Z"
 }
