@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 6.5,
-    "delta": "N/A (baseline)",
+    "delta": "+0.3 from yesterday",
     "level": "Elevated",
-    "rationale": "Orthodox Easter ceasefire violated within hours while US-Iran talks begin in Pakistan amid continued Israeli strikes in Lebanon."
+    "rationale": "US-Iran ceasefire talks in Islamabad are underway on day 43 of conflict, but continued violations and Iranian pipeline attacks maintain tensions."
   },
   "ticker_items": [
-    "Ukraine reports 450+ Orthodox Easter ceasefire violations within hours",
-    "US-Iran ceasefire talks begin in Pakistan led by VP Vance",
-    "Israel continues Lebanon strikes despite regional ceasefire calls",
-    "Russia-Ukraine prisoner swap exchanges 175 soldiers each",
-    "Saudi East-West pipeline returns to full capacity after Iranian attacks"
+    "US-Iran ceasefire talks begin in Islamabad on day 43 of conflict",
+    "Russia continues drone strikes on Ukraine despite Orthodox Easter truce",
+    "Iran strikes Saudi East-West pipeline, removes 700,000 barrels daily",
+    "Lebanon death toll from Israeli strikes passes 2,000",
+    "US warships move to clear Strait of Hormuz mines"
   ],
   "new_entrant": {
     "active": false,
@@ -27,6 +27,17 @@
         "method": "Air/Drone",
         "lat": 46.48,
         "lng": 30.73,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple positions",
+        "description": "Russian drone strikes continued against Ukrainian positions despite Orthodox Easter ceasefire.",
+        "method": "Air/Drone",
+        "lat": 49.0,
+        "lng": 32.0,
         "source_tier": "unverified"
       }
     ],
@@ -51,6 +62,28 @@
         "method": "Air/Precision Strike",
         "lat": 33.27,
         "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Saudi Arabia",
+        "target_location": "East-West Pipeline",
+        "description": "Iranian strikes hit Saudi East-West pipeline pumping station, reducing oil exports by 700,000 barrels daily.",
+        "method": "Air/Drone",
+        "lat": 25.0,
+        "lng": 45.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Multiple areas",
+        "description": "Israeli strikes continue across Lebanon despite ceasefire discussions.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
         "source_tier": "unverified"
       }
     ]
@@ -84,6 +117,24 @@
         "figure": "~2,076",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-10"
+      },
+      {
+        "claim": "Total deaths from Israeli strikes in Lebanon",
+        "figure": "2,020",
+        "claimed_by": "Lebanese authorities",
+        "as_of": "2026-04-11"
+      },
+      {
+        "claim": "Israeli deaths in conflict",
+        "figure": "26",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-10"
+      },
+      {
+        "claim": "US military deaths",
+        "figure": "13",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-10"
       }
     ]
   },
@@ -115,6 +166,18 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-04-11"
+      },
+      {
+        "text": "US delegation failed to gain trust",
+        "speaker": "Mohammad Bagher Ghalibaf",
+        "title": "Head of Iranian delegation",
+        "date": "2026-04-12"
+      },
+      {
+        "text": "It's as if there's no ceasefire at all. Life is still terrible",
+        "speaker": "Unknown",
+        "title": "Gaza civilian",
+        "date": "2026-04-11"
       }
     ]
   },
@@ -142,15 +205,52 @@
       "flag": "\ud83c\uddf1\ud83c\uddfb",
       "status": "Strategic balancer",
       "description": "Latvia marks 100 days on UN Security Council, keeping Ukraine war prominent on international agenda. Foreign Minister emphasizes NATO unity and 5% defense spending target at parliamentary assembly."
+    },
+    {
+      "country": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "status": "Active materiel + troops",
+      "description": "US warships moved to clear Iranian mines from Strait of Hormuz as ceasefire talks begin in Islamabad. Trump administration engaging in direct negotiations while maintaining military pressure on Iran."
+    },
+    {
+      "country": "Saudi Arabia",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "status": "Strategic balancer",
+      "description": "Saudi East-West pipeline hit by Iranian strikes, reducing oil exports by 700,000 barrels daily. Kingdom's critical energy infrastructure becoming target in regional conflict escalation."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Elevated due to Saudi pipeline attack",
     "wheat_futures": "Unchanged",
-    "notes": "Saudi East-West pipeline restoration to full 7 million barrels/day capacity may ease energy market concerns."
+    "notes": "Saudi pipeline attack removing 700,000 barrels daily from global oil supply, impacting energy markets amid ceasefire talks."
   },
   "update_log": [
+    {
+      "time": "18:30 UTC",
+      "text": "Senior Iranian officials arrive in Islamabad for US-Iran ceasefire talks on day 43 of conflict",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Iran strikes Saudi East-West pipeline, removing 700,000 barrels daily from oil exports",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Russia continues drone strikes on Ukraine despite Orthodox Easter ceasefire taking effect",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Lebanese authorities report Israeli strike death toll passes 2,000 since war began",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Iraq parliament elects Kurdish politician Nizar Amedi as new president ending political deadlock",
+      "source_tier": "verified"
+    },
     {
       "time": "12:30 UTC",
       "text": "Saudi Arabia confirms East-West oil pipeline restored to full capacity after Iranian drone attacks",
@@ -192,5 +292,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-12T12:34:00Z"
+  "last_updated": "2026-04-12T18:30:39Z"
 }
