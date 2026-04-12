@@ -1,23 +1,35 @@
 {
   "escalation": {
-    "score": 6.8,
-    "delta": "+0.3 from yesterday",
+    "score": 6.5,
+    "delta": "N/A (baseline)",
     "level": "Elevated",
-    "rationale": "US-Iran peace talks failed in Pakistan while Iran attacked Saudi oil infrastructure and continues restricting Hormuz transit."
+    "rationale": "Orthodox Easter ceasefire violated within hours while US-Iran talks begin in Pakistan amid continued Israeli strikes in Lebanon."
   },
   "ticker_items": [
-    "US-Iran peace talks collapse in Pakistan, ceasefire remains fragile",
-    "Iran attacks Saudi East-West oil pipeline with drones",
-    "Three oil tankers exit Strait of Hormuz amid restrictions",
-    "Russia launches Easter truce with Ukraine, negotiations show progress",
-    "Hungary election could end Orban's 16-year rule"
+    "Ukraine reports 450+ Orthodox Easter ceasefire violations within hours",
+    "US-Iran ceasefire talks begin in Pakistan led by VP Vance",
+    "Israel continues Lebanon strikes despite regional ceasefire calls",
+    "Russia-Ukraine prisoner swap exchanges 175 soldiers each",
+    "Saudi East-West pipeline returns to full capacity after Iranian attacks"
   ],
   "new_entrant": {
     "active": false,
     "text": ""
   },
   "strikes_today": {
-    "eastern_europe": [],
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Odesa",
+        "description": "Russian drone strikes killed at least 2 people overnight ahead of Orthodox Easter ceasefire",
+        "method": "Air/Drone",
+        "lat": 46.48,
+        "lng": 30.73,
+        "source_tier": "unverified"
+      }
+    ],
     "middle_east": [
       {
         "time_utc": "Unknown",
@@ -29,15 +41,47 @@
         "lat": 24.71,
         "lng": 46.67,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli air strikes killed 10 people including 3 emergency workers in southern Lebanon",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
   "casualties": {
-    "today": [],
+    "today": [
+      {
+        "incident": "Odesa drone strikes",
+        "kia": "2",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Southern Lebanon strikes",
+        "kia": "10",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      }
+    ],
     "claimed_totals": [
       {
         "claim": "US-Iran conflict total deaths",
         "figure": "2,076 Iranian, 26 Israeli, 13 US, 28 Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-10"
+      },
+      {
+        "claim": "Iran conflict deaths",
+        "figure": "~2,076",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-10"
       }
@@ -65,6 +109,12 @@
         "speaker": "JD Vance",
         "title": "US Vice President",
         "date": "2026-04-12"
+      },
+      {
+        "text": "Iran has no cards except Hormuz Strait ahead of Islamabad talks",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-11"
       }
     ]
   },
@@ -86,15 +136,41 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "China agreed to deepen cooperation with North Korea in talks between foreign ministers on international issues. The discussions come amid broader geopolitical realignment as adversaries unite against Western coalitions."
+    },
+    {
+      "country": "Latvia",
+      "flag": "\ud83c\uddf1\ud83c\uddfb",
+      "status": "Strategic balancer",
+      "description": "Latvia marks 100 days on UN Security Council, keeping Ukraine war prominent on international agenda. Foreign Minister emphasizes NATO unity and 5% defense spending target at parliamentary assembly."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Oil markets remain elevated as Iran limits Strait of Hormuz transits to 15 vessels daily and attacks Saudi pipeline infrastructure."
+    "notes": "Saudi East-West pipeline restoration to full 7 million barrels/day capacity may ease energy market concerns."
   },
   "update_log": [
+    {
+      "time": "12:30 UTC",
+      "text": "Saudi Arabia confirms East-West oil pipeline restored to full capacity after Iranian drone attacks",
+      "source_tier": "verified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "Ukraine reports over 450 Orthodox Easter ceasefire violations within hours of truce beginning",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:30 UTC",
+      "text": "US delegation led by VP Vance arrives in Pakistan for Iran ceasefire negotiations",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "Israeli strikes kill 10 in southern Lebanon as regional tensions persist",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:00 UTC",
       "text": "US-Iran peace talks end without agreement as JD Vance says Iran rejected US terms",
@@ -116,5 +192,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-12T07:01:30Z"
+  "last_updated": "2026-04-12T12:34:00Z"
 }
