@@ -1,15 +1,15 @@
 {
   "escalation": {
-    "score": 6.8,
+    "score": 6.5,
     "delta": "+0.3 from yesterday",
     "level": "Elevated",
-    "rationale": "US blockade of Strait of Hormuz after Iran peace talks collapse significantly escalates regional tensions."
+    "rationale": "Failed Orthodox Easter ceasefire between Russia-Ukraine and stalled US-Iran peace talks in Islamabad maintain high regional tensions."
   },
   "ticker_items": [
-    "US begins blockade of Strait of Hormuz after Iran talks fail",
-    "Russia violates Orthodox Easter truce with 470+ incidents against Ukraine",
-    "Hungary votes in elections that could end Orb\u00e1n's 16-year rule",
-    "Netanyahu says Israel campaign against Iran 'not over'"
+    "Russia-Ukraine Easter ceasefire collapses with ~2,000 violations reported",
+    "US-Iran Islamabad talks fail after 21 hours of negotiations",
+    "Strait of Hormuz remains restricted under fragile ceasefire",
+    "Iran begins rebuilding oil facilities, targets 80% capacity in 2 months"
   ],
   "new_entrant": {
     "active": false,
@@ -51,6 +51,18 @@
         "figure": "13",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-10"
+      },
+      {
+        "claim": "Iranian civilian casualties from US-Israeli strikes",
+        "figure": "~479 (258 women, 221 minors)",
+        "claimed_by": "Iran Health Official",
+        "as_of": "2026-04-12"
+      },
+      {
+        "claim": "Total Iran war deaths",
+        "figure": "~2,143 (2,076 Iran, 26 Israel, 13 US, 28 Gulf states)",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-10"
       }
     ]
   },
@@ -76,6 +88,24 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-04-12"
+      },
+      {
+        "text": "In other words, we succeeded here in crushing the nuclear program, crushing the missile program, and we also had an additional goal: To crush the regime in Iran.",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister",
+        "date": "2026-04-12"
+      },
+      {
+        "text": "It doesn't matter. From the standpoint of America, we win",
+        "speaker": "Donald Trump",
+        "title": "President",
+        "date": "2026-04-11"
+      },
+      {
+        "text": "The United States' maximalism, shifting goalposts, and blockade derailed what was just inches away from becoming the Islamabad MoU",
+        "speaker": "Iranian Foreign Minister",
+        "title": "Foreign Minister",
+        "date": "2026-04-12"
       }
     ]
   },
@@ -91,15 +121,36 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "China struck a delicate balance during the Iran conflict, declining to give full support to Iran while deepening cooperation with North Korea. NATO warns China could activate 'junior partners' to divert US attention from potential Taiwan action."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan hosted 21-hour US-Iran peace talks in Islamabad that failed to produce breakthrough. Islamabad leveraged its ties with Gulf states, US, and China to facilitate negotiations that others could not manage."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Iran's control over Strait of Hormuz continues to impact global energy markets despite US blockade announcement."
+    "notes": "Strait of Hormuz restrictions continue impacting global oil flows and fertilizer supplies amid stalled negotiations."
   },
   "update_log": [
+    {
+      "time": "12:00 UTC",
+      "text": "Russia and Ukraine accused each other of ~2,000 ceasefire violations during Orthodox Easter truce",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:30 UTC",
+      "text": "US-Iran talks in Islamabad failed to reach agreement after 21 hours of negotiations",
+      "source_tier": "verified"
+    },
+    {
+      "time": "09:15 UTC",
+      "text": "Iran announces reconstruction of oil facilities with goal of 80% capacity within 2 months",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:45 UTC",
       "text": "Trump announces immediate US naval blockade of Strait of Hormuz after Iran peace talks collapse",
@@ -121,5 +172,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-13T07:45:12Z"
+  "last_updated": "2026-04-13T12:56:29Z"
 }
