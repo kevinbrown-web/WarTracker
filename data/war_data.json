@@ -1,15 +1,16 @@
 {
   "escalation": {
-    "score": 6.5,
-    "delta": "+0.3 from yesterday",
+    "score": 7.2,
+    "delta": "+0.5 from yesterday",
     "level": "Elevated",
-    "rationale": "Failed Orthodox Easter ceasefire between Russia-Ukraine and stalled US-Iran peace talks in Islamabad maintain high regional tensions."
+    "rationale": "Multiple active conflicts intensify with Easter ceasefire violations in Ukraine and ongoing US naval blockade of Iran's Strait of Hormuz."
   },
   "ticker_items": [
-    "Russia-Ukraine Easter ceasefire collapses with ~2,000 violations reported",
-    "US-Iran Islamabad talks fail after 21 hours of negotiations",
-    "Strait of Hormuz remains restricted under fragile ceasefire",
-    "Iran begins rebuilding oil facilities, targets 80% capacity in 2 months"
+    "Russia-Ukraine Easter ceasefire collapses with 1,000+ drone attacks reported",
+    "Iran claims 3,375 killed in US-Israel war, mines remain in Hormuz",
+    "Israeli strike kills infant during funeral in south Lebanon",
+    "Trump declares victory over Iran but ceasefire talks continue",
+    "Russia launches spring offensive with 400-drone barrage on Ukraine"
   ],
   "new_entrant": {
     "active": false,
@@ -27,12 +28,54 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Easter ceasefire violations with over 1,000 drone and shelling attacks reported by both sides.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
-    "middle_east": []
+    "middle_east": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Tyre",
+        "description": "Israeli strike kills infant girl during father's funeral in south Lebanon.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.19,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Saudi Arabia",
+        "target_location": "East-West Pipeline",
+        "description": "Iranian drone attack hits pumping station on Saudi Arabia's East-West oil pipeline.",
+        "method": "Air/Drone",
+        "lat": 24.71,
+        "lng": 46.68,
+        "source_tier": "unverified"
+      }
+    ]
   },
   "casualties": {
-    "today": [],
+    "today": [
+      {
+        "incident": "Lebanon funeral strike",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      }
+    ],
     "claimed_totals": [
       {
         "claim": "Iran conflict deaths",
@@ -63,6 +106,18 @@
         "figure": "~2,143 (2,076 Iran, 26 Israel, 13 US, 28 Gulf states)",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-10"
+      },
+      {
+        "claim": "Total killed in US-Israel war",
+        "figure": "3,375",
+        "claimed_by": "Iran",
+        "as_of": "April 12, 2026"
+      },
+      {
+        "claim": "Iran conflict casualties",
+        "figure": "2,076 Iran, 26 Israel, 13 US, 28 Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 13, 2026"
       }
     ]
   },
@@ -106,6 +161,18 @@
         "speaker": "Iranian Foreign Minister",
         "title": "Foreign Minister",
         "date": "2026-04-12"
+      },
+      {
+        "text": "We succeeded here in crushing the nuclear program, crushing the missile program, and we also had an additional goal: To crush the regime in Iran.",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister",
+        "date": "April 12, 2026"
+      },
+      {
+        "text": "We are taking down the houses that have become terror outposts-just like in Gaza.",
+        "speaker": "Defense Minister Katz",
+        "title": "Defense Minister",
+        "date": "April 12, 2026"
       }
     ]
   },
@@ -127,15 +194,41 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Mediator + arms supplier",
       "description": "Pakistan hosted 21-hour US-Iran peace talks in Islamabad that failed to produce breakthrough. Islamabad leveraged its ties with Gulf states, US, and China to facilitate negotiations that others could not manage."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Mediator + arms supplier",
+      "description": "PM Starmer announces UK-France co-hosted talks this week aimed at diplomatic end to Iran war. Britain developing anti-drone systems as RAF tests laser-guided rockets on Typhoon fighters."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
-    "wheat_futures": "Unchanged",
-    "notes": "Strait of Hormuz restrictions continue impacting global oil flows and fertilizer supplies amid stalled negotiations."
+    "brent_crude": "Elevated",
+    "wheat_futures": "Elevated",
+    "notes": "Hormuz closure threatens global food security as urea fertilizer supplies disrupted, impacting agricultural production worldwide."
   },
   "update_log": [
+    {
+      "time": "18:00 UTC",
+      "text": "Iran reports 3,375 killed in conflict with US and Israel as war enters second month.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:30 UTC",
+      "text": "Both Russia and Ukraine report over 1,000 ceasefire violations during Orthodox Easter truce.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:15 UTC",
+      "text": "Israeli strike kills infant during funeral in south Lebanon as regional violence continues.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:45 UTC",
+      "text": "UK announces diplomatic talks with France to address Strait of Hormuz crisis this week.",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:00 UTC",
       "text": "Russia and Ukraine accused each other of ~2,000 ceasefire violations during Orthodox Easter truce",
@@ -172,5 +265,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-13T12:56:29Z"
+  "last_updated": "2026-04-13T18:57:32Z"
 }
