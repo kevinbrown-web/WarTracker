@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 7.5,
-    "delta": "N/A - first assessment",
+    "delta": "No previous score available",
     "level": "Elevated",
-    "rationale": "US naval blockade of Iran's ports begins amid ceasefire breakdown and NATO allies refusing participation."
+    "rationale": "US begins naval blockade of Strait of Hormuz as NATO allies refuse participation, oil prices spike above $100/barrel."
   },
   "ticker_items": [
-    "US begins naval blockade of Iranian ports after peace talks fail",
-    "NATO allies refuse to join Trump's Strait of Hormuz blockade",
-    "Britain to send minesweepers to Persian Gulf but timing unclear",
-    "Israel divided on respecting Pakistan-brokered Iran ceasefire",
-    "Russia launches spring offensive with 400 drones against Ukraine"
+    "US begins Strait of Hormuz blockade, NATO allies refuse participation",
+    "Oil prices surge above $100/barrel amid shipping route closure",
+    "Iran threatens retaliation against Gulf ports over US blockade",
+    "Pentagon confirms no ships passed US blockade on first day",
+    "Trump warns China of consequences over Iran weapons supplies"
   ],
   "new_entrant": {
     "active": false,
@@ -118,11 +118,24 @@
         "figure": "13",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-13"
+      },
+      {
+        "claim": "Iran War total deaths",
+        "figure": "2,076 Iran, 26 Israel, 13 US, 28 Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-13"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Increased military preparations of the European Union make it obvious that it is getting ready for a major war against Russia",
+        "speaker": "Vassily Nebenzia",
+        "title": "Russian Permanent Representative to UN",
+        "date": "2026-04-13"
+      }
+    ],
     "ukraine": [
       {
         "text": "Kyiv faces a deficit of missiles as Washington is focused on its war on Iran",
@@ -154,6 +167,18 @@
         "text": "The things I say are not meant as attacks on anyone",
         "speaker": "Pope Leo XIV",
         "title": "Pope",
+        "date": "2026-04-13"
+      },
+      {
+        "text": "Never again means stopping Iran's nuclear threat",
+        "speaker": "Sa'ar",
+        "title": "Israeli Foreign Minister",
+        "date": "2026-04-13"
+      },
+      {
+        "text": "They Have Chosen Not To Accept Our Terms",
+        "speaker": "Vance",
+        "title": "US Vice President",
         "date": "2026-04-13"
       }
     ]
@@ -194,15 +219,41 @@
       "flag": "\ud83c\udded\ud83c\uddfa",
       "status": "Monitoring",
       "description": "Opposition leader Peter Magyar scored landslide victory ending Viktor Orban's rule. New Hungarian leadership expected to reset relations with EU and potentially alter stance on regional conflicts."
+    },
+    {
+      "country": "NATO members",
+      "flag": "\ud83c\uddfa\ud83c\uddf8\ud83c\uddec\ud83c\udde7\ud83c\uddeb\ud83c\uddf7",
+      "status": "Abstaining",
+      "description": "NATO allies refused to join US blockade of Strait of Hormuz. UK PM Starmer confirmed Britain will not support blockade. European countries willing to help only after durable ceasefire."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated due to Hormuz blockade",
-    "wheat_futures": "Rising on fertilizer supply concerns",
-    "notes": "Iran's Strait closure threatens global urea fertilizer supplies critical for grain production worldwide."
+    "brent_crude": "Above $100",
+    "wheat_futures": "Unchanged",
+    "notes": "Oil prices jumped significantly as Strait of Hormuz remains closed due to US blockade operations."
   },
   "update_log": [
+    {
+      "time": "18:55 UTC",
+      "text": "Pentagon confirms no ships made it past US blockade in Hormuz strait on first day",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "NATO allies refuse to join Trump's Strait of Hormuz blockade operations",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Oil prices rise above $100 per barrel as US blockade begins",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Iran threatens retaliation against Gulf ports for US blockade",
+      "source_tier": "unverified"
+    },
     {
       "time": "10:00",
       "text": "US Central Command begins naval blockade of Iranian ports after 21-hour peace talks collapse",
@@ -239,5 +290,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-14T12:56:01Z"
+  "last_updated": "2026-04-14T18:55:39Z"
 }
