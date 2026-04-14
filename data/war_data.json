@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.5,
-    "delta": "+1.3 from yesterday",
-    "level": "High",
-    "rationale": "US announces naval blockade of Strait of Hormuz after Iran peace talks collapse, while Ukraine-Russia Easter truce ends with mutual violation accusations."
+    "score": 7.5,
+    "delta": "N/A - first assessment",
+    "level": "Elevated",
+    "rationale": "US naval blockade of Iran's ports begins amid ceasefire breakdown and NATO allies refusing participation."
   },
   "ticker_items": [
-    "Trump announces US naval blockade of Iranian ports effective immediately",
-    "Ukraine-Russia Orthodox Easter truce expires with thousands of violations claimed",
-    "Oil prices surge past $104/barrel on Hormuz blockade announcement",
-    "Trump criticizes NATO for lack of support in Iran conflict",
-    "Markets drop 500 points on Dow futures after blockade announcement"
+    "US begins naval blockade of Iranian ports after peace talks fail",
+    "NATO allies refuse to join Trump's Strait of Hormuz blockade",
+    "Britain to send minesweepers to Persian Gulf but timing unclear",
+    "Israel divided on respecting Pakistan-brokered Iran ceasefire",
+    "Russia launches spring offensive with 400 drones against Ukraine"
   ],
   "new_entrant": {
     "active": false,
@@ -28,6 +28,17 @@
         "lat": 55.7558,
         "lng": 37.6176,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia fired nearly 400 drones at Ukrainian civilian areas in spring offensive escalation.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -52,6 +63,17 @@
         "lat": 33.89,
         "lng": 35.5,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Saudi Arabia",
+        "target_location": "East-West Pipeline pumping station",
+        "description": "Iranian drone struck Saudi Arabia's critical East-West oil pipeline pumping station.",
+        "method": "Air/Drone",
+        "lat": 24.71,
+        "lng": 46.67,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -59,6 +81,13 @@
     "today": [
       {
         "incident": "Israeli strikes on southern Lebanon",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian drone strikes on Ukraine",
         "kia": "Unknown",
         "wia": "Unknown",
         "civilian": true,
@@ -71,12 +100,37 @@
         "figure": "2,076 dead in Iran, 26 in Israel, 13 US soldiers, 28 in Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-13"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "~2,076",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-13"
+      },
+      {
+        "claim": "Israeli deaths in Iran conflict",
+        "figure": "~26",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-13"
+      },
+      {
+        "claim": "US soldier deaths in Iran conflict",
+        "figure": "13",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-13"
       }
     ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Kyiv faces a deficit of missiles as Washington is focused on its war on Iran",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-03-24"
+      }
+    ],
     "middle_east": [
       {
         "text": "The negotiations collapsed because of differences over the nuclear issue",
@@ -88,6 +142,18 @@
         "text": "We pay trillions of dollars...they weren't there for us",
         "speaker": "Donald Trump",
         "title": "US President",
+        "date": "2026-04-13"
+      },
+      {
+        "text": "Security in the Persian Gulf and the Sea of Oman is either for everyone or for NO ONE",
+        "speaker": "Iran",
+        "title": "Islamic Republic Broadcasting",
+        "date": "2026-04-13"
+      },
+      {
+        "text": "The things I say are not meant as attacks on anyone",
+        "speaker": "Pope Leo XIV",
+        "title": "Pope",
         "date": "2026-04-13"
       }
     ]
@@ -110,15 +176,53 @@
       "flag": "\ud83c\uddf0\ud83c\uddf7",
       "status": "Active materiel + troops",
       "description": "South Korean President Lee Jae Myung and Polish PM Donald Tusk agree to expand defense cooperation as US shifts priorities to Middle East."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Strategic balancer",
+      "description": "Prime Minister Starmer confirmed Royal Navy minesweepers will deploy to Persian Gulf but timing remains unclear. Britain maintaining careful balance between supporting US goals while avoiding direct confrontation escalation."
+    },
+    {
+      "country": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "status": "Abstaining",
+      "description": "France withdrew $15 billion in gold reserves from US amid what analysts call 'transatlantic divorce' over Iran war. Paris refusing to participate in Trump's Strait of Hormuz blockade alongside other NATO allies."
+    },
+    {
+      "country": "Hungary",
+      "flag": "\ud83c\udded\ud83c\uddfa",
+      "status": "Monitoring",
+      "description": "Opposition leader Peter Magyar scored landslide victory ending Viktor Orban's rule. New Hungarian leadership expected to reset relations with EU and potentially alter stance on regional conflicts."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "$104+",
-    "wheat_futures": "Unchanged",
-    "notes": "Dow futures dropped 500 points and oil surged past $104/barrel following Trump's Hormuz blockade announcement."
+    "brent_crude": "Elevated due to Hormuz blockade",
+    "wheat_futures": "Rising on fertilizer supply concerns",
+    "notes": "Iran's Strait closure threatens global urea fertilizer supplies critical for grain production worldwide."
   },
   "update_log": [
+    {
+      "time": "10:00",
+      "text": "US Central Command begins naval blockade of Iranian ports after 21-hour peace talks collapse",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "NATO allies formally refuse participation in Trump's Strait of Hormuz blockade operation",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Iranian drone reportedly strikes Saudi Arabia's East-West oil pipeline pumping station",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Russia launches massive 400-drone assault on Ukrainian civilian areas in spring offensive",
+      "source_tier": "verified"
+    },
     {
       "time": "10:00 UTC",
       "text": "US begins naval blockade of Iranian ports following collapse of peace negotiations",
@@ -135,5 +239,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-14T07:14:51Z"
+  "last_updated": "2026-04-14T12:56:01Z"
 }
