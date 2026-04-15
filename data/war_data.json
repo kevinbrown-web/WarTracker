@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 6.5,
-    "delta": "No previous data",
+    "score": 7.0,
+    "delta": "No baseline available",
     "level": "Elevated",
-    "rationale": "US naval blockade of Iranian ports continues while diplomatic talks may resume, with ongoing strikes despite ceasefire efforts."
+    "rationale": "US naval blockade of Strait of Hormuz continues amid failed ceasefire talks between US and Iran, with threats of regional escalation."
   },
   "ticker_items": [
-    "US-Iran talks may resume in Islamabad despite port blockade",
-    "Israel-Lebanon direct negotiations begin in Washington",
-    "Iran maintains Strait of Hormuz closure affecting oil markets",
-    "North Korea conducts naval cruise missile tests",
-    "Ukraine-Germany launch joint defense production plans"
+    "US maintains naval blockade of Iranian ports in Strait of Hormuz",
+    "US-Iran talks may resume in Islamabad this week despite blockade",
+    "Italy suspends defense agreement with Israel over current situation",
+    "Israel-Lebanon hold first direct talks in Washington since 1993",
+    "Iran demands compensation from Arab countries it has bombed since March"
   ],
   "new_entrant": {
     "active": false,
@@ -106,6 +106,18 @@
         "figure": "~2,076 Iranian, 26 Israeli, 13 US, 28 Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-13"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "~2,076",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-04-15"
+      },
+      {
+        "claim": "Israeli strikes in Lebanon deaths",
+        "figure": "~2,124",
+        "claimed_by": "TheJournal.ie",
+        "as_of": "2026-04-14"
       }
     ]
   },
@@ -143,6 +155,18 @@
         "speaker": "Pope Leo XIV",
         "title": "Pope",
         "date": "2026-04-14"
+      },
+      {
+        "text": "widespread consequences",
+        "speaker": "Masoud Pezeshkian",
+        "title": "Iranian President",
+        "date": "2026-04-14"
+      },
+      {
+        "text": "In light of the current situation, the government has decided to suspend the automatic renewal of the defense agreement with Israel",
+        "speaker": "Giorgia Meloni",
+        "title": "Italian Prime Minister",
+        "date": "2026-04-14"
       }
     ]
   },
@@ -176,15 +200,46 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Mediator + arms supplier",
       "description": "Pakistan racing to facilitate resumed US-Iran peace talks in Islamabad this week. Pakistani officials describe ongoing diplomatic process rather than one-off mediation effort."
+    },
+    {
+      "country": "Italy",
+      "flag": "\ud83c\uddee\ud83c\uddf9",
+      "status": "Abstaining",
+      "description": "Italy suspended its defense agreement with Israel and halted military-level cooperation. Prime Minister Meloni also publicly rebuked Trump over comments about Pope Leo XIV, signaling diplomatic tensions."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Lower on ceasefire hopes",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices down on signals of possible US-Iran talks easing Strait of Hormuz supply fears."
+    "notes": "Strait of Hormuz blockade described as greatest threat to global economy, with markets concerned about indefinite shipping disruption."
   },
   "update_log": [
+    {
+      "time": "18:00 UTC",
+      "text": "Italy suspends automatic renewal of defense agreement with Israel",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:00 UTC",
+      "text": "Iran threatens widespread consequences for US Strait of Hormuz blockade",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Israel-Lebanon begin first direct talks in Washington since 1993",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:00 UTC",
+      "text": "Diplomats work to arrange second round of US-Iran talks despite blockade",
+      "source_tier": "verified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Germany and Ukraine strike drone expertise and military support deal",
+      "source_tier": "verified"
+    },
     {
       "time": "12:55 UTC",
       "text": "US and Iranian negotiating teams could return to Islamabad this week for resumed talks",
@@ -226,5 +281,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-15T12:55:14Z"
+  "last_updated": "2026-04-15T18:57:51Z"
 }
