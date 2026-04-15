@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.8,
-    "delta": "+0.3 from yesterday",
+    "score": 6.5,
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "US naval blockade of Iranian ports begins while Israel-Lebanon talks commence amid ongoing Middle East tensions."
+    "rationale": "US naval blockade of Iranian ports continues while diplomatic talks may resume, with ongoing strikes despite ceasefire efforts."
   },
   "ticker_items": [
-    "US begins naval blockade of Iranian ports in Strait of Hormuz",
-    "Oil prices surge past $100 amid Iran standoff",
-    "Israel-Lebanon representatives meet in Washington for talks",
-    "Iran demands $270bn war reparations from Gulf neighbors",
-    "North Korea conducts cruise missile tests from naval destroyer"
+    "US-Iran talks may resume in Islamabad despite port blockade",
+    "Israel-Lebanon direct negotiations begin in Washington",
+    "Iran maintains Strait of Hormuz closure affecting oil markets",
+    "North Korea conducts naval cruise missile tests",
+    "Ukraine-Germany launch joint defense production plans"
   ],
   "new_entrant": {
     "active": false,
@@ -28,6 +28,17 @@
         "lat": 0.0,
         "lng": 0.0,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russian drone attack on Chornobyl nuclear site raising nuclear risks according to Greenpeace report.",
+        "method": "Air/Drone",
+        "lat": 51.27,
+        "lng": 30.22,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -41,11 +52,30 @@
         "lat": 33.89,
         "lng": 35.5,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Multiple locations",
+        "description": "Israeli strikes on Lebanon continue despite ongoing diplomatic negotiations in Washington.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
       }
     ]
   },
   "casualties": {
-    "today": [],
+    "today": [
+      {
+        "incident": "Turkey school shooting",
+        "kia": "4",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      }
+    ],
     "claimed_totals": [
       {
         "claim": "Iran war casualties",
@@ -68,6 +98,12 @@
       {
         "claim": "Gulf states casualties",
         "figure": "28",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-13"
+      },
+      {
+        "claim": "US-Israel attacks on Iran casualties",
+        "figure": "~2,076 Iranian, 26 Israeli, 13 US, 28 Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-13"
       }
@@ -101,6 +137,12 @@
         "speaker": "Former Pakistani Official",
         "title": "Ex-Pakistani Official",
         "date": "2026-04-14"
+      },
+      {
+        "text": "Leo has called Trump's genocidal threats against Iran truly unacceptable",
+        "speaker": "Pope Leo XIV",
+        "title": "Pope",
+        "date": "2026-04-14"
       }
     ]
   },
@@ -122,15 +164,47 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Supplying dual-use goods",
       "description": "Kim Jong Un supervised cruise missile and anti-warship missile tests from a naval destroyer. North Korea and China agreed to deepen cooperation in recent foreign minister talks on international issues."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Active materiel + troops",
+      "description": "Germany launches joint defense production plans with Ukraine including advanced drones and battle-tested systems. Chancellor Merz meets with Zelenskyy in Berlin seeking increased support against Russia."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan racing to facilitate resumed US-Iran peace talks in Islamabad this week. Pakistani officials describe ongoing diplomatic process rather than one-off mediation effort."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "$100+",
+    "brent_crude": "Lower on ceasefire hopes",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices surged above $100 as US naval blockade of Iranian ports takes effect in Strait of Hormuz."
+    "notes": "Oil prices down on signals of possible US-Iran talks easing Strait of Hormuz supply fears."
   },
   "update_log": [
+    {
+      "time": "12:55 UTC",
+      "text": "US and Iranian negotiating teams could return to Islamabad this week for resumed talks",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Israel-Lebanon representatives meet in Washington for first direct talks in over 30 years",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:30 UTC",
+      "text": "Four killed in Turkey's second school shooting in two days in Kahramanmaras province",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Ukraine and Germany announce joint production plans for advanced drones and defense systems",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:00 UTC",
       "text": "US begins naval blockade of Iranian ports as shipping traffic chokes off around Strait of Hormuz",
@@ -152,5 +226,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-15T07:15:30Z"
+  "last_updated": "2026-04-15T12:55:14Z"
 }
