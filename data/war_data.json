@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 6.5,
-    "delta": "-0.5 from yesterday",
+    "delta": "+0.3 from yesterday",
     "level": "Elevated",
-    "rationale": "Iran war shows de-escalation signals with Trump declaring conflict 'very close to over' and US naval blockade halting Iranian trade through Hormuz."
+    "rationale": "Iran threatens Red Sea trade disruption while US-Iran ceasefire negotiations continue amid North Korea nuclear capability warnings."
   },
   "ticker_items": [
-    "Trump says Iran war 'very close to over' as talks may resume",
-    "US blockade completely halts Iranian trade through Hormuz Strait",
-    "China-Russia meeting discusses Iran war concerns",
-    "Ukraine uses robots to force Russian troop surrender",
-    "Israeli strikes kill four Lebanese paramedics"
+    "Iran military threatens Red Sea, Gulf trade disruption if US blockade continues",
+    "Ukraine captures Russian position using only robots, no human infantry",
+    "UK announces 120,000 drone package for Ukraine in largest-ever commitment",
+    "North Korea showing serious increase in nuclear weapon production capability",
+    "Israel destroys last operational bridge over Lebanon's Litani River"
   ],
   "new_entrant": {
     "active": false,
@@ -27,6 +27,28 @@
         "method": "Drone",
         "lat": 0.0,
         "lng": 0.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Slovyansk",
+        "description": "Russian shelling destroyed children's sports facility and administrative building in city center.",
+        "method": "Ground/Armored",
+        "lat": 48.87,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple regions",
+        "description": "Russia launched hundreds of drones targeting Ukrainian regions.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
         "source_tier": "unverified"
       }
     ],
@@ -52,6 +74,28 @@
         "lat": 0.0,
         "lng": 0.0,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Ansariya",
+        "description": "Israeli strike on coastal town killed several people.",
+        "method": "Air/Precision Strike",
+        "lat": 33.26,
+        "lng": 35.21,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Litani River",
+        "description": "Israeli strike destroyed last operational bridge over Litani River.",
+        "method": "Air/Precision Strike",
+        "lat": 33.31,
+        "lng": 35.44,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -70,6 +114,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Ansariya strike",
+        "kia": "Several",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -78,6 +129,36 @@
         "figure": "2,143",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "April 15, 2026"
+      },
+      {
+        "claim": "Iranian war casualties",
+        "figure": "2,076",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-15"
+      },
+      {
+        "claim": "Israeli war casualties",
+        "figure": "26",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-15"
+      },
+      {
+        "claim": "US military casualties",
+        "figure": "13",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-15"
+      },
+      {
+        "claim": "Lebanon displaced persons",
+        "figure": "Over 1 million",
+        "claimed_by": "Lebanese authorities",
+        "as_of": "2026-04-15"
+      },
+      {
+        "claim": "Lebanon casualties from Israeli attacks",
+        "figure": "Over 2,100",
+        "claimed_by": "Lebanon Health Ministry",
+        "as_of": "2026-04-15"
       }
     ]
   },
@@ -88,6 +169,12 @@
         "speaker": "Sergey Lavrov",
         "title": "Foreign Minister",
         "date": "April 15, 2026"
+      },
+      {
+        "text": "US wants European NATO states to 'contain Russia'",
+        "speaker": "Sergey Lavrov",
+        "title": "Foreign Minister",
+        "date": "2026-04-15"
       }
     ],
     "ukraine": [],
@@ -103,6 +190,18 @@
         "speaker": "CENTCOM",
         "title": "US Military Command",
         "date": "April 14, 2026"
+      },
+      {
+        "text": "The war with Iran could be over very soon",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-15"
+      },
+      {
+        "text": "China won't send arms to Iran",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-15"
       }
     ]
   },
@@ -124,15 +223,64 @@
       "flag": "\ud83c\uddef\ud83c\uddf5",
       "status": "Supplying dual-use goods",
       "description": "Japan preparing to ease strict arms export rules following Trump policy concerns. Defense companies are positioning to meet new demand from countries like Poland and Philippines."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "UK announced its biggest ever drone package for Ukraine, including over 120,000 drones with cutting-edge battlefield technology. RAF is also testing laser-guided rocket systems on Typhoon jets as potential anti-drone weapons."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Monitoring",
+      "description": "IAEA chief warns of rapid increase in North Korea's nuclear weapon production capabilities at Yongbyon reactor. Kim Jong Un oversaw naval cruise missile and anti-warship missile tests from a destroyer over the weekend."
+    },
+    {
+      "country": "Australia",
+      "flag": "\ud83c\udde6\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "Australia announced defense spending will climb by $53 billion over the next decade amid intensifying global risks. The Albanese government committed to boosting defense spending to 3% of GDP under revised definitions."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan's army chief traveled to Tehran in mediation efforts to bridge the gap between US and Iran. Pakistani mediation facilitated the first round of US-Iran talks with more negotiations planned in coming days."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated due to Hormuz blockade",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "IMF revised global growth downward citing regional military conflict as primary factor causing economic instability."
+    "notes": "Iran's military threat to disrupt Red Sea and Persian Gulf trade if US naval blockade continues poses significant risk to global energy markets."
   },
   "update_log": [
+    {
+      "time": "12:59 UTC",
+      "text": "Iranian military threatens to disrupt Red Sea and Persian Gulf trade if US naval blockade continues.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:45 UTC",
+      "text": "Israel destroys last operational bridge over Lebanon's Litani River in continued bombardment.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "UK announces largest-ever drone package for Ukraine with over 120,000 drones.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:15 UTC",
+      "text": "Ukraine achieves first fully robotic capture of Russian position using only drones and ground robots.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "IAEA chief warns of serious increase in North Korea's nuclear weapon production capability.",
+      "source_tier": "verified"
+    },
     {
       "time": "17:29 UTC",
       "text": "Al Jazeera casualty tracker updated showing 2,143 total deaths from Iran war",
@@ -159,5 +307,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-04-16T07:16:14Z"
+  "last_updated": "2026-04-16T12:59:58Z"
 }
