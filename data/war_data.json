@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 6.5,
-    "delta": "+0.3 from yesterday",
+    "score": 7,
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "Iran threatens Red Sea trade disruption while US-Iran ceasefire negotiations continue amid North Korea nuclear capability warnings."
+    "rationale": "Multiple active conflicts with US naval blockade of Iran, ongoing Ukraine-Russia fighting, Israel-Lebanon strikes, and North Korea nuclear expansion."
   },
   "ticker_items": [
-    "Iran military threatens Red Sea, Gulf trade disruption if US blockade continues",
-    "Ukraine captures Russian position using only robots, no human infantry",
-    "UK announces 120,000 drone package for Ukraine in largest-ever commitment",
-    "North Korea showing serious increase in nuclear weapon production capability",
-    "Israel destroys last operational bridge over Lebanon's Litani River"
+    "US blockade halts 90% of Iran's sea trade",
+    "One-week Lebanon ceasefire expected to take effect",
+    "Ukraine disrupts Russian spring offensive, retakes territory",
+    "North Korea rapidly expanding nuclear weapons capability",
+    "Italy suspends defense pact with Israel"
   ],
   "new_entrant": {
     "active": false,
@@ -46,6 +46,17 @@
         "target_country": "Ukraine",
         "target_location": "Multiple regions",
         "description": "Russia launched hundreds of drones targeting Ukrainian regions.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia continues daily drone strikes as part of ongoing spring offensive operations",
         "method": "Air/Drone",
         "lat": 50.45,
         "lng": 30.52,
@@ -96,6 +107,28 @@
         "lat": 33.31,
         "lng": 35.44,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "New Israeli strikes hit southern Lebanon day after historic talks in Washington",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Multiple locations",
+        "description": "Israeli strikes hit homes far from front lines killing children",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -118,6 +151,13 @@
       {
         "incident": "Ansariya strike",
         "kia": "Several",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes on Lebanon",
+        "kia": "Multiple children",
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
@@ -158,6 +198,18 @@
         "claim": "Lebanon casualties from Israeli attacks",
         "figure": "Over 2,100",
         "claimed_by": "Lebanon Health Ministry",
+        "as_of": "2026-04-15"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "~2,076",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-15"
+      },
+      {
+        "claim": "Israeli deaths in Iran conflict",
+        "figure": "~26",
+        "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-15"
       }
     ]
@@ -201,6 +253,18 @@
         "text": "China won't send arms to Iran",
         "speaker": "Donald Trump",
         "title": "US President",
+        "date": "2026-04-15"
+      },
+      {
+        "text": "war, which began after US and Israel attacked Iran in February, is 'very close to being over'",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-15"
+      },
+      {
+        "text": "In less than 36 hours since the blockade was implemented, U.S. forces have completely halted economic trade going into and out of Iran by sea",
+        "speaker": "Brad Cooper",
+        "title": "CENTCOM Commander",
         "date": "2026-04-15"
       }
     ]
@@ -251,11 +315,36 @@
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Rising",
     "wheat_futures": "Unchanged",
-    "notes": "Iran's military threat to disrupt Red Sea and Persian Gulf trade if US naval blockade continues poses significant risk to global energy markets."
+    "notes": "Rising oil prices from Strait of Hormuz blockade are filling Russia's war coffers according to German defense minister."
   },
   "update_log": [
+    {
+      "time": "18:55 UTC",
+      "text": "US naval blockade reportedly halting 90% of Iran's sea trade according to CENTCOM",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:30 UTC",
+      "text": "One-week ceasefire in Lebanon expected to take effect as US-Iran truce efforts continue",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:45 UTC",
+      "text": "Italy suspends defense pact with Israel over Lebanon attacks",
+      "source_tier": "verified"
+    },
+    {
+      "time": "14:20 UTC",
+      "text": "New Israeli strikes hit southern Lebanon day after Washington talks",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "IAEA warns of rapid increase in North Korea nuclear weapons capability",
+      "source_tier": "verified"
+    },
     {
       "time": "12:59 UTC",
       "text": "Iranian military threatens to disrupt Red Sea and Persian Gulf trade if US naval blockade continues.",
@@ -307,5 +396,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-04-16T12:59:58Z"
+  "last_updated": "2026-04-16T18:55:05Z"
 }
