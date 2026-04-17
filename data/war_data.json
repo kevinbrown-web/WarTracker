@@ -1,15 +1,15 @@
 {
   "escalation": {
-    "score": 6,
-    "delta": "-1.0 from yesterday",
+    "score": 6.5,
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "Israel-Lebanon ceasefire begins with direct talks and US-Iran negotiations resuming via Pakistani mediation, though Iran conflict continues on day 49."
+    "rationale": "Multiple active conflicts with US-Iran ceasefire talks, Israel-Lebanon negotiations, and ongoing Russian offensive in Ukraine."
   },
   "ticker_items": [
-    "Israel-Lebanon 10-day ceasefire begins, first direct talks in decades",
-    "US-Iran talks resume in Islamabad with Pakistani mediation",
-    "US naval blockade reportedly halts 90% of Iran's sea trade",
-    "Russia kills 14 in fresh Ukraine barrage, allies rush drone aid",
+    "US-Iran ceasefire talks resume in Pakistan after 48-day war",
+    "Israel-Lebanon agree to 10-day ceasefire after 34 years",
+    "US naval blockade halts 90% of Iran's sea trade",
+    "Russia launches spring offensive with 400 drone attack on Ukraine",
     "North Korea rapidly expanding nuclear weapons production capability"
   ],
   "new_entrant": {
@@ -40,6 +40,17 @@
         "method": "Air/Drone",
         "lat": 33.0,
         "lng": 35.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli strikes continue in southern Lebanon despite ceasefire announcement.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
         "source_tier": "unverified"
       }
     ]
@@ -72,6 +83,12 @@
         "figure": "13",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-15"
+      },
+      {
+        "claim": "US-Iran war total deaths",
+        "figure": "~2,076 Iranian, ~26 Israeli, ~13 US, ~28 Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 15, 2026"
       }
     ]
   },
@@ -97,6 +114,18 @@
         "speaker": "Senior U.S. Official",
         "title": "Senior U.S. Official",
         "date": "2026-04-16"
+      },
+      {
+        "text": "Pakistan's effective and responsible role in ending war is commendable",
+        "speaker": "Masoud Pezeshkian",
+        "title": "Iranian President",
+        "date": "April 16, 2026"
+      },
+      {
+        "text": "Lebanon and Israel have agreed that in order to achieve peace between their Countries, they will formally begin a 10 Day ceasefire",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "April 16, 2026"
       }
     ]
   },
@@ -130,15 +159,41 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Strategic balancer",
       "description": "IAEA chief warns of rapid increase in North Korean nuclear weapons production at Yongbyon reactor. Kim Jong Un oversaw cruise missile and anti-warship missile tests from naval destroyer over weekend."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "China vetoed UN Security Council resolution on Strait of Hormuz freedom of navigation alongside Russia. Reports suggest Iran used Chinese satellites to target US bases, which China denies."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "German household energy costs and inflation rising amid Iran conflict affecting European economic stability."
+    "notes": "US naval blockade halting 90% of Iran's sea trade creating economic pressure on Tehran."
   },
   "update_log": [
+    {
+      "time": "12:51 UTC",
+      "text": "Israel-Lebanon 10-day ceasefire begins with civilians returning to homes in southern Lebanon.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "Pentagon pushes US automakers to produce arms as arsenals deplete during Iran war.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:45 UTC",
+      "text": "Pakistani Army Chief meets Iranian Parliament Speaker in Tehran for ceasefire mediation.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "IAEA warns North Korea rapidly increasing nuclear weapons production capability at Yongbyon reactor.",
+      "source_tier": "verified"
+    },
     {
       "time": "07:00 UTC",
       "text": "Israel-Lebanon ceasefire begins with celebrations in Lebanon and direct talks planned",
@@ -160,5 +215,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-17T07:16:30Z"
+  "last_updated": "2026-04-17T12:51:29Z"
 }
