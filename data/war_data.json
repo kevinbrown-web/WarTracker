@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "No previous data",
+    "score": 6.5,
+    "delta": "+0.3 from yesterday",
     "level": "Elevated",
-    "rationale": "Iran re-closes Strait of Hormuz amid US naval blockade while Israel-Lebanon ceasefire shows early violations with continued shelling."
+    "rationale": "US-Iran ceasefire talks showing progress while Ukraine faces renewed Russian offensive with 400 drones launched, maintaining regional tensions despite diplomatic openings."
   },
   "ticker_items": [
-    "Iran closes Strait of Hormuz again over US port blockade",
-    "Israeli shelling violates Lebanon ceasefire, displaced returning home",
-    "US blockade halts 90% of Iran's sea trade per CENTCOM",
-    "Three US carrier groups maintain Iranian port blockade",
-    "North Korea rapidly increasing nuclear weapons production capability"
+    "Iran reopens Strait of Hormuz amid fragile US negotiations",
+    "Israel-Lebanon 10-day ceasefire holding, displaced returning home",
+    "Russia launches 400-drone assault as spring offensive begins",
+    "Trump rejects NATO help in Hormuz, calls alliance 'paper tiger'",
+    "North Korea rapidly expanding nuclear weapons capability - IAEA"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Kosovo approves troop commitment to Gaza international force, citing appreciation for NATO peacekeeping support."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -27,6 +27,17 @@
         "method": "Air/Drone",
         "lat": 44.1,
         "lng": 39.07,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia launched nearly 400 drones plus 23 cruise missiles and 7 ballistic missiles hitting at least 10 Ukrainian locations.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
         "source_tier": "unverified"
       }
     ],
@@ -56,7 +67,15 @@
     ]
   },
   "casualties": {
-    "today": [],
+    "today": [
+      {
+        "incident": "Kyiv gunman attack",
+        "kia": "6",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      }
+    ],
     "claimed_totals": [
       {
         "claim": "Iranian casualties from US-Israel attacks",
@@ -99,6 +118,12 @@
         "figure": "2,890",
         "claimed_by": "UAE Ambassador to India",
         "as_of": "April 17, 2026"
+      },
+      {
+        "claim": "Israeli deaths in Iran conflict",
+        "figure": "26",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 15, 2026"
       }
     ]
   },
@@ -135,6 +160,30 @@
         "text": "Hormuz Blockade Stays As Long As It Takes",
         "speaker": "Pete Hegseth",
         "title": "Defense Secretary",
+        "date": "April 17, 2026"
+      },
+      {
+        "text": "There's a very good chance we're going to make a deal with Tehran.",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "April 17, 2026"
+      },
+      {
+        "text": "Most of the main points are finalized. It'll go pretty quickly.",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "April 17, 2026"
+      },
+      {
+        "text": "There are things we plan to do regarding the remaining rocket threat and the drone threat, which I will not detail here.",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Israeli Prime Minister",
+        "date": "April 17, 2026"
+      },
+      {
+        "text": "I TOLD THEM TO STAY AWAY, UNLESS THEY JUST WANT TO LOAD UP THEIR SHIPS WITH OIL.",
+        "speaker": "Donald Trump",
+        "title": "US President",
         "date": "April 17, 2026"
       }
     ]
@@ -175,15 +224,46 @@
       "flag": "\ud83c\uddf9\ud83c\uddf7",
       "status": "Strategic balancer",
       "description": "Turkish officials promoting Istanbul as regional financial hub amid Iran war fallout on Gulf economies. Turkey facing Israeli pressure campaigns in Washington according to reports, with Netanyahu targeting this important US ally."
+    },
+    {
+      "country": "Kosovo",
+      "flag": "\ud83c\uddfd\ud83c\uddf0",
+      "status": "Active materiel + troops",
+      "description": "Kosovo approving troop commitment to Gaza international force, citing appreciation for NATO peacekeeping. Small Balkan nation offering dozens of security troops for Middle East deployment."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Sharply lower",
     "wheat_futures": "Unchanged",
-    "notes": "US facing recession due to Iran war costs with $58 billion taxpayer hit according to reports."
+    "notes": "Oil prices dropped sharply as Iran declared Strait of Hormuz fully open to commercial vessels, easing weeks of global shipping disruptions."
   },
   "update_log": [
+    {
+      "time": "18:00 UTC",
+      "text": "Iran declares Strait of Hormuz fully open to commercial vessels, sending oil prices sharply lower.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:30 UTC",
+      "text": "Trump optimistic Iran deal expected within days as US-Iranian negotiators prepare weekend meeting.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:45 UTC",
+      "text": "Israel-Lebanon 10-day ceasefire holding as displaced families begin returning home.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:20 UTC",
+      "text": "Ukraine police shoot dead Moscow gunman who killed six in Kyiv hostage situation.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:10 UTC",
+      "text": "IAEA chief warns North Korea showing serious increase in nuclear weapons production capability.",
+      "source_tier": "verified"
+    },
     {
       "time": "12:33 UTC",
       "text": "Iran closes Strait of Hormuz again with gunboats firing on tankers over US blockade",
@@ -235,5 +315,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-18T12:33:53Z"
+  "last_updated": "2026-04-18T18:30:12Z"
 }
