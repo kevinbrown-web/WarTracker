@@ -1,19 +1,20 @@
 {
   "escalation": {
     "score": 7.2,
-    "delta": "N/A - first assessment",
+    "delta": "+0.3 from yesterday",
     "level": "Elevated",
-    "rationale": "US-Iran blockade standoff continues with Iran threatening Strait of Hormuz closure, IDF strikes in Lebanon during ceasefire, and Russia drawing Belarus into Ukraine conflict."
+    "rationale": "Iran re-closes Strait of Hormuz amid US blockade tensions while French UNIFIL peacekeeper killed in Lebanon attack."
   },
   "ticker_items": [
-    "Iran warns Strait of Hormuz stays shut unless US lifts port blockade",
-    "IDF drone strike kills one in south Lebanon during truce",
-    "Zelensky warns Russia may draw Belarus into Ukraine war",
-    "Trump threatens Iran bombing resumption if no deal by Wednesday"
+    "Iran re-closes Strait of Hormuz, cites US 'piracy'",
+    "French UNIFIL soldier killed in Lebanon attack",
+    "Israel establishes 'yellow line' in southern Lebanon",
+    "US-Iran talks resume amid fragile ceasefire tensions",
+    "Ukrainian counter-drone firms eye Iran conflict market"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Belarus potentially being drawn into the Ukraine conflict according to Zelensky's warnings."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -62,6 +63,28 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli forces struck militants in southern Lebanon citing ceasefire violations.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "International Waters",
+        "target_location": "Strait of Hormuz",
+        "description": "Revolutionary Guard gunboats opened fire on tanker and projectile hit container vessel.",
+        "method": "Naval/Surface",
+        "lat": 26.57,
+        "lng": 56.25,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -78,6 +101,20 @@
         "incident": "Lebanon drone strike",
         "kia": "1",
         "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "UNIFIL attack Lebanon",
+        "kia": "1",
+        "wia": "3",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes Lebanon medics",
+        "kia": "4",
+        "wia": "6",
         "civilian": true,
         "source_tier": "unverified"
       }
@@ -117,6 +154,12 @@
         "speaker": "Volodymyr Zelensky",
         "title": "President of Ukraine",
         "date": "2026-04-18"
+      },
+      {
+        "text": "Ukraine has written off the United States",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President",
+        "date": "2026-04-18"
       }
     ],
     "middle_east": [
@@ -142,6 +185,18 @@
         "text": "Control of the Strait of Hormuz will be strictly controlled by Tehran, passage allowed only through designated routes under Iranian approval",
         "speaker": "Iran Joint Military Command",
         "title": "Military Officials",
+        "date": "2026-04-18"
+      },
+      {
+        "text": "Iran will not hand over its enriched uranium to the U.S.",
+        "speaker": "Saeed Khatibzadeh",
+        "title": "Deputy Foreign Minister",
+        "date": "2026-04-18"
+      },
+      {
+        "text": "Maritime movement through the Strait of Hormuz will be strictly controlled by Tehran",
+        "speaker": "Iranian Official",
+        "title": "Government Representative",
         "date": "2026-04-18"
       }
     ]
@@ -174,11 +229,31 @@
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "$88",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Brent crude fell from above $98 to $88 after Iran announced Strait of Hormuz 'open' during ceasefire before reimposing restrictions."
+    "notes": "Strait of Hormuz closure threatens global oil supply with US blockade halting 90% of Iran's sea trade."
   },
   "update_log": [
+    {
+      "time": "18:00 UTC",
+      "text": "Iran re-closes Strait of Hormuz citing US piracy and blockade violations",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:30 UTC",
+      "text": "French UNIFIL peacekeeper killed in southern Lebanon attack attributed to Hezbollah",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Israel establishes yellow line in southern Lebanon indicating long-term military presence",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Ukrainian drone companies express interest in Iran conflict market opportunities",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:00 UTC",
       "text": "Iran warns Strait of Hormuz will remain closed unless US lifts port blockade",
@@ -225,5 +300,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-19T12:33:22Z"
+  "last_updated": "2026-04-19T18:30:52Z"
 }
