@@ -1,20 +1,19 @@
 {
   "escalation": {
-    "score": 6.8,
-    "delta": "+0.3 from yesterday",
+    "score": 7.2,
+    "delta": "N/A - first assessment",
     "level": "Elevated",
-    "rationale": "Iran threatens to re-close Strait of Hormuz while US expands global naval blockade; IDF strikes south Lebanon on first day of ceasefire."
+    "rationale": "US-Iran blockade standoff continues with Iran threatening Strait of Hormuz closure, IDF strikes in Lebanon during ceasefire, and Russia drawing Belarus into Ukraine conflict."
   },
   "ticker_items": [
-    "Iran reopens Strait of Hormuz but threatens closure if US blockade continues",
-    "IDF drone strike kills one in south Lebanon during first day of truce",
-    "US expands Iranian blockade to global pursuit of Iran-linked vessels",
-    "Ukraine drone attack sparks fire at Russian Baltic port Vysotsk",
-    "Trump threatens to resume Iran bombing if no deal by Wednesday"
+    "Iran warns Strait of Hormuz stays shut unless US lifts port blockade",
+    "IDF drone strike kills one in south Lebanon during truce",
+    "Zelensky warns Russia may draw Belarus into Ukraine war",
+    "Trump threatens Iran bombing resumption if no deal by Wednesday"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Belarus potentially being drawn into the Ukraine conflict according to Zelensky's warnings."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -52,6 +51,17 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "South Lebanon",
+        "description": "IDF drone strike kills one person on first day of ceasefire",
+        "method": "Air/Drone",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -59,6 +69,13 @@
     "today": [
       {
         "incident": "IDF drone strike Lebanon",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Lebanon drone strike",
         "kia": "1",
         "wia": "Unknown",
         "civilian": true,
@@ -71,12 +88,37 @@
         "figure": "2,076 in Iran, 26 in Israel, 13 US soldiers, 28 in Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "April 15, 2026"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "2,076",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-15"
+      },
+      {
+        "claim": "Israeli deaths in Iran conflict",
+        "figure": "26",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-15"
+      },
+      {
+        "claim": "US military deaths in Iran conflict",
+        "figure": "13",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-15"
       }
     ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Russia may draw Belarus into Ukraine war",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President of Ukraine",
+        "date": "2026-04-18"
+      }
+    ],
     "middle_east": [
       {
         "text": "Iran says it fully reopened the Strait of Hormuz to commercial vessels but maritime movement will be strictly controlled by Tehran, with passage allowed only through designated routes and under Iranian approval.",
@@ -95,6 +137,12 @@
         "speaker": "Pete Hegseth",
         "title": "US Secretary of War",
         "date": "April 16, 2026"
+      },
+      {
+        "text": "Control of the Strait of Hormuz will be strictly controlled by Tehran, passage allowed only through designated routes under Iranian approval",
+        "speaker": "Iran Joint Military Command",
+        "title": "Military Officials",
+        "date": "2026-04-18"
       }
     ]
   },
@@ -116,15 +164,46 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Mediator + arms supplier",
       "description": "Actively mediating US-Iran negotiations after initial Islamabad talks failed. Set to host resumed talks between Washington and Tehran in coming days. Playing crucial role in preventing conflict escalation."
+    },
+    {
+      "country": "Belarus",
+      "flag": "\ud83c\udde7\ud83c\uddfe",
+      "status": "Potentially Active materiel + troops",
+      "description": "Ukraine's Zelensky warns that Russia may draw Belarus into the Ukraine war, potentially expanding the conflict. This represents a significant escalation risk for the eastern European theater."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated due to Hormuz tensions",
+    "brent_crude": "$88",
     "wheat_futures": "Unchanged",
-    "notes": "Rystad Energy projects $58 billion in Middle East infrastructure repair costs from US-Israel Iran conflict."
+    "notes": "Brent crude fell from above $98 to $88 after Iran announced Strait of Hormuz 'open' during ceasefire before reimposing restrictions."
   },
   "update_log": [
+    {
+      "time": "12:00 UTC",
+      "text": "Iran warns Strait of Hormuz will remain closed unless US lifts port blockade",
+      "source_tier": "verified"
+    },
+    {
+      "time": "11:30 UTC",
+      "text": "IDF drone strike kills one in south Lebanon during first day of ceasefire",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:45 UTC",
+      "text": "Trump threatens to resume bombing Iran if no deal reached by Wednesday",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:15 UTC",
+      "text": "Zelensky warns Russia may draw Belarus into Ukraine conflict",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:30 UTC",
+      "text": "US blockade reportedly halting 90% of Iran's sea trade according to CENTCOM",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:00 UTC",
       "text": "Iran threatens to re-close Strait of Hormuz if US maintains port blockade despite ceasefire",
@@ -146,5 +225,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-19T07:04:27Z"
+  "last_updated": "2026-04-19T12:33:22Z"
 }
