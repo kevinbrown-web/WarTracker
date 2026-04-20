@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 7.5,
-    "delta": "No previous data",
+    "delta": "+1.2 from yesterday",
     "level": "Elevated",
-    "rationale": "Active US-Iran war on day 51 with Strait of Hormuz closures, US naval blockade, French UNIFIL peacekeeper killed, and ceasefire deadlines approaching."
+    "rationale": "US-Iran ceasefire expires Tuesday amid blockade tensions, while Israel expands Lebanon occupation zone and Ukraine-Russia exchanges intensify."
   },
   "ticker_items": [
-    "Iran keeps Strait of Hormuz closed as US-Iran ceasefire talks stall",
-    "French UNIFIL peacekeeper killed by Hezbollah fire in Lebanon",
-    "US blockade halts 90% of Iran's sea trade according to CENTCOM",
-    "Russia launches spring offensive with 400 drone barrage on Ukraine",
-    "India-Russia pact allows 3,000 troops stationed in each territory"
+    "US-Iran ceasefire expires Tuesday, Trump threatens new strikes",
+    "Israeli 'Yellow Line' occupation zone established in south Lebanon",
+    "Ukrainian drone factory strike kills 2 in Russia",
+    "North Korea fires multiple ballistic missiles into sea",
+    "Houthis threaten Bab al-Mandeb Strait closure"
   ],
   "new_entrant": {
     "active": false,
@@ -39,6 +39,39 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Chernihiv",
+        "description": "Russian drone strike killed 16-year-old and at least one other person in northern Ukraine.",
+        "method": "Air/Drone",
+        "lat": 51.5,
+        "lng": 31.3,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Southwestern Russia",
+        "description": "Ukrainian military struck Russian drone manufacturing facility.",
+        "method": "Air/Precision Strike",
+        "lat": 50.0,
+        "lng": 40.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Tuapse",
+        "description": "Ukrainian drone attack targeted Russia's Black Sea port of Tuapse with black smoke plumes observed.",
+        "method": "Air/Drone",
+        "lat": 44.1,
+        "lng": 39.1,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -62,6 +95,17 @@
         "method": "Ground/Armored",
         "lat": 33.27,
         "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "North Korea",
+        "target_country": "Sea of Japan",
+        "target_location": "East Sea",
+        "description": "North Korea test-fired multiple short-range ballistic missiles into sea.",
+        "method": "Ballistic Missile",
+        "lat": 38.0,
+        "lng": 130.0,
         "source_tier": "unverified"
       }
     ]
@@ -95,6 +139,13 @@
         "wia": "3",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Chernihiv drone strike",
+        "kia": "2+",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -127,6 +178,12 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "President",
         "date": "2026-04-19"
+      },
+      {
+        "text": "Ukraine's President Volodymyr Zelensky has condemned a US decision to extend the period during which Russia is allowed to sell oil despite Western sanctions.",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President",
+        "date": "2026-04-19"
       }
     ],
     "middle_east": [
@@ -140,6 +197,12 @@
         "text": "Iran does not seek to expand war as the continuation of conflicts will not be beneficial to any country",
         "speaker": "Masoud Pezeshkian",
         "title": "Iranian President",
+        "date": "2026-04-19"
+      },
+      {
+        "text": "The US would destroy every bridge and power plant in Iran if Tehran does not accept a peace proposal.",
+        "speaker": "Donald Trump",
+        "title": "US President",
         "date": "2026-04-19"
       }
     ]
@@ -172,11 +235,36 @@
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated due to Hormuz closure",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Energy markets facing crisis as Strait of Hormuz remains closed with US naval blockade halting 90% of Iran's sea trade."
+    "notes": "Vladimir Putin positioned to capitalize financially and diplomatically from global food crisis amid ongoing conflicts."
   },
   "update_log": [
+    {
+      "time": "18:48 UTC",
+      "text": "US-Iran ceasefire expires Tuesday as Trump threatens new strikes over Strait of Hormuz incidents.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Ukrainian drone strike hits Russian port of Tuapse with black smoke plumes observed.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:45 UTC",
+      "text": "North Korea fires multiple short-range ballistic missiles into sea amid regional tensions.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "Israeli 'Yellow Line' occupation zone in south Lebanon raises ceasefire violation concerns.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "15:15 UTC",
+      "text": "Russian drone strike on Chernihiv kills 16-year-old and at least one other civilian.",
+      "source_tier": "unverified"
+    },
     {
       "time": "13:00 UTC",
       "text": "Iran keeps Strait of Hormuz closed as negotiations with US remain 'far off'",
@@ -218,5 +306,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-20T13:00:54Z"
+  "last_updated": "2026-04-20T18:48:14Z"
 }
