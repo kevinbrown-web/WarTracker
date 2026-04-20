@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 7.5,
-    "delta": "+0.3 from yesterday",
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "US-Iran ceasefire deadline approaches Wednesday with Strait of Hormuz remaining closed and negotiations stalled."
+    "rationale": "Active US-Iran war on day 51 with Strait of Hormuz closures, US naval blockade, French UNIFIL peacekeeper killed, and ceasefire deadlines approaching."
   },
   "ticker_items": [
-    "Iran says final peace deal 'far off' as Hormuz Strait stays shut",
-    "US blockade halting 90% of Iran's sea trade according to CENTCOM",
-    "North Korea fires multiple ballistic missiles into eastern waters",
-    "Kiev supermarket shooter kills six in antisemitic attack",
-    "Iran retains 70% of pre-war missile stocks per US intelligence"
+    "Iran keeps Strait of Hormuz closed as US-Iran ceasefire talks stall",
+    "French UNIFIL peacekeeper killed by Hezbollah fire in Lebanon",
+    "US blockade halts 90% of Iran's sea trade according to CENTCOM",
+    "Russia launches spring offensive with 400 drone barrage on Ukraine",
+    "India-Russia pact allows 3,000 troops stationed in each territory"
   ],
   "new_entrant": {
     "active": false,
@@ -28,6 +28,17 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russian strikes killed at least two people in Ukraine while Ukraine struck a Russian drone factory.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -38,6 +49,17 @@
         "target_location": "Southern Lebanon",
         "description": "Israeli strikes on ambulances killed four paramedics and wounded six others",
         "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "French UNIFIL peacekeeper killed and three wounded by small-arms fire during ordnance clearing.",
+        "method": "Ground/Armored",
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
@@ -59,6 +81,20 @@
         "wia": "6",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Ukraine strikes",
+        "kia": "2",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "UNIFIL attack",
+        "kia": "1",
+        "wia": "3",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -67,6 +103,12 @@
         "figure": "2,076 Iranian, 26 Israeli, 13 US, 28 Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "April 15, 2026"
+      },
+      {
+        "claim": "US-Israel war on Iran casualties",
+        "figure": "2,076 Iranian, 26 Israeli, 13 US soldiers, 28 Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 2026"
       }
     ]
   },
@@ -79,12 +121,25 @@
         "date": "2026-04-18"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Every dollar paid for Russian oil is money for the war",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President",
+        "date": "2026-04-19"
+      }
+    ],
     "middle_east": [
       {
         "text": "War could resume at any moment",
         "speaker": "Iranian negotiator",
         "title": "Unnamed negotiator",
+        "date": "2026-04-19"
+      },
+      {
+        "text": "Iran does not seek to expand war as the continuation of conflicts will not be beneficial to any country",
+        "speaker": "Masoud Pezeshkian",
+        "title": "Iranian President",
         "date": "2026-04-19"
       }
     ]
@@ -107,15 +162,41 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Active materiel + troops",
       "description": "North Korea launched multiple ballistic missiles into eastern waters, continuing recent flurry of launches. IAEA chief warns of rapid increase in operations at North Korea's Yongbyon reactor boosting nuclear arms manufacturing capability."
+    },
+    {
+      "country": "India",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "India signed reciprocal logistics agreement with Russia allowing up to 3,000 troops, naval ships, and aircraft to be stationed in each other's territories. The pact became effective January 12, 2025 and aims to bolster long-term military cooperation."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Elevated due to Hormuz closure",
     "wheat_futures": "Unchanged",
-    "notes": "Putin admits Russian GDP shrank combined 1.8% in January-February with negative manufacturing and industrial production."
+    "notes": "Energy markets facing crisis as Strait of Hormuz remains closed with US naval blockade halting 90% of Iran's sea trade."
   },
   "update_log": [
+    {
+      "time": "13:00 UTC",
+      "text": "Iran keeps Strait of Hormuz closed as negotiations with US remain 'far off'",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "French UNIFIL peacekeeper killed by Hezbollah small-arms fire in southern Lebanon",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:45 UTC",
+      "text": "Russian strikes kill at least 2 in Ukraine as spring offensive continues",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:15 UTC",
+      "text": "North Korea test-fires multiple short-range ballistic missiles into sea",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:47 UTC",
       "text": "Iran parliament speaker signals final peace deal remains far off despite some negotiation movement",
@@ -137,5 +218,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-20T07:47:35Z"
+  "last_updated": "2026-04-20T13:00:54Z"
 }
