@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.8,
-    "delta": "+0.3 from yesterday",
-    "level": "Elevated",
-    "rationale": "US naval blockade halts 90% of Iran's sea trade while Trump threatens infrastructure strikes and Iran considers closing strategic straits."
+    "score": 8,
+    "delta": "No previous data",
+    "level": "High",
+    "rationale": "Trump threatens to destroy Iranian infrastructure while implementing naval blockade that halts 90% of Iran's sea trade, with ceasefire talks stalling."
   },
   "ticker_items": [
-    "US blockade halts 90% of Iran sea trade - CENTCOM",
-    "Trump threatens to destroy Iranian bridges, power plants",
-    "Iran considers closing Bab al-Mandeb Strait amid US pressure",
-    "Pakistan ready for US-Iran talks but Tehran uncommitted",
-    "IDF levels homes in Lebanon despite truce"
+    "Trump threatens Iranian bridges, power plants amid blockade tensions",
+    "US seizes Iranian cargo ship near Strait of Hormuz",
+    "Ukraine strikes Russian oil terminal for second time in four days",
+    "Israel soldier condemned for striking Jesus statue in Lebanon",
+    "Russia-Ukraine ceasefire deadline approaches April 30th"
   ],
   "new_entrant": {
     "active": false,
@@ -39,6 +39,17 @@
         "lat": 46.3,
         "lng": 40.1,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Tuapse Black Sea oil port",
+        "description": "Ukrainian drones hit the Tuapse Black Sea oil port causing fire and at least one death.",
+        "method": "Air/Drone",
+        "lat": 44.1,
+        "lng": 39.08,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -63,6 +74,17 @@
         "lat": 33.2,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Near Strait of Hormuz",
+        "description": "US Marines seized Iranian-flagged cargo ship near Hormuz Strait.",
+        "method": "Naval/USV",
+        "lat": 26.57,
+        "lng": 56.25,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -81,6 +103,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Tuapse oil port strike",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -95,6 +124,24 @@
         "figure": "2,076 Iranian, 26 Israeli, 13 US soldiers, 28 Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-15"
+      },
+      {
+        "claim": "Iran conflict deaths",
+        "figure": "3,375",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 21, 2026"
+      },
+      {
+        "claim": "Lebanon conflict deaths",
+        "figure": "2,294",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 21, 2026"
+      },
+      {
+        "claim": "Gulf states deaths",
+        "figure": "28",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 21, 2026"
       }
     ]
   },
@@ -120,6 +167,18 @@
         "speaker": "Iranian official",
         "title": "Senior Iranian official",
         "date": "2026-04-20"
+      },
+      {
+        "text": "When complex nuclear negotiations are treated like a real estate transaction, the outcome is bombing the negotiation table out of spite.",
+        "speaker": "Abbas Araghchi",
+        "title": "Iranian Foreign Minister",
+        "date": "March 2026"
+      },
+      {
+        "text": "I had the greatest year, the greatest opening year. I ended 8 wars. The greatest economy ever.",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "April 20, 2026"
       }
     ]
   },
@@ -141,15 +200,41 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Active materiel + troops",
       "description": "North Korea fired multiple short-range ballistic missiles in latest testing activity. Analysis shows North Korean missiles used in Ukraine were made with outdated methods from up to 50 years ago."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Supplying dual-use goods",
+      "description": "Germany condemns Russia's publication of arms manufacturers list, calling direct threats unacceptable. Continues support for Ukraine defense production integration with NATO standards."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Iran's ceramic industry in Gujarat's Morbi faces job losses and unit closures due to fuel crisis from ongoing conflict."
+    "notes": "Oil price spike analysis focuses on cash flow distribution as Iran blockade impacts global energy markets."
   },
   "update_log": [
+    {
+      "time": "12:55 UTC",
+      "text": "Trump threatens to destroy every Iranian bridge and power plant if peace deal rejected",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "US Marines seize Iranian cargo ship near Strait of Hormuz according to Trump",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:45 UTC",
+      "text": "Ukrainian drones strike Tuapse oil port for second time in four days",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Israel condemns soldier for damaging Jesus statue in Lebanese village",
+      "source_tier": "unverified"
+    },
     {
       "time": "06:00 UTC",
       "text": "Iran confirms not planning to attend US talks in Pakistan as ceasefire deadline approaches",
@@ -176,5 +261,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-21T07:19:16Z"
+  "last_updated": "2026-04-21T12:55:40Z"
 }
