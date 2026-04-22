@@ -1,24 +1,48 @@
 {
   "escalation": {
-    "score": 7.8,
-    "delta": "+0.3 from yesterday",
-    "level": "High",
-    "rationale": "US-Iran ceasefire extended but both sides warn readiness for war as peace talks remain uncertain in Pakistan."
+    "score": 7.5,
+    "delta": "N/A - first assessment",
+    "level": "Elevated",
+    "rationale": "US-Iran ceasefire deadline approaches Wednesday with stalled talks, continued blockade, and regional threats of renewed fighting."
   },
   "ticker_items": [
-    "Trump extends US-Iran ceasefire as peace talks stall in Pakistan",
-    "Both US and Iran warn readiness to resume war operations",
-    "Bulgaria elects pro-Russian ex-president Radev in landslide victory",
-    "Japan approves lifting ban on lethal weapons exports",
-    "French UNIFIL soldier killed in Lebanon ambush"
+    "US-Iran ceasefire expires Wednesday with talks stalled",
+    "Trump extends truce unilaterally amid Iranian leadership divisions",
+    "Naval blockade continues halting 90% of Iran's sea trade",
+    "Houthis threaten return to war if aggression resumes",
+    "Russia launches overnight strikes across Ukraine injuring 25"
   ],
   "new_entrant": {
     "active": false,
     "text": ""
   },
   "strikes_today": {
-    "eastern_europe": [],
-    "middle_east": []
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple regions",
+        "description": "Russian strikes across four regions wounded over 25 people overnight",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      }
+    ],
+    "middle_east": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli forces destroying villages in occupied buffer zone areas",
+        "method": "Ground/Armored",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      }
+    ]
   },
   "casualties": {
     "today": [
@@ -27,6 +51,13 @@
         "kia": "1",
         "wia": "Unknown",
         "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian strikes on Ukraine",
+        "kia": "Unknown",
+        "wia": "25+",
+        "civilian": true,
         "source_tier": "unverified"
       }
     ],
@@ -42,17 +73,60 @@
         "figure": "3,375 in Iran, 2,294 in Lebanon, 28 in Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-21"
+      },
+      {
+        "claim": "Total deaths from US-Israel attacks on Iran",
+        "figure": "3,375",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-04-21"
+      },
+      {
+        "claim": "Total deaths in Lebanon from conflict",
+        "figure": "2,294",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-04-21"
+      },
+      {
+        "claim": "Total deaths in Gulf states",
+        "figure": "28",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-04-21"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Russian envoy Aleksey Dedov has accused the US and Israel of committing war crimes in Iran following strikes on medical and civilian infrastructure in Tehran",
+        "speaker": "Aleksey Dedov",
+        "title": "Russian envoy",
+        "date": "2026-04-21"
+      }
+    ],
     "ukraine": [],
     "middle_east": [
       {
         "text": "The United States and Iran both warn they are ready for war as a ceasefire deadline approaches",
         "speaker": "Unknown",
         "title": "Official statement",
+        "date": "2026-04-21"
+      },
+      {
+        "text": "Naim Qassem will destroy Lebanon and pay with his head",
+        "speaker": "Israel Katz",
+        "title": "Defense Minister",
+        "date": "2026-04-21"
+      },
+      {
+        "text": "The Yemeni armed forces will return to fighting if a fragile ceasefire that halted 40 days of American-Israeli aggression against Iran expires without an agreement",
+        "speaker": "Abdul-Malik al-Houthi",
+        "title": "Ansarullah leader",
+        "date": "2026-04-21"
+      },
+      {
+        "text": "This is indeed the biggest crisis in history",
+        "speaker": "Fatih Birol",
+        "title": "IEA Director-General",
         "date": "2026-04-21"
       }
     ]
@@ -75,15 +149,47 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Mediator + arms supplier",
       "description": "Serving as mediator for US-Iran peace talks in Islamabad as ceasefire deadline approaches. White House reports VP JD Vance ready to fly back to Islamabad while Iran has not confirmed participation. Pakistan brokered the original ceasefire that took effect earlier."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Active materiel + troops",
+      "description": "Russia's interior minister visits Pyongyang to discuss law enforcement ties. New road bridge connecting countries set to open this summer, strengthening bilateral cooperation amid sanctions."
+    },
+    {
+      "country": "Norway",
+      "flag": "\ud83c\uddf3\ud83c\uddf4",
+      "status": "Monitoring",
+      "description": "Norwegian minister states NATO's interest in Iran conflict is 'very limited,' suggesting alliance preference for diplomatic solutions over military involvement."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Elevated",
     "wheat_futures": "Unchanged",
-    "notes": "Markets showing disconnect from Middle East war reality according to Washington Post analysis."
+    "notes": "IEA warns US-Israeli war on Iran causing biggest energy crisis in history with widespread rationing expected."
   },
   "update_log": [
+    {
+      "time": "12:55 UTC",
+      "text": "Trump extends US-Iran ceasefire unilaterally as Wednesday deadline looms with talks stalled",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Russian strikes across Ukraine wound 25+ people in four regions overnight",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:30 UTC",
+      "text": "Houthis threaten return to war if US-Israel aggression against Iran resumes",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:45 UTC",
+      "text": "IEA chief warns Iran war causing biggest energy crisis in history",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:17 UTC",
       "text": "Trump extends US-Iran ceasefire until Iran presents proposal and talks conclude",
@@ -105,5 +211,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-22T07:17:36Z"
+  "last_updated": "2026-04-22T12:55:49Z"
 }
