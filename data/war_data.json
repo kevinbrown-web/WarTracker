@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "N/A - first assessment",
+    "score": 7,
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "US-Iran ceasefire deadline approaches Wednesday with stalled talks, continued blockade, and regional threats of renewed fighting."
+    "rationale": "Active US-Iran war continues with fragile ceasefire ending, Trump threatens military action, oil spikes, and NATO cohesion weakening."
   },
   "ticker_items": [
-    "US-Iran ceasefire expires Wednesday with talks stalled",
-    "Trump extends truce unilaterally amid Iranian leadership divisions",
-    "Naval blockade continues halting 90% of Iran's sea trade",
-    "Houthis threaten return to war if aggression resumes",
-    "Russia launches overnight strikes across Ukraine injuring 25"
+    "Trump says won't extend Iran ceasefire, oil jumps 3%",
+    "Japan lifts lethal weapons export ban amid regional threats",
+    "US pauses arms deliveries to Europe due to Iran war",
+    "Iran warns of 'new cards' as ceasefire talks stall",
+    "NATO interest in Iran conflict 'very limited' - Norway"
   ],
   "new_entrant": {
     "active": false,
@@ -28,6 +28,17 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple regions",
+        "description": "Russian overnight strikes across four Ukrainian regions wounded 25 people.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -40,6 +51,17 @@
         "method": "Ground/Armored",
         "lat": 33.27,
         "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "At-Tiri",
+        "description": "Israeli strikes killed at least four people in Lebanon and wounded journalists.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
         "source_tier": "unverified"
       }
     ]
@@ -57,6 +79,13 @@
         "incident": "Russian strikes on Ukraine",
         "kia": "Unknown",
         "wia": "25+",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes on Lebanon",
+        "kia": "4+",
+        "wia": "Multiple journalists",
         "civilian": true,
         "source_tier": "unverified"
       }
@@ -90,6 +119,18 @@
         "claim": "Total deaths in Gulf states",
         "figure": "28",
         "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-04-21"
+      },
+      {
+        "claim": "US-Israel war casualties in Iran",
+        "figure": "3,375",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-21"
+      },
+      {
+        "claim": "US-Israel war casualties in Lebanon",
+        "figure": "2,294",
+        "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-21"
       }
     ]
@@ -128,6 +169,12 @@
         "speaker": "Fatih Birol",
         "title": "IEA Director-General",
         "date": "2026-04-21"
+      },
+      {
+        "text": "no single country can now protect its own peace and security alone",
+        "speaker": "Sanae Takaichi",
+        "title": "Japanese Prime Minister",
+        "date": "2026-04-21"
       }
     ]
   },
@@ -161,15 +208,46 @@
       "flag": "\ud83c\uddf3\ud83c\uddf4",
       "status": "Monitoring",
       "description": "Norwegian minister states NATO's interest in Iran conflict is 'very limited,' suggesting alliance preference for diplomatic solutions over military involvement."
+    },
+    {
+      "country": "Estonia",
+      "flag": "\ud83c\uddea\ud83c\uddea",
+      "status": "Monitoring",
+      "description": "US paused HIMARS deliveries to Estonia due to Iran war demands on weapons stocks. This highlights NATO vulnerability and growing tensions within the alliance over resource allocation."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated",
+    "brent_crude": "$97.96",
     "wheat_futures": "Unchanged",
-    "notes": "IEA warns US-Israeli war on Iran causing biggest energy crisis in history with widespread rationing expected."
+    "notes": "Oil prices climbed 3% after Trump said he won't extend Iran ceasefire, with Brent rising to $97.96 and WTI to $93.15."
   },
   "update_log": [
+    {
+      "time": "18:00 UTC",
+      "text": "Trump approval rating falls to 32%, matching Carter-era lows amid Iran war confusion.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Oil prices surge 3% as Trump signals no ceasefire extension with Iran.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Japan announces end to lethal weapons export ban in major policy shift.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Israeli strikes in Lebanon kill four, wound journalists in at-Tiri.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "US pauses HIMARS deliveries to Estonia due to Iran war weapons demands.",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:55 UTC",
       "text": "Trump extends US-Iran ceasefire unilaterally as Wednesday deadline looms with talks stalled",
@@ -211,5 +289,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-22T12:55:49Z"
+  "last_updated": "2026-04-22T18:55:28Z"
 }
