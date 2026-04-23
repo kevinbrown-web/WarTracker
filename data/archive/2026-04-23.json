@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.3,
-    "delta": "+0.3 from yesterday",
+    "score": 6.5,
+    "delta": "No previous baseline",
     "level": "Elevated",
-    "rationale": "Trump extends Iran ceasefire but maintains naval blockade while Iran's uranium stockpile reaches weapons-grade levels and US military seeks massive 2027 spending increases for Iran war operations."
+    "rationale": "Iran seized two ships in Hormuz Strait while Trump extended ceasefire but maintained naval blockade, keeping tensions high despite diplomatic efforts."
   },
   "ticker_items": [
-    "Trump extends Iran ceasefire indefinitely, keeps US naval blockade active",
-    "Iran uranium stockpile could fuel 10-11 nuclear weapons - UN inspectors",
-    "US military seeks tens of billions for 2027 Iran war spending",
-    "Russia-North Korea open first road bridge connection",
-    "Protesters stabbed at London anti-Iran war rally"
+    "Iran seizes two container ships in Strait of Hormuz",
+    "Trump extends Iran ceasefire but keeps US blockade active",
+    "EU approves $106B loan package for Ukraine",
+    "Russia launches spring offensive with 400 drone strikes",
+    "US-Iran peace talks in Pakistan remain uncertain"
   ],
   "new_entrant": {
     "active": false,
@@ -39,6 +39,17 @@
         "lat": 55.75,
         "lng": 37.62,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia continues spring offensive with drone and missile strikes on civilian areas.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -52,6 +63,17 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "International Waters",
+        "target_location": "Strait of Hormuz",
+        "description": "Iranian forces seized two container ships and fired on a third vessel in crucial trade route.",
+        "method": "Naval/Surface",
+        "lat": 26.57,
+        "lng": 56.25,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -89,6 +111,24 @@
         "claim": "Gulf states deaths from Iran war",
         "figure": "28",
         "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-04-21"
+      },
+      {
+        "claim": "US-Israel war on Iran deaths",
+        "figure": "3,375",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-21"
+      },
+      {
+        "claim": "Lebanon deaths in conflict",
+        "figure": "2,294",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-21"
+      },
+      {
+        "claim": "Gulf states deaths",
+        "figure": "28",
+        "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-21"
       }
     ]
@@ -136,15 +176,47 @@
       "flag": "\ud83c\udde9\ud83c\uddea",
       "status": "Strategic balancer",
       "description": "Germany called for only symbolic EU benefits for Ukraine excluding farming subsidies and voting rights. German reservist chief suggests raising military service age limit to 70 as people stay fit longer."
+    },
+    {
+      "country": "European Union",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "EU ambassadors approved a 90 billion euro loan package for Ukraine after Hungary lifted its veto following Orban's defeat. The bloc also approved new sanctions against Russia and continues military support despite US focus shifting to Iran conflict."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Supplying dual-use goods",
+      "description": "China denied reports that Iran used Chinese-built satellites to target US bases during Operation Epic Fury. US lawmakers accused China of increasing aggression in Indo-Pacific while South Korea faces congressional criticism for allegedly favoring Chinese businesses."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Elevated due to Hormuz tensions",
     "wheat_futures": "Unchanged",
-    "notes": "Europe grapples with rising fuel costs due to ongoing Iran conflict affecting regional economic stability."
+    "notes": "Oil markets remain volatile due to Iranian ship seizures in Strait of Hormuz threatening crucial energy trade route."
   },
   "update_log": [
+    {
+      "time": "12:55 UTC",
+      "text": "Iran seizes two container ships and fires on third vessel in Strait of Hormuz",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "Trump extends Iran ceasefire at Pakistan's request but maintains naval blockade",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:45 UTC",
+      "text": "EU approves 90 billion euro loan package for Ukraine after Hungary lifts veto",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:20 UTC",
+      "text": "Russia continues spring offensive with intensified attacks on Ukrainian positions",
+      "source_tier": "verified"
+    },
     {
       "time": "07:19 UTC",
       "text": "Trump extends Iran ceasefire indefinitely while maintaining US naval blockade of Iranian ports",
@@ -166,5 +238,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-04-23T07:19:17Z"
+  "last_updated": "2026-04-23T12:55:44Z"
 }
