@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 6.5,
-    "delta": "No previous baseline",
+    "score": 7.5,
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "Iran seized two ships in Hormuz Strait while Trump extended ceasefire but maintained naval blockade, keeping tensions high despite diplomatic efforts."
+    "rationale": "US-Iran conflict continues with extended ceasefire but maintained naval blockade, Strait of Hormuz remains mined, and multiple active conflicts across regions."
   },
   "ticker_items": [
-    "Iran seizes two container ships in Strait of Hormuz",
-    "Trump extends Iran ceasefire but keeps US blockade active",
-    "EU approves $106B loan package for Ukraine",
-    "Russia launches spring offensive with 400 drone strikes",
-    "US-Iran peace talks in Pakistan remain uncertain"
+    "Trump extends Iran ceasefire at Pakistan's request but maintains blockade",
+    "Pentagon: Strait of Hormuz clearance could take six months",
+    "Russia takes ~1,700 sq km Ukrainian territory this year",
+    "Iran casualty toll reaches 3,375 dead, Lebanon 2,294 dead",
+    "Germany considers raising military conscription age to 70"
   ],
   "new_entrant": {
     "active": false,
@@ -130,6 +130,24 @@
         "figure": "28",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-21"
+      },
+      {
+        "claim": "Iranian military and civilian deaths",
+        "figure": "3,375",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-04-21"
+      },
+      {
+        "claim": "Lebanese deaths",
+        "figure": "2,294",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-04-21"
+      },
+      {
+        "claim": "Gulf states deaths",
+        "figure": "28",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-04-21"
       }
     ]
   },
@@ -152,6 +170,12 @@
       },
       {
         "text": "NATO wasn't there when we needed them, and they won't be there if we need them",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-22"
+      },
+      {
+        "text": "NATO WASN'T THERE WHEN WE NEEDED THEM, AND THEY WON'T BE THERE IF WE NEED THEM",
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-04-22"
@@ -192,11 +216,31 @@
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated due to Hormuz tensions",
+    "brent_crude": "Elevated",
     "wheat_futures": "Unchanged",
-    "notes": "Oil markets remain volatile due to Iranian ship seizures in Strait of Hormuz threatening crucial energy trade route."
+    "notes": "Strait of Hormuz crisis described as greatest threat to global economy, with six-month timeline for clearing Iranian mines impacting oil trade routes."
   },
   "update_log": [
+    {
+      "time": "18:52 UTC",
+      "text": "Trump extends Iran ceasefire at Pakistan's request while maintaining naval blockade",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:30 UTC",
+      "text": "Pentagon assessment reveals six-month timeline needed to clear Strait of Hormuz mines",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:15 UTC",
+      "text": "Al Jazeera reports Iranian leadership debating war and peace after ceasefire extension",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:45 UTC",
+      "text": "Reports indicate Russia has taken approximately 1,700 square kilometers of Ukrainian territory this year",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:55 UTC",
       "text": "Iran seizes two container ships and fires on third vessel in Strait of Hormuz",
@@ -238,5 +282,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-04-23T12:55:44Z"
+  "last_updated": "2026-04-23T18:52:14Z"
 }
