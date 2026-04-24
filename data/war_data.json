@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.8,
-    "delta": "+0.3 from yesterday",
+    "score": 6.5,
+    "delta": "Not available (no previous data)",
     "level": "Elevated",
-    "rationale": "Iran maintains Strait of Hormuz blockade despite extended ceasefire, explosions reported in Tehran, and continued strikes in Gaza and Lebanon."
+    "rationale": "Multiple active conflicts with US-Iran war stalled, Ukraine fighting intensifying, and US arms supplies diverted from allies."
   },
   "ticker_items": [
-    "Iran vows to keep Hormuz closed while US blockade continues",
-    "Explosions in Tehran raise fears of renewed hostilities",
-    "Israel-Lebanon ceasefire extended by three weeks after Washington talks",
-    "Five killed including three children in Israeli Gaza strike",
-    "Ukrainian couple aged 75 killed in Russian attack on Odesa"
+    "Prince Harry makes direct plea to Putin during Ukraine visit",
+    "US suspends arms deliveries to NATO ally Estonia amid Iran war",
+    "Iran seizes ships in Strait of Hormuz, disrupting peace talks",
+    "Lebanon-Israel direct talks resume in Washington Thursday",
+    "Russia-Ukraine ceasefire deadline approaches April 30"
   ],
   "new_entrant": {
     "active": false,
@@ -52,6 +52,17 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Lebanon",
+        "description": "Israeli forces killed Lebanese journalist Amal Khalil in reported double-tap strike.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "verified"
       }
     ]
   },
@@ -77,13 +88,40 @@
         "wia": "",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strike on Lebanese journalist",
+        "kia": "1",
+        "wia": "1",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
-    "claimed_totals": []
+    "claimed_totals": [
+      {
+        "claim": "US-Israel attacks on Iran death toll",
+        "figure": "3,375",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-21"
+      },
+      {
+        "claim": "Lebanon casualties from Iran war",
+        "figure": "2,294",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-21"
+      }
+    ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "No nation benefits from the continued loss of life we are witnessing",
+        "speaker": "Prince Harry",
+        "title": "Duke of Sussex",
+        "date": "2026-04-23"
+      }
+    ],
     "middle_east": [
       {
         "text": "Iran says it wants talks, but blames US breach of commitments, blockade and threats for stalling negotiations",
@@ -95,6 +133,12 @@
         "text": "There is no time frame for ending the U.S. conflict with Iran",
         "speaker": "Donald Trump",
         "title": "U.S. President",
+        "date": "2026-04-23"
+      },
+      {
+        "text": "Iran says it wants talks, but blames US breach of commitments, blockade and threats for stalling negotiations",
+        "speaker": "Iranian officials",
+        "title": "Government representatives",
         "date": "2026-04-23"
       }
     ]
@@ -117,15 +161,47 @@
       "flag": "\ud83c\udde9\ud83c\uddea",
       "status": "Active materiel + troops",
       "description": "German industry transitioning to military production with defense firms having dedicated section at Hanover industrial fair for first time. Germany embarking on massive rearmament drive. German parliament speaker targeted by Russian phishing attack."
+    },
+    {
+      "country": "Estonia",
+      "flag": "\ud83c\uddea\ud83c\uddea",
+      "status": "Affected ally",
+      "description": "US suspended arms deliveries to NATO ally Estonia as Iran war drains American weapons stockpiles. This represents a significant strain on alliance commitments due to competing priorities."
+    },
+    {
+      "country": "India",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "India and Russia agreed to deploy soldiers and warships on each other's soil during peace and wartime in significant new military pact."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Strait of Hormuz blockade continues to pose greatest threat to global economy with indefinite closure of strategic waterway."
+    "notes": "Strait of Hormuz crisis described as greatest threat to global economy in lifetime due to indefinite blockade."
   },
   "update_log": [
+    {
+      "time": "12:54 UTC",
+      "text": "Prince Harry delivers keynote speech at Kyiv Security Forum making direct plea to Putin",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "Israel kills Lebanese journalist Amal Khalil in reported double-tap strike",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Iran continues collecting tolls from Hormuz shipping despite US blockade",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:45 UTC",
+      "text": "Lebanon-Israel talks scheduled to resume Thursday at State Department",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:45 UTC",
       "text": "Israel-Lebanon ceasefire extended by three weeks after Washington talks with Israeli and Lebanese envoys",
@@ -152,5 +228,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-24T07:45:47Z"
+  "last_updated": "2026-04-24T12:54:16Z"
 }
