@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 6.5,
-    "delta": "Not available (no previous data)",
-    "level": "Elevated",
-    "rationale": "Multiple active conflicts with US-Iran war stalled, Ukraine fighting intensifying, and US arms supplies diverted from allies."
+    "score": 8.5,
+    "delta": "N/A - first assessment",
+    "level": "High",
+    "rationale": "Trump orders US Navy to shoot Iranian boats in Strait of Hormuz while extending ceasefire, creating dangerous military confrontation amid ongoing blockade operations."
   },
   "ticker_items": [
-    "Prince Harry makes direct plea to Putin during Ukraine visit",
-    "US suspends arms deliveries to NATO ally Estonia amid Iran war",
-    "Iran seizes ships in Strait of Hormuz, disrupting peace talks",
-    "Lebanon-Israel direct talks resume in Washington Thursday",
-    "Russia-Ukraine ceasefire deadline approaches April 30"
+    "Trump orders US Navy to shoot Iranian mine-laying boats in Strait of Hormuz",
+    "Israel awaits US green light to 'return Iran to Stone Age' - Defense Minister",
+    "Ukraine drone strike kills 12 Russian FSB officers in Donetsk region",
+    "Hezbollah attacks IDF troops amid Israel-Lebanon ceasefire talks",
+    "Russia warns European states hosting French nuclear bombers will be targets"
   ],
   "new_entrant": {
     "active": false,
@@ -27,6 +27,17 @@
         "method": "Air/Drone",
         "lat": 46.48,
         "lng": 30.73,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Donetsk region",
+        "description": "Ukrainian precision drone swarm strike kills 12 Russian FSB officers at building in occupied territory",
+        "method": "Air/Drone",
+        "lat": 48.0,
+        "lng": 37.8,
         "source_tier": "unverified"
       }
     ],
@@ -63,6 +74,28 @@
         "lat": 33.89,
         "lng": 35.5,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Israel",
+        "target_location": "Southern Lebanon border",
+        "description": "Hezbollah attacks IDF troops during ongoing Israel-Lebanon ceasefire negotiations",
+        "method": "Ground/Armored",
+        "lat": 33.1,
+        "lng": 35.4,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli air strike kills Lebanese journalist Amal Khalil during 10-day ceasefire period",
+        "method": "Air/Precision Strike",
+        "lat": 33.3,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -95,6 +128,20 @@
         "wia": "1",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Ukraine FSB drone strike",
+        "kia": "12",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Lebanese journalist killing",
+        "kia": "1",
+        "wia": "0",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -109,16 +156,47 @@
         "figure": "2,294",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-21"
+      },
+      {
+        "claim": "Iranian casualties from US-Israel attacks",
+        "figure": "3,375",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-04-21"
+      },
+      {
+        "claim": "Lebanese casualties from conflict",
+        "figure": "2,294",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-04-21"
+      },
+      {
+        "claim": "Gulf states casualties",
+        "figure": "28",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-04-21"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Any country allowing French nuclear-capable bombers on its soil will be considered a target by Moscow in case of conflict",
+        "speaker": "Russian Official",
+        "title": "Government Representative",
+        "date": "2026-04-23"
+      }
+    ],
     "ukraine": [
       {
         "text": "No nation benefits from the continued loss of life we are witnessing",
         "speaker": "Prince Harry",
         "title": "Duke of Sussex",
+        "date": "2026-04-23"
+      },
+      {
+        "text": "The EU loan's economic leverage could reshape Russia's strategic decisions, potentially altering the geopolitical landscape and future negotiations",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President",
         "date": "2026-04-23"
       }
     ],
@@ -139,6 +217,18 @@
         "text": "Iran says it wants talks, but blames US breach of commitments, blockade and threats for stalling negotiations",
         "speaker": "Iranian officials",
         "title": "Government representatives",
+        "date": "2026-04-23"
+      },
+      {
+        "text": "We are waiting for a green light from the United States - first and foremost to complete the elimination of the Khamenei dynasty and return Iran to the Dark Ages",
+        "speaker": "Israel Katz",
+        "title": "Defense Minister",
+        "date": "2026-04-23"
+      },
+      {
+        "text": "I have ordered the US Navy to shoot and kill any boats possibly planting mines in the Strait of Hormuz",
+        "speaker": "Donald Trump",
+        "title": "US President",
         "date": "2026-04-23"
       }
     ]
@@ -173,15 +263,52 @@
       "flag": "\ud83c\uddee\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "India and Russia agreed to deploy soldiers and warships on each other's soil during peace and wartime in significant new military pact."
+    },
+    {
+      "country": "Slovakia",
+      "flag": "\ud83c\uddf8\ud83c\uddf0",
+      "status": "Supplying dual-use goods",
+      "description": "Israel delivered Barak MX air defense systems to Slovakia in a \u20ac560M NATO deal. The delivery strengthens NATO's eastern defenses amid heightened regional tensions."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Active materiel + troops",
+      "description": "Russia's interior minister visited Pyongyang to discuss law enforcement cooperation. The countries held a ceremony marking completion of their first road bridge connection, strengthening military and economic ties."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
-    "wheat_futures": "Unchanged",
-    "notes": "Strait of Hormuz crisis described as greatest threat to global economy in lifetime due to indefinite blockade."
+    "brent_crude": "Elevated due to Strait of Hormuz tensions",
+    "wheat_futures": "Higher on fertilizer supply concerns",
+    "notes": "Fertilizer prices remain elevated globally due to ongoing conflicts affecting major producers and supply chains."
   },
   "update_log": [
+    {
+      "time": "18:30 UTC",
+      "text": "Trump issues shoot-to-kill order for Iranian boats in Strait of Hormuz amid mine-clearing operations",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:45 UTC",
+      "text": "Israel Defense Minister says awaiting US approval to eliminate Khamenei dynasty and return Iran to Dark Ages",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "Ukraine precision drone strike reportedly kills 12 Russian FSB officers in Donetsk region",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:30 UTC",
+      "text": "Hezbollah attacks IDF troops during Israel-Lebanon ceasefire negotiations",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:15 UTC",
+      "text": "Lebanon accuses Israel of war crime in killing of journalist Amal Khalil during ceasefire",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:54 UTC",
       "text": "Prince Harry delivers keynote speech at Kyiv Security Forum making direct plea to Putin",
@@ -228,5 +355,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-24T12:54:16Z"
+  "last_updated": "2026-04-24T18:34:18Z"
 }
