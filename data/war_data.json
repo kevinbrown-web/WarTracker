@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.2,
-    "delta": "-0.3 from yesterday",
-    "level": "High",
-    "rationale": "Continued US-Iran naval standoff with ship captures, Pentagon considering NATO punishments, and Israeli attacks in Gaza amid extended Lebanon ceasefire."
+    "score": 7.5,
+    "delta": "Unknown",
+    "level": "Elevated",
+    "rationale": "Multiple active conflicts with US-Iran naval blockade, weapons depletion concerns, NATO tensions, and Mali coordinated attacks."
   },
   "ticker_items": [
-    "US Navy ordered to shoot Iranian boats laying mines in Strait of Hormuz",
-    "Pentagon considers suspending Spain from NATO over Iran war support",
-    "Israel-Lebanon ceasefire extended three weeks as talks continue",
-    "International shipping body condemns US-Iran vessel captures as illegal",
-    "Iran's new Supreme Leader reportedly requires prosthetic leg after Israeli strike"
+    "Iran resumes commercial flights from Tehran for first time in two months",
+    "Pentagon considers suspending Spain from NATO over Iran war non-support",
+    "Armed groups launch simultaneous attacks across Mali including Bamako airport",
+    "US weapons stockpiles depleted after two months of Iran conflict",
+    "Gaza holds first elections in 21 years with 70,000 registered voters"
   ],
   "new_entrant": {
     "active": false,
@@ -65,7 +65,14 @@
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Kyiv faces a deficit of missiles as Washington is focused on its war on Iran",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-03-24"
+      }
+    ],
     "middle_east": [
       {
         "text": "NATO WASN'T THERE WHEN WE NEEDED THEM, AND THEY WON'T BE THERE IF WE NEED THEM",
@@ -78,6 +85,12 @@
         "speaker": "White House",
         "title": "Official Statement",
         "date": "2026-04-22"
+      },
+      {
+        "text": "We are preparing for the last battle",
+        "speaker": "Civic leader",
+        "title": "Southern Lebanon official",
+        "date": "2026-04-24"
       }
     ]
   },
@@ -99,15 +112,47 @@
       "flag": "\ud83c\uddea\ud83c\uddfa",
       "status": "Active materiel + troops",
       "description": "Approved \u20ac90 billion emergency loan for Ukraine and adopted 20th sanctions package against Russia. France and UK leading efforts to establish multinational mission to secure Strait of Hormuz shipping."
+    },
+    {
+      "country": "India",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "Signed significant military pact with Russia allowing deployment of soldiers and warships on each other's soil during peace and wartime. Agreement represents major shift in India-Russia defense cooperation."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "Concluded military deployment agreement with India while continuing Ukraine operations. Russia adapting new drone and ground robot tactics to overcome artillery challenges in Ukrainian theater."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Fuel theft surged 13% in 50 days following Iran conflict outbreak, contributing to sustained higher fuel prices."
+    "notes": "Strait of Hormuz blockade poses greatest threat to global economy in decades according to analysts."
   },
   "update_log": [
+    {
+      "time": "Unknown",
+      "text": "Armed groups stage simultaneous attacks across Mali including capital and main airport",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Iran resumes commercial flights from Tehran airport after two-month suspension",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Pentagon email reportedly outlines options to punish NATO allies including suspending Spain",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Palestinians cast ballots in Gaza's first municipal elections in 21 years",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:00 UTC",
       "text": "International Chamber of Shipping condemns US and Iran ship captures as violations of international law",
@@ -129,5 +174,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-25T07:00:15Z"
+  "last_updated": "2026-04-25T12:35:12Z"
 }
