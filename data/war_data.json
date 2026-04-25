@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "Unknown",
+    "score": 7,
+    "delta": "No previous baseline",
     "level": "Elevated",
-    "rationale": "Multiple active conflicts with US-Iran naval blockade, weapons depletion concerns, NATO tensions, and Mali coordinated attacks."
+    "rationale": "US-Iran conflict ongoing with Strait of Hormuz disruption, Israeli strikes in Lebanon despite ceasefire extension, and Ukraine-Russia ceasefire deadline approaching April 30."
   },
   "ticker_items": [
-    "Iran resumes commercial flights from Tehran for first time in two months",
-    "Pentagon considers suspending Spain from NATO over Iran war non-support",
-    "Armed groups launch simultaneous attacks across Mali including Bamako airport",
-    "US weapons stockpiles depleted after two months of Iran conflict",
-    "Gaza holds first elections in 21 years with 70,000 registered voters"
+    "Israeli airstrike kills 2 in south Lebanon despite ceasefire extension",
+    "Iran FM Araghchi meets Pakistan PM amid stalled US negotiations",
+    "Ukraine-Russia ceasefire deadline approaches April 30, 2026",
+    "US freezes $344M cryptocurrency allegedly linked to Iran",
+    "Strait of Hormuz shipping disruption continues affecting global markets"
   ],
   "new_entrant": {
     "active": false,
@@ -29,6 +29,17 @@
         "lat": 31.35,
         "lng": 34.31,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Touline",
+        "description": "Israeli airstrike killed two people in southern village despite extended ceasefire.",
+        "method": "Air/Precision Strike",
+        "lat": 33.2,
+        "lng": 35.4,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -40,6 +51,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Israeli strike on Touline",
+        "kia": "2",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -91,6 +109,18 @@
         "speaker": "Civic leader",
         "title": "Southern Lebanon official",
         "date": "2026-04-24"
+      },
+      {
+        "text": "Israel has become a direct threat to global security",
+        "speaker": "Hakan Fidan",
+        "title": "Turkish Foreign Minister",
+        "date": "2026-04-24"
+      },
+      {
+        "text": "Lebanon should be part of an Iran peace deal",
+        "speaker": "Ursula von der Leyen",
+        "title": "European Commission President",
+        "date": "2026-04-24"
       }
     ]
   },
@@ -124,15 +154,52 @@
       "flag": "\ud83c\uddf7\ud83c\uddfa",
       "status": "Active materiel + troops",
       "description": "Concluded military deployment agreement with India while continuing Ukraine operations. Russia adapting new drone and ground robot tactics to overcome artillery challenges in Ukrainian theater."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Strategic balancer",
+      "description": "Foreign Minister Fidan declared Israel a 'direct threat to global security' and called for collective international response. Turkey continues positioning itself as regional mediator while maintaining critical stance toward Israeli actions."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Monitoring",
+      "description": "Chinese AI company used satellite data to track US military movements in Iran conflict zone, raising concerns about intelligence sharing with Iran. Over 50 US House members accused South Korea's new government of favoring Chinese businesses over American companies."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Elevated due to Hormuz disruption",
     "wheat_futures": "Unchanged",
-    "notes": "Strait of Hormuz blockade poses greatest threat to global economy in decades according to analysts."
+    "notes": "Daily Strait of Hormuz status changes causing significant market volatility and uncertainty beyond direct price impacts."
   },
   "update_log": [
+    {
+      "time": "18:30 UTC",
+      "text": "Trump cancels US envoys' trip after Iran FM Araghchi leaves Pakistan.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Israeli airstrike kills two in Lebanese village of Touline despite ceasefire extension.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Iran FM Araghchi meets Pakistan PM Sharif in Islamabad for negotiation revival efforts.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "US freezes $344 million in cryptocurrency allegedly linked to Iran.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Russia and Ukraine swap 193 POWs each in second exchange this month.",
+      "source_tier": "unverified"
+    },
     {
       "time": "Unknown",
       "text": "Armed groups stage simultaneous attacks across Mali including capital and main airport",
@@ -174,5 +241,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-25T12:35:12Z"
+  "last_updated": "2026-04-25T18:33:08Z"
 }
