@@ -3,14 +3,14 @@
     "score": 7.5,
     "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "Multiple active conflicts with ongoing US-Iran war, ceasefire violations in Gaza and Lebanon, and NATO pressure tactics escalating tensions."
+    "rationale": "Trump cancelled Iran peace talks while Iranian forces threaten US maritime operations and Russia continues daily strikes on Ukraine."
   },
   "ticker_items": [
-    "Russian drones strike Dnipro apartment block killing 7, injuring dozens",
-    "US envoys travel to Pakistan for Iran peace talks",
-    "Israeli strikes kill 4 in Gaza despite ceasefire",
-    "Germany deploying minesweeper for Hormuz mission",
-    "Mali Defense Minister killed in coordinated attacks"
+    "Trump cancels Pakistan Iran peace talks citing leadership confusion",
+    "Russian strikes kill 7 in Dnipro apartment buildings",
+    "Commercial flights resume from Tehran for first time since war began",
+    "US considers punishing NATO allies refusing to join Iran war",
+    "Iran warns of decisive military response to US maritime actions"
   ],
   "new_entrant": {
     "active": false,
@@ -49,6 +49,17 @@
         "method": "Air/Drone",
         "lat": 48.4647,
         "lng": 35.0462,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Dnipro",
+        "description": "Russian drones struck apartment blocks twice killing seven and injuring dozens",
+        "method": "Air/Drone",
+        "lat": 48.46,
+        "lng": 35.04,
         "source_tier": "unverified"
       }
     ],
@@ -153,6 +164,20 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Dnipro apartment strikes",
+        "kia": "7",
+        "wia": "~34",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Gaza ceasefire violations",
+        "kia": "~12",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -173,6 +198,12 @@
         "figure": "$61 billion",
         "claimed_by": "Iran War Cost Tracker",
         "as_of": "April 25, 2026"
+      },
+      {
+        "claim": "Iran war casualties",
+        "figure": "3,375 dead in Iran, 2,294 in Lebanon, 28 in Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-21"
       }
     ]
   },
@@ -191,6 +222,18 @@
         "speaker": "Hamas spokesperson",
         "title": "Hamas official",
         "date": "April 24, 2026"
+      },
+      {
+        "text": "There is tremendous infighting and confusion within their 'leadership.' Nobody knows who is in charge, including them.",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-25"
+      },
+      {
+        "text": "We have all the cards",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-25"
       }
     ]
   },
@@ -218,15 +261,41 @@
       "flag": "\ud83c\udde9\ud83c\uddea",
       "status": "Basing + logistics",
       "description": "Germany dispatching minesweeper to Mediterranean for possible Strait of Hormuz mission following end of US-Iran war. Defense ministry confirmed the deployment on Saturday."
+    },
+    {
+      "country": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "status": "Strategic balancer",
+      "description": "President Macron warned that US reliability is in doubt as Europe's rift with Washington widens over Iran conflict strategy. Macron claims China, Russia, and the US are all opposed to European interests."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "US Iran war operation costs exceed $61 billion according to tracking reports, straining defense budgets."
+    "notes": "Iran war has drained US weapon supplies forcing Pentagon to rush armaments from Asia and Europe commands."
   },
   "update_log": [
+    {
+      "time": "18:00 UTC",
+      "text": "Commercial flights resume from Tehran for first time since Iran war began",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Trump cancels Kushner-Witkoff Pakistan trip for Iran peace talks",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Russian drone strikes on Dnipro apartment buildings kill seven civilians",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Pentagon considers suspending Spain from NATO over Iran war refusal",
+      "source_tier": "analyst"
+    },
     {
       "time": "12:30 UTC",
       "text": "Mali Defense Minister Sadio Camara killed in coordinated attacks on garrison town of Kati.",
@@ -268,5 +337,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-04-26T12:37:00Z"
+  "last_updated": "2026-04-26T18:33:54Z"
 }
