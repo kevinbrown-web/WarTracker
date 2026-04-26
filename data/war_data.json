@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 6.8,
-    "delta": "-0.2 from yesterday",
+    "score": 7.5,
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "US-Iran peace talks stalled as Trump cancelled envoy trip to Pakistan, while RAF jets engaged Russian drones and massive drone swarms hit Ukraine overnight."
+    "rationale": "Multiple active conflicts with ongoing US-Iran war, ceasefire violations in Gaza and Lebanon, and NATO pressure tactics escalating tensions."
   },
   "ticker_items": [
-    "Trump cancels US envoy trip to Pakistan, Iran talks stall",
-    "RAF jets shoot down Russian drones attacking Ukrainian ports",
-    "Russia launches 660+ drone attack on Ukraine overnight",
-    "Israel awaits US approval for renewed Iran operations",
-    "Kuwait reports drone attacks from Iraq on border posts"
+    "Russian drones strike Dnipro apartment block killing 7, injuring dozens",
+    "US envoys travel to Pakistan for Iran peace talks",
+    "Israeli strikes kill 4 in Gaza despite ceasefire",
+    "Germany deploying minesweeper for Hormuz mission",
+    "Mali Defense Minister killed in coordinated attacks"
   ],
   "new_entrant": {
     "active": false,
@@ -38,6 +38,17 @@
         "method": "Air/Drone",
         "lat": 45.35,
         "lng": 28.8,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Dnipro",
+        "description": "Russian drones struck apartment block twice, killing seven and injuring dozens of civilians.",
+        "method": "Air/Drone",
+        "lat": 48.4647,
+        "lng": 35.0462,
         "source_tier": "unverified"
       }
     ],
@@ -74,6 +85,28 @@
         "lat": 30.05,
         "lng": 47.97,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Gaza Strip",
+        "description": "Israeli forces killed at least 4 Palestinians despite ongoing ceasefire agreement.",
+        "method": "Air/Precision Strike",
+        "lat": 31.3547,
+        "lng": 34.3088,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli airstrikes killed 4 Lebanese citizens in two separate attacks despite ceasefire extension.",
+        "method": "Air/Precision Strike",
+        "lat": 33.2774,
+        "lng": 35.2066,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -99,6 +132,27 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Dnipro apartment strike",
+        "kia": "7",
+        "wia": "dozens",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Lebanon airstrikes",
+        "kia": "4",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Mali coordinated attacks",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -113,6 +167,12 @@
         "figure": "2,294",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "April 21, 2026"
+      },
+      {
+        "claim": "US Iran war operation cost",
+        "figure": "$61 billion",
+        "claimed_by": "Iran War Cost Tracker",
+        "as_of": "April 25, 2026"
       }
     ]
   },
@@ -152,15 +212,41 @@
       "flag": "\ud83c\uddea\ud83c\uddf8",
       "status": "Abstaining",
       "description": "Pentagon reportedly considers suspending Spain from NATO for refusing to join Iran war operations. Spain has rebuffed US punishment reports while maintaining non-participation stance."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Basing + logistics",
+      "description": "Germany dispatching minesweeper to Mediterranean for possible Strait of Hormuz mission following end of US-Iran war. Defense ministry confirmed the deployment on Saturday."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Gold prices gained slightly but headed for first weekly loss in five weeks amid Iran conflict volatility and inflation concerns."
+    "notes": "US Iran war operation costs exceed $61 billion according to tracking reports, straining defense budgets."
   },
   "update_log": [
+    {
+      "time": "12:30 UTC",
+      "text": "Mali Defense Minister Sadio Camara killed in coordinated attacks on garrison town of Kati.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:45 UTC",
+      "text": "US envoys Witkoff and Kushner confirmed traveling to Pakistan for Iran peace negotiations.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:20 UTC",
+      "text": "Russian drone strikes on Dnipro apartment block kill 7 civilians, injure dozens more.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:15 UTC",
+      "text": "Israeli forces kill 4 Palestinians in Gaza despite ongoing ceasefire agreement.",
+      "source_tier": "verified"
+    },
     {
       "time": "07:00 UTC",
       "text": "Trump calls off planned US envoy trip to Pakistan, stalling Iran peace negotiations on day 58 of conflict.",
@@ -182,5 +268,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-04-26T07:14:30Z"
+  "last_updated": "2026-04-26T12:37:00Z"
 }
