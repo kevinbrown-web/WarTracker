@@ -1,16 +1,15 @@
 {
   "escalation": {
-    "score": 7,
-    "delta": "No previous data",
+    "score": 6.5,
+    "delta": "N/A - No previous data",
     "level": "Elevated",
-    "rationale": "Multiple active conflicts with strikes across Ukraine-Russia, Israel-Lebanon tensions, ongoing US-Iran war, and security incident involving Trump."
+    "rationale": "Multiple active conflicts with US-Iran war ongoing, Trump canceling peace talks, and continued Ukraine-Russia hostilities with nuclear plant strike warnings."
   },
   "ticker_items": [
-    "16 killed in strikes across Ukraine and Russia",
-    "Netanyahu says Hezbollah dismantling Lebanon ceasefire",
-    "China retaliates against EU sanctions over Russia arms",
-    "Trump rushed from dinner after shooting incident",
-    "Putin highlights North Korea combat partnership"
+    "Trump cancels Iran peace talks, claims US 'has all the cards'",
+    "16 killed in Ukraine-Russia strikes on Chernobyl anniversary",
+    "Russia-North Korea agree long-term military cooperation through 2031",
+    "US Navy ordered to shoot Iranian boats laying mines in Hormuz Strait"
   ],
   "new_entrant": {
     "active": false,
@@ -50,6 +49,17 @@
         "lat": 57.63,
         "lng": 39.87,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia/Ukraine",
+        "target_country": "Ukraine/Russia",
+        "target_location": "Multiple locations",
+        "description": "Cross-border strikes killed at least 16 people across Ukraine, Russian-occupied territory and Russia",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -84,6 +94,17 @@
         "method": "Air/Precision Strike",
         "lat": 33.27,
         "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Multiple locations",
+        "description": "Netanyahu ordered strikes on Lebanon following ceasefire violations",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
         "source_tier": "unverified"
       }
     ]
@@ -123,6 +144,12 @@
         "figure": "3,375 dead in Iran, 2,294 in Lebanon",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-21"
+      },
+      {
+        "claim": "Lebanese casualties from conflict",
+        "figure": "2,509",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-27"
       }
     ]
   },
@@ -139,9 +166,22 @@
         "speaker": "Vladimir Putin",
         "title": "President",
         "date": "2026-04-27"
+      },
+      {
+        "text": "European politicians will not succeed in blaming Russia for the continent's problems",
+        "speaker": "Dmitry Peskov",
+        "title": "Kremlin Spokesman",
+        "date": "2026-04-26"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Russia is using nuclear terrorism as a weapon of war",
+        "speaker": "Volodymyr Zelensky",
+        "title": "Ukrainian President",
+        "date": "2026-04-26"
+      }
+    ],
     "middle_east": [
       {
         "text": "shoot any Iranian boats laying mines",
@@ -153,6 +193,12 @@
         "text": "Hezbollah's actions are threatening the ceasefire between Israel and Lebanon",
         "speaker": "Benjamin Netanyahu",
         "title": "Prime Minister",
+        "date": "2026-04-26"
+      },
+      {
+        "text": "We have all the cards, they have none",
+        "speaker": "Donald Trump",
+        "title": "US President",
         "date": "2026-04-26"
       }
     ]
@@ -193,15 +239,48 @@
       "flag": "\ud83c\udde6\ud83c\uddea",
       "status": "Basing + logistics",
       "description": "Reports reveal Israel secretly deployed Iron Dome system to UAE with operating personnel during Iran war. The defensive deployment occurred amid Iranian reprisal strikes. UAE continues hosting Israeli defense assets."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Active materiel + troops",
+      "description": "Russian Defense Minister decorated North Korean troops who helped liberate Kursk Region. Russia and North Korea agreed on long-term military cooperation plan for 2027-2031."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Iranian Foreign Minister returned to Islamabad for consultations as Pakistan races to restart ceasefire talks between Tehran and Washington following Trump's cancellation."
+    },
+    {
+      "country": "Italy",
+      "flag": "\ud83c\uddee\ud83c\uddf9",
+      "status": "Basing + logistics",
+      "description": "Italian government decided to send two military vessels to Strait of Hormuz for mine clearance operations, operating without UN mandate in Iranian territorial waters."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Iran war has drained US supplies of critical weapons forcing Pentagon to rush equipment from Asia and Europe."
+    "notes": "EU approved $105 billion aid package to Ukraine, reinforcing European support amid US policy shifts."
   },
   "update_log": [
+    {
+      "time": "19:01 UTC",
+      "text": "Trump calls off Iran peace talks claiming US has superior negotiating position",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Russia and North Korea formalize long-term military cooperation agreement through 2031",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:45 UTC",
+      "text": "At least 16 killed in cross-border strikes between Ukraine and Russia on Chernobyl anniversary",
+      "source_tier": "unverified"
+    },
     {
       "time": "13:13 UTC",
       "text": "16 killed in weekend strikes across Ukraine, Russia, and occupied territories",
@@ -248,5 +327,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-27T13:13:29Z"
+  "last_updated": "2026-04-27T19:01:35Z"
 }
