@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.8,
-    "delta": "+0.3 from yesterday",
+    "score": 7,
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "US enforces 'ironclad blockade' on Iran with 34+ ships intercepted while Trump cancels peace talks and orders Navy to shoot Iranian mine-laying boats."
+    "rationale": "Multiple active conflicts with strikes across Ukraine-Russia, Israel-Lebanon tensions, ongoing US-Iran war, and security incident involving Trump."
   },
   "ticker_items": [
-    "Trump cancels Iran peace talks, orders US Navy to shoot Iranian boats",
-    "US 'ironclad blockade' intercepts 34+ Iranian vessels globally",
-    "Israel strikes Lebanon's Khiam amid ceasefire extension",
-    "Russia fires 619 drones at Ukraine, 10 killed",
-    "Trump safe after White House shooting incident"
+    "16 killed in strikes across Ukraine and Russia",
+    "Netanyahu says Hezbollah dismantling Lebanon ceasefire",
+    "China retaliates against EU sanctions over Russia arms",
+    "Trump rushed from dinner after shooting incident",
+    "Putin highlights North Korea combat partnership"
   ],
   "new_entrant": {
     "active": false,
@@ -27,6 +27,28 @@
         "method": "Air/Drone",
         "lat": 50.45,
         "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Dnipro",
+        "description": "Russian strikes hit multiple Ukrainian cities killing civilians.",
+        "method": "Air/Drone",
+        "lat": 48.46,
+        "lng": 35.04,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Yaroslavl",
+        "description": "Ukrainian forces struck oil refinery in Russian territory.",
+        "method": "Air/Drone",
+        "lat": 57.63,
+        "lng": 39.87,
         "source_tier": "unverified"
       }
     ],
@@ -52,6 +74,17 @@
         "lat": 26.25,
         "lng": 50.58,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli forces conducted daily strikes in southern Lebanon amid ceasefire tensions.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -61,6 +94,13 @@
         "incident": "Russian drone attacks on Ukraine",
         "kia": "10",
         "wia": "dozens",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Ukraine-Russia strikes",
+        "kia": "16",
+        "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
       }
@@ -77,6 +117,12 @@
         "figure": "2,294",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-21"
+      },
+      {
+        "claim": "Iran war casualties",
+        "figure": "3,375 dead in Iran, 2,294 in Lebanon",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-21"
       }
     ]
   },
@@ -87,6 +133,12 @@
         "speaker": "Sergey Karaganov",
         "title": "Russian policy analyst",
         "date": "2026-04-26"
+      },
+      {
+        "text": "Combat brotherhood between Russia and North Korea has glorious history",
+        "speaker": "Vladimir Putin",
+        "title": "President",
+        "date": "2026-04-27"
       }
     ],
     "ukraine": [],
@@ -96,6 +148,12 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-04-23"
+      },
+      {
+        "text": "Hezbollah's actions are threatening the ceasefire between Israel and Lebanon",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister",
+        "date": "2026-04-26"
       }
     ]
   },
@@ -117,15 +175,53 @@
       "flag": "\ud83c\uddea\ud83c\uddf8",
       "status": "Abstaining",
       "description": "Hundreds of Spanish protesters demand end to Iran war and expulsion of NATO bases from Spain in Madrid demonstrations."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Active materiel + troops",
+      "description": "China condemned EU sanctions targeting 27 Chinese entities for arming Russia. Beijing threatened European defense capabilities in retaliation. The sanctions represent the largest round in two years."
+    },
+    {
+      "country": "Finland",
+      "flag": "\ud83c\uddeb\ud83c\uddee",
+      "status": "Supplying dual-use goods",
+      "description": "Finland announced increased military support for Ukraine despite fiscal strain. New budget combines Ukraine aid with domestic spending cuts. Concerns grow over mounting debt levels from sustained military assistance."
+    },
+    {
+      "country": "United Arab Emirates",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "Basing + logistics",
+      "description": "Reports reveal Israel secretly deployed Iron Dome system to UAE with operating personnel during Iran war. The defensive deployment occurred amid Iranian reprisal strikes. UAE continues hosting Israeli defense assets."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Iran war has drained US supplies of critical weapons forcing Pentagon to rush equipment from Asia and Europe commands."
+    "notes": "Iran war has drained US supplies of critical weapons forcing Pentagon to rush equipment from Asia and Europe."
   },
   "update_log": [
+    {
+      "time": "13:13 UTC",
+      "text": "16 killed in weekend strikes across Ukraine, Russia, and occupied territories",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:45 UTC",
+      "text": "Netanyahu accuses Hezbollah of dismantling Lebanon ceasefire agreement",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "China condemns EU sanctions on 27 entities for arming Russia",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:15 UTC",
+      "text": "Trump rushed from White House correspondents dinner after shooting incident",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:01 UTC",
       "text": "Trump cancels Pakistan-hosted Iran peace talks citing poor proposal from Tehran",
@@ -152,5 +248,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-27T08:01:04Z"
+  "last_updated": "2026-04-27T13:13:29Z"
 }
