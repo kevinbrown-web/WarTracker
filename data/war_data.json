@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 6.8,
-    "delta": "+0.3 from yesterday",
+    "score": 6.5,
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "Active diplomatic push on US-Iran war continues amid North Korea's military commitment to Russia and ongoing Ukrainian drone strikes on Russian oil infrastructure."
+    "rationale": "Multiple active conflicts with North Korea deepening military support for Russia, ongoing Iran-US-Israel tensions with blocked shipping lanes, and continued strikes in Lebanon."
   },
   "ticker_items": [
-    "Iran FM arrives Moscow as US peace talks stalled",
-    "North Korea opens memorial museum for Ukraine war casualties",
-    "Ukrainian drones hit Russian Tuapse oil refinery causing massive fire",
-    "Germany preparing minesweeper for Strait of Hormuz mission",
-    "Russia reportedly low on air defense missiles against Ukrainian drones"
+    "North Korea opens memorial museum for troops killed fighting Russia",
+    "Iran offers to end Strait of Hormuz blockade in exchange for nuclear talks deferral",
+    "Russian drone strike on Odesa wounds 10 including 2 children",
+    "Israeli soldier killed in Hezbollah drone strike on helicopter",
+    "20,000 seafarers stranded in Persian Gulf for 8 weeks"
   ],
   "new_entrant": {
     "active": false,
@@ -28,12 +28,61 @@
         "lat": 44.1,
         "lng": 39.07,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Odesa",
+        "description": "Russian drone attack wounded 10 people including two children and damaged residential buildings",
+        "method": "Air/Drone",
+        "lat": 46.48,
+        "lng": 30.73,
+        "source_tier": "unverified"
       }
     ],
-    "middle_east": []
+    "middle_east": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Israel",
+        "target_location": "Unknown",
+        "description": "Hezbollah drone strike targeted Israeli military helicopter killing one soldier",
+        "method": "Air/Drone",
+        "lat": 33.0,
+        "lng": 35.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli forces destroyed power and water infrastructure in Christian-majority town",
+        "method": "Ground/Armored",
+        "lat": 33.3,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      }
+    ]
   },
   "casualties": {
-    "today": [],
+    "today": [
+      {
+        "incident": "Odesa drone attack",
+        "kia": "0",
+        "wia": "10",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Hezbollah drone strike",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      }
+    ],
     "claimed_totals": [
       {
         "claim": "US-Israel attacks on Iran deaths",
@@ -77,6 +126,18 @@
         "speaker": "Kim Jong Un",
         "title": "North Korean Leader",
         "date": "2026-04-27"
+      },
+      {
+        "text": "The Russian army and people would surely win a victory in the just sacred war",
+        "speaker": "Kim Jong Un",
+        "title": "North Korean Leader",
+        "date": "2026-04-27"
+      },
+      {
+        "text": "Iran's insistence on ending Israeli aggression against Lebanon during indirect negotiations with Washington was the decisive factor that made a ceasefire with Israel possible",
+        "speaker": "Sheikh Qassem",
+        "title": "Hezbollah Secretary General",
+        "date": "2026-04-27"
       }
     ]
   },
@@ -98,15 +159,47 @@
       "flag": "\ud83c\uddf9\ud83c\uddf7",
       "status": "Strategic balancer",
       "description": "Turkey's military spending rose 7% to $30 billion in 2025, ranking among world's top 40 spenders according to SIPRI. The increase reflects regional security concerns amid multiple ongoing conflicts."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Previously brokered ceasefire between US and Iran that Trump extended on April 21. Currently facilitating indirect negotiations between parties in the Iran conflict."
+    },
+    {
+      "country": "India",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "status": "Purchasing",
+      "description": "Military expenditure rose 8.9% to $92.1 billion in 2025, ranking fifth globally. The India-Pakistan conflict in May 2025 contributed to increased defense spending."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "China's metals makers posted strongest quarter since 2016 benefiting from Middle East crisis boosting aluminum and copper prices."
+    "notes": "Global military spending surged to $2.887 trillion in 2025 marking eleventh consecutive year of growth with Europe accounting for largest regional increase."
   },
   "update_log": [
+    {
+      "time": "13:23 UTC",
+      "text": "Iran offers to end Strait of Hormuz chokehold if nuclear talks deferred while 20,000 seafarers remain stranded for 8 weeks",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:45 UTC",
+      "text": "North Korea opens museum commemorating troops killed fighting for Russia as Kim Jong Un pledges deeper military ties",
+      "source_tier": "verified"
+    },
+    {
+      "time": "11:30 UTC",
+      "text": "Russian drone attack on Odesa wounds 10 including 2 children and damages residential buildings",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:15 UTC",
+      "text": "Israeli soldier killed as Hezbollah drone targets military helicopter conducting medical evacuation",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:16 UTC",
       "text": "Al Jazeera casualty tracker shows 3,375 Iranian deaths, 2,509 Lebanese deaths from ongoing Iran war",
@@ -128,5 +221,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-28T08:01:41Z"
+  "last_updated": "2026-04-28T13:23:25Z"
 }
