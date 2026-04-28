@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 6.5,
+    "score": 7.5,
     "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "Multiple active conflicts with North Korea deepening military support for Russia, ongoing Iran-US-Israel tensions with blocked shipping lanes, and continued strikes in Lebanon."
+    "rationale": "Multiple active conflicts with Iran war continuing, Strait of Hormuz effectively closed, North Korea deepening military ties with Russia, and ongoing strikes in Lebanon despite ceasefire."
   },
   "ticker_items": [
-    "North Korea opens memorial museum for troops killed fighting Russia",
-    "Iran offers to end Strait of Hormuz blockade in exchange for nuclear talks deferral",
-    "Russian drone strike on Odesa wounds 10 including 2 children",
-    "Israeli soldier killed in Hezbollah drone strike on helicopter",
-    "20,000 seafarers stranded in Persian Gulf for 8 weeks"
+    "North Korea opens museum honoring soldiers killed fighting for Russia",
+    "Strait of Hormuz remains effectively closed, 20,000 seafarers stranded",
+    "Israeli strikes continue in Lebanon despite ceasefire agreement",
+    "EU announces new sanctions targeting Russian crypto exchanges",
+    "German Chancellor says Iran is 'humiliating' the United States"
   ],
   "new_entrant": {
     "active": false,
@@ -39,6 +39,17 @@
         "lat": 46.48,
         "lng": 30.73,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Odesa",
+        "description": "Russian drone attack on residential neighborhoods and civilian infrastructure wounds 10 people including 2 children",
+        "method": "Air/Drone",
+        "lat": 46.48,
+        "lng": 30.73,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -63,6 +74,28 @@
         "lat": 33.3,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli forces destroy power and water infrastructure of Christian-majority town",
+        "method": "Ground/Armored",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Israel",
+        "target_location": "Northern Israel",
+        "description": "Hezbollah drone strike targets Israeli military helicopter, killing one soldier",
+        "method": "Air/Drone",
+        "lat": 33.0,
+        "lng": 35.1,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -77,6 +110,20 @@
       },
       {
         "incident": "Hezbollah drone strike",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian drone attack on Odesa",
+        "kia": "0",
+        "wia": "10",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Hezbollah drone strike on Israeli helicopter",
         "kia": "1",
         "wia": "Unknown",
         "civilian": false,
@@ -111,9 +158,22 @@
         "speaker": "Dmitry Peskov",
         "title": "Kremlin Spokesman",
         "date": "2026-04-27"
+      },
+      {
+        "text": "The Russian army and people would surely win a victory in the just sacred war",
+        "speaker": "Kim Jong Un",
+        "title": "North Korean Leader",
+        "date": "2026-04-27"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Russia is running low on missiles for Ukraine's drones",
+        "speaker": "Oleksandr Syrskyi",
+        "title": "Ukrainian Military Chief",
+        "date": "2026-04-27"
+      }
+    ],
     "middle_east": [
       {
         "text": "Iran submitted a significantly improved peace proposal just ten minutes after he canceled a high-level U.S. diplomatic trip to Pakistan",
@@ -137,6 +197,12 @@
         "text": "Iran's insistence on ending Israeli aggression against Lebanon during indirect negotiations with Washington was the decisive factor that made a ceasefire with Israel possible",
         "speaker": "Sheikh Qassem",
         "title": "Hezbollah Secretary General",
+        "date": "2026-04-27"
+      },
+      {
+        "text": "If opening the strait means you need Iran's permission or have to pay to pass, that's not opening it",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
         "date": "2026-04-27"
       }
     ]
@@ -171,15 +237,46 @@
       "flag": "\ud83c\uddee\ud83c\uddf3",
       "status": "Purchasing",
       "description": "Military expenditure rose 8.9% to $92.1 billion in 2025, ranking fifth globally. The India-Pakistan conflict in May 2025 contributed to increased defense spending."
+    },
+    {
+      "country": "Estonia",
+      "flag": "\ud83c\uddea\ud83c\uddea",
+      "status": "Mediator + arms supplier",
+      "description": "President Alar Karis reportedly calls for EU to prepare for dialogue with Russia in case Ukraine conflict ends suddenly."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Global military spending surged to $2.887 trillion in 2025 marking eleventh consecutive year of growth with Europe accounting for largest regional increase."
+    "notes": "EU announces new sanctions package targeting Russian crypto exchanges and stablecoins as Russia allegedly attempts to evade existing sanctions."
   },
   "update_log": [
+    {
+      "time": "19:15 UTC",
+      "text": "North Korea opens museum honoring soldiers killed fighting for Russia in Ukraine",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Hezbollah drone strike kills Israeli soldier targeting military helicopter",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:45 UTC",
+      "text": "Russian drone attack on Odesa wounds 10 people including 2 children",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "EU announces new sanctions targeting Russian crypto exchanges and CBDCs",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:10 UTC",
+      "text": "Suspected pirates steer cargo vessel towards Somalia as Strait of Hormuz remains closed",
+      "source_tier": "verified"
+    },
     {
       "time": "13:23 UTC",
       "text": "Iran offers to end Strait of Hormuz chokehold if nuclear talks deferred while 20,000 seafarers remain stranded for 8 weeks",
@@ -221,5 +318,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-28T13:23:25Z"
+  "last_updated": "2026-04-28T19:15:19Z"
 }
