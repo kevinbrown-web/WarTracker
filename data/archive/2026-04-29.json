@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.8,
-    "delta": "+0.3 from yesterday",
+    "score": 6.5,
+    "delta": "N/A (no previous data)",
     "level": "Elevated",
-    "rationale": "Iran diplomacy on Strait of Hormuz continues but Israel-Lebanon ceasefire violations and North Korea's formalized military cooperation with Russia maintain tensions."
+    "rationale": "Multiple active conflict zones with Iran-US tensions over Strait of Hormuz closure, ongoing Ukraine-Russia hostilities, and North Korea deepening military cooperation with Russia."
   },
   "ticker_items": [
-    "Trump reviews Iran proposal to reopen Strait of Hormuz",
-    "North Korea formalizes 'self-blasting' soldier policy in Ukraine",
-    "Israeli strikes break Lebanon ceasefire after 3 weeks",
-    "20,000 seafarers stranded in Persian Gulf for 8+ weeks",
-    "Ukraine hits Russian oil refinery causing massive fire"
+    "Iran offers to reopen Strait of Hormuz if US postpones nuclear talks",
+    "20,000 seafarers stranded in Persian Gulf for 8 weeks",
+    "North Korea opens museum honoring soldiers killed fighting for Russia",
+    "Russian drone attack on Odesa wounds 10 including 2 children",
+    "Ukraine claims expanded deep strike range to 1,750km into Russia"
   ],
   "new_entrant": {
     "active": false,
@@ -39,6 +39,17 @@
         "lat": 46.48,
         "lng": 30.73,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Odesa",
+        "description": "Russian drone attack wounded 10 people including 2 children and damaged residential buildings",
+        "method": "Air/Drone",
+        "lat": 46.48,
+        "lng": 30.73,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -63,6 +74,17 @@
         "lat": 31.5,
         "lng": 34.75,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli airstrike killed Lebanese journalist Amal Khalil and injured colleague",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -81,12 +103,25 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Lebanese journalist killing",
+        "kia": "1",
+        "wia": "1",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
       {
         "claim": "Iran war casualties",
         "figure": "3,375 dead in Iran, 2,509 in Lebanon, 28 in Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-27"
+      },
+      {
+        "claim": "Iran war casualties",
+        "figure": "3,375 dead in Iran, 2,509 dead in Lebanon, 28 killed in Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-27"
       }
@@ -114,6 +149,18 @@
         "speaker": "Kim Jong Un",
         "title": "North Korean leader",
         "date": "2026-04-27"
+      },
+      {
+        "text": "We must complete the European continent so that it does not fall under Russian, Turkish or Chinese influence",
+        "speaker": "Ursula von der Leyen",
+        "title": "European Commission President",
+        "date": "2026-04-28"
+      },
+      {
+        "text": "No more Mr Nice Guy",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-29"
       }
     ]
   },
@@ -135,15 +182,41 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Purchasing",
       "description": "Analysis suggests China may be the primary beneficiary of US-Iran conflict as hostilities are moderated by economic anxiety. Chinese military purges continue amid concerns about force readiness and technology transfer issues."
+    },
+    {
+      "country": "India",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "Signed reciprocal military logistics support pact with Russia. The agreement expands military cooperation while India maintains strategic autonomy between major powers."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Rising sharply",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices climbed sharply as Strait of Hormuz remains closed with 20,000 seafarers stranded for eight weeks."
+    "notes": "Strait of Hormuz closure continues disrupting global energy supplies with 20,000 seafarers stranded."
   },
   "update_log": [
+    {
+      "time": "13:17 UTC",
+      "text": "Iran offers to reopen Strait of Hormuz if US postpones nuclear talks and lifts naval blockade",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "First LNG tanker passes through Strait of Hormuz since March closure according to Kpler tracking",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:45 UTC",
+      "text": "Ukraine reports expanded deep strike capabilities reaching 1,750km into Russian territory",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:20 UTC",
+      "text": "Russian overnight drone attack on Odesa wounds 10 including 2 children",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:55 UTC",
       "text": "Iran proposes reopening Strait of Hormuz with nuclear talks delayed",
@@ -165,5 +238,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-04-29T07:55:47Z"
+  "last_updated": "2026-04-29T13:17:21Z"
 }
