@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 6.5,
-    "delta": "N/A (no previous data)",
+    "score": 7.5,
+    "delta": "No baseline available",
     "level": "Elevated",
-    "rationale": "Multiple active conflict zones with Iran-US tensions over Strait of Hormuz closure, ongoing Ukraine-Russia hostilities, and North Korea deepening military cooperation with Russia."
+    "rationale": "US-Iran war continues with Strait of Hormuz blockade affecting 20,000 stranded seafarers, while peace talks stall and Iranian economy faces severe disruption."
   },
   "ticker_items": [
-    "Iran offers to reopen Strait of Hormuz if US postpones nuclear talks",
-    "20,000 seafarers stranded in Persian Gulf for 8 weeks",
-    "North Korea opens museum honoring soldiers killed fighting for Russia",
-    "Russian drone attack on Odesa wounds 10 including 2 children",
-    "Ukraine claims expanded deep strike range to 1,750km into Russia"
+    "Iran offers to reopen Strait of Hormuz in exchange for lifted naval blockade",
+    "20,000 seafarers stranded in Persian Gulf for eight weeks",
+    "Pentagon seeks $55B for drone programs, surge from $225M",
+    "Israel orders evacuation of 16 Lebanese towns despite ceasefire",
+    "UAE quits OPEC effective May 1, weakening oil cartel leverage"
   ],
   "new_entrant": {
     "active": false,
@@ -85,6 +85,17 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli strikes continue despite ceasefire with evacuation orders for 16 towns and villages",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -124,6 +135,24 @@
         "figure": "3,375 dead in Iran, 2,509 dead in Lebanon, 28 killed in Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-27"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "3,375",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 27, 2026"
+      },
+      {
+        "claim": "Lebanon deaths from conflict",
+        "figure": "2,509",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 27, 2026"
+      },
+      {
+        "claim": "Gulf states deaths",
+        "figure": "28",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 27, 2026"
       }
     ]
   },
@@ -136,7 +165,14 @@
         "date": "2026-04-28"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Russia is running low on missiles for Ukraine's drones, indicating Moscow is also facing stockpile concerns",
+        "speaker": "Oleksandr Syrskyi",
+        "title": "Ukrainian Military Chief",
+        "date": "April 27, 2026"
+      }
+    ],
     "middle_east": [
       {
         "text": "Iran is using the Strait of Hormuz as an 'economic nuclear weapon'",
@@ -161,6 +197,18 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-04-29"
+      },
+      {
+        "text": "Iran is in a state of collapse and Tehran has asked Washington to reopen the Strait of Hormuz as soon as possible",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "April 28, 2026"
+      },
+      {
+        "text": "Iran is weaponizing the Strait of Hormuz as an economic nuclear weapon, threatening global energy supplies",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
+        "date": "April 28, 2026"
       }
     ]
   },
@@ -188,15 +236,52 @@
       "flag": "\ud83c\uddee\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "Signed reciprocal military logistics support pact with Russia. The agreement expands military cooperation while India maintains strategic autonomy between major powers."
+    },
+    {
+      "country": "Peru",
+      "flag": "\ud83c\uddf5\ud83c\uddea",
+      "status": "Monitoring",
+      "description": "Peruvian men reportedly trafficked to Ukraine front lines through false Russian work promises. Radio Programas del Per\u00fa denounced existence of trafficking network targeting Peruvian workers."
+    },
+    {
+      "country": "United Arab Emirates",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "Strategic balancer",
+      "description": "UAE quit OPEC effective May 1, weakening the oil cartel's leverage over global prices. Move comes amid surging energy prices from Iran war disrupting global oil markets."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Multiyear highs",
     "wheat_futures": "Unchanged",
-    "notes": "Strait of Hormuz closure continues disrupting global energy supplies with 20,000 seafarers stranded."
+    "notes": "Energy company profits doubled from 2025 as Iran war pushes gas prices to new multiyear highs with BP leading oil majors' earnings surge."
   },
   "update_log": [
+    {
+      "time": "19:05 UTC",
+      "text": "Iran offers to reopen Strait of Hormuz in exchange for US lifting naval blockade and postponing nuclear talks",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "20,000 seafarers stranded in Persian Gulf for eight weeks as Strait of Hormuz remains effectively closed",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:45 UTC",
+      "text": "Pentagon seeks $55 billion for drone programs in FY2027 budget, dramatic surge from $225 million",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "Russian drone attack on Odesa wounds 10 people including 2 children",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:10 UTC",
+      "text": "UAE announces departure from OPEC effective May 1",
+      "source_tier": "unverified"
+    },
     {
       "time": "13:17 UTC",
       "text": "Iran offers to reopen Strait of Hormuz if US postpones nuclear talks and lifts naval blockade",
@@ -238,5 +323,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-04-29T13:17:21Z"
+  "last_updated": "2026-04-29T19:05:05Z"
 }
