@@ -1,20 +1,20 @@
 {
   "escalation": {
     "score": 7.5,
-    "delta": "No previous data",
+    "delta": "No previous score available",
     "level": "Elevated",
-    "rationale": "Multiple active conflicts with US-Iran war at day 61, ongoing Russia-Ukraine fighting, and Israel-Lebanon ceasefire violations indicate sustained high tensions."
+    "rationale": "Multiple active conflicts with Iran war at day 61, UAE exiting OPEC, Strait of Hormuz closure affecting 20,000 seafarers, and North Korean troops confirmed KIA in Ukraine."
   },
   "ticker_items": [
-    "Russia scales back Moscow Victory Day parade citing Ukraine threats",
-    "Iran war enters day 61 with UAE exiting OPEC May 1",
-    "20,000 seafarers stranded in Persian Gulf, Strait of Hormuz closed",
-    "Israeli strikes kill 10 in Lebanon despite April 16 ceasefire",
-    "North Korea honors soldiers killed fighting for Russia in Ukraine"
+    "Iran war enters day 61, Trump claims Iran in 'state of collapse'",
+    "UAE quits OPEC effective May 1, weakening oil cartel leverage",
+    "20,000 seafarers stranded in Persian Gulf as Hormuz remains closed",
+    "Russia holds Victory Day parade without military hardware for first time since 2007",
+    "North Korea honors 101 soldiers killed in Ukraine war"
   ],
   "new_entrant": {
     "active": true,
-    "text": "UAE announces exit from OPEC effective May 1, weakening the oil cartel amid Iran war disruptions."
+    "text": "UAE officially exits OPEC as of May 1, 2026, removing the cartel's third-largest producer."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -85,6 +85,17 @@
         "lat": 33.3,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli strike killed three paramedics including father of young girl.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -124,6 +135,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strike on Lebanese paramedics",
+        "kia": "3",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -149,6 +167,24 @@
         "claim": "Iran war casualties",
         "figure": "3,375 dead in Iran, 2,509 in Lebanon, 28 in Gulf states",
         "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-27"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "3,375",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-04-27"
+      },
+      {
+        "claim": "Lebanon deaths from conflict",
+        "figure": "2,509",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-04-27"
+      },
+      {
+        "claim": "Gulf states deaths",
+        "figure": "28",
+        "claimed_by": "Al Jazeera",
         "as_of": "2026-04-27"
       }
     ]
@@ -187,6 +223,12 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-04-29"
+      },
+      {
+        "text": "Iran is in a 'state of collapse'",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-04-29"
       }
     ]
   },
@@ -214,15 +256,46 @@
       "flag": "\ud83c\uddec\ud83c\udde7",
       "status": "Supplying dual-use goods",
       "description": "King Charles addressed US Congress emphasizing UK-US alliance unity amid global conflicts. First Sea Lord spoke on Royal Navy transformation through technological advances."
+    },
+    {
+      "country": "Estonia",
+      "flag": "\ud83c\uddea\ud83c\uddea",
+      "status": "Mediator + arms supplier",
+      "description": "Estonian President Alar Karis urged the start of direct talks between the West and Russia, marking a significant shift in Baltic state rhetoric traditionally known for strong anti-Russian positions."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Elevated due to Hormuz closure",
     "wheat_futures": "Unchanged",
-    "notes": "UAE's OPEC exit announcement likely to impact oil market dynamics amid ongoing Persian Gulf shipping disruptions."
+    "notes": "UAE's OPEC exit and Strait of Hormuz closure continue to impact global energy markets with 20,000 seafarers stranded."
   },
   "update_log": [
+    {
+      "time": "19:03 UTC",
+      "text": "Iran war reaches day 61 with Trump claiming Iran in state of collapse",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:45 UTC",
+      "text": "UAE officially exits OPEC as third-largest producer, weakening cartel leverage",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:30 UTC",
+      "text": "Russia announces Victory Day parade without military hardware due to Ukrainian threat",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:15 UTC",
+      "text": "North Korea honors 101 soldiers killed in Ukraine while Kim Jong Un praises suicide tactics",
+      "source_tier": "verified"
+    },
+    {
+      "time": "15:00 UTC",
+      "text": "20,000 seafarers remain stranded in Persian Gulf as Strait of Hormuz closure continues",
+      "source_tier": "unverified"
+    },
     {
       "time": "13:15 UTC",
       "text": "Russia announces scaled-back Victory Day parade citing Ukraine threat",
@@ -274,5 +347,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-04-30T13:15:40Z"
+  "last_updated": "2026-04-30T19:03:27Z"
 }
