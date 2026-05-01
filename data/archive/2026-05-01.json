@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 6.5,
-    "delta": "+0.3 from yesterday",
+    "score": 7.2,
+    "delta": "N/A - first assessment",
     "level": "Elevated",
-    "rationale": "Increased tensions as Iran declares new control over Strait of Hormuz while Russia offers May 9 ceasefire proposal."
+    "rationale": "US-Iran war continues with naval blockade of Hormuz Strait, Israeli threats of renewed strikes, and Ukraine expanding attacks on Russian oil infrastructure."
   },
   "ticker_items": [
-    "Iran declares 'new chapter' managing Strait of Hormuz",
-    "Russia offers May 9 Victory Day ceasefire to Ukraine",
-    "20,000 seafarers stranded in Persian Gulf for weeks",
-    "North Korea honors 101 fallen soldiers from Ukraine war",
-    "UAE officially leaves OPEC effective May 1"
+    "Putin proposes Victory Day ceasefire, Ukraine wants longer pause",
+    "Israel warns strikes on Iran could resume soon",
+    "Iran threatens painful response to renewed US attacks",
+    "20,000 seafarers stranded as Hormuz remains closed",
+    "UAE quits OPEC weakening oil cartel leverage"
   ],
   "new_entrant": {
     "active": false,
@@ -28,6 +28,17 @@
         "lat": 49.0,
         "lng": 32.0,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Oil facilities",
+        "description": "Ukraine expanded oil strikes on Russian infrastructure as part of ongoing campaign.",
+        "method": "Air/Drone",
+        "lat": 55.7558,
+        "lng": 37.6173,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -40,6 +51,17 @@
         "method": "Air/Drone",
         "lat": 33.27,
         "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Israel",
+        "target_location": "Northern Israel",
+        "description": "Hezbollah deployed fiber-optic guided drones that evade electronic jamming.",
+        "method": "Air/Drone",
+        "lat": 33.2774,
+        "lng": 35.2072,
         "source_tier": "unverified"
       }
     ]
@@ -59,6 +81,13 @@
         "wia": "27+",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Lebanon Israeli strikes",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -89,6 +118,12 @@
         "speaker": "Colonel Joby Rimmer",
         "title": "UK Senior Military Advisor",
         "date": "April 30, 2026"
+      },
+      {
+        "text": "Russian president wants pause in conflict to mark 'victory day'",
+        "speaker": "Vladimir Putin",
+        "title": "President",
+        "date": "2026-04-30"
       }
     ],
     "ukraine": [
@@ -97,6 +132,12 @@
         "speaker": "Volodymyr Zelensky",
         "title": "Ukrainian President",
         "date": "April 30, 2026"
+      },
+      {
+        "text": "Russia is running low on missiles for Ukraine's drones",
+        "speaker": "Oleksandr Syrskyi",
+        "title": "Military Chief",
+        "date": "2026-04-30"
       }
     ],
     "middle_east": [
@@ -117,6 +158,18 @@
         "speaker": "Abbas Araghchi",
         "title": "Iranian Foreign Minister",
         "date": "April 30, 2026"
+      },
+      {
+        "text": "We may need to act again soon",
+        "speaker": "Israel Katz",
+        "title": "Defense Minister",
+        "date": "2026-04-30"
+      },
+      {
+        "text": "Tehran would eliminate the enemies' abuses of the waterway",
+        "speaker": "Mojtaba Khamenei",
+        "title": "Supreme Leader",
+        "date": "2026-04-30"
       }
     ]
   },
@@ -150,15 +203,42 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Active materiel + troops",
       "description": "Kim Jong Un praised troops who chose 'self-detonation' to avoid capture in Ukraine. Opened memorial commemorating 101 soldiers killed in Kursk campaign, though thousands more casualties unreported."
+    },
+    {
+      "country": "Netherlands",
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Dutch military seeks to double volunteer reservist numbers as Europe ramps up troop numbers. Royal family boosts recruitment efforts amid new security threats."
+    },
+    {
+      "country": "UAE",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "Strategic balancer",
+      "description": "UAE announces departure from OPEC effective May 1, weakening the oil cartel's leverage over global supplies and prices amid ongoing energy crisis."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Soaring",
     "wheat_futures": "Unchanged",
-    "notes": "Iran's currency falls to record low against USD as two-month conflict rattles sanctions-hit economy."
+    "notes": "Oil prices soar as Iran defies US blockade and UAE exits OPEC, weakening cartel control."
   },
   "update_log": [
+    {
+      "time": "18:53 UTC",
+      "text": "Israel defense chief warns strikes on Iran could resume soon",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Iran threatens painful response if US renews attacks",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "Putin proposes Victory Day ceasefire as Ukraine expands oil strikes",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:50 UTC",
       "text": "Iran declares new chapter in managing Strait of Hormuz as US pressure reportedly wanes",
@@ -195,5 +275,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-01T12:50:37Z"
+  "last_updated": "2026-05-01T18:53:39Z"
 }
