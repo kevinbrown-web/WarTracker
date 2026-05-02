@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 7.5,
-    "delta": "+0.3 from yesterday",
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "Trump rejects Iranian peace proposal and considers new military options while facing congressional war powers deadline today."
+    "rationale": "Active US-Iran war continues with blockade of Strait of Hormuz, Trump threatening troop withdrawals from Europe over Iran policy disputes, and North Korean suicide tactics in Ukraine."
   },
   "ticker_items": [
-    "Trump rejects Iranian peace proposal, calls demands unacceptable",
-    "US forces described as 'like pirates' taking Iranian oil ships",
-    "Congressional war powers deadline hits today for Iran conflict",
-    "Trump considers major troop withdrawal from Germany over Iran disagreements",
-    "20,000 seafarers stranded in Persian Gulf, Strait of Hormuz closed"
+    "Trump considers major US troop withdrawals from Germany over Iran policy feud",
+    "Iran blockade keeps Strait of Hormuz closed, 20,000 seafarers stranded",
+    "WTI crude surges above $105 on Iran tensions, weekly high $110.93",
+    "North Korean troops employ suicide bombing tactics in Ukraine conflict",
+    "UAE exits OPEC effective May 1, weakening oil cartel leverage"
   ],
   "new_entrant": {
     "active": false,
@@ -40,6 +40,12 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-27"
+      },
+      {
+        "claim": "Gulf states casualties",
+        "figure": "28",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 27, 2026"
       }
     ]
   },
@@ -50,6 +56,12 @@
         "speaker": "Artyom Bulatov",
         "title": "Foreign Ministry Ambassador-at-Large",
         "date": "2026-05-01"
+      },
+      {
+        "text": "North Korean soldiers blew themselves up rather than be captured while fighting for Moscow in Ukraine",
+        "speaker": "Kim Jong Un",
+        "title": "North Korean Leader",
+        "date": "April 30, 2026"
       }
     ],
     "ukraine": [],
@@ -65,6 +77,18 @@
         "speaker": "Israel Katz",
         "title": "Defense Minister",
         "date": "2026-04-30"
+      },
+      {
+        "text": "Tehran was open to talks with the United States but would not accept what he called policy imposition",
+        "speaker": "Gholamhossein Mohseni Ejei",
+        "title": "Iran's Judiciary Chief",
+        "date": "May 1, 2026"
+      },
+      {
+        "text": "The ongoing naval blockade of the Strait of Hormuz is a very profitable business",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "May 2, 2026"
       }
     ]
   },
@@ -86,15 +110,41 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Mediator",
       "description": "China urges reversal of UNIFIL departure from Lebanon as Israel-Hezbollah conflict escalates. The UNIFIL mission faces growing casualties as fighting intensifies in the region."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Active materiel + troops",
+      "description": "Kim Jong Un confirmed North Korean soldiers carried out suicide bombings in Ukraine rather than face capture. DPRK troops employing extreme tactics that deepen Russia alliance and reduce ceasefire prospects."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated due to Hormuz closure",
+    "brent_crude": "Above $105",
     "wheat_futures": "Unchanged",
-    "notes": "UAE's OPEC exit weakens the cartel's oil price control while Strait of Hormuz remains effectively closed to shipping."
+    "notes": "WTI crude futures surged 12.16% to $105.88 on Iran tensions, with weekly high reaching $110.93 as Strait of Hormuz remains blocked."
   },
   "update_log": [
+    {
+      "time": "12:40 UTC",
+      "text": "NATO assessing details of US plan to withdraw 5,000 troops from Germany over next 6-12 months",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "Trump says US Navy acting like pirates to enforce Iran blockade, calls it profitable business",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Iran judiciary chief says Tehran open to US talks but won't accept policy imposition",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "WTI crude trading at $105.88, up 12.16% on Iran tensions and Strait of Hormuz closure",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:00 UTC",
       "text": "Trump rejects latest Iranian peace proposal, citing unacceptable demands",
@@ -111,5 +161,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-02T07:16:31Z"
+  "last_updated": "2026-05-02T12:40:52Z"
 }
