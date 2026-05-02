@@ -1,27 +1,66 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "No previous data",
+    "score": 6.5,
+    "delta": "No baseline available",
     "level": "Elevated",
-    "rationale": "Active US-Iran war continues with blockade of Strait of Hormuz, Trump threatening troop withdrawals from Europe over Iran policy disputes, and North Korean suicide tactics in Ukraine."
+    "rationale": "Ongoing US-Iran hostilities with contested ceasefire claims, Israeli escalation in Lebanon, and multiple alliance tensions."
   },
   "ticker_items": [
-    "Trump considers major US troop withdrawals from Germany over Iran policy feud",
-    "Iran blockade keeps Strait of Hormuz closed, 20,000 seafarers stranded",
-    "WTI crude surges above $105 on Iran tensions, weekly high $110.93",
-    "North Korean troops employ suicide bombing tactics in Ukraine conflict",
-    "UAE exits OPEC effective May 1, weakening oil cartel leverage"
+    "Trump declares Iran hostilities 'terminated' as War Powers deadline passes",
+    "Israel launches 50 airstrikes on southern Lebanon, kills 41",
+    "Ukraine hits Russian Su-57 stealth fighters 1,060 miles inside Russia",
+    "North Korean troops employ suicide tactics in Ukraine conflict",
+    "UAE exits OPEC effective May 1, weakening oil cartel"
   ],
   "new_entrant": {
     "active": false,
     "text": ""
   },
   "strikes_today": {
-    "eastern_europe": [],
-    "middle_east": []
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Shagol airbase, Chelyabinsk",
+        "description": "Ukrainian drones struck Su-57 stealth fighters and Su-34 bombers at Russian airbase",
+        "method": "Air/Drone",
+        "lat": 55.32,
+        "lng": 61.5,
+        "source_tier": "unverified"
+      }
+    ],
+    "middle_east": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israel conducted 50 airstrikes across southern Lebanon in 24-hour period",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "verified"
+      }
+    ]
   },
   "casualties": {
-    "today": [],
+    "today": [
+      {
+        "incident": "Israeli strikes on southern Lebanon",
+        "kia": "41",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Israeli assault on Lebanon woman killed",
+        "kia": "1",
+        "wia": "Multiple children",
+        "civilian": true,
+        "source_tier": "verified"
+      }
+    ],
     "claimed_totals": [
       {
         "claim": "Iran conflict deaths",
@@ -46,6 +85,18 @@
         "figure": "28",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "April 27, 2026"
+      },
+      {
+        "claim": "US-Israel attacks on Iran deaths",
+        "figure": "3,375",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 27, 2026"
+      },
+      {
+        "claim": "Lebanon deaths from conflict",
+        "figure": "2,509",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 27, 2026"
       }
     ]
   },
@@ -64,7 +115,14 @@
         "date": "April 30, 2026"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Ukraine plans to raise military wages, improve contracts and implement a phased discharge system",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "May 1, 2026"
+      }
+    ],
     "middle_east": [
       {
         "text": "US forces are 'like pirates' taking over Iranian ships and cargo near the Strait of Hormuz",
@@ -88,6 +146,18 @@
         "text": "The ongoing naval blockade of the Strait of Hormuz is a very profitable business",
         "speaker": "Donald Trump",
         "title": "US President",
+        "date": "May 2, 2026"
+      },
+      {
+        "text": "I could blast them to hell if no deal is reached",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "May 1, 2026"
+      },
+      {
+        "text": "The country must defeat its enemies in an economic and cultural struggle",
+        "speaker": "Mojtaba Khamenei",
+        "title": "Supreme Leader of Iran",
         "date": "May 2, 2026"
       }
     ]
@@ -120,11 +190,36 @@
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Above $105",
+    "brent_crude": "Elevated due to Strait of Hormuz closure",
     "wheat_futures": "Unchanged",
-    "notes": "WTI crude futures surged 12.16% to $105.88 on Iran tensions, with weekly high reaching $110.93 as Strait of Hormuz remains blocked."
+    "notes": "Iranian currency hits record low against USD as two-month conflict batters sanctions-hit economy."
   },
   "update_log": [
+    {
+      "time": "18:00 UTC",
+      "text": "Al Jazeera reports 41 killed in 50 Israeli airstrikes on southern Lebanon in 24 hours",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:30 UTC",
+      "text": "Trump declares Iran hostilities terminated as War Powers Resolution deadline arrives",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:45 UTC",
+      "text": "Ukraine reportedly strikes Russian Su-57 stealth fighters at Chelyabinsk airbase",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:20 UTC",
+      "text": "Kim Jong Un confirms North Korean soldiers used suicide tactics in Ukraine",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "UAE officially exits OPEC as third-largest producer leaves cartel",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:40 UTC",
       "text": "NATO assessing details of US plan to withdraw 5,000 troops from Germany over next 6-12 months",
@@ -161,5 +256,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-02T12:40:52Z"
+  "last_updated": "2026-05-02T18:39:44Z"
 }
