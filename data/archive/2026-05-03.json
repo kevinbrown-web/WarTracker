@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 6.8,
-    "delta": "+0.3 from yesterday",
+    "score": 7,
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "Putin directly overseeing nuclear arsenal with apocalypse warnings, continued Israeli strikes killing 12 in Lebanon, and Trump rejecting Iran's latest peace proposal amid Gulf blockade."
+    "rationale": "Multiple active conflicts with US troop withdrawals from NATO allies, ongoing strikes in Lebanon despite ceasefire, and continued Ukraine-Russia fighting with North Korean involvement."
   },
   "ticker_items": [
-    "Putin personally overseeing nuclear weapons as Russia warns of apocalypse",
-    "Trump rejects Iran's new 14-point peace proposal",
-    "Israeli strikes kill 12 in Lebanon despite ceasefire",
-    "US withdrawing 5,000 troops from Germany amid tensions",
-    "Kim Jong Un confirms North Korean suicide tactics in Ukraine"
+    "US withdrawing 5,000 troops from Germany over Iran war disagreements",
+    "Israeli strikes kill 12+ in Lebanon despite ongoing ceasefire",
+    "Ukraine drones strike Russian oil facilities deep inside territory",
+    "North Korean troops using suicide tactics in Ukraine conflict",
+    "Trump threatens troop reductions in Italy, Spain over Iran stance"
   ],
   "new_entrant": {
     "active": false,
@@ -28,6 +28,28 @@
         "lat": 56.0,
         "lng": 60.0,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Oil depots",
+        "description": "Ukrainian drones struck oil facilities deep inside Russia, sending oil prices soaring.",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Myropillia",
+        "description": "Russian forces captured Myropillia in eastern Ukraine amid ongoing conflict.",
+        "method": "Ground/Armored",
+        "lat": 48.5,
+        "lng": 38.0,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -40,6 +62,17 @@
         "method": "Air/Precision Strike",
         "lat": 33.89,
         "lng": 35.5,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli airstrikes on southern Lebanon killed at least 12 people despite ongoing ceasefire.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
         "source_tier": "verified"
       }
     ]
@@ -66,6 +99,12 @@
         "figure": "2,600+",
         "claimed_by": "Al Jazeera",
         "as_of": "2026-05-02"
+      },
+      {
+        "claim": "Deaths in Lebanon from conflict",
+        "figure": "2,509",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-27"
       }
     ]
   },
@@ -91,6 +130,18 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-05-02"
+      },
+      {
+        "text": "We are acting like pirates",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-05-02"
+      },
+      {
+        "text": "Israel may soon resume military action against Iran",
+        "speaker": "Israel Katz",
+        "title": "Israeli Defense Minister",
+        "date": "2026-04-30"
       }
     ]
   },
@@ -112,15 +163,47 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "Blocked US sanctions against five Chinese refineries accused of importing Iranian oil. Ministry of Commerce stated sanctions violate international law."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Active materiel + troops",
+      "description": "Kim Jong Un confirmed North Korean soldiers are using suicide tactics rather than face capture in Ukraine. This deepens the Russia-North Korea military alliance and reduces ceasefire prospects."
+    },
+    {
+      "country": "United Arab Emirates",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "Strategic balancer",
+      "description": "UAE announced it will leave OPEC effective May 1, stripping the oil cartel of its third-largest producer and weakening leverage over global oil supplies amid Iran conflict disruptions."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated",
+    "brent_crude": "Soaring",
     "wheat_futures": "Unchanged",
-    "notes": "Global shipping routes continue rerouting via Cape of Good Hope due to Strait of Hormuz closure and Red Sea tensions."
+    "notes": "Oil prices soaring due to Ukrainian strikes on Russian facilities and continued Strait of Hormuz closure forcing shipping route changes."
   },
   "update_log": [
+    {
+      "time": "12:00 UTC",
+      "text": "Israeli airstrikes kill at least 12 in southern Lebanon despite ceasefire agreement.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:30 UTC",
+      "text": "US announces withdrawal of 5,000 troops from Germany over Iran war disagreements.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:15 UTC",
+      "text": "Ukrainian drones strike Russian oil depots deep inside territory, sending prices soaring.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:45 UTC",
+      "text": "Russian forces capture Myropillia in eastern Ukraine amid ongoing conflict.",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:43 UTC",
       "text": "Iran submits new 14-point proposal to end war with US",
@@ -142,5 +225,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-03T07:43:58Z"
+  "last_updated": "2026-05-03T12:40:28Z"
 }
