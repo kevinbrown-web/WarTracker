@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.2,
-    "delta": "N/A - no previous score",
+    "score": 7.5,
+    "delta": "No previous data available",
     "level": "Elevated",
-    "rationale": "Multiple active conflicts persist with US-Iran war ongoing, NATO alliance strains, and continued Ukraine-Russia hostilities with North Korean involvement."
+    "rationale": "Active peace talks between US and Iran amid continued maritime attacks and troop movements signal volatile but diplomatically engaged conflict state."
   },
   "ticker_items": [
-    "Trump vows major US troop withdrawal from Germany beyond 5,000",
-    "Poland warns NATO 'disintegrating' amid alliance tensions",
-    "Ukraine strikes Russian oil port and shadow fleet tankers",
-    "Iran-US reviewing 14-point peace plan via Pakistan mediators",
-    "North Korean troops using suicide tactics in Ukraine confirmed"
+    "Iran receives US response to latest peace proposal",
+    "Cargo ship attacked near Strait of Hormuz by small boats",
+    "Trump announces US troop withdrawal from Germany expanding",
+    "Ukraine strikes Russian oil assets including shadow fleet tankers",
+    "North Korean suicide tactics confirmed in Ukraine fighting"
   ],
   "new_entrant": {
     "active": false,
@@ -50,6 +50,28 @@
         "lat": 48.47,
         "lng": 35.04,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Zaporizhzhia Nuclear Power Plant",
+        "description": "Ukrainian drone strikes radiation control laboratory at nuclear facility",
+        "method": "Air/Drone",
+        "lat": 47.5146,
+        "lng": 34.5862,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Various oil facilities",
+        "description": "Ukrainian forces target Russian oil export infrastructure and shadow fleet tankers",
+        "method": "Air/Drone",
+        "lat": 55.7558,
+        "lng": 37.6176,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -74,6 +96,17 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown craft",
+        "target_country": "Unknown",
+        "target_location": "Strait of Hormuz",
+        "description": "Multiple small boats attack cargo ship near strategic waterway",
+        "method": "Naval/USV",
+        "lat": 26.5667,
+        "lng": 56.25,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -160,6 +193,12 @@
         "speaker": "Polish Prime Minister",
         "title": "Prime Minister",
         "date": "2026-05-03"
+      },
+      {
+        "text": "We're going to cut way down, and we're cutting a lot further than 5,000.",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-05-03"
       }
     ]
   },
@@ -197,11 +236,36 @@
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Increased",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "OPEC+ announced increased oil output to support market stability following dramatic price spikes amid Strait of Hormuz closure fears."
+    "notes": "UAE departure from OPEC effective May 1 weakens cartel leverage over global oil prices amid continued Strait of Hormuz disruptions."
   },
   "update_log": [
+    {
+      "time": "19:09 UTC",
+      "text": "Iran confirms receipt of US response to latest peace proposal amid ongoing diplomatic exchanges",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Cargo vessel reports attack by multiple small boats near Strait of Hormuz",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:45 UTC",
+      "text": "Trump announces expanded US troop withdrawal from Germany beyond initial 5,000",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "Ukraine conducts strikes against Russian oil infrastructure including shadow fleet tankers",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:15 UTC",
+      "text": "Ukrainian drone reportedly strikes radiation laboratory at Zaporizhzhia Nuclear Plant",
+      "source_tier": "unverified"
+    },
     {
       "time": "13:17 UTC",
       "text": "Trump doubles down on Germany troop withdrawal, promises much larger reduction than announced 5,000",
@@ -243,5 +307,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-05-04T13:17:41Z"
+  "last_updated": "2026-05-04T19:09:55Z"
 }
