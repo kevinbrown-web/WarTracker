@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "+0.3 from yesterday",
+    "score": 7.2,
+    "delta": "N/A - no previous score",
     "level": "Elevated",
-    "rationale": "Trump rejects Iran's 14-point peace proposal while signaling potential new military action as Israel continues strikes on Iranian petrochemical facilities."
+    "rationale": "Multiple active conflicts persist with US-Iran war ongoing, NATO alliance strains, and continued Ukraine-Russia hostilities with North Korean involvement."
   },
   "ticker_items": [
-    "Trump dismisses Iran's new 14-point peace proposal",
-    "US withdrawing 5,000+ troops from Germany, more cuts planned",
-    "Israeli strikes continue on Iran petrochemical sites",
-    "Russia launches 1,600 drones, 1,100 bombs in Ukraine escalation",
-    "Iran war enters day 65 with no ceasefire breakthrough"
+    "Trump vows major US troop withdrawal from Germany beyond 5,000",
+    "Poland warns NATO 'disintegrating' amid alliance tensions",
+    "Ukraine strikes Russian oil port and shadow fleet tankers",
+    "Iran-US reviewing 14-point peace plan via Pakistan mediators",
+    "North Korean troops using suicide tactics in Ukraine confirmed"
   ],
   "new_entrant": {
     "active": false,
@@ -27,6 +27,28 @@
         "method": "Air/Drone",
         "lat": 50.45,
         "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Baltic Sea oil loading port",
+        "description": "Ukraine launched strikes against Russian oil targets hitting key loading port and two shadow fleet tankers.",
+        "method": "Air/Drone",
+        "lat": 59.95,
+        "lng": 30.3,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Dnipropetrovsk region",
+        "description": "Russian drone struck near bus carrying 40 children heading to western Ukraine resort.",
+        "method": "Air/Drone",
+        "lat": 48.47,
+        "lng": 35.04,
         "source_tier": "unverified"
       }
     ],
@@ -63,6 +85,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Bus near-miss drone strike",
+        "kia": "0",
+        "wia": "0",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -75,6 +104,24 @@
       {
         "claim": "Lebanon war deaths",
         "figure": "~2,509",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-27"
+      },
+      {
+        "claim": "US-Israel attacks on Iran deaths",
+        "figure": "3,375",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-27"
+      },
+      {
+        "claim": "Lebanon conflict deaths",
+        "figure": "2,509",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-04-27"
+      },
+      {
+        "claim": "Gulf states deaths",
+        "figure": "28",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-04-27"
       }
@@ -95,6 +142,24 @@
         "speaker": "Israel Katz",
         "title": "Israeli Defense Minister",
         "date": "2026-04-30"
+      },
+      {
+        "text": "Any US interference in the new maritime regime of the Strait of Hormuz will be considered a direct violation of the ceasefire",
+        "speaker": "Iranian parliamentarian",
+        "title": "Senior MP",
+        "date": "2026-05-03"
+      },
+      {
+        "text": "I can't imagine it will be acceptable",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-05-03"
+      },
+      {
+        "text": "The greatest threat to the transatlantic community are not its external enemies, but the ongoing disintegration of our alliance",
+        "speaker": "Polish Prime Minister",
+        "title": "Prime Minister",
+        "date": "2026-05-03"
       }
     ]
   },
@@ -116,15 +181,47 @@
       "flag": "\ud83c\udde6\ud83c\uddea",
       "status": "Strategic balancer",
       "description": "The UAE announced its departure from OPEC effective May 1, 2026, weakening the oil cartel's leverage over global prices amid ongoing Iran war disruptions. The move strips OPEC of its third-largest producer during a critical period of Middle Eastern energy instability."
+    },
+    {
+      "country": "Poland",
+      "flag": "\ud83c\uddf5\ud83c\uddf1",
+      "status": "Strategic balancer",
+      "description": "Poland's Prime Minister warned of NATO's disintegration, citing internal alliance threats over external enemies. This reflects growing concerns about transatlantic unity amid multiple global crises and shifting US commitments."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan continues serving as intermediary between US and Iran, facilitating delivery of Iranian 14-point peace plan and US response. Playing crucial diplomatic role in potential conflict de-escalation efforts."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated",
+    "brent_crude": "Increased",
     "wheat_futures": "Unchanged",
-    "notes": "UAE's OPEC exit weakens cartel leverage while Iran war shipping disruptions continue rerouting 70% of Red Sea traffic around Africa."
+    "notes": "OPEC+ announced increased oil output to support market stability following dramatic price spikes amid Strait of Hormuz closure fears."
   },
   "update_log": [
+    {
+      "time": "13:17 UTC",
+      "text": "Trump doubles down on Germany troop withdrawal, promises much larger reduction than announced 5,000",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:45 UTC",
+      "text": "Iran confirms reviewing US response to 14-point peace plan delivered via Pakistani intermediaries",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:30 UTC",
+      "text": "Ukraine conducts wave of strikes on Russian oil infrastructure including Baltic port and tankers",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:15 UTC",
+      "text": "Polish PM warns NATO facing internal disintegration as greatest threat to alliance",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:12 UTC",
       "text": "Trump dismisses Iran's new 14-point peace proposal while keeping military options open",
@@ -146,5 +243,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-05-04T08:12:32Z"
+  "last_updated": "2026-05-04T13:17:41Z"
 }
