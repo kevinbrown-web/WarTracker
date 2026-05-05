@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.8,
-    "delta": "+0.3 from yesterday",
+    "score": 7.5,
+    "delta": "No previous score available",
     "level": "Elevated",
-    "rationale": "US forces preparing to escort ships through Strait of Hormuz while Iran threatens attacks, plus continued Russian desertion crisis and drone strikes on Moscow."
+    "rationale": "Iranian missile strikes on UAE and Dubai amid ongoing US-Iran Strait of Hormuz standoff significantly escalate Middle East tensions."
   },
   "ticker_items": [
-    "Trump pledges US forces to guide ships through Strait of Hormuz",
-    "Drone hits upscale Moscow residential tower ahead of Victory Day parade",
-    "US closing Gaza ceasefire monitoring center as peace efforts stagnate",
-    "Iran gives US 30-day deadline on 14-point peace plan counteroffer",
-    "Russia faces army desertion crisis in Ukraine operations"
+    "Iran launches missile attacks on UAE, Dubai flights disrupted",
+    "Ukraine reports 800+ Russian drone strikes on ports in 2026",
+    "Drone hits Moscow high-rise near Kremlin ahead of Victory Day",
+    "US cuts thousands of troops from Germany, more reductions planned",
+    "Putin fears coup attempt, orders massive security boost"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "UAE officially targeted by Iranian missiles in significant escalation of regional conflict."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -27,6 +27,28 @@
         "method": "Air/Drone",
         "lat": 55.75,
         "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Moscow",
+        "description": "Ukrainian drone struck high-rise apartment building kilometers from Kremlin",
+        "method": "Air/Drone",
+        "lat": 55.7558,
+        "lng": 37.6173,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kharkiv region",
+        "description": "Russian missile attack killed six people and wounded others in eastern region",
+        "method": "Missile/Surface",
+        "lat": 49.9935,
+        "lng": 36.2304,
         "source_tier": "unverified"
       }
     ],
@@ -41,15 +63,40 @@
         "lat": 32.8,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "UAE",
+        "target_location": "Dubai",
+        "description": "Iranian ballistic missile attacks prompted emergency alerts and flight disruptions",
+        "method": "Ballistic Missile",
+        "lat": 25.2048,
+        "lng": 55.2708,
+        "source_tier": "unverified"
       }
     ]
   },
   "casualties": {
-    "today": [],
+    "today": [
+      {
+        "incident": "Kharkiv missile attack",
+        "kia": "6",
+        "wia": "Several",
+        "civilian": true,
+        "source_tier": "unverified"
+      }
+    ],
     "claimed_totals": [
       {
         "claim": "Iran war casualties",
         "figure": "3,375 dead in Iran, 2,509 dead in Lebanon, 28 killed in Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "April 27, 2026"
+      },
+      {
+        "claim": "Iran conflict deaths",
+        "figure": "3,375 in Iran, 2,509 in Lebanon, 28 in Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "April 27, 2026"
       }
@@ -57,13 +104,26 @@
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Ukrainian drones could menace Putin's Victory Day parade",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "May 4, 2026"
+      }
+    ],
     "middle_east": [
       {
         "text": "US forces entering the Strait will be attacked",
         "speaker": "Iranian officials",
         "title": "Government representatives",
         "date": "2026-05-04"
+      },
+      {
+        "text": "The US must abandon its excessive demands as Iran-US talks to end the Middle East war remain stalled",
+        "speaker": "Foreign Ministry Spokesman",
+        "title": "Iran Foreign Ministry",
+        "date": "May 4, 2026"
       }
     ]
   },
@@ -85,15 +145,41 @@
       "flag": "\ud83c\udde6\ud83c\uddea",
       "status": "Strategic balancer",
       "description": "UAE left OPEC effective May 1, weakening the oil cartel's leverage. Israel reportedly supplied Iron Beam laser defense systems to UAE during Iran war."
+    },
+    {
+      "country": "Canada",
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "status": "Supplying dual-use goods",
+      "description": "Prime Minister Carney announced $270 million commitment to Ukraine for critical military capabilities at European summit in Armenia."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "UAE departure from OPEC weakens cartel's control over global oil prices amid ongoing Strait of Hormuz blockade."
+    "notes": "TTF gas futures swung from 3% loss to 1.3% gain on Iran-US Hormuz standoff developments."
   },
   "update_log": [
+    {
+      "time": "13:05 UTC",
+      "text": "Iranian missile attacks on UAE prompt emergency alerts in Dubai, flight operations disrupted",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "Ukraine reports tenfold increase in Russian drone attacks on port infrastructure in 2026",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:45 UTC",
+      "text": "Drone strikes Moscow high-rise building near Kremlin ahead of Victory Day parade",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:15 UTC",
+      "text": "Canada commits additional $270 million in military aid to Ukraine at Armenia summit",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:50 UTC",
       "text": "Trump announces US effort to guide ships through Strait of Hormuz beginning Monday morning",
@@ -115,5 +201,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-05T07:50:53Z"
+  "last_updated": "2026-05-05T13:05:06Z"
 }
