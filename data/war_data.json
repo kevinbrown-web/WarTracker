@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "No previous score available",
-    "level": "Elevated",
-    "rationale": "Iranian missile strikes on UAE and Dubai amid ongoing US-Iran Strait of Hormuz standoff significantly escalate Middle East tensions."
+    "score": 8.5,
+    "delta": "No previous data",
+    "level": "High",
+    "rationale": "Iranian missile attacks on UAE ports, US-Iran ceasefire collapsing, tactical nuclear weapons warnings from Ukraine, and multiple active conflict zones."
   },
   "ticker_items": [
-    "Iran launches missile attacks on UAE, Dubai flights disrupted",
-    "Ukraine reports 800+ Russian drone strikes on ports in 2026",
-    "Drone hits Moscow high-rise near Kremlin ahead of Victory Day",
-    "US cuts thousands of troops from Germany, more reductions planned",
-    "Putin fears coup attempt, orders massive security boost"
+    "Iran strikes UAE oil port, oil surges to $114",
+    "US-Iran ceasefire appears collapsing after Persian Gulf exchange",
+    "Ukrainian commander warns Putin preparing tactical nuclear weapons",
+    "Russia announces May 8-9 ceasefire for Victory Day celebrations",
+    "Trump orders Navy to escort ships through Strait of Hormuz"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "UAE officially targeted by Iranian missiles in significant escalation of regional conflict."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -74,6 +74,28 @@
         "lat": 25.2048,
         "lng": 55.2708,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "UAE",
+        "target_location": "Oil port facilities",
+        "description": "Iranian forces fired at least four missiles at UAE with three intercepted over territorial waters",
+        "method": "Missile/Surface",
+        "lat": 25.2048,
+        "lng": 55.2708,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon convent",
+        "description": "IDF confirmed operation against convent claiming Hezbollah was using compound to attack Israel",
+        "method": "Air/Precision Strike",
+        "lat": 33.5,
+        "lng": 35.3,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -99,17 +121,54 @@
         "figure": "3,375 in Iran, 2,509 in Lebanon, 28 in Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "April 27, 2026"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-05"
+      },
+      {
+        "claim": "Lebanon deaths from conflict",
+        "figure": "2,702",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-05"
+      },
+      {
+        "claim": "Gulf states deaths",
+        "figure": "28",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-05"
+      },
+      {
+        "claim": "Lebanese rescue workers killed",
+        "figure": "~100",
+        "claimed_by": "Lebanese rescue services",
+        "as_of": "Since March 2026"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "The Russian Armed Forces will take all necessary measures to ensure security during celebratory events",
+        "speaker": "Russian Ministry of Defense",
+        "title": "Official Statement",
+        "date": "2026-05-04"
+      }
+    ],
     "ukraine": [
       {
         "text": "Ukrainian drones could menace Putin's Victory Day parade",
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "May 4, 2026"
+      },
+      {
+        "text": "Vladimir Putin is planning to use 'tactical nuclear weapons' to hit crucial targets",
+        "speaker": "Ukrainian Military Commander",
+        "title": "Top Ukraine Military Commander",
+        "date": "2026-05-04"
       }
     ],
     "middle_east": [
@@ -124,6 +183,18 @@
         "speaker": "Foreign Ministry Spokesman",
         "title": "Iran Foreign Ministry",
         "date": "May 4, 2026"
+      },
+      {
+        "text": "Iran should 'wave the white flag of surrender' in the war",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-05-05"
+      },
+      {
+        "text": "No talks will take place with Israel until attacks being carried out by the occupying regime against the Arab country stop",
+        "speaker": "Nabih Berri",
+        "title": "Lebanon's Parliament Speaker",
+        "date": "2026-05-04"
       }
     ]
   },
@@ -151,15 +222,41 @@
       "flag": "\ud83c\udde8\ud83c\udde6",
       "status": "Supplying dual-use goods",
       "description": "Prime Minister Carney announced $270 million commitment to Ukraine for critical military capabilities at European summit in Armenia."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "Trump confirms his planned visit to China will proceed as scheduled despite global tensions. Analysts emphasize the crucial nature of the leaders' summit for managing rising global risks and uncertainty."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "$114",
     "wheat_futures": "Unchanged",
-    "notes": "TTF gas futures swung from 3% loss to 1.3% gain on Iran-US Hormuz standoff developments."
+    "notes": "Oil surged to $114 following Iranian strikes on UAE port as US-Iran ceasefire appears to collapse."
   },
   "update_log": [
+    {
+      "time": "19:01 UTC",
+      "text": "Iranian missile attacks on UAE oil facilities send oil prices to $114 per barrel",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:45 UTC",
+      "text": "US-Iran ceasefire appears collapsing after violent Persian Gulf exchange",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Ukrainian commander warns Putin preparing to use tactical nuclear weapons",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:15 UTC",
+      "text": "Russia announces ceasefire May 8-9 for Victory Day celebrations",
+      "source_tier": "unverified"
+    },
     {
       "time": "13:05 UTC",
       "text": "Iranian missile attacks on UAE prompt emergency alerts in Dubai, flight operations disrupted",
@@ -201,5 +298,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-05T13:05:06Z"
+  "last_updated": "2026-05-05T19:01:28Z"
 }
