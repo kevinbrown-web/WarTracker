@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.7,
-    "delta": "+0.2 from yesterday",
-    "level": "High",
-    "rationale": "Multiple active conflicts with US-Iran confrontation in Strait of Hormuz, competing ceasefires failing, and missing US oil tanker escalating tensions."
+    "score": 7.2,
+    "delta": "N/A - first assessment",
+    "level": "Elevated",
+    "rationale": "Iranian missile attacks on UAE oil infrastructure for second day, US oil tanker missing in Strait of Hormuz amid Project Freedom operations, and continued strikes in Ukraine before ceasefire deadline."
   },
   "ticker_items": [
-    "US oil tanker vanishes in Strait of Hormuz during Project Freedom",
-    "Russia kills 20+ in Ukraine strikes despite ceasefire talks",
-    "Iran threatens European bases amid Hormuz standoff",
-    "Ukraine doubles medium-range drone strikes on Russian forces",
-    "North Korean suicide tactics confirmed in Ukraine war"
+    "Iranian strikes hit UAE oil infrastructure second consecutive day",
+    "US oil tanker vanishes in Strait of Hormuz during escort operations",
+    "Russian strikes kill 22 in Ukraine before ceasefire deadline",
+    "Israel bombs Beirut suburbs targeting Hezbollah commander",
+    "US helicopters sink Iranian boats clearing Strait of Hormuz"
   ],
   "new_entrant": {
     "active": false,
@@ -61,6 +61,28 @@
         "lat": 55.76,
         "lng": 37.62,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kramatorsk",
+        "description": "Russian glide bombs struck the eastern city killing civilians before ceasefire deadline.",
+        "method": "Air/Precision Strike",
+        "lat": 48.72,
+        "lng": 37.56,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Dnipro",
+        "description": "Massive missile and drone assault injured 30 people in the city.",
+        "method": "Missile/Surface",
+        "lat": 48.46,
+        "lng": 35.04,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -96,6 +118,28 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "UAE",
+        "target_location": "Oil infrastructure",
+        "description": "Iranian missiles and drones targeted UAE oil facilities for second consecutive day.",
+        "method": "Missile/Surface",
+        "lat": 24.45,
+        "lng": 54.38,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut southern suburbs",
+        "description": "Israeli strike targeted Hezbollah commander in first attack since April 17 truce.",
+        "method": "Air/Precision Strike",
+        "lat": 33.84,
+        "lng": 35.49,
+        "source_tier": "verified"
       }
     ]
   },
@@ -121,6 +165,13 @@
         "wia": "30",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Ukraine strikes before ceasefire",
+        "kia": "22",
+        "wia": "45",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -135,12 +186,31 @@
         "figure": "3,468 Iran, 2,702 Lebanon, 28 Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-05-05"
+      },
+      {
+        "claim": "Iranian casualties from US-Israel attacks",
+        "figure": "3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-05"
+      },
+      {
+        "claim": "Lebanese casualties from conflict",
+        "figure": "2,702",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-05"
       }
     ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Russia could cease fire at any moment, and this would stop the war and our responses",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President",
+        "date": "2026-05-05"
+      }
+    ],
     "middle_east": [
       {
         "text": "The operation is over. Epic Fury is - the President notified Congress we're done with that stage of it. We're now on to this Project Freedom.",
@@ -153,6 +223,12 @@
         "speaker": "Nabih Berri",
         "title": "Lebanon Parliament Speaker",
         "date": "2026-05-04"
+      },
+      {
+        "text": "Iran has attained an elevated international standing",
+        "speaker": "Iranian Foreign Minister",
+        "title": "Foreign Minister",
+        "date": "2026-05-06"
       }
     ]
   },
@@ -178,11 +254,31 @@
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices remain elevated due to Strait of Hormuz tensions and missing US tanker incident."
+    "notes": "UAE announced departure from OPEC effective May 1, weakening the oil cartel's leverage over global supplies."
   },
   "update_log": [
+    {
+      "time": "19:17 UTC",
+      "text": "Iranian strikes target UAE oil infrastructure for second consecutive day amid shaky US-Iran ceasefire",
+      "source_tier": "verified"
+    },
+    {
+      "time": "19:17 UTC",
+      "text": "US oil tanker vanishes from tracking in Strait of Hormuz during Project Freedom escort operations",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:17 UTC",
+      "text": "Russian strikes kill 22 civilians across Ukraine before announced ceasefire deadline",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:17 UTC",
+      "text": "Israel bombs Beirut southern suburbs targeting Hezbollah commander in first attack since April truce",
+      "source_tier": "verified"
+    },
     {
       "time": "13:00 UTC",
       "text": "US oil tanker disappeared from tracking systems in Strait of Hormuz during Project Freedom operation",
@@ -209,5 +305,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-06T13:24:41Z"
+  "last_updated": "2026-05-06T19:17:16Z"
 }
