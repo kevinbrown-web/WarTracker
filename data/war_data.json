@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.8,
-    "delta": "+0.6 from yesterday",
-    "level": "High",
-    "rationale": "Multiple active conflicts show simultaneous escalation: Russian strikes killed 27 before Ukraine ceasefire, Israel struck Beirut ending Lebanon ceasefire, while US-Iran war talks show progress but fighting continues."
+    "score": 7.5,
+    "delta": "No previous baseline",
+    "level": "Elevated",
+    "rationale": "Multiple ceasefire violations, NATO tensions with Russian drone incursions, and ongoing US-Israel operations against Iran."
   },
   "ticker_items": [
-    "Russia kills 27 in Ukraine hours before proposed ceasefire deadline",
-    "Israel strikes Beirut for first time since Lebanon ceasefire ended",
-    "Trump pauses Strait of Hormuz operations citing Iran deal progress",
-    "Ukraine hits Russian military site 370 miles from Moscow with homegrown missiles",
-    "North Korea officially drops reunification goal from constitution"
+    "Russia violates Ukraine ceasefire, strikes cities causing dozens of casualties",
+    "US pauses Strait of Hormuz escort operations citing Iran talks progress",
+    "Russian drones enter Romanian airspace escalating NATO tensions",
+    "Turkey unveils first ICBM with 6,000km range capability",
+    "Israel continues strikes on Lebanon despite ongoing ceasefire"
   ],
   "new_entrant": {
     "active": false,
@@ -39,6 +39,28 @@
         "lat": 56.13,
         "lng": 47.25,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple cities",
+        "description": "Russian forces struck Ukrainian cities in ceasefire violation leaving dozens dead and wounded",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Romania",
+        "target_location": "Romanian airspace",
+        "description": "Russian drones violated Romanian airspace escalating NATO tensions",
+        "method": "Air/Drone",
+        "lat": 45.94,
+        "lng": 24.97,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -63,6 +85,28 @@
         "lat": 31.5,
         "lng": 34.47,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern and eastern Lebanon",
+        "description": "Israeli drone and airstrikes killed seven people including paramedics despite ceasefire",
+        "method": "Air/Drone",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "US",
+        "target_country": "Iran",
+        "target_location": "Strait of Hormuz",
+        "description": "US Apache and Seahawk helicopters sank half dozen Iranian small boats clearing threats",
+        "method": "Air/Precision Strike",
+        "lat": 26.57,
+        "lng": 56.25,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -81,6 +125,20 @@
         "wia": "1",
         "civilian": false,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Russian ceasefire violation strikes",
+        "kia": "dozens",
+        "wia": "dozens",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes on Lebanon",
+        "kia": "7",
+        "wia": "6",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -95,6 +153,12 @@
         "figure": "2,702",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-05-05"
+      },
+      {
+        "claim": "Iran war casualties",
+        "figure": "~3,468 dead in Iran, ~2,702 dead in Lebanon, 28 killed in Gulf states",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-05-05"
       }
     ]
   },
@@ -106,6 +170,12 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "President",
         "date": "2026-05-06"
+      },
+      {
+        "text": "Russia violated the ceasefire; nothing binds us anymore",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President",
+        "date": "2026-05-06"
       }
     ],
     "middle_east": [
@@ -113,6 +183,12 @@
         "text": "great progress toward a comprehensive agreement with Iran",
         "speaker": "Donald Trump",
         "title": "US President",
+        "date": "2026-05-06"
+      },
+      {
+        "text": "Safe transit will be ensured with new procedures in place",
+        "speaker": "IRGC Navy",
+        "title": "Islamic Revolutionary Guard Corps",
         "date": "2026-05-06"
       }
     ]
@@ -135,15 +211,41 @@
       "flag": "\ud83c\uddeb\ud83c\uddee",
       "status": "Supplying dual-use goods",
       "description": "Finnish defense company offering technology sharing with Australia as European nations seek closer security ties. Finland advocates EU preparation for renewed dialogue with Russia if US Ukraine policy diverges from European approach."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Strategic balancer",
+      "description": "US announces withdrawal of 5,000 troops from Germany causing NATO crisis. German-US relationship faces stress test as Iran war continues. Opposition MP says Berlin is 'not neutral' in current conflicts."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "UAE announced departure from OPEC effective May 1, weakening cartel leverage over global oil supplies amid Iran war disruptions."
+    "notes": "UAE announces departure from OPEC effective May 1st weakening cartel's leverage over global oil supplies."
   },
   "update_log": [
+    {
+      "time": "13:23 UTC",
+      "text": "Russia strikes Ukrainian cities in ceasefire violation causing dozens of casualties",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:45 UTC",
+      "text": "US pauses Strait of Hormuz escort operations citing progress in Iran talks",
+      "source_tier": "verified"
+    },
+    {
+      "time": "11:30 UTC",
+      "text": "Israeli strikes on Lebanon kill seven including paramedics despite ceasefire",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:15 UTC",
+      "text": "Russian drones violate Romanian airspace escalating NATO tensions",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:00 UTC",
       "text": "Israeli strike on Gaza wounds son of Hamas leader al-Hayya",
@@ -170,5 +272,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-07T08:10:04Z"
+  "last_updated": "2026-05-07T13:23:52Z"
 }
