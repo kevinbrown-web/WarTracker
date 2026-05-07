@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "No previous baseline",
+    "score": 7,
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "Multiple ceasefire violations, NATO tensions with Russian drone incursions, and ongoing US-Israel operations against Iran."
+    "rationale": "Multiple ceasefire violations across Ukraine-Russia and Lebanon-Israel theaters, with Russian drones entering Romanian airspace escalating NATO tensions."
   },
   "ticker_items": [
-    "Russia violates Ukraine ceasefire, strikes cities causing dozens of casualties",
-    "US pauses Strait of Hormuz escort operations citing Iran talks progress",
+    "Russia fires dozens of drones at Ukraine violating ceasefire",
     "Russian drones enter Romanian airspace escalating NATO tensions",
-    "Turkey unveils first ICBM with 6,000km range capability",
-    "Israel continues strikes on Lebanon despite ongoing ceasefire"
+    "Iran attacks UAE and ships in Strait of Hormuz",
+    "Israeli strikes kill 6+ in southern Lebanon despite ceasefire",
+    "US withdraws 5,000 troops from Germany amid NATO crisis"
   ],
   "new_entrant": {
     "active": false,
@@ -61,6 +61,28 @@
         "lat": 45.94,
         "lng": 24.97,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple cities",
+        "description": "Russia fired dozens of drones at Ukrainian cities in nighttime attacks violating unilateral ceasefire.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Romania",
+        "target_location": "Romanian airspace",
+        "description": "Russian drones entered Romanian airspace escalating NATO tensions.",
+        "method": "Air/Drone",
+        "lat": 45.94,
+        "lng": 24.97,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -104,6 +126,39 @@
         "target_location": "Strait of Hormuz",
         "description": "US Apache and Seahawk helicopters sank half dozen Iranian small boats clearing threats",
         "method": "Air/Precision Strike",
+        "lat": 26.57,
+        "lng": 56.25,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli drone and airstrikes hit southern and eastern Lebanon killing at least 6 people.",
+        "method": "Air/Drone",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "UAE",
+        "target_location": "UAE",
+        "description": "Iran launched missile and drone attack on UAE since April 8 ceasefire.",
+        "method": "Missile/Surface",
+        "lat": 24.29,
+        "lng": 54.69,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "UAE",
+        "target_location": "Strait of Hormuz",
+        "description": "Iran fired two drones at ship in Strait of Hormuz.",
+        "method": "Air/Drone",
         "lat": 26.57,
         "lng": 56.25,
         "source_tier": "unverified"
@@ -159,6 +214,18 @@
         "figure": "~3,468 dead in Iran, ~2,702 dead in Lebanon, 28 killed in Gulf states",
         "claimed_by": "Al Jazeera",
         "as_of": "2026-05-05"
+      },
+      {
+        "claim": "Iranian casualties from US-Israel attacks",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "May 5, 2026"
+      },
+      {
+        "claim": "Lebanese casualties from Israeli attacks",
+        "figure": "~2,702",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "May 5, 2026"
       }
     ]
   },
@@ -176,6 +243,12 @@
         "speaker": "Volodymyr Zelensky",
         "title": "President",
         "date": "2026-05-06"
+      },
+      {
+        "text": "Russia violated the ceasefire; nothing binds us anymore",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "May 6, 2026"
       }
     ],
     "middle_east": [
@@ -221,11 +294,36 @@
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Sharp decline -7%",
     "wheat_futures": "Unchanged",
-    "notes": "UAE announces departure from OPEC effective May 1st weakening cartel's leverage over global oil supplies."
+    "notes": "Oil prices crashed as traders removed geopolitical risk premiums, with airlines having spent 56.4% more on jet fuel after Iran war started."
   },
   "update_log": [
+    {
+      "time": "19:22 UTC",
+      "text": "Russian drones enter Romanian airspace escalating NATO tensions amid ceasefire violations",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "Israeli strikes kill at least 6 in southern Lebanon despite ongoing ceasefire",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:30 UTC",
+      "text": "Iran launches first attack on UAE since April 8 ceasefire and fires drones at Strait of Hormuz ship",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:45 UTC",
+      "text": "Russia fires dozens of drones at Ukraine violating unilateral ceasefire announced by Kyiv",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:20 UTC",
+      "text": "Pentagon announces withdrawal of 5,000 US troops from Germany amid NATO crisis",
+      "source_tier": "unverified"
+    },
     {
       "time": "13:23 UTC",
       "text": "Russia strikes Ukrainian cities in ceasefire violation causing dozens of casualties",
@@ -272,5 +370,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-07T13:23:52Z"
+  "last_updated": "2026-05-07T19:22:22Z"
 }
