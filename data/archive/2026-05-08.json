@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.3,
-    "delta": "+0.3 from yesterday",
+    "score": 7.5,
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "Russian drones entered Romanian airspace escalating NATO tensions while US-Iran forces traded fire in Strait of Hormuz amid ceasefire violations."
+    "rationale": "Multiple active conflicts with Israel breaking Lebanon ceasefire, Russia-Ukraine tensions over May 9 security, and ongoing US-Iran war with Strait of Hormuz blockade."
   },
   "ticker_items": [
-    "Russian drones enter Romanian airspace, escalating NATO tensions",
-    "US-Iran forces clash in Strait of Hormuz amid ceasefire violations",
-    "Israel strikes Beirut suburbs, kills Hezbollah Radwan commander",
-    "North Korea declares nuclear state status permanent in new constitution",
-    "Ukraine approved for $374M precision bomb kit sale"
+    "Israel strikes Beirut suburbs, breaks month-long ceasefire with Lebanon",
+    "Russia boosts Putin security amid Ukrainian assassination fears",
+    "Iran seizes oil tanker in Gulf of Oman",
+    "Turkey unveils first ICBM with 6,000km range",
+    "US awaits Iran response to latest ceasefire proposal"
   ],
   "new_entrant": {
     "active": false,
@@ -27,6 +27,17 @@
         "method": "Air/Drone",
         "lat": 45.9432,
         "lng": 24.9668,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Caspian Sea",
+        "description": "Ukrainian military hit Russian missile carrier warship in Caspian Sea strike",
+        "method": "Air/Precision Strike",
+        "lat": 42.0,
+        "lng": 50.0,
         "source_tier": "unverified"
       }
     ],
@@ -50,6 +61,28 @@
         "description": "US forces engaged Iranian forces in Strait of Hormuz amid ceasefire violations",
         "method": "Naval/USV",
         "lat": 26.5667,
+        "lng": 56.25,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut suburbs",
+        "description": "Israeli warplanes struck Beirut southern suburbs targeting Hezbollah Radwan Force commander",
+        "method": "Air/Precision Strike",
+        "lat": 33.85,
+        "lng": 35.48,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "US",
+        "target_country": "Iran",
+        "target_location": "Strait of Hormuz",
+        "description": "US Apache and Seahawk helicopters sank half dozen Iranian small boats",
+        "method": "Naval/USV",
+        "lat": 26.57,
         "lng": 56.25,
         "source_tier": "unverified"
       }
@@ -77,11 +110,36 @@
         "figure": "~2,702",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-05-05"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-05-05"
+      },
+      {
+        "claim": "Lebanon conflict deaths",
+        "figure": "~2,702",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-05-05"
+      },
+      {
+        "claim": "Gulf states deaths",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-05-05"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "All Russian troop groups in the special operation zone will completely cease hostilities for the duration of the ceasefire declared by Russia",
+        "speaker": "Russian Defense Ministry",
+        "title": "Ministry Spokesperson",
+        "date": "2026-05-07"
+      }
+    ],
     "ukraine": [
       {
         "text": "Putin only cares about parades, not human lives",
@@ -95,6 +153,12 @@
         "text": "A deal with Iran was very possible but threatened to again bomb the country if negotiations fell apart",
         "speaker": "Donald Trump",
         "title": "US President",
+        "date": "2026-05-07"
+      },
+      {
+        "text": "The United States and the Israeli regime must recognize the rights of the Iranian nation to pave the way for putting an end to the war",
+        "speaker": "Iranian Defense Ministry Spokesperson",
+        "title": "Ministry Spokesperson",
         "date": "2026-05-07"
       }
     ]
@@ -111,15 +175,53 @@
       "flag": "\ud83c\udde9\ud83c\uddea",
       "status": "Strategic balancer",
       "description": "Criticized by Trump advisor as betraying US during Iran war alongside Italy and Spain. Dmitry Medvedev accused Germany of militarization and revanchism ahead of Victory Day."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Strategic balancer",
+      "description": "Turkey unveiled its first intercontinental ballistic missile, the Yildirimhan ICBM, with 6,000km range and Mach 25 speed capability. The development significantly enhances Turkey's strategic deterrent capabilities amid regional tensions."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Active materiel + troops",
+      "description": "North Korea declared it is not bound by nuclear non-proliferation treaties and revised constitution to drop reunification references. Kim Jong Un was formally designated as head of nuclear forces, signaling permanent adversarial stance toward South Korea."
+    },
+    {
+      "country": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "status": "Active materiel + troops",
+      "description": "US approved $374 million bomb kit sales to Ukraine while awaiting Iran's response to latest ceasefire proposal. Secretary Rubio visiting Vatican to mend ties after Trump's criticism of Pope Leo XIV over Iran war."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "European stocks set for muted open as investors await peace proposal developments."
+    "notes": "Asian stocks soared and oil prices fell after Trump indicated potential Iran deal progress."
   },
   "update_log": [
+    {
+      "time": "Unknown",
+      "text": "Iran seizes Barbados-flagged oil tanker Ocean Koi in Gulf of Oman",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Israel strikes Beirut suburbs targeting Hezbollah commander, breaking ceasefire",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Russia boosts Putin security amid Ukrainian assassination threat warnings",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Turkey unveils Yildirimhan ICBM with 6,000km range capability",
+      "source_tier": "verified"
+    },
     {
       "time": "07:12 UTC",
       "text": "Russian drones entered Romanian airspace escalating NATO-Russia tensions",
@@ -141,5 +243,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-08T07:12:45Z"
+  "last_updated": "2026-05-08T13:03:56Z"
 }
