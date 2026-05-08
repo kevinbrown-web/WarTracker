@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "No previous data",
+    "score": 7.0,
+    "delta": "Unknown (no previous data)",
     "level": "Elevated",
-    "rationale": "Multiple active conflicts with Israel breaking Lebanon ceasefire, Russia-Ukraine tensions over May 9 security, and ongoing US-Iran war with Strait of Hormuz blockade."
+    "rationale": "Russian unilateral ceasefire declaration amid threats to strike Kyiv on Victory Day, combined with Ukraine's major drone offensive and US-Iran naval clashes in Strait of Hormuz."
   },
   "ticker_items": [
-    "Israel strikes Beirut suburbs, breaks month-long ceasefire with Lebanon",
-    "Russia boosts Putin security amid Ukrainian assassination fears",
-    "Iran seizes oil tanker in Gulf of Oman",
-    "Turkey unveils first ICBM with 6,000km range",
-    "US awaits Iran response to latest ceasefire proposal"
+    "Russia declares 3-day ceasefire for Victory Day parade",
+    "Ukraine launches second-biggest drone attack of war",
+    "US helicopters sink Iranian boats in Strait of Hormuz",
+    "Israeli strikes break month-long Lebanon ceasefire lull",
+    "North Korea drops reunification from constitution"
   ],
   "new_entrant": {
     "active": false,
@@ -38,6 +38,17 @@
         "method": "Air/Precision Strike",
         "lat": 42.0,
         "lng": 50.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Multiple locations",
+        "description": "Ukraine launches second-biggest drone attack of war amid Victory Day preparations",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.61,
         "source_tier": "unverified"
       }
     ],
@@ -85,6 +96,28 @@
         "lat": 26.57,
         "lng": 56.25,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut southern suburbs",
+        "description": "Israeli warplanes strike Beirut suburbs targeting Hezbollah commander, breaking month-long ceasefire",
+        "method": "Air/Precision Strike",
+        "lat": 33.83,
+        "lng": 35.48,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Strait of Hormuz",
+        "description": "US Apache and Seahawk helicopters sink half dozen Iranian small boats while clearing shipping threats",
+        "method": "Naval/USV",
+        "lat": 26.57,
+        "lng": 56.25,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -128,6 +161,12 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera",
         "as_of": "2026-05-05"
+      },
+      {
+        "claim": "US-Israel attacks on Iran casualties",
+        "figure": "~3,468 dead in Iran, ~2,702 dead in Lebanon, ~28 in Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "May 2026"
       }
     ]
   },
@@ -143,6 +182,12 @@
     "ukraine": [
       {
         "text": "Putin only cares about parades, not human lives",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President of Ukraine",
+        "date": "2026-05-07"
+      },
+      {
+        "text": "Ukrainian President Volodymyr Zelensky warned allies of Russia against attending its 9 May World War II victory parade",
         "speaker": "Volodymyr Zelensky",
         "title": "President of Ukraine",
         "date": "2026-05-07"
@@ -193,15 +238,58 @@
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "status": "Active materiel + troops",
       "description": "US approved $374 million bomb kit sales to Ukraine while awaiting Iran's response to latest ceasefire proposal. Secretary Rubio visiting Vatican to mend ties after Trump's criticism of Pope Leo XIV over Iran war."
+    },
+    {
+      "country": "Belarus",
+      "flag": "\ud83c\udde7\ud83c\uddfe",
+      "status": "Strategic balancer",
+      "description": "International Olympic Committee supports lifting ban on Belarusian athletes, allowing full national identity competition rather than neutral status. This represents a political shift despite ongoing Ukraine war."
+    },
+    {
+      "country": "Hungary",
+      "flag": "\ud83c\udded\ud83c\uddfa",
+      "status": "Strategic balancer",
+      "description": "Reports indicate Hungary is no longer considered a stalwart Russian ally, representing slipping Moscow influence in Eastern Europe. The loss of Hungarian support marks broader regional shift away from Russia."
+    },
+    {
+      "country": "United Arab Emirates",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "Strategic balancer",
+      "description": "UAE announced departure from OPEC effective May 1st, stripping the oil cartel of its third-largest producer. This weakens OPEC leverage over global oil supplies amid Iran war disruptions."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Asian stocks soared and oil prices fell after Trump indicated potential Iran deal progress."
+    "notes": "ASEAN leaders adopt economic measures to ease pain from Iran war, with bloc importing over half crude oil from Middle East."
   },
   "update_log": [
+    {
+      "time": "19:00 UTC",
+      "text": "Russia declares complete cessation of hostilities during May 8-10 Victory Day ceasefire period",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Ukraine launches second-biggest drone attack of war amid Victory Day preparations",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:45 UTC",
+      "text": "Israeli strikes hit Beirut suburbs targeting Hezbollah commander, breaking month-long ceasefire lull",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "US helicopters sink Iranian boats in Strait of Hormuz clearing operations",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:10 UTC",
+      "text": "Ukraine's chief negotiator arrives in US for renewed peace talks with Trump envoys",
+      "source_tier": "unverified"
+    },
     {
       "time": "Unknown",
       "text": "Iran seizes Barbados-flagged oil tanker Ocean Koi in Gulf of Oman",
@@ -243,5 +331,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-08T13:03:56Z"
+  "last_updated": "2026-05-08T19:00:59Z"
 }
