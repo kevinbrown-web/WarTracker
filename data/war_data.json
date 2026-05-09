@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.3,
-    "delta": "+0.3 from yesterday",
+    "score": 7.5,
+    "delta": "No baseline",
     "level": "Elevated",
-    "rationale": "US-Iran forces exchanged fire in Strait of Hormuz despite ongoing ceasefire talks, while Russia-Ukraine violated Moscow's declared Victory Day truce with over 1,000 drone attacks."
+    "rationale": "Multiple active conflicts with US-Iran hostilities in Strait of Hormuz, fragile ceasefires breaking down, and continued fighting across Ukraine, Lebanon, and Gulf states."
   },
   "ticker_items": [
-    "US-Iran clash in Hormuz threatens fragile ceasefire negotiations",
-    "Russia-Ukraine trade 1,000+ drone attacks during Moscow's Victory Day truce",
-    "Trump says Iran ceasefire still intact despite Hormuz incidents",
-    "US approves $373.6M precision bomb package for Ukraine",
-    "Germany requests Israeli jet fuel amid Hormuz disruptions"
+    "US-Iran forces clash in Strait of Hormuz despite ceasefire claims",
+    "Trump announces 3-day Russia-Ukraine ceasefire with prisoner swap",
+    "Israel continues airstrikes in Lebanon amid ceasefire violations",
+    "North Korea drops reunification goal, designates Kim nuclear forces head",
+    "Hezbollah launches 13 strikes on Israeli forces in southern Lebanon"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Colombian mercenaries increasingly arriving in Ukraine to fight against Russian forces, with rising casualties among foreign fighters."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -27,6 +27,17 @@
         "method": "Air/Drone",
         "lat": 55.76,
         "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Special Operation Zone",
+        "description": "Ukrainian forces conducted 887 drone strikes and 1,365 ceasefire violations according to Russian Defense Ministry.",
+        "method": "Air/Drone",
+        "lat": 47.0,
+        "lng": 37.5,
         "source_tier": "unverified"
       }
     ],
@@ -63,6 +74,39 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "United States",
+        "target_location": "Strait of Hormuz",
+        "description": "Iranian forces attacked three American destroyers in the Strait of Hormuz during fragile ceasefire.",
+        "method": "Naval/USV",
+        "lat": 26.5667,
+        "lng": 56.25,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Israel",
+        "target_location": "Southern Lebanon",
+        "description": "Hezbollah carried out 13 targeted military operations against invading Israeli troops in Lebanese territory.",
+        "method": "Ground/Armored",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Multiple locations",
+        "description": "Israel ramped up airstrikes across Lebanon despite ceasefire agreement.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -73,6 +117,13 @@
         "kia": "31",
         "wia": "Unknown",
         "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US Pacific Ocean attack",
+        "kia": "2",
+        "wia": "Unknown",
+        "civilian": false,
         "source_tier": "unverified"
       }
     ],
@@ -94,6 +145,24 @@
         "figure": "28",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-05-05"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-05"
+      },
+      {
+        "claim": "Lebanon conflict deaths",
+        "figure": "~2,702",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-05"
+      },
+      {
+        "claim": "Russian military casualties in April",
+        "figure": "~35,000",
+        "claimed_by": "Ukraine",
+        "as_of": "April 2026"
       }
     ]
   },
@@ -121,15 +190,47 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Mediator",
       "description": "Pakistan reportedly asked the US not to launch operations to open the Strait of Hormuz during ongoing negotiations with Iran. Trump confirmed Pakistan's involvement in mediating the ceasefire talks."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Active materiel + troops",
+      "description": "Estimated 11,000 North Korean soldiers were sent to fight in Russia's war against Ukraine. North Korea revised its constitution to drop reunification references and designate Kim Jong Un as head of nuclear forces."
+    },
+    {
+      "country": "Italy",
+      "flag": "\ud83c\uddee\ud83c\uddf9",
+      "status": "Strategic balancer",
+      "description": "US Secretary of State Rubio met with PM Meloni in Rome amid diplomatic tensions over the Iran war and Vatican disputes straining US-Italy ties. The visit aimed to recalibrate relationships following weeks of friction."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Hormuz disruptions continue affecting European aviation fuel supplies, forcing Germany to seek alternative sources from Israel."
+    "notes": "Strait of Hormuz closure and Red Sea tensions are reshaping trade routes with 70% of freight traffic rerouting via Cape of Good Hope."
   },
   "update_log": [
+    {
+      "time": "12:47 UTC",
+      "text": "US and Iranian forces clashed in Gulf and Strait of Hormuz with both sides accusing ceasefire breaches",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Trump announced three-day Russia-Ukraine ceasefire with prisoner swap confirmed by both sides",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:30 UTC",
+      "text": "Hezbollah launched 13 strikes against Israeli forces advancing into southern Lebanon",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Russia reported 1,365 Ukrainian ceasefire violations including 887 drone strikes",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:29 UTC",
       "text": "US and Iran exchange fire in Strait of Hormuz amid ongoing ceasefire negotiations",
@@ -151,5 +252,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-09T07:29:04Z"
+  "last_updated": "2026-05-09T12:47:47Z"
 }
