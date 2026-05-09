@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "No baseline",
+    "score": 7.2,
+    "delta": "No baseline available",
     "level": "Elevated",
-    "rationale": "Multiple active conflicts with US-Iran hostilities in Strait of Hormuz, fragile ceasefires breaking down, and continued fighting across Ukraine, Lebanon, and Gulf states."
+    "rationale": "Multiple active conflicts with US-Iran fire exchange, Ukraine-Russia ceasefire amid drone strikes, and continued Israel-Lebanon hostilities."
   },
   "ticker_items": [
-    "US-Iran forces clash in Strait of Hormuz despite ceasefire claims",
-    "Trump announces 3-day Russia-Ukraine ceasefire with prisoner swap",
-    "Israel continues airstrikes in Lebanon amid ceasefire violations",
-    "North Korea drops reunification goal, designates Kim nuclear forces head",
-    "Hezbollah launches 13 strikes on Israeli forces in southern Lebanon"
+    "Trump announces 3-day Russia-Ukraine ceasefire for Victory Day",
+    "US strikes Iranian oil tankers amid fragile ceasefire talks",
+    "Ukrainian drones hit Russian energy targets 1,700km inside border",
+    "Israeli strikes kill 19 in Lebanon despite ceasefire claims",
+    "Iran attacks UAE with drones and ballistic missiles"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Colombian mercenaries increasingly arriving in Ukraine to fight against Russian forces, with rising casualties among foreign fighters."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -38,6 +38,17 @@
         "method": "Air/Drone",
         "lat": 47.0,
         "lng": 37.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Energy infrastructure",
+        "description": "Ukrainian drone strikes hit Russian energy targets reaching 1,700km inside border.",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
         "source_tier": "unverified"
       }
     ],
@@ -107,6 +118,50 @@
         "lat": 33.89,
         "lng": 35.5,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Oil tankers",
+        "description": "US warplane disabled two Iranian tankers to enforce port blockade.",
+        "method": "Air/Precision Strike",
+        "lat": 26.54,
+        "lng": 56.29,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "UAE",
+        "target_location": "UAE territory",
+        "description": "Iran launched two ballistic missiles and three drones against UAE targets.",
+        "method": "Ballistic Missile",
+        "lat": 24.45,
+        "lng": 54.38,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli airstrikes killed at least 19 people across Lebanon.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Israel",
+        "target_location": "Northern Israel",
+        "description": "Hezbollah launched 13 strikes against Israeli forces in southern Lebanon.",
+        "method": "Rocket/Surface",
+        "lat": 33.2,
+        "lng": 35.58,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -124,6 +179,20 @@
         "kia": "2",
         "wia": "Unknown",
         "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes on Lebanon",
+        "kia": "19",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Iranian attack on UAE",
+        "kia": "0",
+        "wia": "3",
+        "civilian": true,
         "source_tier": "unverified"
       }
     ],
@@ -175,6 +244,12 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-05-08"
+      },
+      {
+        "text": "Victory Day truce will be 'beginning of end' for Russia-Ukraine conflict",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "May 8, 2026"
       }
     ]
   },
@@ -202,15 +277,46 @@
       "flag": "\ud83c\uddee\ud83c\uddf9",
       "status": "Strategic balancer",
       "description": "US Secretary of State Rubio met with PM Meloni in Rome amid diplomatic tensions over the Iran war and Vatican disputes straining US-Italy ties. The visit aimed to recalibrate relationships following weeks of friction."
+    },
+    {
+      "country": "Poland",
+      "flag": "\ud83c\uddf5\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Poland's intelligence accused Russia of cyber sabotage against military and civilian infrastructure, including water treatment plants. Poland signed the SAFE agreement as part of broader European security initiatives."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Strait of Hormuz closure and Red Sea tensions are reshaping trade routes with 70% of freight traffic rerouting via Cape of Good Hope."
+    "notes": "Iran war has redirected 70% of Red Sea freight traffic around Cape of Good Hope, reshaping global trade routes."
   },
   "update_log": [
+    {
+      "time": "18:40 UTC",
+      "text": "US strikes Iranian oil tankers while Trump claims ceasefire remains intact",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:30 UTC",
+      "text": "Israeli airstrikes kill 19 across Lebanon despite ceasefire claims",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:15 UTC",
+      "text": "Iran launches ballistic missiles and drones against UAE, wounding 3",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:45 UTC",
+      "text": "Trump announces 3-day Russia-Ukraine ceasefire for Victory Day period",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:20 UTC",
+      "text": "Ukrainian drones strike Russian energy infrastructure 1,700km inside border",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:47 UTC",
       "text": "US and Iranian forces clashed in Gulf and Strait of Hormuz with both sides accusing ceasefire breaches",
@@ -252,5 +358,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-09T12:47:47Z"
+  "last_updated": "2026-05-09T18:40:51Z"
 }
