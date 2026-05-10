@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 6.5,
-    "delta": "-0.7 from yesterday",
+    "delta": "+0.3 from yesterday",
     "level": "Elevated",
-    "rationale": "Temporary ceasefires in both Ukraine-Russia and US-Iran conflicts provide brief de-escalation despite continued violations."
+    "rationale": "Temporary ceasefires in Ukraine and US-Iran tensions remain high despite diplomatic progress."
   },
   "ticker_items": [
-    "Russia-Ukraine observe Trump-brokered 3-day ceasefire during Victory Day",
-    "US disables Iranian tankers amid fragile Iran peace talks",
-    "Israeli school bombing kills ~175, mostly children",
-    "Iran reviewing 14-point US peace proposal",
-    "Hezbollah conducts 13 strikes on Israeli forces in Lebanon"
+    "Russia holds scaled-back Victory Day parade with no heavy weapons",
+    "North Korean troops reportedly participate in Moscow parade",
+    "Three-day Ukraine ceasefire appears to be holding",
+    "Iran reviewing US 14-point peace proposal amid Gulf tensions",
+    "Drone attacks reported on Gulf states despite ceasefire talks"
   ],
   "new_entrant": {
     "active": false,
@@ -51,6 +51,39 @@
         "lat": 33.2,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Qatar",
+        "target_location": "Gulf waters",
+        "description": "Drone hits cargo ship off Qatar's coast amid US-Iran ceasefire strain.",
+        "method": "Air/Drone",
+        "lat": 25.2854,
+        "lng": 51.531,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Kuwait",
+        "target_location": "Kuwait",
+        "description": "Kuwait repels drone attacks as Gulf tensions persist.",
+        "method": "Air/Drone",
+        "lat": 29.3759,
+        "lng": 47.9774,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "UAE",
+        "target_location": "UAE",
+        "description": "United Arab Emirates repels drone attacks amid regional tensions.",
+        "method": "Air/Drone",
+        "lat": 23.4241,
+        "lng": 53.8478,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -82,11 +115,24 @@
         "figure": "2,702",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "May 2026"
+      },
+      {
+        "claim": "North Korean soldiers sent to Russia",
+        "figure": "~11,000",
+        "claimed_by": "BBC",
+        "as_of": "2026-05-07"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "I think the conflict with Ukraine is coming to an end, but I would meet President Zelensky only once a final peace deal has been agreed.",
+        "speaker": "Vladimir Putin",
+        "title": "Russian President",
+        "date": "2026-05-09"
+      }
+    ],
     "ukraine": [],
     "middle_east": [
       {
@@ -94,6 +140,12 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-05-09"
+      },
+      {
+        "text": "I expect an answer from Tehran to the latest US peace proposal within the next few hours.",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-05-08"
       }
     ]
   },
@@ -109,15 +161,41 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Mediator + arms supplier",
       "description": "Pakistan is mediating US-Iran peace talks with officials signaling a deal expected 'sooner rather than later'. Iran is reviewing a US 14-point peace proposal that includes uranium enrichment ban and reopening Strait of Hormuz."
+    },
+    {
+      "country": "Bahrain",
+      "flag": "\ud83c\udde7\ud83c\udded",
+      "status": "Monitoring",
+      "description": "Bahrain arrested 41 people over alleged links to Iran's Revolutionary Guards amid heightened regional tensions. The interior ministry said security forces dismantled an organization with suspected Iranian connections."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Declined",
+    "brent_crude": "Dropped",
     "wheat_futures": "Unchanged",
-    "notes": "Global oil prices dropped following reports of US-Iran peace proposal progress and potential deal."
+    "notes": "Global oil prices dropped following reports of US-Iran peace talks progress."
   },
   "update_log": [
+    {
+      "time": "12:00 UTC",
+      "text": "Gulf states report drone attacks despite US-Iran ceasefire talks.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Russia holds shortest Victory Day parade in modern history without heavy weapons.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Three-day Ukraine ceasefire continues to hold as Putin attends scaled-back parade.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "Iran reviewing US 14-point peace proposal including uranium enrichment ban.",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:52 UTC",
       "text": "Russia holds scaled-back Victory Day parade as Ukraine ceasefire takes effect",
@@ -139,5 +217,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-10T07:52:35Z"
+  "last_updated": "2026-05-10T12:48:48Z"
 }
