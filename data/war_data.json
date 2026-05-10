@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 6.5,
-    "delta": "+0.3 from yesterday",
+    "score": 7.5,
+    "delta": "No baseline",
     "level": "Elevated",
-    "rationale": "Temporary ceasefires in Ukraine and US-Iran tensions remain high despite diplomatic progress."
+    "rationale": "Israeli drone strikes kill 17 in Lebanon violating April ceasefire, while US-Iran peace talks advance with 14-point proposal under Pakistani mediation."
   },
   "ticker_items": [
-    "Russia holds scaled-back Victory Day parade with no heavy weapons",
-    "North Korean troops reportedly participate in Moscow parade",
-    "Three-day Ukraine ceasefire appears to be holding",
-    "Iran reviewing US 14-point peace proposal amid Gulf tensions",
-    "Drone attacks reported on Gulf states despite ceasefire talks"
+    "Israeli strikes kill 17 in Lebanon, violating April ceasefire",
+    "Iran reviewing US 14-point peace proposal via Pakistan mediation",
+    "Trump announces three-day Russia-Ukraine ceasefire",
+    "Putin holds downsized Victory Day parade without heavy weapons",
+    "US forces clear defended path through Strait of Hormuz"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "North Korean troops participated in Russia's Victory Day parade for the first time."
   },
   "strikes_today": {
     "eastern_europe": [],
@@ -84,6 +84,28 @@
         "lat": 23.4241,
         "lng": 53.8478,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "South of Beirut",
+        "description": "Israeli drone strikes on vehicles killed 4 people.",
+        "method": "Air/Drone",
+        "lat": 33.82,
+        "lng": 35.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli airstrikes killed at least 13 people.",
+        "method": "Air/Precision Strike",
+        "lat": 33.4,
+        "lng": 35.3,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -94,6 +116,20 @@
         "kia": "~175",
         "wia": "Unknown",
         "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes Lebanon",
+        "kia": "17",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russia-Ukraine fighting",
+        "kia": "3",
+        "wia": "Unknown",
+        "civilian": false,
         "source_tier": "unverified"
       }
     ],
@@ -121,6 +157,12 @@
         "figure": "~11,000",
         "claimed_by": "BBC",
         "as_of": "2026-05-07"
+      },
+      {
+        "claim": "US-Israel attacks on Iran casualties",
+        "figure": "3,468 dead in Iran, 2,702 dead in Lebanon, 28 killed in Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-05"
       }
     ]
   },
@@ -130,6 +172,18 @@
         "text": "I think the conflict with Ukraine is coming to an end, but I would meet President Zelensky only once a final peace deal has been agreed.",
         "speaker": "Vladimir Putin",
         "title": "Russian President",
+        "date": "2026-05-09"
+      },
+      {
+        "text": "Russia fighting for just cause in Ukraine",
+        "speaker": "Vladimir Putin",
+        "title": "President",
+        "date": "2026-05-09"
+      },
+      {
+        "text": "Ukraine conflict coming to an end",
+        "speaker": "Vladimir Putin",
+        "title": "President",
         "date": "2026-05-09"
       }
     ],
@@ -146,6 +200,18 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-05-08"
+      },
+      {
+        "text": "US will not allow Iran to reach enriched uranium and will blow up anyone who gets near it",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-05-10"
+      },
+      {
+        "text": "Israel cannot deter Palestinian resistance through assassinations",
+        "speaker": "Hezbollah statement",
+        "title": "Official statement",
+        "date": "2026-05-09"
       }
     ]
   },
@@ -167,15 +233,41 @@
       "flag": "\ud83c\udde7\ud83c\udded",
       "status": "Monitoring",
       "description": "Bahrain arrested 41 people over alleged links to Iran's Revolutionary Guards amid heightened regional tensions. The interior ministry said security forces dismantled an organization with suspected Iranian connections."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Basing + logistics",
+      "description": "British Royal Navy destroyer deployed to Middle East for freedom of navigation mission in Strait of Hormuz. UK joining multi-country effort to unlock commercial shipping."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Dropped",
+    "brent_crude": "Dropped on peace talk progress",
     "wheat_futures": "Unchanged",
-    "notes": "Global oil prices dropped following reports of US-Iran peace talks progress."
+    "notes": "Global oil prices dropped following reports of US-Iran peace proposal progress and potential deal expectations."
   },
   "update_log": [
+    {
+      "time": "18:42 UTC",
+      "text": "Israeli drone and air strikes kill 17 in Lebanon, violating April ceasefire agreement",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:30 UTC",
+      "text": "Iran reviewing US 14-point peace proposal including 10-year uranium enrichment ban",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:20 UTC",
+      "text": "Trump announces three-day Russia-Ukraine ceasefire in effect",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Putin presides over scaled-back Victory Day parade with North Korean troops",
+      "source_tier": "verified"
+    },
     {
       "time": "12:00 UTC",
       "text": "Gulf states report drone attacks despite US-Iran ceasefire talks.",
@@ -217,5 +309,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-10T12:48:48Z"
+  "last_updated": "2026-05-10T18:42:24Z"
 }
