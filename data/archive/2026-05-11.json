@@ -1,23 +1,35 @@
 {
   "escalation": {
-    "score": 6.5,
-    "delta": "No prior baseline",
+    "score": 7.5,
+    "delta": "N/A - first assessment",
     "level": "Elevated",
-    "rationale": "Ceasefire violations with drone strikes on Gulf states and cargo ship while peace negotiations continue."
+    "rationale": "Multiple active conflicts with broken ceasefires in Ukraine, ongoing US-Iran war day 72, and Trump rejecting Iran's peace proposal."
   },
   "ticker_items": [
-    "Iran ceasefire tested by drone attacks on Qatar cargo ship, Kuwait airspace",
-    "Putin claims Ukraine war 'coming to completion' after scaled-back Victory Day",
-    "Royal Navy deploying HMS Dragon to protect Strait of Hormuz reopening",
-    "US intelligence flights surge off Cuba amid regional tensions",
-    "Iran reviewing 14-point US peace proposal including uranium enrichment ban"
+    "Trump rejects Iran peace proposal, ceasefire 'on life support'",
+    "Russia-Ukraine accuse each other of violating US-brokered ceasefire",
+    "Israel strikes Lebanon killing 24, war with Iran continues day 72",
+    "Putin signals Ukraine war 'coming to an end' amid peace talks",
+    "Iran proposes uranium transfer to third country in negotiations"
   ],
   "new_entrant": {
     "active": false,
     "text": ""
   },
   "strikes_today": {
-    "eastern_europe": [],
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Drone and artillery strikes reported during ceasefire violations",
+        "method": "Air/Drone",
+        "lat": 49.0,
+        "lng": 32.0,
+        "source_tier": "unverified"
+      }
+    ],
     "middle_east": [
       {
         "time_utc": "Unknown",
@@ -95,6 +107,13 @@
         "wia": "15+",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Ukraine-Russia ceasefire violations",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -121,6 +140,18 @@
         "figure": "3,468 dead in Iran, 2,702 dead in Lebanon, 28 killed in Gulf states",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-05-05"
+      },
+      {
+        "claim": "US-Israel attacks on Iran deaths",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-05"
+      },
+      {
+        "claim": "Lebanon deaths from conflict",
+        "figure": "~2,702",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-05"
       }
     ]
   },
@@ -134,6 +165,12 @@
       },
       {
         "text": "I think the Ukraine war is coming to an end",
+        "speaker": "Vladimir Putin",
+        "title": "Russian President",
+        "date": "2026-05-10"
+      },
+      {
+        "text": "The war in Ukraine is coming to an end",
         "speaker": "Vladimir Putin",
         "title": "Russian President",
         "date": "2026-05-10"
@@ -157,6 +194,18 @@
         "text": "American military operations against Iran may not be over, suggesting the United States could still target additional sites if necessary",
         "speaker": "Donald Trump",
         "title": "US President",
+        "date": "2026-05-10"
+      },
+      {
+        "text": "Iran is militarily defeated but it's not done",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-05-10"
+      },
+      {
+        "text": "The Iran war is not over",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Israeli Prime Minister",
         "date": "2026-05-10"
       }
     ]
@@ -185,15 +234,47 @@
       "flag": "\ud83c\uddec\ud83c\udde7",
       "status": "Active materiel + troops",
       "description": "Royal Navy deploying HMS Dragon destroyer from Mediterranean to Middle East to protect tankers when Strait of Hormuz reopens. The Type-45 destroyer was previously safeguarding British military bases from Iranian drone strikes."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Strategic balancer",
+      "description": "Trump threatens to move US troops from Germany to Poland after Berlin refused to back US-Israeli war on Iran. Germany's non-participation creates tensions within NATO alliance."
+    },
+    {
+      "country": "Poland",
+      "flag": "\ud83c\uddf5\ud83c\uddf1",
+      "status": "Basing + logistics",
+      "description": "Poland positioned to receive US troops relocated from Germany as Trump seeks more supportive NATO partners. Warsaw's backing of US Middle East operations strengthens bilateral ties."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Dropped on peace proposal news",
+    "brent_crude": "Dropped on peace talk reports",
     "wheat_futures": "Unchanged",
-    "notes": "Global oil prices dropped following reports of US-Iran peace proposal progress."
+    "notes": "Global oil prices dropped on reports of US-Iran peace negotiations and potential 14-point deal."
   },
   "update_log": [
+    {
+      "time": "19:00 UTC",
+      "text": "Trump says Iran ceasefire on 'life support' after rejecting Tehran's latest proposal",
+      "source_tier": "verified"
+    },
+    {
+      "time": "15:00 UTC",
+      "text": "Israel kills 24 people in Lebanon airstrikes as Iran war enters day 72",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Russia and Ukraine exchange accusations over violations of US-brokered ceasefire",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Putin signals Ukraine war 'coming to an end' and offers to meet Zelensky in third country",
+      "source_tier": "verified"
+    },
     {
       "time": "14:18 UTC",
       "text": "Iran ceasefire tested as drone strikes hit Qatar cargo ship, Kuwait and UAE airspace",
@@ -240,5 +321,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-11T14:18:27Z"
+  "last_updated": "2026-05-11T19:23:57Z"
 }
