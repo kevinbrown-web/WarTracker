@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.8,
-    "delta": "+0.3 from yesterday",
+    "score": 6.5,
+    "delta": "No prior baseline",
     "level": "Elevated",
-    "rationale": "Putin declares Ukraine war 'coming to an end' while Iran rejects latest US peace proposal, maintaining tension on two fronts."
+    "rationale": "Ceasefire violations with drone strikes on Gulf states and cargo ship while peace negotiations continue."
   },
   "ticker_items": [
-    "Putin says Ukraine conflict 'coming to an end'",
-    "Iran rejects US 14-point peace proposal via Pakistani mediators",
-    "Israeli strikes kill 36 in Lebanon during ceasefire",
-    "Iran threatens US Middle East sites over tanker attacks",
-    "Trump-Xi summit scheduled for Beijing next week"
+    "Iran ceasefire tested by drone attacks on Qatar cargo ship, Kuwait airspace",
+    "Putin claims Ukraine war 'coming to completion' after scaled-back Victory Day",
+    "Royal Navy deploying HMS Dragon to protect Strait of Hormuz reopening",
+    "US intelligence flights surge off Cuba amid regional tensions",
+    "Iran reviewing 14-point US peace proposal including uranium enrichment ban"
   ],
   "new_entrant": {
     "active": false,
@@ -40,6 +40,50 @@
         "lat": 25.3,
         "lng": 51.5,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown",
+        "target_country": "Qatar",
+        "target_location": "Off Qatar coast",
+        "description": "Drone strike set fire on cargo ship off Qatar coast",
+        "method": "Air/Drone",
+        "lat": 25.35,
+        "lng": 51.18,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown",
+        "target_country": "Kuwait",
+        "target_location": "Kuwait airspace",
+        "description": "Hostile drones entered Kuwaiti airspace before being repelled",
+        "method": "Air/Drone",
+        "lat": 29.31,
+        "lng": 47.48,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown",
+        "target_country": "UAE",
+        "target_location": "UAE airspace",
+        "description": "Drones entered UAE airspace and were repelled by forces",
+        "method": "Air/Drone",
+        "lat": 23.42,
+        "lng": 53.85,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli airstrikes killed at least 24 people in Lebanon",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "verified"
       }
     ]
   },
@@ -71,6 +115,12 @@
         "figure": "35,000+",
         "claimed_by": "Ukraine",
         "as_of": "2026-04-30"
+      },
+      {
+        "claim": "Iran war casualties",
+        "figure": "3,468 dead in Iran, 2,702 dead in Lebanon, 28 killed in Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-05"
       }
     ]
   },
@@ -81,6 +131,12 @@
         "speaker": "Vladimir Putin",
         "title": "President",
         "date": "2026-05-10"
+      },
+      {
+        "text": "I think the Ukraine war is coming to an end",
+        "speaker": "Vladimir Putin",
+        "title": "Russian President",
+        "date": "2026-05-10"
       }
     ],
     "ukraine": [],
@@ -89,6 +145,18 @@
         "text": "Iran has sent its response to the latest U.S. ceasefire proposal to Pakistani mediators",
         "speaker": "Iranian officials",
         "title": "Government sources",
+        "date": "2026-05-10"
+      },
+      {
+        "text": "Iran will scale up combat operations to new battlefields should the United States and Israel again start military aggression against Iran",
+        "speaker": "Mohammad Akraminia",
+        "title": "Iranian Army Spokesperson",
+        "date": "2026-05-10"
+      },
+      {
+        "text": "American military operations against Iran may not be over, suggesting the United States could still target additional sites if necessary",
+        "speaker": "Donald Trump",
+        "title": "US President",
         "date": "2026-05-10"
       }
     ]
@@ -111,15 +179,46 @@
       "flag": "\ud83c\uddee\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "India consulted by Putin alongside China and US before Ukraine ceasefire announcement. New Delhi continuing its balancing act between major powers while maintaining strategic autonomy in both conflicts."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "Royal Navy deploying HMS Dragon destroyer from Mediterranean to Middle East to protect tankers when Strait of Hormuz reopens. The Type-45 destroyer was previously safeguarding British military bases from Iranian drone strikes."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Rising",
+    "brent_crude": "Dropped on peace proposal news",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices rising amid Iran peace proposal deadlock and continued Strait of Hormuz tensions."
+    "notes": "Global oil prices dropped following reports of US-Iran peace proposal progress."
   },
   "update_log": [
+    {
+      "time": "14:18 UTC",
+      "text": "Iran ceasefire tested as drone strikes hit Qatar cargo ship, Kuwait and UAE airspace",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Israeli airstrikes kill at least 24 people in Lebanon as Tehran reviews US peace proposal",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:30 UTC",
+      "text": "Putin claims Ukraine war coming to completion during scaled-back Victory Day parade",
+      "source_tier": "verified"
+    },
+    {
+      "time": "09:45 UTC",
+      "text": "Royal Navy deploying HMS Dragon to Middle East for Strait of Hormuz protection duties",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:15 UTC",
+      "text": "US intelligence gathering flights surge off Cuba amid regional tensions",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:53 UTC",
       "text": "Putin declares Ukraine conflict 'coming to an end' after scaled-back Victory Day parade",
@@ -141,5 +240,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-11T08:53:30Z"
+  "last_updated": "2026-05-11T14:18:27Z"
 }
