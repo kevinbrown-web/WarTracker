@@ -1,16 +1,15 @@
 {
   "escalation": {
-    "score": 7.8,
-    "delta": "+0.3 from yesterday",
-    "level": "High",
-    "rationale": "Trump rejected Iran's peace terms as 'totally unacceptable' while Iran warned against UK-France multinational naval mission to escort ships through Hormuz."
+    "score": 7.5,
+    "delta": "No previous data",
+    "level": "Elevated",
+    "rationale": "Multiple active conflicts with US-Iran ceasefire rejected, Russia-Ukraine fighting continuing, and Israel operating covert Iraq base."
   },
   "ticker_items": [
-    "Trump rejects Iran peace proposal, oil prices surge",
-    "Iran warns against UK-France naval escort mission in Hormuz",
-    "Israel strikes kill 24+ in Lebanon, 36 total daily casualties",
-    "Putin suggests Ukraine war 'coming to an end'",
-    "Germany defense minister Pistorius arrives in Kyiv"
+    "Trump rejects Iran's ceasefire response as 'totally unacceptable'",
+    "Putin claims Ukraine war 'coming to an end'",
+    "Israel reportedly operated secret military base in Iraq",
+    "US helicopters sink Iranian boats in Strait of Hormuz"
   ],
   "new_entrant": {
     "active": false,
@@ -29,6 +28,17 @@
         "lat": 33.89,
         "lng": 35.5,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli military launched wide series of airstrikes across southern Lebanon on May 7.",
+        "method": "Air/Precision Strike",
+        "lat": 33.3,
+        "lng": 35.4,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -60,6 +70,12 @@
         "figure": "35,000+",
         "claimed_by": "Ukraine",
         "as_of": "2026-05-08"
+      },
+      {
+        "claim": "Gulf states deaths",
+        "figure": "28",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "May 5, 2026"
       }
     ]
   },
@@ -91,6 +107,12 @@
         "speaker": "Iranian deputy foreign minister",
         "title": "Deputy Foreign Minister",
         "date": "2026-05-11"
+      },
+      {
+        "text": "Iran's response to his latest proposal was TOTALLY UNACCEPTABLE!",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "May 11, 2026"
       }
     ]
   },
@@ -112,15 +134,41 @@
       "flag": "\ud83c\uddeb\ud83c\uddf7",
       "status": "Active materiel + troops",
       "description": "France partnering with UK to host multinational meeting on Hormuz escort mission. European leaders using Iran war as impetus to plan for self-defense without American support."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan serving as mediator between US and Iran, transmitting Tehran's response to American peace proposal. Nine killed in market explosion in Sarai Naurang."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Surging",
+    "brent_crude": "Higher",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices surged following Trump's rejection of Iran peace terms, with markets fearing prolonged conflict will keep Strait of Hormuz paralyzed."
+    "notes": "Oil prices rose Monday following Trump's rejection of Iran peace proposal and continued Strait of Hormuz closure."
   },
   "update_log": [
+    {
+      "time": "13:47 UTC",
+      "text": "Wall Street Journal reports Israel operated covert military base in Iraq during Iran war",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "Trump dismisses Iran ceasefire response, oil markets react with price increases",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:15 UTC",
+      "text": "Netanyahu states Iran war not over, signals indefinite Hezbollah fighting",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "EU imposes sanctions on 16 officials over Ukrainian children deportations",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:00 UTC",
       "text": "Trump rejects Iran's peace proposal response as 'totally unacceptable', oil prices surge",
@@ -142,5 +190,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-12T08:19:22Z"
+  "last_updated": "2026-05-12T13:47:29Z"
 }
