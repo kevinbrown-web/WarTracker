@@ -1,15 +1,16 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "No previous data",
+    "score": 7,
+    "delta": "No previous baseline",
     "level": "Elevated",
-    "rationale": "Multiple active conflicts with US-Iran ceasefire rejected, Russia-Ukraine fighting continuing, and Israel operating covert Iraq base."
+    "rationale": "Multiple active conflicts with US-brokered Ukraine ceasefire failing, Iran war ceasefire on 'life support', and Strait of Hormuz closure disrupting global oil supply."
   },
   "ticker_items": [
-    "Trump rejects Iran's ceasefire response as 'totally unacceptable'",
+    "US-brokered Ukraine ceasefire expires amid continued fighting",
+    "Trump declares Iran ceasefire on 'life support'",
+    "Strait of Hormuz closure disrupts 20% global oil supply",
     "Putin claims Ukraine war 'coming to an end'",
-    "Israel reportedly operated secret military base in Iraq",
-    "US helicopters sink Iranian boats in Strait of Hormuz"
+    "Israel-Hezbollah attacks increase despite official ceasefire"
   ],
   "new_entrant": {
     "active": false,
@@ -39,6 +40,17 @@
         "lat": 33.3,
         "lng": 35.4,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli airstrikes across southern Lebanon amid escalating attacks with Hezbollah",
+        "method": "Air/Precision Strike",
+        "lat": 33.3,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -50,6 +62,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Ukraine-Russia fighting",
+        "kia": "~2",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -76,6 +95,18 @@
         "figure": "28",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "May 5, 2026"
+      },
+      {
+        "claim": "Russian military KIA in Ukraine",
+        "figure": "~352,000",
+        "claimed_by": "Report cited by National Post",
+        "as_of": "2026-05-11"
+      },
+      {
+        "claim": "Iran conflict deaths",
+        "figure": "3,468 Iran, 2,702 Lebanon, 28 Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-05"
       }
     ]
   },
@@ -88,7 +119,14 @@
         "date": "2026-05-10"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Russia has no intention of ending this war",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "Ukrainian President",
+        "date": "2026-05-11"
+      }
+    ],
     "middle_east": [
       {
         "text": "Totally unacceptable",
@@ -113,6 +151,12 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "May 11, 2026"
+      },
+      {
+        "text": "Tehran's response to Washington's proposal 'unacceptable' and 'stupid'",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-05-11"
       }
     ]
   },
@@ -140,15 +184,53 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Mediator + arms supplier",
       "description": "Pakistan serving as mediator between US and Iran, transmitting Tehran's response to American peace proposal. Nine killed in market explosion in Sarai Naurang."
+    },
+    {
+      "country": "Finland",
+      "flag": "\ud83c\uddeb\ud83c\uddee",
+      "status": "Strategic balancer",
+      "description": "Finnish President Stubb tells Europe to 'calm down' over US troop pullback, stating 'If Finland can defend itself, NATO can do it too.' Finland demonstrates confidence in European self-defense capabilities amid shifting alliance dynamics."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Mediator + arms supplier",
+      "description": "Trump-Xi summit scheduled for Wednesday-Thursday in Beijing focuses on Iran oil lifeline and Strait of Hormuz crisis. The bilateral meeting carries significant energy market implications amid ongoing Middle East conflicts."
+    },
+    {
+      "country": "United Arab Emirates",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "Active materiel + troops",
+      "description": "Israel has deployed Iron Dome anti-missile batteries and personnel to UAE according to US envoy. UAE positioning itself as key partner in regional defense against Iran amid escalating Middle East tensions."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Higher",
+    "brent_crude": "Rising",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices rose Monday following Trump's rejection of Iran peace proposal and continued Strait of Hormuz closure."
+    "notes": "Oil prices pushed higher by Trump's rejection of Iran peace proposal and continued Strait of Hormuz closure affecting global energy markets."
   },
   "update_log": [
+    {
+      "time": "19:00 UTC",
+      "text": "US-brokered 72-hour Ukraine ceasefire expires with continued fighting reported",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Trump declares Iran ceasefire on 'life support' after rejecting Tehran's latest proposal",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:45 UTC",
+      "text": "Israel-Hezbollah attacks increase despite official Lebanon ceasefire",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "Strait of Hormuz closure continues disrupting 20% of global oil supply",
+      "source_tier": "unverified"
+    },
     {
       "time": "13:47 UTC",
       "text": "Wall Street Journal reports Israel operated covert military base in Iraq during Iran war",
@@ -190,5 +272,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-12T13:47:29Z"
+  "last_updated": "2026-05-12T19:24:58Z"
 }
