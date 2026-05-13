@@ -1,15 +1,16 @@
 {
   "escalation": {
     "score": 8,
-    "delta": "+1.5 from yesterday",
+    "delta": "no previous data",
     "level": "High",
-    "rationale": "Trump reportedly considering resuming combat operations in Iran as ceasefire declared 'on life support' with 380 Lebanese casualties since April truce began."
+    "rationale": "Active US-Israel war against Iran with Trump considering resuming combat operations and ceasefire deteriorating rapidly."
   },
   "ticker_items": [
-    "Trump calls Iran ceasefire 'on life support', mulls renewed strikes",
-    "380 killed in Lebanon since April 17 ceasefire began - health ministry",
-    "Revolutionary Guards conduct drills in Tehran amid escalation warnings",
-    "Pakistan faces scrutiny over alleged Iranian aircraft at Rawalpindi base"
+    "Putin test-fires new Sarmat 'Satan II' nuclear missile",
+    "Trump considering resuming combat operations against Iran",
+    "Israeli strikes kill 380 in Lebanon since April ceasefire",
+    "UAE secretly conducting attacks on Iran - WSJ reports",
+    "Iran war costs US nearly $29 billion - Pentagon"
   ],
   "new_entrant": {
     "active": false,
@@ -47,6 +48,17 @@
         "target_country": "Lebanon",
         "target_location": "Southern Lebanon",
         "description": "Israeli forces conducted intensified bombardment killing at least 87 people since Friday.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli airstrikes targeting medics kill 51 people including 2 health workers",
         "method": "Air/Precision Strike",
         "lat": 33.27,
         "lng": 35.2,
@@ -102,6 +114,12 @@
         "figure": "380",
         "claimed_by": "Lebanese Health Ministry",
         "as_of": "May 12, 2026"
+      },
+      {
+        "claim": "Lebanese killed since ceasefire",
+        "figure": "380",
+        "claimed_by": "Lebanon Health Ministry",
+        "as_of": "2026-05-12"
       }
     ]
   },
@@ -118,6 +136,12 @@
         "speaker": "Vladimir Putin",
         "title": "President",
         "date": "May 10, 2026"
+      },
+      {
+        "text": "The missile, known in the West as 'Satan II', would enter combat service by the end of the year and described it as the world's most powerful missile",
+        "speaker": "Vladimir Putin",
+        "title": "Russian President",
+        "date": "2026-05-12"
       }
     ],
     "ukraine": [
@@ -146,6 +170,12 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "May 12, 2026"
+      },
+      {
+        "text": "Washington must accept Tehran's latest peace plan or face failure",
+        "speaker": "Iranian chief negotiator",
+        "title": "Iran's chief negotiator",
+        "date": "2026-05-12"
       }
     ]
   },
@@ -179,15 +209,58 @@
       "flag": "\ud83c\uddf0\ud83c\uddf7",
       "status": "Strategic balancer",
       "description": "South Korean vessel came under fire in Strait of Hormuz on May 4, prompting Trump to urge Seoul to join US-led operation to secure the waterway. Seoul also providing air defense systems to Iraq amid regional instability."
+    },
+    {
+      "country": "United Arab Emirates",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "Active materiel + troops",
+      "description": "UAE has been secretly carrying out attacks on Iran according to WSJ reports. Israel has sent Iron Dome batteries and personnel to UAE according to US envoy Mike Huckabee."
+    },
+    {
+      "country": "Australia",
+      "flag": "\ud83c\udde6\ud83c\uddfa",
+      "status": "Supplying dual-use goods",
+      "description": "Australia insists it is not involved in offensive action against Iran despite supplying Wedgetail aircraft to UAE. Government denies involvement in UAE military strikes against Iran."
+    },
+    {
+      "country": "Qatar",
+      "flag": "\ud83c\uddf6\ud83c\udde6",
+      "status": "Mediator + arms supplier",
+      "description": "Qatar is intensifying regional mediation efforts despite the Iran war bringing airstrikes and cutting off Doha's access to global oil markets. Leveraging ties to both US and Iran for diplomatic benefit."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Higher",
     "wheat_futures": "Unchanged",
-    "notes": "UAE departure from OPEC effective May 1 raises questions about cartel's continued relevance amid Iran conflict disruptions."
+    "notes": "Hormuz deadlock pushes oil prices higher as hopes for peace deal dwindle with Iran signaling continued resolve."
   },
   "update_log": [
+    {
+      "time": "19:27 UTC",
+      "text": "Trump more seriously considering resuming combat operations in Iran according to CNN report",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "Lebanese Health Ministry reports 380 killed in Israeli strikes since April ceasefire began",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:30 UTC",
+      "text": "Putin announces successful test of new Sarmat intercontinental ballistic missile",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:15 UTC",
+      "text": "WSJ reports UAE has been secretly conducting attacks on Iran during conflict",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Pentagon confirms Iran war costs approaching $29 billion amid Congressional scrutiny",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:00 UTC",
       "text": "Trump reportedly more seriously considering resuming Iran combat operations than in weeks.",
@@ -224,5 +297,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-13T14:00:39Z"
+  "last_updated": "2026-05-13T19:27:20Z"
 }
