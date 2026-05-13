@@ -1,20 +1,19 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "+0.5 from yesterday",
-    "level": "Elevated",
-    "rationale": "US-Iran ceasefire on 'life support' with Trump rejecting Tehran's proposal as tensions mount before Beijing summit."
+    "score": 8,
+    "delta": "+1.5 from yesterday",
+    "level": "High",
+    "rationale": "Trump reportedly considering resuming combat operations in Iran as ceasefire declared 'on life support' with 380 Lebanese casualties since April truce began."
   },
   "ticker_items": [
-    "Trump says US-Iran ceasefire on 'life support' after rejecting Tehran proposal",
-    "Russia breaks temporary Ukraine ceasefire with 200 drone strikes overnight",
-    "Israeli strikes kill 6 in southern Lebanon despite ceasefire agreement",
-    "North Korea mandates automatic nuclear strike if Kim Jong Un assassinated",
-    "UAE secretly attacking Iran according to WSJ reports"
+    "Trump calls Iran ceasefire 'on life support', mulls renewed strikes",
+    "380 killed in Lebanon since April 17 ceasefire began - health ministry",
+    "Revolutionary Guards conduct drills in Tehran amid escalation warnings",
+    "Pakistan faces scrutiny over alleged Iranian aircraft at Rawalpindi base"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "UAE reportedly conducting secret attacks on Iran according to WSJ, marking direct Gulf state involvement."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -41,6 +40,17 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli forces conducted intensified bombardment killing at least 87 people since Friday.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -57,6 +67,13 @@
         "incident": "Israeli strikes on southern Lebanon",
         "kia": "6",
         "wia": "7",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes on Lebanon",
+        "kia": "51",
+        "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
       }
@@ -79,6 +96,12 @@
         "figure": "380",
         "claimed_by": "Lebanese Health Minister",
         "as_of": "May 12, 2026"
+      },
+      {
+        "claim": "Lebanese deaths since April 17 ceasefire",
+        "figure": "380",
+        "claimed_by": "Lebanese Health Ministry",
+        "as_of": "May 12, 2026"
       }
     ]
   },
@@ -88,6 +111,12 @@
         "text": "The war in Ukraine is coming to an end",
         "speaker": "Vladimir Putin",
         "title": "Russian President",
+        "date": "May 10, 2026"
+      },
+      {
+        "text": "Ukraine war is 'coming to an end' after insisting Russia is fighting for a 'just cause' against the West",
+        "speaker": "Vladimir Putin",
+        "title": "President",
         "date": "May 10, 2026"
       }
     ],
@@ -111,6 +140,12 @@
         "speaker": "Iranian officials",
         "title": "Government representatives",
         "date": "May 12, 2026"
+      },
+      {
+        "text": "Tehran's latest proposal as a 'piece of garbage'",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "May 12, 2026"
       }
     ]
   },
@@ -132,15 +167,42 @@
       "flag": "\ud83c\udde6\ud83c\uddea",
       "status": "Active materiel + troops",
       "description": "WSJ reports UAE has been secretly carrying out attacks on Iran. UAE also announced departure from OPEC effective May 1, ending nearly six decades of membership."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan faces renewed scrutiny over its mediator role after reports of Iranian aircraft parked at military base near Rawalpindi. Islamabad rejects allegations of militarily aiding Iran while attempting to salvage US-Iran diplomacy as ceasefire collapses."
+    },
+    {
+      "country": "South Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf7",
+      "status": "Strategic balancer",
+      "description": "South Korean vessel came under fire in Strait of Hormuz on May 4, prompting Trump to urge Seoul to join US-led operation to secure the waterway. Seoul also providing air defense systems to Iraq amid regional instability."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Rising",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices spiking as Strait of Hormuz remains closed and Iran ceasefire deteriorates."
+    "notes": "UAE departure from OPEC effective May 1 raises questions about cartel's continued relevance amid Iran conflict disruptions."
   },
   "update_log": [
+    {
+      "time": "14:00 UTC",
+      "text": "Trump reportedly more seriously considering resuming Iran combat operations than in weeks.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:30 UTC",
+      "text": "Revolutionary Guards conduct military drills in Tehran as ceasefire deteriorates.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:45 UTC",
+      "text": "Lebanese Health Ministry reports 380 killed since April 17 ceasefire began.",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:29 UTC",
       "text": "Trump heads to Beijing for talks with Xi as US-Iran ceasefire deteriorates",
@@ -162,5 +224,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-13T08:29:41Z"
+  "last_updated": "2026-05-13T14:00:39Z"
 }
