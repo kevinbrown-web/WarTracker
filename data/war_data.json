@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.2,
-    "delta": "+0.2 from yesterday",
-    "level": "High",
-    "rationale": "Iran war continues on day 76 with US-Israeli strikes ongoing, Saudi Arabia revealed to have conducted covert strikes on Iran, and ceasefire talks showing limited progress despite VP Vance's optimism."
+    "score": 7.2,
+    "delta": "N/A - first assessment",
+    "level": "Elevated",
+    "rationale": "Russia test-fires Satan II ICBM while UAE secretly coordinates attacks on Iran with Israel, escalating multiple fronts simultaneously."
   },
   "ticker_items": [
-    "Iran war day 76: Vance claims progress in talks",
-    "Saudi Arabia launched covert strikes on Iran during conflict",
-    "380 killed in Lebanon since April 17 ceasefire began",
-    "Oil spills detected near Strait of Hormuz from strikes",
-    "Trump begins China visit amid rising regional tensions"
+    "Putin hails test of Satan II intercontinental ballistic missile",
+    "UAE secretly coordinating attacks on Iran with Israeli Mossad",
+    "Israel escalates Gaza bombing 35% since Iran ceasefire",
+    "China's Xi warns Trump about Taiwan at Beijing summit",
+    "Latvian PM resigns after Ukrainian drone incidents"
   ],
   "new_entrant": {
     "active": true,
-    "text": "Saudi Arabia revealed to have covertly launched strikes on Iran during the ongoing regional war."
+    "text": "UAE revealed as secret participant in attacks against Iran, coordinating with Israeli intelligence."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -70,6 +70,20 @@
         "wia": "1",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes on Lebanon",
+        "kia": "87",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli airstrikes targeting medics",
+        "kia": "51",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -94,7 +108,14 @@
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "The Sarmat missile is the world's most powerful intercontinental ballistic missile",
+        "speaker": "Vladimir Putin",
+        "title": "President of Russia",
+        "date": "2026-05-13"
+      }
+    ],
     "ukraine": [],
     "middle_east": [
       {
@@ -108,6 +129,18 @@
         "speaker": "J.D. Vance",
         "title": "US Vice President",
         "date": "May 14, 2026"
+      },
+      {
+        "text": "No help is needed from China to end the Iran war, the US will win the conflict",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-05-13"
+      },
+      {
+        "text": "Disagreement over Taiwan could send US-China relations down a dangerous path",
+        "speaker": "Xi Jinping",
+        "title": "Chinese President",
+        "date": "2026-05-14"
       }
     ]
   },
@@ -129,15 +162,47 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "President Trump begins visit to Beijing amid rising tensions, with Trump reportedly weaker and Xi stronger since their last summit, as US seeks to manage multiple global conflicts."
+    },
+    {
+      "country": "United Arab Emirates",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "Active materiel + troops",
+      "description": "UAE revealed to have secretly coordinated attacks on Iran with Israeli Mossad during Operation Roaring Lion. Intelligence chiefs made multiple secret visits to coordinate military operations against Iranian targets."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Active materiel + troops",
+      "description": "North Korean troops marched in Russia's Victory Day parade through Red Square bearing their national flag. Reports suggest Russian ship carrying nuclear submarine reactor components to North Korea mysteriously sank in Mediterranean."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated due to Hormuz disruption",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Iran war costs have spiraled to $29 billion as oil spills detected near Strait of Hormuz threaten global energy markets."
+    "notes": "Iran's control over Strait of Hormuz forcing 70% of Red Sea freight traffic to reroute via Cape of Good Hope."
   },
   "update_log": [
+    {
+      "time": "13:24 UTC",
+      "text": "China's Xi warns Trump about Taiwan disagreements during Beijing summit",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:45 UTC",
+      "text": "Latvian Prime Minister resigns after incidents involving stray Ukrainian drones",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:30 UTC",
+      "text": "Reports reveal Mossad chief made secret visits to UAE to coordinate Iran attacks",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:15 UTC",
+      "text": "Putin hails test-firing of Satan II intercontinental ballistic missile",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:23 UTC",
       "text": "VP Vance claims progress in Iran talks as Trump begins China visit",
@@ -159,5 +224,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-14T08:23:50Z"
+  "last_updated": "2026-05-14T13:24:00Z"
 }
