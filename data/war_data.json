@@ -1,20 +1,20 @@
 {
   "escalation": {
     "score": 7.2,
-    "delta": "N/A - first assessment",
+    "delta": "No previous score available",
     "level": "Elevated",
-    "rationale": "Russia test-fires Satan II ICBM while UAE secretly coordinates attacks on Iran with Israel, escalating multiple fronts simultaneously."
+    "rationale": "Massive Russian drone barrage of 800+ drones kills 6 in Ukraine while Israel escalates attacks in Gaza and Lebanon despite ceasefires."
   },
   "ticker_items": [
-    "Putin hails test of Satan II intercontinental ballistic missile",
-    "UAE secretly coordinating attacks on Iran with Israeli Mossad",
-    "Israel escalates Gaza bombing 35% since Iran ceasefire",
-    "China's Xi warns Trump about Taiwan at Beijing summit",
-    "Latvian PM resigns after Ukrainian drone incidents"
+    "Russia launches 800+ drone barrage at Ukraine, kills 6",
+    "Israel escalates Gaza attacks since Iran truce, 120 killed",
+    "Netanyahu held secret UAE meeting during Iran war",
+    "Israeli strikes kill 12 in Lebanon despite ceasefire",
+    "Britain expands Hormuz mission amid Iran tensions"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "UAE revealed as secret participant in attacks against Iran, coordinating with Israeli intelligence."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -27,6 +27,17 @@
         "method": "Air/Drone",
         "lat": 50.45,
         "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Western Ukraine",
+        "description": "Russia launched over 800 drones in daytime barrage killing 6 people and wounding dozens.",
+        "method": "Air/Drone",
+        "lat": 49.84,
+        "lng": 24.03,
         "source_tier": "unverified"
       }
     ],
@@ -51,6 +62,17 @@
         "method": "Naval/USV",
         "lat": 26.57,
         "lng": 56.25,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "South of Beirut",
+        "description": "Israeli strikes on cars kill 12 people despite ceasefire between Israel and Hezbollah.",
+        "method": "Air/Precision Strike",
+        "lat": 33.75,
+        "lng": 35.48,
         "source_tier": "unverified"
       }
     ]
@@ -84,6 +106,27 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian drone barrage Ukraine",
+        "kia": "6",
+        "wia": "dozens",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes Lebanon",
+        "kia": "12",
+        "wia": "",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Gaza escalation since Iran truce",
+        "kia": "120",
+        "wia": "",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -104,6 +147,12 @@
         "figure": "380",
         "claimed_by": "Lebanese Health Ministry",
         "as_of": "May 12, 2026"
+      },
+      {
+        "claim": "Russian military casualties April 2026",
+        "figure": ">35,000",
+        "claimed_by": "Ukraine",
+        "as_of": "May 8, 2026"
       }
     ]
   },
@@ -116,7 +165,14 @@
         "date": "2026-05-13"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Russia attempting to overload Ukraine's defences in hours-long onslaught",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President",
+        "date": "May 13, 2026"
+      }
+    ],
     "middle_east": [
       {
         "text": "Tehran's 14-point peace proposal has no alternative for resolving the U.S.-Iran conflict",
@@ -141,6 +197,12 @@
         "speaker": "Xi Jinping",
         "title": "Chinese President",
         "date": "2026-05-14"
+      },
+      {
+        "text": "Gaza ceasefire is holding despite very serious daily violations",
+        "speaker": "US-backed envoy",
+        "title": "Gaza board envoy",
+        "date": "May 13, 2026"
       }
     ]
   },
@@ -174,15 +236,46 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Active materiel + troops",
       "description": "North Korean troops marched in Russia's Victory Day parade through Red Square bearing their national flag. Reports suggest Russian ship carrying nuclear submarine reactor components to North Korea mysteriously sank in Mediterranean."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Basing + logistics",
+      "description": "UK has pledged drones, fighter jets and a destroyer for potential multinational mission in Strait of Hormuz. Russia places former Defence Minister Ben Wallace on wanted list for recommending Ukraine strike Crimea bridge."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Iran's control over Strait of Hormuz forcing 70% of Red Sea freight traffic to reroute via Cape of Good Hope."
+    "notes": "Global shipping routes continue redirecting via Cape of Good Hope due to Red Sea disruptions from Iran war."
   },
   "update_log": [
+    {
+      "time": "19:25 UTC",
+      "text": "Russia launches massive 800+ drone barrage at western Ukraine killing 6 people",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Israeli strikes on cars south of Beirut kill 12 despite Hezbollah ceasefire",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:45 UTC",
+      "text": "Netanyahu's secret UAE visit during Iran war revealed by multiple outlets",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "Russia places UK ex-Defence Minister Ben Wallace on wanted list",
+      "source_tier": "verified"
+    },
+    {
+      "time": "15:10 UTC",
+      "text": "Reports indicate Israel escalated Gaza attacks since halting Iran strikes",
+      "source_tier": "unverified"
+    },
     {
       "time": "13:24 UTC",
       "text": "China's Xi warns Trump about Taiwan disagreements during Beijing summit",
@@ -224,5 +317,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-14T13:24:00Z"
+  "last_updated": "2026-05-14T19:25:05Z"
 }
