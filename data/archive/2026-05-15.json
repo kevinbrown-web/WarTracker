@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.5,
+    "score": 6.5,
     "delta": "+0.3 from yesterday",
     "level": "Elevated",
-    "rationale": "Multiple Russian strikes on Kyiv with casualties plus intensified Israeli bombardment of Lebanon ahead of ceasefire deadline."
+    "rationale": "Ongoing strikes in Ukraine with 7 killed, drone incidents destabilizing Latvia government, and ship seizures near Iran heighten tensions."
   },
   "ticker_items": [
-    "Russian strikes on Kyiv kill 1, wound 31 across 20+ locations",
-    "Israel-Lebanon ceasefire talks begin in Washington as deadline nears",
-    "VP Vance reports progress in US-Iran war talks during Trump China visit",
-    "Netanyahu coalition submits proposal for early Israeli elections",
-    "US Apache helicopters sink Iranian boats clearing Strait of Hormuz path"
+    "Russia strikes kill 7, injure dozens in Ukraine capital",
+    "Latvia PM resigns after Ukrainian drone incidents",
+    "Ship seized off UAE heading toward Iranian waters",
+    "Israel escalates Gaza attacks despite Iran ceasefire",
+    "EU faces doubts on \u20ac90bn Ukraine military aid package"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "UAE reportedly joined US and Israel in carrying out military strikes on Iran including refinery attacks."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -25,6 +25,17 @@
         "target_location": "Kyiv",
         "description": "Mass drone and missile attack hitting over 20 locations including schools and residential buildings.",
         "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv Darnytsia neighborhood",
+        "description": "Russian strikes across Ukraine leave 7 dead and dozens injured in capital.",
+        "method": "Air/Precision Strike",
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
@@ -40,6 +51,17 @@
         "method": "Air/Precision Strike",
         "lat": 33.27,
         "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Gaza Strip",
+        "description": "Israel escalated attacks in Gaza following halt of Iran bombing campaign.",
+        "method": "Air/Precision Strike",
+        "lat": 31.35,
+        "lng": 34.31,
         "source_tier": "unverified"
       }
     ]
@@ -59,6 +81,20 @@
         "wia": "",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russia strikes Ukraine",
+        "kia": "7",
+        "wia": "dozens",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes Lebanon",
+        "kia": "~90",
+        "wia": "unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -73,6 +109,18 @@
         "figure": ">35,000",
         "claimed_by": "Ukraine",
         "as_of": "2026-04"
+      },
+      {
+        "claim": "Russian military casualties April 2026",
+        "figure": "~35,000",
+        "claimed_by": "Ukraine",
+        "as_of": "May 2026"
+      },
+      {
+        "claim": "Iran war casualties",
+        "figure": "3,468 Iran, 2,702 Lebanon, 28 Gulf states",
+        "claimed_by": "Al Jazeera",
+        "as_of": "May 2026"
       }
     ]
   },
@@ -106,15 +154,47 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Mediator + arms supplier",
       "description": "Pakistan serving as key US-Iran mediator but talks have stalled. Doubts in Washington may open door for other mediators like Oman, Turkey, or Egypt to take lead role."
+    },
+    {
+      "country": "Latvia",
+      "flag": "\ud83c\uddf1\ud83c\uddfb",
+      "status": "Active materiel + troops",
+      "description": "Prime Minister Evika Silina resigned after coalition partner withdrew support over Ukrainian drone incidents. The resignation highlights growing tensions over Ukraine support among NATO allies as drone incidents affect domestic politics."
+    },
+    {
+      "country": "Zimbabwe",
+      "flag": "\ud83c\uddff\ud83c\uddfc",
+      "status": "Supplying dual-use goods",
+      "description": "Zimbabwean nationals reportedly lured into fighting for Russia in Ukraine. Families are calling on governments in Moscow and Harare to secure return of their loved ones from Ukrainian front lines."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Iran war continues to disrupt global energy markets with 70% of Red Sea freight rerouted via Cape of Good Hope."
+    "notes": "Western countries have frozen approximately $590 billion belonging to sanctioned nations including Russia and Iran."
   },
   "update_log": [
+    {
+      "time": "13:20 UTC",
+      "text": "Ship reported seized off UAE coast heading toward Iranian territorial waters",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:45 UTC",
+      "text": "Latvia Prime Minister resigns over Ukrainian drone incidents affecting coalition",
+      "source_tier": "verified"
+    },
+    {
+      "time": "11:30 UTC",
+      "text": "Russia strikes across Ukraine kill 7 and injure dozens in Kyiv",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:15 UTC",
+      "text": "41 OSCE countries invoke Moscow Mechanism over Ukrainian children indoctrination",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:00 UTC",
       "text": "Israel-Lebanon ceasefire talks begin in Washington as current agreement nears expiration",
@@ -131,5 +211,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-05-15T08:34:57Z"
+  "last_updated": "2026-05-15T13:23:18Z"
 }
