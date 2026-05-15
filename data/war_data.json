@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 6.5,
-    "delta": "+0.3 from yesterday",
-    "level": "Elevated",
-    "rationale": "Ongoing strikes in Ukraine with 7 killed, drone incidents destabilizing Latvia government, and ship seizures near Iran heighten tensions."
+    "score": 8,
+    "delta": "No previous data",
+    "level": "High",
+    "rationale": "Multiple active conflicts with Russia striking Kyiv killing 24 civilians, Iran ship seizure near UAE, and ongoing US-Israel operations against Iran."
   },
   "ticker_items": [
-    "Russia strikes kill 7, injure dozens in Ukraine capital",
-    "Latvia PM resigns after Ukrainian drone incidents",
-    "Ship seized off UAE heading toward Iranian waters",
-    "Israel escalates Gaza attacks despite Iran ceasefire",
-    "EU faces doubts on \u20ac90bn Ukraine military aid package"
+    "Russian strike kills 24 in Kyiv apartment block",
+    "Ship seized off UAE coast heading toward Iran",
+    "Iran urges BRICS to condemn US-Israeli aggression",
+    "Former Zelensky aide detained on corruption charges",
+    "US helicopters sink Iranian boats in Hormuz Strait"
   ],
   "new_entrant": {
     "active": false,
@@ -39,6 +39,17 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russian missile strike hits apartment block killing at least 24 people including children.",
+        "method": "Missile/Surface",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -62,6 +73,17 @@
         "method": "Air/Precision Strike",
         "lat": 31.35,
         "lng": 34.31,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "US",
+        "target_country": "Iran",
+        "target_location": "Strait of Hormuz",
+        "description": "US Apache and Seahawk helicopters sank six Iranian small boats while clearing shipping routes.",
+        "method": "Air/Precision Strike",
+        "lat": 26.5667,
+        "lng": 56.25,
         "source_tier": "unverified"
       }
     ]
@@ -95,6 +117,13 @@
         "wia": "unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Kyiv apartment strike",
+        "kia": "~24",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -121,17 +150,42 @@
         "figure": "3,468 Iran, 2,702 Lebanon, 28 Gulf states",
         "claimed_by": "Al Jazeera",
         "as_of": "May 2026"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "May 2026"
+      },
+      {
+        "claim": "Lebanon deaths from US-Israel attacks",
+        "figure": "~2,702",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "May 2026"
       }
     ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Ukraine's air force says the attack on Thursday was part of the largest aerial assault since the war began",
+        "speaker": "Ukrainian Air Force",
+        "title": "Military spokesman",
+        "date": "2026-05-15"
+      }
+    ],
     "middle_east": [
       {
         "text": "Progress is being made in talks with Iran",
         "speaker": "VP Vance",
         "title": "US Vice President",
+        "date": "2026-05-14"
+      },
+      {
+        "text": "Any effort to steady US-China ties hinges on how Washington handles Taiwan",
+        "speaker": "Xi Jinping",
+        "title": "Chinese President",
         "date": "2026-05-14"
       }
     ]
@@ -166,15 +220,42 @@
       "flag": "\ud83c\uddff\ud83c\uddfc",
       "status": "Supplying dual-use goods",
       "description": "Zimbabwean nationals reportedly lured into fighting for Russia in Ukraine. Families are calling on governments in Moscow and Harare to secure return of their loved ones from Ukrainian front lines."
+    },
+    {
+      "country": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "status": "Active materiel + troops",
+      "description": "US forces cleared defended path through Strait of Hormuz, sinking Iranian boats. Trump departed China after talks but provided little clarity on Iran or Taiwan weapons packages."
+    },
+    {
+      "country": "European Union",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "status": "Supplying dual-use goods",
+      "description": "EU faces doubts over ability to arm Ukraine as economic woes deepen. Planning \u20ac90 billion loan for Ukraine military support through 2027. Pope Leo XIV criticized European military buildup."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Western countries have frozen approximately $590 billion belonging to sanctioned nations including Russia and Iran."
+    "notes": "War-risk insurance expanding in UAE due to regional tensions, with new policies for cars, cargo and travel."
   },
   "update_log": [
+    {
+      "time": "18:45 UTC",
+      "text": "Iran urges BRICS nations to condemn US-Israeli war aggression, accuses UAE of direct military involvement",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:30 UTC",
+      "text": "Russian missile strike kills at least 24 in Kyiv apartment block in third day of massive attacks",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "Former Zelensky aide Andriy Yermak detained over large-scale money laundering allegations",
+      "source_tier": "unverified"
+    },
     {
       "time": "13:20 UTC",
       "text": "Ship reported seized off UAE coast heading toward Iranian territorial waters",
@@ -211,5 +292,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-05-15T13:23:18Z"
+  "last_updated": "2026-05-15T19:12:35Z"
 }
