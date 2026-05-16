@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 7.5,
-    "delta": "N/A - initial assessment",
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "Multiple active conflicts with Russian strikes on Kyiv killing 24 civilians, ongoing US-Iran war with Strait of Hormuz closures, and Israel-Hezbollah violence in Lebanon despite ceasefire."
+    "rationale": "Multiple active conflicts with Russia's largest aerial assault on Kyiv killing 24, ongoing US-Iran war, and Israel-Lebanon escalation."
   },
   "ticker_items": [
-    "Russian strike on Kyiv apartment building kills at least 24 civilians",
-    "Iran seizes and sinks ships in Strait of Hormuz amid US war",
-    "Israeli soldier killed by Hezbollah mortar near Litani River",
-    "Finland scrambles jets over drone alert near Russian border",
-    "61% of Americans view Trump's Iran war as mistake - poll"
+    "Russia launches largest aerial assault since war began, kills 24 in Kyiv",
+    "US-Iran war escalates with ship seizures in Strait of Hormuz",
+    "Israeli strikes wound 37 in Lebanon as Washington talks continue",
+    "Ukraine disrupts Russian supply lines, slowing eastern advance",
+    "USS Gerald R. Ford ends record 326-day deployment Saturday"
   ],
   "new_entrant": {
     "active": false,
@@ -50,6 +50,17 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russian aerial assault described as largest since war began kills 24 civilians",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -73,6 +84,28 @@
         "method": "Rocket/Surface",
         "lat": 33.55,
         "lng": 35.32,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli strikes wound at least 37 people in southern Lebanon",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Lebanon",
+        "target_location": "Litani River area",
+        "description": "Hezbollah mortar fire kills Israeli soldier near Litani River",
+        "method": "Rocket/Surface",
+        "lat": 33.55,
+        "lng": 35.4,
         "source_tier": "unverified"
       }
     ]
@@ -106,6 +139,20 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian aerial assault on Kyiv",
+        "kia": "24",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Israeli strikes in southern Lebanon",
+        "kia": "0",
+        "wia": "37",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -131,7 +178,14 @@
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Ukraine's air force says the attack on Thursday was part of the largest aerial assault since the war began",
+        "speaker": "Ukrainian Air Force",
+        "title": "Official statement",
+        "date": "2026-05-15"
+      }
+    ],
     "middle_east": [
       {
         "text": "Iran cannot have nuclear weapons",
@@ -149,6 +203,12 @@
         "text": "Iran has 'no trust' in US, will negotiate only if it is serious",
         "speaker": "Araqchi",
         "title": "Iranian Official",
+        "date": "2026-05-15"
+      },
+      {
+        "text": "Recovering Iran's enriched uranium is more for public relations, but added it should still be removed",
+        "speaker": "Donald Trump",
+        "title": "US President",
         "date": "2026-05-15"
       }
     ]
@@ -183,15 +243,47 @@
       "flag": "\ud83c\udde6\ud83c\uddea",
       "status": "Active materiel + troops",
       "description": "UAE rejects Iran's attempts to justify terrorist attacks after Tehran accused Abu Dhabi of being active partner in US military campaign. Reports indicate UAE failed to convince other GCC states to join coordinated military campaign against Iran."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Active materiel + troops",
+      "description": "Turkey proposes building $1.2 billion military fuel pipeline to help meet energy needs of NATO allies on eastern European flank. Initiative aimed at supporting alliance infrastructure amid regional tensions."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Monitoring",
+      "description": "German Chancellor Friedrich Merz states he would not advise his children to go to US, no longer seeing it as land of opportunity. Comments reflect growing European concerns about US security guarantees."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Strait of Hormuz closure and Lebanon conflict sending economic shock waves across Middle East with job losses and price increases."
+    "notes": "Russia's economy posts first quarterly decline in three years due to war strain and sanctions."
   },
   "update_log": [
+    {
+      "time": "18:44 UTC",
+      "text": "Russia launches largest aerial assault on Kyiv since war began, killing 24",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:44 UTC",
+      "text": "Israeli strikes wound 37 in southern Lebanon as Washington peace talks continue",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:44 UTC",
+      "text": "Ukraine disrupts Russian supply lines, slowing advance in eastern regions",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:44 UTC",
+      "text": "USS Gerald R. Ford to end record 326-day deployment Saturday",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:53 UTC",
       "text": "Russian strike on Kyiv apartment building kills at least 24 civilians, Trump calls it setback to peace efforts.",
@@ -238,5 +330,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-16T12:53:26Z"
+  "last_updated": "2026-05-16T18:44:44Z"
 }
