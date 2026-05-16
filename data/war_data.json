@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.5,
-    "delta": "+0.5 from yesterday",
-    "level": "High",
-    "rationale": "Massive Russian strike on Kyiv kills 24+ civilians while Iran-US tensions rise with Saudi strikes revelation and Trump-Xi summit discussions on regional conflicts."
+    "score": 7.5,
+    "delta": "N/A - initial assessment",
+    "level": "Elevated",
+    "rationale": "Multiple active conflicts with Russian strikes on Kyiv killing 24 civilians, ongoing US-Iran war with Strait of Hormuz closures, and Israel-Hezbollah violence in Lebanon despite ceasefire."
   },
   "ticker_items": [
-    "Russia launches 675 drones, 56 missiles against Kyiv, kills 24+",
-    "Saudi Arabia conducted unpublicized airstrikes on Iran in March",
-    "Trump-Xi summit agrees Iran cannot have nuclear weapons",
+    "Russian strike on Kyiv apartment building kills at least 24 civilians",
+    "Iran seizes and sinks ships in Strait of Hormuz amid US war",
     "Israeli soldier killed by Hezbollah mortar near Litani River",
-    "Russia-Ukraine exchange 205 POWs each in latest swap"
+    "Finland scrambles jets over drone alert near Russian border",
+    "61% of Americans view Trump's Iran war as mistake - poll"
   ],
   "new_entrant": {
     "active": false,
@@ -39,6 +39,17 @@
         "lat": 54.63,
         "lng": 39.74,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russian forces hit apartment building killing at least 24 people.",
+        "method": "Air/Precision Strike",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -51,6 +62,17 @@
         "method": "Rocket/Surface",
         "lat": 33.54,
         "lng": 35.59,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Lebanon",
+        "target_location": "Near Litani River",
+        "description": "Hezbollah mortar fire kills Israeli soldier operating in Lebanon.",
+        "method": "Rocket/Surface",
+        "lat": 33.55,
+        "lng": 35.32,
         "source_tier": "unverified"
       }
     ]
@@ -77,6 +99,13 @@
         "wia": "0",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Kyiv apartment strike",
+        "kia": "24",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -90,6 +119,12 @@
         "claim": "Lebanon conflict deaths",
         "figure": "2,702",
         "claimed_by": "Al Jazeera tracker",
+        "as_of": "May 2026"
+      },
+      {
+        "claim": "Russian military casualties in April",
+        "figure": "~35,000",
+        "claimed_by": "Ukraine",
         "as_of": "May 2026"
       }
     ]
@@ -108,6 +143,12 @@
         "text": "The Chinese president warned of possible conflict if the issue of Taiwan is 'handled poorly'",
         "speaker": "Xi Jinping",
         "title": "Chinese President",
+        "date": "2026-05-15"
+      },
+      {
+        "text": "Iran has 'no trust' in US, will negotiate only if it is serious",
+        "speaker": "Araqchi",
+        "title": "Iranian Official",
         "date": "2026-05-15"
       }
     ]
@@ -130,15 +171,47 @@
       "flag": "\ud83c\uddf5\ud83c\uddf1",
       "status": "Basing + logistics",
       "description": "Poland scrambled fighter jets as Russian drone strikes approached NATO airspace during massive attack on Ukraine. Air defenses placed on highest alert as nearly 400 Russian drones launched across Ukrainian territory."
+    },
+    {
+      "country": "Finland",
+      "flag": "\ud83c\uddeb\ud83c\uddee",
+      "status": "Monitoring",
+      "description": "Finnish defense forces scrambled fighter jets amid drone alerts near Russian border. Officials later confirmed no stray drones detected in Finnish airspace. Defense chief warns of continued alarms as Russian war persists."
+    },
+    {
+      "country": "UAE",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "Active materiel + troops",
+      "description": "UAE rejects Iran's attempts to justify terrorist attacks after Tehran accused Abu Dhabi of being active partner in US military campaign. Reports indicate UAE failed to convince other GCC states to join coordinated military campaign against Iran."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Iran war has forced 70% of Red Sea freight traffic to reroute via Cape of Good Hope, significantly impacting global supply chains."
+    "notes": "Strait of Hormuz closure and Lebanon conflict sending economic shock waves across Middle East with job losses and price increases."
   },
   "update_log": [
+    {
+      "time": "12:53 UTC",
+      "text": "Russian strike on Kyiv apartment building kills at least 24 civilians, Trump calls it setback to peace efforts.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:45 UTC",
+      "text": "Israeli soldier killed by Hezbollah mortar fire near Litani River in Lebanon despite ceasefire.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "Finland ends drone alert after scrambling fighter jets, no drones detected in airspace.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Iran continues seizing ships in Strait of Hormuz as China opposes UN resolution on waterway.",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:45 UTC",
       "text": "Russia launches massive 675-drone, 56-missile attack on Kyiv killing at least 24 civilians",
@@ -165,5 +238,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-16T07:45:19Z"
+  "last_updated": "2026-05-16T12:53:26Z"
 }
