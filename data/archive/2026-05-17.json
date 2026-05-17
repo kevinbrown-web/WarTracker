@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.2,
-    "delta": "No previous score",
+    "score": 7.5,
+    "delta": "+0.3 from yesterday",
     "level": "Elevated",
-    "rationale": "Multiple active conflicts including Iran naval blockade forcing 78 ships to reroute, Israeli strikes killing senior Hamas commander, and continued Israeli-Hezbollah violence despite ceasefire extension."
+    "rationale": "Iran closure of Strait of Hormuz causing oil crisis, US-Israel preparing renewed strikes on Iran, and drone attack on UAE nuclear facility."
   },
   "ticker_items": [
-    "Iran blockade forces 78 commercial ships to change course - CENTCOM",
-    "Senior Hamas military chief Al-Haddad killed in Israeli Gaza strike",
-    "Israel strikes 20+ Lebanese villages, 110 paramedics killed - MSF",
-    "Oil prices surge to $4.39/gallon amid supply disruptions",
-    "Israel-Lebanon agree 45-day ceasefire extension after talks"
+    "Drone strike sparks fire at UAE nuclear plant",
+    "Iran blocks Strait of Hormuz, oil jumps to $4.39/gallon",
+    "US-Israel preparing renewed Iran strikes next week",
+    "Hamas military chief killed in Gaza airstrike",
+    "Russia eases citizenship for Transnistria residents"
   ],
   "new_entrant": {
     "active": false,
@@ -63,6 +63,28 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown",
+        "target_country": "UAE",
+        "target_location": "Barakah nuclear plant",
+        "description": "Drone strike sparks fire at UAE nuclear power facility with no claimed responsibility",
+        "method": "Air/Drone",
+        "lat": 24.52,
+        "lng": 52.87,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Gaza Strip",
+        "description": "Israeli airstrike kills Hamas armed wing chief Ezzedine Al-Haddad",
+        "method": "Air/Precision Strike",
+        "lat": 31.35,
+        "lng": 34.31,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -95,6 +117,20 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Gaza Israeli strikes",
+        "kia": "5",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Hamas chief killing",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -115,6 +151,12 @@
         "figure": "~35,000",
         "claimed_by": "Ukraine",
         "as_of": "April 2026"
+      },
+      {
+        "claim": "Lebanese paramedics killed",
+        "figure": "110",
+        "claimed_by": "MSF",
+        "as_of": "2026-05-16"
       }
     ]
   },
@@ -139,6 +181,18 @@
         "text": "Tehran is consulting with Oman to establish a suitable mechanism for managing the Strait of Hormuz",
         "speaker": "Abbas Araqchi",
         "title": "Iranian Foreign Minister",
+        "date": "2026-05-16"
+      },
+      {
+        "text": "We are in doubt about their seriousness",
+        "speaker": "Abbas Araghchi",
+        "title": "Iranian Foreign Minister",
+        "date": "2026-05-16"
+      },
+      {
+        "text": "Trump claims China's Xi Jinping agreed Iran must reopen the Strait of Hormuz",
+        "speaker": "Donald Trump",
+        "title": "US President",
         "date": "2026-05-16"
       }
     ]
@@ -167,15 +221,41 @@
       "flag": "\ud83c\udde8\ud83c\udde6",
       "status": "Strategic balancer",
       "description": "Deepening Arctic defense ties with Nordic nations to reduce reliance on US for defense. Move comes as Trump threats and increased Russian-Chinese Arctic military activities prompt security realignment."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "Eased citizenship rules for Transnistria residents amid Moldova-Romania reunification talks. Foreign adversaries reportedly watching US-Iran war to assess American military capabilities."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Rising",
+    "brent_crude": "Spiked due to Strait closure",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices surged from $2.98 to $4.39 with economist warning weeks to avoid recession as supply lines choked."
+    "notes": "Gas prices jumped from $2.98 to $4.39 due to Iran blocking Strait of Hormuz, threatening global recession."
   },
   "update_log": [
+    {
+      "time": "18:00 UTC",
+      "text": "Drone strike causes fire at UAE Barakah nuclear power plant",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Israel confirms killing of Hamas armed wing chief Ezzedine Al-Haddad in Gaza strike",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "US and Israel conducting preparations for possible renewal of Iran strikes next week",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Russia approves easier citizenship rules for Transnistria residents",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:50 UTC",
       "text": "CENTCOM reports 78 commercial ships forced to change course due to Iranian naval blockade",
@@ -217,5 +297,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-17T12:50:21Z"
+  "last_updated": "2026-05-17T18:50:14Z"
 }
