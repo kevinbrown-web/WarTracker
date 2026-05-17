@@ -1,15 +1,16 @@
 {
   "escalation": {
-    "score": 7.8,
-    "delta": "+0.3 from yesterday",
+    "score": 7.2,
+    "delta": "No previous score",
     "level": "Elevated",
-    "rationale": "Iran announces Strait of Hormuz toll plan as Trump-Xi talks address Iranian blockade amid ongoing U.S.-Israeli operations."
+    "rationale": "Multiple active conflicts including Iran naval blockade forcing 78 ships to reroute, Israeli strikes killing senior Hamas commander, and continued Israeli-Hezbollah violence despite ceasefire extension."
   },
   "ticker_items": [
-    "Iran to unveil Hormuz toll plan as Trump warns of consequences",
-    "Putin visits China May 19-20 following Trump's Beijing trip",
-    "Israel-Lebanon ceasefire extended 45 days amid continued strikes",
-    "Ukrainian missile kills 24 in Kyiv apartment building strike"
+    "Iran blockade forces 78 commercial ships to change course - CENTCOM",
+    "Senior Hamas military chief Al-Haddad killed in Israeli Gaza strike",
+    "Israel strikes 20+ Lebanese villages, 110 paramedics killed - MSF",
+    "Oil prices surge to $4.39/gallon amid supply disruptions",
+    "Israel-Lebanon agree 45-day ceasefire extension after talks"
   ],
   "new_entrant": {
     "active": false,
@@ -40,6 +41,28 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Gaza Strip",
+        "description": "Israeli airstrike killed Hamas armed wing chief Ezzedine Al-Haddad described as key architect of October 7 attacks",
+        "method": "Air/Precision Strike",
+        "lat": 31.5,
+        "lng": 34.45,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli strikes targeted more than 20 villages with evacuation warnings issued for nine villages",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -58,6 +81,20 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Hamas commander killing",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Lebanese paramedic deaths",
+        "kia": "110",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -72,6 +109,12 @@
         "figure": "2,702",
         "claimed_by": "Al Jazeera",
         "as_of": "2026-05-17"
+      },
+      {
+        "claim": "Russian military casualties in April",
+        "figure": "~35,000",
+        "claimed_by": "Ukraine",
+        "as_of": "April 2026"
       }
     ]
   },
@@ -91,6 +134,12 @@
         "speaker": "Donald Trump",
         "title": "U.S. President",
         "date": "2026-05-16"
+      },
+      {
+        "text": "Tehran is consulting with Oman to establish a suitable mechanism for managing the Strait of Hormuz",
+        "speaker": "Abbas Araqchi",
+        "title": "Iranian Foreign Minister",
+        "date": "2026-05-16"
       }
     ]
   },
@@ -106,15 +155,52 @@
       "flag": "\ud83c\uddf9\ud83c\uddf7",
       "status": "Basing + logistics",
       "description": "Turkey proposes $1.2 billion military fuel pipeline to eastern NATO allies amid regional energy security concerns. The proposal aims to support NATO's eastern flank during ongoing Middle East conflicts."
+    },
+    {
+      "country": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "status": "Active materiel + troops",
+      "description": "Trump returned from China trip calling it 'tremendous success' while CENTCOM reports Iranian blockade forcing commercial shipping disruptions. House Republicans signal no new Ukraine supplemental likely, backing more Russia sanctions instead."
+    },
+    {
+      "country": "Canada",
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "status": "Strategic balancer",
+      "description": "Deepening Arctic defense ties with Nordic nations to reduce reliance on US for defense. Move comes as Trump threats and increased Russian-Chinese Arctic military activities prompt security realignment."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Rising",
     "wheat_futures": "Unchanged",
-    "notes": "Markets await Iran's Strait of Hormuz toll announcement and Trump-Xi agreement outcomes."
+    "notes": "Oil prices surged from $2.98 to $4.39 with economist warning weeks to avoid recession as supply lines choked."
   },
   "update_log": [
+    {
+      "time": "12:50 UTC",
+      "text": "CENTCOM reports 78 commercial ships forced to change course due to Iranian naval blockade",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:45 UTC",
+      "text": "Israel confirms killing of Hamas armed wing chief Al-Haddad in Gaza airstrike",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:40 UTC",
+      "text": "MSF reports 110 Lebanese paramedics killed in 163 direct Israeli attacks",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:35 UTC",
+      "text": "Israel-Lebanon agree to 45-day ceasefire extension after productive talks",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "Trump returns from China trip praising historic diplomatic moment",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:00 UTC",
       "text": "Iran announces plan to unveil Strait of Hormuz toll system amid ongoing blockade.",
@@ -131,5 +217,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-17T08:05:58Z"
+  "last_updated": "2026-05-17T12:50:21Z"
 }
