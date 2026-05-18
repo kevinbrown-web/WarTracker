@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.2,
-    "delta": "N/A (first assessment)",
+    "score": 7.5,
+    "delta": "+1.2 from baseline",
     "level": "Elevated",
-    "rationale": "Drone strike on UAE nuclear facility and ongoing US-Iran war negotiations amid reported preparations for expanded Iranian attacks."
+    "rationale": "Drone strike on UAE nuclear facility, Trump planning Iran military options meeting, and continued Israeli operations in Lebanon significantly raise tensions."
   },
   "ticker_items": [
-    "Drone strike hits UAE nuclear power plant, no radiation impact reported",
-    "Ukraine launches massive drone wave against Russia, kills four",
-    "US reportedly makes preparations for impending Iran attacks",
-    "Israel-Lebanon ceasefire extended 45 days following talks",
-    "Trump posts AI video showing destruction of Iranian naval vessel"
+    "Drone hits near UAE nuclear plant, radiation levels normal",
+    "Trump to hold Situation Room meeting on Iran military options",
+    "Israel-Lebanon ceasefire extended 45 days after productive talks",
+    "Ukraine commander vows continued deep strikes into Russia",
+    "Hamas armed wing chief reportedly killed in Gaza strike"
   ],
   "new_entrant": {
     "active": false,
@@ -61,6 +61,17 @@
         "lat": 50.4501,
         "lng": 30.5234,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Military infrastructure",
+        "description": "Russian forces conducted large-scale retaliatory strikes with Kinzhal hypersonic missiles targeting defense industry and airfields.",
+        "method": "Ballistic Missile",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -107,6 +118,17 @@
         "lat": 31.3547,
         "lng": 34.3088,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown",
+        "target_country": "UAE",
+        "target_location": "Near nuclear power plant",
+        "description": "Drone strike hit near UAE nuclear power plant with no damage reported and normal radiation levels.",
+        "method": "Air/Drone",
+        "lat": 24.52,
+        "lng": 54.43,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -139,6 +161,13 @@
         "wia": "0",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Hamas commander strike",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -165,6 +194,18 @@
         "figure": "2,702",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-05-05"
+      },
+      {
+        "claim": "Iranian casualties from US-Israel attacks",
+        "figure": "3,468",
+        "claimed_by": "Al Jazeera",
+        "as_of": "May 2026"
+      },
+      {
+        "claim": "Lebanese casualties from attacks",
+        "figure": "2,702",
+        "claimed_by": "Al Jazeera",
+        "as_of": "May 2026"
       }
     ]
   },
@@ -176,6 +217,12 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-05-17"
+      },
+      {
+        "text": "Fight relentlessly",
+        "speaker": "Madyar",
+        "title": "Ukraine's unmanned forces commander",
+        "date": "May 17, 2026"
       }
     ],
     "middle_east": [
@@ -196,6 +243,12 @@
         "speaker": "Taiwan President",
         "title": "President of Taiwan",
         "date": "2026-05-17"
+      },
+      {
+        "text": "Clock is ticking",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "May 17, 2026"
       }
     ]
   },
@@ -229,15 +282,41 @@
       "flag": "\ud83c\uddf5\ud83c\uddf1",
       "status": "Strategic balancer",
       "description": "Warning that Russia and Belarus are pushing illegal migrants toward NATO alliance as part of hybrid warfare campaign. Military guards Belarus border against what officials call Russian-backed destabilization efforts."
+    },
+    {
+      "country": "EU",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "status": "Mediator + arms supplier",
+      "description": "EU considering appointing envoy to talk to Moscow, with Angela Merkel reportedly in frame. European countries discussing safe transit through Strait of Hormuz amid Iranian tensions."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Iran's stock market reportedly preparing for challenging reopening after lengthy war closure."
+    "notes": "Escalating tensions over Strait of Hormuz could destabilize global oil markets according to analysts."
   },
   "update_log": [
+    {
+      "time": "19:20 UTC",
+      "text": "Drone strike hits near UAE nuclear power plant, authorities investigating perpetrator",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:45 UTC",
+      "text": "Trump to hold Situation Room meeting on military options against Iran",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:30 UTC",
+      "text": "Israel-Lebanon ceasefire extended 45 days following productive talks",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:20 UTC",
+      "text": "Ukraine commander vows continued deep strikes into Russian territory",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:49 UTC",
       "text": "Drone strike hits UAE nuclear power plant near Abu Dhabi causing fire but no radiation impact",
@@ -279,5 +358,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-18T14:49:49Z"
+  "last_updated": "2026-05-18T19:20:37Z"
 }
