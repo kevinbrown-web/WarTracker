@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.0,
-    "delta": "+0.5 from yesterday",
-    "level": "High",
-    "rationale": "Large-scale Ukrainian drone assault on Russia with Moscow casualties, reports of Trump administration urging UAE military action against Iran, and continued Israeli strikes killing 18 in Lebanon."
+    "score": 7.2,
+    "delta": "N/A (first assessment)",
+    "level": "Elevated",
+    "rationale": "Drone strike on UAE nuclear facility and ongoing US-Iran war negotiations amid reported preparations for expanded Iranian attacks."
   },
   "ticker_items": [
-    "Ukraine launches ~600 drone attack on Russia, 4 killed",
-    "Trump reportedly urges UAE to take Iranian island",
-    "Israel kills 18 in Lebanon strikes over 24 hours",
-    "Russia conducts hypersonic missile strikes on Ukraine",
-    "45-day Israel-Lebanon ceasefire extension agreed"
+    "Drone strike hits UAE nuclear power plant, no radiation impact reported",
+    "Ukraine launches massive drone wave against Russia, kills four",
+    "US reportedly makes preparations for impending Iran attacks",
+    "Israel-Lebanon ceasefire extended 45 days following talks",
+    "Trump posts AI video showing destruction of Iranian naval vessel"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Reports suggest UAE may be preparing military action against Iranian Lavan Island following Trump administration encouragement."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -38,6 +38,28 @@
         "method": "Ballistic Missile",
         "lat": 50.45,
         "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Multiple locations",
+        "description": "Ukraine launches massive drone wave against Russia killing four people",
+        "method": "Air/Drone",
+        "lat": 55.7558,
+        "lng": 37.6176,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Military infrastructure",
+        "description": "Russian forces conducted massive retaliatory strike with Kinzhal hypersonic missiles targeting Ukrainian defense facilities",
+        "method": "Ballistic Missile",
+        "lat": 50.4501,
+        "lng": 30.5234,
         "source_tier": "unverified"
       }
     ],
@@ -63,6 +85,28 @@
         "lat": 31.5,
         "lng": 34.47,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown",
+        "target_country": "UAE",
+        "target_location": "Abu Dhabi nuclear power plant",
+        "description": "Drone strike triggered fire near nuclear power station with no injuries or radiation impact",
+        "method": "Air/Drone",
+        "lat": 24.5262,
+        "lng": 54.1056,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Gaza Strip",
+        "description": "Israeli airstrike reportedly killed Hamas armed wing chief Ezzedine Al-Haddad",
+        "method": "Air/Precision Strike",
+        "lat": 31.3547,
+        "lng": 34.3088,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -81,6 +125,20 @@
         "wia": "124",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Ukrainian drone strikes on Russia",
+        "kia": "4",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "UAE nuclear plant drone strike",
+        "kia": "0",
+        "wia": "0",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -95,18 +153,49 @@
         "figure": "110",
         "claimed_by": "MSF",
         "as_of": "May 2026"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-05"
+      },
+      {
+        "claim": "Lebanese deaths from Israeli attacks",
+        "figure": "2,702",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-05"
       }
     ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "The attacks were justified as responses to Russia's prolongation of the war and its attacks on our cities and communities",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-05-17"
+      }
+    ],
     "middle_east": [
       {
         "text": "Israel controls 60 percent of Gaza",
         "speaker": "Benjamin Netanyahu",
         "title": "Israeli Prime Minister",
         "date": "2026-05-18"
+      },
+      {
+        "text": "The world stands at the cusp of a new order",
+        "speaker": "Mohammad Baqir Qalibaf",
+        "title": "Iran's parliamentary speaker",
+        "date": "2026-05-16"
+      },
+      {
+        "text": "Only the Taiwanese people can decide their future",
+        "speaker": "Taiwan President",
+        "title": "President of Taiwan",
+        "date": "2026-05-17"
       }
     ]
   },
@@ -128,15 +217,47 @@
       "flag": "\ud83c\uddee\ud83c\uddf3",
       "status": "Purchasing",
       "description": "India and other oil importers likely to negotiate transit deals with Iran amid ongoing Strait of Hormuz disruptions. Moody's reports full shipping recovery not expected by 2026."
+    },
+    {
+      "country": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "status": "Active materiel + troops",
+      "description": "Making intense preparations for impending Iran attacks according to reports. Trump posted AI-generated video showing destruction of Iranian naval vessel. US forces reportedly cleared defended path through Strait of Hormuz using Apache and Seahawk helicopters."
+    },
+    {
+      "country": "Poland",
+      "flag": "\ud83c\uddf5\ud83c\uddf1",
+      "status": "Strategic balancer",
+      "description": "Warning that Russia and Belarus are pushing illegal migrants toward NATO alliance as part of hybrid warfare campaign. Military guards Belarus border against what officials call Russian-backed destabilization efforts."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Western countries have frozen approximately $590 billion in assets belonging to Russia, Iran, North Korea and other sanctioned nations according to Russian officials."
+    "notes": "Iran's stock market reportedly preparing for challenging reopening after lengthy war closure."
   },
   "update_log": [
+    {
+      "time": "14:49 UTC",
+      "text": "Drone strike hits UAE nuclear power plant near Abu Dhabi causing fire but no radiation impact",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:30 UTC",
+      "text": "Ukraine launches massive drone wave against Russia killing four people in retaliatory strikes",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "US makes intense preparations for impending Iran attacks as negotiations appear stalled",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "Israel and Lebanon agree to 45-day ceasefire extension following productive talks",
+      "source_tier": "unverified"
+    },
     {
       "time": "09:30 UTC",
       "text": "Ukraine launches massive 600-drone attack on Russia killing 4 civilians in Moscow and Belgorod regions",
@@ -158,5 +279,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-18T09:34:58Z"
+  "last_updated": "2026-05-18T14:49:49Z"
 }
