@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.2,
-    "delta": "N/A - initial assessment",
-    "level": "High",
-    "rationale": "Multiple active conflicts with Trump discussing resuming Iran combat operations, Belarus-Russia nuclear drills, and ongoing Israel-Lebanon war with 3,000+ deaths."
+    "score": 7.5,
+    "delta": "+0.5 from yesterday",
+    "level": "Elevated",
+    "rationale": "Belarus-Russia joint nuclear drills and Trump calling off Iran attack amid ongoing tensions elevate risk."
   },
   "ticker_items": [
-    "Belarus starts nuclear drills with Russia after Ukraine warnings",
-    "Trump discusses resuming combat operations against Iran with security team",
-    "Lebanon death toll nears 3,000 since March in Israel-Hezbollah war",
-    "Iran reactivates missile bunkers amid rising regional tensions",
-    "Ukraine launches new long-range drone strikes on Moscow region"
+    "Belarus-Russia launch joint nuclear weapons training drills",
+    "Trump calls off planned Iran attack at Gulf states' request",
+    "Iran reactivates missile bunkers amid regional tensions",
+    "Lebanon death toll tops 3,000 in Israel-Hezbollah fighting",
+    "Ukraine strikes on Moscow shift war momentum"
   ],
   "new_entrant": {
     "active": false,
@@ -125,6 +125,13 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Lebanon Israel-Hezbollah fighting",
+        "kia": "~3,020",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -157,6 +164,18 @@
         "figure": "28",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-05-05"
+      },
+      {
+        "claim": "Iran conflict deaths",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "May 2026"
+      },
+      {
+        "claim": "Lebanon conflict deaths",
+        "figure": "~2,702",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "May 2026"
       }
     ]
   },
@@ -194,6 +213,12 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-05-18"
+      },
+      {
+        "text": "I am holding off on a US attack planned for Tuesday as serious negotiations are now taking place",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-05-18"
       }
     ]
   },
@@ -227,9 +252,29 @@
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Western countries have frozen approximately $590 billion belonging to Russia, Cuba, Venezuela, Iran, North Korea and other sanctioned nations."
+    "notes": "Trump suggests Fed rate cuts may be delayed until Iran conflict resolution."
   },
   "update_log": [
+    {
+      "time": "19:00 UTC",
+      "text": "Belarus dismisses concerns over joint nuclear drills with Russia",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Trump confirms calling off planned Iran attack at Gulf states' request",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:45 UTC",
+      "text": "Lebanon health ministry reports death toll exceeds 3,000 in latest fighting",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "Iran reportedly reactivating missile bunkers amid rising tensions",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:29 UTC",
       "text": "Trump discusses resuming combat operations against Iran with security team amid rising tensions.",
@@ -276,5 +321,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-19T14:29:24Z"
+  "last_updated": "2026-05-19T19:40:32Z"
 }
