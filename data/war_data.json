@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.0,
-    "delta": "+0.5 from yesterday",
+    "score": 8.2,
+    "delta": "N/A - initial assessment",
     "level": "High",
-    "rationale": "Trump issues ultimatum to Iran threatening complete destruction while Iran reactivates missile bunkers on day 80 of conflict."
+    "rationale": "Multiple active conflicts with Trump discussing resuming Iran combat operations, Belarus-Russia nuclear drills, and ongoing Israel-Lebanon war with 3,000+ deaths."
   },
   "ticker_items": [
-    "Trump warns Iran 'won't be anything left' without peace deal",
-    "Ukraine launches biggest Moscow drone attack yet using new variants",
+    "Belarus starts nuclear drills with Russia after Ukraine warnings",
+    "Trump discusses resuming combat operations against Iran with security team",
+    "Lebanon death toll nears 3,000 since March in Israel-Hezbollah war",
     "Iran reactivates missile bunkers amid rising regional tensions",
-    "US forces clear Iranian boats from Strait of Hormuz",
-    "Russia strikes Ukraine's Dnipro and Odesa, dozen injured"
+    "Ukraine launches new long-range drone strikes on Moscow region"
   ],
   "new_entrant": {
     "active": false,
@@ -50,6 +50,17 @@
         "lat": 55.76,
         "lng": 37.62,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Moscow region",
+        "description": "Ukrainian long-range drones targeted electronics factory and oil pumping station in Moscow region over weekend.",
+        "method": "Air/Drone",
+        "lat": 55.7558,
+        "lng": 37.6176,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -73,6 +84,28 @@
         "method": "Naval/USV",
         "lat": 26.57,
         "lng": 56.25,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "South Lebanon",
+        "description": "Israeli army carried out series of strikes in south Lebanon as part of ongoing conflict.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Israel",
+        "target_location": "Northern Israel",
+        "description": "Hezbollah struck military target in northern Israel in response to Israeli strikes.",
+        "method": "Missile/Surface",
+        "lat": 33.0,
+        "lng": 35.1,
         "source_tier": "unverified"
       }
     ]
@@ -100,11 +133,42 @@
         "figure": "~35,000",
         "claimed_by": "Ukraine",
         "as_of": "May 2026"
+      },
+      {
+        "claim": "Lebanon war deaths since March",
+        "figure": "~3,000",
+        "claimed_by": "Irish Times reporting",
+        "as_of": "2026-05-18"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-05"
+      },
+      {
+        "claim": "Lebanon deaths from US-Israel Iran operation",
+        "figure": "2,702",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-05"
+      },
+      {
+        "claim": "Gulf states deaths from Iran conflict",
+        "figure": "28",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-05"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "A return of third-country military infrastructure to Afghanistan or the deployment of new military facilities in neighboring states would be unacceptable.",
+        "speaker": "Sergei Shoigu",
+        "title": "Russian Security Council Secretary",
+        "date": "2026-05-18"
+      }
+    ],
     "ukraine": [],
     "middle_east": [
       {
@@ -117,6 +181,18 @@
         "text": "Gaza is now forgotten",
         "speaker": "Vicar General",
         "title": "Patriarchate of Jerusalem",
+        "date": "2026-05-18"
+      },
+      {
+        "text": "I will do the impossible in order to stop the war with Israel.",
+        "speaker": "Joseph Aoun",
+        "title": "Lebanese President",
+        "date": "2026-05-18"
+      },
+      {
+        "text": "Clock is ticking for Iran, adding that Tehran better get moving fast, or there won't be anything left of them.",
+        "speaker": "Donald Trump",
+        "title": "US President",
         "date": "2026-05-18"
       }
     ]
@@ -139,15 +215,46 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Monitoring",
       "description": "Leaked diplomatic cable reignites claims of US role in Imran Khan's removal over Pakistan's neutral stance on Russia-Ukraine war. Document suggests US displeasure with Pakistan's non-aligned position during ongoing conflicts."
+    },
+    {
+      "country": "Belarus",
+      "flag": "\ud83c\udde7\ud83c\uddfe",
+      "status": "Active materiel + troops",
+      "description": "Belarus announced snap nuclear exercises with Russian allies following Ukraine's warnings about deeper involvement in Kremlin's war. Minsk conducting joint military drills with Russia amid escalating tensions with Kyiv."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Supply chain concerns emerging with reports of potential engine oil shortages affecting transportation sector."
+    "notes": "Western countries have frozen approximately $590 billion belonging to Russia, Cuba, Venezuela, Iran, North Korea and other sanctioned nations."
   },
   "update_log": [
+    {
+      "time": "14:29 UTC",
+      "text": "Trump discusses resuming combat operations against Iran with security team amid rising tensions.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:20 UTC",
+      "text": "Belarus announces snap nuclear exercises with Russia following Ukraine warnings about deeper involvement.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:15 UTC",
+      "text": "Iran reactivates missile bunkers as regional tensions escalate across Middle East.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:10 UTC",
+      "text": "Lebanese President Aoun vows to do 'impossible' to stop war with Israel as death toll nears 3,000.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Ukraine launches new long-range drone strikes targeting Moscow region electronics factory and oil facilities.",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:54 UTC",
       "text": "Trump issues ultimatum to Iran warning there 'won't be anything left' without quick peace deal on day 80 of conflict.",
@@ -169,5 +276,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-19T08:54:45Z"
+  "last_updated": "2026-05-19T14:29:24Z"
 }
