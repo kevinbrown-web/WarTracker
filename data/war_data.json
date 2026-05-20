@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.2,
-    "delta": "+0.7 from yesterday",
+    "score": 8,
+    "delta": "No previous data",
     "level": "High",
-    "rationale": "Russia launches three-day nationwide nuclear drills with 64,000 troops as Putin meets Xi in Beijing while Trump sets 2-3 day deadline for Iran deal."
+    "rationale": "Active US-Iran war with drone strikes on UAE nuclear facility, blocked Strait of Hormuz, and NATO considering military deployment."
   },
   "ticker_items": [
-    "Russia begins 3-day nuclear drills with 64,000 troops",
-    "Putin-Xi summit in Beijing amid Iran war discussions",
-    "Trump gives Iran 2-3 days to reach deal",
-    "Ukrainian drones hit Russian Danube port infrastructure",
-    "Lithuania urges NATO strikes on Russian Kaliningrad"
+    "Drone strikes UAE's Barakah nuclear plant, launched from Iraq",
+    "NATO discussing Hormuz deployment if strait remains blocked",
+    "Iran reopens stock exchange after war-forced shutdown",
+    "Russia holds massive nuclear forces drills with 64,000 troops",
+    "Trump proposes US-China-Russia alliance against ICC"
   ],
   "new_entrant": {
     "active": false,
@@ -39,9 +39,43 @@
         "lat": 45.35,
         "lng": 29.7,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Various locations",
+        "description": "Ukraine stepped up drone attacks as Russia holds nuclear forces drills",
+        "method": "Air/Drone",
+        "lat": 55.7558,
+        "lng": 37.6176,
+        "source_tier": "unverified"
       }
     ],
-    "middle_east": []
+    "middle_east": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran-backed forces",
+        "target_country": "UAE",
+        "target_location": "Barakah Nuclear Plant",
+        "description": "Drones launched from Iraq struck generator near Barakah nuclear power plant",
+        "method": "Air/Drone",
+        "lat": 24.5264,
+        "lng": 52.8411,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "US/CENTCOM",
+        "target_country": "Iran",
+        "target_location": "Minab",
+        "description": "CENTCOM investigating strike on school in Minab under complex inquiry",
+        "method": "Air/Precision Strike",
+        "lat": 27.1376,
+        "lng": 57.0878,
+        "source_tier": "unverified"
+      }
+    ]
   },
   "casualties": {
     "today": [],
@@ -63,6 +97,12 @@
         "figure": "~35,000",
         "claimed_by": "Ukraine",
         "as_of": "2026-05-08"
+      },
+      {
+        "claim": "Lebanon war deaths",
+        "figure": "~3,000",
+        "claimed_by": "Regional sources",
+        "as_of": "2026-05-19"
       }
     ]
   },
@@ -72,6 +112,12 @@
         "text": "Russian and Chinese foreign policy interests align on key international and regional issues",
         "speaker": "Vladimir Putin",
         "title": "Russian President",
+        "date": "2026-05-19"
+      },
+      {
+        "text": "The three-day exercise will involve 64,000 troops, over 200 missile launchers, more than 140 aircraft, 73 surface warships and 13 submarines",
+        "speaker": "Russian Defense Ministry",
+        "title": "Official Statement",
         "date": "2026-05-19"
       }
     ],
@@ -88,6 +134,18 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-05-20"
+      },
+      {
+        "text": "If we dismantle Hezbollah, there won't be explosive drones",
+        "speaker": "Brig. Gen. Amir Avivi",
+        "title": "Israeli Military Official",
+        "date": "2026-05-19"
+      },
+      {
+        "text": "Iran needs reality check, Trump understands something must be done",
+        "speaker": "Danny Danon",
+        "title": "Israeli Ambassador to UN",
+        "date": "2026-05-19"
       }
     ]
   },
@@ -103,15 +161,41 @@
       "flag": "\ud83c\uddf1\ud83c\uddf9",
       "status": "Active materiel + troops",
       "description": "Lithuanian Foreign Minister calls for NATO strikes on Russia's Kaliningrad exclave to send message to Moscow. This represents one of the most aggressive public positions taken by a NATO ally regarding direct military action against Russia."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Monitoring",
+      "description": "Pakistani Shia nationals in UAE facing detention and questioning due to Iran war spillover effects. Civil engineer detained by Etihad Rail after reporting to police."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Easing on Iran deal hopes",
+    "brent_crude": "Lower on Iran sanctions talks",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices ease amid Trump administration comments about potential Iran deal progress."
+    "notes": "Oil prices slid after reports Iran agreed to US lifting oil sanctions during talks."
   },
   "update_log": [
+    {
+      "time": "14:29 UTC",
+      "text": "UAE confirms drones that hit Barakah nuclear plant launched from Iraqi territory",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "NATO discussing possible Hormuz deployment if strait not reopened by July",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Russia begins massive nuclear forces drills with 64,000 troops amid Ukraine drone attacks",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Iran reopens stock exchange after longest shutdown in history due to war",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:30 UTC",
       "text": "Putin arrives in Beijing for summit with Xi Jinping amid ongoing global conflicts",
@@ -133,5 +217,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-05-20T08:49:22Z"
+  "last_updated": "2026-05-20T14:29:17Z"
 }
