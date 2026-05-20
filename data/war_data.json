@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8,
+    "score": 8.5,
     "delta": "No previous data",
     "level": "High",
-    "rationale": "Active US-Iran war with drone strikes on UAE nuclear facility, blocked Strait of Hormuz, and NATO considering military deployment."
+    "rationale": "Multiple concurrent conflicts with US-Iran military tensions, Trump threatening imminent strikes, NATO considering Hormuz mission, and China-Russia military cooperation intensifying."
   },
   "ticker_items": [
-    "Drone strikes UAE's Barakah nuclear plant, launched from Iraq",
-    "NATO discussing Hormuz deployment if strait remains blocked",
-    "Iran reopens stock exchange after war-forced shutdown",
-    "Russia holds massive nuclear forces drills with 64,000 troops",
-    "Trump proposes US-China-Russia alliance against ICC"
+    "Trump says US may attack Iran within days",
+    "NATO considering Hormuz deployment mission by July",
+    "China reportedly training 200 Russian troops for Ukraine",
+    "Russia warns of catastrophic NATO conflict after nuclear test",
+    "Iran blocks Strait of Hormuz, imposes subsea cable fees"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "China has entered active military involvement by reportedly training 200 Russian troops for Ukraine deployment."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -74,6 +74,17 @@
         "lat": 27.1376,
         "lng": 57.0878,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iraq-based forces",
+        "target_country": "UAE",
+        "target_location": "Nuclear plant vicinity",
+        "description": "Drone strike caused fire near UAE nuclear plant but no injuries or radiation leak reported.",
+        "method": "Air/Drone",
+        "lat": 24.5266,
+        "lng": 54.4216,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -103,6 +114,24 @@
         "figure": "~3,000",
         "claimed_by": "Regional sources",
         "as_of": "2026-05-19"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-05-20"
+      },
+      {
+        "claim": "Lebanon deaths from US-Israel attacks",
+        "figure": "~3,042",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-05-20"
+      },
+      {
+        "claim": "Gulf states deaths",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-05-20"
       }
     ]
   },
@@ -118,6 +147,12 @@
         "text": "The three-day exercise will involve 64,000 troops, over 200 missile launchers, more than 140 aircraft, 73 surface warships and 13 submarines",
         "speaker": "Russian Defense Ministry",
         "title": "Official Statement",
+        "date": "2026-05-19"
+      },
+      {
+        "text": "The likelihood of a head-on clash between Russia and NATO is continuing to grow",
+        "speaker": "Sergei Ryabkov",
+        "title": "Deputy Foreign Minister",
         "date": "2026-05-19"
       }
     ],
@@ -146,6 +181,12 @@
         "speaker": "Danny Danon",
         "title": "Israeli Ambassador to UN",
         "date": "2026-05-19"
+      },
+      {
+        "text": "Not logical to give protection to Ukrainian males - Brussels should strip fighting-age Ukrainians of protection",
+        "speaker": "EU special envoy",
+        "title": "EU Special Envoy",
+        "date": "2026-05-19"
       }
     ]
   },
@@ -167,15 +208,52 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Monitoring",
       "description": "Pakistani Shia nationals in UAE facing detention and questioning due to Iran war spillover effects. Civil engineer detained by Etihad Rail after reporting to police."
+    },
+    {
+      "country": "NATO",
+      "flag": "\ud83c\udfdb\ufe0f",
+      "status": "Strategic balancer",
+      "description": "NATO discussing Hormuz deployment to protect ships if waterway not reopened by July. Alliance considering shift in strategy toward US-Israeli war in Iran. Internal discussions about survival and future structure amid potential US withdrawal concerns."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Monitoring",
+      "description": "Turkey maintaining position in regional conflicts while participating in broader diplomatic initiatives. Country remains strategically positioned between NATO obligations and regional relationships."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Lower on Iran sanctions talks",
+    "brent_crude": "Declined",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices slid after reports Iran agreed to US lifting oil sanctions during talks."
+    "notes": "Oil prices slid after Iran indicated US agreed to lift oil sanctions during talks."
   },
   "update_log": [
+    {
+      "time": "19:30 UTC",
+      "text": "NATO discussing Hormuz deployment mission if strait not reopened by early July",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:45 UTC",
+      "text": "Trump says US may attack Iran within days if no agreement reached",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:20 UTC",
+      "text": "China reportedly training 200 Russian troops for Ukraine deployment",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:15 UTC",
+      "text": "Russia warns of catastrophic NATO conflict after testing nuclear missile",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:00 UTC",
+      "text": "Iran imposing fees on subsea internet cables in Strait of Hormuz",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:29 UTC",
       "text": "UAE confirms drones that hit Barakah nuclear plant launched from Iraqi territory",
@@ -217,5 +295,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-05-20T14:29:17Z"
+  "last_updated": "2026-05-20T19:59:07Z"
 }
