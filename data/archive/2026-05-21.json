@@ -1,23 +1,35 @@
 {
   "escalation": {
-    "score": 7.8,
-    "delta": "No previous data",
+    "score": 7.5,
+    "delta": "N/A - no previous data",
     "level": "Elevated",
-    "rationale": "Iran warns of regional war expansion while China-Russia defense cooperation deepens amid ongoing US-Israel operations."
+    "rationale": "Russian jets dangerously intercepted UK aircraft, Trump sets Iran deadline amid day 82 of conflict, and Israel continues strikes on Lebanon despite ceasefire extension."
   },
   "ticker_items": [
-    "Iran threatens war beyond region if US-Israel attacks resume",
-    "Chinese military secretly trained 200 Russian personnel for Ukraine",
-    "Lithuanian drone alert forces officials into shelters",
+    "Russian jets intercept UK spy plane at 19 feet over Black Sea",
+    "Trump gives Iran '2-3 days' deadline for deal, warns of attacks",
     "Israeli strikes kill 19 in southern Lebanon including children",
-    "Trump gives Iran 2-3 days for deal as war enters day 82"
+    "Iran allows 24 ships through Hormuz Strait, oil prices drop 5%",
+    "Ukraine reportedly turning tide against Russian territorial gains"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Pakistan deployed 8,000 troops and fighter jets to Saudi Arabia under mutual defense treaty."
   },
   "strikes_today": {
-    "eastern_europe": [],
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia struggling to maintain territorial gains as Ukraine reportedly turns tide of war.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      }
+    ],
     "middle_east": [
       {
         "time_utc": "Unknown",
@@ -40,6 +52,28 @@
         "lat": 33.4,
         "lng": 35.6,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli airstrikes kill at least 19 people including women and children despite ceasefire extension.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran-backed groups",
+        "target_country": "UAE",
+        "target_location": "Near Abu Dhabi Barakah nuclear plant",
+        "description": "Drone attack launched from Iraqi territory near UAE nuclear facility.",
+        "method": "Air/Drone",
+        "lat": 24.52,
+        "lng": 53.22,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -58,6 +92,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli attacks on southern Lebanon",
+        "kia": "8",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -76,6 +117,12 @@
       {
         "claim": "Iran war casualties",
         "figure": "~3,468 dead in Iran, ~3,042 dead in Lebanon, 28 in Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-20"
+      },
+      {
+        "claim": "Gulf states deaths",
+        "figure": "28",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-05-20"
       }
@@ -121,6 +168,12 @@
         "speaker": "Iranian officials",
         "title": "Government sources",
         "date": "2026-05-20"
+      },
+      {
+        "text": "Netanyahu will do 'whatever I want him to do' following 'dramatic' call about Iran strikes",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-05-20"
       }
     ]
   },
@@ -142,15 +195,46 @@
       "flag": "\ud83c\uddf1\ud83c\uddf9",
       "status": "Monitoring",
       "description": "Lithuanian officials were moved to safe locations due to drone activity near Belarus border. Residents in Vilnius were ordered to shelters amid heightened tensions on NATO's eastern flank."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Mediator + arms supplier",
+      "description": "Erdogan told Trump that extending Iran ceasefire is positive and contested issues can be resolved. Turkey's mediation efforts could stabilize regional tensions and reduce geopolitical risk."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Down 5%",
     "wheat_futures": "Unchanged",
-    "notes": "US gas prices surge to $4.55 per gallon amid Iran war energy disruption affecting global markets."
+    "notes": "Oil prices fell 5% and stock markets advanced as Iran allowed ships to transit Strait of Hormuz, easing supply concerns."
   },
   "update_log": [
+    {
+      "time": "19:40 UTC",
+      "text": "Russian jets dangerously intercepted UK spy plane over Black Sea at 19 feet distance",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Trump gives Iran 2-3 day deadline for deal as negotiations enter final stages",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:45 UTC",
+      "text": "Israeli strikes kill 19 in southern Lebanon including women and children",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "Iran allows 24 ships through Strait of Hormuz, oil prices drop 5%",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:15 UTC",
+      "text": "Iran's stock market reopens in controlled manner after lengthy shutdown",
+      "source_tier": "verified"
+    },
     {
       "time": "12:16 UTC",
       "text": "Al Jazeera casualty tracker updated with 3,468 dead in Iran, 3,042 in Lebanon",
@@ -192,5 +276,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-21T14:33:33Z"
+  "last_updated": "2026-05-21T19:40:15Z"
 }
