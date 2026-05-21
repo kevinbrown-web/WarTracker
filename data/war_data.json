@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.2,
-    "delta": "-0.3 from yesterday",
-    "level": "High",
-    "rationale": "Iran conflict day 82 continues with Trump setting peace deadline while Iran warns of new fronts and Israeli strikes kill 19 in Lebanon."
+    "score": 7.8,
+    "delta": "No previous data",
+    "level": "Elevated",
+    "rationale": "Iran warns of regional war expansion while China-Russia defense cooperation deepens amid ongoing US-Israel operations."
   },
   "ticker_items": [
-    "Trump gives Iran 2-3 days for peace deal as Tehran warns of new fronts",
-    "Israeli strikes kill 19 including children in southern Lebanon",
-    "Iran submits peace proposal demanding reparations and sanctions lifting",
-    "US gas prices surge 56% to $4.52/gallon due to Iran conflict",
-    "Pentagon reduces Europe Brigade Combat Teams from four to three"
+    "Iran threatens war beyond region if US-Israel attacks resume",
+    "Chinese military secretly trained 200 Russian personnel for Ukraine",
+    "Lithuanian drone alert forces officials into shelters",
+    "Israeli strikes kill 19 in southern Lebanon including children",
+    "Trump gives Iran 2-3 days for deal as war enters day 82"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Pakistan deployed 8,000 troops and fighter jets to Saudi Arabia under mutual defense treaty."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [],
@@ -29,6 +29,17 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli airstrikes killed 19 people including women and children",
+        "method": "Air/Precision Strike",
+        "lat": 33.4,
+        "lng": 35.6,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -36,6 +47,13 @@
     "today": [
       {
         "incident": "Israeli strikes southern Lebanon",
+        "kia": "19",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes on southern Lebanon",
         "kia": "19",
         "wia": "Unknown",
         "civilian": true,
@@ -54,6 +72,12 @@
         "figure": "3,042",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-05-20"
+      },
+      {
+        "claim": "Iran war casualties",
+        "figure": "~3,468 dead in Iran, ~3,042 dead in Lebanon, 28 in Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-20"
       }
     ]
   },
@@ -63,6 +87,12 @@
         "text": "Russia Ready to Help Out With U.S.-Iran Talks",
         "speaker": "Deputy Foreign Minister",
         "title": "Deputy Foreign Minister",
+        "date": "2026-05-20"
+      },
+      {
+        "text": "The countries' ties have reached the highest level in history",
+        "speaker": "Xi Jinping",
+        "title": "Chinese President",
         "date": "2026-05-20"
       }
     ],
@@ -79,6 +109,18 @@
         "speaker": "IRGC",
         "title": "Revolutionary Guard statement",
         "date": "2026-05-20"
+      },
+      {
+        "text": "Any new attack would prompt retaliation beyond the region",
+        "speaker": "IRGC",
+        "title": "Islamic Revolutionary Guard Corps",
+        "date": "2026-05-20"
+      },
+      {
+        "text": "Iran learned from past clashes as Trump gives Tehran two to three days to reach a deal",
+        "speaker": "Iranian officials",
+        "title": "Government sources",
+        "date": "2026-05-20"
       }
     ]
   },
@@ -94,15 +136,41 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "Xi Jinping signed multiple deals with Putin during state visit, reportedly more than Trump secured during his China visit. Chinese tankers exiting Strait of Hormuz amid Iran tensions signals cautious approach."
+    },
+    {
+      "country": "Lithuania",
+      "flag": "\ud83c\uddf1\ud83c\uddf9",
+      "status": "Monitoring",
+      "description": "Lithuanian officials were moved to safe locations due to drone activity near Belarus border. Residents in Vilnius were ordered to shelters amid heightened tensions on NATO's eastern flank."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Declining on Iran peace talks progress",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices eased following positive signals from White House on Iran deal progress and Chinese tanker movements in Gulf."
+    "notes": "US gas prices surge to $4.55 per gallon amid Iran war energy disruption affecting global markets."
   },
   "update_log": [
+    {
+      "time": "12:16 UTC",
+      "text": "Al Jazeera casualty tracker updated with 3,468 dead in Iran, 3,042 in Lebanon",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "IRGC warns war will extend beyond region if US-Israel aggression repeated",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Israeli airstrikes in southern Lebanon kill 19 including children and women",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "China secretly trained 200 Russian military personnel according to European intelligence",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:51 UTC",
       "text": "Trump gives Iran 2-3 days deadline for peace deal as Tehran warns of opening new fronts",
@@ -124,5 +192,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-21T08:51:44Z"
+  "last_updated": "2026-05-21T14:33:33Z"
 }
