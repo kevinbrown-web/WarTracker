@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.2,
-    "delta": "No previous score available",
+    "score": 7,
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "Multiple active conflicts with US-Iran war at day 83, continued Israel-Lebanon strikes, and Trump threatening to break Iranian ceasefire."
+    "rationale": "Joint Russia-Belarus nuclear exercises overseen by Putin and Lukashenko coincide with heightened Iran-US tensions and Israeli-Lebanese ceasefire violations."
   },
   "ticker_items": [
-    "Iran war day 83: Tehran reviewing latest US ceasefire response",
-    "Trump threatens to break Iran ceasefire amid Hormuz tensions",
-    "Israeli strikes kill at least 8 in southern Lebanon",
-    "Ukraine claims 100 Russian soldiers killed in single strike",
-    "NATO jets scrambled after drone spotted over Latvia"
+    "Putin, Lukashenko monitor joint nuclear drills via videolink",
+    "Iran hardens stance on uranium enrichment in US talks",
+    "Israeli airstrikes kill 8 in southern Lebanon despite ceasefire",
+    "Pentagon withdraws thousands of troops from Eastern Europe",
+    "Pakistan deploys military aid to Saudi Arabia under treaty"
   ],
   "new_entrant": {
     "active": false,
@@ -142,6 +142,13 @@
         "wia": "4",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes Lebanon",
+        "kia": "8",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -162,11 +169,30 @@
         "figure": "~83,000",
         "claimed_by": "Ukraine officials",
         "as_of": "2026-05-22"
+      },
+      {
+        "claim": "Lebanon war casualties total",
+        "figure": "~3,000",
+        "claimed_by": "NPR",
+        "as_of": "2026-05-21"
+      },
+      {
+        "claim": "Iran conflict deaths",
+        "figure": "3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-20"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "These weapons are an extreme measure of last resort",
+        "speaker": "Vladimir Putin",
+        "title": "President",
+        "date": "2026-05-21"
+      }
+    ],
     "ukraine": [],
     "middle_east": [
       {
@@ -219,9 +245,29 @@
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Iran imposing fees on subsea internet cables in Strait of Hormuz amid ongoing blockade tensions."
+    "notes": "Iran imposing fees on subsea internet cables in Strait of Hormuz, targeting global financial communications infrastructure."
   },
   "update_log": [
+    {
+      "time": "19:00 UTC",
+      "text": "Putin and Lukashenko oversee joint Russia-Belarus nuclear exercises via videolink",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Iran Supreme Leader reportedly orders enriched uranium must remain in country",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:45 UTC",
+      "text": "Israeli airstrikes kill at least 8 in southern Lebanon despite ceasefire",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "Pentagon withdraws thousands of troops from Eastern Europe",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:10 UTC",
       "text": "Iran reviewing latest US response to end conflict as war enters day 83",
@@ -263,5 +309,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-22T14:10:05Z"
+  "last_updated": "2026-05-22T19:19:27Z"
 }
