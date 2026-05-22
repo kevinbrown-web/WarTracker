@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.8,
-    "delta": "+0.3 from yesterday",
+    "score": 7.2,
+    "delta": "No previous score available",
     "level": "Elevated",
-    "rationale": "Israel-Iran tensions spike as Netanyahu pushes for renewed military action against Trump's diplomatic efforts while Iran warns of wider conflict expansion."
+    "rationale": "Multiple active conflicts with US-Iran war at day 83, continued Israel-Lebanon strikes, and Trump threatening to break Iranian ceasefire."
   },
   "ticker_items": [
-    "Iran reviewing US peace proposal as Trump awaits 'right answers'",
-    "Netanyahu 'beside himself with rage' after Trump call on Iran",
-    "Eight killed in Israeli air attacks on southern Lebanon",
-    "Ukrainian drone strike kills two in Russia's Samara region",
-    "China-Russia summit deepens strategic partnership amid Western tensions"
+    "Iran war day 83: Tehran reviewing latest US ceasefire response",
+    "Trump threatens to break Iran ceasefire amid Hormuz tensions",
+    "Israeli strikes kill at least 8 in southern Lebanon",
+    "Ukraine claims 100 Russian soldiers killed in single strike",
+    "NATO jets scrambled after drone spotted over Latvia"
   ],
   "new_entrant": {
     "active": false,
@@ -27,6 +27,28 @@
         "method": "Air/Drone",
         "lat": 53.2,
         "lng": 50.15,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Samara region",
+        "description": "Ukrainian drone strike killed two people in Russia's southwestern Samara region.",
+        "method": "Air/Drone",
+        "lat": 53.2,
+        "lng": 50.15,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Air defence system",
+        "description": "Ukraine claims to have wiped out 100 Russian soldiers in single strike on air defence system.",
+        "method": "Air/Precision Strike",
+        "lat": 0.0,
+        "lng": 0.0,
         "source_tier": "unverified"
       }
     ],
@@ -48,6 +70,28 @@
         "target_country": "Lebanon",
         "target_location": "Southern Lebanon",
         "description": "Hezbollah drone explosion wounded four Israeli soldiers, one seriously",
+        "method": "Air/Drone",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli air attacks killed at least eight people in southern Lebanon.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Four Israeli soldiers wounded, one seriously, in Hezbollah drone explosion.",
         "method": "Air/Drone",
         "lat": 33.27,
         "lng": 35.2,
@@ -77,6 +121,27 @@
         "wia": "4",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes on Lebanon",
+        "kia": "8",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Ukrainian drone strike Russia",
+        "kia": "2",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Hezbollah drone Lebanon",
+        "kia": "0",
+        "wia": "4",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -85,6 +150,18 @@
         "figure": "3,468 dead in Iran, 3,042 dead in Lebanon, 28 killed in Gulf states",
         "claimed_by": "Al Jazeera",
         "as_of": "2026-05-20"
+      },
+      {
+        "claim": "US-Israel attacks on Iran death toll",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-20"
+      },
+      {
+        "claim": "Russian military casualties 2026",
+        "figure": "~83,000",
+        "claimed_by": "Ukraine officials",
+        "as_of": "2026-05-22"
       }
     ]
   },
@@ -103,6 +180,12 @@
         "speaker": "IRGC",
         "title": "Iranian Revolutionary Guard Corps",
         "date": "2026-05-20"
+      },
+      {
+        "text": "A deal allowing Iran nuclear weapons is a bad deal",
+        "speaker": "Michael Leiter",
+        "title": "Israel's Ambassador to the US",
+        "date": "2026-05-21"
       }
     ]
   },
@@ -124,6 +207,12 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Active materiel + troops",
       "description": "Pakistan deployed 8,000 troops, fighter jet squadron, and Chinese-made air defense system to Saudi Arabia under mutual defense treaty. Deployments began in early April according to Reuters report."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Supplying dual-use goods",
+      "description": "UK condemned Russia's nuclear rhetoric and RS-28 Sarmat missile testing at OSCE. Also criticized systematic POW mistreatment and lack of Russian accountability for war crimes."
     }
   ],
   "financial": {
@@ -133,6 +222,26 @@
     "notes": "Iran imposing fees on subsea internet cables in Strait of Hormuz amid ongoing blockade tensions."
   },
   "update_log": [
+    {
+      "time": "14:10 UTC",
+      "text": "Iran reviewing latest US response to end conflict as war enters day 83",
+      "source_tier": "verified"
+    },
+    {
+      "time": "13:45 UTC",
+      "text": "Israeli strikes kill at least 8 in southern Lebanon despite ceasefire",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "NATO jets scrambled after drone spotted over Latvia",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:15 UTC",
+      "text": "Ukrainian drone strike kills 2 in Russian Samara region",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:45 UTC",
       "text": "Iran reviewing latest US peace proposal as Trump awaits Tehran's response",
@@ -154,5 +263,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-22T08:45:17Z"
+  "last_updated": "2026-05-22T14:10:05Z"
 }
