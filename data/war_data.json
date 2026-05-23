@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 6.5,
-    "delta": "N/A (no previous score)",
+    "delta": "Unknown (no previous data)",
     "level": "Elevated",
-    "rationale": "Multiple active conflicts with US-Iran war at day 84, ongoing Ukraine-Russia fighting with 83,000 claimed dead in 2026, and reports of Ukrainian drone strike on student dormitory in Luhansk."
+    "rationale": "US-Iran mediated peace talks showing progress while Trump posts inflammatory map claiming Iran as US territory."
   },
   "ticker_items": [
-    "Ukraine claims 83,000 Russian military deaths so far in 2026",
-    "US-Iran war day 84: mediated talks advance with draft proposals",
-    "NATO foreign ministers meet in Sweden amid deployment confusion",
-    "Ukrainian drone allegedly strikes student dormitory in Luhansk",
-    "Iran's uranium stockpile remains contentious issue in peace talks"
+    "US-Iran peace talks advance with Pakistani mediation on day 84",
+    "Trump posts US flag over Iran map amid delicate diplomacy",
+    "Tulsi Gabbard resigns as DNI, fourth cabinet departure",
+    "Trump deploys 5,000 additional troops to Poland",
+    "EU moves to sanction Iran over Hormuz blockade"
   ],
   "new_entrant": {
     "active": false,
@@ -63,6 +63,17 @@
         "lat": 33.3,
         "lng": 35.4,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli strikes kill six paramedics and a child despite ceasefire agreement",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -87,6 +98,13 @@
         "kia": "0",
         "wia": "2",
         "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes in south Lebanon",
+        "kia": "7",
+        "wia": "Unknown",
+        "civilian": true,
         "source_tier": "unverified"
       }
     ],
@@ -120,6 +138,12 @@
         "figure": "~3,000",
         "claimed_by": "NPR",
         "as_of": "2026-05-21"
+      },
+      {
+        "claim": "Lebanon war deaths",
+        "figure": "3,042",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-20"
       }
     ]
   },
@@ -151,6 +175,18 @@
         "speaker": "Anwar Gargash",
         "title": "Senior UAE Official",
         "date": "2026-05-22"
+      },
+      {
+        "text": "US and Iran continue mediated talks, exchanging draft proposals aimed at reaching a formal agreement",
+        "speaker": "Al Jazeera",
+        "title": "News Report",
+        "date": "2026-05-22"
+      },
+      {
+        "text": "Iran's nuclear programme and control of the Strait of Hormuz remain major sticking points",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
+        "date": "2026-05-22"
       }
     ]
   },
@@ -178,15 +214,41 @@
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "status": "Active materiel + troops",
       "description": "US deploying 5,000 troops to Poland amid confusion over force rotations. Secretary Rubio defending troop decisions at NATO meeting. Continuing mediated talks with Iran through Pakistani intermediary."
+    },
+    {
+      "country": "European Union",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "EU nations moved to impose sanctions on Iranian officials over Hormuz blockade. NATO allies bewildered by Trump's troop deployment reversals in Europe."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Near 4-year highs",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Iran war pushing US gas prices to highest levels in nearly four years ahead of Memorial Day, with global oil inventories declining rapidly."
+    "notes": "Abu Dhabi announces $1.7 billion tourism investment despite Iran war disrupting regional stability."
   },
   "update_log": [
+    {
+      "time": "18:51 UTC",
+      "text": "Trump posts US flag covering Iran on Truth Social amid ongoing peace talks",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:30 UTC",
+      "text": "US Secretary of State Rubio reports progress in Iran talks but says more work needed",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:45 UTC",
+      "text": "Tulsi Gabbard resigns as Director of National Intelligence citing husband's cancer",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:20 UTC",
+      "text": "Israeli strikes kill six paramedics in south Lebanon despite ceasefire",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:54 UTC",
       "text": "Ukrainian officials claim 83,000 Russian military deaths in 2026 as Moscow reportedly struggles with recruitment",
@@ -233,5 +295,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-23T12:54:21Z"
+  "last_updated": "2026-05-23T18:51:05Z"
 }
