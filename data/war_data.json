@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.3,
-    "delta": "+0.3 from yesterday",
+    "score": 6.5,
+    "delta": "N/A (no previous score)",
     "level": "Elevated",
-    "rationale": "US-Iran diplomatic talks continue but Trump threatens to seize Iran's uranium stockpile while Strait of Hormuz remains blocked."
+    "rationale": "Multiple active conflicts with US-Iran war at day 84, ongoing Ukraine-Russia fighting with 83,000 claimed dead in 2026, and reports of Ukrainian drone strike on student dormitory in Luhansk."
   },
   "ticker_items": [
-    "Pakistan army chief arrives Tehran for US-Iran peace mediation",
-    "Trump threatens to seize or destroy Iran's enriched uranium",
-    "Israeli forces strike Gaza camps despite ceasefire agreement",
-    "UK eases Russian oil sanctions as fuel prices soar",
-    "NATO considers escorting ships through blocked Hormuz Strait"
+    "Ukraine claims 83,000 Russian military deaths so far in 2026",
+    "US-Iran war day 84: mediated talks advance with draft proposals",
+    "NATO foreign ministers meet in Sweden amid deployment confusion",
+    "Ukrainian drone allegedly strikes student dormitory in Luhansk",
+    "Iran's uranium stockpile remains contentious issue in peace talks"
   ],
   "new_entrant": {
     "active": false,
@@ -28,6 +28,17 @@
         "lat": 48.5,
         "lng": 37.5,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Starobilsk, Luhansk",
+        "description": "Alleged Ukrainian drone strike on student dormitory in Starobilsk",
+        "method": "Air/Drone",
+        "lat": 49.3,
+        "lng": 38.9,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -41,6 +52,17 @@
         "lat": 31.45,
         "lng": 34.39,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli strikes kill six paramedics and one child despite ceasefire",
+        "method": "Air/Precision Strike",
+        "lat": 33.3,
+        "lng": 35.4,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -51,6 +73,20 @@
         "kia": "Unknown",
         "wia": "dozens",
         "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes in Lebanon",
+        "kia": "7",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Lebanon combat injuries",
+        "kia": "0",
+        "wia": "2",
+        "civilian": false,
         "source_tier": "unverified"
       }
     ],
@@ -66,11 +102,36 @@
         "figure": "~3,042",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-05-20"
+      },
+      {
+        "claim": "Russian military KIA in 2026",
+        "figure": "83,000",
+        "claimed_by": "Ukrainian officials",
+        "as_of": "2026-05-22"
+      },
+      {
+        "claim": "US-Iran war deaths in Iran",
+        "figure": "3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-20"
+      },
+      {
+        "claim": "Lebanon war deaths",
+        "figure": "~3,000",
+        "claimed_by": "NPR",
+        "as_of": "2026-05-21"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Russia calls on international structures, national governments and the world community to condemn the terrorist attack by the Ukrainian armed forces on a college and dormitory in Lugansk People's Republic",
+        "speaker": "Russian Foreign Ministry",
+        "title": "Ministry Statement",
+        "date": "2026-05-22"
+      }
+    ],
     "ukraine": [],
     "middle_east": [
       {
@@ -83,6 +144,12 @@
         "text": "There were good signs that an agreement to end the Middle East conflict is in sight",
         "speaker": "Marco Rubio",
         "title": "US Secretary of State",
+        "date": "2026-05-22"
+      },
+      {
+        "text": "A resumption of hostilities in the Iran war would be catastrophic for the Middle East",
+        "speaker": "Anwar Gargash",
+        "title": "Senior UAE Official",
         "date": "2026-05-22"
       }
     ]
@@ -105,15 +172,46 @@
       "flag": "\ud83c\uddec\ud83c\udde7",
       "status": "Strategic balancer",
       "description": "UK government waived sanctions on Russian diesel and jet fuel imports due to soaring fuel prices and supply security concerns. This marks significant easing of energy sanctions amid economic pressures."
+    },
+    {
+      "country": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "status": "Active materiel + troops",
+      "description": "US deploying 5,000 troops to Poland amid confusion over force rotations. Secretary Rubio defending troop decisions at NATO meeting. Continuing mediated talks with Iran through Pakistani intermediary."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Rising",
+    "brent_crude": "Near 4-year highs",
     "wheat_futures": "Unchanged",
-    "notes": "Oil markets concerned about Strait of Hormuz blockade continuing as IEA identifies new red zone for energy supplies."
+    "notes": "Iran war pushing US gas prices to highest levels in nearly four years ahead of Memorial Day, with global oil inventories declining rapidly."
   },
   "update_log": [
+    {
+      "time": "12:54 UTC",
+      "text": "Ukrainian officials claim 83,000 Russian military deaths in 2026 as Moscow reportedly struggles with recruitment",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "Israeli strikes reportedly kill six paramedics and child in southern Lebanon despite ceasefire",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:15 UTC",
+      "text": "US-Iran mediated talks continue with draft proposals being exchanged through Pakistani intermediary",
+      "source_tier": "verified"
+    },
+    {
+      "time": "11:45 UTC",
+      "text": "Russia calls for international condemnation of alleged Ukrainian drone strike on Luhansk student dormitory",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:30 UTC",
+      "text": "NATO foreign ministers meeting in Sweden focus on upcoming Ankara summit amid US troop deployment confusion",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:00 UTC",
       "text": "Pakistan army chief Asim Munir arrives in Tehran for US-Iran mediation talks",
@@ -135,5 +233,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-23T08:02:33Z"
+  "last_updated": "2026-05-23T12:54:21Z"
 }
