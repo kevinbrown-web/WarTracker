@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 6.8,
-    "delta": "+0.3 from yesterday",
+    "score": 7.5,
+    "delta": "N/A - first assessment",
     "level": "Elevated",
-    "rationale": "Trump cancels Memorial Day plans and places military on standby amid reports of preparing fresh Iran strikes."
+    "rationale": "US-Iran war enters day 85 with stalled peace talks, Trump preparing potential strikes, and multiple active Middle East fronts including Pakistan train bombing."
   },
   "ticker_items": [
-    "Trump cuts short NJ trip, military on standby for potential Iran strikes",
-    "Oil facilities in Novorossiysk on fire after Ukrainian drone attack",
-    "Pakistan army chief arrives in Tehran for US-Iran mediation",
-    "Norway enters 'total defence' mode amid Russia threat",
-    "Tulsi Gabbard resigns as US intelligence chief"
+    "US-Iran talks stall as Trump cancels holiday plans amid strike preparations",
+    "Train bombing in Pakistan's Balochistan kills 24 soldiers, 50+ wounded",
+    "Ukrainian drones strike Russian oil terminal in Krasnodar region",
+    "Israeli strikes kill 6 paramedics, child in southern Lebanon ceasefire violations",
+    "China reportedly planning Xi Jinping visit to North Korea"
   ],
   "new_entrant": {
     "active": false,
@@ -28,6 +28,17 @@
         "lat": 44.72,
         "lng": 37.77,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Krasnodar region",
+        "description": "Ukrainian drone attack caused fire at Russian oil terminal overnight",
+        "method": "Air/Drone",
+        "lat": 45.04,
+        "lng": 38.98,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -41,6 +52,39 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli airstrikes killed 6 paramedics and 1 child despite ceasefire agreement",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Palestine",
+        "target_location": "Nuseirat refugee camp, Gaza",
+        "description": "Israeli attack killed three family members including infant",
+        "method": "Air/Precision Strike",
+        "lat": 31.45,
+        "lng": 34.39,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Baloch separatists",
+        "target_country": "Pakistan",
+        "target_location": "Quetta, Balochistan",
+        "description": "Suicide car bombing attack on train carrying military personnel",
+        "method": "Ground/Armored",
+        "lat": 30.18,
+        "lng": 67.0,
+        "source_tier": "verified"
       }
     ]
   },
@@ -49,6 +93,27 @@
       {
         "incident": "Israeli strikes on Lebanese paramedics",
         "kia": "7",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Pakistan train bombing",
+        "kia": "24",
+        "wia": "50+",
+        "civilian": false,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Lebanon airstrikes",
+        "kia": "7",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Gaza attack",
+        "kia": "3",
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
@@ -72,12 +137,31 @@
         "figure": "~35,000",
         "claimed_by": "Ukraine",
         "as_of": "May 8, 2026"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "May 20, 2026"
+      },
+      {
+        "claim": "Lebanon deaths from Iran conflict",
+        "figure": "~3,042",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "May 20, 2026"
       }
     ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Germany's proposal of associate EU membership for Ukraine is 'unfair'",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "May 23, 2026"
+      }
+    ],
     "middle_east": [
       {
         "text": "Major gaps remain in US talks",
@@ -89,6 +173,18 @@
         "text": "US demands for ending war are excessive",
         "speaker": "Tehran",
         "title": "Iranian government",
+        "date": "May 23, 2026"
+      },
+      {
+        "text": "Iran has no trust in the United States and will never retreat from its national rights",
+        "speaker": "Mohammad Baqer Qalibaf",
+        "title": "Iran Parliament Speaker",
+        "date": "May 23, 2026"
+      },
+      {
+        "text": "There were even odds that Washington would secure a 'good' deal with Iran or renew its bombing campaign",
+        "speaker": "Donald Trump",
+        "title": "US President",
         "date": "May 23, 2026"
       }
     ]
@@ -117,9 +213,34 @@
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Global energy crisis continues with supply disruptions from Iran war affecting energy security."
+    "notes": "No significant financial market movements reported in today's headlines."
   },
   "update_log": [
+    {
+      "time": "12:54 UTC",
+      "text": "Pakistan train bombing in Balochistan kills 24 soldiers, Baloch separatists claim responsibility",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "Pakistani Army Chief completes Tehran talks as US-Iran diplomatic efforts intensify",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:45 UTC",
+      "text": "Trump indicates even odds between Iran deal or renewed strikes as negotiations stall",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:20 UTC",
+      "text": "Ukrainian drone attack triggers fire at Russian oil terminal in Krasnodar region",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:15 UTC",
+      "text": "Israeli strikes kill 6 paramedics and child in southern Lebanon despite ceasefire",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:12 UTC",
       "text": "Trump returns to White House early as US military placed on standby for potential Iran strikes.",
@@ -141,5 +262,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-24T08:12:57Z"
+  "last_updated": "2026-05-24T12:54:38Z"
 }
