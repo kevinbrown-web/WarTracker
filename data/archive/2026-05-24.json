@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 7.5,
-    "delta": "N/A - first assessment",
+    "delta": "Unknown",
     "level": "Elevated",
-    "rationale": "US-Iran war enters day 85 with stalled peace talks, Trump preparing potential strikes, and multiple active Middle East fronts including Pakistan train bombing."
+    "rationale": "US Embassy warns of imminent large-scale attack on Ukraine within 24 hours while US-Iran peace talks advance amid ongoing combat."
   },
   "ticker_items": [
-    "US-Iran talks stall as Trump cancels holiday plans amid strike preparations",
-    "Train bombing in Pakistan's Balochistan kills 24 soldiers, 50+ wounded",
-    "Ukrainian drones strike Russian oil terminal in Krasnodar region",
-    "Israeli strikes kill 6 paramedics, child in southern Lebanon ceasefire violations",
-    "China reportedly planning Xi Jinping visit to North Korea"
+    "US Embassy warns potential large-scale Ukraine attack within 24 hours",
+    "Ukrainian drone strikes Russian dormitory in Starobilsk, kills 18 students",
+    "US-Iran peace talks advance with Pakistan mediation, deal possible today",
+    "Israeli strikes kill 11 in southern Lebanon despite ceasefire",
+    "Russia-Belarus complete joint nuclear drills involving 65,000 personnel"
   ],
   "new_entrant": {
     "active": false,
@@ -38,6 +38,28 @@
         "method": "Air/Drone",
         "lat": 45.04,
         "lng": 38.98,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Starobilsk, Luhansk",
+        "description": "Ukrainian drone struck Russian dormitory killing at least 18 people according to Putin.",
+        "method": "Air/Drone",
+        "lat": 49.28,
+        "lng": 38.85,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Novorossiysk, Krasnodar",
+        "description": "Ukrainian drone attack caused fire at Russian oil terminal overnight.",
+        "method": "Air/Drone",
+        "lat": 44.72,
+        "lng": 37.77,
         "source_tier": "unverified"
       }
     ],
@@ -85,6 +107,17 @@
         "lat": 30.18,
         "lng": 67.0,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli airstrikes killed 11 people including 6 paramedics and a child despite ceasefire.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -115,6 +148,20 @@
         "incident": "Gaza attack",
         "kia": "3",
         "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Starobilsk dormitory strike",
+        "kia": "18",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Southern Lebanon strikes",
+        "kia": "11",
+        "wia": "Several",
         "civilian": true,
         "source_tier": "unverified"
       }
@@ -160,6 +207,12 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "May 23, 2026"
+      },
+      {
+        "text": "Proposal of associate EU membership 'unfair'",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President",
+        "date": "2026-05-23"
       }
     ],
     "middle_east": [
@@ -186,6 +239,12 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "May 23, 2026"
+      },
+      {
+        "text": "There was a chance Iran would accept a deal to end the Middle East war as soon as today",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
+        "date": "2026-05-23"
       }
     ]
   },
@@ -213,9 +272,29 @@
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "No significant financial market movements reported in today's headlines."
+    "notes": "Kyrgyzstan clamps down on 50 companies suspected of circumventing Western sanctions on Russia following EU's 20th sanctions package."
   },
   "update_log": [
+    {
+      "time": "18:56 UTC",
+      "text": "US Embassy warns of potential large-scale attack on Ukraine within 24 hours",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown UTC",
+      "text": "Ukrainian drone strikes Russian dormitory in Starobilsk killing 18 students",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown UTC",
+      "text": "Israeli strikes kill 11 people including paramedics in southern Lebanon",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown UTC",
+      "text": "Pakistan army chief arrives in Tehran for US-Iran mediation efforts",
+      "source_tier": "verified"
+    },
     {
       "time": "12:54 UTC",
       "text": "Pakistan train bombing in Balochistan kills 24 soldiers, Baloch separatists claim responsibility",
@@ -262,5 +341,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-24T12:54:38Z"
+  "last_updated": "2026-05-24T18:56:59Z"
 }
