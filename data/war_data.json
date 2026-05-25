@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 7,
-    "delta": "Unknown (no previous data)",
+    "delta": "N/A - first assessment",
     "level": "Elevated",
-    "rationale": "Russia deployed hypersonic Oreshnik missile against Kyiv region while US-Iran peace talks show progress amid continued regional strikes."
+    "rationale": "Major Russian missile barrage on Ukraine with advanced weapons while US-Iran peace talks show progress but face mounting pressure from multiple parties."
   },
   "ticker_items": [
-    "Russia strikes Ukraine with hypersonic Oreshnik missile, 2-4 killed in Kyiv region",
-    "US Secretary Rubio hints at imminent Iran peace deal within hours",
-    "Iran says major gaps remain in US talks despite progress reports",
-    "Israeli strikes continue in Gaza and southern Lebanon despite ceasefire",
-    "Pakistan deploys 8,000 troops to Saudi Arabia under defense treaty"
+    "Russia launches 90 missiles, 600 drones in major overnight barrage",
+    "Trump announces progress on Iran peace deal, Hormuz reopening possible",
+    "Ukraine reportedly traps 85,000 Russian troops in strategic encirclement",
+    "Britain prepares mine-clearing operation for Strait of Hormuz",
+    "Israeli strikes kill 11 in southern Lebanon including paramedics"
   ],
   "new_entrant": {
     "active": false,
@@ -38,6 +38,17 @@
         "method": "Ballistic Missile",
         "lat": 49.8,
         "lng": 30.11,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia fired about 90 missiles and 600 drones in one of its largest recent overnight air raids, killing at least four people nationwide.",
+        "method": "Missile/Surface",
+        "lat": 50.45,
+        "lng": 30.52,
         "source_tier": "unverified"
       }
     ],
@@ -72,6 +83,17 @@
         "description": "Israeli strikes killed 6 paramedics and 5 civilians including a child.",
         "method": "Air/Precision Strike",
         "lat": 33.3,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli airstrikes killed at least 11 people including paramedics, rescuers, and a child.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
       }
@@ -111,6 +133,20 @@
         "incident": "Southern Lebanon strikes",
         "kia": "~11",
         "wia": "several",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian missile barrage on Ukraine",
+        "kia": "4+",
+        "wia": "70+",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes on southern Lebanon",
+        "kia": "11",
+        "wia": "Several",
         "civilian": true,
         "source_tier": "unverified"
       }
@@ -182,6 +218,12 @@
         "speaker": "Baghaei",
         "title": "Iran FM Spokesman",
         "date": "2026-05-25"
+      },
+      {
+        "text": "We must move toward decisive, not defensive, action, take control of territory up to the Litani River, and destroy Hezbollah's centers of control.",
+        "speaker": "Amit Halevi",
+        "title": "Israeli MK",
+        "date": "2026-05-24"
       }
     ]
   },
@@ -203,15 +245,41 @@
       "flag": "\ud83c\udde7\ud83c\uddfe",
       "status": "Basing + logistics",
       "description": "Belarus conducted joint nuclear drills with Russia involving 65,000 personnel and 200 missile systems from May 19-21. Ukraine warns of potential Russian attacks from Belarusian territory targeting northern Ukrainian regions."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Basing + logistics",
+      "description": "Britain is preparing naval mine-clearing operations in the Strait of Hormuz contingent on a US-Iran peace agreement. The RFA Lyme Bay will depart Gibraltar to link up with HMS Dragon and allied ships for the operation."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Shipping professionals in Dubai considering relocation to Greece amid Gulf conflict concerns."
+    "notes": "Markets await developments on potential US-Iran peace deal which could reopen vital Strait of Hormuz shipping lane."
   },
   "update_log": [
+    {
+      "time": "19:12",
+      "text": "Russia launches major overnight barrage with 90 missiles and 600 drones against Ukraine, killing at least four.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:45",
+      "text": "Trump announces progress on Iran peace deal with potential Strait of Hormuz reopening.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:30",
+      "text": "Israeli airstrikes in southern Lebanon kill 11 including paramedics and civilians.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:15",
+      "text": "Britain prepares mine-clearing naval operation for Strait of Hormuz pending Iran deal.",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:28 UTC",
       "text": "Iran says major gaps remain in US peace talks despite Trump's optimism about imminent deal",
@@ -253,5 +321,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-25T14:28:29Z"
+  "last_updated": "2026-05-25T19:12:37Z"
 }
