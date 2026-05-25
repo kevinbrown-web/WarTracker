@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.2,
-    "delta": "+0.7 from yesterday",
-    "level": "High",
-    "rationale": "Russia launched its largest missile attack on Kyiv of the war using hypersonic Oreshnik missiles, while US-Iran peace talks show signs of potential breakthrough amid ongoing conflict."
+    "score": 7,
+    "delta": "Unknown (no previous data)",
+    "level": "Elevated",
+    "rationale": "Russia deployed hypersonic Oreshnik missile against Kyiv region while US-Iran peace talks show progress amid continued regional strikes."
   },
   "ticker_items": [
-    "Russia launches largest missile attack on Kyiv using Oreshnik hypersonic missiles",
-    "At least 4 dead, 80+ injured in massive Russian barrage on Ukraine",
-    "Trump claims US-Iran peace deal largely negotiated, Iran disputes terms",
-    "Israeli strikes kill 11 including paramedics in southern Lebanon",
-    "China reportedly trained Russian troops now fighting in Ukraine"
+    "Russia strikes Ukraine with hypersonic Oreshnik missile, 2-4 killed in Kyiv region",
+    "US Secretary Rubio hints at imminent Iran peace deal within hours",
+    "Iran says major gaps remain in US talks despite progress reports",
+    "Israeli strikes continue in Gaza and southern Lebanon despite ceasefire",
+    "Pakistan deploys 8,000 troops to Saudi Arabia under defense treaty"
   ],
   "new_entrant": {
     "active": false,
@@ -28,6 +28,17 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Bila Tserkva, Kyiv region",
+        "description": "Russia fired hypersonic Oreshnik missile along with hundreds of drones in major attack on Kyiv region.",
+        "method": "Ballistic Missile",
+        "lat": 49.8,
+        "lng": 30.11,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -39,6 +50,28 @@
         "description": "Israeli airstrikes killed 11 people including 6 paramedics and a child in southern Lebanon.",
         "method": "Air/Precision Strike",
         "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Central Gaza",
+        "description": "Israeli airstrikes killed family of three and five police officers in residential areas.",
+        "method": "Air/Precision Strike",
+        "lat": 31.5,
+        "lng": 34.47,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli strikes killed 6 paramedics and 5 civilians including a child.",
+        "method": "Air/Precision Strike",
+        "lat": 33.3,
         "lng": 35.2,
         "source_tier": "unverified"
       }
@@ -59,6 +92,27 @@
         "wia": "several",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Kyiv region missile strike",
+        "kia": "2-4",
+        "wia": "dozens",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Gaza airstrikes",
+        "kia": "~10",
+        "wia": "unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Southern Lebanon strikes",
+        "kia": "~11",
+        "wia": "several",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -73,6 +127,24 @@
         "figure": "3,042",
         "claimed_by": "Al Jazeera",
         "as_of": "2026-05-20"
+      },
+      {
+        "claim": "Iranian casualties from US-Israel war",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "May 20, 2026"
+      },
+      {
+        "claim": "Lebanese casualties from conflict",
+        "figure": "~3,042",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "May 20, 2026"
+      },
+      {
+        "claim": "Russian military casualties in April",
+        "figure": "~35,000",
+        "claimed_by": "Ukraine",
+        "as_of": "May 2026"
       }
     ]
   },
@@ -84,6 +156,12 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "Ukrainian President",
         "date": "2026-05-24"
+      },
+      {
+        "text": "The Russians are considering scenarios for additional attacks against Ukraine \u2013 targeting our northern regions, our Chernihiv-Kyiv direction from Belarus",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President",
+        "date": "2026-05-24"
       }
     ],
     "middle_east": [
@@ -92,6 +170,18 @@
         "speaker": "Tehran officials",
         "title": "Iranian government",
         "date": "2026-05-23"
+      },
+      {
+        "text": "I do think perhaps there is the possibility that in the next few hours the world will get some good news",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
+        "date": "2026-05-24"
+      },
+      {
+        "text": "A large portion of issues with the US have been resolved, but a deal is not imminent",
+        "speaker": "Baghaei",
+        "title": "Iran FM Spokesman",
+        "date": "2026-05-25"
       }
     ]
   },
@@ -107,15 +197,41 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Mediator + arms supplier",
       "description": "Pakistan army chief Asim Munir arrived in Tehran as mediation efforts to secure a US-Iran peace deal intensify. Pakistan has also deployed 8,000 troops to Saudi Arabia under mutual defense treaty."
+    },
+    {
+      "country": "Belarus",
+      "flag": "\ud83c\udde7\ud83c\uddfe",
+      "status": "Basing + logistics",
+      "description": "Belarus conducted joint nuclear drills with Russia involving 65,000 personnel and 200 missile systems from May 19-21. Ukraine warns of potential Russian attacks from Belarusian territory targeting northern Ukrainian regions."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Shipping professionals are eyeing relocation from Dubai to Greece amid Gulf conflict affecting maritime operations."
+    "notes": "Shipping professionals in Dubai considering relocation to Greece amid Gulf conflict concerns."
   },
   "update_log": [
+    {
+      "time": "14:28 UTC",
+      "text": "Iran says major gaps remain in US peace talks despite Trump's optimism about imminent deal",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Russia deploys hypersonic Oreshnik missile against Bila Tserkva in Kyiv region, casualties reported",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Israeli strikes kill multiple civilians in Gaza and southern Lebanon violating ceasefire",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "US Secretary Rubio suggests Iran peace deal could be announced within hours",
+      "source_tier": "unverified"
+    },
     {
       "time": "09:43 UTC",
       "text": "Russia launched largest missile attack on Kyiv of entire war using advanced hypersonic weapons",
@@ -137,5 +253,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-25T09:43:19Z"
+  "last_updated": "2026-05-25T14:28:29Z"
 }
