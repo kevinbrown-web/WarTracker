@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.3,
-    "delta": "+0.3 from yesterday",
+    "score": 7,
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "Russia deployed Oreshnik hypersonic missile against Kyiv in massive bombardment while US conducted new self-defense strikes on Iranian targets amid fragile ceasefire."
+    "rationale": "Active US-Israel war with Iran nearing 12 weeks with ongoing peace negotiations while Russia warns of planned strikes on Kyiv."
   },
   "ticker_items": [
-    "Russia fires Oreshnik hypersonic missile in major Kyiv bombardment",
-    "US strikes Iranian missile sites amid ceasefire negotiations",
-    "Iran-US peace deal progress announced by Trump",
-    "Five NATO countries reject mandatory Ukraine funding plan",
-    "Xi Jinping planning visit to North Korea per reports"
+    "Iran-US peace talks continue in Qatar amid 12-week war",
+    "Russia warns foreign diplomats to leave Kyiv before planned strikes",
+    "Oil drops 5% on Trump Iran deal progress reports",
+    "Ukraine claims Russia suffered 35,000 casualties in April",
+    "Netherlands arrests 2 for aiding Russian cyberattacks"
   ],
   "new_entrant": {
     "active": false,
@@ -41,6 +41,17 @@
         "lat": 26.5,
         "lng": 56.25,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Gaza Strip",
+        "description": "Israeli strikes killed 6 Palestinians and injured 8 others across Gaza Strip",
+        "method": "Air/Precision Strike",
+        "lat": 31.5,
+        "lng": 34.45,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -50,6 +61,13 @@
         "incident": "Kyiv bombardment",
         "kia": "4",
         "wia": "~100",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Gaza strikes",
+        "kia": "6",
+        "wia": "8",
         "civilian": true,
         "source_tier": "unverified"
       }
@@ -66,11 +84,30 @@
         "figure": "~35,000",
         "claimed_by": "Ukraine",
         "as_of": "2026-05"
+      },
+      {
+        "claim": "US-Israel attacks on Iran death toll",
+        "figure": "3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-20"
+      },
+      {
+        "claim": "Lebanon casualties from US-Israel attacks",
+        "figure": "3,042",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-20"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Russia has urged foreign citizens and diplomats to leave Kiev, saying it has planned to launch more strikes against military facilities across the Ukrainian capital",
+        "speaker": "Russian officials",
+        "title": "Government statement",
+        "date": "2026-05-25"
+      }
+    ],
     "ukraine": [],
     "middle_east": [
       {
@@ -84,6 +121,12 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-05-24"
+      },
+      {
+        "text": "Iran on Monday reaffirmed its unwavering position in ongoing negotiations to end the third imposed war, with senior officials vowing the Islamic Republic will not yield to US pressure or maximalist demands",
+        "speaker": "Iranian officials",
+        "title": "Government statement",
+        "date": "2026-05-25"
       }
     ]
   },
@@ -105,15 +148,47 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Active materiel + troops",
       "description": "Deployed 8,000 troops, fighter squadron, and Chinese air defense system to Saudi Arabia under mutual defense treaty. Deployments began in April enhancing Pakistani military presence in the region."
+    },
+    {
+      "country": "Qatar",
+      "flag": "\ud83c\uddf6\ud83c\udde6",
+      "status": "Mediator + arms supplier",
+      "description": "Hosting high-level Iran-US peace talks in Doha with Iranian Parliament Speaker and Foreign Minister meeting Qatari Prime Minister. Qatar serving as key mediator in efforts to end 12-week US-Israel war against Iran."
+    },
+    {
+      "country": "Netherlands",
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Authorities arrested co-owners of two hosting companies for operating IT infrastructure used by Russia for cyberattacks and disinformation campaigns. Seized 800 servers in operation targeting Russian cyber capabilities within EU."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Down 5%",
     "wheat_futures": "Unchanged",
-    "notes": "Sweden's analysis shows Russian economy actually contracted 8% between 2020-2024 despite claimed 13% growth."
+    "notes": "Oil prices dropped 5% after Trump indicated Iran peace talks are progressing, though Strait of Hormuz remains wildcard."
   },
   "update_log": [
+    {
+      "time": "14:30 UTC",
+      "text": "Iran's top negotiator and foreign minister meeting Qatar PM in Doha for US talks on potential peace deal",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Russia warns foreign diplomats to leave Kiev ahead of planned military facility strikes",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Netherlands arrests 2 co-owners of hosting companies aiding Russian cyberattacks, seizes 800 servers",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Israeli strikes kill 6 Palestinians and injure 8 others across Gaza Strip",
+      "source_tier": "unverified"
+    },
     {
       "time": "09:30 UTC",
       "text": "US conducts self-defense strikes on Iranian missile sites amid ceasefire negotiations",
@@ -135,5 +210,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-26T09:30:42Z"
+  "last_updated": "2026-05-26T14:33:13Z"
 }
