@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7,
+    "score": 7.5,
     "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "Active US-Israel war with Iran nearing 12 weeks with ongoing peace negotiations while Russia warns of planned strikes on Kyiv."
+    "rationale": "Russia threatens systematic strikes on Kyiv while Israel launches Operation Arrows of Fire prompting Beirut evacuations amid ongoing US-Iran war."
   },
   "ticker_items": [
-    "Iran-US peace talks continue in Qatar amid 12-week war",
-    "Russia warns foreign diplomats to leave Kyiv before planned strikes",
-    "Oil drops 5% on Trump Iran deal progress reports",
-    "Ukraine claims Russia suffered 35,000 casualties in April",
-    "Netherlands arrests 2 for aiding Russian cyberattacks"
+    "Russia warns foreigners to leave Kyiv, threatens systematic strikes",
+    "Israel launches Operation Arrows of Fire, Beirut evacuations underway",
+    "US conducts self-defense strikes in southern Iran",
+    "Iran-US peace talks continue in Qatar with frozen funds discussions",
+    "Ukraine claims successful defense against Russian territorial advances"
   ],
   "new_entrant": {
     "active": false,
@@ -25,6 +25,17 @@
         "target_location": "Kyiv",
         "description": "Russia fired Oreshnik hypersonic missile and hundreds of drones in massive bombardment of capital",
         "method": "Ballistic Missile",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Cultural institutions nationwide",
+        "description": "Russian mass barrage of missiles and drones damaged Ukraine's cultural and historical institutions.",
+        "method": "Missile/Surface",
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
@@ -52,6 +63,39 @@
         "lat": 31.5,
         "lng": 34.45,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Southern Iran",
+        "description": "US military conducted self-defense strikes in southern Iran.",
+        "method": "Air/Precision Strike",
+        "lat": 29.5,
+        "lng": 52.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli army intensified strikes in southern Lebanon as part of Operation Arrows of Fire.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Hezbollah drone strike killed 19-year-old Israeli sergeant in southern Lebanon.",
+        "method": "Air/Drone",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -69,6 +113,20 @@
         "kia": "6",
         "wia": "8",
         "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russia-Ukraine strikes",
+        "kia": "8",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Hezbollah drone strike",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": false,
         "source_tier": "unverified"
       }
     ],
@@ -96,6 +154,12 @@
         "figure": "3,042",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-05-20"
+      },
+      {
+        "claim": "Russian casualties in April",
+        "figure": "35,000+",
+        "claimed_by": "Ukraine",
+        "as_of": "2026-04-30"
       }
     ]
   },
@@ -105,6 +169,12 @@
         "text": "Russia has urged foreign citizens and diplomats to leave Kiev, saying it has planned to launch more strikes against military facilities across the Ukrainian capital",
         "speaker": "Russian officials",
         "title": "Government statement",
+        "date": "2026-05-25"
+      },
+      {
+        "text": "We are warning foreign citizens, including personnel of diplomatic missions and international organisations, to leave the city as soon as possible",
+        "speaker": "Russian Foreign Ministry",
+        "title": "Official Statement",
         "date": "2026-05-25"
       }
     ],
@@ -126,6 +196,12 @@
         "text": "Iran on Monday reaffirmed its unwavering position in ongoing negotiations to end the third imposed war, with senior officials vowing the Islamic Republic will not yield to US pressure or maximalist demands",
         "speaker": "Iranian officials",
         "title": "Government statement",
+        "date": "2026-05-25"
+      },
+      {
+        "text": "The European Union was formed in order to screw the United States. That's the purpose of it. And they've done a good job of it. But now I'm the president.",
+        "speaker": "Donald Trump",
+        "title": "US President",
         "date": "2026-05-25"
       }
     ]
@@ -164,11 +240,36 @@
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Down 5%",
+    "brent_crude": "Elevated due to Strait of Hormuz tensions",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices dropped 5% after Trump indicated Iran peace talks are progressing, though Strait of Hormuz remains wildcard."
+    "notes": "Gas prices averaging $4.56 per gallon in the US due to Middle East conflicts affecting global energy markets."
   },
   "update_log": [
+    {
+      "time": "19:51 UTC",
+      "text": "Russia threatens systematic strikes on Kyiv, warns foreigners to leave Ukrainian capital immediately",
+      "source_tier": "verified"
+    },
+    {
+      "time": "19:45 UTC",
+      "text": "Israel launches Operation Arrows of Fire against Hezbollah, prompting evacuations in Beirut",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:30 UTC",
+      "text": "US military reports conducting self-defense strikes in southern Iran",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:15 UTC",
+      "text": "Iranian officials arrive in Qatar for peace talks with US and frozen funds discussions",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:00 UTC",
+      "text": "Reports of 8 killed in missile and drone attacks across Russian and Ukrainian territory in past 24 hours",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:30 UTC",
       "text": "Iran's top negotiator and foreign minister meeting Qatar PM in Doha for US talks on potential peace deal",
@@ -210,5 +311,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-26T14:33:13Z"
+  "last_updated": "2026-05-26T19:51:32Z"
 }
