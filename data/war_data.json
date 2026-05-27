@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.0,
-    "delta": "+0.5 from yesterday",
-    "level": "High",
-    "rationale": "Russia warns of systematic strikes on Kyiv while US launches new attacks on Iranian missile sites amid ongoing negotiations."
+    "score": 7.5,
+    "delta": "No previous data",
+    "level": "Elevated",
+    "rationale": "Renewed US strikes on Iran amid fragile peace talks, Russian systematic strikes warning on Kyiv, and continued military operations across multiple theaters."
   },
   "ticker_items": [
-    "Russia warns US citizens to evacuate Kyiv ahead of 'systematic strikes'",
-    "US forces strike Iranian missile sites near Strait of Hormuz",
-    "Iran-US negotiations continue in Qatar despite escalating attacks",
-    "Israel intensifies strikes on Hezbollah positions in southern Lebanon",
-    "Trump deploys 5,000 additional troops to Poland"
+    "US conducts 'self-defense strikes' on Iranian targets amid ongoing talks",
+    "Russia warns diplomats to flee Kyiv, threatens 'systematic strikes'",
+    "Iran claims downing US drone, threatens devastating response",
+    "Ukraine launches 100+ drones overnight against Russian positions",
+    "British Navy prepares Strait of Hormuz mine-clearing mission"
   ],
   "new_entrant": {
     "active": false,
@@ -28,6 +28,28 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia launched over 100 drones and two ballistic missiles at Ukraine overnight.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Starobelsk, Lugansk",
+        "description": "Ukrainian drone strike hit Russian college facility.",
+        "method": "Air/Drone",
+        "lat": 49.03,
+        "lng": 38.92,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -51,6 +73,28 @@
         "method": "Air/Precision Strike",
         "lat": 33.27,
         "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Bandar Abbas",
+        "description": "US conducted self-defense strikes against Iranian targets including boats and missile sites.",
+        "method": "Air/Precision Strike",
+        "lat": 27.19,
+        "lng": 56.28,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Nabatieh",
+        "description": "Israeli airstrikes overnight forced renewed displacement from southern Lebanese city.",
+        "method": "Air/Precision Strike",
+        "lat": 33.38,
+        "lng": 35.48,
         "source_tier": "unverified"
       }
     ]
@@ -77,6 +121,24 @@
         "figure": "~3,042",
         "claimed_by": "Al Jazeera",
         "as_of": "2026-05-20"
+      },
+      {
+        "claim": "US-Israel attacks on Iran total deaths",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "May 2026"
+      },
+      {
+        "claim": "Lebanon deaths from US-Israel attacks",
+        "figure": "~3,042",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "May 2026"
+      },
+      {
+        "claim": "Russian military casualties in April",
+        "figure": "~35,000",
+        "claimed_by": "Ukraine",
+        "as_of": "April 2026"
       }
     ]
   },
@@ -102,6 +164,12 @@
         "speaker": "Benjamin Netanyahu",
         "title": "Prime Minister",
         "date": "2026-05-26"
+      },
+      {
+        "text": "Washington remained ready to mediate in the war between Russia and Ukraine",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
+        "date": "2026-05-26"
       }
     ]
   },
@@ -123,15 +191,47 @@
       "flag": "\ud83c\uddf5\ud83c\uddf1",
       "status": "Basing + logistics",
       "description": "Trump deploys additional 5,000 US troops to Poland following election of conservative President Karol Nawrocki, reversing Pentagon cancellation."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "British Navy preparing mine-clearing operations in Strait of Hormuz while stationed off Gibraltar. UK also imposed new sanctions on crypto networks funding Russian war efforts totaling $1.5 billion."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Active materiel + troops",
+      "description": "Deployed 8,000 troops, fighter squadron, and Chinese air defense systems to Saudi Arabia under mutual defense treaty. Deployments began in early April 2026."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Mixed",
     "wheat_futures": "Unchanged",
-    "notes": "Russian oil volumes in Singapore reach one-year high amid Middle East supply disruptions."
+    "notes": "Oil prices mixed after US strikes on Iranian forces, while stocks rose as investors shrugged off renewed Iran fighting."
   },
   "update_log": [
+    {
+      "time": "14:49 UTC",
+      "text": "Iran claims downing US drone and firing at F-35 fighter jet over airspace violation",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Russia warns foreign diplomats to leave Kyiv citing planned systematic strikes on capital",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:30 UTC",
+      "text": "US CENTCOM confirms self-defense strikes on Iranian targets in southern Iran",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Ukraine reports Russia launched over 100 drones and two ballistic missiles overnight",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:00 UTC",
       "text": "Russia warns US to evacuate citizens from Kyiv ahead of systematic strikes",
@@ -153,5 +253,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-27T08:56:25Z"
+  "last_updated": "2026-05-27T14:49:37Z"
 }
