@@ -1,16 +1,15 @@
 {
   "escalation": {
     "score": 7.5,
-    "delta": "No previous data",
+    "delta": "+1.2 from yesterday",
     "level": "Elevated",
-    "rationale": "Renewed US strikes on Iran amid fragile peace talks, Russian systematic strikes warning on Kyiv, and continued military operations across multiple theaters."
+    "rationale": "Multiple fronts show increased tensions with Russian threats against Kyiv, Israeli ground operations expanding in Lebanon, ongoing US-Iran negotiations amid ceasefire violations, and North Korean missile tests."
   },
   "ticker_items": [
-    "US conducts 'self-defense strikes' on Iranian targets amid ongoing talks",
-    "Russia warns diplomats to flee Kyiv, threatens 'systematic strikes'",
-    "Iran claims downing US drone, threatens devastating response",
-    "Ukraine launches 100+ drones overnight against Russian positions",
-    "British Navy prepares Strait of Hormuz mine-clearing mission"
+    "Russia threatens 'more painful' strikes on Kyiv, diplomats ordered to leave",
+    "Israeli forces expand operations beyond Yellow Line in south Lebanon",
+    "US-Iran negotiations continue as both sides report ceasefire violations",
+    "North Korea tests ballistic missiles into Yellow Sea amid tensions"
   ],
   "new_entrant": {
     "active": false,
@@ -49,6 +48,17 @@
         "method": "Air/Drone",
         "lat": 49.03,
         "lng": 38.92,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russian Foreign Ministry warns of strikes on Kyiv as diplomats ordered to leave",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
         "source_tier": "unverified"
       }
     ],
@@ -96,6 +106,28 @@
         "lat": 33.38,
         "lng": 35.48,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "South Lebanon",
+        "description": "Israeli strikes hit south Lebanon as ground operations expand beyond Yellow Line",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Southern Iran",
+        "description": "US conducts defensive strikes in southern Iran, Iran claims ceasefire violation",
+        "method": "Air/Precision Strike",
+        "lat": 30.0,
+        "lng": 53.0,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -104,6 +136,20 @@
       {
         "incident": "Israeli strikes in Lebanon",
         "kia": "~2",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Lviv war casualties",
+        "kia": "~2,000",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian military April losses",
+        "kia": "~35,000",
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "unverified"
@@ -149,6 +195,12 @@
         "speaker": "Sergei Lavrov",
         "title": "Foreign Minister",
         "date": "2026-05-26"
+      },
+      {
+        "text": "The next blow will be more painful",
+        "speaker": "Russian experts",
+        "title": "Foreign Ministry advisors",
+        "date": "2026-05-26"
       }
     ],
     "ukraine": [],
@@ -167,6 +219,18 @@
       },
       {
         "text": "Washington remained ready to mediate in the war between Russia and Ukraine",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
+        "date": "2026-05-26"
+      },
+      {
+        "text": "The United States had violated a ceasefire after the U.S. conducted what it called defensive strikes in southern Iran",
+        "speaker": "Iranian officials",
+        "title": "Government representatives",
+        "date": "2026-05-26"
+      },
+      {
+        "text": "Negotiating a deal to halt the conflict could take a few days",
         "speaker": "Marco Rubio",
         "title": "US Secretary of State",
         "date": "2026-05-26"
@@ -203,15 +267,52 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Active materiel + troops",
       "description": "Deployed 8,000 troops, fighter squadron, and Chinese air defense systems to Saudi Arabia under mutual defense treaty. Deployments began in early April 2026."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Active materiel + troops",
+      "description": "Germany joins EU in summoning Russian diplomats to protest attacks on Kyiv and orders for diplomats to leave the city. Continues support for Ukraine amid escalating tensions."
+    },
+    {
+      "country": "Canada",
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "status": "Strategic balancer",
+      "description": "Canada chooses Swedish early warning planes over US model as PM Carney seeks to diversify from US amid annexation threats. Addresses rising antisemitic violence concerns with Israeli President."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Mixed",
+    "brent_crude": "Elevated due to Hormuz concerns",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices mixed after US strikes on Iranian forces, while stocks rose as investors shrugged off renewed Iran fighting."
+    "notes": "Iranian negotiations seek $24 billion in frozen asset releases while Strait of Hormuz shipping crisis fuels new Eurasian trade corridors."
   },
   "update_log": [
+    {
+      "time": "19:55 UTC",
+      "text": "Multiple fronts show escalation with Russian Kyiv threats, Israeli Lebanon expansion, US-Iran strike disputes, North Korean missile tests",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "EU and Germany summon Russian envoys over threats to Kyiv and diplomatic evacuation orders",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:45 UTC",
+      "text": "Israeli ground operations expand beyond Yellow Line in south Lebanon with continued strikes",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:20 UTC",
+      "text": "Iran claims US ceasefire violations after defensive strikes in southern Iran",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:15 UTC",
+      "text": "North Korea tests ballistic missiles into Yellow Sea amid escalating regional tensions",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:49 UTC",
       "text": "Iran claims downing US drone and firing at F-35 fighter jet over airspace violation",
@@ -253,5 +354,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-27T14:49:37Z"
+  "last_updated": "2026-05-27T19:55:28Z"
 }
