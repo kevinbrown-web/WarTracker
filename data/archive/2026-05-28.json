@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.8,
-    "delta": "+0.3 from yesterday",
+    "score": 7,
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "Israel killed Hamas armed wing chief and intensified Lebanon attacks while US-Iran war enters fourth month with mounting casualties."
+    "rationale": "Active US-Iran war with draft peace negotiations, Ukraine striking Sevastopol with Storm Shadow missiles, and North Korea testing AI-guided cruise missiles."
   },
   "ticker_items": [
-    "Israel kills new Hamas armed wing commander Mohammed Odeh in Gaza strike",
-    "Israeli attacks on Lebanon kill 31, operations expanding northward",
-    "North Korea tests AI-guided cruise missiles with autonomous navigation",
-    "Ukraine claims Russian army suffered 35,000 casualties in April alone",
-    "US-Iran war death toll reaches 3,468 in Iran, 3,042 in Lebanon"
+    "Iran state TV reports draft US deal to reopen Strait of Hormuz",
+    "Ukraine strikes Sevastopol with UK Storm Shadow missiles",
+    "North Korea tests AI-guided cruise missiles near South Korea",
+    "Israel kills new Hamas military chief in Gaza",
+    "UK-Poland sign new security partnership treaty"
   ],
   "new_entrant": {
     "active": false,
@@ -28,6 +28,28 @@
         "lat": 49.26,
         "lng": 38.8,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Sevastopol",
+        "description": "Ukrainian forces attacked Sevastopol port using British-supplied Storm Shadow missiles",
+        "method": "Missile/Surface",
+        "lat": 44.62,
+        "lng": 33.53,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple regions",
+        "description": "Russian drone strikes reported across several Ukrainian regions",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -62,6 +84,28 @@
         "method": "Air/Precision Strike",
         "lat": 31.35,
         "lng": 34.31,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Gaza Strip",
+        "description": "Israeli strike eliminated Hamas military wing chief Mohammed Odeh",
+        "method": "Air/Precision Strike",
+        "lat": 31.35,
+        "lng": 34.31,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israel stepped up attacks on Lebanon with ground forces moving further into country",
+        "method": "Ground/Armored",
+        "lat": 33.27,
+        "lng": 35.2,
         "source_tier": "unverified"
       }
     ]
@@ -108,6 +152,12 @@
         "figure": "3,042",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "May 20, 2026"
+      },
+      {
+        "claim": "Gulf states deaths",
+        "figure": "28",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-20"
       }
     ]
   },
@@ -127,6 +177,12 @@
         "speaker": "Israel Katz",
         "title": "Israeli Defence Minister",
         "date": "May 27, 2026"
+      },
+      {
+        "text": "Iran's Revolutionary Guards said a return to war with the United States was unlikely, but warned the Islamic Republic stood ready to respond to any attack",
+        "speaker": "Revolutionary Guards",
+        "title": "Iranian Forces",
+        "date": "2026-05-27"
       }
     ]
   },
@@ -148,15 +204,58 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Supplying dual-use goods",
       "description": "North Korea tested AI-guided tactical cruise missiles with autonomous navigation systems and multiple weapons platforms. The tests signal advanced military modernization with potential implications for global arms transfers and regional stability."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "UK signed new security partnership treaty with Poland on May 27. GCHQ chief warned Russia is attacking Europe daily through less visible means. UK supplied Storm Shadow missiles used by Ukraine against Sevastopol."
+    },
+    {
+      "country": "Poland",
+      "flag": "\ud83c\uddf5\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Poland signed comprehensive security and defence partnership treaty with UK, strengthening NATO's eastern flank amid Russian threats."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "Putin-Xi summit demonstrated strategic alignment and diplomatic discipline. China continues backing Russia despite Western pressure, with little appetite from democracies to impose economic costs."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "$100",
     "wheat_futures": "Unchanged",
-    "notes": "Gold prices remain under pressure since US-Iran war began, with international prices down 15% since February 28."
+    "notes": "Oil jumped back to $100 per barrel following fresh US strikes, pushing UK petrol prices to highest level since 2022."
   },
   "update_log": [
+    {
+      "time": "Unknown",
+      "text": "Iran state television reports draft memorandum of understanding with US to end war and reopen Strait of Hormuz",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Ukraine strikes Russian-occupied Sevastopol with UK-supplied Storm Shadow missiles",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Israel eliminates new Hamas military chief Mohammed Odeh in Gaza strike",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "North Korea tests AI-guided cruise missiles with autonomous navigation systems",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "UK and Poland sign comprehensive security and defence partnership treaty",
+      "source_tier": "unverified"
+    },
     {
       "time": "09:30 UTC",
       "text": "Israeli strike on Gaza City kills 10 including four children hours after Hamas commander's funeral",
@@ -178,5 +277,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-28T09:40:17Z"
+  "last_updated": "2026-05-28T15:00:29Z"
 }
