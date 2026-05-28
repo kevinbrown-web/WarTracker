@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7,
-    "delta": "No previous data",
+    "score": 7.5,
+    "delta": "No previous score",
     "level": "Elevated",
-    "rationale": "Active US-Iran war with draft peace negotiations, Ukraine striking Sevastopol with Storm Shadow missiles, and North Korea testing AI-guided cruise missiles."
+    "rationale": "Israel orders evacuation of 200,000 from southern Lebanon while expanding Gaza operations, Iran war negotiations continue, and multiple active conflicts escalating."
   },
   "ticker_items": [
-    "Iran state TV reports draft US deal to reopen Strait of Hormuz",
-    "Ukraine strikes Sevastopol with UK Storm Shadow missiles",
-    "North Korea tests AI-guided cruise missiles near South Korea",
-    "Israel kills new Hamas military chief in Gaza",
-    "UK-Poland sign new security partnership treaty"
+    "Israel orders 200,000 Lebanese to evacuate southern regions",
+    "US-Iran reach MoU on 60-day truce pending Trump approval",
+    "Ukraine strikes Russian Sevastopol with Storm Shadow missiles",
+    "Netanyahu directs army to seize 70% of Gaza Strip",
+    "North Korea tests AI-powered missiles with autonomous navigation"
   ],
   "new_entrant": {
     "active": false,
@@ -46,6 +46,28 @@
         "target_country": "Ukraine",
         "target_location": "Multiple regions",
         "description": "Russian drone strikes reported across several Ukrainian regions",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Sevastopol",
+        "description": "Ukraine attacked Russian-occupied Crimean port city using Storm Shadow missiles.",
+        "method": "Missile/Surface",
+        "lat": 44.6,
+        "lng": 33.53,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple regions",
+        "description": "Russian forces conducted drone strikes on several Ukrainian regions.",
         "method": "Air/Drone",
         "lat": 50.45,
         "lng": 30.52,
@@ -107,6 +129,28 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israel intensified bombardment of southern Lebanese areas including Tyre.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Palestine",
+        "target_location": "Gaza Strip",
+        "description": "Israeli forces killed Hamas military commander Mohammed Odeh in airstrike.",
+        "method": "Air/Precision Strike",
+        "lat": 31.5,
+        "lng": 34.47,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -129,6 +173,20 @@
       {
         "incident": "Southern Lebanon strike",
         "kia": "2",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Hamas commander killing",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian April losses",
+        "kia": "~35,000",
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "verified"
@@ -158,6 +216,12 @@
         "figure": "28",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-05-20"
+      },
+      {
+        "claim": "Russian military KIA in Ukraine war",
+        "figure": "est. 35,000+",
+        "claimed_by": "Ukraine",
+        "as_of": "April 2026"
       }
     ]
   },
@@ -169,6 +233,12 @@
         "speaker": "Andriy Biletsky",
         "title": "Brigadier General",
         "date": "May 27, 2026"
+      },
+      {
+        "text": "We trust you!",
+        "speaker": "Volodymyr Zelensky",
+        "title": "Ukrainian President",
+        "date": "2026-05-27"
       }
     ],
     "middle_east": [
@@ -182,6 +252,18 @@
         "text": "Iran's Revolutionary Guards said a return to war with the United States was unlikely, but warned the Islamic Republic stood ready to respond to any attack",
         "speaker": "Revolutionary Guards",
         "title": "Iranian Forces",
+        "date": "2026-05-27"
+      },
+      {
+        "text": "We are ready to contribute",
+        "speaker": "Czech Foreign Minister Macinka",
+        "title": "Foreign Minister",
+        "date": "2026-05-27"
+      },
+      {
+        "text": "We will not allow Trump to make a peace deal with Iran",
+        "speaker": "Itamar Ben-Gvir",
+        "title": "Israeli Security Minister",
         "date": "2026-05-27"
       }
     ]
@@ -222,15 +304,46 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "Putin-Xi summit demonstrated strategic alignment and diplomatic discipline. China continues backing Russia despite Western pressure, with little appetite from democracies to impose economic costs."
+    },
+    {
+      "country": "Czech Republic",
+      "flag": "\ud83c\udde8\ud83c\uddff",
+      "status": "Active materiel + troops",
+      "description": "Czech Foreign Minister voiced strong support for Trump's push against Iran's control of Hormuz Strait. The country is defending increased European defense spending and warning of Iran's global nuclear threat."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "$100",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Oil jumped back to $100 per barrel following fresh US strikes, pushing UK petrol prices to highest level since 2022."
+    "notes": "Elbit Systems reports strong quarterly results with $30.2 billion order backlog amid ongoing regional conflicts."
   },
   "update_log": [
+    {
+      "time": "20:01",
+      "text": "US and Iran reach memorandum of understanding on proposed 60-day ceasefire extension pending Trump approval.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:45",
+      "text": "Netanyahu directs Israeli army to seize 70 percent of Gaza Strip, expanding beyond ceasefire terms.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30",
+      "text": "Israel orders evacuation of 200,000 residents from southern Lebanon, first such demand since April ceasefire.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:15",
+      "text": "Ukraine attacks Russian-occupied Sevastopol with Storm Shadow missiles amid cross-border air attacks.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:00",
+      "text": "EU states summon Russian envoys over Kyiv threats as Putin indicates acceptance of Brussels ceasefire mediation.",
+      "source_tier": "verified"
+    },
     {
       "time": "Unknown",
       "text": "Iran state television reports draft memorandum of understanding with US to end war and reopen Strait of Hormuz",
@@ -277,5 +390,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-28T15:00:29Z"
+  "last_updated": "2026-05-28T20:01:21Z"
 }
