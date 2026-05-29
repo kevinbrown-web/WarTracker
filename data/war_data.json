@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.0,
-    "delta": "+0.5 from yesterday",
-    "level": "High",
-    "rationale": "US-Iran direct military exchange with Revolutionary Guards targeting US airbase after Trump rejected peace terms and US struck Iranian drone facilities."
+    "score": 7.2,
+    "delta": "+0.8 from yesterday",
+    "level": "Elevated",
+    "rationale": "Multiple active conflicts with US-Iran airstrikes day 90, Israeli expansion into Lebanon ordering evacuation of 14% of country, and NATO establishing new command centers on Russian borders."
   },
   "ticker_items": [
-    "Iran's Revolutionary Guard targets US airbase after Trump rejects peace plan",
-    "US strikes Iranian drone facility near Strait of Hormuz on day 90",
-    "Ukraine uses Storm Shadow missiles against Russian Sevastopol",
-    "North Korea tests AI-guided cruise missiles with autonomous navigation",
-    "Xi Jinping reportedly planning first 2026 overseas trip to Pyongyang"
+    "US strikes Iranian military targets near Bandar Abbas on day 90",
+    "Israel orders evacuation of 14% of Lebanon south of Zahrani River",
+    "Ukraine appeals directly to Trump for more Patriot missile systems",
+    "Germany-Netherlands establish NATO command center in Baltics against Russia",
+    "North Korea tests AI-guided cruise missiles with autonomous navigation"
   ],
   "new_entrant": {
     "active": false,
@@ -39,6 +39,17 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Sevastopol",
+        "description": "Ukrainian forces attacked Russian-occupied Crimean port city using Storm Shadow missiles",
+        "method": "Missile/Surface",
+        "lat": 44.62,
+        "lng": 33.52,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -63,6 +74,39 @@
         "lat": 0.0,
         "lng": 0.0,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Bandar Abbas area",
+        "description": "US conducted airstrikes on Iranian military site near Strait of Hormuz",
+        "method": "Air/Precision Strike",
+        "lat": 27.19,
+        "lng": 56.28,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut southern suburbs",
+        "description": "Israeli strike hit building in southern suburbs of Lebanese capital",
+        "method": "Air/Precision Strike",
+        "lat": 33.85,
+        "lng": 35.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Israel",
+        "target_location": "Military positions",
+        "description": "Hezbollah drone strike killed one Israeli soldier and injured two others",
+        "method": "Drone/Air",
+        "lat": 32.08,
+        "lng": 34.78,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -74,6 +118,20 @@
         "wia": "0",
         "civilian": false,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Hezbollah drone strike on Israeli forces",
+        "kia": "1",
+        "wia": "2",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "RSF attacks on Sudanese civilians",
+        "kia": "27",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -82,18 +140,43 @@
         "figure": "~35,000",
         "claimed_by": "Ukraine",
         "as_of": "April 2026"
+      },
+      {
+        "claim": "US-Israel attacks on Iran casualties",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-29"
+      },
+      {
+        "claim": "Lebanon casualties from Iran war",
+        "figure": "~3,042",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-29"
       }
     ]
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Ukraine urgently needs additional Patriot missile systems as Russia intensifies ballistic missile attacks on Ukrainian cities",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "Ukrainian President",
+        "date": "2026-05-28"
+      }
+    ],
     "middle_east": [
       {
         "text": "Iran is negotiating on fumes",
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-05-28"
+      },
+      {
+        "text": "It's got no anything. All they do is run around shooting each other",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-05-27"
       }
     ]
   },
@@ -109,15 +192,52 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Active materiel + troops",
       "description": "Tested AI-guided tactical cruise missiles with autonomous navigation systems and multiple weapons systems including nuclear-capable cruise missiles. Constitutional changes stripped reunification language, signaling shift in strategy toward South Korea relations."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Active materiel + troops",
+      "description": "Germany is establishing joint NATO command center with Netherlands in the Baltics to command forces on eastern flank against Russia. The 1GNC tactical headquarters will take control of forces in Latvia and Estonia by mid-year."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Active materiel + troops",
+      "description": "Pakistan has deployed 8,000 troops, fighter jet squadron, and Chinese-made air defense system to Saudi Arabia under mutual defense treaty. The deployment began in early April to enhance Pakistani military presence in the region."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "US draining Strategic Petroleum Reserve to contain energy prices amid Iran conflict creating concerns about earlier energy supply cliff."
+    "notes": "US imposed new sanctions to prevent Tehran from profiting from vessels transiting Strait of Hormuz amid ongoing Iran war."
   },
   "update_log": [
+    {
+      "time": "14:30 UTC",
+      "text": "US carries out airstrikes on Iranian military site near Strait of Hormuz on day 90 of Iran war",
+      "source_tier": "verified"
+    },
+    {
+      "time": "13:45 UTC",
+      "text": "Israel issues evacuation order for all areas south of Zahrani River covering 14% of Lebanon",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "Germany and Netherlands announce joint NATO command center establishment in Baltics against Russia",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:15 UTC",
+      "text": "Ukrainian President Zelenskyy makes direct appeal to Trump for additional Patriot missile systems",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "North Korea announces successful test of AI-guided tactical cruise missile",
+      "source_tier": "unverified"
+    },
     {
       "time": "09:29 UTC",
       "text": "Iran's Revolutionary Guard reports targeting US airbase after US strikes Iranian drone facility near Strait of Hormuz",
@@ -139,5 +259,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-29T09:29:36Z"
+  "last_updated": "2026-05-29T14:33:49Z"
 }
