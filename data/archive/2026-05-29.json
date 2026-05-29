@@ -1,16 +1,15 @@
 {
   "escalation": {
-    "score": 7.2,
-    "delta": "+0.8 from yesterday",
-    "level": "Elevated",
-    "rationale": "Multiple active conflicts with US-Iran airstrikes day 90, Israeli expansion into Lebanon ordering evacuation of 14% of country, and NATO establishing new command centers on Russian borders."
+    "score": 8,
+    "delta": "No previous baseline",
+    "level": "High",
+    "rationale": "Multiple active conflicts with Israel expanding operations in Lebanon beyond ceasefire terms, ongoing US-Iran war at day 90, and deepening Russia-China military cooperation."
   },
   "ticker_items": [
-    "US strikes Iranian military targets near Bandar Abbas on day 90",
-    "Israel orders evacuation of 14% of Lebanon south of Zahrani River",
-    "Ukraine appeals directly to Trump for more Patriot missile systems",
-    "Germany-Netherlands establish NATO command center in Baltics against Russia",
-    "North Korea tests AI-guided cruise missiles with autonomous navigation"
+    "Israel crosses Lebanon's Litani River, expands Gaza control to 70%",
+    "US launches new strikes near Iran's Bandar Abbas on war day 90",
+    "Russia-Taliban sign military cooperation deal amid deepening ties",
+    "Trump in White House Situation Room for potential Iran deal finalization"
   ],
   "new_entrant": {
     "active": false,
@@ -107,6 +106,39 @@
         "lat": 32.08,
         "lng": 34.78,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Bandar Abbas",
+        "description": "US strikes near Bandar Abbas as tensions rise in Strait of Hormuz",
+        "method": "Air/Precision Strike",
+        "lat": 27.18,
+        "lng": 56.28,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut",
+        "description": "Israeli strikes on Beirut for first time since ceasefire took effect",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Israel",
+        "target_location": "Israeli military positions",
+        "description": "Hezbollah drone strike targeting Israeli military positions",
+        "method": "Drone",
+        "lat": 31.77,
+        "lng": 35.23,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -132,6 +164,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Hezbollah drone strike",
+        "kia": "1",
+        "wia": "2",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -152,6 +191,12 @@
         "figure": "~3,042",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-05-29"
+      },
+      {
+        "claim": "Russian military deaths in Ukraine",
+        "figure": "~500,000",
+        "claimed_by": "UK government",
+        "as_of": "2026-05-28"
       }
     ]
   },
@@ -177,6 +222,18 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-05-27"
+      },
+      {
+        "text": "Israeli forces have crossed the Litani River in southern Lebanon",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Israeli Prime Minister",
+        "date": "2026-05-29"
+      },
+      {
+        "text": "I'm in the Situation Room at the White House to make a final determination on a deal with Iran",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-05-29"
       }
     ]
   },
@@ -204,15 +261,46 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Active materiel + troops",
       "description": "Pakistan has deployed 8,000 troops, fighter jet squadron, and Chinese-made air defense system to Saudi Arabia under mutual defense treaty. The deployment began in early April to enhance Pakistani military presence in the region."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "Russia signed military and technical cooperation deal with Taliban Afghanistan. The agreement deepens Russian military ties in Central Asia amid ongoing Ukraine conflict."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "US imposed new sanctions to prevent Tehran from profiting from vessels transiting Strait of Hormuz amid ongoing Iran war."
+    "notes": "Iran reconnected to internet after 88-day blackout, potentially impacting regional economic activity."
   },
   "update_log": [
+    {
+      "time": "20:04",
+      "text": "Trump announces final Iran deal determination from White House Situation Room",
+      "source_tier": "verified"
+    },
+    {
+      "time": "19:45",
+      "text": "Netanyahu confirms Israeli forces crossed Lebanon's Litani River",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30",
+      "text": "US conducts strikes near Bandar Abbas on day 90 of Iran war",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:20",
+      "text": "Russia and Taliban sign military cooperation agreement",
+      "source_tier": "verified"
+    },
+    {
+      "time": "14:15",
+      "text": "Israel expands Gaza control to 70 percent beyond ceasefire terms",
+      "source_tier": "verified"
+    },
     {
       "time": "14:30 UTC",
       "text": "US carries out airstrikes on Iranian military site near Strait of Hormuz on day 90 of Iran war",
@@ -259,5 +347,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-29T14:33:49Z"
+  "last_updated": "2026-05-29T20:04:39Z"
 }
