@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.5,
-    "delta": "+0.5 from yesterday",
+    "score": 8,
+    "delta": "N/A - first assessment",
     "level": "High",
-    "rationale": "Russian drone strike hit NATO member Romania injuring civilians while Israel orders seizure of 70% of Gaza and expands Lebanon operations to 14% of the country."
+    "rationale": "Multiple escalatory developments including Israeli expansion into Lebanon north of Litani River, near-total Strait of Hormuz closure, US threats against Oman, and ongoing US-Iran war entering day 91."
   },
   "ticker_items": [
-    "Russian drone hits Romanian apartment building, injures two",
-    "Netanyahu orders Israeli military to seize 70% of Gaza",
-    "Israel expands Lebanon evacuation orders to 14% of country",
-    "US-Iran 60-day ceasefire deal tentative, Trump approval uncertain",
-    "Trump deploying 5,000 additional troops to Poland"
+    "Israeli troops advance north of Litani River in Lebanon",
+    "US-Iran near 60-day deal to reopen Hormuz Strait",
+    "Trump threatens to 'blow up' Oman amid Iran tensions",
+    "Netanyahu orders seizure of 70% of Gaza territory",
+    "Drone strike hits Romania, injuring two civilians"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Romania directly hit by Russian drone strike, marking spillover into NATO territory."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -28,6 +28,17 @@
         "lat": 45.84,
         "lng": 28.18,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Romania",
+        "target_location": "Gala\u021bi",
+        "description": "Drone struck residential building injuring two people",
+        "method": "Air/Drone",
+        "lat": 45.44,
+        "lng": 28.05,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -37,6 +48,17 @@
         "target_country": "Israel",
         "target_location": "Tel Aviv military positions",
         "description": "Hezbollah drone strike killed at least one Israeli soldier.",
+        "method": "Air/Drone",
+        "lat": 32.08,
+        "lng": 34.78,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Israel",
+        "target_location": "Israeli military positions",
+        "description": "Drone strike killed one Israeli soldier and injured two others",
         "method": "Air/Drone",
         "lat": 32.08,
         "lng": 34.78,
@@ -59,18 +81,57 @@
         "wia": "2",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Hezbollah drone strike",
+        "kia": "1",
+        "wia": "2",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
-    "claimed_totals": []
+    "claimed_totals": [
+      {
+        "claim": "Children killed in Lebanon since ceasefire",
+        "figure": "55",
+        "claimed_by": "United Nations",
+        "as_of": "2026-05-29"
+      },
+      {
+        "claim": "US-Iran war casualties - Iran",
+        "figure": "3,468",
+        "claimed_by": "Al Jazeera",
+        "as_of": "Current"
+      },
+      {
+        "claim": "US-Iran war casualties - Lebanon",
+        "figure": "3,042",
+        "claimed_by": "Al Jazeera",
+        "as_of": "Current"
+      }
+    ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Russia has all the means to destroy anyone who attempts to destroy its air defense bases",
+        "speaker": "Vladimir Putin",
+        "title": "President",
+        "date": "2026-05-29"
+      }
+    ],
     "ukraine": [],
     "middle_east": [
       {
         "text": "directed Israel's military to take more of Gaza, initially by seizing 70 per cent of the Palestinian territory",
         "speaker": "Benjamin Netanyahu",
         "title": "Israeli Prime Minister",
+        "date": "2026-05-29"
+      },
+      {
+        "text": "no choice but resistance",
+        "speaker": "Hezbollah lawmaker",
+        "title": "Senior Lebanese parliamentarian",
         "date": "2026-05-29"
       }
     ]
@@ -93,15 +154,52 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Supplying dual-use goods",
       "description": "Military modernization topping Asia defense summit concerns. Analysts report continued support for Russia despite Western sanctions. President Xi reportedly planning North Korea state visit."
+    },
+    {
+      "country": "Ireland",
+      "flag": "\ud83c\uddee\ud83c\uddea",
+      "status": "Abstaining",
+      "description": "Government divided on sanctioning Russian-owned Aughinish Alumina refinery. Taoiseach argues sanctions would harm EU more than Russia, while T\u00e1naiste insists Ireland cannot cherrypick companies based on domestic costs."
+    },
+    {
+      "country": "Hungary",
+      "flag": "\ud83c\udded\ud83c\uddfa",
+      "status": "Abstaining",
+      "description": "New Prime Minister Peter Magyar maintains predecessor Orban's stance, ruling out sending weapons to Ukraine after talks with NATO chief Mark Rutte, signaling policy continuity despite leadership change."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "No significant financial developments reported in available headlines."
+    "notes": "Global oil reserves depleting at record pace due to near-total Strait of Hormuz closure according to major economic organizations."
   },
   "update_log": [
+    {
+      "time": "12:58 UTC",
+      "text": "US Treasury threatens Oman with sanctions day after Trump threatens military action",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:45 UTC",
+      "text": "Netanyahu orders Israeli military to seize 70% of Gaza territory",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "Israeli troops confirmed moving north of Lebanon's Litani River despite ceasefire",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:15 UTC",
+      "text": "US and Iran near 60-day deal to reopen Hormuz Strait on war day 91",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Drone strike in Romanian city of Gala\u021bi injures two civilians",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:12 UTC",
       "text": "Russian drone strikes Romanian apartment building near Ukraine border",
@@ -123,5 +221,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-05-30T08:12:35Z"
+  "last_updated": "2026-05-30T12:58:03Z"
 }
