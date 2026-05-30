@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8,
-    "delta": "N/A - first assessment",
-    "level": "High",
-    "rationale": "Multiple escalatory developments including Israeli expansion into Lebanon north of Litani River, near-total Strait of Hormuz closure, US threats against Oman, and ongoing US-Iran war entering day 91."
+    "score": 7.2,
+    "delta": "+0.8 from yesterday",
+    "level": "Elevated",
+    "rationale": "Russian drone struck NATO member Romania while Iran-US ceasefire talks continue amid Israeli expansion in Gaza and Lebanon."
   },
   "ticker_items": [
-    "Israeli troops advance north of Litani River in Lebanon",
-    "US-Iran near 60-day deal to reopen Hormuz Strait",
-    "Trump threatens to 'blow up' Oman amid Iran tensions",
-    "Netanyahu orders seizure of 70% of Gaza territory",
-    "Drone strike hits Romania, injuring two civilians"
+    "Russian drone hits Romanian apartment building, 70 evacuated",
+    "NATO vows to defend every inch after Romania strike",
+    "Israel pushes north into Lebanon, plans 70% Gaza control",
+    "Iran-US near 60-day deal to reopen Hormuz strait",
+    "UAE conducted dozens of strikes on Iran with US-Israeli coordination"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Romania directly targeted by Russian drone strike, marking first kinetic attack on NATO territory in this conflict."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -39,6 +39,28 @@
         "lat": 45.44,
         "lng": 28.05,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Romania",
+        "target_location": "Apartment building near Ukraine border",
+        "description": "Russian drone struck apartment building causing evacuation of 70 people.",
+        "method": "Air/Drone",
+        "lat": 45.8,
+        "lng": 28.6,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Sevastopol",
+        "description": "Ukraine attacked Sevastopol port using Storm Shadow missiles.",
+        "method": "Missile/Surface",
+        "lat": 44.6,
+        "lng": 33.5,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -63,6 +85,28 @@
         "lat": 32.08,
         "lng": 34.78,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Northern Lebanon",
+        "description": "Israeli forces pushed further north into Lebanon territory.",
+        "method": "Ground/Armored",
+        "lat": 34.0,
+        "lng": 35.8,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Palestine",
+        "target_location": "Gaza",
+        "description": "Israeli attack killed Palestinian doctor and injured three people.",
+        "method": "Air/Precision Strike",
+        "lat": 31.5,
+        "lng": 34.5,
+        "source_tier": "verified"
       }
     ]
   },
@@ -88,6 +132,27 @@
         "wia": "2",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Romania drone strike",
+        "kia": "0",
+        "wia": "2",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Gaza attack",
+        "kia": "1",
+        "wia": "3",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Afghanistan truck accident",
+        "kia": "22",
+        "wia": "36",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -108,6 +173,18 @@
         "figure": "3,042",
         "claimed_by": "Al Jazeera",
         "as_of": "Current"
+      },
+      {
+        "claim": "Russian military casualties April 2026",
+        "figure": "~35,000",
+        "claimed_by": "Ukraine",
+        "as_of": "2026-05-29"
+      },
+      {
+        "claim": "Iran war casualties",
+        "figure": "3,468 Iran, 3,042 Lebanon, 28 Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-05-20"
       }
     ]
   },
@@ -132,6 +209,18 @@
         "text": "no choice but resistance",
         "speaker": "Hezbollah lawmaker",
         "title": "Senior Lebanese parliamentarian",
+        "date": "2026-05-29"
+      },
+      {
+        "text": "Israel will also expand its area control in Gaza",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Israeli Prime Minister",
+        "date": "2026-05-29"
+      },
+      {
+        "text": "The alliance is ready to defend every inch of its territory",
+        "speaker": "Mark Rutte",
+        "title": "NATO Secretary General",
         "date": "2026-05-29"
       }
     ]
@@ -166,15 +255,52 @@
       "flag": "\ud83c\udded\ud83c\uddfa",
       "status": "Abstaining",
       "description": "New Prime Minister Peter Magyar maintains predecessor Orban's stance, ruling out sending weapons to Ukraine after talks with NATO chief Mark Rutte, signaling policy continuity despite leadership change."
+    },
+    {
+      "country": "UAE",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "Active materiel + troops",
+      "description": "UAE conducted dozens of airstrikes on Iranian targets in coordination with US and Israel. Strikes targeted Iranian energy facilities in response to Tehran's attacks on UAE infrastructure."
+    },
+    {
+      "country": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "status": "Supplying dual-use goods",
+      "description": "French foreign minister summoned Russian ambassador over drone incident in Romania. France showing solidarity with NATO ally while raising diplomatic pressure on Russia."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Global oil reserves depleting at record pace due to near-total Strait of Hormuz closure according to major economic organizations."
+    "notes": "Crypto markets flagged for volatility risks due to escalating geopolitical tensions in Romania and Middle East."
   },
   "update_log": [
+    {
+      "time": "18:55 UTC",
+      "text": "Russian drone strikes apartment building in Romania, NATO vows territorial defense",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:30 UTC",
+      "text": "Israel orders military to control 70% of Gaza territory",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:20 UTC",
+      "text": "Ukraine attacks Sevastopol with Storm Shadow missiles",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:15 UTC",
+      "text": "US and Iran near 60-day deal to reopen Hormuz strait",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:45 UTC",
+      "text": "Palestinian doctor killed in Israeli attack on Gaza",
+      "source_tier": "verified"
+    },
     {
       "time": "12:58 UTC",
       "text": "US Treasury threatens Oman with sanctions day after Trump threatens military action",
@@ -221,5 +347,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-05-30T12:58:03Z"
+  "last_updated": "2026-05-30T18:55:47Z"
 }
