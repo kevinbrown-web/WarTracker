@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.2,
-    "delta": "Unknown",
+    "score": 7.5,
+    "delta": "+1.2 from yesterday",
     "level": "Elevated",
-    "rationale": "Multiple active conflicts escalating with Iranian missile strikes on Kuwait base injuring US personnel, Israeli forces crossing Litani River in Lebanon, and US threatening renewed Iran strikes."
+    "rationale": "Multiple major escalations including Ukrainian strikes on Russian aircraft, Zaporizhzhia nuclear facility hit, Iranian missile attack on US base in Kuwait, and deepening Israel-Lebanon operations."
   },
   "ticker_items": [
-    "Iranian missile strike wounds US personnel at Kuwait base",
-    "Israeli forces cross Litani River, seize medieval castle in Lebanon",
-    "US Defense Secretary threatens renewed Iran strikes if talks fail",
-    "Ukraine conducts large-scale drone assault on Russian territory",
-    "Netanyahu orders Israeli military to control 70% of Gaza"
+    "Ukrainian drones destroy Russian Tu-142 aircraft and Iskander systems",
+    "Iran strikes US base in Kuwait, injures five Americans",
+    "Drone hits Zaporizhzhia nuclear facility amid aerial exchanges",
+    "Israel expands Lebanon operations, targets 70% Gaza control",
+    "Russia-Taliban military cooperation agreement signed"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Russia formally signed military cooperation agreement with Afghanistan's Taliban government on May 27."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -38,6 +38,39 @@
         "method": "Air/Drone",
         "lat": 45.0,
         "lng": 39.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Taganrog",
+        "description": "Ukrainian drones destroyed two Russian Tu-142 naval aircraft at military airfield",
+        "method": "Air/Drone",
+        "lat": 47.22,
+        "lng": 38.85,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Various oil facilities",
+        "description": "Drone strikes caused fires at Russian oil facilities overnight",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Zaporizhzhia",
+        "description": "Drone strike hit Zaporizhzhia nuclear facility during aerial exchanges",
+        "method": "Air/Drone",
+        "lat": 47.51,
+        "lng": 34.59,
         "source_tier": "unverified"
       }
     ],
@@ -63,6 +96,28 @@
         "lat": 29.5,
         "lng": 47.75,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "South Lebanon",
+        "description": "Multiple Israeli strikes across south Lebanon after evacuation orders",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Kuwait",
+        "target_location": "Kuwaiti air base",
+        "description": "Iranian ballistic missile attack on base hosting US personnel",
+        "method": "Ballistic Missile",
+        "lat": 29.32,
+        "lng": 47.98,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -73,6 +128,13 @@
         "kia": "0",
         "wia": "~5",
         "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Myanmar explosives depot blast",
+        "kia": "46",
+        "wia": "70",
+        "civilian": true,
         "source_tier": "unverified"
       }
     ],
@@ -88,6 +150,12 @@
         "figure": "~3,042",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-05-20"
+      },
+      {
+        "claim": "Russian military casualties April 2026",
+        "figure": "35,000+",
+        "claimed_by": "Ukraine",
+        "as_of": "2026-05-08"
       }
     ]
   },
@@ -100,7 +168,14 @@
         "date": "2026-05-29"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "I cannot stay silent as I continue to heavily criticise Russian players for not denouncing the war",
+        "speaker": "Oleksandra Oliynykova",
+        "title": "Ukrainian athlete",
+        "date": "2026-05-30"
+      }
+    ],
     "middle_east": [
       {
         "text": "The United States is more than capable of resuming war with Iran after President Trump said any peace deal must adhere to his red lines.",
@@ -119,6 +194,12 @@
         "speaker": "Benjamin Netanyahu",
         "title": "Israeli Prime Minister",
         "date": "2026-05-29"
+      },
+      {
+        "text": "We Will Bring 'Utter Ruin' If U.S. Blockade Continues",
+        "speaker": "IRGC",
+        "title": "Iranian Revolutionary Guard",
+        "date": "2026-05-30"
       }
     ]
   },
@@ -152,15 +233,52 @@
       "flag": "\ud83c\udde6\ud83c\uddea",
       "status": "Active materiel + troops",
       "description": "New reports reveal UAE played extensive role in US-Israeli aggression against Iran, carrying out dozens of airstrikes on Iranian territory from opening days of war."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "US Defense Secretary Hegseth praised newly stable ties with China at Singapore security summit. Reports indicate Chinese President Xi may visit North Korea soon. China continues backing Russia in Ukraine conflict according to Western analysts."
+    },
+    {
+      "country": "Netherlands",
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Dutch Deputy PM emphasized Europe must take greater responsibility for defense and become stronger US partner. Cited Ukraine war as wake-up call for European defense capabilities. Called US criticism of Europe 'necessary'."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Trump's Iran war reshaped European energy markets as Hormuz disruptions drove EU buyers toward US LNG deals."
+    "notes": "US blockade in Gulf of Oman threatens disruption to global oil markets amid regional tensions."
   },
   "update_log": [
+    {
+      "time": "18:58 UTC",
+      "text": "Ukrainian drones destroyed Russian Tu-142 aircraft and Iskander systems at Taganrog airfield",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:45 UTC",
+      "text": "Iran missile attack on Kuwait base injures five US personnel, damages MQ-9 drones",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:30 UTC",
+      "text": "Israel launches strikes across south Lebanon after evacuation orders to dozen locations",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:15 UTC",
+      "text": "Drone hits Zaporizhzhia nuclear facility amid Ukraine-Russia aerial exchanges",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:45 UTC",
+      "text": "Sweden announces donation of 16 Gripen fighter jets to Ukraine",
+      "source_tier": "verified"
+    },
     {
       "time": "13:07",
       "text": "Israeli forces cross north of Lebanon's Litani River and seize medieval Beaufort Castle",
@@ -197,5 +315,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-31T13:07:37Z"
+  "last_updated": "2026-05-31T18:58:57Z"
 }
