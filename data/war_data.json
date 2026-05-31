@@ -1,15 +1,16 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "+0.3 from yesterday",
+    "score": 7.2,
+    "delta": "Unknown",
     "level": "Elevated",
-    "rationale": "US warns of resuming Iran war while Russian drone strikes Romanian building and Israel expands Lebanese operations."
+    "rationale": "Multiple active conflicts escalating with Iranian missile strikes on Kuwait base injuring US personnel, Israeli forces crossing Litani River in Lebanon, and US threatening renewed Iran strikes."
   },
   "ticker_items": [
-    "Russian drone crashes into Romanian apartment building",
-    "US warns capable of resuming Iran war as Trump toughens deal terms",
-    "Israel expands operations in Lebanon, controls 60% of Gaza",
-    "Poland moves to strip Zelensky of highest honor over unit naming"
+    "Iranian missile strike wounds US personnel at Kuwait base",
+    "Israeli forces cross Litani River, seize medieval castle in Lebanon",
+    "US Defense Secretary threatens renewed Iran strikes if talks fail",
+    "Ukraine conducts large-scale drone assault on Russian territory",
+    "Netanyahu orders Israeli military to control 70% of Gaza"
   ],
   "new_entrant": {
     "active": false,
@@ -27,6 +28,17 @@
         "lat": 45.94,
         "lng": 24.97,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Southern Russia seaport and airbase",
+        "description": "Ukrainian forces conducted large-scale overnight drone assault targeting military and infrastructure sites inside Russia.",
+        "method": "Air/Drone",
+        "lat": 45.0,
+        "lng": 39.0,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -40,11 +52,30 @@
         "lat": 33.01,
         "lng": 35.09,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Kuwait",
+        "target_location": "Kuwaiti air base",
+        "description": "Iranian ballistic missile attack wounded several American military personnel and damaged two US MQ-9 Reaper drones.",
+        "method": "Ballistic Missile",
+        "lat": 29.5,
+        "lng": 47.75,
+        "source_tier": "unverified"
       }
     ]
   },
   "casualties": {
-    "today": [],
+    "today": [
+      {
+        "incident": "Iranian missile strike Kuwait",
+        "kia": "0",
+        "wia": "~5",
+        "civilian": false,
+        "source_tier": "unverified"
+      }
+    ],
     "claimed_totals": [
       {
         "claim": "Iran casualties from US-Israel attacks",
@@ -76,6 +107,18 @@
         "speaker": "Pete Hegseth",
         "title": "US Defense Secretary",
         "date": "2026-05-30"
+      },
+      {
+        "text": "Our ability to recommence if necessary ... we are more than capable",
+        "speaker": "Pete Hegseth",
+        "title": "US Secretary of War",
+        "date": "2026-05-30"
+      },
+      {
+        "text": "We are operating in Beirut, in the Beqaa, across the entire width of the front, and we are dealing Hezbollah a crushing blow",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Israeli Prime Minister",
+        "date": "2026-05-29"
       }
     ]
   },
@@ -91,15 +134,53 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Active materiel + troops",
       "description": "Pakistan deployed 8,000 troops, fighter jets, and Chinese-made air defense systems to Saudi Arabia under mutual defense treaty. The deployment began in early April according to Reuters reports."
+    },
+    {
+      "country": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "status": "Active materiel + troops",
+      "description": "Defense Secretary Hegseth threatened renewed military action against Iran while praising Asian allies and criticizing European partners. US personnel were wounded in Iranian missile attack on Kuwait base."
+    },
+    {
+      "country": "Sweden",
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "status": "Supplying dual-use goods",
+      "description": "Sweden announced donation of 16 older-generation Gripen fighter jets to Ukraine following May 28 announcement. Industry experts say transfer details will determine immediate war impact."
+    },
+    {
+      "country": "United Arab Emirates",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "Active materiel + troops",
+      "description": "New reports reveal UAE played extensive role in US-Israeli aggression against Iran, carrying out dozens of airstrikes on Iranian territory from opening days of war."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "No significant financial developments reported in today's headlines."
+    "notes": "Trump's Iran war reshaped European energy markets as Hormuz disruptions drove EU buyers toward US LNG deals."
   },
   "update_log": [
+    {
+      "time": "13:07",
+      "text": "Israeli forces cross north of Lebanon's Litani River and seize medieval Beaufort Castle",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30",
+      "text": "Iranian ballistic missile attack on Kuwait base wounds US personnel and damages MQ-9 drones",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:45",
+      "text": "Ukraine conducts large-scale overnight drone assault on Russian military and infrastructure sites",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:30",
+      "text": "US Defense Secretary Hegseth threatens renewed Iran strikes if diplomatic talks fail",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:00 UTC",
       "text": "Hezbollah rockets target Israeli beach causing civilian panic in Nahariya.",
@@ -116,5 +197,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-05-31T08:31:29Z"
+  "last_updated": "2026-05-31T13:07:37Z"
 }
