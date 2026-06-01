@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.0,
-    "delta": "+0.5 from yesterday",
-    "level": "High",
-    "rationale": "Israel's deepest incursion into Lebanon in 26 years with Beaufort Castle capture and Ukrainian strikes on Russian nuclear facility heighten tensions."
+    "score": 7.5,
+    "delta": "No previous data",
+    "level": "Elevated",
+    "rationale": "Israel conducts deepest Lebanon incursion in 25+ years while Iran blockades Strait of Hormuz amid US-Iran military clashes."
   },
   "ticker_items": [
-    "Israel crosses Litani River, captures Beaufort Castle in deepest Lebanon incursion since 2000",
-    "Ukraine denies striking Russian nuclear plant amid fresh energy facility attacks",
-    "Belarus warns any attack would profoundly impact Ukraine conflict nature",
-    "Iran reopens underground missile sites, prepares for renewed strikes on Israel",
-    "EU considers freezing Russia oil price cap over Middle East war"
+    "Israel captures Crusader castle in deepest Lebanon push since 2000",
+    "Iran threatens 'utter ruin' as Hormuz blockade continues",
+    "IAEA inspects Zaporizhzhia plant after alleged Ukrainian drone strike",
+    "Ukraine denies Russian claims of nuclear facility attack",
+    "Russia forms third air defense ring around Moscow"
   ],
   "new_entrant": {
     "active": false,
@@ -38,6 +38,28 @@
         "method": "Air/Drone",
         "lat": 47.5149,
         "lng": 34.5859,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Energy facilities",
+        "description": "Ukrainian forces struck Russian energy targets overnight into Sunday",
+        "method": "Air/Drone",
+        "lat": 55.7558,
+        "lng": 37.6176,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Zaporizhzhia Nuclear Plant",
+        "description": "Russian claims Ukrainian drone struck nuclear facility machine hall",
+        "method": "Air/Drone",
+        "lat": 47.5147,
+        "lng": 34.5856,
         "source_tier": "unverified"
       }
     ],
@@ -74,17 +96,48 @@
         "lat": 29.3759,
         "lng": 47.9774,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beaufort Castle area",
+        "description": "Israeli forces captured strategic mountain castle in deepest incursion since 2000",
+        "method": "Ground/Armored",
+        "lat": 33.2833,
+        "lng": 35.4167,
+        "source_tier": "verified"
       }
     ]
   },
   "casualties": {
-    "today": [],
+    "today": [
+      {
+        "incident": "Zaporizhzhia plant strike",
+        "kia": "0",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      }
+    ],
     "claimed_totals": [
       {
         "claim": "Russian military casualties in April",
         "figure": "~35,000",
         "claimed_by": "Ukraine",
         "as_of": "May 2026"
+      },
+      {
+        "claim": "US-Israel attacks death toll Iran",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-06-01"
+      },
+      {
+        "claim": "US-Israel attacks death toll Lebanon",
+        "figure": "~3,371",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-06-01"
       }
     ]
   },
@@ -97,7 +150,14 @@
         "date": "2026-05-31"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "I think this cooperation can be huge and the most powerful in the world",
+        "speaker": "Volodymyr Zelensky",
+        "title": "Ukrainian President",
+        "date": "2026-05-31"
+      }
+    ],
     "middle_east": [
       {
         "text": "We must change the equation",
@@ -115,6 +175,12 @@
         "text": "Tehran will not agree to any deal with the United States unless Iranian rights are fully secured",
         "speaker": "Iran's chief negotiator",
         "title": "Chief Negotiator",
+        "date": "2026-05-31"
+      },
+      {
+        "text": "We Will Bring 'Utter Ruin' If Blockade Continues",
+        "speaker": "IRGC",
+        "title": "Iranian Revolutionary Guard",
         "date": "2026-05-31"
       }
     ]
@@ -137,15 +203,47 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "Chinese President Xi reportedly planning state visit to North Korea to reinforce Beijing's influence as North Korea-Russia ties deepen. US-China defense ties described as newly stable by Defense Secretary."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Mediator + arms supplier",
+      "description": "Ambassador Tom Barrack's role expanded to special envoy for Syria and Iraq amid Middle East tensions. Playing increased diplomatic role in regional conflicts."
+    },
+    {
+      "country": "Belarus",
+      "flag": "\ud83c\udde7\ud83c\uddfe",
+      "status": "Basing + logistics",
+      "description": "Mounting concerns that Belarus could serve as launchpad for new Russian offensive against Ukraine. Previously allowed Russian forces to use territory for 2022 invasion."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "EU consideration of freezing Russian oil price cap creates potential market uncertainty."
+    "notes": "Iran's Strait of Hormuz blockade continues to threaten global energy supplies amid escalating tensions."
   },
   "update_log": [
+    {
+      "time": "17:00 UTC",
+      "text": "Israel captures Beaufort Castle in deepest Lebanon incursion in over 25 years",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:30 UTC",
+      "text": "IAEA inspects Zaporizhzhia nuclear plant after alleged Ukrainian drone strike",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:45 UTC",
+      "text": "Ukraine strikes Russian energy facilities while denying nuclear plant attack",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Iran restores gas production at South Pars facility after Israeli attacks",
+      "source_tier": "verified"
+    },
     {
       "time": "11:00 UTC",
       "text": "Israel captures Beaufort Castle in deepest Lebanon incursion since 2000, crossing Litani River",
@@ -167,5 +265,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-01T11:03:17Z"
+  "last_updated": "2026-06-01T17:11:24Z"
 }
