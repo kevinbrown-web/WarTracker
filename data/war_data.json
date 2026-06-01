@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "No previous data",
+    "score": 7.2,
+    "delta": "Unknown (no previous data)",
     "level": "Elevated",
-    "rationale": "Israel conducts deepest Lebanon incursion in 25+ years while Iran blockades Strait of Hormuz amid US-Iran military clashes."
+    "rationale": "Israel conducting deepest Lebanon incursion in 25 years while US-Iran peace talks continue, with nuclear facility strikes reported in Ukraine."
   },
   "ticker_items": [
-    "Israel captures Crusader castle in deepest Lebanon push since 2000",
-    "Iran threatens 'utter ruin' as Hormuz blockade continues",
-    "IAEA inspects Zaporizhzhia plant after alleged Ukrainian drone strike",
-    "Ukraine denies Russian claims of nuclear facility attack",
-    "Russia forms third air defense ring around Moscow"
+    "Israel expands ground assault in Lebanon despite US-brokered ceasefire",
+    "Ukraine denies striking Zaporizhzhia nuclear plant, IAEA inspects damage",
+    "Zelensky pushes for major US drone deal warning of massive Russian attack",
+    "Iran clearing entrances to missile facilities buried in recent strikes",
+    "Trump reportedly amending Iran peace plan amid congressional opposition"
   ],
   "new_entrant": {
     "active": false,
@@ -61,6 +61,28 @@
         "lat": 47.5147,
         "lng": 34.5856,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Energy facilities",
+        "description": "Ukraine launched strikes on Russian energy sites overnight into Sunday.",
+        "method": "Drone",
+        "lat": 55.7558,
+        "lng": 37.6176,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Zaporizhzhia Nuclear Power Plant",
+        "description": "Russia claims Ukrainian drone struck the nuclear facility, puncturing machine hall.",
+        "method": "Drone",
+        "lat": 47.5147,
+        "lng": 34.585,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -107,6 +129,17 @@
         "lat": 33.2833,
         "lng": 35.4167,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beaufort castle near Nabatieh",
+        "description": "Israeli forces planted flag on historic Beaufort castle in expanded ground assault.",
+        "method": "Ground/Armored",
+        "lat": 33.3167,
+        "lng": 35.4167,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -118,6 +151,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian military casualties April",
+        "kia": "~35,000",
+        "wia": "",
+        "civilian": false,
+        "source_tier": "analyst"
       }
     ],
     "claimed_totals": [
@@ -215,15 +255,41 @@
       "flag": "\ud83c\udde7\ud83c\uddfe",
       "status": "Basing + logistics",
       "description": "Mounting concerns that Belarus could serve as launchpad for new Russian offensive against Ukraine. Previously allowed Russian forces to use territory for 2022 invasion."
+    },
+    {
+      "country": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "status": "Monitoring",
+      "description": "France requested UN Security Council meeting over Israeli escalation in Lebanon. Actively monitoring ceasefire violations and regional stability."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Surging",
     "wheat_futures": "Unchanged",
-    "notes": "Iran's Strait of Hormuz blockade continues to threaten global energy supplies amid escalating tensions."
+    "notes": "Oil prices surge amid Iran war disrupting global supply and Strait of Hormuz crisis."
   },
   "update_log": [
+    {
+      "time": "21:18 UTC",
+      "text": "IAEA experts inspected damage to Zaporizhzhia nuclear power plant following alleged Ukrainian drone strike.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:00 UTC",
+      "text": "Israeli forces conducted deepest Lebanon incursion in 25 years, planting flag on Beaufort castle.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:30 UTC",
+      "text": "Satellite imagery shows Iran clearing entrances to missile facilities buried in recent strikes.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "Ukraine launched overnight strikes on Russian energy facilities while denying nuclear plant attack.",
+      "source_tier": "unverified"
+    },
     {
       "time": "17:00 UTC",
       "text": "Israel captures Beaufort Castle in deepest Lebanon incursion in over 25 years",
@@ -265,5 +331,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-01T17:11:24Z"
+  "last_updated": "2026-06-01T21:18:44Z"
 }
