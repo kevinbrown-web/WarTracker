@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7,
-    "delta": "No baseline available",
-    "level": "Elevated",
-    "rationale": "Iran halted US negotiations and vowed complete Strait of Hormuz blockade while Russia deployed Oreshnik hypersonic missiles against Kiev facilities."
+    "score": 8.5,
+    "delta": "N/A - first assessment",
+    "level": "High",
+    "rationale": "Iran struck US air base and threatens closing Bab al-Mandeb Strait while ceasefire talks collapsed, significantly escalating regional conflict."
   },
   "ticker_items": [
-    "Iran suspends US talks, threatens complete Hormuz blockade",
-    "Russia strikes Kiev region with Oreshnik hypersonic missiles",
-    "Ukraine hits Sevastopol with Storm Shadow missiles",
-    "Oil jumps $6 on Iran blockade threats",
-    "France plans nuclear-armed Rafales deployment to Poland"
+    "Iran strikes US air base, targets Kuwait facilities",
+    "Tehran threatens closing Bab al-Mandeb shipping strait",
+    "Trump-Iran ceasefire talks collapse completely",
+    "Oil prices surge on expanded Middle East conflict",
+    "Israel deepens Lebanon invasion, targets Hezbollah"
   ],
   "new_entrant": {
     "active": false,
@@ -50,6 +50,28 @@
         "lat": 44.62,
         "lng": 33.53,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Saratov region",
+        "description": "Ukrainian drones targeted Russian oil refinery hundreds of kilometers from border.",
+        "method": "Air/Drone",
+        "lat": 51.5,
+        "lng": 46.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kiev region",
+        "description": "Russia used Oreshnik hypersonic missiles against Ukrainian strategic facilities.",
+        "method": "Ballistic Missile",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -96,6 +118,39 @@
         "lat": 33.89,
         "lng": 35.5,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "United States",
+        "target_location": "US air base",
+        "description": "Iran struck US air base following American strikes on Iranian military sites.",
+        "method": "Missile/Surface",
+        "lat": 29.0,
+        "lng": 48.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Kuwait",
+        "target_location": "Kuwait",
+        "description": "Kuwait reported missile and drone attacks amid regional escalation.",
+        "method": "Air/Drone",
+        "lat": 29.3,
+        "lng": 47.9,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Nabatieh",
+        "description": "Israeli military targeting first responders in southern Lebanon operations.",
+        "method": "Air/Precision Strike",
+        "lat": 33.38,
+        "lng": 35.48,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -139,6 +194,12 @@
         "figure": "~3,371",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-06-01"
+      },
+      {
+        "claim": "US-Israel attacks casualties in Gulf states",
+        "figure": "28",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "June 1, 2026"
       }
     ]
   },
@@ -170,6 +231,12 @@
         "speaker": "Iranian officials",
         "title": "State media",
         "date": "2026-06-01"
+      },
+      {
+        "text": "Iran warns Israeli attacks in Lebanon and Gaza threaten US ceasefire talks",
+        "speaker": "Iranian officials",
+        "title": "Government officials",
+        "date": "June 1, 2026"
       }
     ]
   },
@@ -191,15 +258,46 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "Naval standoffs reported between China and Canadian/Dutch forces in Taiwan Strait and South China Sea. Chinese President Xi Jinping reportedly planning potential state visit to North Korea to reinforce Beijing's influence amid deepening Russia-North Korea ties."
+    },
+    {
+      "country": "Norway",
+      "flag": "\ud83c\uddf3\ud83c\uddf4",
+      "status": "Strategic balancer",
+      "description": "Norway became the ninth country to join France's nuclear deterrence initiative as European governments seek greater self-reliance from US defense. This represents continued European military consolidation amid regional tensions."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "+$6",
+    "brent_crude": "Surged significantly",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices jumped over $6 on Iran's threat to completely block the Strait of Hormuz and halt of US negotiations."
+    "notes": "Oil prices jumped significantly after Iran suspended peace talks and threatened to close Bab al-Mandeb Strait, with analysts warning prices could double."
   },
   "update_log": [
+    {
+      "time": "20:00 UTC",
+      "text": "Iran threatens to close Bab al-Mandeb Strait following collapse of ceasefire negotiations",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "Iran struck US air base and Kuwait facilities, escalating regional conflict",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Trump-Iran ceasefire talks completely collapsed despite earlier optimism",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Ukrainian drones struck Russian refinery deep in Saratov region",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Norway joins France's nuclear deterrence initiative as ninth member country",
+      "source_tier": "unverified"
+    },
     {
       "time": "15:52 UTC",
       "text": "Iran halts US negotiations and threatens complete Strait of Hormuz blockade in response to Israeli strikes on Beirut",
@@ -241,5 +339,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-02T15:52:55Z"
+  "last_updated": "2026-06-02T20:32:23Z"
 }
