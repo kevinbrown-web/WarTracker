@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.1,
-    "delta": "+0.9 from yesterday",
-    "level": "High",
-    "rationale": "US-Iran war enters day 94 with continued exchanges of fire while Israel expands Lebanon ground assault to deepest incursion in 26 years."
+    "score": 7,
+    "delta": "No baseline available",
+    "level": "Elevated",
+    "rationale": "Iran halted US negotiations and vowed complete Strait of Hormuz blockade while Russia deployed Oreshnik hypersonic missiles against Kiev facilities."
   },
   "ticker_items": [
-    "US strikes Iranian military sites; Iran targets US base in response",
-    "Israel orders evacuation of Beirut suburbs before strikes on Dahiyeh",
-    "French Navy intercepts sanctioned Russian oil tanker in Atlantic",
-    "Israel captures 889-year-old castle in deepest Lebanon incursion since 2000",
-    "Putin's hypersonic missile reportedly strikes Russian targets by mistake"
+    "Iran suspends US talks, threatens complete Hormuz blockade",
+    "Russia strikes Kiev region with Oreshnik hypersonic missiles",
+    "Ukraine hits Sevastopol with Storm Shadow missiles",
+    "Oil jumps $6 on Iran blockade threats",
+    "France plans nuclear-armed Rafales deployment to Poland"
   ],
   "new_entrant": {
     "active": false,
@@ -28,6 +28,28 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kiev region",
+        "description": "Russian forces used Oreshnik intermediate-range hypersonic missiles against Ukrainian strategic facilities.",
+        "method": "Ballistic Missile",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Sevastopol",
+        "description": "Ukraine attacked the occupied Crimean port city using Storm Shadow missiles.",
+        "method": "Missile/Surface",
+        "lat": 44.62,
+        "lng": 33.53,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -63,6 +85,17 @@
         "lat": 32.794,
         "lng": 35.0424,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut",
+        "description": "Israeli strikes on Beirut prompted Iran to halt US negotiations.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -94,11 +127,30 @@
         "figure": "28",
         "claimed_by": "Al Jazeera",
         "as_of": "2026-06-01"
+      },
+      {
+        "claim": "US-Israel attacks on Iran death toll",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-06-01"
+      },
+      {
+        "claim": "Lebanon casualties from US-Israel attacks",
+        "figure": "~3,371",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-06-01"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Europe's current militarization risks recreating the conditions that led to June 22, 1941",
+        "speaker": "Dmitry Medvedev",
+        "title": "Security Council Deputy Chairman",
+        "date": "2026-06-01"
+      }
+    ],
     "ukraine": [],
     "middle_east": [
       {
@@ -111,6 +163,12 @@
         "text": "Will not allow Trump to make a peace deal with Iran",
         "speaker": "Itamar Ben-Gvir",
         "title": "Israeli Security Minister",
+        "date": "2026-06-01"
+      },
+      {
+        "text": "No more talks. They're also saying that they're going to completely close down the Strait of Hormuz",
+        "speaker": "Iranian officials",
+        "title": "State media",
         "date": "2026-06-01"
       }
     ]
@@ -127,15 +185,41 @@
       "flag": "\ud83c\uddf0\ud83c\uddfc",
       "status": "Monitoring",
       "description": "Kuwait intercepted missiles and drones amid US-Iran exchanges. Country faces spillover effects from regional conflict while maintaining defensive posture."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "Naval standoffs reported between China and Canadian/Dutch forces in Taiwan Strait and South China Sea. Chinese President Xi Jinping reportedly planning potential state visit to North Korea to reinforce Beijing's influence amid deepening Russia-North Korea ties."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Rising",
+    "brent_crude": "+$6",
     "wheat_futures": "Unchanged",
-    "notes": "Crude oil futures rose as Israel escalated military operations in Lebanon amid regional tensions."
+    "notes": "Oil prices jumped over $6 on Iran's threat to completely block the Strait of Hormuz and halt of US negotiations."
   },
   "update_log": [
+    {
+      "time": "15:52 UTC",
+      "text": "Iran halts US negotiations and threatens complete Strait of Hormuz blockade in response to Israeli strikes on Beirut",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:45 UTC",
+      "text": "Russia deploys Oreshnik hypersonic missiles against Ukrainian strategic facilities in Kiev region",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:30 UTC",
+      "text": "Ukraine strikes Sevastopol with Storm Shadow missiles amid cross-border air attacks",
+      "source_tier": "verified"
+    },
+    {
+      "time": "15:15 UTC",
+      "text": "Oil prices surge over $6 on Iran blockade threats and halted diplomatic exchanges",
+      "source_tier": "unverified"
+    },
     {
       "time": "09:44 UTC",
       "text": "Al Jazeera updates casualty tracker showing 3,468 Iranian deaths, 3,371 Lebanese deaths",
@@ -157,5 +241,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-02T09:57:09Z"
+  "last_updated": "2026-06-02T15:52:55Z"
 }
