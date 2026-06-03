@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.8,
-    "delta": "+0.3 from yesterday",
+    "score": 8.5,
+    "delta": "N/A - no previous data",
     "level": "High",
-    "rationale": "Major Russian missile/drone barrage kills 13+ in Ukraine while Iran-US talks collapse and Lebanon ceasefire shows signs of breakdown."
+    "rationale": "Multiple active conflicts with US-Israel attacks on Iran killing over 3,400, ceasefire collapsing, and Iran threatening to close additional shipping straits."
   },
   "ticker_items": [
-    "Russia launches 656 drones, 73 missiles at Ukraine overnight",
-    "Iran declares war inevitable, suspends US negotiations",
-    "Trump calls Netanyahu 'f\u2014ing crazy' over war conduct",
-    "Lebanon announces partial Hezbollah-Israel ceasefire",
-    "Iran threatens to close Bab el-Mandeb Strait"
+    "Trump cursed at Netanyahu over Lebanon escalation in phone call",
+    "Iran threatens to close Bab el-Mandeb strait, oil prices surge",
+    "Ukraine continues seizing Russian territory amid economic crisis",
+    "US-Israel ceasefire with Iran reportedly collapsing",
+    "Russian drone strikes civilians in Romania"
   ],
   "new_entrant": {
     "active": false,
@@ -28,6 +28,28 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Romania",
+        "target_location": "Residential building",
+        "description": "Russian drone struck residential building injuring civilians and violating NATO airspace.",
+        "method": "Air/Drone",
+        "lat": 44.43,
+        "lng": 26.11,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv and Dnipro",
+        "description": "Massive Russian missile and drone barrage targeted civilian infrastructure causing deaths and destruction.",
+        "method": "Missile/Surface",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -41,6 +63,17 @@
         "lat": 33.0,
         "lng": 35.5,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Various locations",
+        "description": "Israeli strikes continue in Lebanon despite reported ceasefire agreements.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -52,6 +85,20 @@
         "wia": "~100",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Russian barrage on Ukraine",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian drone strike Romania",
+        "kia": "0",
+        "wia": "Multiple",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -66,6 +113,12 @@
         "figure": "3,371",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-06-01"
+      },
+      {
+        "claim": "Russian military casualties April 2026",
+        "figure": "~35,000",
+        "claimed_by": "Ukraine",
+        "as_of": "May 2026"
       }
     ]
   },
@@ -90,6 +143,12 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-06-02"
+      },
+      {
+        "text": "What the fuck are you doing?",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-06-02"
       }
     ]
   },
@@ -105,15 +164,53 @@
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "status": "Active materiel + troops",
       "description": "Trump expressing frustration with Netanyahu while pursuing Iran negotiations and Lebanon ceasefire. Reports suggest US considering expanding nuclear sharing framework to Eastern European NATO allies amid rising tensions."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Strategic balancer",
+      "description": "Turkish Foreign Minister spoke on rejecting 'strategic resignation' amid global disorder. Turkey continues balancing between NATO obligations and regional relationships while seeking alternative connectivity routes to Strait of Hormuz."
+    },
+    {
+      "country": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "status": "Mediator + arms supplier",
+      "description": "France showing panic over Israel's deepening incursion into Lebanon according to reports. French concerns reflect European compulsion to rescue failing actors from consequences of their aggression when Israel is involved."
+    },
+    {
+      "country": "Spain",
+      "flag": "\ud83c\uddea\ud83c\uddf8",
+      "status": "Abstaining",
+      "description": "Spain defending its rejection of Trump's 'law of the jungle' approach to foreign policy. Foreign Minister says Spain sticking to internationalist principles while others forget theirs."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Surging",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices expected to double if Iran closes Bab el-Mandeb Strait, with analysts warning of global recession risk."
+    "notes": "Oil prices expected to double as Iran threatens closure of Bab el-Mandeb strait following Strait of Hormuz closure."
   },
   "update_log": [
+    {
+      "time": "16:00 UTC",
+      "text": "Iran reviewing proposed Trump deal to halt war as Lebanon attacks continue",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:30 UTC",
+      "text": "Trump cursed at Netanyahu during phone call over Lebanon escalation according to multiple sources",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Iran threatens to close Bab el-Mandeb strait as new front in conflict with US-Israel",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Russian drone strikes residential building in Romania injuring civilians",
+      "source_tier": "unverified"
+    },
     {
       "time": "10:29 UTC",
       "text": "Iran threatens to close Bab el-Mandeb Strait as US-Iran talks collapse",
@@ -135,5 +232,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-06-03T10:29:00Z"
+  "last_updated": "2026-06-03T16:10:51Z"
 }
