@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.5,
-    "delta": "N/A - no previous data",
-    "level": "High",
-    "rationale": "Multiple active conflicts with US-Israel attacks on Iran killing over 3,400, ceasefire collapsing, and Iran threatening to close additional shipping straits."
+    "score": 7.5,
+    "delta": "No previous data",
+    "level": "Elevated",
+    "rationale": "Active US-Iran war continues with Strait of Hormuz closure, Israeli forces advance in Lebanon capturing Beaufort Castle, and Russian drone strikes hit Romanian civilians."
   },
   "ticker_items": [
-    "Trump cursed at Netanyahu over Lebanon escalation in phone call",
-    "Iran threatens to close Bab el-Mandeb strait, oil prices surge",
-    "Ukraine continues seizing Russian territory amid economic crisis",
-    "US-Israel ceasefire with Iran reportedly collapsing",
-    "Russian drone strikes civilians in Romania"
+    "Israeli forces capture Lebanon's Beaufort Castle amid ongoing ground operations",
+    "Russian drone strikes Romanian civilians, violating NATO airspace",
+    "Iran threatens Bab el-Mandeb Strait closure as second front",
+    "Trump claims US-Iran negotiations continuing despite escalation",
+    "Ukraine forces advance against Russia in fifth year of conflict"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Romania granted US military access to bases for air refueling amid Iran tensions."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -50,6 +50,17 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Romania",
+        "target_location": "Residential area",
+        "description": "Russian armed drone struck residential building injuring civilians and violating NATO airspace.",
+        "method": "Air/Drone",
+        "lat": 45.94,
+        "lng": 24.97,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -74,6 +85,39 @@
         "lat": 33.89,
         "lng": 35.5,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli strikes reported at approximately 30 locations despite partial ceasefire.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut",
+        "description": "IDF strike in Beirut kills 8 people amid ongoing hostilities.",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Near Tyre Hospital",
+        "description": "Israeli strikes near Tyre hospital damaged medical facility and nearby buildings.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -95,6 +139,20 @@
       },
       {
         "incident": "Russian drone strike Romania",
+        "kia": "0",
+        "wia": "Multiple",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Beirut IDF strike",
+        "kia": "8",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Romanian drone strike",
         "kia": "0",
         "wia": "Multiple",
         "civilian": true,
@@ -149,6 +207,18 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-06-02"
+      },
+      {
+        "text": "Tehran has agreed to discuss previously off-limits aspects of its nuclear file",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
+        "date": "2026-06-02"
+      },
+      {
+        "text": "Going on continuously",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-06-02"
       }
     ]
   },
@@ -182,15 +252,47 @@
       "flag": "\ud83c\uddea\ud83c\uddf8",
       "status": "Abstaining",
       "description": "Spain defending its rejection of Trump's 'law of the jungle' approach to foreign policy. Foreign Minister says Spain sticking to internationalist principles while others forget theirs."
+    },
+    {
+      "country": "Romania",
+      "flag": "\ud83c\uddf7\ud83c\uddf4",
+      "status": "Basing + logistics",
+      "description": "Romania granted US access to military bases for air refueling and defensive activities amid Iran tensions. Romanian civilians were injured by Russian drone strikes that violated NATO airspace and sovereignty."
+    },
+    {
+      "country": "India",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "India hosted Quad foreign ministers meeting on May 26 amid reshaping foreign policy choices due to US-China tech rivalry and Middle East wars."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Surging",
+    "brent_crude": "Rising",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices expected to double as Iran threatens closure of Bab el-Mandeb strait following Strait of Hormuz closure."
+    "notes": "Oil prices reached one-week highs on Iran-US tensions and Strait of Hormuz disruption concerns."
   },
   "update_log": [
+    {
+      "time": "20:43 UTC",
+      "text": "Israeli forces capture Beaufort Castle in southern Lebanon after crossing Litani River",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:15 UTC",
+      "text": "Trump denies reports of stalled Iran negotiations claiming talks continue",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:45 UTC",
+      "text": "IDF strikes kill 8 in Beirut despite claimed ceasefire efforts",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "Iran threatens to close Bab el-Mandeb Strait as second maritime chokepoint",
+      "source_tier": "unverified"
+    },
     {
       "time": "16:00 UTC",
       "text": "Iran reviewing proposed Trump deal to halt war as Lebanon attacks continue",
@@ -232,5 +334,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-06-03T16:10:51Z"
+  "last_updated": "2026-06-03T20:43:47Z"
 }
