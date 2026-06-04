@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.5,
-    "delta": "+1.0 from yesterday",
-    "level": "High",
-    "rationale": "Ukrainian drones struck St. Petersburg during Russia's economic forum, while Iran attacked Kuwait airport and traded strikes with US in Persian Gulf."
+    "score": 6.5,
+    "delta": "+0.3 from yesterday",
+    "level": "Elevated",
+    "rationale": "Ukrainian drone strikes on St. Petersburg during Putin's economic forum and Iran threatening to close Bab el-Mandeb Strait indicate expanded conflict fronts."
   },
   "ticker_items": [
-    "Ukrainian drones hit St. Petersburg energy and military sites during economic forum",
-    "Iranian drone attack kills 1, injures several at Kuwait International Airport",
-    "Iran and US trade missile strikes in Persian Gulf region",
-    "Commercial flights suspended at Kuwait airport after Iranian strikes",
-    "Russia killed 23 people across Ukraine in devastating air attacks yesterday"
+    "Ukrainian drones strike St. Petersburg during Putin's economic forum",
+    "Iran threatens closure of Bab el-Mandeb Strait amid ceasefire collapse",
+    "Russia-Taliban weapons repair agreement signed",
+    "IDF targets first responders in southern Lebanon",
+    "Oil prices surge on strait closure threats"
   ],
   "new_entrant": {
     "active": false,
@@ -28,6 +28,28 @@
         "lat": 59.93,
         "lng": 30.34,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "St. Petersburg",
+        "description": "Ukrainian drones struck naval base and oil terminal during SPIEF economic forum.",
+        "method": "Air/Drone",
+        "lat": 59.93,
+        "lng": 30.34,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv, Dnipro",
+        "description": "Russian missile and drone barrage across multiple Ukrainian cities.",
+        "method": "Missile/Surface",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -63,6 +85,17 @@
         "lat": 26.57,
         "lng": 56.25,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Nabatieh",
+        "description": "IDF targeted rescue workers and first responders in southern Lebanon.",
+        "method": "Air/Precision Strike",
+        "lat": 33.38,
+        "lng": 35.48,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -81,6 +114,20 @@
         "wia": "130",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "St. Petersburg drone strikes",
+        "kia": "Unknown",
+        "wia": "Several",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Ukraine missile barrage",
+        "kia": "Multiple",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -89,13 +136,32 @@
         "figure": "3,468 dead in Iran, 3,371 dead in Lebanon, 28 killed in Gulf states",
         "claimed_by": "Al Jazeera",
         "as_of": "June 1, 2026"
+      },
+      {
+        "claim": "US-Israel attacks on Iran death toll",
+        "figure": "3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "June 2026"
+      },
+      {
+        "claim": "Lebanon deaths from US-Israel attacks",
+        "figure": "3,371",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "June 2026"
       }
     ]
   },
   "quotes": {
     "russia": [],
     "ukraine": [],
-    "middle_east": []
+    "middle_east": [
+      {
+        "text": "Tehran had said it would suspend negotiations over Israeli strikes in Lebanon",
+        "speaker": "Unknown",
+        "title": "Iranian official",
+        "date": "2026-06-01"
+      }
+    ]
   },
   "observers": [
     {
@@ -109,15 +175,53 @@
       "flag": "\ud83c\udde6\ud83c\uddf2",
       "status": "Strategic balancer",
       "description": "Armenia prepares for June 7 parliamentary elections that will test public opinion on the country's geopolitical direction. The vote represents a choice between maintaining traditional ties with Russia or pursuing closer relations with the European Union."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan is emerging as an unlikely mediator between the US and Iran, illustrating how diplomacy has become more personal and transactional under President Trump. The country is using the Iran war to reinvent its regional role."
+    },
+    {
+      "country": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "status": "Active materiel + troops",
+      "description": "France restricted Israeli weapons displays at Paris Defense Expo, banning offensive systems. France is hoping to reassert its diminishing influence in the Middle East region, particularly regarding Lebanon's future."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "China has become the dominant power in Central Asia following the US withdrawal from Afghanistan. Chinese-aligned groups are conducting espionage operations in Venezuela, the Gulf, and targeting AI robotics in South Korea."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Surging",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices face potential doubling if Iran closes Bab el-Mandeb Strait, analysts warn."
+    "notes": "Oil prices surge on Iranian threats to close Bab el-Mandeb Strait, with analysts warning prices could double."
   },
   "update_log": [
+    {
+      "time": "14:28 UTC",
+      "text": "Ukrainian drones struck St. Petersburg naval base and oil terminal during Putin's economic forum.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Iran threatens to close Bab el-Mandeb Strait as ceasefire talks collapse.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Russia and Taliban signed agreement on repairing Soviet-era weapons.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "IDF targeting first responders in southern Lebanon around Nabatieh.",
+      "source_tier": "unverified"
+    },
     {
       "time": "09:39 UTC",
       "text": "Ukrainian drones struck St. Petersburg energy and military sites during Russia's economic forum",
@@ -139,5 +243,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-04T09:39:30Z"
+  "last_updated": "2026-06-04T14:28:27Z"
 }
