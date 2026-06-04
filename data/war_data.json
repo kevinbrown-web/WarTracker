@@ -1,16 +1,15 @@
 {
   "escalation": {
-    "score": 6.5,
-    "delta": "+0.3 from yesterday",
-    "level": "Elevated",
-    "rationale": "Ukrainian drone strikes on St. Petersburg during Putin's economic forum and Iran threatening to close Bab el-Mandeb Strait indicate expanded conflict fronts."
+    "score": 8,
+    "delta": "No previous data",
+    "level": "High",
+    "rationale": "Direct Iran-US military exchange with missile strikes on Kuwait and Bahrain, combined with Ukrainian strikes on St. Petersburg during major Russian forum."
   },
   "ticker_items": [
-    "Ukrainian drones strike St. Petersburg during Putin's economic forum",
-    "Iran threatens closure of Bab el-Mandeb Strait amid ceasefire collapse",
-    "Russia-Taliban weapons repair agreement signed",
-    "IDF targets first responders in southern Lebanon",
-    "Oil prices surge on strait closure threats"
+    "Iran fires ballistic missiles at US 5th Fleet headquarters in Bahrain",
+    "Ukrainian drones strike St. Petersburg oil terminal during Putin's economic forum",
+    "US-Iran ceasefire appears to be collapsing with overnight clashes",
+    "Poland and Lithuania exploring expanded NATO nuclear deterrence role"
   ],
   "new_entrant": {
     "active": false,
@@ -49,6 +48,17 @@
         "method": "Missile/Surface",
         "lat": 50.45,
         "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "St. Petersburg",
+        "description": "Ukrainian long-range drones struck oil terminal and naval base, setting facilities ablaze during economic forum.",
+        "method": "Air/Drone",
+        "lat": 59.9311,
+        "lng": 30.3609,
         "source_tier": "unverified"
       }
     ],
@@ -95,6 +105,28 @@
         "method": "Air/Precision Strike",
         "lat": 33.38,
         "lng": 35.48,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Bahrain",
+        "target_location": "US 5th Fleet headquarters",
+        "description": "Iran's Revolutionary Guard fired ballistic missiles and drones at US Navy facilities.",
+        "method": "Ballistic Missile",
+        "lat": 26.2235,
+        "lng": 50.5876,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Kuwait",
+        "target_location": "US military facilities",
+        "description": "Iranian forces targeted US military installations with missiles and drones.",
+        "method": "Ballistic Missile",
+        "lat": 29.3759,
+        "lng": 47.9774,
         "source_tier": "unverified"
       }
     ]
@@ -148,6 +180,12 @@
         "figure": "3,371",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "June 2026"
+      },
+      {
+        "claim": "Ukrainian children killed since 2022",
+        "figure": "707",
+        "claimed_by": "Ukraine",
+        "as_of": "2026-06-04"
       }
     ]
   },
@@ -160,6 +198,18 @@
         "speaker": "Unknown",
         "title": "Iranian official",
         "date": "2026-06-01"
+      },
+      {
+        "text": "The Americans were closing in, the situation was getting more dangerous by the minute \u2014 and President Xi Jinping was waiting for my recommendation.",
+        "speaker": "Unknown",
+        "title": "AI scenario analyst",
+        "date": "2026-06-03"
+      },
+      {
+        "text": "Terrorists pray for weak leaders to control the strongest enforcer of world peace, the United States.",
+        "speaker": "IDF Major",
+        "title": "IDF Major",
+        "date": "2026-06-03"
       }
     ]
   },
@@ -193,15 +243,41 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "China has become the dominant power in Central Asia following the US withdrawal from Afghanistan. Chinese-aligned groups are conducting espionage operations in Venezuela, the Gulf, and targeting AI robotics in South Korea."
+    },
+    {
+      "country": "Hungary",
+      "flag": "\ud83c\udded\ud83c\uddfa",
+      "status": "Strategic balancer",
+      "description": "Hungarian PM Peter Magyar appears ready to lift Budapest's veto on Ukraine's EU accession. This would remove a major obstacle to Ukraine's European integration efforts."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Surging",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices surge on Iranian threats to close Bab el-Mandeb Strait, with analysts warning prices could double."
+    "notes": "Oil prices surging on Iran's threat to close Bab el-Mandeb Strait, with analysts warning prices could double."
   },
   "update_log": [
+    {
+      "time": "19:51 UTC",
+      "text": "Iran's Revolutionary Guard confirms targeting US 5th Fleet headquarters in Bahrain with ballistic missiles",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:45 UTC",
+      "text": "Ukrainian drones set St. Petersburg oil terminal ablaze during Putin's economic forum",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:30 UTC",
+      "text": "US-Iran ceasefire showing major strain with overnight military clashes in Persian Gulf",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:15 UTC",
+      "text": "Poland and Lithuania confirm talks on expanded NATO nuclear deterrence role",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:28 UTC",
       "text": "Ukrainian drones struck St. Petersburg naval base and oil terminal during Putin's economic forum.",
@@ -243,5 +319,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-04T14:28:27Z"
+  "last_updated": "2026-06-04T19:51:21Z"
 }
