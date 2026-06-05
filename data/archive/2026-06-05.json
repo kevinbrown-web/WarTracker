@@ -1,16 +1,15 @@
 {
   "escalation": {
-    "score": 8.2,
-    "delta": "+0.2 from yesterday",
-    "level": "High",
-    "rationale": "Ukrainian strikes on Crimea killed civilians while Israel-Lebanon ceasefire shows signs of strain with renewed attacks."
+    "score": 6.5,
+    "delta": "+0.3 from yesterday",
+    "level": "Elevated",
+    "rationale": "Intensified drone and missile attacks between Russia and Ukraine with strikes on Saint Petersburg during economic forum."
   },
   "ticker_items": [
-    "Ukrainian drone strikes kill 3-4 civilians in Crimea",
-    "Israel carries out attacks on Lebanon after ceasefire renewal",
-    "Russia producing 15,000 drones daily, 30-fold increase from 2023",
-    "Trump threatens to end Iran ceasefire if US troops killed",
-    "Ukraine requests additional Patriot missiles from Germany"
+    "Ukraine strikes energy targets in Saint Petersburg during Russian economic forum",
+    "US House advances new Ukraine aid package despite administration opposition",
+    "NATO intercepts six Russian aircraft over Baltic Sea",
+    "Iran threatens closure of Bab el-Mandeb Strait amid ceasefire tensions"
   ],
   "new_entrant": {
     "active": false,
@@ -39,6 +38,28 @@
         "lat": 59.93,
         "lng": 30.34,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Saint Petersburg",
+        "description": "Ukrainian forces targeted energy and military sites during Russian economic forum.",
+        "method": "Air/Drone",
+        "lat": 59.93,
+        "lng": 30.34,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Crimea",
+        "description": "Ukrainian strike killed at least three people in Russian-occupied territory.",
+        "method": "Air/Precision Strike",
+        "lat": 45.31,
+        "lng": 34.15,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -63,6 +84,13 @@
         "wia": "~10",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Crimea strike",
+        "kia": "3",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -81,10 +109,23 @@
         "speaker": "Maria Zakharova",
         "title": "Foreign Ministry spokeswoman",
         "date": "2026-06-04"
+      },
+      {
+        "text": "Europe is trying to prolong the Ukraine conflict in order to gain a foothold in Ukraine to threaten Russia",
+        "speaker": "Sergey Lavrov",
+        "title": "Foreign Minister",
+        "date": "2026-06-04"
       }
     ],
     "ukraine": [],
-    "middle_east": []
+    "middle_east": [
+      {
+        "text": "Iran talks in 'final' phase",
+        "speaker": "Donald Trump",
+        "title": "President",
+        "date": "2026-06-04"
+      }
+    ]
   },
   "observers": [
     {
@@ -104,9 +145,24 @@
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Iran's threats to close Bab al-Mandeb Strait could double oil prices and disrupt global economy."
+    "notes": "Iran's threats to close Bab el-Mandeb Strait could double oil prices and trigger global recession."
   },
   "update_log": [
+    {
+      "time": "14:18 UTC",
+      "text": "NATO intercepts six Russian warplanes over Baltic Sea in air policing mission",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Ukraine strikes Saint Petersburg energy targets during Russian economic forum",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:30 UTC",
+      "text": "US House advances Ukraine aid legislation overcoming administration opposition",
+      "source_tier": "unverified"
+    },
     {
       "time": "09:23 UTC",
       "text": "Ukrainian drone strikes on Crimea kill 3-4 civilians in Simferopol and other areas",
@@ -128,5 +184,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-06-05T09:23:52Z"
+  "last_updated": "2026-06-05T14:18:43Z"
 }
