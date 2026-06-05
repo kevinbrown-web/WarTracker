@@ -1,15 +1,16 @@
 {
   "escalation": {
-    "score": 6.5,
-    "delta": "+0.3 from yesterday",
+    "score": 7.5,
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "Intensified drone and missile attacks between Russia and Ukraine with strikes on Saint Petersburg during economic forum."
+    "rationale": "Multiple active conflicts with U.S.-Iran war ongoing, Israel-Hezbollah cease-fire rejected, and Strait of Hormuz effectively closed disrupting global economy."
   },
   "ticker_items": [
-    "Ukraine strikes energy targets in Saint Petersburg during Russian economic forum",
-    "US House advances new Ukraine aid package despite administration opposition",
-    "NATO intercepts six Russian aircraft over Baltic Sea",
-    "Iran threatens closure of Bab el-Mandeb Strait amid ceasefire tensions"
+    "Hezbollah rejects Israeli cease-fire proposal as strikes continue",
+    "Iran threatens closure of Bab el-Mandeb Strait amid Hormuz disruption",
+    "House advances Ukraine aid bill despite GOP leadership opposition",
+    "Russia produces 15,000 FPV drones daily, 30-fold increase from 2023",
+    "Oil executives warn global fuel inventories draining after Hormuz closure"
   ],
   "new_entrant": {
     "active": false,
@@ -60,6 +61,28 @@
         "lat": 45.31,
         "lng": 34.15,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple cities",
+        "description": "Russian air attacks killed 12 civilians as Ukraine mourns 707 children killed since 2022.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Saint Petersburg",
+        "description": "Ukrainian forces provided welcoming fireworks during Russia's economic forum.",
+        "method": "Unknown",
+        "lat": 59.93,
+        "lng": 30.34,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -70,6 +93,28 @@
         "target_location": "Southern Lebanon",
         "description": "Israeli airstrikes reported in southern Lebanon hours after conditional ceasefire announcement",
         "method": "Air/Drone",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Gaza Strip",
+        "description": "Israeli strikes killed at least 9 Palestinians overnight including children.",
+        "method": "Air/Precision Strike",
+        "lat": 31.35,
+        "lng": 34.31,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Fresh Israeli strikes on Lebanese territory as Hezbollah rejects cease-fire plan.",
+        "method": "Air/Precision Strike",
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
@@ -91,6 +136,20 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian strikes on Ukraine",
+        "kia": "12",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Israeli strikes on Gaza",
+        "kia": "9+",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -99,6 +158,18 @@
         "figure": ">35,000",
         "claimed_by": "Ukraine",
         "as_of": "May 2026"
+      },
+      {
+        "claim": "Ukrainian children killed since 2022",
+        "figure": "707",
+        "claimed_by": "Ukraine",
+        "as_of": "2026-06-04"
+      },
+      {
+        "claim": "Palestinians killed since October ceasefire",
+        "figure": "900+",
+        "claimed_by": "Gaza Health Ministry",
+        "as_of": "2026-06-04"
       }
     ]
   },
@@ -139,15 +210,41 @@
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "status": "Mediator + arms supplier",
       "description": "US brokered conditional ceasefire between Israel and Lebanon while Trump considers ending Iran ceasefire if US troops are killed. Secretary of State Rubio confirmed Trump will attend NATO summit in Turkey in July."
+    },
+    {
+      "country": "European Union",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "status": "Basing + logistics",
+      "description": "EU reportedly considering naval mission in Strait of Hormuz as regional tensions escalate. European nations accused by Russia of prolonging Ukraine conflict to establish threatening foothold against Moscow."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Surge expected",
     "wheat_futures": "Unchanged",
-    "notes": "Iran's threats to close Bab el-Mandeb Strait could double oil prices and trigger global recession."
+    "notes": "Dow soared nearly 900 points on Iran peace deal speculation, while oil prices face pressure from Strait of Hormuz disruption and potential Bab el-Mandeb closure."
   },
   "update_log": [
+    {
+      "time": "19:27 UTC",
+      "text": "Hezbollah rejects Israeli cease-fire proposal as fresh strikes exchanged",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:45 UTC",
+      "text": "Iran threatens Bab el-Mandeb closure amid ongoing Hormuz disruption",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:30 UTC",
+      "text": "House advances Ukraine aid bill with bipartisan support despite GOP leadership opposition",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:15 UTC",
+      "text": "Russian air attacks kill 12 civilians in Ukraine as drone production surges",
+      "source_tier": "verified"
+    },
     {
       "time": "14:18 UTC",
       "text": "NATO intercepts six Russian warplanes over Baltic Sea in air policing mission",
@@ -184,5 +281,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-06-05T14:18:43Z"
+  "last_updated": "2026-06-05T19:27:37Z"
 }
