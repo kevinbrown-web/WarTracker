@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.0,
-    "delta": "+0.5 from yesterday",
-    "level": "High",
-    "rationale": "Ukrainian drone strikes reached St. Petersburg while Iran-US tensions spike with new missile attacks and failed ceasefire efforts."
+    "score": 7.5,
+    "delta": "No previous score",
+    "level": "Elevated",
+    "rationale": "US-Israeli ceasefire with Lebanon collapsed as Israel resumed bombing, while Iran threatens to close Bab el-Mandeb Strait after 100 days of war."
   },
   "ticker_items": [
-    "Ukrainian drones hit oil terminal near St. Petersburg",
-    "US intercepts Iranian ballistic missiles targeting Kuwait, Bahrain",
-    "Zelenskyy calls for direct Putin negotiations in neutral country",
-    "Xi Jinping to visit North Korea June 8-9 for first time in 7 years",
-    "House Republicans defy Trump, pass Ukraine aid package"
+    "Israeli strikes resume in southern Lebanon after ceasefire collapse",
+    "Iran threatens closure of Bab el-Mandeb Strait amid oil price surge",
+    "Xi Jinping to visit North Korea June 8-9, first trip since 2019",
+    "Hezbollah rejects US-mediated ceasefire as Israel-favoring deal",
+    "Iran condemns alleged US-Israeli nuclear terrorism at facilities"
   ],
   "new_entrant": {
     "active": false,
@@ -25,6 +25,17 @@
         "target_location": "St. Petersburg oil terminal",
         "description": "Ukrainian drones struck oil terminal near St. Petersburg exposing Russian defense gaps.",
         "method": "Air/Drone",
+        "lat": 59.93,
+        "lng": 30.34,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Saint Petersburg",
+        "description": "Ukrainian forces conducted strikes during Russia's economic forum",
+        "method": "Unknown",
         "lat": 59.93,
         "lng": 30.34,
         "source_tier": "unverified"
@@ -63,6 +74,39 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli warplanes resumed bombing southern Lebanon killing at least eight civilians",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Israel",
+        "target_location": "Northern Israel",
+        "description": "Hezbollah launched coordinated rocket and drone attacks on Israeli military positions",
+        "method": "Rocket/Surface",
+        "lat": 33.2,
+        "lng": 35.58,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Gaza",
+        "description": "Israeli air strike killed groom hours before his wedding",
+        "method": "Air/Precision Strike",
+        "lat": 31.35,
+        "lng": 34.31,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -71,6 +115,20 @@
       {
         "incident": "Israeli strikes on southern Lebanon",
         "kia": "8",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Southern Lebanon strikes",
+        "kia": "~8",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Gaza wedding strike",
+        "kia": "1",
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
@@ -98,6 +156,12 @@
         "speaker": "Vladimir Putin",
         "title": "President",
         "date": "2026-06-05"
+      },
+      {
+        "text": "No point in meeting his Ukrainian counterpart Volodymyr Zelensky until a peace deal is ready",
+        "speaker": "Vladimir Putin",
+        "title": "Russian President",
+        "date": "2026-06-04"
       }
     ],
     "ukraine": [
@@ -120,6 +184,18 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-06-04"
+      },
+      {
+        "text": "Netanyahu says IDF won't withdraw from southern Lebanon in the near future",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Israeli Prime Minister",
+        "date": "2026-06-05"
+      },
+      {
+        "text": "The international community must adopt a zero-tolerance policy towards any armed attack on peaceful nuclear installations",
+        "speaker": "Iranian officials",
+        "title": "Government representatives",
+        "date": "2026-06-05"
       }
     ]
   },
@@ -135,15 +211,52 @@
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "status": "Active materiel + troops",
       "description": "House Republicans defied Trump to pass Ukraine aid package with military aid and Russia sanctions. US forces intercepted Iranian missile attacks on Kuwait and Bahrain while striking Iranian radar sites."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Monitoring",
+      "description": "Chancellor Friedrich Merz has drastically changed his stance on the US-Israeli war against Iran after 100 days of conflict. Germany continues to assess lessons learned from the prolonged Middle East war."
+    },
+    {
+      "country": "European Union",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "The EU is considering limiting refugee protections for military-age Ukrainian men, stating that more men should stay in Ukraine to fight. This represents a shift in refugee policy amid the ongoing war."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Surging",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices surging amid threats to close Bab el-Mandeb Strait and continued Middle East tensions."
+    "notes": "Oil prices expected to double as Iran threatens closure of Bab el-Mandeb Strait, potentially sending global economy into recession."
   },
   "update_log": [
+    {
+      "time": "13:02 UTC",
+      "text": "Israeli warplanes resumed bombing southern Lebanon after US-brokered ceasefire collapsed",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "Iran threatens to close Bab el-Mandeb Strait as oil markets surge",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:45 UTC",
+      "text": "Xi Jinping announced visit to North Korea for June 8-9, first trip since 2019",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:20 UTC",
+      "text": "Hezbollah launched coordinated rocket and drone attacks on Israeli positions",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:15 UTC",
+      "text": "Iran condemns alleged US-Israeli nuclear terrorism at peaceful facilities",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:20 UTC",
       "text": "US intercepts seven Iranian ballistic missiles targeting Kuwait and Bahrain.",
@@ -160,5 +273,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-06T08:20:40Z"
+  "last_updated": "2026-06-06T13:02:50Z"
 }
