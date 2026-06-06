@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "No previous score",
+    "score": 6.5,
+    "delta": "+0.3 from yesterday",
     "level": "Elevated",
-    "rationale": "US-Israeli ceasefire with Lebanon collapsed as Israel resumed bombing, while Iran threatens to close Bab el-Mandeb Strait after 100 days of war."
+    "rationale": "Ukrainian drone explosion in NATO member Romania port and Putin's rejection of peace talks maintain elevated tensions."
   },
   "ticker_items": [
-    "Israeli strikes resume in southern Lebanon after ceasefire collapse",
-    "Iran threatens closure of Bab el-Mandeb Strait amid oil price surge",
-    "Xi Jinping to visit North Korea June 8-9, first trip since 2019",
-    "Hezbollah rejects US-mediated ceasefire as Israel-favoring deal",
-    "Iran condemns alleged US-Israeli nuclear terrorism at facilities"
+    "Ukrainian drone explodes at Romanian Black Sea port, prompts evacuations",
+    "Putin rejects Zelensky peace talk proposal as 'senseless'",
+    "Xi Jinping to visit North Korea next week for first time since 2019",
+    "Israel-Hezbollah ceasefire repeatedly violated as fighting continues",
+    "Iran links regional ceasefire to any US peace negotiations"
   ],
   "new_entrant": {
     "active": false,
@@ -38,6 +38,17 @@
         "method": "Unknown",
         "lat": 59.93,
         "lng": 30.34,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Romania",
+        "target_location": "Constanta",
+        "description": "Ukrainian sea attack drone self-detonated in Romanian Black Sea port prompting beach evacuations.",
+        "method": "Naval/USV",
+        "lat": 44.18,
+        "lng": 28.63,
         "source_tier": "unverified"
       }
     ],
@@ -107,6 +118,17 @@
         "lat": 31.35,
         "lng": 34.31,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli strikes eliminate several Hamas commanders and Hezbollah's top bomb maker.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -162,6 +184,12 @@
         "speaker": "Vladimir Putin",
         "title": "Russian President",
         "date": "2026-06-04"
+      },
+      {
+        "text": "I see no point in meeting with Zelensky until a peace deal is ready, the military must do the job.",
+        "speaker": "Vladimir Putin",
+        "title": "Russian President",
+        "date": "2026-06-05"
       }
     ],
     "ukraine": [
@@ -196,6 +224,12 @@
         "speaker": "Iranian officials",
         "title": "Government representatives",
         "date": "2026-06-05"
+      },
+      {
+        "text": "War will end when fighting stops in Lebanon as well.",
+        "speaker": "Iranian Official",
+        "title": "Government Representative",
+        "date": "2026-06-05"
       }
     ]
   },
@@ -223,15 +257,41 @@
       "flag": "\ud83c\uddea\ud83c\uddfa",
       "status": "Active materiel + troops",
       "description": "The EU is considering limiting refugee protections for military-age Ukrainian men, stating that more men should stay in Ukraine to fight. This represents a shift in refugee policy amid the ongoing war."
+    },
+    {
+      "country": "Romania",
+      "flag": "\ud83c\uddf7\ud83c\uddf4",
+      "status": "Monitoring",
+      "description": "Ukrainian drone explosion at Constanta port marks second spillover incident in week after Russian drone struck apartment building in Galati. NATO member country experiencing direct conflict effects as war spreads beyond Ukrainian borders."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Surging",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices expected to double as Iran threatens closure of Bab el-Mandeb Strait, potentially sending global economy into recession."
+    "notes": "Iran's threats to close additional shipping straits could double oil prices according to analysts."
   },
   "update_log": [
+    {
+      "time": "19:00 UTC",
+      "text": "Xi Jinping to visit North Korea June 8-9 in first trip since 2019, day after nuclear facility unveiling.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Putin rejects Zelensky's peace talks proposal as senseless, calls for military to continue operations.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:45 UTC",
+      "text": "Ukrainian sea drone explodes at Romanian port of Constanta, prompting major beach evacuations.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:20 UTC",
+      "text": "Israel-Hezbollah ceasefire violated again as Hezbollah fires missiles at northern Israel.",
+      "source_tier": "unverified"
+    },
     {
       "time": "13:02 UTC",
       "text": "Israeli warplanes resumed bombing southern Lebanon after US-brokered ceasefire collapsed",
@@ -273,5 +333,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-06T13:02:50Z"
+  "last_updated": "2026-06-06T19:00:50Z"
 }
