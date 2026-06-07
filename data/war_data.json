@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 6.8,
-    "delta": "+0.3 from yesterday",
+    "score": 7.2,
+    "delta": "+0.7 from yesterday",
     "level": "Elevated",
-    "rationale": "US-Iran exchange of strikes despite fragile ceasefire, Iranian missiles targeting Kuwait and Bahrain, Putin's rejection of Zelensky peace talks, and Ukrainian drone strikes on Romania."
+    "rationale": "Major Ukrainian drone offensive with 400+ drones hitting Russian naval base near St. Petersburg and oil refinery while US forces struck Iranian coastal radar sites after Iranian drone attacks in the Strait of Hormuz."
   },
   "ticker_items": [
-    "Iran fires ballistic missiles at Kuwait and Bahrain, US strikes Iranian radar sites",
-    "Putin rejects Zelensky's direct peace talks offer within 24 hours",
-    "Ukrainian sea drone explodes at Romanian NATO port, beaches evacuated",
-    "Xi Jinping to visit North Korea next week for first time since 2019",
-    "Russia intercepts hundreds of Ukrainian drones near St. Petersburg"
+    "Ukraine launches 400+ drones at Russian targets including St. Petersburg naval base",
+    "US strikes Iranian coastal radar sites after Iranian drone attacks",
+    "Israeli airstrike kills Lebanese troops despite new ceasefire",
+    "Kim Jong Un vows nuclear-armed navy ahead of Xi Jinping visit",
+    "NATO considers \u20ac70B military aid package for Ukraine"
   ],
   "new_entrant": {
     "active": false,
@@ -39,6 +39,28 @@
         "lat": 44.18,
         "lng": 28.64,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "St. Petersburg region",
+        "description": "Ukraine launched over 400 drones striking naval weapons depot and targets across Russian territory.",
+        "method": "Air/Drone",
+        "lat": 59.93,
+        "lng": 30.34,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Chornobyl nuclear plant area",
+        "description": "Russian drone strike damaged site near Chornobyl nuclear plant without radiation spike.",
+        "method": "Air/Drone",
+        "lat": 51.39,
+        "lng": 30.1,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -85,6 +107,28 @@
         "lat": 29.23,
         "lng": 47.97,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Coastal radar sites",
+        "description": "US forces struck Iranian coastal radar sites after shooting down Iranian drones near Strait of Hormuz.",
+        "method": "Air/Precision Strike",
+        "lat": 26.58,
+        "lng": 56.25,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli airstrike targeted Lebanese army vehicle killing colonel and troops despite ceasefire.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -103,18 +147,72 @@
         "wia": "unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strike on Lebanese army",
+        "kia": "Multiple including colonel",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes on Lebanese civilians",
+        "kia": "6",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Ukraine-Russia exchanges",
+        "kia": "3",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
-    "claimed_totals": []
+    "claimed_totals": [
+      {
+        "claim": "Iranian casualties from US-Israeli attacks",
+        "figure": "3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-06-01"
+      },
+      {
+        "claim": "Lebanese casualties from US-Israeli attacks",
+        "figure": "3,371",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-06-01"
+      }
+    ]
   },
   "quotes": {
-    "russia": [],
-    "ukraine": [],
+    "russia": [
+      {
+        "text": "I see no point in meeting his Ukrainian counterpart Volodymyr Zelensky until a peace deal is ready.",
+        "speaker": "Vladimir Putin",
+        "title": "Russian President",
+        "date": "2026-06-04"
+      }
+    ],
+    "ukraine": [
+      {
+        "text": "Extremely vile attack that did not lead to spike in radiation.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "Ukrainian President",
+        "date": "2026-06-07"
+      }
+    ],
     "middle_east": [
       {
         "text": "These incidents are a direct consequence of Russia's war of aggression against Ukraine",
         "speaker": "Ant\u00f3nio Costa",
         "title": "European Council President",
+        "date": "2026-06-06"
+      },
+      {
+        "text": "Iranian claims of damaging US 5th Fleet headquarters in Bahrain are false.",
+        "speaker": "CENTCOM",
+        "title": "US Central Command",
         "date": "2026-06-06"
       }
     ]
@@ -131,15 +229,41 @@
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "status": "Active materiel + troops",
       "description": "House advanced $8 billion Ukraine aid package amid congressional pushback. US forces struck Iranian radar sites after intercepting Iranian drones and missiles targeting Gulf allies. Trump confirmed calling Netanyahu profanity over Lebanon operations."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan's Interior Minister scheduled to travel to Iran as part of ongoing diplomatic efforts to mediate between Tehran and Washington. Lebanese army chief departed for Pakistan for meetings linked to US-Iran negotiations."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices face pressure from Iranian threats to close Bab el-Mandeb Strait, with analysts warning prices could double."
+    "notes": "Oil prices facing potential spike if Iran's Houthi allies target Bab el-Mandeb Strait chokepoint."
   },
   "update_log": [
+    {
+      "time": "13:15 UTC",
+      "text": "Russian drone strike damages site near Chornobyl nuclear plant without radiation increase.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Ukraine launches major drone offensive with 400+ aircraft targeting Russian naval base and refinery.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:30 UTC",
+      "text": "US forces strike Iranian coastal radar sites after shooting down Iranian drones near Strait of Hormuz.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:45 UTC",
+      "text": "Israeli airstrike kills Lebanese army colonel and troops despite ceasefire agreement.",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:41 UTC",
       "text": "Iran fires ballistic missiles at Kuwait and Bahrain, US responds with strikes on Iranian radar sites",
@@ -161,5 +285,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-07T08:41:48Z"
+  "last_updated": "2026-06-07T13:15:03Z"
 }
