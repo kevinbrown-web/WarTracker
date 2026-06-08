@@ -1,16 +1,16 @@
 {
   "escalation": {
     "score": 7.5,
-    "delta": "unknown - no baseline",
+    "delta": "N/A - first assessment",
     "level": "Elevated",
-    "rationale": "Multiple active conflicts with nuclear facility strikes, Iran-US war entering day 100, and IRGC retaliatory strikes on US bases."
+    "rationale": "Iranian missile strikes on Israel breaking April ceasefire, NATO drone shootdown over Latvia, and IRGC retaliatory strikes on US bases in Kuwait and Bahrain."
   },
   "ticker_items": [
-    "Russian drone damages nuclear storage site near Chernobyl",
-    "Iran strikes US bases in Kuwait, Bahrain in retaliation",
-    "Putin rejects Zelenskyy peace meeting offer",
-    "US-Iran war reaches day 100 with no breakthrough",
-    "Xi Jinping makes rare visit to North Korea"
+    "Iran launches first missile attack on Israel since April ceasefire",
+    "NATO jets shoot down drone over Latvia amid spillover fears",
+    "IRGC strikes US air bases in Kuwait, Bahrain in retaliation",
+    "Russian strikes damage nuclear storage site near Chernobyl",
+    "Poland threatens to strip Zelensky of highest honor over unit naming"
   ],
   "new_entrant": {
     "active": false,
@@ -72,6 +72,17 @@
         "lat": 49.5,
         "lng": 38.0,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Chernobyl area",
+        "description": "Russian drone strikes damaged nuclear fuel storage site near Chernobyl and killed 3 at bus stop",
+        "method": "Air/Drone",
+        "lat": 51.39,
+        "lng": 30.1,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -129,6 +140,50 @@
         "lat": 26.56,
         "lng": 56.25,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Israel",
+        "target_location": "Northern Israel",
+        "description": "Iran launched missiles at northern Israel in first attack since April ceasefire",
+        "method": "Ballistic Missile",
+        "lat": 32.5,
+        "lng": 35.25,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut southern suburbs",
+        "description": "IDF strikes Hezbollah stronghold in Beirut's southern suburbs",
+        "method": "Air/Precision Strike",
+        "lat": 33.84,
+        "lng": 35.51,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "IRGC",
+        "target_country": "Kuwait",
+        "target_location": "US air base",
+        "description": "IRGC strikes US air base in Kuwait in retaliation for drone strike",
+        "method": "Missile/Surface",
+        "lat": 29.37,
+        "lng": 47.97,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "IRGC",
+        "target_country": "Bahrain",
+        "target_location": "US air base",
+        "description": "IRGC strikes remaining US Fifth Fleet facilities in Bahrain",
+        "method": "Missile/Surface",
+        "lat": 26.04,
+        "lng": 50.55,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -154,6 +209,13 @@
         "wia": "",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Ukrainian bus stop strike",
+        "kia": "3",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -162,6 +224,12 @@
         "figure": ">35,000",
         "claimed_by": "Ukraine",
         "as_of": "2026-05-08"
+      },
+      {
+        "claim": "US-Israel attacks on Iran and Lebanon deaths",
+        "figure": "3,468 Iran, 3,371 Lebanon, 28 Gulf states",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "June 2026"
       }
     ]
   },
@@ -178,6 +246,12 @@
         "speaker": "Vladimir Putin",
         "title": "President",
         "date": "2026-06-07"
+      },
+      {
+        "text": "No point in meeting his Ukrainian counterpart Volodymyr Zelensky until a peace deal is ready",
+        "speaker": "Vladimir Putin",
+        "title": "Russian President",
+        "date": "June 4, 2026"
       }
     ],
     "ukraine": [
@@ -227,15 +301,47 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Mediator + arms supplier",
       "description": "Pakistan's interior minister traveled to Tehran to revive Iran-US negotiations. Lebanon's army chief also made surprise visit to Pakistan as conflicts continue."
+    },
+    {
+      "country": "Latvia",
+      "flag": "\ud83c\uddf1\ud83c\uddfb",
+      "status": "Active materiel + troops",
+      "description": "NATO jets shot down drone over Latvian airspace attributed to Russian electronic warfare. Latvia extends Ukraine spillover concerns as conflict affects Baltic airspace."
+    },
+    {
+      "country": "Poland",
+      "flag": "\ud83c\uddf5\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Polish President threatens to strip Zelensky of country's highest order over Ukrainian army unit naming controversy with Nazi connotations. PM Tusk attempting diplomatic smoothing."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Reports indicate oil prices could double if Iran closes Bab el-Mandeb Strait amid ongoing conflicts."
+    "notes": "Shipping professionals considering relocation from Dubai to Greece amid Gulf conflict escalation."
   },
   "update_log": [
+    {
+      "time": "19:57 UTC",
+      "text": "Iran launches first missile strikes on Israel since April ceasefire began",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:30 UTC",
+      "text": "NATO jets shoot down drone over Latvia attributed to Russian electronic warfare",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:45 UTC",
+      "text": "IRGC announces retaliatory strikes on US bases in Kuwait and Bahrain",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:20 UTC",
+      "text": "Russian drone strikes damage nuclear storage site near Chernobyl, kill 3 civilians",
+      "source_tier": "unverified"
+    },
     {
       "time": "15:22 UTC",
       "text": "Iran condemns US drone strike as IRGC strikes US bases in Kuwait and Bahrain in retaliation",
@@ -277,5 +383,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-08T15:22:13Z"
+  "last_updated": "2026-06-08T19:57:34Z"
 }
