@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.3,
-    "delta": "+0.3 from yesterday",
+    "score": 7.5,
+    "delta": "unknown - no baseline",
     "level": "Elevated",
-    "rationale": "US-Iran conflict enters day 100 with fresh drone exchanges over Strait of Hormuz, Israeli strikes kill Lebanese soldiers despite ceasefire, and NATO bolsters Nordic defenses."
+    "rationale": "Multiple active conflicts with nuclear facility strikes, Iran-US war entering day 100, and IRGC retaliatory strikes on US bases."
   },
   "ticker_items": [
-    "US shoots down Iranian drones over Strait of Hormuz on war day 100",
-    "Israeli strike kills 3 Lebanese soldiers despite ceasefire agreement",
-    "NATO begins operations to boost Sweden-Finland defenses",
-    "Xi Jinping makes rare visit to North Korea for Kim talks",
-    "Armenian elections test PM's pivot away from Russia"
+    "Russian drone damages nuclear storage site near Chernobyl",
+    "Iran strikes US bases in Kuwait, Bahrain in retaliation",
+    "Putin rejects Zelenskyy peace meeting offer",
+    "US-Iran war reaches day 100 with no breakthrough",
+    "Xi Jinping makes rare visit to North Korea"
   ],
   "new_entrant": {
     "active": false,
@@ -39,6 +39,39 @@
         "lat": 44.18,
         "lng": 28.65,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Chernobyl area",
+        "description": "Russian drone strike damaged nuclear fuel storage site near Chernobyl nuclear plant",
+        "method": "Air/Drone",
+        "lat": 51.39,
+        "lng": 30.1,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Southeastern Ukraine",
+        "description": "Russian drone strikes killed three people at bus stop",
+        "method": "Air/Drone",
+        "lat": 47.84,
+        "lng": 35.11,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Vovcha River",
+        "description": "Ukrainian drones destroyed Russian improvised pontoon crossing attempt",
+        "method": "Air/Drone",
+        "lat": 49.5,
+        "lng": 38.0,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -63,6 +96,39 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Kuwait",
+        "target_location": "US air base",
+        "description": "IRGC conducted retaliatory strikes on US air base in Kuwait",
+        "method": "Missile/Surface",
+        "lat": 29.31,
+        "lng": 47.48,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Bahrain",
+        "target_location": "US air base",
+        "description": "IRGC struck remaining US Fifth Fleet facilities in Bahrain",
+        "method": "Missile/Surface",
+        "lat": 26.03,
+        "lng": 50.55,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Strait of Hormuz area",
+        "description": "US forces downed Iranian drones near Strait of Hormuz",
+        "method": "Air/Precision Strike",
+        "lat": 26.56,
+        "lng": 56.25,
+        "source_tier": "verified"
       }
     ]
   },
@@ -80,6 +146,13 @@
         "kia": "3",
         "wia": "",
         "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Ukraine bus stop strike",
+        "kia": "3",
+        "wia": "",
+        "civilian": true,
         "source_tier": "unverified"
       }
     ],
@@ -99,14 +172,33 @@
         "speaker": "Vladimir Putin",
         "title": "Russian President",
         "date": "2026-06-04"
+      },
+      {
+        "text": "Russia will achieve its war goals in Ukraine, including seizing all of the eastern Donbas region",
+        "speaker": "Vladimir Putin",
+        "title": "President",
+        "date": "2026-06-07"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "extremely vile attack",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President",
+        "date": "2026-06-07"
+      }
+    ],
     "middle_east": [
       {
         "text": "No one will be bound by the US unilateral rhetoric.",
         "speaker": "Kim Yo Jong",
         "title": "Senior North Korean Official",
+        "date": "2026-06-07"
+      },
+      {
+        "text": "We will not allow Hezbollah to fire at our territory or our communities - and we will act accordingly",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister",
         "date": "2026-06-07"
       }
     ]
@@ -129,15 +221,41 @@
       "flag": "\ud83c\udde6\ud83c\uddf2",
       "status": "Strategic balancer",
       "description": "Armenian voters are deciding on PM Pashinyan's foreign policy shift toward the West away from Russia. Parliamentary elections test the country's geopolitical realignment amid Russian pressure."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan's interior minister traveled to Tehran to revive Iran-US negotiations. Lebanon's army chief also made surprise visit to Pakistan as conflicts continue."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Asia stock markets diving amid Iran-Israel conflict with South Korea's index plunging nearly 9 percent."
+    "notes": "Reports indicate oil prices could double if Iran closes Bab el-Mandeb Strait amid ongoing conflicts."
   },
   "update_log": [
+    {
+      "time": "15:22 UTC",
+      "text": "Iran condemns US drone strike as IRGC strikes US bases in Kuwait and Bahrain in retaliation",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:30 UTC",
+      "text": "Russian drone strike damages nuclear storage site near Chernobyl, kills 3 at bus stop",
+      "source_tier": "verified"
+    },
+    {
+      "time": "13:45 UTC",
+      "text": "Putin rejects Zelenskyy offer for face-to-face meeting, reaffirms Ukraine war aims",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:15 UTC",
+      "text": "US forces down more Iranian drones over Strait of Hormuz as war reaches day 100",
+      "source_tier": "verified"
+    },
     {
       "time": "10:12 UTC",
       "text": "US shoots down two Iranian drones over Strait of Hormuz as conflict enters day 100.",
@@ -159,5 +277,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-08T10:12:00Z"
+  "last_updated": "2026-06-08T15:22:13Z"
 }
