@@ -1,15 +1,15 @@
 {
   "escalation": {
-    "score": 8.5,
-    "delta": "+1.0 from yesterday",
-    "level": "High",
-    "rationale": "Israel and Iran exchanged direct missile strikes despite Trump pressure, breaking April ceasefire and threatening broader regional war."
+    "score": 7,
+    "delta": "New baseline established",
+    "level": "Elevated",
+    "rationale": "Israel-Iran exchange missile fire breaking April ceasefire while China-North Korea summit signals shifting regional alliances."
   },
   "ticker_items": [
-    "Israel strikes Iran military targets after Iranian missile attack",
-    "Trump reportedly calls Netanyahu 'fucking crazy' demanding ceasefire",
-    "China's Xi arrives in Pyongyang for rare state visit",
-    "Oil prices spike 3.29% to $96.15 as Middle East strikes escalate",
+    "Iran launches missiles at Israel, first strikes since April ceasefire",
+    "Israel conducts retaliatory airstrikes on central and western Iran",
+    "Xi Jinping visits North Korea for first time in 7 years",
+    "Trump reportedly tells Netanyahu 'You're f**king crazy' in heated call",
     "Houthis declare complete ban on Israeli shipping in Red Sea"
   ],
   "new_entrant": {
@@ -17,7 +17,30 @@
     "text": ""
   },
   "strikes_today": {
-    "eastern_europe": [],
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Northern Crimea",
+        "description": "Ukrainian drone strikes damage bridge to northern Crimea",
+        "method": "Air/Drone",
+        "lat": 45.3,
+        "lng": 33.4,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Near Kyiv",
+        "description": "Russian drone hits spent nuclear fuel facility near Kyiv",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      }
+    ],
     "middle_east": [
       {
         "time_utc": "Unknown",
@@ -62,6 +85,50 @@
         "lat": 31.5,
         "lng": 34.5,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Evening",
+        "attacker": "Iran",
+        "target_country": "Israel",
+        "target_location": "Central Israel",
+        "description": "Iran launches multiple missile waves against Israel in first attack since April ceasefire",
+        "method": "Ballistic Missile",
+        "lat": 31.5,
+        "lng": 34.75,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "Central and Western Iran",
+        "description": "Israel conducts retaliatory airstrikes on central and western Iran",
+        "method": "Air/Precision Strike",
+        "lat": 32.0,
+        "lng": 53.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Gaza",
+        "description": "Israeli airstrike reportedly kills new Hamas military commander Mohammed Odeh",
+        "method": "Air/Precision Strike",
+        "lat": 31.5,
+        "lng": 34.46,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Israel",
+        "target_location": "Central Israel",
+        "description": "Houthis claim responsibility for missile barrage on Central Israel",
+        "method": "Missile/Surface",
+        "lat": 31.5,
+        "lng": 34.75,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -70,6 +137,20 @@
       {
         "incident": "Gaza strikes",
         "kia": "10",
+        "wia": "",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes in Tyre",
+        "kia": "at least 8",
+        "wia": "",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "UN staff deaths in 2025",
+        "kia": "136",
         "wia": "",
         "civilian": true,
         "source_tier": "unverified"
@@ -84,14 +165,45 @@
         "speaker": "Vladimir Putin",
         "title": "Russian President",
         "date": "2026-06-04"
+      },
+      {
+        "text": "No point in meeting Zelensky until a peace deal is ready",
+        "speaker": "Vladimir Putin",
+        "title": "Russian President",
+        "date": "2026-06-04"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "In May alone, Ukraine recaptured 100 more square km of territory than it lost",
+        "speaker": "Oleksandr Syrskyi",
+        "title": "Ukrainian Military Commander",
+        "date": "2026-06-08"
+      }
+    ],
     "middle_east": [
       {
         "text": "You're fucking crazy. You'd be in prison if not for me",
         "speaker": "Donald Trump",
         "title": "US President",
+        "date": "2026-06-08"
+      },
+      {
+        "text": "You're f**king crazy. You'd be in prison if not for me",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-06-08"
+      },
+      {
+        "text": "We will not allow new equations",
+        "speaker": "Effie Defrin",
+        "title": "IDF Spokesman",
+        "date": "2026-06-08"
+      },
+      {
+        "text": "We declare a complete and total ban on Israeli maritime navigation",
+        "speaker": "Houthis",
+        "title": "Rebel Group",
         "date": "2026-06-08"
       }
     ]
@@ -108,15 +220,52 @@
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "status": "Mediator + arms supplier",
       "description": "President Trump reportedly demanded Israeli ceasefire with Hezbollah in heated call with Netanyahu, calling the PM 'fucking crazy' as administration attempts to contain Middle East escalation. Trump's diplomatic efforts appear unsuccessful as Israel proceeded with strikes against Iran despite US pressure."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Mediator + arms supplier",
+      "description": "German Chancellor Friedrich Merz's spokesperson indicates European leaders are preparing to negotiate with Putin 'in close coordination with the U.S.' suggesting increased European diplomatic initiative in Ukraine conflict resolution."
+    },
+    {
+      "country": "Poland",
+      "flag": "\ud83c\uddf5\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Polish state body considers revoking award given to Ukrainian President Zelensky, indicating potential diplomatic tensions between the two allies despite Poland's continued support for Ukraine."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "$96.15",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices spiked 3.29% to $96.15 per barrel as Israel-Iran exchange triggered market fears of broader Middle East conflict."
+    "notes": "No significant financial developments reported in today's headlines."
   },
   "update_log": [
+    {
+      "time": "Evening",
+      "text": "Iran launches multiple missile waves at Israel, breaking April ceasefire agreement",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Israel conducts retaliatory airstrikes on central and western Iran",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Monday",
+      "text": "Xi Jinping arrives in Pyongyang for first North Korea visit in seven years",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Monday",
+      "text": "Trump reportedly tells Netanyahu he's 'f**king crazy' in heated phone call",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Monday",
+      "text": "Houthis declare complete ban on Israeli shipping in Red Sea",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:55 UTC",
       "text": "Houthis declare complete ban on Israeli shipping in Red Sea following missile attack on Israel",
@@ -143,5 +292,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-09T08:55:12Z"
+  "last_updated": "2026-06-09T14:15:32Z"
 }
