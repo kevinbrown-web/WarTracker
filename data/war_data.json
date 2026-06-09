@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7,
-    "delta": "New baseline established",
+    "score": 7.5,
+    "delta": "No previous baseline",
     "level": "Elevated",
-    "rationale": "Israel-Iran exchange missile fire breaking April ceasefire while China-North Korea summit signals shifting regional alliances."
+    "rationale": "Israel and Iran exchanged missile strikes for first time since April ceasefire, breaking two-month pause in direct hostilities."
   },
   "ticker_items": [
-    "Iran launches missiles at Israel, first strikes since April ceasefire",
-    "Israel conducts retaliatory airstrikes on central and western Iran",
-    "Xi Jinping visits North Korea for first time in 7 years",
-    "Trump reportedly tells Netanyahu 'You're f**king crazy' in heated call",
-    "Houthis declare complete ban on Israeli shipping in Red Sea"
+    "Israel strikes Iranian missile bases after Iran fires missiles",
+    "NATO jets down drone over Latvia in spillover incident",
+    "Ukraine recaptures 230 square miles in 2026 - military chief",
+    "Xi Jinping visits North Korea strengthening China-DPRK ties",
+    "Houthis ban Israeli shipping in Red Sea after missile attack"
   ],
   "new_entrant": {
     "active": false,
@@ -39,6 +39,17 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown drone",
+        "target_country": "Latvia",
+        "target_location": "Latvian airspace",
+        "description": "NATO jets shot down unidentified drone that entered Latvian airspace due to Russian electronic warfare",
+        "method": "Air/Precision Strike",
+        "lat": 56.8796,
+        "lng": 24.6032,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -129,6 +140,39 @@
         "lat": 31.5,
         "lng": 34.75,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Israel",
+        "target_location": "Central Israel",
+        "description": "Iran fired missiles at Israel for first time since April ceasefire",
+        "method": "Ballistic Missile",
+        "lat": 31.0461,
+        "lng": 34.8516,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "Central and western Iran",
+        "description": "Israel launched airstrikes on Iranian missile bases in retaliation",
+        "method": "Air/Precision Strike",
+        "lat": 32.4279,
+        "lng": 53.688,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Israel",
+        "target_location": "Central Israel",
+        "description": "Houthi rebels launched missile barrage on Central Israel",
+        "method": "Missile/Surface",
+        "lat": 31.0461,
+        "lng": 34.8516,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -179,6 +223,12 @@
         "speaker": "Oleksandr Syrskyi",
         "title": "Ukrainian Military Commander",
         "date": "2026-06-08"
+      },
+      {
+        "text": "Ukraine's army has recaptured more than 230 square miles of territory so far this year",
+        "speaker": "Oleksandr Syrskyi",
+        "title": "Ukrainian Military Chief",
+        "date": "2026-06-08"
       }
     ],
     "middle_east": [
@@ -204,6 +254,18 @@
         "text": "We declare a complete and total ban on Israeli maritime navigation",
         "speaker": "Houthis",
         "title": "Rebel Group",
+        "date": "2026-06-08"
+      },
+      {
+        "text": "We declare a complete and total ban on Israeli maritime navigation in the Red Sea",
+        "speaker": "Houthi spokesperson",
+        "title": "Houthi Military",
+        "date": "2026-06-08"
+      },
+      {
+        "text": "Lebanon is Iran's 'non-negotiable red line' in any deal with the U.S.",
+        "speaker": "Mohsen Rezaei",
+        "title": "Former IRGC Commander",
         "date": "2026-06-08"
       }
     ]
@@ -238,9 +300,34 @@
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "No significant financial developments reported in today's headlines."
+    "notes": "Renewed Iran-Israel conflict reportedly rattling cryptocurrency markets amid regional security concerns."
   },
   "update_log": [
+    {
+      "time": "19:52 UTC",
+      "text": "Israel launches airstrikes on central and western Iran after Iranian missile attack",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Iran fires missiles at Israel for first time since April ceasefire",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:45 UTC",
+      "text": "NATO jets shoot down drone over Latvia due to Russian electronic warfare",
+      "source_tier": "verified"
+    },
+    {
+      "time": "14:20 UTC",
+      "text": "Houthis declare ban on Israeli shipping in Red Sea after missile attack",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:15 UTC",
+      "text": "Xi Jinping meets Kim Jong Un in Pyongyang strengthening China-North Korea ties",
+      "source_tier": "unverified"
+    },
     {
       "time": "Evening",
       "text": "Iran launches multiple missile waves at Israel, breaking April ceasefire agreement",
@@ -292,5 +379,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-09T14:15:32Z"
+  "last_updated": "2026-06-09T19:52:53Z"
 }
