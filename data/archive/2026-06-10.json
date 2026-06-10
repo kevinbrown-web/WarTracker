@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.8,
-    "delta": "+0.3 from yesterday",
+    "score": 7,
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "Iran launches missile attacks on Israel while Xi Jinping's rare North Korea visit deepens China-DPRK military cooperation amid ongoing regional conflicts."
+    "rationale": "US strikes on Iranian water facilities and Apache helicopter downing near Hormuz escalate Iran-Israel conflict."
   },
   "ticker_items": [
-    "Iran launches fresh missile strikes on Israel",
-    "Xi Jinping arrives in Pyongyang for rare state visit",
-    "US Apache helicopter crashes near Strait of Hormuz",
-    "Ukrainian drone strikes hit Russian oil facilities",
-    "Houthis threaten complete Red Sea shipping ban"
+    "US bombs Iran water facilities after helicopter downed in Hormuz",
+    "Israel warns entire city of Tyre to evacuate",
+    "Iran halts strikes but warns against Israeli aggression",
+    "Xi Jinping completes rare North Korea visit with Kim Jong Un",
+    "Russia claims recent Oreshnik missiles were test shots"
   ],
   "new_entrant": {
     "active": false,
@@ -41,21 +41,77 @@
         "lat": 31.5,
         "lng": 34.75,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Water facilities",
+        "description": "US struck several Iranian water facilities in retaliation for downing US helicopter in Strait of Hormuz",
+        "method": "Air/Precision Strike",
+        "lat": 32.4279,
+        "lng": 53.688,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "South Lebanon",
+        "description": "Israeli strike kills eight people in south Lebanon as military warns Tyre to evacuate",
+        "method": "Air/Precision Strike",
+        "lat": 33.2704,
+        "lng": 35.2038,
+        "source_tier": "unverified"
       }
     ]
   },
   "casualties": {
-    "today": [],
+    "today": [
+      {
+        "incident": "South Lebanon strike",
+        "kia": "8",
+        "wia": "",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US Apache helicopter crash Hormuz",
+        "kia": "0",
+        "wia": "0",
+        "civilian": false,
+        "source_tier": "unverified"
+      }
+    ],
     "claimed_totals": []
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Recent Oreshnik hypersonic missile launches were not even fired at military targets, just at empty spaces as a test",
+        "speaker": "Vladimir Putin",
+        "title": "Russian President",
+        "date": "2026-06-09"
+      }
+    ],
     "ukraine": [],
     "middle_east": [
       {
         "text": "They can just send a signal",
         "speaker": "Farea al-Muslimi",
         "title": "Chatham House Research Fellow",
+        "date": "2026-06-09"
+      },
+      {
+        "text": "Any continuation of Israeli aggression would bring far more devastating consequences",
+        "speaker": "Iranian Military Command",
+        "title": "Military Officials",
+        "date": "2026-06-09"
+      },
+      {
+        "text": "The strike on Iran was preparation for a more powerful blow",
+        "speaker": "Eyal Zamir",
+        "title": "IDF Chief of Staff",
         "date": "2026-06-09"
       }
     ]
@@ -72,15 +128,41 @@
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "status": "Active materiel + troops",
       "description": "Apache helicopter crashes near Strait of Hormuz with crew reported safe by Trump. Defense manufacturing executive highlights drone warfare reshaping conflicts. Trump claims peace talks progressing despite Israel-Iran clashes."
+    },
+    {
+      "country": "European Union",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "EU unveiled 21st sanctions package targeting Russian economy and soldiers. Commission chief von der Leyen reported Russia's economy is slowing sharply from sanctions impact."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Elevated",
     "wheat_futures": "Unchanged",
-    "notes": "Iranian closure of Strait of Hormuz continues impacting global oil markets with supply disruptions persisting."
+    "notes": "Oil markets remain elevated due to Red Sea shipping disruptions and Strait of Hormuz tensions."
   },
   "update_log": [
+    {
+      "time": "14:30 UTC",
+      "text": "US strikes Iranian water facilities in retaliation for helicopter downing",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:15 UTC",
+      "text": "Israel orders evacuation of entire city of Tyre in Lebanon for first time",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:45 UTC",
+      "text": "Iran announces halt to strikes against Israel but warns against further aggression",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:20 UTC",
+      "text": "Xi Jinping concludes North Korea visit with pledge for deeper bilateral cooperation",
+      "source_tier": "verified"
+    },
     {
       "time": "09:36 UTC",
       "text": "Iran launches missile attacks on Israel amid escalating regional tensions",
@@ -102,5 +184,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-10T09:36:36Z"
+  "last_updated": "2026-06-10T14:46:27Z"
 }
