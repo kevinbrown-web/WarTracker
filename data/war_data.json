@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7,
-    "delta": "No previous data",
+    "score": 7.2,
+    "delta": "Unknown",
     "level": "Elevated",
-    "rationale": "US strikes on Iranian water facilities and Apache helicopter downing near Hormuz escalate Iran-Israel conflict."
+    "rationale": "Iran shot down US Apache helicopter over Strait of Hormuz with Trump ordering military response, while Israel continues strikes on Lebanon."
   },
   "ticker_items": [
-    "US bombs Iran water facilities after helicopter downed in Hormuz",
-    "Israel warns entire city of Tyre to evacuate",
-    "Iran halts strikes but warns against Israeli aggression",
-    "Xi Jinping completes rare North Korea visit with Kim Jong Un",
-    "Russia claims recent Oreshnik missiles were test shots"
+    "Iran downs US Apache helicopter, Trump orders military response",
+    "Israel strikes Lebanese city of Tyre, hits car in Sidon",
+    "Xi Jinping concludes rare state visit to North Korea",
+    "Bulgaria's new government halts arms supplies to Ukraine",
+    "EU proposes entry ban for Russian military personnel"
   ],
   "new_entrant": {
     "active": false,
@@ -63,6 +63,39 @@
         "lat": 33.2704,
         "lng": 35.2038,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "United States",
+        "target_location": "Strait of Hormuz",
+        "description": "Iran reportedly shot down US Army Apache helicopter near Strait of Hormuz",
+        "method": "Anti-Aircraft",
+        "lat": 26.5667,
+        "lng": 56.25,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Tyre",
+        "description": "Israeli forces conducted strikes against Hezbollah targets in southern Lebanese city of Tyre",
+        "method": "Air/Precision Strike",
+        "lat": 33.2732,
+        "lng": 35.2039,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Sidon",
+        "description": "Israeli strike on vehicle in Sidon killed two people and sparked fire",
+        "method": "Air/Precision Strike",
+        "lat": 33.5583,
+        "lng": 35.3714,
+        "source_tier": "verified"
       }
     ]
   },
@@ -81,6 +114,13 @@
         "wia": "0",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strike in Sidon",
+        "kia": "2",
+        "wia": "",
+        "civilian": false,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": []
@@ -92,9 +132,22 @@
         "speaker": "Vladimir Putin",
         "title": "Russian President",
         "date": "2026-06-09"
+      },
+      {
+        "text": "I see no point in meeting his Ukrainian counterpart Volodymyr Zelensky until a peace deal is ready",
+        "speaker": "Vladimir Putin",
+        "title": "Russian President",
+        "date": "2026-06-04"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Ukraine Is Ready to Share Drone Technology with Nordic and Baltic Countries",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "Ukrainian President",
+        "date": "2026-06-09"
+      }
+    ],
     "middle_east": [
       {
         "text": "They can just send a signal",
@@ -112,6 +165,12 @@
         "text": "The strike on Iran was preparation for a more powerful blow",
         "speaker": "Eyal Zamir",
         "title": "IDF Chief of Staff",
+        "date": "2026-06-09"
+      },
+      {
+        "text": "I have just been informed by our Great Military that Iran shot down US helicopter, US military would respond",
+        "speaker": "Donald Trump",
+        "title": "US President",
         "date": "2026-06-09"
       }
     ]
@@ -134,15 +193,46 @@
       "flag": "\ud83c\uddea\ud83c\uddfa",
       "status": "Active materiel + troops",
       "description": "EU unveiled 21st sanctions package targeting Russian economy and soldiers. Commission chief von der Leyen reported Russia's economy is slowing sharply from sanctions impact."
+    },
+    {
+      "country": "Bulgaria",
+      "flag": "\ud83c\udde7\ud83c\uddec",
+      "status": "Abstaining",
+      "description": "New Bulgarian government announced it will abandon previous policy of supplying arms to Ukraine. Defense Minister Dimitar Stoyanov confirmed the policy change."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated",
+    "brent_crude": "Lower on volatility",
     "wheat_futures": "Unchanged",
-    "notes": "Oil markets remain elevated due to Red Sea shipping disruptions and Strait of Hormuz tensions."
+    "notes": "Gold and silver hit 2-month lows following Iran tensions and interest rate hike fears, while oil futures showed volatility despite supply disruptions."
   },
   "update_log": [
+    {
+      "time": "20:05 UTC",
+      "text": "Israeli strike on vehicle in Sidon kills two people",
+      "source_tier": "verified"
+    },
+    {
+      "time": "19:30 UTC",
+      "text": "Trump orders US military response after Iran shoots down Apache helicopter",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:45 UTC",
+      "text": "Israel conducts new strikes on Hezbollah targets in Lebanese city of Tyre",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:20 UTC",
+      "text": "Xi Jinping returns to China after concluding North Korea state visit",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:15 UTC",
+      "text": "EU proposes entry ban for Russian military personnel in new sanctions package",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:30 UTC",
       "text": "US strikes Iranian water facilities in retaliation for helicopter downing",
@@ -184,5 +274,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-10T14:46:27Z"
+  "last_updated": "2026-06-10T20:05:40Z"
 }
