@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.2,
-    "delta": "+2.1 from baseline",
+    "score": 8,
+    "delta": "N/A - first assessment",
     "level": "High",
-    "rationale": "US-Iran exchange of strikes escalates with Trump threatening Kharg Island seizure and Iranian retaliation on Gulf allies."
+    "rationale": "Active US-Iran military exchanges with airstrikes, retaliation on Bahrain/Kuwait, and Trump promising further strikes escalates regional conflict significantly."
   },
   "ticker_items": [
-    "US strikes Iran military sites after Apache helicopter downing",
-    "Iran retaliates with missile attacks on Bahrain, Kuwait bases",
-    "Trump threatens to seize Iran's Kharg Island oil terminal",
-    "China-North Korea deepen military cooperation during Xi visit",
-    "Hungary halts arms shipments to Ukraine under new PM"
+    "US strikes Iran after helicopter crash, Trump vows more attacks",
+    "Iran retaliates with strikes on Bahrain and Kuwait bases",
+    "Russia planning winter offensive against Ukraine amid economic crisis",
+    "Hungary halts arms to Ukraine under new PM Magyar",
+    "Xi Jinping returns from rare North Korea summit with Kim"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Iran expanded conflict by striking US allies Bahrain and Kuwait in retaliation for American airstrikes."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -151,6 +151,28 @@
         "lat": 29.3759,
         "lng": 47.9774,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Iranian military sites",
+        "description": "US launches airstrikes on Iranian military facilities after blaming Tehran for helicopter crash",
+        "method": "Air/Precision Strike",
+        "lat": 32.4279,
+        "lng": 53.688,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Jordan",
+        "target_location": "Al-Azraq base",
+        "description": "Iranian Revolutionary Guards claim missile strikes on US Al-Azraq base in Jordan",
+        "method": "Ballistic Missile",
+        "lat": 31.8319,
+        "lng": 36.8239,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -186,6 +208,12 @@
         "speaker": "Vladimir Putin",
         "title": "President",
         "date": "2026-06-10"
+      },
+      {
+        "text": "No point in meeting with Zelensky",
+        "speaker": "Vladimir Putin",
+        "title": "Russian President",
+        "date": "2026-06-10"
       }
     ],
     "ukraine": [],
@@ -200,6 +228,12 @@
         "text": "Leave if you want to be safe",
         "speaker": "Abbas Araghchi",
         "title": "Iranian Foreign Minister",
+        "date": "2026-06-10"
+      },
+      {
+        "text": "We hit them hard yesterday, and we're going to hit them hard again today",
+        "speaker": "Donald Trump",
+        "title": "US President",
         "date": "2026-06-10"
       }
     ]
@@ -232,11 +266,36 @@
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Spiking",
+    "brent_crude": "Below $100/barrel",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices surge on Iran-US strike exchange threatening Strait of Hormuz shipping lanes."
+    "notes": "Oil projected to average $105/barrel in June-July despite Strait of Hormuz disruptions keeping prices below $100."
   },
   "update_log": [
+    {
+      "time": "20:00 UTC",
+      "text": "Iran threatens more bombings after US strikes, warning American forces to leave Middle East",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Iran retaliates with attacks on Bahrain and Kuwait following US airstrikes",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Trump vows to hit Iran 'hard again today' after US strikes on Iranian military sites",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "US House passes bill to cut off Western technology flowing into Iranian drones",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Baltic states report drone incursions fueling fears of Russia-Ukraine war spillover",
+      "source_tier": "verified"
+    },
     {
       "time": "15:28 UTC",
       "text": "Trump threatens to seize Iran's Kharg Island oil terminal in escalating rhetoric",
@@ -283,5 +342,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-11T15:28:48Z"
+  "last_updated": "2026-06-11T20:06:49Z"
 }
