@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.5,
-    "delta": "+1.3 from yesterday",
+    "score": 8.2,
+    "delta": "+2.1 from baseline",
     "level": "High",
-    "rationale": "US-Iran direct military exchange with airstrikes and retaliatory attacks on US bases across Middle East significantly escalates regional conflict."
+    "rationale": "US-Iran exchange of strikes escalates with Trump threatening Kharg Island seizure and Iranian retaliation on Gulf allies."
   },
   "ticker_items": [
-    "US launches airstrikes on Iran after helicopter crash, Iran retaliates",
-    "Iran strikes US bases in Jordan, Bahrain, Kuwait",
-    "Bulgaria, Hungary halt weapons supplies to Ukraine",
-    "Ukraine assassinates Russian general near Moscow",
-    "China-North Korea summit pledges deeper cooperation"
+    "US strikes Iran military sites after Apache helicopter downing",
+    "Iran retaliates with missile attacks on Bahrain, Kuwait bases",
+    "Trump threatens to seize Iran's Kharg Island oil terminal",
+    "China-North Korea deepen military cooperation during Xi visit",
+    "Hungary halts arms shipments to Ukraine under new PM"
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Iran expanded conflict by striking US allies Bahrain and Kuwait in retaliation for American airstrikes."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -107,6 +107,50 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Multiple military sites",
+        "description": "US conducted self-defense strikes on Iranian military targets following Apache helicopter downing.",
+        "method": "Air/Precision Strike",
+        "lat": 32.4279,
+        "lng": 53.688,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Jordan",
+        "target_location": "Al-Azraq base",
+        "description": "Iranian Revolutionary Guards claimed missile strikes on US military base in Jordan.",
+        "method": "Missile/Surface",
+        "lat": 31.8929,
+        "lng": 36.8262,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Bahrain",
+        "target_location": "Military sites",
+        "description": "Iran launched retaliatory attacks on sites in Bahrain prompting air defense response.",
+        "method": "Missile/Surface",
+        "lat": 26.0667,
+        "lng": 50.5577,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Kuwait",
+        "target_location": "Military sites",
+        "description": "Iran struck military targets in Kuwait as part of regional retaliation campaign.",
+        "method": "Missile/Surface",
+        "lat": 29.3759,
+        "lng": 47.9774,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -116,6 +160,13 @@
         "incident": "Russian general assassination",
         "kia": "1",
         "wia": "",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US Apache helicopter crash",
+        "kia": "0",
+        "wia": "0",
         "civilian": false,
         "source_tier": "unverified"
       }
@@ -129,10 +180,29 @@
         "speaker": "Vladimir Putin",
         "title": "Russian President",
         "date": "2026-06-10"
+      },
+      {
+        "text": "No point in meeting with Zelensky until a peace deal is ready",
+        "speaker": "Vladimir Putin",
+        "title": "President",
+        "date": "2026-06-10"
       }
     ],
     "ukraine": [],
-    "middle_east": []
+    "middle_east": [
+      {
+        "text": "Iran had taken too long to negotiate a deal and would now have to pay the price",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-06-10"
+      },
+      {
+        "text": "Leave if you want to be safe",
+        "speaker": "Abbas Araghchi",
+        "title": "Iranian Foreign Minister",
+        "date": "2026-06-10"
+      }
+    ]
   },
   "observers": [
     {
@@ -152,15 +222,46 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "President Xi Jinping concluded rare state visit to North Korea with Kim Jong Un, pledging deeper cooperation. China warns EU against sanctions on Chinese firms over Russia links while strengthening ties with Pyongyang."
+    },
+    {
+      "country": "Poland",
+      "flag": "\ud83c\uddf5\ud83c\uddf1",
+      "status": "Monitoring",
+      "description": "Poland remains furious with Ukraine over Kiev's glorification of WWII-era nationalists. Diplomatic efforts to calm Polish outrage have failed to resolve the growing dispute between the allies."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Steady amid US-Iran hostilities",
+    "brent_crude": "Spiking",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices steady as US-Iran fighting muddy direction though forecast US stock draw offers support."
+    "notes": "Oil prices surge on Iran-US strike exchange threatening Strait of Hormuz shipping lanes."
   },
   "update_log": [
+    {
+      "time": "15:28 UTC",
+      "text": "Trump threatens to seize Iran's Kharg Island oil terminal in escalating rhetoric",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:45 UTC",
+      "text": "Iran strikes US allies Bahrain and Kuwait in retaliation for American airstrikes",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "US confirms self-defense strikes on Iranian military sites after Apache downing",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:15 UTC",
+      "text": "Xi Jinping concludes North Korea visit with pledge for deeper military cooperation",
+      "source_tier": "verified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "Hungary halts arms shipments to Ukraine under new Prime Minister Magyar",
+      "source_tier": "unverified"
+    },
     {
       "time": "09:59 UTC",
       "text": "Iran launches retaliatory missile strikes on US bases in Jordan, Bahrain and Kuwait",
@@ -182,5 +283,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-11T09:59:57Z"
+  "last_updated": "2026-06-11T15:28:48Z"
 }
