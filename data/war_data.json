@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8,
-    "delta": "N/A",
-    "level": "High",
-    "rationale": "Trump announces immediate strikes on Iran and plans to seize Kharg Island oil hub, escalating US-Iran conflict significantly."
+    "score": 6.5,
+    "delta": "No baseline",
+    "level": "Elevated",
+    "rationale": "US-Iran strikes exchange followed by Trump canceling planned operations amid claimed peace deal progress."
   },
   "ticker_items": [
-    "Trump: US will hit Iran 'very hard tonight', plans Kharg Island seizure",
-    "Iran retaliates with attacks on Bahrain, Kuwait after US strikes",
-    "UK Defense Secretary resigns over insufficient military spending",
-    "UAE-Iran officials meet face-to-face to discuss deescalation",
-    "Ukraine war surpasses WWI duration milestone"
+    "Trump cancels Iran strikes, claims peace deal 'approved'",
+    "US bombed Iranian water facilities - possible war crime",
+    "Iran retaliated with strikes on Bahrain, Kuwait",
+    "UK Defense Secretary Healey resigns over military funding",
+    "Xi Jinping concludes rare state visit to North Korea"
   ],
   "new_entrant": {
     "active": false,
@@ -118,6 +118,39 @@
         "lat": 29.31,
         "lng": 47.48,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Water facilities",
+        "description": "US strikes targeted civilian water infrastructure in Iran.",
+        "method": "Air/Precision Strike",
+        "lat": 32.4279,
+        "lng": 53.688,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Bahrain",
+        "target_location": "Military sites",
+        "description": "Iran launched retaliatory attacks on sites in Bahrain.",
+        "method": "Missile/Surface",
+        "lat": 26.0667,
+        "lng": 50.5577,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Kuwait",
+        "target_location": "Military sites",
+        "description": "Iran conducted retaliatory strikes on sites in Kuwait.",
+        "method": "Missile/Surface",
+        "lat": 29.3117,
+        "lng": 47.4818,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -174,6 +207,12 @@
         "speaker": "Iranian officials",
         "title": "Government officials",
         "date": "2026-06-11"
+      },
+      {
+        "text": "Iran's leadership approved a draft agreement that would extend the ceasefire, reopen the Strait of Hormuz and launch 60 days of negotiations on Iran's nuclear program",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-06-11"
       }
     ]
   },
@@ -201,15 +240,41 @@
       "flag": "\ud83c\udde6\ud83c\uddea",
       "status": "Mediator + arms supplier",
       "description": "Senior UAE officials held face-to-face meeting with Iranian counterparts for first time since US-Israeli war began. Both nations acknowledge need for calmer ties amid escalating regional tensions."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan claims a final peace deal text has been agreed between the US and Iran, with only implementation steps remaining to be finalized."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Declined",
     "wheat_futures": "Unchanged",
-    "notes": "Trump threatens to seize Iran's Kharg Island oil hub, potentially disrupting 90% of Iranian crude exports."
+    "notes": "Dow jumped nearly 800 points after Trump canceled Iran strikes, with chip stocks rebounding significantly."
   },
   "update_log": [
+    {
+      "time": "19:48 UTC",
+      "text": "Trump announces cancellation of planned Iran strikes citing approved peace deal framework",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Stock markets surge on de-escalation news with Dow gaining nearly 800 points",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "UK Defense Secretary John Healey resigns over military spending disagreements with PM Starmer",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Iran conducted retaliatory strikes on Bahrain and Kuwait following US attacks on water facilities",
+      "source_tier": "unverified"
+    },
     {
       "time": "14:28 UTC",
       "text": "Trump announces US will hit Iran very hard tonight and plans to seize Kharg Island oil facility",
@@ -251,5 +316,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-12T14:28:05Z"
+  "last_updated": "2026-06-12T19:48:31Z"
 }
