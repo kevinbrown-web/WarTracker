@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 9,
-    "delta": "+1.0 from yesterday",
+    "score": 8,
+    "delta": "N/A",
     "level": "High",
-    "rationale": "Second consecutive day of US-Iran military exchanges with Trump threatening continued bombing if Iran rejects peace deal."
+    "rationale": "Trump announces immediate strikes on Iran and plans to seize Kharg Island oil hub, escalating US-Iran conflict significantly."
   },
   "ticker_items": [
-    "US launches second day of strikes across Iran",
-    "Iran retaliates with attacks on Bahrain and Kuwait",
-    "House passes War Powers Resolution to end Iran conflict",
-    "Ukraine strikes Russian regional capital Cheboksary, 3 injured",
-    "Xi Jinping concludes rare state visit to North Korea"
+    "Trump: US will hit Iran 'very hard tonight', plans Kharg Island seizure",
+    "Iran retaliates with attacks on Bahrain, Kuwait after US strikes",
+    "UK Defense Secretary resigns over insufficient military spending",
+    "UAE-Iran officials meet face-to-face to discuss deescalation",
+    "Ukraine war surpasses WWI duration milestone"
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Bahrain and Kuwait became direct targets as Iran retaliated against US strikes with attacks on Gulf states."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -27,6 +27,28 @@
         "method": "Missile/Surface",
         "lat": 56.13,
         "lng": 47.25,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Chonhar bridge",
+        "description": "Ukrainian forces reportedly conducted double-tap strike on Chonhar bridge connection to Crimea",
+        "method": "Air/Drone",
+        "lat": 46.17,
+        "lng": 34.38,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Mariupol port",
+        "description": "Ukrainian forces made occupied Mariupol port unusable through targeted operations",
+        "method": "Air/Precision Strike",
+        "lat": 47.1,
+        "lng": 37.54,
         "source_tier": "unverified"
       }
     ],
@@ -63,6 +85,39 @@
         "lat": 29.34,
         "lng": 47.66,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Water facility",
+        "description": "US airstrikes targeted Iranian water infrastructure facility",
+        "method": "Air/Precision Strike",
+        "lat": 32.43,
+        "lng": 53.69,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Bahrain",
+        "target_location": "Military sites",
+        "description": "Iran launched retaliatory attacks on Bahrain military installations",
+        "method": "Missile/Surface",
+        "lat": 26.07,
+        "lng": 50.56,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Kuwait",
+        "target_location": "Military sites",
+        "description": "Iran conducted retaliatory strikes on Kuwait military targets",
+        "method": "Missile/Surface",
+        "lat": 29.31,
+        "lng": 47.48,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -87,7 +142,14 @@
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Russia is recruiting teenage Ukrainian girls to kill Ukrainian military personnel",
+        "speaker": "Ukraine police chief",
+        "title": "Police Chief",
+        "date": "2026-06-11"
+      }
+    ],
     "middle_east": [
       {
         "text": "Leave if you want to be safe",
@@ -99,6 +161,18 @@
         "text": "I will continue bombing Iran if it refuses to agree to an interim peace deal",
         "speaker": "Donald Trump",
         "title": "US President",
+        "date": "2026-06-11"
+      },
+      {
+        "text": "The United States will be hitting Iran very hard tonight",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-06-11"
+      },
+      {
+        "text": "The shaky ceasefire in the three-month Middle East war was now practically meaningless",
+        "speaker": "Iranian officials",
+        "title": "Government officials",
         "date": "2026-06-11"
       }
     ]
@@ -121,15 +195,41 @@
       "flag": "\ud83c\udde9\ud83c\uddea",
       "status": "Supplying dual-use goods",
       "description": "Mercedes-Benz announced new anti-drone vehicle deal as part of Europe's broader defense industry push. The partnership reflects European automakers' pivot toward military applications amid regional security concerns."
+    },
+    {
+      "country": "United Arab Emirates",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "Mediator + arms supplier",
+      "description": "Senior UAE officials held face-to-face meeting with Iranian counterparts for first time since US-Israeli war began. Both nations acknowledge need for calmer ties amid escalating regional tensions."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated on Iran tensions",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Treasury yields remained steady despite Middle East escalation as investors monitored inflation data alongside Iran conflict developments."
+    "notes": "Trump threatens to seize Iran's Kharg Island oil hub, potentially disrupting 90% of Iranian crude exports."
   },
   "update_log": [
+    {
+      "time": "14:28 UTC",
+      "text": "Trump announces US will hit Iran very hard tonight and plans to seize Kharg Island oil facility",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:45 UTC",
+      "text": "Iran warns Middle East ceasefire now practically meaningless after fresh US strikes",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "UK Defense Secretary John Healey resigns over military spending dispute with government",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:15 UTC",
+      "text": "UAE and Iran officials meet face-to-face for first time since US-Israeli war began",
+      "source_tier": "unverified"
+    },
     {
       "time": "09:52 UTC",
       "text": "House passes War Powers Resolution 215-208 directing Trump to end Iran conflict",
@@ -151,5 +251,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-12T09:52:23Z"
+  "last_updated": "2026-06-12T14:28:05Z"
 }
