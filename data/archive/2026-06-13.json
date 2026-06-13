@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "No previous score",
+    "score": 7,
+    "delta": "N/A - no previous score",
     "level": "Elevated",
-    "rationale": "Death of Iranian Supreme Leader Khamenei represents major geopolitical shift amid ongoing US-Iran negotiations and active Middle East conflicts."
+    "rationale": "US military prepared ground mission to capture Iran uranium while Iran-US ceasefire talks continue amid recent US airstrikes and Iranian retaliation."
   },
   "ticker_items": [
-    "Iran announces funeral dates for deceased Supreme Leader Khamenei",
-    "US-Iran peace deal potentially signing Sunday in Geneva",
-    "Ukrainian forces target all bridges to northern Crimea",
-    "US strikes Iranian-linked ships off Oman, killing 3 sailors",
-    "Xi Jinping concludes rare state visit to North Korea"
+    "US military prepared Iran uranium capture mission, Trump paused operation",
+    "Iran-US deal 'never been closer' despite recent airstrikes exchange",
+    "Ukraine drones force Russia Day concert cancellation for first time",
+    "NATO develops new Europe defense plans as US reduces commitment",
+    "Ukrainian strikes hit Russian Sevastopol museum and oil refineries"
   ],
   "new_entrant": {
     "active": false,
@@ -49,6 +49,17 @@
         "method": "Drone/Air",
         "lat": 47.1,
         "lng": 37.54,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Tamanneftegaz terminal",
+        "description": "Ukrainian SBU security service attacked Russian sea terminal sparking fires",
+        "method": "Air/Drone",
+        "lat": 45.23,
+        "lng": 36.94,
         "source_tier": "unverified"
       }
     ],
@@ -107,6 +118,28 @@
         "lat": 29.31,
         "lng": 47.48,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Bahrain",
+        "target_location": "Unknown sites",
+        "description": "Iran launched retaliatory attacks on Bahrain following US airstrikes",
+        "method": "Missile/Surface",
+        "lat": 26.07,
+        "lng": 50.55,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Kuwait",
+        "target_location": "Unknown sites",
+        "description": "Iran launched retaliatory attacks on Kuwait following US airstrikes",
+        "method": "Missile/Surface",
+        "lat": 29.31,
+        "lng": 47.48,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -125,6 +158,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Ukrainian drone strikes on Russian facilities",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": []
@@ -157,6 +197,12 @@
         "speaker": "Henry Ensher",
         "title": "Analyst",
         "date": "2026-06-13"
+      },
+      {
+        "text": "A deal with the United States to end the war in the Middle East had never been closer",
+        "speaker": "Iranian Foreign Minister",
+        "title": "Foreign Minister",
+        "date": "2026-06-12"
       }
     ]
   },
@@ -190,15 +236,41 @@
       "flag": "\ud83c\uddee\ud83c\uddf3",
       "status": "Monitoring",
       "description": "India's foreign minister lodged strong protests with the US after American strikes killed three Indian sailors on merchant ships off Oman. The incident highlights risks to neutral shipping in the Iranian blockade."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan's Prime Minister stated that the US and Iran have agreed to wording of a deal to end their war in the Middle East. Pakistani mediators are working to finalize next steps in the peace process."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Russian oil output reportedly falls to new lows amid ongoing Ukrainian drone campaigns."
+    "notes": "Russia's oil output reportedly falls to new lows amid ongoing sanctions and Ukrainian attacks on energy infrastructure."
   },
   "update_log": [
+    {
+      "time": "Unknown",
+      "text": "Ukrainian SBU claims attack on Russian Tamanneftegaz terminal causing fires",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Iran and US reportedly agreed to wording of Middle East ceasefire deal according to Pakistan PM",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Russia Day concert canceled for first time in 23 years due to Ukrainian drone campaign",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "US military prepared ground mission to capture Iran uranium but Trump paused operation",
+      "source_tier": "unverified"
+    },
     {
       "time": "13:19",
       "text": "Iran announces funeral and burial dates for deceased Supreme Leader Khamenei",
@@ -240,5 +312,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-06-13T13:19:17Z"
+  "last_updated": "2026-06-13T19:03:52Z"
 }
