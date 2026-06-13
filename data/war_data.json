@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 6.8,
-    "delta": "+0.3 from yesterday",
+    "score": 7.5,
+    "delta": "No previous score",
     "level": "Elevated",
-    "rationale": "Trump halted planned Iran strikes hours before launch amid ongoing Strait of Hormuz tensions and reports of US-Iran peace negotiations."
+    "rationale": "Death of Iranian Supreme Leader Khamenei represents major geopolitical shift amid ongoing US-Iran negotiations and active Middle East conflicts."
   },
   "ticker_items": [
-    "Trump cancels Iran strikes 3 hours before launch, cites peace talks",
-    "Ukraine hits Crimean fuel supplies, sparks peninsula-wide crisis",
-    "US kills 3 Indian sailors in Hormuz Strait vessel strikes",
-    "UK Defense Secretary resigns over insufficient military spending",
-    "IDF strikes 310 Hezbollah targets in southern Lebanon operations"
+    "Iran announces funeral dates for deceased Supreme Leader Khamenei",
+    "US-Iran peace deal potentially signing Sunday in Geneva",
+    "Ukrainian forces target all bridges to northern Crimea",
+    "US strikes Iranian-linked ships off Oman, killing 3 sailors",
+    "Xi Jinping concludes rare state visit to North Korea"
   ],
   "new_entrant": {
     "active": false,
@@ -27,6 +27,28 @@
         "method": "Air/Drone",
         "lat": 45.3,
         "lng": 34.4,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Northern Crimea bridges",
+        "description": "Ukrainian forces attacked multiple bridges leading into northern Crimea",
+        "method": "Drone/Air",
+        "lat": 45.35,
+        "lng": 33.98,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Mariupol port",
+        "description": "Ukrainian forces rendered the occupied port of Mariupol unusable",
+        "method": "Drone/Air",
+        "lat": 47.1,
+        "lng": 37.54,
         "source_tier": "unverified"
       }
     ],
@@ -52,6 +74,39 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Off Oman coast",
+        "description": "US strikes hit three mainly Indian-crewed merchant ships as part of Iranian port blockade",
+        "method": "Air/Precision Strike",
+        "lat": 20.59,
+        "lng": 58.14,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Bahrain",
+        "target_location": "Sites in Bahrain",
+        "description": "Iran launched retaliatory attacks on sites in Bahrain following US airstrikes",
+        "method": "Missile/Surface",
+        "lat": 26.07,
+        "lng": 50.61,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Kuwait",
+        "target_location": "Sites in Kuwait",
+        "description": "Iran launched retaliatory attacks on sites in Kuwait following US airstrikes",
+        "method": "Missile/Surface",
+        "lat": 29.31,
+        "lng": 47.48,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -63,12 +118,26 @@
         "wia": "",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "US strikes on Iranian-linked ships",
+        "kia": "3",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": []
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Never fight Russia, never try to do so, let's live in peace",
+        "speaker": "Vladimir Putin",
+        "title": "Russian President",
+        "date": "2026-06-12"
+      }
+    ],
     "ukraine": [],
     "middle_east": [
       {
@@ -76,6 +145,18 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-06-12"
+      },
+      {
+        "text": "We Ended the War With Iran Today",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-06-12"
+      },
+      {
+        "text": "Lots of things can still go wrong with US-Iran deal to end the war",
+        "speaker": "Henry Ensher",
+        "title": "Analyst",
+        "date": "2026-06-13"
       }
     ]
   },
@@ -97,15 +178,52 @@
       "flag": "\ud83c\uddf9\ud83c\uddf7",
       "status": "Strategic balancer",
       "description": "Ankara reportedly urged Syrian President not to join Israel in operations against Hezbollah, defying Trump administration plans to enlist Syrian cooperation against the group."
+    },
+    {
+      "country": "Bulgaria",
+      "flag": "\ud83c\udde7\ud83c\uddec",
+      "status": "Abstaining",
+      "description": "Bulgaria's new government banned state arms supplies to Ukraine, though commercial exports remain permitted. The move appears aimed more at domestic audiences than significantly impacting Ukrainian support."
+    },
+    {
+      "country": "India",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "status": "Monitoring",
+      "description": "India's foreign minister lodged strong protests with the US after American strikes killed three Indian sailors on merchant ships off Oman. The incident highlights risks to neutral shipping in the Iranian blockade."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Markets await outcome of reported US-Iran peace negotiations as Hormuz tensions persist."
+    "notes": "Russian oil output reportedly falls to new lows amid ongoing Ukrainian drone campaigns."
   },
   "update_log": [
+    {
+      "time": "13:19",
+      "text": "Iran announces funeral and burial dates for deceased Supreme Leader Khamenei",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00",
+      "text": "Reports suggest US-Iran peace memorandum could be signed Sunday in Geneva",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:30",
+      "text": "Ukrainian forces reportedly attack all bridges leading to northern Crimea",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:15",
+      "text": "US strikes on Iranian-linked ships off Oman kill three Indian sailors",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:45",
+      "text": "Iran retaliates against US strikes with attacks on Bahrain and Kuwait",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:43 UTC",
       "text": "Trump cancelled planned Iran strikes three hours before launch, citing ongoing peace negotiations.",
@@ -122,5 +240,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-06-13T08:43:34Z"
+  "last_updated": "2026-06-13T13:19:17Z"
 }
