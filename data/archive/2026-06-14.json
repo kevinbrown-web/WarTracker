@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.3,
-    "delta": "+0.3 from yesterday",
+    "score": 6.5,
+    "delta": "No previous data",
     "level": "Elevated",
-    "rationale": "US-Iran deal negotiations advance amid continued strikes and planned ground operations being paused by Trump."
+    "rationale": "Multiple active conflicts with US-Iran peace deal negotiations amid ongoing strikes and nuclear tensions."
   },
   "ticker_items": [
-    "Pakistan PM: US-Iran agree on deal wording to end war",
-    "Trump pauses high-risk ground operation to seize Iranian uranium",
-    "Ukrainian drones force Putin to cancel Russia Day in Red Square",
-    "Israeli strikes hit southern Lebanon after evacuation warnings",
-    "UK forces seize suspected Russian shadow fleet tanker"
+    "US-Iran peace deal expected within 24 hours per Pakistan mediator",
+    "Ukrainian drone kills 1 in Russia's Krasnodar region",
+    "Israel strikes southern Lebanon amid peace negotiations",
+    "NATO weighs Europe defense options as US cuts forces",
+    "Xi Jinping visits Kim Jong Un in North Korea"
   ],
   "new_entrant": {
     "active": false,
@@ -27,6 +27,17 @@
         "method": "Air/Drone",
         "lat": 55.76,
         "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Krasnodar region",
+        "description": "Ukrainian drone strike killed 1 person and injured 3, triggered fire at sea terminal.",
+        "method": "Air/Drone",
+        "lat": 45.04,
+        "lng": 38.98,
         "source_tier": "unverified"
       }
     ],
@@ -63,11 +74,30 @@
         "lat": 32.43,
         "lng": 53.69,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israeli air strikes reported in multiple locations in southern Lebanon.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "unverified"
       }
     ]
   },
   "casualties": {
-    "today": [],
+    "today": [
+      {
+        "incident": "Krasnodar drone strike",
+        "kia": "1",
+        "wia": "3",
+        "civilian": true,
+        "source_tier": "unverified"
+      }
+    ],
     "claimed_totals": []
   },
   "quotes": {
@@ -80,7 +110,20 @@
       }
     ],
     "ukraine": [],
-    "middle_east": []
+    "middle_east": [
+      {
+        "text": "Peace has never been this close as it is now",
+        "speaker": "Shehbaz Sharif",
+        "title": "Pakistani Prime Minister",
+        "date": "2026-06-13"
+      },
+      {
+        "text": "A deal between Washington and Tehran is scheduled to be signed on June 14 and the key Strait of Hormuz would reopen to all immediately afterward",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-06-13"
+      }
+    ]
   },
   "observers": [
     {
@@ -100,15 +143,41 @@
       "flag": "\ud83c\uddec\ud83c\udde7",
       "status": "Active materiel + troops",
       "description": "UK forces conducted a six-hour operation to seize the suspected Russian shadow fleet tanker Smyrtos in the English Channel. The UK Defense Secretary reportedly resigned over budget disputes as Britain faces challenges in its defense strategy amid global nuclear spending surges."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Strategic balancer",
+      "description": "Erdogan has intensified rhetoric against Israel, with Israeli officials describing Ankara's stance as unbearable. Turkey views Israel-Greece-Cyprus Mediterranean partnership as strategic problem."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Egypt prioritizes shielding its fragile economy from widening Middle East conflict fallout."
+    "notes": "Iran war impacts on global economy noted as major concern in potential peace negotiations."
   },
   "update_log": [
+    {
+      "time": "13:23 UTC",
+      "text": "Pakistani PM announces US-Iran peace deal text finalized, signing expected within 24 hours",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Ukrainian drone strike kills 1, injures 3 in Russia's Krasnodar region",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "Israeli strikes reported across southern Lebanon amid peace negotiations",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "NATO weighs alternative European defense plans as US reduces force commitments",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:58 UTC",
       "text": "UK forces seize suspected Russian shadow fleet tanker Smyrtos in English Channel",
@@ -135,5 +204,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-14T08:58:24Z"
+  "last_updated": "2026-06-14T13:23:06Z"
 }
