@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 6.8,
-    "delta": "+0.3 from yesterday",
+    "score": 7,
+    "delta": "No previous score",
     "level": "Elevated",
-    "rationale": "US-Iran airstrikes exchange and imminent deal negotiations alongside continued Ukraine-Russia strikes maintain elevated tensions."
+    "rationale": "UK Royal Marines boarded Russian tanker in English Channel while US-Iran peace talks face disruption from Israeli strikes on Beirut."
   },
   "ticker_items": [
-    "US-Iran war deal reportedly could finalize within 24 hours",
-    "Israeli strikes hit Beirut southern suburbs targeting Hezbollah infrastructure",
-    "Ukrainian drones kill 1 in Russian Oryol region oil facility",
-    "UK forces intercept Russian shadow fleet tanker in English Channel",
-    "Germany pledges to build Europe's strongest conventional army"
+    "UK Royal Marines board Russian shadow fleet tanker in English Channel",
+    "Ukrainian drones target Russian oil facility in Yaroslavl region",
+    "Israeli strikes on Beirut threaten US-Iran peace deal",
+    "Trump warns Israel and Iran not to 'blow it' as deal near",
+    "Iran says Lebanon ceasefire key part of US peace agreement"
   ],
   "new_entrant": {
     "active": false,
@@ -28,6 +28,17 @@
         "lat": 52.97,
         "lng": 36.07,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Yaroslavl region",
+        "description": "Ukrainian drones targeted oil facility described as important to Moscow's fuel reserves",
+        "method": "Air/Drone",
+        "lat": 57.6261,
+        "lng": 39.8845,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -52,6 +63,17 @@
         "lat": 31.52,
         "lng": 34.46,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Beirut",
+        "description": "Israeli military launched strikes on Hezbollah targets potentially complicating US-Iran peace efforts",
+        "method": "Air/Precision Strike",
+        "lat": 33.89,
+        "lng": 35.5,
+        "source_tier": "verified"
       }
     ]
   },
@@ -70,19 +92,45 @@
         "wia": "0",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Gaza City Israeli strike",
+        "kia": "",
+        "wia": "Several",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": []
   },
   "quotes": {
     "russia": [],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Kyiv struck an oil facility in Russia's Yaroslavl region, which he described as important to Moscow's fuel reserves",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "Ukrainian President",
+        "date": "2026-06-14"
+      }
+    ],
     "middle_east": [
       {
         "text": "Iran and the U.S. are moving closer to a deal to end the Iran war, with Qatari mediators in Tehran to finalize the agreement",
         "speaker": "Unknown",
         "title": "Official",
         "date": "2026-06-14"
+      },
+      {
+        "text": "There should be no more attacks by Israel or Hezbollah on special day when deal could be signed",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-06-14"
+      },
+      {
+        "text": "Ending the war in Lebanon is an inseparable part of the US-Iran agreement",
+        "speaker": "Iran Foreign Ministry Spokesperson",
+        "title": "Foreign Ministry Spokesperson",
+        "date": "2026-06-15"
       }
     ]
   },
@@ -104,15 +152,52 @@
       "flag": "\ud83c\uddf6\ud83c\udde6",
       "status": "Mediator + arms supplier",
       "description": "Qatari mediators traveled to Tehran for final negotiations on possible US-Iran deal. Reports suggest agreement could be finalized within 24 hours with immediate Strait of Hormuz reopening."
+    },
+    {
+      "country": "Ireland",
+      "flag": "\ud83c\uddee\ud83c\uddea",
+      "status": "Monitoring",
+      "description": "Minister of State Se\u00e1n Canney stated Ireland would back EU sanctions on Aughinish Alumina if Russia war links are proven. The country is evaluating potential sanctions measures related to Russian connections."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan is reportedly preparing for electronic signing of US-Iran peace agreement within 24 hours. The country appears to be facilitating diplomatic efforts to end the Iran war."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Potential US-Iran deal includes immediate Strait of Hormuz reopening which would significantly impact global energy markets."
+    "notes": "Russian oil output reportedly falling to new lows amid continued Ukrainian strikes on refineries."
   },
   "update_log": [
+    {
+      "time": "16:49 UTC",
+      "text": "Iran says Lebanon ceasefire inseparable part of US-Iran peace agreement",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "UK Royal Marines board Russian shadow fleet tanker in English Channel interdiction operation",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Ukrainian drones strike Russian oil facility in Yaroslavl region",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Israeli strikes on Beirut Hezbollah targets threaten US-Iran peace deal",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Trump warns Israel and Iran against attacks as peace deal negotiations continue",
+      "source_tier": "verified"
+    },
     {
       "time": "11:39 UTC",
       "text": "Qatari mediators in Tehran for final US-Iran war deal negotiations reportedly could conclude within 24 hours",
@@ -134,5 +219,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-15T11:39:35Z"
+  "last_updated": "2026-06-15T16:49:50Z"
 }
