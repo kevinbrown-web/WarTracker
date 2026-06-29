@@ -361,7 +361,7 @@ Escalation score:
             "anthropic-version": "2023-06-01"
         }
     )
-     try:
+    try:
         with urllib.request.urlopen(req, timeout=60) as r:
             response = json.loads(r.read())
     except urllib.error.HTTPError as e:
