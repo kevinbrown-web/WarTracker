@@ -361,8 +361,13 @@ Escalation score:
             "anthropic-version": "2023-06-01"
         }
     )
-    with urllib.request.urlopen(req, timeout=60) as r:
-        response = json.loads(r.read())
+     try:
+        with urllib.request.urlopen(req, timeout=60) as r:
+            response = json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        print(f"Anthropic API error: {e.code} {e.reason}")
+        print(f"Response body: {e.read().decode()}")
+        raise
 
     raw = response["content"][0]["text"].strip()
     print(f"Claude response: {len(raw)} chars")
