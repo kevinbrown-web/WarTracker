@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.0,
-    "delta": "+0.0 from yesterday",
+    "score": 7.2,
+    "delta": "No previous score available",
     "level": "Elevated",
-    "rationale": "Score holds at 7 as US-Iran exchange direct strikes in the Strait of Hormuz and Iran attacks Bahrain and Kuwait with drones and missiles, while Ukraine's deep-strike campaign forces Putin to publicly acknowledge Russian fuel shortages for the first time."
+    "rationale": "Simultaneous elevated tension across two major theaters \u2014 Ukraine long-range strikes deep into Russia with reported US encouragement, Russia rejecting ceasefire talks, and a fragile US-Iran MOU amid resumed Qatar talks following Gulf attacks \u2014 sustains a high Elevated rating with multi-theater escalation risk."
   },
   "ticker_items": [
-    "Iran launches drone/missile strikes on Bahrain and Kuwait after US airstrikes.",
-    "US and Iran agree to pause attacks; Strait of Hormuz vessels moving freely.",
-    "Putin admits fuel shortages caused by Ukrainian drone strikes on refineries.",
-    "Russia doubles mandatory military training hours in high schools through grade 11.",
-    "Hungary blocks Ukraine EU accession cluster openings, stalling membership bid."
+    "Russia rejects Turkish ceasefire push ahead of NATO summit.",
+    "Ukraine strikes oil refineries in Krasnodar and Yaroslavl; Putin admits 'problems'.",
+    "Trump says US-Iran talks resume Tuesday in Qatar after weekend Gulf attacks.",
+    "Dutch govt warns Russia could attack NATO within one year of Ukraine war ending.",
+    "Russia arms LNG tanker with heavy weapons in Baltic Sea; NATO tensions deepen."
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Bahrain and Kuwait struck by Iranian drone and missile attacks following US airstrikes, marking their first direct involvement as targets in the US-Iran conflict."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -27,6 +27,50 @@
         "method": "Air/Drone",
         "lat": 55.75,
         "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Krasnodar",
+        "description": "Ukrainian long-range strike targeted an oil refinery in Russia's Krasnodar region, hundreds of miles inside Russian territory.",
+        "method": "Drone",
+        "lat": 45.04,
+        "lng": 38.98,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Yaroslavl",
+        "description": "Ukrainian long-range strike targeted an oil refinery in Russia's Yaroslavl region as part of a reported surge in deep strikes.",
+        "method": "Drone",
+        "lat": 57.63,
+        "lng": 39.87,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russian missiles and drones killed at least 8 civilians and wounded 35 others across Ukraine, condemned by President Zelenskyy.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Odesa region",
+        "description": "Russian forces resumed firing on merchant vessels near Odesa amid ongoing naval pressure campaign.",
+        "method": "Naval/USV",
+        "lat": 46.48,
+        "lng": 30.74,
         "source_tier": "unverified"
       }
     ],
@@ -74,6 +118,17 @@
         "lat": 33.27,
         "lng": 35.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "US/Israel",
+        "target_country": "Iran",
+        "target_location": "Multiple locations",
+        "description": "Ongoing US-Israel strikes on Iran referenced in Al Jazeera casualty tracker; Strait of Hormuz reopened under MOU framework.",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.39,
+        "source_tier": "verified"
       }
     ]
   },
@@ -98,6 +153,13 @@
         "kia": "Unknown",
         "wia": "Unknown",
         "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian missile/drone strikes on Ukraine",
+        "kia": "8",
+        "wia": "35",
+        "civilian": true,
         "source_tier": "unverified"
       }
     ],
@@ -125,6 +187,30 @@
         "figure": "20\u201335 minutes average battlefield survival",
         "claimed_by": "Unspecified report via New York Post",
         "as_of": "2026-06-28"
+      },
+      {
+        "claim": "Deaths in Iran from US-Israel strikes",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera live tracker (preliminary)",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Lebanon from US-Israel strikes",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera live tracker (preliminary)",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Gulf states from regional conflict",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera live tracker (preliminary)",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Civilian harm incidents documented in Ukraine since Feb 2022",
+        "figure": "2,500+ incidents geolocated",
+        "claimed_by": "Bellingcat",
+        "as_of": "2025-09"
       }
     ]
   },
@@ -141,9 +227,28 @@
         "speaker": "Vladimir Putin",
         "title": "President of Russia",
         "date": "2026-06-28"
+      },
+      {
+        "text": "Russia is facing 'problems' in its four-year-long invasion of Ukraine.",
+        "speaker": "Vladimir Putin",
+        "title": "President of Russia",
+        "date": "2026-06-29"
+      },
+      {
+        "text": "NATO is working on advanced weapons systems for Ukraine designed to disable Russian airfields and airbases, including those located deep inside Russian territory.",
+        "speaker": "Maria Zakharova",
+        "title": "Russian Foreign Ministry Spokeswoman",
+        "date": "2026-06-29"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Condemns 'horrific attacks' as Russian strikes kill 8 and wound 35 in Ukraine.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-06-29"
+      }
+    ],
     "middle_east": [
       {
         "text": "Both sides will stand down for now and vessels can move freely in and around the Strait of Hormuz.",
@@ -162,6 +267,18 @@
         "speaker": "Naim Qassem",
         "title": "Hezbollah Leader",
         "date": "2026-06-27"
+      },
+      {
+        "text": "I welcome the MOU signed on Friday between Israel and Lebanon, which can become the cornerstone of peace.",
+        "speaker": "Isaac Herzog",
+        "title": "President of Israel",
+        "date": "2026-06-29"
+      },
+      {
+        "text": "Any follow-through, even if it is due to external considerations and pressures, could tarnish Oman's standing.",
+        "speaker": "Iran Supreme Leader's Adviser on International Affairs",
+        "title": "Senior Iranian Official",
+        "date": "2026-06-29"
       }
     ]
   },
@@ -219,15 +336,94 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Active materiel + troops",
       "description": "Kim Jong Un called for a 'deadly and destructive offensive posture' following major weapons tests observed by leadership. South Korea responded by vowing to boost drone warfare capabilities in a tit-for-tat posture escalation on the peninsula."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Mediator + arms supplier",
+      "description": "Turkey pushed for a ceasefire ahead of the NATO summit but Russia formally rejected the initiative. Turkey continues to play mediator role while supplying drone technology to Ukraine."
+    },
+    {
+      "country": "Netherlands",
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Dutch defence ministry warned Russia could launch a limited war against NATO within one year of Ukraine war ending. Netherlands also reportedly constructing POW facilities for Russian soldiers and provided \u20ac500M aid package."
+    },
+    {
+      "country": "Estonia",
+      "flag": "\ud83c\uddea\ud83c\uddea",
+      "status": "Basing + logistics",
+      "description": "Estonia's foreign minister stated acceptance of Ukrainian drones entering Estonian airspace as an acceptable cost to hurt Russia. Estonia's border authorities documented Russia arming an LNG tanker in the Baltic Sea."
+    },
+    {
+      "country": "India",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "status": "purchasing",
+      "description": "India in prospective deal to supply BrahMos cruise missiles to the UAE, reflecting UAE military diversification post-Iran conflict and lessons from recent regional warfare."
     }
   ],
   "financial": {
-    "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
-    "wheat_futures": "Unchanged",
-    "notes": "Iranian strikes on Gulf state allies and a fragile US-Iran strike pause maintain elevated energy risk premiums; the Strait of Hormuz remains technically open but shipping normalization is expected to take months per prior reporting."
+    "usd_rub": "",
+    "brent_crude": "",
+    "wheat_futures": "",
+    "notes": "Strait of Hormuz has reopened under a US-Iran MOU but global shipping normalization expected to take months due to insurance premiums, mine clearance, and container shortages across two continents."
   },
   "update_log": [
+    {
+      "time": "13:50",
+      "text": "Russia formally rejects Turkish ceasefire push ahead of NATO summit, diminishing near-term peace prospects.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:45",
+      "text": "Trump confirms US-Iran talks will resume Tuesday in Qatar; Iran has not confirmed participation following weekend Gulf exchanges.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:40",
+      "text": "Putin publicly admits Russia faces 'problems' in Ukraine war as Ukrainian strikes hit refineries in Krasnodar and Yaroslavl.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:35",
+      "text": "Russian missiles and drones kill 8 civilians and wound 35 in Ukraine; Zelenskyy condemns attacks as 'horrific'.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:30",
+      "text": "Dutch defence ministry warns Russia could attempt a limited attack on NATO within one year of Ukraine war ending.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:25",
+      "text": "Estonia documents Russia arming LNG tanker with heavy machine guns in the Baltic Sea, raising NATO maritime tensions.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:20",
+      "text": "Al Jazeera casualty tracker records ~3,468 dead in Iran and ~3,696 in Lebanon from US-Israel strikes (preliminary, as of June 10).",
+      "source_tier": "verified"
+    },
+    {
+      "time": "13:15",
+      "text": "Senior Ukrainian official reportedly told Kyiv Independent that Trump privately encouraged bolder long-range strikes on Russia.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:10",
+      "text": "Putin rejects limits on long-range strikes, claiming Ukraine proposed the restrictions; Ukraine denied this.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "13:05",
+      "text": "China and Russia conducted joint military aircraft incursion into South Korea's air defense identification zone on June 28.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:00",
+      "text": "Israel-Lebanon trilateral framework MOU signed; Israeli President Herzog calls it a potential 'cornerstone of peace' while visiting Romania.",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:51 UTC",
       "text": "US and Iran agree to mutual strike pause; Strait of Hormuz vessels declared free to move, but conflicting statements from both sides cast doubt on resumption of technical talks.",
@@ -279,5 +475,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-06-30T08:51:28Z"
+  "last_updated": "2026-06-30T13:50:12Z"
 }
