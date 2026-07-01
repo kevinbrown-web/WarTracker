@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.2,
+    "score": 8.2,
     "delta": "No previous score available",
-    "level": "Elevated",
-    "rationale": "Multiple active conflict theatres simultaneously in motion \u2014 ongoing Russia-Ukraine war with large-scale drone/missile exchanges, post-ceasefire US-Iran diplomatic fragility with Israel escalating in Lebanon and threatening Iran, Strait of Hormuz only recently reopened, and North Korea/South Korea tensions rising \u2014 collectively sustain an elevated global conflict posture."
+    "level": "High",
+    "rationale": "Multiple active conflict theaters simultaneously elevated: ongoing US-Israel strikes on Iran with 7,000+ combined dead in Iran/Lebanon, Israel escalating in southern Lebanon while threatening imminent Iran strikes, Strait of Hormuz recently reopened but diplomacy fragile, Ukraine drone strikes reaching Moscow, and UK announcing \u00a315B emergency defense buildup citing Russian attack threat."
   },
   "ticker_items": [
-    "US envoys Kushner & Witkoff arrive Doha; Iran-US talks status remains uncertain.",
-    "Israel launches major strike in southern Lebanon; Iran attack threat issued.",
-    "Putin publicly admits Ukrainian strikes caused Russian fuel shortages.",
-    "Korean troops at Kursk reported at ~70% casualties per analysts.",
-    "UN Human Rights Council calls emergency session over Sudan atrocity warnings."
+    "Israel launches massive strikes in southern Lebanon; Netanyahu visits troops on the ground.",
+    "US-Iran talks in Doha uncertain; Tehran says delegation only over frozen funds.",
+    "UK unveils \u00a315B, four-year military spending surge citing Russian threat.",
+    "Ukraine drone campaign targets Moscow area in multi-faceted pressure strategy.",
+    "Russia admits fuel shortage; record 60% of Russians pessimistic about economy."
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "A tripartite Iran-US-Lebanon committee has formed to end the Lebanon war, signaling Lebanon's formal diplomatic entry into the Iran-Israel-US conflict resolution framework."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -71,6 +71,39 @@
         "method": "Air/Drone",
         "lat": 55.75,
         "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Moscow region",
+        "description": "Ukrainian drones struck the Moscow area as part of a multifaceted strategy to unnerve the Kremlin and pressure Russian decision-makers.",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Eastern Ukraine (general front)",
+        "description": "Russian forces continued ground assaults on eastern Ukrainian positions; claims of capturing Kupyansk denied by Ukrainian and open-source analysts.",
+        "method": "Ground/Armored",
+        "lat": 49.72,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kursk oblast",
+        "description": "North Korean troops fighting alongside Russian forces at Kursk reported to have suffered approximately 70% casualties according to open-source analysts.",
+        "method": "Ground/Armored",
+        "lat": 51.73,
+        "lng": 36.19,
         "source_tier": "unverified"
       }
     ],
@@ -140,6 +173,28 @@
         "lat": 33.1,
         "lng": 36.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israel launched a massive bomb blast in southern Lebanon and is reportedly preparing for a permanent occupation of a security strip, with Netanyahu visiting troops in theater.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.57,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Hezbollah",
+        "target_country": "Israel",
+        "target_location": "Northern Israel (general)",
+        "description": "Hezbollah continued drone attacks against Israeli targets; Israeli military officials acknowledged they currently have no solution to the Hezbollah drone threat.",
+        "method": "Air/Drone",
+        "lat": 32.79,
+        "lng": 35.53,
+        "source_tier": "analyst"
       }
     ]
   },
@@ -186,6 +241,41 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Cumulative US-Israel strikes on Iran",
+        "kia": "~3,468",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Cumulative conflict casualties in Lebanon",
+        "kia": "~3,696",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Gulf states conflict-related deaths",
+        "kia": "~28",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "North Korean troops at Kursk (cumulative)",
+        "kia": "~70% of deployed force (est.)",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Venezuela earthquake casualties (non-conflict)",
+        "kia": "~1,719",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "analyst"
       }
     ],
     "claimed_totals": [
@@ -224,6 +314,12 @@
         "figure": "~70% casualties (unverified)",
         "claimed_by": "Unspecified analysts via Fark aggregator",
         "as_of": "2026-06-30"
+      },
+      {
+        "claim": "Hezbollah rocket/missile stockpile remaining",
+        "figure": "~8% of initial 150,000",
+        "claimed_by": "Netanyahu",
+        "as_of": "2026-06-30"
       }
     ]
   },
@@ -246,6 +342,18 @@
         "speaker": "Vladimir Putin",
         "title": "President of Russia",
         "date": "2026-06-30"
+      },
+      {
+        "text": "The West is trying to destabilize Russia.",
+        "speaker": "Vladimir Putin",
+        "title": "President of Russia",
+        "date": "2026-06-29"
+      },
+      {
+        "text": "There is a fuel shortage, but production will increase.",
+        "speaker": "Vladimir Putin",
+        "title": "President of Russia",
+        "date": "2026-06-29"
       }
     ],
     "ukraine": [
@@ -260,6 +368,12 @@
         "speaker": "Mykhailo Fedorov",
         "title": "Ukrainian Minister of Digital Transformation",
         "date": "2026-06-18"
+      },
+      {
+        "text": "Recent drone attacks in the Moscow area reveal a multifaceted strategy.",
+        "speaker": "Ukrainian strategic sources (attributed)",
+        "title": "Ukrainian military/government",
+        "date": "2026-06-30"
       }
     ],
     "middle_east": [
@@ -279,6 +393,24 @@
         "text": "Iran is sending a delegation to Doha only over the matter of frozen funds, not for broader peace talks.",
         "speaker": "Iranian government spokesperson",
         "title": "Tehran official statement",
+        "date": "2026-06-30"
+      },
+      {
+        "text": "We won't leave until the threat is eliminated.",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister of Israel",
+        "date": "2026-06-30"
+      },
+      {
+        "text": "We don't have a solution.",
+        "speaker": "Israeli military official (unnamed)",
+        "title": "Israeli Defense Forces",
+        "date": "2026-06-30"
+      },
+      {
+        "text": "Hezbollah only possesses 8% of its initial 150,000 rocket and missile stockpile.",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister of Israel",
         "date": "2026-06-30"
       }
     ]
@@ -361,9 +493,59 @@
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "The Strait of Hormuz has reopened following the US-Iran deal but global shipping, insurance premiums, mine clearance, and container logistics are expected to take months to normalize, keeping energy market volatility elevated."
+    "notes": "The Strait of Hormuz has reopened following a US-Iran peace deal but global shipping, insurance premiums, and energy supply chains are not expected to normalize for months, keeping energy market stress elevated."
   },
   "update_log": [
+    {
+      "time": "19:26 UTC",
+      "text": "Al Jazeera casualty tracker confirms ~3,468 dead in Iran and ~3,696 dead in Lebanon from US-Israel strikes as of June 10.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "Israel conducting large-scale strikes in southern Lebanon; Netanyahu visits troops and warns Israeli forces will not leave until threat is eliminated.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:00 UTC",
+      "text": "US envoys Kushner and Witkoff arrive in Doha; Iran-US talks remain in doubt over conflicting agendas.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "UK Prime Minister Starmer announces \u00a315 billion, four-year defense spending boost citing Russian attack threat.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:00 UTC",
+      "text": "Iran-US-Lebanon tripartite committee formed to pursue end to Lebanon conflict, per Crypto Briefing report.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Al Jazeera analysts assess Russia's fuel crisis from Ukrainian strikes may affect domestic economy but war will remain Moscow's priority.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "13:00 UTC",
+      "text": "Open-source analysts deny Russian claim of capturing Kupyansk; North Korean troops at Kursk reported at ~70% casualties.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Foreign Policy analyst piece assesses Israel's Hezbollah drone problem as unsolved; official admits 'we don't have a solution'.",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "Fortune reports record 60% of Russians pessimistic about economic outlook following viral influencer critique of Putin.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "War on the Rocks analysis finds Netanyahu reshaping Israeli intelligence structure from Shin Bet to Mossad.",
+      "source_tier": "analyst"
+    },
     {
       "time": "14:01 UTC",
       "text": "UN Human Rights Council announces emergency session on Sudan following warnings of imminent large-scale atrocities near el-Obeid affecting ~500,000 civilians.",
@@ -460,5 +642,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-07-01T14:01:36Z"
+  "last_updated": "2026-07-01T19:26:25Z"
 }
