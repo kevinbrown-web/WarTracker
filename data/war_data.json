@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.0,
-    "delta": "-0.2 from yesterday",
+    "score": 7.2,
+    "delta": "No previous score available",
     "level": "Elevated",
-    "rationale": "US-Iran tit-for-tat strikes in the Hormuz corridor continue alongside Hezbollah voiding the Lebanon-Israel framework, but active US-Iran talks in Doha and a tentative peace framework temper the score slightly from yesterday's 7.2."
+    "rationale": "Multiple active conflict theatres simultaneously in motion \u2014 ongoing Russia-Ukraine war with large-scale drone/missile exchanges, post-ceasefire US-Iran diplomatic fragility with Israel escalating in Lebanon and threatening Iran, Strait of Hormuz only recently reopened, and North Korea/South Korea tensions rising \u2014 collectively sustain an elevated global conflict posture."
   },
   "ticker_items": [
-    "US strikes Iran in retaliation for Hormuz commercial ship attack.",
-    "Hezbollah chief declares Lebanon-Israel agreement null and void.",
-    "Ukrainian drones kill baby and man in Moscow and Belgorod regions.",
-    "SNB intervenes to stabilize franc amid Iran-US-Israel conflict escalation.",
-    "US and Iranian delegations both in Doha; Tehran denies direct negotiations."
+    "US envoys Kushner & Witkoff arrive Doha; Iran-US talks status remains uncertain.",
+    "Israel launches major strike in southern Lebanon; Iran attack threat issued.",
+    "Putin publicly admits Ukrainian strikes caused Russian fuel shortages.",
+    "Korean troops at Kursk reported at ~70% casualties per analysts.",
+    "UN Human Rights Council calls emergency session over Sudan atrocity warnings."
   ],
   "new_entrant": {
     "active": false,
@@ -38,6 +38,39 @@
         "method": "Air/Drone",
         "lat": 50.6,
         "lng": 36.59,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Odesa region",
+        "description": "Russia resumed attacks on merchant vessels near Odesa as ballistic missiles exploited Ukraine's Patriot air defense shortages.",
+        "method": "Ballistic Missile",
+        "lat": 46.48,
+        "lng": 30.73,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Southern supply lines / interior depots",
+        "description": "Ukraine's new mid-range drone campaign continues mauling Russian southern supply lines, disrupting logistics ahead of a planned summer offensive.",
+        "method": "Air/Drone",
+        "lat": 47.5,
+        "lng": 38.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Moscow region / energy infrastructure",
+        "description": "Ukrainian drone strikes on Russian energy infrastructure acknowledged by Putin as causing fuel shortages affecting motorists, businesses, and agriculture.",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
         "source_tier": "unverified"
       }
     ],
@@ -74,6 +107,39 @@
         "lat": 33.58,
         "lng": 35.69,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Southern Lebanon",
+        "description": "Israel conducted a massive bomb strike in southern Lebanon and issued threats of imminent attack on Iran amid ongoing escalation.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.57,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Qaraoun Dam area, Bekaa Valley",
+        "description": "Israel reportedly damaged Lebanon's Qaraoun Dam, raising fears of structural failure and described as part of a pattern of water infrastructure targeting.",
+        "method": "Air/Precision Strike",
+        "lat": 33.57,
+        "lng": 35.67,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Syria",
+        "target_location": "Abdin, southern Syria",
+        "description": "Israeli troops and vehicles entered the Syrian town of Abdin, meeting civilian resistance including road blockades and stone-throwing.",
+        "method": "Ground/Armored",
+        "lat": 33.1,
+        "lng": 36.2,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -99,6 +165,27 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel attacks on Iran (cumulative tracker)",
+        "kia": "~3,468 in Iran; ~3,696 in Lebanon; ~28 in Gulf states",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Venezuelan earthquakes (Bellingcat satellite assessment)",
+        "kia": "~1,719",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "analyst"
+      },
+      {
+        "incident": "North Korean troops at Kursk \u2014 reported 70% casualties",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -119,6 +206,24 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera Live Tracker",
         "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths from US-Israel strikes on Iran",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Deaths from US-Israel strikes on Lebanon",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "North Korean troops KIA/WIA at Kursk",
+        "figure": "~70% casualties (unverified)",
+        "claimed_by": "Unspecified analysts via Fark aggregator",
+        "as_of": "2026-06-30"
       }
     ]
   },
@@ -135,11 +240,23 @@
         "speaker": "Maria Zakharova",
         "title": "Russian Foreign Ministry Spokeswoman",
         "date": "2026-06-29"
+      },
+      {
+        "text": "The fuel shortages caused by Ukrainian strikes are 'not critical.'",
+        "speaker": "Vladimir Putin",
+        "title": "President of Russia",
+        "date": "2026-06-30"
       }
     ],
     "ukraine": [
       {
         "text": "UAF can isolate Crimea by cutting orc logistics.",
+        "speaker": "Mykhailo Fedorov",
+        "title": "Ukrainian Minister of Digital Transformation",
+        "date": "2026-06-18"
+      },
+      {
+        "text": "UAF can isolate Crimea by cutting Russian logistics.",
         "speaker": "Mykhailo Fedorov",
         "title": "Ukrainian Minister of Digital Transformation",
         "date": "2026-06-18"
@@ -157,6 +274,12 @@
         "speaker": "Israel Katz",
         "title": "Israeli Defense Minister",
         "date": "2026-06-29"
+      },
+      {
+        "text": "Iran is sending a delegation to Doha only over the matter of frozen funds, not for broader peace talks.",
+        "speaker": "Iranian government spokesperson",
+        "title": "Tehran official statement",
+        "date": "2026-06-30"
       }
     ]
   },
@@ -226,15 +349,66 @@
       "flag": "\ud83c\uddee\ud83c\uddf3",
       "status": "Supplying dual-use goods",
       "description": "India is in advanced discussions to supply BrahMos cruise missiles to the UAE, with lessons from the Iran conflict cited as influencing Gulf military acquisitions. India's strategic alignment with Israel under Modi is noted alongside its continued arms export expansion. India maintains a strategic balancing posture globally."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "purchasing",
+      "description": "Turkish Defense Minister Ya\u015far G\u00fcler confirmed Ankara is evaluating purchases of SAMP/T and Patriot missile defense systems to bolster air defenses. The announcement comes as NATO prepares to gather in Ankara for a summit focused on burden-sharing."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "The Swiss National Bank intervened to stabilize the franc amid escalating Iran-US-Israel conflict, highlighting persistent geopolitical risk premiums in global markets; Hormuz shipping normalization is expected to take months despite the reopening of the strait."
+    "notes": "The Strait of Hormuz has reopened following the US-Iran deal but global shipping, insurance premiums, mine clearance, and container logistics are expected to take months to normalize, keeping energy market volatility elevated."
   },
   "update_log": [
+    {
+      "time": "14:01 UTC",
+      "text": "UN Human Rights Council announces emergency session on Sudan following warnings of imminent large-scale atrocities near el-Obeid affecting ~500,000 civilians.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "13:00 UTC",
+      "text": "US envoys Kushner and Witkoff arrive in Doha for Iran-related diplomacy; Iran insists talks concern only frozen funds, not a broader deal.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Israel conducts massive strike in southern Lebanon and issues threat of imminent military action against Iran; Iran's Assembly of Experts hardens red lines.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "UK PM Starmer delivers \u00a315 billion Defence Investment Plan speech; critics accuse government of 'half-measures' with no firm 3% GDP spending date.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Putin publicly acknowledges Ukrainian drone strikes caused Russian fuel shortages, calling them 'not critical' in a rare admission.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "ISU lifts ban on Russian and Belarusian figure skaters, allowing neutral-flag competition from next season \u2014 first major sports body rollback since invasion.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Analysts report North Korean troops deployed to Kursk suffered approximately 70% casualties; Russia denies capturing Kupyansk per objective reporting.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "Turkey announces evaluation of SAMP/T and Patriot missile system purchases ahead of NATO Ankara summit focused on burden-sharing.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "00:00 UTC",
+      "text": "Al Jazeera casualty tracker records ~3,468 dead in Iran, ~3,696 in Lebanon, and ~28 in Gulf states from US-Israel strikes since March 2026.",
+      "source_tier": "verified"
+    },
     {
       "time": "09:24 UTC",
       "text": "US and Iranian delegations both in Doha; Qatar mediating indirect nuclear and Hormuz talks as Tehran denies direct US negotiations.",
@@ -286,5 +460,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-07-01T09:24:48Z"
+  "last_updated": "2026-07-01T14:01:36Z"
 }
