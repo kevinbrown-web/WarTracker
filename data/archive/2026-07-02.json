@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.8,
+    "score": 7.2,
     "delta": "No previous score available",
     "level": "Elevated",
-    "rationale": "Multiple active conflict theaters converge: ongoing Russian ground advances toward Kostiantynivka, repeated Ukrainian strikes on Russian oil refineries causing domestic fuel shortages, a fragile US-Iran technical ceasefire process undermined by Israeli strikes, Khamenei reportedly dead with Iran vowing revenge, and NATO pledging \u20ac70B in Ukraine aid at the upcoming summit."
+    "rationale": "Multiple simultaneous high-intensity fronts \u2014 Russia-Ukraine attrition war continues with Zelenskyy warning of imminent mass strikes, a ballistic missile intercepted over Moscow blamed on Ukraine's FP-9, Russian generals assassinated, Israel maintaining indefinite military presence in Lebanon/Syria/Gaza while Netanyahu visits southern Lebanon, and US-Iran Hormuz talks proceeding amid fragile post-war ceasefire \u2014 combine to push the global conflict environment to a sustained Elevated rating."
   },
   "ticker_items": [
-    "Russian forces reach outskirts of Kostiantynivka in Donetsk, Ukraine.",
-    "Ukraine strikes Ufa oil refinery for second time in one week.",
-    "Iran vows revenge after Khamenei death; US-Iran technical talks ongoing in Doha.",
-    "Netanyahu orders fresh strikes on Iran despite US diplomacy efforts.",
-    "NATO allies set to commit \u20ac70B in long-term security aid for Ukraine at 2026 summit."
+    "Russia intercepts ballistic missile over Moscow, blames Ukraine's FP-9 system.",
+    "Zelenskyy warns of imminent massive Russian air strike on Ukraine.",
+    "US-Iran indirect talks in Doha focus on Hormuz reopening and asset freeze.",
+    "Netanyahu visits southern Lebanon, vows troops stay until threat eliminated.",
+    "Sberbank chief publicly urges Putin to end Ukraine war citing economic collapse."
   ],
   "new_entrant": {
-    "active": true,
-    "text": "North Korea's troops fighting at Kursk are reported to have suffered approximately 70% casualties, confirming continued active DPRK military involvement in the Russia-Ukraine conflict."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -50,6 +50,28 @@
         "lat": 48.53,
         "lng": 37.71,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Moscow",
+        "description": "Russia claims it intercepted a Ukrainian FP-9 ballistic missile over Moscow, marking a significant escalation in long-range strike attempts.",
+        "method": "Ballistic Missile",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Ukraine (unspecified)",
+        "description": "Zelenskyy warned of an impending massive Russian air strike on Ukraine, indicating credible intelligence of a planned large-scale attack.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -70,6 +92,17 @@
         "target_country": "Syria",
         "target_location": "Damascus",
         "description": "An explosion inside a busy Damascus cafe killed at least four people and wounded several others.",
+        "method": "Ground/Armored",
+        "lat": 33.51,
+        "lng": 36.29,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown",
+        "target_country": "Syria",
+        "target_location": "Damascus",
+        "description": "An explosive device detonated at a caf\u00e9 in Damascus's Al-Hijaz area, killing at least 6 people and injuring 22.",
         "method": "Ground/Armored",
         "lat": 33.51,
         "lng": 36.29,
@@ -120,6 +153,20 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "analyst"
+      },
+      {
+        "incident": "Damascus caf\u00e9 bombing",
+        "kia": "~6",
+        "wia": "~22",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US strike on Iran (historical, AP reconstruction)",
+        "kia": "100+",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -164,6 +211,36 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera live tracker",
         "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Ukrainian forces total casualties (KIA + WIA combined)",
+        "figure": "525,000\u2013625,000",
+        "claimed_by": "Unspecified major war study (Crypto Briefing-cited)",
+        "as_of": "2026-07-01"
+      },
+      {
+        "claim": "Deaths in Iran (US-Israel strikes)",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Lebanon (US-Israel strikes)",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Gulf states (US-Israel strikes)",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "North Korean troops KIA/WIA at Kursk",
+        "figure": "~70% casualties among deployed contingent",
+        "claimed_by": "Analysts (Fark/unverified aggregation)",
+        "as_of": "2026-06-30"
       }
     ]
   },
@@ -174,6 +251,12 @@
         "speaker": "Col. Joby Rimmer",
         "title": "UK Senior Military Advisor (characterizing Russian position at OSCE)",
         "date": "2026-07-01"
+      },
+      {
+        "text": "I don't believe there is anyone in this country whose primary concern is anything other than an end to military hostilities as soon as possible.",
+        "speaker": "Sberbank Chief (name unspecified in sources)",
+        "title": "CEO, Sberbank",
+        "date": "2026-07-01"
       }
     ],
     "ukraine": [
@@ -181,6 +264,12 @@
         "text": "Ukrainian forces struck Russia's major Ufa oil refinery for the second time in a week.",
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
+        "date": "2026-07-01"
+      },
+      {
+        "text": "Progress made, but no swift victory over Russia.",
+        "speaker": "Oleksandr Syrsky",
+        "title": "Commander-in-Chief, Ukrainian Armed Forces",
         "date": "2026-07-01"
       }
     ],
@@ -207,6 +296,18 @@
         "text": "Iran vows revenge for Khamenei's death amid 2026 conflict escalation.",
         "speaker": "Iranian Officials",
         "title": "Iranian Government",
+        "date": "2026-07-01"
+      },
+      {
+        "text": "We will not leave until the threat has been eliminated.",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister of Israel",
+        "date": "2026-07-01"
+      },
+      {
+        "text": "Trump will not return to full war in Iran unless he has to.",
+        "speaker": "JD Vance",
+        "title": "Vice President of the United States",
         "date": "2026-07-01"
       }
     ]
@@ -277,15 +378,105 @@
       "flag": "\ud83c\uddf8\ud83c\udde6",
       "status": "Strategic balancer",
       "description": "A new Saudi-led axis in the Middle East has emerged as a potential winner from the Iran war, according to Foreign Policy analysis. Saudi Arabia is positioning itself as a regional power broker in the post-conflict landscape."
+    },
+    {
+      "country": "Israel",
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Netanyahu visited southern Lebanon and declared indefinite IDF presence in Lebanon, Syria, and Gaza pending Hezbollah disarmament. Analysts warn Israel's continued Lebanon occupation could undermine the US-Iran Memorandum of Understanding and complicate regional de-escalation efforts."
+    },
+    {
+      "country": "Ireland",
+      "flag": "\ud83c\uddee\ud83c\uddea",
+      "status": "Abstaining",
+      "description": "Ireland began its EU Council presidency while facing domestic pressure over the Russian-owned Aughinish alumina plant in Limerick. A donation of armoured vehicles to Ukraine was rejected by Kyiv as too technologically outdated, creating a minor diplomatic embarrassment for Dublin."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "Russia faces mounting internal pressure with Sberbank's chief publicly urging an end to the war due to economic strain, assassinations of senior generals revealing security vulnerabilities, and reported fuel shortages acknowledged by Putin. Moscow closed rail crossings into the Baltic states, and repatriated Ukrainian troop bodies were reportedly rigged with explosives."
+    },
+    {
+      "country": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "status": "Active materiel + troops",
+      "description": "A Russian shadow fleet vessel surrendered to the French navy, underscoring ongoing Western enforcement of maritime sanctions pressure against Russia."
+    },
+    {
+      "country": "UAE",
+      "flag": "\ud83c\udde6\ud83c\uddea",
+      "status": "purchasing",
+      "description": "The UAE is reportedly considering acquiring India's BrahMos cruise missiles, with lessons from the Iran war influencing future procurement decisions as part of an ongoing military diversification strategy."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "The Strait of Hormuz has reopened following a US-Iran interim accord but global shipping, insurance premiums, mine clearance, and container availability are not expected to normalize for months, keeping energy market risk elevated."
+    "notes": "The Strait of Hormuz has nominally reopened following the US-Iran deal, but shipping experts and insurers warn global supply chains and energy markets will require months to normalize, keeping upward pressure on freight and insurance premiums."
   },
   "update_log": [
+    {
+      "time": "19:04 UTC",
+      "text": "US and Iran hold indirect technical talks in Doha over Hormuz shipping lanes and asset freeze terms.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:04 UTC",
+      "text": "Russia claims interception of Ukrainian FP-9 ballistic missile over Moscow, escalating long-range strike exchange.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:04 UTC",
+      "text": "Zelenskyy warns Ukrainian population of impending massive Russian air strike.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:04 UTC",
+      "text": "Netanyahu visits southern Lebanon, states IDF will remain indefinitely in Lebanon, Syria, and Gaza.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:04 UTC",
+      "text": "Sberbank CEO publicly urges Putin to end Ukraine war, warning Russia's economy cannot survive continued conflict.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:04 UTC",
+      "text": "Explosive device kills 6 and injures 22 at Damascus caf\u00e9 in Al-Hijaz district.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:04 UTC",
+      "text": "Assassinations of Russian generals reported, indicating fractures in Putin's security apparatus.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:04 UTC",
+      "text": "Al Jazeera tracker confirms ~3,468 dead in Iran, ~3,696 in Lebanon from US-Israel strikes since February 28.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "19:04 UTC",
+      "text": "Ukraine purchases 16 Gripen E warplanes; Russia closes Baltic rail crossings and rigs repatriated Ukrainian bodies with explosives.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:04 UTC",
+      "text": "North Korean troops at Kursk reported to have suffered ~70% casualties per analyst assessments.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:04 UTC",
+      "text": "US NATO envoy Whitaker states alliance has moved past Iran operation tensions ahead of Ankara summit.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "19:04 UTC",
+      "text": "China and Russia jointly entered South Korea's ADIZ on June 28, prompting ROK fighter scramble.",
+      "source_tier": "unverified"
+    },
     {
       "time": "13:24 UTC",
       "text": "US and Iran enter technical talks in Doha to secure peace deal and restart Hormuz shipping, mediated by Qatar and Pakistan.",
@@ -397,5 +588,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-07-02T13:24:40Z"
+  "last_updated": "2026-07-02T19:04:55Z"
 }
