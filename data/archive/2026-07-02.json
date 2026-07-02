@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.9,
-    "delta": "-0.3 from yesterday",
-    "level": "High",
-    "rationale": "Marginal de-escalation driven by US-Iran MoU talks resuming in Doha and Hormuz remaining open, offset by Russia-China secret military training revelation, Ukrainian drone strikes deepening Russia's fuel crisis, and Italy blocking NATO's 2027 Ukraine aid commitment ahead of the Istanbul summit."
+    "score": 7.8,
+    "delta": "No previous score available",
+    "level": "Elevated",
+    "rationale": "Multiple active conflict theaters converge: ongoing Russian ground advances toward Kostiantynivka, repeated Ukrainian strikes on Russian oil refineries causing domestic fuel shortages, a fragile US-Iran technical ceasefire process undermined by Israeli strikes, Khamenei reportedly dead with Iran vowing revenge, and NATO pledging \u20ac70B in Ukraine aid at the upcoming summit."
   },
   "ticker_items": [
-    "US-Iran indirect talks resume in Doha via Qatari mediators.",
-    "Ukrainian drone strikes on refineries cause fuel shortages across Russia.",
-    "Russia secretly approved military training for Chinese forces, reports say.",
-    "Italy blocks NATO's 2027 military aid pledge for Ukraine.",
-    "Poland warns of Russian sabotage ops targeting Polish-Ukrainian tensions."
+    "Russian forces reach outskirts of Kostiantynivka in Donetsk, Ukraine.",
+    "Ukraine strikes Ufa oil refinery for second time in one week.",
+    "Iran vows revenge after Khamenei death; US-Iran technical talks ongoing in Doha.",
+    "Netanyahu orders fresh strikes on Iran despite US diplomacy efforts.",
+    "NATO allies set to commit \u20ac70B in long-term security aid for Ukraine at 2026 summit."
   ],
   "new_entrant": {
     "active": true,
-    "text": "China reported to be receiving secret military training from Russia amid the Ukraine war, marking a significant deepening of Sino-Russian military cooperation."
+    "text": "North Korea's troops fighting at Kursk are reported to have suffered approximately 70% casualties, confirming continued active DPRK military involvement in the Russia-Ukraine conflict."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -28,9 +28,54 @@
         "lat": 55.75,
         "lng": 37.62,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Ufa, Bashkortostan",
+        "description": "Ukrainian forces struck the Ufa oil refinery for the second time in a single week, according to President Zelenskyy.",
+        "method": "Drone/Air",
+        "lat": 54.74,
+        "lng": 55.97,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kostiantynivka, Donetsk",
+        "description": "Russian ground forces advanced to the outskirts of Kostiantynivka in Ukraine's Donetsk region, threatening a further shift in frontline control.",
+        "method": "Ground/Armored",
+        "lat": 48.53,
+        "lng": 37.71,
+        "source_tier": "unverified"
       }
     ],
-    "middle_east": []
+    "middle_east": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Iran",
+        "target_location": "Iran (location unspecified)",
+        "description": "Netanyahu ordered fresh Israeli strikes on Iran amid the 2026 conflict, citing a nuclear threat, despite ongoing US diplomacy efforts.",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.39,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown",
+        "target_country": "Syria",
+        "target_location": "Damascus",
+        "description": "An explosion inside a busy Damascus cafe killed at least four people and wounded several others.",
+        "method": "Ground/Armored",
+        "lat": 33.51,
+        "lng": 36.29,
+        "source_tier": "unverified"
+      }
+    ]
   },
   "casualties": {
     "today": [
@@ -54,6 +99,27 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "North Korean troops at Kursk",
+        "kia": "~70% casualty rate reported",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Damascus cafe explosion",
+        "kia": "~4",
+        "wia": "Several",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Venezuela earthquakes (regional context)",
+        "kia": "~1,719",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "analyst"
       }
     ],
     "claimed_totals": [
@@ -80,12 +146,44 @@
         "figure": "~8% of initial 150,000",
         "claimed_by": "Netanyahu",
         "as_of": "2026-06-30"
+      },
+      {
+        "claim": "US-Israel strikes on Iran dead",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "US-Israel strikes on Lebanon dead",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Gulf states dead from US-Israel strikes",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
       }
     ]
   },
   "quotes": {
-    "russia": [],
-    "ukraine": [],
+    "russia": [
+      {
+        "text": "Russia talks peace while waging war.",
+        "speaker": "Col. Joby Rimmer",
+        "title": "UK Senior Military Advisor (characterizing Russian position at OSCE)",
+        "date": "2026-07-01"
+      }
+    ],
+    "ukraine": [
+      {
+        "text": "Ukrainian forces struck Russia's major Ufa oil refinery for the second time in a week.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-07-01"
+      }
+    ],
     "middle_east": [
       {
         "text": "We won't leave until the threat is eliminated.",
@@ -97,6 +195,18 @@
         "text": "I lost a little weight.",
         "speaker": "Benjamin Netanyahu",
         "title": "Prime Minister of Israel",
+        "date": "2026-07-01"
+      },
+      {
+        "text": "Israeli forces would remain in self-proclaimed security zones in Lebanon, Syria and Gaza without any timeline for withdrawal.",
+        "speaker": "Israel Defence Minister",
+        "title": "Israeli Minister of Defence",
+        "date": "2026-07-01"
+      },
+      {
+        "text": "Iran vows revenge for Khamenei's death amid 2026 conflict escalation.",
+        "speaker": "Iranian Officials",
+        "title": "Iranian Government",
         "date": "2026-07-01"
       }
     ]
@@ -155,15 +265,87 @@
       "flag": "\ud83c\uddf6\ud83c\udde6",
       "status": "Mediator + arms supplier",
       "description": "Qatar is serving as the active diplomatic intermediary for US-Iran nuclear and ceasefire negotiations. Iranian officials met with Qatari mediators on July 1 to discuss ongoing negotiations. Qatar's role as a neutral venue remains central to the fragile de-escalation process in the Middle East."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Supplying dual-use goods",
+      "description": "German Chancellor Merz called for a ceasefire as a prerequisite for Middle East reconstruction. Germany also announced it will produce US weapon systems under a new defense partnership, reshaping European NATO posture."
+    },
+    {
+      "country": "Saudi Arabia",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "status": "Strategic balancer",
+      "description": "A new Saudi-led axis in the Middle East has emerged as a potential winner from the Iran war, according to Foreign Policy analysis. Saudi Arabia is positioning itself as a regional power broker in the post-conflict landscape."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "The Strait of Hormuz has reopened following the US-Iran MoU but shipping insurance premiums, mine clearance operations, and a cross-continental container shortage mean global supply chains are not expected to normalize for months."
+    "notes": "The Strait of Hormuz has reopened following a US-Iran interim accord but global shipping, insurance premiums, mine clearance, and container availability are not expected to normalize for months, keeping energy market risk elevated."
   },
   "update_log": [
+    {
+      "time": "13:24 UTC",
+      "text": "US and Iran enter technical talks in Doha to secure peace deal and restart Hormuz shipping, mediated by Qatar and Pakistan.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:20 UTC",
+      "text": "Iran vows revenge for Khamenei's death; Netanyahu orders fresh Israeli strikes on Iran despite US diplomacy.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:15 UTC",
+      "text": "Zelenskyy confirms Ukraine struck Ufa oil refinery for second time in one week.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:10 UTC",
+      "text": "Russian forces reported to have reached outskirts of Kostiantynivka in Donetsk region.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:05 UTC",
+      "text": "AP reports growing fuel shortages and rationing across Russia following months of Ukrainian refinery strikes.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "13:00 UTC",
+      "text": "Al Jazeera casualty tracker: 3,468 dead in Iran, 3,696 dead in Lebanon, 28 dead in Gulf states from US-Israel strikes.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:55 UTC",
+      "text": "NATO allies set to commit \u20ac70B in long-term security aid for Ukraine at 2026 summit.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:50 UTC",
+      "text": "At least four killed in explosion inside busy Damascus cafe.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:45 UTC",
+      "text": "Intelligence documents reveal Russia's defense minister approved covert military training program in China.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:40 UTC",
+      "text": "Israel defence minister says troops to remain 'indefinitely' in Lebanon, Syria, and Gaza security zones.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:35 UTC",
+      "text": "North Korean troops at Kursk reportedly suffered ~70% casualties; Russia denies capturing Kupyansk.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "UK condemns Russia at OSCE for talking peace while continuing military aggression; calls for immediate ceasefire.",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:37",
       "text": "US and Iranian officials hold indirect lower-level technical talks in Doha via Qatari mediators following the US-Iran MoU.",
@@ -215,5 +397,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-07-02T08:37:46Z"
+  "last_updated": "2026-07-02T13:24:40Z"
 }
