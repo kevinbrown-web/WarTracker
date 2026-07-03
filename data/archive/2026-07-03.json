@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "+0.3 from yesterday",
+    "score": 7.2,
+    "delta": "No previous score available",
     "level": "Elevated",
-    "rationale": "Russia launched a massive overnight missile and drone assault on Kyiv killing at least 13 civilians, while Khamenei's funeral draws world leaders to Tehran amid stalled US-Iran nuclear talks and continued Strait of Hormuz disruption."
+    "rationale": "Multiple simultaneous active conflict zones \u2014 ongoing Russia-Ukraine drone/missile campaign including a Kyiv strike, a fragile and faltering US-Iran post-war peace process with no Doha progress, 1,000 days of Gaza war, CENTCOM base restructuring after Iranian attacks, and Baltic states lifting nuclear bans \u2014 collectively sustain a broadly elevated global threat environment."
   },
   "ticker_items": [
-    "Russia kills 13+ in overnight Kyiv missile and drone barrage.",
-    "Khamenei state funeral underway; world leaders gather in Tehran.",
-    "US-Iran Hormuz talks conclude with no breakthrough on nuclear issues.",
-    "Ukraine strikes Russian refineries worsening domestic fuel shortages.",
-    "Germany charges Nord Stream suspect with war crime complicity."
+    "Russia launches drone-and-missile attack on Kyiv; Ukraine seeks Patriot production licenses.",
+    "US-Iran Doha talks conclude with no lasting peace progress; Khamenei funeral warnings issued.",
+    "Germany charges former Ukrainian officer as Nord Stream pipeline attack co-perpetrator.",
+    "Lithuania scraps constitutional nuclear weapons ban, following Finland's recent move.",
+    "Pentagon weighs dispersing Gulf bases after Iranian missile strikes exposed vulnerabilities."
   ],
   "new_entrant": {
     "active": false,
@@ -50,9 +50,43 @@
         "lat": 55.66,
         "lng": 37.77,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia launched a combined drone-and-missile attack on Kyiv, continuing a pattern of strikes targeting the capital.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Frontline cities (multiple)",
+        "description": "Russian FPV drones increasingly targeted transport, emergency services, and civilians across frontline cities, with tactics spreading from Kherson region.",
+        "method": "Air/Drone",
+        "lat": 46.63,
+        "lng": 32.61,
+        "source_tier": "unverified"
       }
     ],
-    "middle_east": []
+    "middle_east": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "United States",
+        "target_location": "Al Udeid Air Base / Bahrain (Gulf bases)",
+        "description": "Prior Iranian missile and drone attacks on US Gulf bases exposed significant vulnerabilities, prompting Pentagon review of force posture; no new strikes confirmed today.",
+        "method": "Missile/Surface",
+        "lat": 25.12,
+        "lng": 51.31,
+        "source_tier": "unverified"
+      }
+    ]
   },
   "casualties": {
     "today": [
@@ -62,6 +96,41 @@
         "wia": "dozens",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "US-Israel attacks on Iran (cumulative tracker)",
+        "kia": "~3,468",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel attacks on Lebanon (cumulative tracker)",
+        "kia": "~3,696",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel attacks \u2014 Gulf states (cumulative tracker)",
+        "kia": "~28",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "North Korean troops at Kursk (analyst estimate)",
+        "kia": "est. 70% casualties among deployed contingent",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Venezuela earthquakes (non-conflict, Bellingcat)",
+        "kia": "~1,719",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "analyst"
       }
     ],
     "claimed_totals": [
@@ -82,11 +151,30 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera live tracker",
         "as_of": "2026-06-10"
+      },
+      {
+        "claim": "North Korean troop casualties at Kursk",
+        "figure": "~70% casualty rate",
+        "claimed_by": "Unspecified analysts (Fark thread)",
+        "as_of": "2026-06-30"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "The West is trying to destabilize Russia.",
+        "speaker": "Vladimir Putin",
+        "title": "President of Russia",
+        "date": "2026-06-29"
+      },
+      {
+        "text": "Putin shows no willingness to negotiate a ceasefire.",
+        "speaker": "German Foreign Office",
+        "title": "Official statement",
+        "date": "2026-07-02"
+      }
+    ],
     "ukraine": [
       {
         "text": "Moscow is preparing a massive attack.",
@@ -99,6 +187,18 @@
         "speaker": "Oleksandr Syrsky",
         "title": "Commander-in-Chief, Ukrainian Armed Forces",
         "date": "2026-07-01"
+      },
+      {
+        "text": "Progress has been made, but there will be no swift victory over Russia.",
+        "speaker": "Oleksandr Syrsky",
+        "title": "Commander-in-Chief, Ukrainian Armed Forces",
+        "date": "2026-07-01"
+      },
+      {
+        "text": "Kyiv wants Russia's shadow fleet ships to be classified as legitimate military targets.",
+        "speaker": "Ukrainian Government",
+        "title": "Official position",
+        "date": "2026-07-02"
       }
     ],
     "middle_east": [
@@ -118,6 +218,12 @@
         "text": "The release of frozen assets was expedited during talks in Switzerland and IAEA access remains denied.",
         "speaker": "Mohammad Bagher Ghalibaf",
         "title": "Speaker of the Iranian Parliament and chief negotiator",
+        "date": "2026-07-02"
+      },
+      {
+        "text": "Tehran warns against attacks as it prepares for Khamenei's funeral; US-Iran talks in Doha concluded with no sign of progress towards lasting peace.",
+        "speaker": "Iranian Government",
+        "title": "Official warning",
         "date": "2026-07-02"
       }
     ]
@@ -164,15 +270,83 @@
       "flag": "\ud83c\uddee\ud83c\uddf7",
       "status": "Monitoring",
       "description": "Supreme Leader Khamenei's state funeral is drawing international heads of state to Tehran. Iran confirmed frozen assets were released but denied IAEA access, while nuclear talks with the US remain inconclusive."
+    },
+    {
+      "country": "Lithuania",
+      "flag": "\ud83c\uddf1\ud83c\uddf9",
+      "status": "Strategic balancer",
+      "description": "Lithuania scrapped its constitutional ban on nuclear weapons, aligning with NATO's evolving deterrence posture and following Finland's recent similar move. Russia closed rail crossings into the Baltic states, increasing regional tension. The move signals deepening Baltic integration into NATO's nuclear-sharing framework."
+    },
+    {
+      "country": "Ukraine",
+      "flag": "\ud83c\uddfa\ud83c\udde6",
+      "status": "Active materiel + troops",
+      "description": "Ukraine purchased 16 Gripen E warplanes and is seeking US licenses for Patriot missile domestic production following the Kyiv attack. Ukrainian forces continue to resist Russian advances with Commander Syrsky acknowledging no swift victory. Kyiv is pushing to have Russia's shadow fleet designated as legitimate military targets."
+    },
+    {
+      "country": "Israel",
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Israel continues operations on multiple fronts including Gaza at the 1,000-day mark and Lebanon, where analysts say the peace agreement is structured to fail. Netanyahu has reshaped Israeli intelligence agencies including Shin Bet and Mossad. CENTCOM is considering relocating US bases to Israel's Negev desert."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated \u2014 above pre-war baseline",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Strait of Hormuz shipping traffic remains well below pre-war levels; global oil inventories are being drawn down and supply chain normalisation is estimated to take the better part of a year, keeping energy prices elevated."
+    "notes": "The Strait of Hormuz remains open post-US-Iran deal but shipping insurance premiums, mine clearance operations, and a container shortage across two continents mean global supply chains will not normalize for the better part of a year."
   },
   "update_log": [
+    {
+      "time": "13:28 UTC",
+      "text": "UN sounds 'red alert' over human rights catastrophe in Sudan's el-Obeid amid fears of imminent RSF assault.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "13:00 UTC",
+      "text": "War on the Rocks analysis: Trump administration's approach to US troops in Europe described as misguided, following Hegseth's Brussels NATO speech on June 18.",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "CENTCOM actively considering relocation of US military bases from Gulf to Israel's Negev following Iranian missile and drone attacks.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "Germany charges former Ukrainian army officer as co-perpetrator of war crime over 2022 Nord Stream pipeline blasts.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "US-Iran talks conclude in Doha with no progress toward lasting peace; Tehran warns against attacks ahead of Khamenei funeral.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "Russia launches drone-and-missile attack on Kyiv; Zelensky seeks US licenses for domestic Patriot missile production.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Lithuania scraps constitutional ban on nuclear weapons, aligning with NATO strategy; Russia closes rail crossings into Baltic states.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "07:00 UTC",
+      "text": "Gaza war marks 1,000th day; Palestinian future remains deeply uncertain with 84% of Israeli children showing trauma signs.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "German Foreign Office states Putin shows no willingness to negotiate a ceasefire in Ukraine.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "00:00 UTC",
+      "text": "Al Jazeera casualty tracker confirms ~3,468 dead in Iran, ~3,696 in Lebanon, and ~28 in Gulf states from US-Israel strikes (data as of June 10).",
+      "source_tier": "verified"
+    },
     {
       "time": "08:44 UTC",
       "text": "Khamenei state funeral underway in Tehran with multiple world leaders in attendance.",
@@ -214,5 +388,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-07-03T08:44:01Z"
+  "last_updated": "2026-07-03T13:28:56Z"
 }
