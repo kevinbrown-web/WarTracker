@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.2,
+    "score": 8.2,
     "delta": "No previous score available",
-    "level": "Elevated",
-    "rationale": "Multiple simultaneous active conflict theaters \u2014 ongoing US-Israel war with Iran under fragile ceasefire, Ukraine striking deep into Russian energy infrastructure triggering fuel rationing, US warning Poland of imminent Russian provocation against NATO, and Iran calling for Islamic security alliance against Israel \u2014 collectively sustain a high-elevated threat environment."
+    "level": "High",
+    "rationale": "Simultaneous high-intensity conflicts across Eastern Europe and the Middle East \u2014 including one of Russia's largest Kyiv strikes of 2026 killing 27+, Khamenei's funeral amid a fragile US-Iran ceasefire, Israel allegedly plotting to kill Iran's peace negotiators, Lithuania and Finland moving toward nuclear hosting, and China reportedly training Russian soldiers \u2014 collectively sustain a high escalation environment across multiple theaters."
   },
   "ticker_items": [
-    "Ukraine strikes force Russia to suspend gasoline sales in Novorossiysk.",
-    "Khamenei laid in state; IRGC chief makes first public appearance since war.",
-    "US warns Poland of potential Russian provocation targeting NATO resolve.",
-    "Iran's acting defense minister calls for joint Islamic security alliance vs. Israel.",
-    "Interpol names Ukrainian woman as suspect in Monaco bombing targeting Russia-linked tycoon."
+    "Russia launches one of largest Kyiv strikes of 2026; at least 27 killed.",
+    "Iran begins 7-day state funeral for Khamenei, slain in US-Israel airstrike.",
+    "Poland PM Tusk warns of 'critical months ahead' amid Russian attack fears.",
+    "Lithuania launches constitutional bid to allow nuclear weapons hosting.",
+    "Germany holds urgent talks with China over alleged Russian soldier training."
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Finland has amended nuclear regulations to lift the ban on importing, storing, and producing nuclear weapons, marking a significant shift from historic neutrality toward collective NATO nuclear posture."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -72,6 +72,28 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia carried out one of its largest strikes on Kyiv of 2026, killing at least 27 people and wounding scores of others days before the NATO summit.",
+        "method": "Drone/Missile combined strike",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia deployed new jet-powered drones reaching 310 mph in strike packages against Ukraine, designed to overwhelm air defenses and maximize civilian harm.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -93,6 +115,17 @@
         "target_location": "Gaza, Lebanon, Judea and Samaria",
         "description": "IDF weekly review confirmed destruction of tunnels in Gaza and arrest of approximately 60 suspects across Lebanon, Gaza, and Judea and Samaria.",
         "method": "Ground/Armored",
+        "lat": 31.5,
+        "lng": 34.47,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Shuja'iyya, Gaza",
+        "description": "IDF eliminated Hamas cell commander Muhammad Na'im Jandiya, described as responsible for the October 7 abduction of IDF Captain Daniel Perez and holding other hostages.",
+        "method": "Air/Precision Strike",
         "lat": 31.5,
         "lng": 34.47,
         "source_tier": "unverified"
@@ -127,6 +160,13 @@
         "kia": "est. 70% casualty rate reported",
         "wia": "Unknown",
         "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian strike on Kyiv",
+        "kia": "~27",
+        "wia": "est. scores",
+        "civilian": true,
         "source_tier": "unverified"
       }
     ],
@@ -196,6 +236,12 @@
         "speaker": "Oleksandr Syrsky",
         "title": "Commander-in-Chief, Ukrainian Armed Forces",
         "date": "2026-07-01"
+      },
+      {
+        "text": "Progress has been made, but there will be no swift victory over Russia.",
+        "speaker": "Oleksandr Syrsky",
+        "title": "Commander-in-Chief, Ukrainian Armed Forces",
+        "date": "2026-07-01"
       }
     ],
     "middle_east": [
@@ -210,6 +256,12 @@
         "speaker": "Iran Acting Defense Minister",
         "title": "Acting Defense Minister of Iran",
         "date": "2026-07-03"
+      },
+      {
+        "text": "Israel must not be able to 'dynamite' the US-Iran deal.",
+        "speaker": "Recep Tayyip Erdogan",
+        "title": "President of T\u00fcrkiye",
+        "date": "2026-07-04"
       }
     ]
   },
@@ -285,15 +337,104 @@
       "flag": "\ud83c\uddf7\ud83c\uddfa",
       "status": "Active materiel + troops",
       "description": "Russia faces a severe internal fuel crisis following Ukrainian strikes on refineries, with gasoline sales suspended to civilians in multiple cities and Cossacks deployed for crowd management. Putin has nonetheless signaled intent to continue the war, while Moscow has closed rail crossings into the Baltic states."
+    },
+    {
+      "country": "Poland",
+      "flag": "\ud83c\uddf5\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Prime Minister Tusk warned publicly that Poland faces 'critical months ahead' in response to Russian threat, citing media reports of a planned Russian attack. Poland is actively preparing multiple contingency scenarios for direct confrontation. Poland also urged Ukraine to repair bilateral ties strained by a World War II historical dispute."
+    },
+    {
+      "country": "Lithuania",
+      "flag": "\ud83c\uddf1\ud83c\uddf9",
+      "status": "Active materiel + troops",
+      "description": "Lithuanian lawmakers launched a constitutional amendment to remove the country's ban on hosting nuclear weapons, following President Nauseda's characterization of the ban as 'outdated.' This mirrors Finland's concurrent regulatory changes and reflects a broader Baltic-Nordic shift toward collective nuclear deterrence posture within NATO."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Active materiel + troops",
+      "description": "Following Operation Sindoor, Pakistan established a new Army Rocket Force Command to bolster conventional strike capabilities as a deterrence adaptation. The move reflects lessons learned from India's below-threshold strike doctrine and the limits of nuclear deterrence exposed during the conflict. India's S-400 systems reportedly blunted Pakistani attacks effectively."
+    },
+    {
+      "country": "India",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "Operation Sindoor demonstrated India's capacity to conduct below-threshold conventional strikes while managing nuclear escalation risk with Pakistan. India's S-400 air defense systems proved effective against Pakistani retaliatory strikes. India is also in discussions to supply BrahMos cruise missiles to the UAE, leveraging lessons from the Iran war."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "The Strait of Hormuz has reopened under a US-Iran peace framework, but global shipping insurance premiums, mine clearance operations, and a container shortage mean supply chain normalization is expected to take the better part of a year; Russian domestic fuel prices are rising sharply due to Ukrainian strikes on refinery infrastructure."
+    "notes": "The Strait of Hormuz has reopened following the US-Iran memorandum of understanding, but global shipping disruption \u2014 including insurance premiums, mine clearance, and container shortages \u2014 is expected to persist for months, keeping energy and commodity markets on edge."
   },
   "update_log": [
+    {
+      "time": "18:51",
+      "text": "Update run initialized; no prior escalation score baseline available for delta calculation.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Russia launched one of its largest strikes on Kyiv of 2026, killing at least 27 civilians days before the NATO summit.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Iran began a seven-day state funeral for Supreme Leader Khamenei, killed in a US-Israeli airstrike earlier in 2026, with ~100 foreign delegations attending under a tense ceasefire.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "US officials attempted to warn Iran that Israel may have been planning to assassinate Iranian peace mediators during spring 2026 ceasefire negotiations.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Poland PM Tusk warned of 'critical months ahead' citing media reports of a planned Russian attack on Poland.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Lithuania launched a constitutional bid to remove its nuclear weapons hosting ban; Finland simultaneously lifted its nuclear import/storage restrictions.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Germany held urgent diplomatic talks with China over reports of covert Chinese training of Russian soldiers.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "US Defense Secretary Hegseth scrapped planned European troop cuts following internal opposition, maintaining NATO force posture.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Russia deployed new jet-powered drones capable of 310 mph in strikes against Ukraine, complicating air defense intercept.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "IDF eliminated Hamas commander Muhammad Na'im Jandiya in Gaza, linked to October 7 abductions.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "T\u00fcrkiye's Erdogan accused Israel of trying to 'dynamite' the US-Iran deal; Iran called for Islamic security alliance in talks with Turkish counterpart.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Pakistan established Army Rocket Force Command post-Operation Sindoor to develop conventional deterrence below nuclear threshold.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Al Jazeera casualty tracker confirmed ~3,468 dead in Iran, ~3,696 in Lebanon, ~28 in Gulf states from US-Israel strikes as of June 10.",
+      "source_tier": "verified"
+    },
     {
       "time": "12:54 UTC",
       "text": "Khamenei state funeral begins in Tehran with 100 foreign delegations attending under tense ceasefire; IRGC commander makes first public appearance since war began.",
@@ -390,5 +531,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-07-04T12:54:34Z"
+  "last_updated": "2026-07-04T18:51:36Z"
 }
