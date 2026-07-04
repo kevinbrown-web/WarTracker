@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.0,
-    "delta": "-0.2 from yesterday",
+    "score": 7.2,
+    "delta": "No previous score available",
     "level": "Elevated",
-    "rationale": "Continued Russian missile and drone strikes on Ukraine including Kyiv and Zaporizhzhia, Khamenei funeral tensions with IRGC general resurfacing, Israeli defense minister ordering IDF readiness for independent Iran strike, and NATO cohesion stress from Trump's public criticism keep the score elevated, slightly offset by ongoing Doha indirect talks and Hormuz reopening stability."
+    "rationale": "Multiple simultaneous active conflict theaters \u2014 ongoing US-Israel war with Iran under fragile ceasefire, Ukraine striking deep into Russian energy infrastructure triggering fuel rationing, US warning Poland of imminent Russian provocation against NATO, and Iran calling for Islamic security alliance against Israel \u2014 collectively sustain a high-elevated threat environment."
   },
   "ticker_items": [
-    "Russia kills 4, wounds 10 in overnight Ukraine strikes following Kyiv mass attack.",
-    "Iran holds 'mega-funeral' for Khamenei; US and Israel warned against attacks.",
-    "IRGC commander publicly reappears for first time in months ahead of funeral.",
-    "Trump calls NATO 'one-sided,' deepening alliance rift ahead of Ankara summit.",
-    "Israel defense minister orders IDF readiness for independent strike on Iran."
+    "Ukraine strikes force Russia to suspend gasoline sales in Novorossiysk.",
+    "Khamenei laid in state; IRGC chief makes first public appearance since war.",
+    "US warns Poland of potential Russian provocation targeting NATO resolve.",
+    "Iran's acting defense minister calls for joint Islamic security alliance vs. Israel.",
+    "Interpol names Ukrainian woman as suspect in Monaco bombing targeting Russia-linked tycoon."
   ],
   "new_entrant": {
     "active": false,
@@ -50,6 +50,28 @@
         "lat": 47.84,
         "lng": 35.14,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Novorossiysk and multiple Russian cities",
+        "description": "Ukrainian strikes on Russian energy infrastructure triggered severe fuel shortages, forcing suspension of gasoline sales to private motorists in Novorossiysk and other cities.",
+        "method": "Drone/Air",
+        "lat": 44.72,
+        "lng": 37.77,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia launched a combined drone-and-missile attack on Kyiv as part of continued strikes against Ukrainian territory.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -62,6 +84,17 @@
         "method": "Ballistic Missile",
         "lat": 31.78,
         "lng": 35.22,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "IDF",
+        "target_country": "Gaza / Lebanon / West Bank",
+        "target_location": "Gaza, Lebanon, Judea and Samaria",
+        "description": "IDF weekly review confirmed destruction of tunnels in Gaza and arrest of approximately 60 suspects across Lebanon, Gaza, and Judea and Samaria.",
+        "method": "Ground/Armored",
+        "lat": 31.5,
+        "lng": 34.47,
         "source_tier": "unverified"
       }
     ]
@@ -80,6 +113,20 @@
         "kia": "0",
         "wia": "7",
         "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US-Israel attacks on Iran (cumulative tracker)",
+        "kia": "~3,468 in Iran; ~3,696 in Lebanon; ~28 in Gulf states",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "North Korean troops at Kursk",
+        "kia": "est. 70% casualty rate reported",
+        "wia": "Unknown",
+        "civilian": false,
         "source_tier": "unverified"
       }
     ],
@@ -101,6 +148,24 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera casualty tracker",
         "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Total deaths in Iran from US-Israel strikes",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Total deaths in Lebanon from US-Israel strikes",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Total deaths in Gulf states from US-Israel strikes",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
       }
     ]
   },
@@ -111,11 +176,23 @@
         "speaker": "Vladimir Putin",
         "title": "President of Russia",
         "date": "2026-07-03"
+      },
+      {
+        "text": "Ukraine and NATO are resorting to terrorism because they have been effectively demilitarized by Russia.",
+        "speaker": "Andrey Martyanov",
+        "title": "Analyst (RT)",
+        "date": "2026-07-03"
       }
     ],
     "ukraine": [
       {
         "text": "Progress has been made but there will be no swift victory over Russia.",
+        "speaker": "Oleksandr Syrsky",
+        "title": "Commander-in-Chief, Ukrainian Armed Forces",
+        "date": "2026-07-01"
+      },
+      {
+        "text": "Progress made, but no swift victory over Russia.",
         "speaker": "Oleksandr Syrsky",
         "title": "Commander-in-Chief, Ukrainian Armed Forces",
         "date": "2026-07-01"
@@ -127,6 +204,12 @@
         "speaker": "Israel Katz",
         "title": "Israeli Minister of Defense",
         "date": "2026-07-02"
+      },
+      {
+        "text": "The presence of extra-regional forces has become a source of instability; a joint security mechanism among Islamic countries is needed.",
+        "speaker": "Iran Acting Defense Minister",
+        "title": "Acting Defense Minister of Iran",
+        "date": "2026-07-03"
       }
     ]
   },
@@ -172,15 +255,95 @@
       "flag": "\ud83c\uddef\ud83c\uddf5",
       "status": "Monitoring",
       "description": "Japan reduced LNG imports by 7% in favor of cheaper coal as elevated energy prices persist despite Hormuz reopening. The shift reflects ongoing supply chain disruption stemming from the US-Iran conflict even as the Strait of Hormuz resumes partial normal operations."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Active materiel + troops",
+      "description": "North Korean troops deployed to Russia's Kursk region reportedly suffered approximately 70% casualties. Kim Jong Un sent congratulatory messages to Xi Jinping marking CCP anniversary, signaling continued alignment with the Russia-China axis."
+    },
+    {
+      "country": "Finland",
+      "flag": "\ud83c\uddeb\ud83c\uddee",
+      "status": "Active materiel + troops",
+      "description": "Finland has reportedly amended nuclear regulations to lift bans on import, storage, and production of nuclear weapons-related materials, marking a significant break from its historic neutrality posture. This follows Finland's NATO accession and growing concerns about Russian aggression."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Mediator + arms supplier",
+      "description": "Iran's acting defense minister held talks with the Turkish defense minister to discuss formation of a joint Islamic security mechanism. Turkey continues to occupy a mediating role between NATO and regional actors while maintaining dialogue with Tehran."
+    },
+    {
+      "country": "Ukraine",
+      "flag": "\ud83c\uddfa\ud83c\udde6",
+      "status": "Active materiel + troops",
+      "description": "Ukraine has purchased 16 Gripen E fighter aircraft and continues deep strikes on Russian energy infrastructure including over 50 oil refining sites. Kyiv is pushing for Russia's shadow fleet vessels to be classified as legitimate military targets."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "Russia faces a severe internal fuel crisis following Ukrainian strikes on refineries, with gasoline sales suspended to civilians in multiple cities and Cossacks deployed for crowd management. Putin has nonetheless signaled intent to continue the war, while Moscow has closed rail crossings into the Baltic states."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Hormuz reopening has not yet normalized global shipping or LNG prices, with analysts warning full supply chain recovery could take the better part of a year."
+    "notes": "The Strait of Hormuz has reopened under a US-Iran peace framework, but global shipping insurance premiums, mine clearance operations, and a container shortage mean supply chain normalization is expected to take the better part of a year; Russian domestic fuel prices are rising sharply due to Ukrainian strikes on refinery infrastructure."
   },
   "update_log": [
+    {
+      "time": "12:54 UTC",
+      "text": "Khamenei state funeral begins in Tehran with 100 foreign delegations attending under tense ceasefire; IRGC commander makes first public appearance since war began.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:54 UTC",
+      "text": "Russia suspends gasoline sales to private motorists in Novorossiysk amid deepening fuel crisis caused by Ukrainian strikes on over 50 refinery sites.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:54 UTC",
+      "text": "US warns Poland of a potential Russian provocation designed to test NATO's cohesion and resolve.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:54 UTC",
+      "text": "Iran's acting defense minister calls for joint Islamic security alliance against Israel during telephone talks with Turkish counterpart.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:54 UTC",
+      "text": "Interpol names 39-year-old Ukrainian woman as main suspect in Monaco bombing that wounded Russia-linked Ukrainian tycoon.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:54 UTC",
+      "text": "Al Jazeera casualty tracker confirms approximately 3,468 dead in Iran, 3,696 in Lebanon, and 28 in Gulf states from US-Israel strikes as of June 10.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:54 UTC",
+      "text": "Ukraine purchases 16 Gripen E warplanes to bolster air capabilities as Syrsky acknowledges no swift victory over Russia.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:54 UTC",
+      "text": "North Korean troops at Kursk reportedly suffered 70% casualties; Putin hires additional personal security detail.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:54 UTC",
+      "text": "Finland lifts nuclear weapons import and production ban, marking historic break from neutrality tradition.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:54 UTC",
+      "text": "War on the Rocks analyst piece criticizes Hegseth NATO speech as misguided, raising concerns about US commitment to European security architecture.",
+      "source_tier": "analyst"
+    },
     {
       "time": "08:18",
       "text": "Trump delivers July 4th speech at Mount Rushmore, rails against 'communist menace' and ties rhetoric to immigration ahead of midterms.",
@@ -227,5 +390,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-07-04T08:18:06Z"
+  "last_updated": "2026-07-04T12:54:34Z"
 }
