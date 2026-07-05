@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.3,
-    "delta": "+0.1 from yesterday",
-    "level": "High",
-    "rationale": "Sustained Russian guided-bomb strikes on Ukrainian cities, Khamenei funeral drawing millions amid Israeli threats against his successor, Trump-Putin call on Ukraine ceasefire, and Iranian Hormuz fee declarations for 'friendly' nations keep the multi-theater conflict environment firmly in High territory."
+    "score": 7.2,
+    "delta": "No previous score",
+    "level": "Elevated",
+    "rationale": "Multiple simultaneous escalatory events \u2014 Ukrainian long-range drone strike on St. Petersburg oil infrastructure, ongoing Russian guided bomb attacks killing civilians in Sumy, Ukrainian 'Flamingo' missiles spotted deep inside Russia near Alatyr, and a volatile post-Khamenei Iran with millions mourning and 'revenge' chants while Britain risks tensions by de-mining Hormuz during the funeral period \u2014 collectively push the score into high-elevated territory."
   },
   "ticker_items": [
-    "Russian guided bombs kill 4, wound dozens in Sumy overnight.",
-    "Millions gather in Tehran for Khamenei funeral; Iran asserts Hormuz control.",
-    "Trump offers Ukraine war mediation to Putin in 90-minute Kremlin call.",
-    "Ukrainian 'Flamingo' missiles reported deep inside Russian territory near Alatyr.",
-    "Israel defense minister threatens Khamenei's successor with 'death mark.'"
+    "Ukraine drones strike major oil terminal in St. Petersburg, Russia.",
+    "Russian guided bomb kills at least 4 civilians in Sumy, Ukraine.",
+    "Ukrainian 'Flamingo' missiles reported deep in Russian territory near Alatyr.",
+    "Millions gather in Tehran for Khamenei funeral; 'Revenge' chants fill streets.",
+    "Oman, UK, France agree to safeguard Strait of Hormuz shipping lanes."
   ],
   "new_entrant": {
     "active": false,
@@ -61,6 +61,61 @@
         "lat": 54.85,
         "lng": 46.57,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "St. Petersburg",
+        "description": "Ukrainian drones struck a major oil terminal in St. Petersburg, a key piece of revenue-generating infrastructure for Russia's war effort, according to Zelensky and Russian officials.",
+        "method": "Air/Drone",
+        "lat": 59.93,
+        "lng": 30.32,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Alatyr area",
+        "description": "Ukrainian 'Flamingo' missiles were spotted deep inside Russian territory near Alatyr, marking a significant long-range strike penetration.",
+        "method": "Missile/Surface",
+        "lat": 54.85,
+        "lng": 46.57,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Sumy",
+        "description": "Russian guided bomb attack struck the northeastern city of Sumy overnight, with one strike landing near a residential building, killing at least 4 and injuring dozens.",
+        "method": "Air/Precision Strike",
+        "lat": 50.91,
+        "lng": 34.8,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Zaporizhzhia region",
+        "description": "Russian strikes in Zaporizhzhia region injured at least 10 people, intensifying ongoing bombardment pressure.",
+        "method": "Missile/Surface",
+        "lat": 47.84,
+        "lng": 35.14,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Odesa region",
+        "description": "Russian strikes in Odesa region injured personnel as part of the broader multi-region attack pattern on July 4.",
+        "method": "Missile/Surface",
+        "lat": 46.48,
+        "lng": 30.73,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -73,6 +128,17 @@
         "method": "Ground/Armored",
         "lat": 31.35,
         "lng": 34.31,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Gaza (Shuja'iyya area)",
+        "description": "Israel eliminated Hamas terror cell commander Muhammad Na'im Jandiya, responsible for the abduction of IDF Captain Daniel Perez on October 7 and for holding multiple hostages.",
+        "method": "Air/Precision Strike",
+        "lat": 31.5,
+        "lng": 34.47,
         "source_tier": "unverified"
       }
     ]
@@ -113,6 +179,24 @@
         "figure": "~3,468 in Iran; ~3,696 in Lebanon; ~28 in Gulf states",
         "claimed_by": "Al Jazeera live tracker",
         "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Iran from US-Israel attacks",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Lebanon from US-Israel attacks",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Gulf states from US-Israel attacks",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
       }
     ]
   },
@@ -135,6 +219,12 @@
       {
         "text": "Zelenskyy urged greater pressure on Moscow following the deadly Sumy bomb attack.",
         "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-07-04"
+      },
+      {
+        "text": "The target is key infrastructure that generates revenue for Russia's war.",
+        "speaker": "Volodymyr Zelensky",
         "title": "President of Ukraine",
         "date": "2026-07-04"
       }
@@ -208,15 +298,89 @@
       "flag": "\ud83c\uddf6\ud83c\udde6",
       "status": "Mediator + arms supplier",
       "description": "Qatar's Foreign Ministry reported progress in indirect US-Iran talks, positioning Doha as a key intermediary in post-Khamenei diplomatic maneuvering. Qatar continues its established role as a backchannel between Washington and Tehran."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Basing + logistics",
+      "description": "UK joined France and Oman in an agreement to safeguard Strait of Hormuz shipping lanes. UK is proceeding with de-mining operations in the Strait despite potential Iranian objections during the Khamenei funeral period, risking diplomatic friction. UK also continues materiel support to Ukraine."
+    },
+    {
+      "country": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "status": "Basing + logistics",
+      "description": "France joined the UK-Oman agreement on Hormuz shipping security, signaling continued European engagement in post-Iran-war stabilization. French conservative lawmakers also visited Washington to stress unified messaging on Ukraine and Iran to the Trump administration ahead of the NATO summit."
+    },
+    {
+      "country": "Oman",
+      "flag": "\ud83c\uddf4\ud83c\uddf2",
+      "status": "Mediator + arms supplier",
+      "description": "Oman agreed to work with Britain and France to ensure the Strait of Hormuz remains open to global shipping. Oman continues its traditional role as a Gulf mediator and regional stabilizer in the post-conflict de-escalation phase."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Strategic balancer",
+      "description": "Turkey held a telephone call between defense ministers with Iran, during which Iran proposed a joint Islamic security mechanism. Turkey continues its balancing role between NATO obligations and engagement with regional actors."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "EU crypto sanctions targeting networks tied to the Russia-Ukraine war signal a broadening financial warfare front, while Hormuz transit fee threats from Iran's new leadership retain upside risk pressure on oil prices despite the Strait's nominal reopening."
+    "notes": "Hormuz shipping lanes remain partially disrupted with insurance premiums elevated and a container shortage persisting across two continents; full supply chain normalization expected to take months despite the US-Iran peace deal framework."
   },
   "update_log": [
+    {
+      "time": "13:01 UTC",
+      "text": "Ukrainian 'Flamingo' missiles reported spotted deep inside Russia near Alatyr, a significant long-range penetration if confirmed.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "UK proceeds with Strait of Hormuz de-mining operations despite Iranian objections during the Khamenei national mourning period, risking diplomatic escalation.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "Oman, UK, and France formally agree to jointly safeguard Strait of Hormuz shipping lanes.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Millions of Iranians gather in Tehran for Khamenei funeral ceremonies; chants of 'Death to America' and 'Revenge' reported in the capital.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "Russia launches guided bomb attack on Sumy, Ukraine, killing at least 4 civilians and injuring dozens near a residential building.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Russian strikes injure at least 10 people across Zaporizhzhia and Odesa regions of Ukraine.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "BBC and multiple outlets confirm Ukrainian drones struck a major oil terminal in St. Petersburg; Zelensky says target generates war revenue for Russia.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "05:00 UTC",
+      "text": "Israel eliminates Hamas commander Muhammad Na'im Jandiya, responsible for the October 7 abduction of IDF Captain Daniel Perez.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "04:00 UTC",
+      "text": "European NATO allies have largely replaced military assets removed by the US from European contingency plans, NATO commander confirms.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "03:00 UTC",
+      "text": "Iran's acting defense minister calls for joint Islamic security mechanism against Israel during telephone talks with Turkish counterpart.",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:00 UTC",
       "text": "Iran's ambassador to China vows 'special' Hormuz treatment for friendly nations; new fees announced for others.",
@@ -258,5 +422,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-07-05T08:36:35Z"
+  "last_updated": "2026-07-05T13:01:49Z"
 }
