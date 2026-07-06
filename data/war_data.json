@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 6.8,
-    "delta": "+0.6 from yesterday",
+    "score": 7.2,
+    "delta": "No previous score available",
     "level": "Elevated",
-    "rationale": "Khamenei funeral draws millions with 'revenge' calls against US/Israel, Red Sea shipping attacks resume near Hodeidah, Trump-Putin-Zelenskyy diplomatic triangle intensifies ahead of NATO Turkey summit, and China-Russia joint naval drills announced, collectively sustaining elevated multi-theater tension."
+    "rationale": "Multiple simultaneous active conflict theaters \u2014 Ukraine-Russia war entering year five with Zelensky warning of massive Russian attack, Houthi resumption of Red Sea shipping strikes killing 15+ Yemeni troops, Israel's continued occupation of Lebanon amid Syria conflict risk, post-Khamenei Iran in political transition with revenge rhetoric, and a critical NATO summit in Ankara \u2014 combine to sustain a high elevated threat environment."
   },
   "ticker_items": [
-    "Trump offers Ukraine peace 'solutions' in 90-min Putin call ahead of NATO summit.",
-    "Millions gather in Tehran for Khamenei funeral; Iranian commanders warn US and Israel.",
-    "Cargo ship attacked in Red Sea off Hodeidah; UKMTO issues caution advisory.",
-    "Ukraine strikes Russian-occupied Crimea; one killed per Moscow-installed officials.",
-    "China and Russia announce joint naval exercises and Pacific patrols for July."
+    "Trump-Zelenskyy bilateral confirmed for NATO summit sidelines in Ankara.",
+    "Houthis kill 15+ Yemeni troops; cargo ship attacked in Red Sea near Hodeidah.",
+    "Zelensky warns of imminent large-scale Russian missile and drone attack.",
+    "Iran holds Khamenei funeral; new supreme leader Mojtaba conspicuously absent.",
+    "Israel coordinates with Lebanese army on partial southern Lebanon withdrawal pilot."
   ],
   "new_entrant": {
     "active": false,
@@ -39,6 +39,28 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia-occupied Crimea",
+        "target_location": "Crimea",
+        "description": "Ukrainian drone strikes killed at least two civilians in Crimea, targeting Russian logistics and infrastructure over the weekend.",
+        "method": "Air/Drone",
+        "lat": 44.95,
+        "lng": 34.1,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia launched a combined drone-and-missile attack on Kyiv, prompting air alerts and Zelensky's warning of further massive strikes.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -52,6 +74,28 @@
         "lat": 14.8,
         "lng": 42.95,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Yemen (government forces)",
+        "target_location": "Hodeidah, south approaches",
+        "description": "Houthi rebels launched a ground assault south of Hodeidah, killing at least 15 Yemeni government troops and injuring more than 23 before being repelled.",
+        "method": "Ground/Armored",
+        "lat": 14.8,
+        "lng": 42.95,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "International shipping",
+        "target_location": "Red Sea, 30nm SW of Hodeidah",
+        "description": "A cargo vessel reported being attacked by unknown armed assailants approximately 30 nautical miles southwest of Hodeidah in the Red Sea.",
+        "method": "Anti-Ship Missile",
+        "lat": 14.55,
+        "lng": 42.7,
+        "source_tier": "verified"
       }
     ]
   },
@@ -68,6 +112,27 @@
         "incident": "US-Israel attacks on Iran (cumulative tracker)",
         "kia": "~3,468 (Iran); ~3,696 (Lebanon); ~28 (Gulf states)",
         "wia": "Not specified",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Ukrainian drone strikes on Crimea",
+        "kia": "~2",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Houthi assault south of Hodeidah",
+        "kia": "~15 (Yemeni govt troops); ~50+ (Houthi fighters, claimed)",
+        "wia": "~23 (Yemeni govt troops)",
+        "civilian": false,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel strikes on Iran and Lebanon (cumulative tracker)",
+        "kia": "est. 3,468 (Iran) + 3,696 (Lebanon) + 28 (Gulf states)",
+        "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
       }
@@ -96,6 +161,24 @@
         "figure": "~70% casualties (of deployed force)",
         "claimed_by": "Analysts via Fark conflict thread",
         "as_of": "2026-06-30"
+      },
+      {
+        "claim": "Total killed in Iran from US-Israel strikes",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Total killed in Lebanon from US-Israel strikes",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "North Korean troops KIA at Kursk (reported)",
+        "figure": "~70% casualties among deployed contingent",
+        "claimed_by": "Analysts via Fark/open source aggregation",
+        "as_of": "2026-06-30"
       }
     ]
   },
@@ -120,6 +203,12 @@
         "speaker": "Oleksandr Syrsky",
         "title": "Commander-in-Chief, Ukrainian Armed Forces",
         "date": "2026-07-01"
+      },
+      {
+        "text": "Zelensky warns of new massive Russian attack, urges Ukrainians to heed alerts.",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President of Ukraine",
+        "date": "2026-07-05"
       }
     ],
     "middle_east": [
@@ -134,6 +223,18 @@
         "speaker": "Iran Acting Defense Minister",
         "title": "Acting Defense Minister of Iran",
         "date": "2026-07-03"
+      },
+      {
+        "text": "Some Lebanese Christian villages asked to be annexed by Israel.",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister of Israel",
+        "date": "2026-07-05"
+      },
+      {
+        "text": "Iran reappoints judiciary chief who emphasised the need to avenge Supreme Leader Khamenei and prosecute foreign aggressors.",
+        "speaker": "Iran Judiciary Chief (unnamed in sources)",
+        "title": "Head of Iranian Judiciary",
+        "date": "2026-07-06"
       }
     ]
   },
@@ -191,15 +292,77 @@
       "flag": "\ud83c\udde6\ud83c\uddea",
       "status": "purchasing",
       "description": "Israel confirmed providing Iron Dome air defense batteries to the UAE during the Iran war to protect Emirati citizens. The UAE is also reportedly considering purchasing Indian BrahMos cruise missiles, drawing lessons from the recent Iran conflict."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Basing + logistics",
+      "description": "The UK Maritime Trade Operations center reported the Red Sea cargo ship attack, maintaining its monitoring role over critical shipping lanes. UK forces remain engaged in broader NATO support for Ukraine's eastern flank."
+    },
+    {
+      "country": "Ireland",
+      "flag": "\ud83c\uddee\ud83c\uddea",
+      "status": "Monitoring",
+      "description": "Ireland faces domestic political pressure over the Aughinish Alumina facility, with opposition politicians calling for an end to arrangements that allegedly aid Russian economic interests. The government denies stalling on an investigation."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Sliding (OPEC+ modest output increase confirmed)",
     "wheat_futures": "Unchanged",
-    "notes": "Strait of Hormuz reported open again but global supply chain recovery expected to take the better part of a year; renewed Red Sea shipping attacks near Hodeidah add fresh maritime risk premium pressure."
+    "notes": "Seven OPEC+ members agreed to a modest monthly production increase amid sliding oil prices, adding supply pressure even as Red Sea Houthi attacks raise shipping insurance costs."
   },
   "update_log": [
+    {
+      "time": "19:28 UTC",
+      "text": "Iran reappoints judiciary chief who vowed to avenge Khamenei; Mojtaba Khamenei absent from father's funeral prayers.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "White House confirms Trump-Zelensky bilateral meeting on sidelines of NATO Ankara summit, July 7\u20138.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "UK MTMO reports cargo ship under attack by unknown assailants 30nm southwest of Hodeidah in Red Sea.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "At least 15 Yemeni government troops killed and 23 wounded in Houthi assault south of Hodeidah; 50+ Houthi fighters claimed killed.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Zelensky warns Ukrainians of impending large-scale Russian attack and urges compliance with air raid alerts.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "RT reports Ukrainian drones killed two civilians in Crimea over the weekend targeting Russian logistics.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Trump held separate phone calls with Putin and Zelensky ahead of NATO summit, per multiple outlets.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "Millions of Iranians gather in Tehran for week-long funeral ceremonies for assassinated Supreme Leader Khamenei.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "04:00 UTC",
+      "text": "IDF and Lebanese army reported coordinating Hezbollah-free zone framework ahead of pilot Israeli withdrawal from two southern Lebanon villages.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "00:00 UTC",
+      "text": "OPEC+ seven-nation group agrees to modest monthly oil output increase as global crude prices slide.",
+      "source_tier": "unverified"
+    },
     {
       "time": "09:50 UTC",
       "text": "China and Russia announce joint naval exercises and Pacific patrols for July 2026.",
@@ -246,5 +409,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-07-06T09:50:07Z"
+  "last_updated": "2026-07-06T19:28:41Z"
 }
