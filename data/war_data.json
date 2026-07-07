@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "+0.3 from yesterday",
-    "level": "Elevated",
-    "rationale": "Russia launched a mass missile and drone barrage on Kyiv killing at least 14 civilians on the eve of the NATO summit in Turkey, while Ukraine struck Crimean energy infrastructure and Patriot shortages left Ukrainian cities exposed to unintercepted ballistic missiles."
+    "score": 8.2,
+    "delta": "No previous score available",
+    "level": "High",
+    "rationale": "Simultaneous active conflicts across Ukraine (massive Russian missile/drone barrage on Kyiv days before NATO summit), Lebanon (deadly Israeli strikes), Yemen (Houthi Red Sea shipping attack and ground fighting), and a concluded but still-reverberating US-Israel war on Iran with 7,000+ confirmed deaths and Khamenei killed, collectively sustain a High escalation environment."
   },
   "ticker_items": [
-    "Russia kills 14+ in Kyiv missile/drone strike ahead of NATO summit.",
-    "Ukraine strikes Sevastopol energy grid; Crimea plunged into darkness.",
-    "Houthis resume Red Sea shipping attacks; cargo vessel struck near Hodeidah.",
-    "Zelenskyy warns Patriot shortages are costing Ukrainian lives.",
-    "OPEC+ seven members agree to raise output by 188,000 bpd as prices slide."
+    "Russia launches massive missile and drone barrage on Kyiv ahead of NATO Ankara summit.",
+    "Israel kills 4 civilians including school principal in southern Lebanon strike.",
+    "Houthis kill ~15 Yemeni troops; cargo ship attacked in Red Sea near Hodeidah.",
+    "Khamenei funeral underway; son Mojtaba absent, fueling succession uncertainty in Iran.",
+    "NATO Secretary-General Rutte: 'Nobody knows' what it takes to get Putin to negotiate."
   ],
   "new_entrant": {
     "active": false,
@@ -61,6 +61,39 @@
         "lat": 44.6,
         "lng": 33.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia launched a massive combined missile and drone attack on Kyiv days before the NATO summit in Ankara, described as one of the largest recent barrages.",
+        "method": "Missile/Surface",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russian air defenses claimed to have intercepted over 600 Ukrainian drones in a reciprocal overnight mass drone raid across Russia, including strikes targeting a major oil refinery in Omsk Region.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Omsk Region",
+        "description": "Ukrainian drones targeted a major oil refinery in Omsk Region; Russian air defenses claimed to down more than 600 drones across the country.",
+        "method": "Air/Drone",
+        "lat": 54.99,
+        "lng": 73.37,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -81,6 +114,39 @@
         "target_country": "International Shipping",
         "target_location": "Red Sea, southwest of Hodeidah",
         "description": "A bulk carrier cargo ship came under attack by unknown armed assailants approximately 30 nautical miles southwest of Hodeidah in the Red Sea.",
+        "method": "Naval/USV",
+        "lat": 14.5,
+        "lng": 42.7,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "South Lebanon",
+        "description": "Israeli strike hit a vehicle in southern Lebanon killing four civilians including a school principal, described as one of the deadliest attacks since the latest ceasefire.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.2,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Yemen",
+        "target_location": "Hodeidah",
+        "description": "Houthi fighters launched a ground assault south of Hodeidah killing at least 15 Yemeni government troops in the deadliest such attack in years.",
+        "method": "Ground/Armored",
+        "lat": 14.8,
+        "lng": 42.95,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "International Shipping",
+        "target_location": "Red Sea, SW of Hodeidah",
+        "description": "Armed attackers in a skiff attacked a bulk carrier cargo ship approximately 30 nautical miles southwest of Hodeidah in the Red Sea.",
         "method": "Naval/USV",
         "lat": 14.5,
         "lng": 42.7,
@@ -110,6 +176,34 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Israeli strike on vehicle, South Lebanon",
+        "kia": "4",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Houthi ground assault south of Hodeidah",
+        "kia": "~15 (govt troops); ~50 (Houthi fighters claimed)",
+        "wia": "~23 (govt troops)",
+        "civilian": false,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Russian missile/drone barrage on Kyiv",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US-Israel strikes on Iran (cumulative tracker)",
+        "kia": "~3,468 (Iran); ~3,696 (Lebanon); ~28 (Gulf states)",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -124,6 +218,24 @@
         "figure": "~3,696",
         "claimed_by": "Al Jazeera tracker",
         "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Iran from US-Israel strikes",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Lebanon from US-Israel strikes",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Gulf states from US-Israel strikes",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10"
       }
     ]
   },
@@ -134,6 +246,12 @@
         "speaker": "Kremlin-aligned commentators",
         "title": "State media",
         "date": "2026-07-07"
+      },
+      {
+        "text": "NATO's new mission is not deterrence, but Russia's defeat \u2014 Moscow sees a dangerous illusion at the heart of the new Western doctrine.",
+        "speaker": "RT Editorial/Moscow commentary",
+        "title": "State media analysis",
+        "date": "2026-07-06"
       }
     ],
     "ukraine": [
@@ -142,6 +260,12 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-07-06"
+      },
+      {
+        "text": "Progress made, but no swift victory over Russia.",
+        "speaker": "Oleksandr Syrsky",
+        "title": "Commander-in-Chief, Ukrainian Armed Forces",
+        "date": "2026-07-01"
       }
     ],
     "middle_east": [
@@ -149,6 +273,18 @@
         "text": "Some Christian villages in southern Lebanon asked to be annexed by Israel for protection from Hezbollah.",
         "speaker": "Benjamin Netanyahu",
         "title": "Prime Minister of Israel",
+        "date": "2026-07-06"
+      },
+      {
+        "text": "The absence of Iran's new supreme leader makes many Tehran residents question their own security.",
+        "speaker": "Tehran residents (composite)",
+        "title": "Civilians",
+        "date": "2026-07-06"
+      },
+      {
+        "text": "Why is that government still standing?",
+        "speaker": "Brian Kilmeade",
+        "title": "Fox News host, questioning Netanyahu",
         "date": "2026-07-06"
       }
     ]
@@ -201,15 +337,67 @@
       "flag": "\ud83c\uddec\ud83c\udde7",
       "status": "Active materiel + troops",
       "description": "The UK Maritime Trade Operations center formally reported the Red Sea cargo ship attack off Yemen and continues to monitor Houthi resumption of shipping attacks. UK remains a key arms supplier and intelligence partner to Ukraine."
+    },
+    {
+      "country": "NATO (collective)",
+      "flag": "\ud83c\udf10",
+      "status": "Basing + logistics",
+      "description": "NATO summit convening in Ankara amid the Russian barrage on Kyiv and ongoing Iran aftermath. Secretary-General Rutte stated nobody knows what would bring Putin to negotiate. Eastern flank allies are accelerating independent defense preparations."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "North Korea's Kim Jong Un sent congratulatory message to Xi Jinping marking the 105th anniversary of the Chinese Communist Party, signaling continued alignment. China's posture on the Ukraine and Iran conflicts remains watchful and non-interventionist publicly."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Declining",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "OPEC+ seven members including Saudi Arabia and Russia agreed to expand monthly oil production by 188,000 bpd, adding further downward pressure on crude prices already sliding amid post-Iran-war demand uncertainty."
+    "notes": "The Iran war conclusion is noted by OilPrice.com as strengthening the long-term investment case for renewables and energy storage, while Red Sea shipping attacks by Houthis continue to elevate insurance costs and trade risk in the corridor."
   },
   "update_log": [
+    {
+      "time": "19:29 UTC",
+      "text": "Russia launches massive combined missile and drone barrage on Kyiv days before NATO Ankara summit, markets placed on alert.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:29 UTC",
+      "text": "Israeli strike kills four civilians including school principal in southern Lebanon \u2014 deadliest attack since latest ceasefire.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "19:29 UTC",
+      "text": "Houthis kill at least 15 Yemeni government troops in Hodeidah fighting; separately attack cargo vessel in Red Sea.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "19:29 UTC",
+      "text": "Khamenei funeral begins in Iran; son Mojtaba's continued absence fuels public insecurity and succession speculation.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "19:29 UTC",
+      "text": "Ukraine launches mass drone raid on Russia targeting Omsk oil refinery; Russia claims 600+ drones intercepted.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:29 UTC",
+      "text": "Al Jazeera tracker confirms ~7,192 total deaths across Iran, Lebanon, and Gulf states from US-Israel strikes (last updated 2026-06-10).",
+      "source_tier": "verified"
+    },
+    {
+      "time": "19:29 UTC",
+      "text": "NATO Secretary-General Rutte says 'nobody knows' what it would take to bring Putin to the negotiating table.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:29 UTC",
+      "text": "Trump confirmed to meet Syrian President al-Sharaa at NATO summit in Ankara this week.",
+      "source_tier": "unverified"
+    },
     {
       "time": "09:18 UTC",
       "text": "NATO summit opens in Ankara, Turkey; Trump arrives amid tensions over US commitment to collective defense.",
@@ -256,5 +444,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-07-07T09:18:41Z"
+  "last_updated": "2026-07-07T19:29:36Z"
 }
