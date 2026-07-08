@@ -1,16 +1,16 @@
 {
   "escalation": {
-    "score": 8.1,
-    "delta": "-0.1 from yesterday",
-    "level": "High",
-    "rationale": "Marginal de-escalation as NATO summit in Ankara drives diplomatic activity and Trump signals Ukraine resolution progress, offset by a verified Hormuz LNG tanker strike, Russia's mass missile-drone attack killing 22 in Ukraine, and resumed Houthi Red Sea attacks."
+    "score": 7.2,
+    "delta": "No previous score available",
+    "level": "Elevated",
+    "rationale": "Multiple concurrent flashpoints \u2014 drone strikes on Hormuz tankers disrupting de-mining efforts, Ukraine exhausting PAC-3 interceptors while absorbing Kyiv barrages, shadow fleet attacks intensifying, and NATO summit tensions with Trump threatening troop withdrawal \u2014 collectively push the global conflict landscape to the upper Elevated band."
   },
   "ticker_items": [
-    "Qatari LNG tanker struck by projectile in Strait of Hormuz, ablaze off Oman coast.",
-    "Russia missile-drone barrage kills at least 22 across Ukraine.",
-    "NATO Ankara summit: allies unveil billions in arms deals to impress Trump.",
-    "Houthis resume Red Sea attacks; cargo ship hit, 15+ Yemeni troops killed near Hodeidah.",
-    "Trump signals Ukraine war resolution 'closer than anticipated' at NATO summit."
+    "Ukraine reportedly out of PAC-3 interceptors, leaving gaps vs. ballistic missiles.",
+    "Three tankers struck in Strait of Hormuz, setback for UK-France de-mining mission.",
+    "Ukraine drones hit dozen Russian shadow fleet tankers supplying Crimea fuel.",
+    "NATO pledges \u20ac70 billion for Ukraine; Trump praises peace 'progress' with Zelensky.",
+    "IOC provisionally lifts Russia Olympic ban ahead of 2028 LA Games qualifying."
   ],
   "new_entrant": {
     "active": false,
@@ -38,6 +38,39 @@
         "method": "Air/Drone",
         "lat": 50.45,
         "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia launched another drone-and-missile barrage on Kyiv, targeting fuel and power infrastructure amid ongoing attritional campaign.",
+        "method": "Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Russian territory / fuel-power systems",
+        "description": "Ukrainian Armed Forces conducted retaliatory strikes on Russian fuel and power systems following Russian terror attacks on Ukrainian cities.",
+        "method": "Drone",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Crimea / Black Sea",
+        "description": "Ukrainian drones attacked approximately a dozen Russian shadow fleet tankers delivering fuel to Crimea over the past two days.",
+        "method": "Drone",
+        "lat": 45.03,
+        "lng": 34.1,
         "source_tier": "unverified"
       }
     ],
@@ -74,6 +107,28 @@
         "lat": 14.8,
         "lng": 42.95,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown",
+        "target_country": "International shipping",
+        "target_location": "Strait of Hormuz",
+        "description": "Three tankers were struck by projectiles in the Strait of Hormuz, the UK military confirmed, threatening shipping lanes and undermining de-mining progress.",
+        "method": "Anti-Ship Missile",
+        "lat": 26.57,
+        "lng": 56.25,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Yemen / International shipping",
+        "target_location": "Hodeidah / Red Sea",
+        "description": "Houthis attacked a cargo ship approximately 30 nautical miles southwest of Hodeidah and engaged Yemeni government troops in ground clashes south of Hodeidah.",
+        "method": "Naval/USV",
+        "lat": 14.8,
+        "lng": 42.95,
+        "source_tier": "verified"
       }
     ]
   },
@@ -106,6 +161,27 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Houthi attack on Yemen government troops near Hodeidah",
+        "kia": "~14\u201316",
+        "wia": "~23",
+        "civilian": false,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel attacks on Iran/Lebanon (cumulative tracker)",
+        "kia": "~7,164 total (3,468 Iran + 3,696 Lebanon + 28 Gulf states)",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Gaza conflict (cumulative, as cited)",
+        "kia": "~73,000+",
+        "wia": "~173,000+",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -132,17 +208,48 @@
         "figure": "est. 70% casualties of deployed force",
         "claimed_by": "Analysts (Fark aggregated)",
         "as_of": "2026-06-30"
+      },
+      {
+        "claim": "Russian soldiers eliminated per month (drone operations)",
+        "figure": "~30,000/month",
+        "claimed_by": "Zelensky / Ukraine",
+        "as_of": "2026-07-07"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Amsterdam has reached its 'limit' in providing direct military assistance to Ukraine.",
+        "speaker": "Dutch Defense Minister",
+        "title": "Minister of Defense, Netherlands",
+        "date": "2026-07-07"
+      }
+    ],
     "ukraine": [
       {
         "text": "Progress made, but no swift victory over Russia.",
         "speaker": "Oleksandr Syrsky",
         "title": "Commander-in-Chief, Ukrainian Armed Forces",
         "date": "2026-07-01"
+      },
+      {
+        "text": "Ukraine is eliminating 30,000 Russian soldiers monthly with drones.",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President of Ukraine",
+        "date": "2026-07-07"
+      },
+      {
+        "text": "Progress has been made, but there will be no swift victory over Russia.",
+        "speaker": "Oleksandr Syrsky",
+        "title": "Commander-in-Chief, Ukrainian Armed Forces",
+        "date": "2026-07-01"
+      },
+      {
+        "text": "I urge a coalition of national Olympic committees to oppose the IOC's provisional lifting of Russia's suspension.",
+        "speaker": "Vladyslav Heraskevych",
+        "title": "Ukrainian skeleton racer and activist",
+        "date": "2026-07-07"
       }
     ],
     "middle_east": [
@@ -157,6 +264,12 @@
         "speaker": "Brian Kilmeade (to Netanyahu)",
         "title": "Fox News Host (quoting exchange)",
         "date": "2026-07-06"
+      },
+      {
+        "text": "Hamas seeks to replicate the Hezbollah model in Gaza. Israel insists on the full implementation of President Trump's plan, with its core principle being the disarmament of Hamas and all other terrorist organizations.",
+        "speaker": "Gideon Sa'ar",
+        "title": "Israeli Foreign Minister",
+        "date": "2026-07-07"
       }
     ]
   },
@@ -202,15 +315,83 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Active materiel + troops",
       "description": "Reported analyst assessments indicate North Korean troops deployed to Kursk suffered approximately 70% casualties. Kim Jong Un reaffirmed ties with China ahead of the Communist Party anniversary."
+    },
+    {
+      "country": "Netherlands",
+      "flag": "\ud83c\uddf3\ud83c\uddf1",
+      "status": "Abstaining",
+      "description": "Dutch defense minister publicly declared the Netherlands has reached its 'limit' in providing direct military assistance to Ukraine, signaling donor fatigue among secondary NATO contributors. The statement may encourage similar announcements from smaller European allies."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "UK Military Trade Operations confirmed and tracked three tanker strikes in the Strait of Hormuz. UK and France's joint Hormuz de-mining mission suffered a setback following the fresh attacks after Oman had granted access. UK continues to monitor and report Red Sea and Hormuz shipping incidents."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "Russia continued drone and missile barrages on Kyiv and Ukrainian infrastructure while adapting institutionally to drone warfare. Shadow fleet operations to supply Crimea faced intensified Ukrainian strikes. Russia's Olympic reinstatement by the IOC represents a partial diplomatic rehabilitation on the international stage."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Higher (intraday lift on Hormuz drone strikes)",
     "wheat_futures": "Unchanged",
-    "notes": "Hormuz LNG tanker strike raises energy market concerns over repeated shipping disruptions in the strategic waterway, though analysts note targeted incident rather than broad conflict escalation at this stage."
+    "notes": "Drone strikes in the Strait of Hormuz pushed oil prices higher as geopolitical risk resurfaced, even as weak underlying physical crude markets limited the rally's magnitude."
   },
   "update_log": [
+    {
+      "time": "19:01",
+      "text": "NATO summit in Ankara concludes with \u20ac70 billion Ukraine pledge; Trump praises peace progress and offers Patriot production knowledge transfer to Kyiv.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30",
+      "text": "Three tankers struck by projectiles in Strait of Hormuz per UK military confirmation, dealing setback to UK-France de-mining mission.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:00",
+      "text": "Ukraine reportedly exhausted PAC-3 interceptor stockpile, leaving critical gap in ballistic missile defense.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00",
+      "text": "Ukrainian military confirms drone strikes on approximately 12 Russian shadow fleet tankers supplying Crimea over past 48 hours.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00",
+      "text": "IOC provisionally lifts nearly three-year suspension of Russian Olympic Committee, opening path to full team participation at 2028 LA Games.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00",
+      "text": "Trump threatens to withdraw all US troops from Europe at NATO summit, rattling alliance and global markets.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00",
+      "text": "Netherlands defense minister declares country has reached its limit in direct military aid to Ukraine.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00",
+      "text": "Russia launched drone-and-missile barrage on Kyiv; Ukraine struck back at Russian fuel and power systems.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00",
+      "text": "Al Jazeera cumulative tracker records ~7,164 dead from US-Israel attacks on Iran and Lebanon since March 2026.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "04:00",
+      "text": "Houthis kill 14\u201316 Yemeni government troops in deadliest ground assault in years south of Hodeidah; cargo ship also attacked in Red Sea.",
+      "source_tier": "verified"
+    },
     {
       "time": "08:03",
       "text": "NATO Ankara summit Day 2 underway; Trump, Zelensky, von der Leyen, Erdo\u011fan in meetings.",
@@ -252,5 +433,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-07-08T08:03:31Z"
+  "last_updated": "2026-07-08T19:01:56Z"
 }
