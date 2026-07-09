@@ -1,19 +1,20 @@
 {
   "escalation": {
-    "score": 7.8,
-    "delta": "+0.6 from yesterday",
-    "rationale": "Escalation driven by new U.S. strikes on 80+ Iranian sites, Iran retaliating with missile and drone attacks on U.S. bases in Bahrain and Kuwait, Russia's third ballistic missile strike on Kyiv in a week, and Ukraine reporting total depletion of PAC-3 interceptor missiles."
+    "score": 8.2,
+    "delta": "No previous score",
+    "level": "High",
+    "rationale": "US-Iran ceasefire collapse with renewed mutual strikes, Trump declaring the deal 'over,' Iran defying US on Strait of Hormuz, Khamenei confirmed dead, Ukraine exhausting PAC-3 interceptors amid Russian Oreshnik use, and Red Sea shipping attacks resuming collectively push conditions to High."
   },
   "ticker_items": [
-    "U.S. strikes 80+ sites in Iran; revokes oil waiver as ceasefire collapses.",
-    "Iran launches missiles and drones at U.S. bases in Bahrain and Kuwait.",
-    "Russia fires third ballistic missile salvo at Kyiv in one week.",
-    "Ukraine reports zero PAC-3 interceptors remaining against ballistic threats.",
-    "NATO pledges \u20ac70B annually for Ukraine through 2027 at Ankara summit."
+    "Trump declares Iran ceasefire 'over'; US strikes resume after Hormuz attacks.",
+    "Iran's Supreme Leader Khamenei dead; mass funeral underway in Mashhad.",
+    "Ukraine reportedly exhausted of PAC-3 interceptor missiles amid Russian barrage.",
+    "Trump grants Ukraine license to produce Patriot missiles at NATO Ankara summit.",
+    "Red Sea cargo ship attacked off Yemen; Houthis resume shipping lane strikes."
   ],
   "new_entrant": {
     "active": true,
-    "text": "Iran directly struck U.S. military installations in Bahrain and Kuwait with missiles and drones, marking a significant geographic expansion of the U.S.-Iran conflict into Gulf state territory."
+    "text": "Iran has escalated from ceasefire status to active belligerent following renewed US-Iran strikes and Trump's declaration that the ceasefire agreement is over, while the death of Supreme Leader Khamenei marks a major leadership rupture with unresolved succession implications."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -37,6 +38,39 @@
         "method": "Missile/Surface",
         "lat": 50.45,
         "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia launched a drone-and-missile barrage on Kyiv, reported as part of a continuing campaign of terror strikes against civilian infrastructure.",
+        "method": "Missile/Surface",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia deployed the Oreshnik hypersonic missile system in strikes described as designed to terrorize civilian population rather than deter military retaliation.",
+        "method": "Ballistic Missile",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Russian fuel and power systems (location unspecified)",
+        "description": "Ukrainian Armed Forces struck Russian fuel and power infrastructure in retaliation for ongoing Russian terror attacks on Ukrainian cities.",
+        "method": "Drone/Air",
+        "lat": 55.75,
+        "lng": 37.62,
         "source_tier": "unverified"
       }
     ],
@@ -106,6 +140,50 @@
         "lat": 31.51,
         "lng": 34.47,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Iran (region unspecified)",
+        "description": "US forces conducted strikes against Iran following renewed Iranian attacks on vessels in the Strait of Hormuz, with Trump warning further strikes if Iran continues.",
+        "method": "Air/Precision Strike",
+        "lat": 32.43,
+        "lng": 53.69,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "United States",
+        "target_location": "Strait of Hormuz (vessels)",
+        "description": "Iranian forces launched strikes on vessels in the Strait of Hormuz, defying US warnings and collapsing the fragile ceasefire agreement.",
+        "method": "Anti-Ship Missile",
+        "lat": 26.58,
+        "lng": 56.25,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Yemen",
+        "target_location": "Hodeidah",
+        "description": "Houthi rebels launched a deadly ground assault south of Hodeidah, killing at least 14-16 Yemeni government troops before being repelled.",
+        "method": "Ground/Armored",
+        "lat": 14.8,
+        "lng": 42.95,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "International shipping",
+        "target_location": "Red Sea, southwest of Hodeidah",
+        "description": "A bulk carrier cargo ship was attacked approximately 30 nautical miles southwest of Hodeidah by armed assailants in a skiff, reported by UKMTO.",
+        "method": "Naval/USV",
+        "lat": 14.5,
+        "lng": 42.7,
+        "source_tier": "verified"
       }
     ]
   },
@@ -138,6 +216,27 @@
         "wia": "",
         "civilian": false,
         "source_tier": "verified"
+      },
+      {
+        "incident": "US-Iran strikes (cumulative tracker)",
+        "kia": "~3,468 in Iran; ~3,696 in Lebanon; ~28 in Gulf states",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Houthi assault south of Hodeidah",
+        "kia": "14\u201316 Yemeni government troops; est. 50+ Houthi fighters",
+        "wia": "~23 government troops",
+        "civilian": false,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "North Korean troops at Kursk (cumulative estimate)",
+        "kia": "~70% casualty rate reported among deployed DPRK forces",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -158,6 +257,24 @@
         "figure": "~3,696",
         "claimed_by": "Al Jazeera Live Tracker",
         "as_of": "2026-06-10"
+      },
+      {
+        "claim": "US-Israel strikes on Iran total dead (Iran)",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "US-Israel strikes on Lebanon total dead",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Civilian harm incidents documented in Ukraine (Feb 2022\u2013Sep 2025)",
+        "figure": "~2,500 incidents",
+        "claimed_by": "Bellingcat",
+        "as_of": "2025-09-30"
       }
     ]
   },
@@ -181,6 +298,12 @@
         "speaker": "Matvii Bidnyi",
         "title": "Ukraine Sports Minister",
         "date": "2026-07-08"
+      },
+      {
+        "text": "Progress made, but no swift victory over Russia.",
+        "speaker": "Oleksandr Syrsky",
+        "title": "Commander-in-Chief, Ukrainian Armed Forces",
+        "date": "2026-07-01"
       }
     ],
     "middle_east": [
@@ -188,6 +311,24 @@
         "text": "Don't fool with us.",
         "speaker": "Mark Rutte",
         "title": "NATO Secretary-General",
+        "date": "2026-07-08"
+      },
+      {
+        "text": "Tehran will not give up control over the Strait of Hormuz.",
+        "speaker": "Iranian officials (unnamed)",
+        "title": "Iranian government",
+        "date": "2026-07-08"
+      },
+      {
+        "text": "It will get worse if Iran launches further strikes in the Gulf region.",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-07-08"
+      },
+      {
+        "text": "The ceasefire is over; Iranian leaders are scum.",
+        "speaker": "Donald Trump",
+        "title": "US President",
         "date": "2026-07-08"
       }
     ]
@@ -234,15 +375,89 @@
       "flag": "\ud83c\uddee\ud83c\uddf1",
       "status": "Active materiel + troops",
       "description": "Israeli forces continued targeted operations in Gaza despite an existing ceasefire framework, killing nine Palestinians including two children. Stalled negotiations with Lebanon have raised Beirut's fears of a Gaza-style frozen conflict. Ireland passed legislation banning imports from Israeli settlements in the West Bank, adding to diplomatic pressure."
+    },
+    {
+      "country": "NATO Alliance",
+      "flag": "\ud83c\udff3\ufe0f",
+      "status": "Supplying dual-use goods",
+      "description": "NATO allies reaffirmed 'ironclad' collective defense commitments at the Ankara summit despite US withdrawal threats. Eastern flank nations are independently accelerating defense preparations. Uncertainty remains over whether a follow-on summit will be scheduled."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Active materiel + troops",
+      "description": "DPRK troops deployed to the Kursk front reportedly suffered approximately 70% casualties. North Korea continues to supply personnel in support of Russian operations despite catastrophic losses."
+    },
+    {
+      "country": "Ukraine",
+      "flag": "\ud83c\uddfa\ud83c\udde6",
+      "status": "purchasing",
+      "description": "Ukraine is reportedly fully depleted of PAC-3 interceptor missiles, leaving it vulnerable to ballistic missile attacks. Kyiv has purchased 16 Gripen E fighter aircraft and met Trump at NATO Ankara summit, securing a Patriot production license. Ukrainian forces struck Russian fuel and power systems in retaliation for Kyiv barrages."
+    },
+    {
+      "country": "Yemen (Houthis)",
+      "flag": "\ud83c\uddfe\ud83c\uddea",
+      "status": "Active materiel + troops",
+      "description": "Houthis resumed attacks on Red Sea shipping with a cargo vessel assault 30 nautical miles southwest of Hodeidah. Houthi ground forces launched a deadly assault near Hodeidah killing 14-16 government troops. Iran's drone technology network has significantly increased Houthi operational independence."
     }
   ],
   "financial": {
-    "usd_rub": "",
-    "brent_crude": "",
-    "wheat_futures": "",
-    "notes": "U.S. revocation of Iran's oil sales waiver and Iranian strikes on Gulf military bases are driving significant upward pressure on crude oil prices, with experts warning India's crude basket could exceed $75/bbl amid prolonged US-Iran tensions."
+    "usd_rub": "Unknown",
+    "brent_crude": "Up ~5% on session",
+    "wheat_futures": "Unknown",
+    "notes": "Oil prices surged approximately 5% and global equity markets fell sharply after Trump declared the Iran ceasefire over and US-Iran strikes resumed, with Brent crude spiking on Strait of Hormuz closure fears."
   },
   "update_log": [
+    {
+      "time": "14:00 UTC",
+      "text": "Iran's Supreme Leader Khamenei being buried in Mashhad in culmination of mass state funeral.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Trump at NATO Ankara summit declares Iran ceasefire 'over' and calls Iranian leaders 'scum' after renewed mutual strikes.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:30 UTC",
+      "text": "US strikes Iran in retaliation for Strait of Hormuz vessel attacks; oil surges 5%, global stocks fall.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "Iran signals it will not relinquish control of Strait of Hormuz despite US military pressure.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Trump grants Ukraine production license for Patriot missile system and pledges weapons technology transfer at NATO summit.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "NATO allies reaffirm 'ironclad' collective defense at Ankara summit despite Trump US-withdrawal threats.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Ukraine reported fully depleted of PAC-3 interceptor missiles, leaving no ballistic missile defense coverage.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "07:00 UTC",
+      "text": "Russia launches drone-and-missile barrage on Kyiv; Ukraine strikes Russian fuel and power infrastructure in response.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "2026-07-05T10:00 UTC",
+      "text": "UKMTO confirms cargo ship attacked by unknown armed assailants 30nm southwest of Hodeidah in Red Sea.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "2026-07-05T08:00 UTC",
+      "text": "Houthis kill 14-16 Yemeni government troops in deadliest ground assault near Hodeidah in years.",
+      "source_tier": "verified"
+    },
     {
       "time": "08:59",
       "text": "Iran launches missile and drone attacks on U.S. military bases in Bahrain and Kuwait following new American strikes on 80+ Iranian sites.",
@@ -304,5 +519,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-07-09T08:59:39Z"
+  "last_updated": "2026-07-09T14:24:26Z"
 }
