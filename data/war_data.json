@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.2,
-    "delta": "No previous score",
+    "score": 8.5,
+    "delta": "No previous score available",
     "level": "High",
-    "rationale": "US-Iran ceasefire collapse with renewed mutual strikes, Trump declaring the deal 'over,' Iran defying US on Strait of Hormuz, Khamenei confirmed dead, Ukraine exhausting PAC-3 interceptors amid Russian Oreshnik use, and Red Sea shipping attacks resuming collectively push conditions to High."
+    "rationale": "Trump declared the US-Iran ceasefire 'over', threatened seizure of Kharg Island, US expanded strikes near Bushehr nuclear plant, Israel raised alert to maximum, and Ukraine exhausted PAC-3 interceptors amid continued Russian bombardment of Kyiv."
   },
   "ticker_items": [
-    "Trump declares Iran ceasefire 'over'; US strikes resume after Hormuz attacks.",
-    "Iran's Supreme Leader Khamenei dead; mass funeral underway in Mashhad.",
-    "Ukraine reportedly exhausted of PAC-3 interceptor missiles amid Russian barrage.",
-    "Trump grants Ukraine license to produce Patriot missiles at NATO Ankara summit.",
-    "Red Sea cargo ship attacked off Yemen; Houthis resume shipping lane strikes."
+    "Trump declares US-Iran ceasefire over; threatens to hit Iran 'hard'.",
+    "US strikes expand near Bushehr province, hitting civilian infrastructure per Iranian officials.",
+    "Trump threatens US takeover of Iran's Kharg Island oil terminal.",
+    "Israel raises alert level to maximum amid Iran war fears.",
+    "Ukraine out of PAC-3 interceptors; Kyiv struck for second consecutive day."
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Iran has escalated from ceasefire status to active belligerent following renewed US-Iran strikes and Trump's declaration that the ceasefire agreement is over, while the death of Supreme Leader Khamenei marks a major leadership rupture with unresolved succession implications."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -69,6 +69,28 @@
         "target_location": "Russian fuel and power systems (location unspecified)",
         "description": "Ukrainian Armed Forces struck Russian fuel and power infrastructure in retaliation for ongoing Russian terror attacks on Ukrainian cities.",
         "method": "Drone/Air",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia conducted missile and drone strikes on Kyiv for the second consecutive day, killing at least 4 people.",
+        "method": "Missile/Surface",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Russian fuel and power systems",
+        "description": "Ukrainian forces struck Russian fuel and power infrastructure in retaliation for Russian terror attacks.",
+        "method": "Drone",
         "lat": 55.75,
         "lng": 37.62,
         "source_tier": "unverified"
@@ -184,6 +206,61 @@
         "lat": 14.5,
         "lng": 42.7,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Bushehr Province",
+        "description": "US expanded strikes across Bushehr province, with Iranian officials reporting damage to civilian infrastructure including fishing piers near the nuclear plant.",
+        "method": "Air/Precision Strike",
+        "lat": 28.97,
+        "lng": 50.84,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "International Shipping",
+        "target_location": "Strait of Hormuz / Persian Gulf",
+        "description": "Iran attacked a tanker that 'ignored repeated warnings' according to Trump, triggering renewed US strikes.",
+        "method": "Anti-Ship Missile",
+        "lat": 26.56,
+        "lng": 56.25,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza",
+        "target_location": "Gaza",
+        "description": "Israeli strikes killed 10 people in Gaza in 24 hours despite nominal ceasefire, including a World Central Kitchen aid driver.",
+        "method": "Air/Precision Strike",
+        "lat": 31.35,
+        "lng": 34.31,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Yemen (government forces)",
+        "target_location": "Hodeidah",
+        "description": "Houthi forces killed approximately 15 Yemeni government troops in fighting near Hodeidah, per verified reporting.",
+        "method": "Ground/Armored",
+        "lat": 14.8,
+        "lng": 42.95,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "International Shipping",
+        "target_location": "Red Sea, southwest of Hodeidah",
+        "description": "A cargo vessel reported being attacked by armed assailants 30 nautical miles southwest of Hodeida in the Red Sea.",
+        "method": "Naval/USV",
+        "lat": 14.4,
+        "lng": 42.6,
+        "source_tier": "verified"
       }
     ]
   },
@@ -237,6 +314,41 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian strikes on Kyiv",
+        "kia": "4",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes on Gaza (24-hour period)",
+        "kia": "10",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US strikes on Iran \u2014 cumulative tracker (since March 2026)",
+        "kia": "~3,468",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel attacks on Lebanon \u2014 cumulative tracker (since March 2026)",
+        "kia": "~3,696",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel attacks on Gulf states \u2014 cumulative tracker (since March 2026)",
+        "kia": "~28",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -275,6 +387,18 @@
         "figure": "~2,500 incidents",
         "claimed_by": "Bellingcat",
         "as_of": "2025-09-30"
+      },
+      {
+        "claim": "Gulf state deaths from US-Israel strikes",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "North Korean (DPRK) KIA at Kursk",
+        "figure": "~70% casualty rate reported",
+        "claimed_by": "Western analysts (via Fark/open source)",
+        "as_of": "2026-06-30"
       }
     ]
   },
@@ -327,6 +451,24 @@
       },
       {
         "text": "The ceasefire is over; Iranian leaders are scum.",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-07-08"
+      },
+      {
+        "text": "The ceasefire is over. Iran attacked a tanker that ignored repeated warnings.",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-07-08"
+      },
+      {
+        "text": "The US will show Ukraine how to produce Patriot missile systems.",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-07-08"
+      },
+      {
+        "text": "Iran's leadership are scum.",
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-07-08"
@@ -399,15 +541,77 @@
       "flag": "\ud83c\uddfe\ud83c\uddea",
       "status": "Active materiel + troops",
       "description": "Houthis resumed attacks on Red Sea shipping with a cargo vessel assault 30 nautical miles southwest of Hodeidah. Houthi ground forces launched a deadly assault near Hodeidah killing 14-16 government troops. Iran's drone technology network has significantly increased Houthi operational independence."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Supplying dual-use goods",
+      "description": "German drone firm Quantum Systems Group is pushing high-speed drone technology toward Ukraine deployment, achieving near-700 km/h test flights. Germany remains an active materiel supporter of Ukraine within NATO."
+    },
+    {
+      "country": "Ireland",
+      "flag": "\ud83c\uddee\ud83c\uddea",
+      "status": "Abstaining",
+      "description": "Ireland's parliament passed a bill banning imports from Israeli settlements in the West Bank, escalating Dublin's trade measures against Israel. Ireland remains outside NATO and is not a direct conflict party."
     }
   ],
   "financial": {
-    "usd_rub": "Unknown",
-    "brent_crude": "Up ~5% on session",
-    "wheat_futures": "Unknown",
-    "notes": "Oil prices surged approximately 5% and global equity markets fell sharply after Trump declared the Iran ceasefire over and US-Iran strikes resumed, with Brent crude spiking on Strait of Hormuz closure fears."
+    "usd_rub": "Unchanged",
+    "brent_crude": "Surging",
+    "wheat_futures": "Unchanged",
+    "notes": "Trump's declaration that the US-Iran ceasefire is 'over' and threats against Kharg Island caused oil prices to surge and cryptocurrency markets to slide on geopolitical risk."
   },
   "update_log": [
+    {
+      "time": "19:17 UTC",
+      "text": "US expands strikes in Bushehr province; Iranian officials report civilian infrastructure damaged near nuclear plant.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "Trump threatens US takeover of Iran's Kharg Island oil terminal amid renewed hostilities.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:00 UTC",
+      "text": "Israel raises national alert level to maximum amid escalating Iran war fears.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Trump declares US-Iran ceasefire 'over' after Iran attacks tanker; threatens further hard strikes.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:00 UTC",
+      "text": "NATO Ankara summit concludes: \u20ac70 billion pledged for Ukraine, expanded defence budgets agreed.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Trump says US will allow Ukraine to manufacture Patriot missile systems, though implementation will be slow.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "13:00 UTC",
+      "text": "Russia strikes Kyiv for second consecutive day, killing at least 4; Ukraine reported out of PAC-3 interceptors.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Israeli strikes kill 10 in Gaza over 24 hours; World Central Kitchen condemns killing of aid driver.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "07:00 UTC",
+      "text": "UN Secretary-General warns of Persian Gulf conflict risks amid Iran-Israel tensions.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "05:00 UTC",
+      "text": "Houthis kill approximately 15 Yemeni government troops near Hodeidah; resume Red Sea shipping attacks.",
+      "source_tier": "verified"
+    },
     {
       "time": "14:00 UTC",
       "text": "Iran's Supreme Leader Khamenei being buried in Mashhad in culmination of mass state funeral.",
@@ -519,5 +723,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-07-09T14:24:26Z"
+  "last_updated": "2026-07-09T19:17:01Z"
 }
