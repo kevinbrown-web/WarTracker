@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.7,
-    "delta": "+0.2 from yesterday",
+    "score": 9.2,
+    "delta": "No previous score available",
     "level": "High",
-    "rationale": "US launched fresh strikes on Iran following an Iranian attack on a vessel in the Strait of Hormuz, Iran retaliated with strikes on Jordan and Kuwait, and a fragile ceasefire framework is under severe stress alongside continued Russian advances in eastern Ukraine and a large German drone package announced for Kyiv."
+    "rationale": "Active US-Iran military exchanges including US strikes on Iran, Iranian strikes on US 5th Fleet HQ in Bahrain and Al-Udeid Airbase in Qatar, Tehran's declared closure of the Strait of Hormuz, mutual grain port attacks in the Black Sea, and confirmed multi-theater casualties exceeding 7,000 dead collectively push the global conflict index to near-critical levels."
   },
   "ticker_items": [
-    "US strikes Iran after vessel set ablaze in Strait of Hormuz; Iran hits Jordan, Kuwait.",
-    "Iran publishes revenge target list naming Trump and European leaders after Khamenei killing.",
-    "Germany funds 50,000 Shrike FPV strike drones for Ukraine in landmark purchase.",
-    "Russia advances on Kostyantynivka; ISW reports shift to attrition tactics.",
-    "Senator Lindsey Graham dies suddenly at 71; key US foreign policy hawk gone."
+    "Iran strikes US 5th Fleet HQ Bahrain and Al-Udeid Airbase Qatar.",
+    "US launches third round of strikes on Iran this week; Hormuz declared closed.",
+    "Russia-Ukraine exchange strikes on key Black Sea grain export ports.",
+    "NATO pledges \u20ac70B military aid Ukraine at Ankara summit.",
+    "Kuwait border posts and drilling rig attacked amid Iran-US tensions."
   ],
   "new_entrant": {
     "active": true,
-    "text": "Jordan and Kuwait were struck by Iranian retaliatory attacks on July 12, 2026, marking their direct entry into the kinetic US-Iran conflict zone."
+    "text": "Kuwait has been drawn into active hostilities as border posts and a drilling rig were attacked amid the expanding US-Iran conflict, marking a significant geographic escalation in the Gulf theater."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -27,6 +27,28 @@
         "method": "Ground/Armored",
         "lat": 48.53,
         "lng": 37.71,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Sea of Azov / grain ports",
+        "description": "Russia struck Ukrainian key grain export port facilities overnight, disrupting Sea of Azov shipping as part of mutual exchange of port attacks.",
+        "method": "Missile/Surface",
+        "lat": 46.62,
+        "lng": 36.58,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Russian grain export ports",
+        "description": "Ukraine conducted retaliatory strikes on Russian key grain export port gateways overnight following Sea of Azov shipping disruption.",
+        "method": "Drone/Air",
+        "lat": 44.95,
+        "lng": 37.37,
         "source_tier": "unverified"
       }
     ],
@@ -85,6 +107,61 @@
         "lat": 35.69,
         "lng": 51.39,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Iran (multiple military and civilian sites)",
+        "description": "US military significantly increased scale of attacks on Iran, launching its third round of strikes this week targeting military and civilian infrastructure as the Strait of Hormuz standoff escalates.",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.39,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Bahrain",
+        "target_location": "Manama (US 5th Fleet HQ)",
+        "description": "Iran struck the US 5th Fleet headquarters in Bahrain in a retaliatory escalation following continued US military operations against Iran.",
+        "method": "Ballistic Missile",
+        "lat": 26.21,
+        "lng": 50.59,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Qatar",
+        "target_location": "Al-Udeid Airbase",
+        "description": "Iran struck Al-Udeid Airbase in Qatar, home to US Central Command air operations, as part of a broadening Iranian retaliatory campaign.",
+        "method": "Ballistic Missile",
+        "lat": 25.12,
+        "lng": 51.31,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown (Iran-linked suspected)",
+        "target_country": "Kuwait",
+        "target_location": "Kuwait border posts and offshore drilling rig",
+        "description": "Kuwait border posts and a drilling rig were attacked amid heightened Iran-US tensions, raising fears of Gulf-wide conflict spillover.",
+        "method": "Drone/Air",
+        "lat": 29.37,
+        "lng": 47.98,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Yemen (government forces)",
+        "target_location": "Hodeidah",
+        "description": "Houthi forces killed at least 15-16 Yemeni government troops in fighting near Hodeidah and attacked a cargo ship in the Red Sea.",
+        "method": "Rocket/Surface",
+        "lat": 14.8,
+        "lng": 42.95,
+        "source_tier": "verified"
       }
     ]
   },
@@ -117,6 +194,34 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "verified"
+      },
+      {
+        "incident": "US-Iran / Operation Epic Fury cumulative \u2014 Iran",
+        "kia": "~3,468",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel attacks \u2014 Lebanon cumulative",
+        "kia": "~3,696",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US-Iran / Gulf states attacks cumulative",
+        "kia": "~28",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Houthi attack on Yemeni government troops \u2014 Hodeidah",
+        "kia": "~15-16",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -143,6 +248,30 @@
         "figure": "~230,000",
         "claimed_by": "Unverified open-source report",
         "as_of": "2026-07-12"
+      },
+      {
+        "claim": "Deaths in Iran from US-Israel strikes (cumulative)",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Lebanon from US-Israel strikes (cumulative)",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Gulf states from conflict spillover (cumulative)",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "North Korea supplies ~40% of Russian artillery ammunition",
+        "figure": "~40% of Russian artillery ammo",
+        "claimed_by": "Fark/open source aggregation",
+        "as_of": "2026-07-09"
       }
     ]
   },
@@ -155,7 +284,14 @@
         "date": "2026-07-12"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Deep strikes on Russian fuel infrastructure have given Ukraine a battlefield edge \u2014 which they now need to turn into leverage.",
+        "speaker": "Ukrainian/Allied officials (paraphrased)",
+        "title": "Kyiv and allies",
+        "date": "2026-07-12"
+      }
+    ],
     "middle_east": [
       {
         "text": "Mojtaba Khamenei vowed retribution for the attacks after the killing of Supreme Leader Ali Khamenei.",
@@ -168,6 +304,18 @@
         "speaker": "Qatar Government",
         "title": "Official statement",
         "date": "2026-07-12"
+      },
+      {
+        "text": "The US military has significantly increased the scale of attacks on Iran in recent days as the Strait of Hormuz standoff boils over.",
+        "speaker": "Al Jazeera reporting",
+        "title": "Al Jazeera correspondent",
+        "date": "2026-07-12"
+      },
+      {
+        "text": "The Strait of Hormuz is closed until further notice.",
+        "speaker": "Iranian government (paraphrased via Bloomberg)",
+        "title": "Government of Iran",
+        "date": "2026-07-11"
       }
     ]
   },
@@ -213,15 +361,99 @@
       "flag": "\ud83c\uddf6\ud83c\udde6",
       "status": "Monitoring",
       "description": "Qatar condemned Iranian attacks on its territory and on other Arab nations. Qatar's founding emir Sheikh Hamad bin Khalifa Al Thani died, creating domestic focus during an extremely volatile regional period."
+    },
+    {
+      "country": "NATO (collective)",
+      "flag": "\ud83c\udff3\ufe0f",
+      "status": "Supplying dual-use goods",
+      "description": "NATO pledged \u20ac70 billion in military aid to Ukraine at the Ankara summit, with European members accelerating long-term military buildup targeting operational readiness by 2030. Patriot air-defense system licenses are being transferred to Ukraine."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "The UK has debuted new powers to list Iran's IRGC as a terror organization, reflecting deeper alignment with US-led posture against Iran. UK is supporting Ukraine through continued materiel supply as part of NATO commitments."
+    },
+    {
+      "country": "India",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "status": "Monitoring",
+      "description": "India is initiating procurement of indigenous 1,000-km-range AI-enabled attack drones capable of operating in GPS-denied environments, reflecting long-term force modernization amid regional instability but no direct conflict involvement."
+    },
+    {
+      "country": "Kuwait",
+      "flag": "\ud83c\uddf0\ud83c\uddfc",
+      "status": "Monitoring",
+      "description": "Kuwait border posts and a drilling rig were attacked amid the Iran-US conflict escalation, forcing Kuwait into a reactive military readiness posture. The attacks risk drawing Kuwait deeper into the Gulf theater against its will."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
-    "wheat_futures": "Unchanged",
-    "notes": "Traffic through the Strait of Hormuz remains well below pre-war levels and global oil inventories continue to be drawn down amid the ongoing US-Iran military exchanges, sustaining upward pressure on energy prices."
+    "brent_crude": "Elevated \u2014 Strait of Hormuz declared closed",
+    "wheat_futures": "Elevated \u2014 Black Sea grain port strikes disrupting exports",
+    "notes": "The Iranian closure of the Strait of Hormuz and simultaneous Russia-Ukraine strikes on Black Sea grain export ports have created a dual supply shock in global energy and food commodity markets, with oil inventories already at deficit levels after months of Hormuz disruption."
   },
   "update_log": [
+    {
+      "time": "19:07 UTC",
+      "text": "Iran strikes US 5th Fleet HQ in Bahrain and Al-Udeid Airbase in Qatar in retaliatory escalation against continued US military operations.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:07 UTC",
+      "text": "US launches third round of airstrikes on Iran this week; Al Jazeera confirms significant increase in scale targeting military and civilian sites.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "19:07 UTC",
+      "text": "Tehran formally declares Strait of Hormuz closed until further notice, threatening global oil supply.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:07 UTC",
+      "text": "Kuwait border posts and drilling rig attacked, potentially by Iran-linked forces, amid Gulf-wide escalation.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:07 UTC",
+      "text": "Russia and Ukraine exchange overnight strikes on each other's key Black Sea grain export port infrastructure.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:07 UTC",
+      "text": "NATO Ankara summit concludes with \u20ac70B military aid pledge to Ukraine and European military buildup targeting 2030 readiness.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:07 UTC",
+      "text": "Al Jazeera live tracker confirms cumulative death toll: ~3,468 in Iran, ~3,696 in Lebanon, ~28 in Gulf states from US-Israel military campaign.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "19:07 UTC",
+      "text": "UK debuts new terror-listing powers, designating Iran's IRGC as a terrorist organization.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:07 UTC",
+      "text": "UN Secretary-General urges end to US-Iran conflict amid escalating tensions and global economic risk.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:07 UTC",
+      "text": "Senator Lindsey Graham dies unexpectedly at 71; FBI joins investigation into possible foreign adversary involvement.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:07 UTC",
+      "text": "War on the Rocks analyst piece confirms Operation Epic Fury launched Feb 28 2026 as joint US-Israeli operation with regime-change goals against Iran.",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "19:07 UTC",
+      "text": "Houthi forces kill ~15-16 Yemeni government troops near Hodeidah; Red Sea cargo ship attacked in separate incident.",
+      "source_tier": "verified"
+    },
     {
       "time": "13:56 UTC",
       "text": "Update run initiated for 2026-07-13; escalation score set at 8.7 reflecting ongoing US-Iran exchanges and Ukrainian front developments.",
@@ -278,5 +510,5 @@
       "source_tier": "analyst"
     }
   ],
-  "last_updated": "2026-07-13T13:56:50Z"
+  "last_updated": "2026-07-13T19:07:31Z"
 }
