@@ -3,18 +3,18 @@
     "score": 8.2,
     "delta": "No previous score available",
     "level": "High",
-    "rationale": "Iran's explicit threat to close the Strait of Hormuz and direct Houthi orders to blockade the Red Sea, combined with Trump's consideration of expanded strikes on Kharg Island and Pickaxe mountain, push the US-Iran conflict toward critical threshold; concurrent Russian missile strikes on Kyiv and Ukraine's political crisis from Fedorov's firing add multi-front pressure."
+    "rationale": "Active US-Iran exchange of strikes has effectively torn up last month's truce, Iran is threatening Houthi closure of the Red Sea/Bab al-Mandeb strait if US hits power infrastructure, Gaza ceasefire is violated with continued Israeli strikes, and Ukraine faces internal political crisis with mass protests over defence minister dismissal."
   },
   "ticker_items": [
-    "Iran declares Strait of Hormuz a 'red line'; threatens Gulf-wide infrastructure strikes.",
-    "Iran directs Houthis to close Bab el-Mandeb strait if US hits Iranian power grid.",
-    "Trump weighs expanded Iran strikes: Kharg Island and Pickaxe nuclear site discussed.",
-    "Zelenskyy fires tech-forward Defense Minister Fedorov; protests erupt across Ukraine.",
-    "Russia fires missiles at Kyiv as UK PM Starmer arrives for press conference."
+    "Iran threatens Houthi Red Sea closure if US strikes power network.",
+    "US-Iran strikes intensify; American hostage Dena Karari released from Iran.",
+    "Mass protests across Ukraine after Zelenskyy fires popular Defence Minister Fedorov.",
+    "US-Israel attacks on Iran: ~3,468 dead in Iran, ~3,696 dead in Lebanon per tracker.",
+    "Israel tells Pentagon it will keep troops in Lebanon, Syria, Gaza 'security zones' indefinitely."
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Pakistan has publicly expressed concern about being drawn into the US-Iran conflict following Houthi attacks on Saudi Arabia, given its mutual defence agreement and deployed troops in the kingdom."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -49,6 +49,17 @@
         "method": "Missile/Surface",
         "lat": 50.45,
         "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Russian territory (unspecified)",
+        "description": "Ukraine continued long-range drone and missile strikes on Russian soil as part of an ongoing campaign that has shifted the conflict's balance according to reporting.",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
         "source_tier": "unverified"
       }
     ],
@@ -118,6 +129,61 @@
         "lat": 12.78,
         "lng": 44.0,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Near children's cancer hospital (location unspecified)",
+        "description": "US conducted an airstrike in Iran near a children's cancer hospital; Iran condemned the strike as a 'barbaric cowardly war crime' and said the blast was close enough that medical staff feared the hospital was struck.",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.39,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Iran (infrastructure targets)",
+        "description": "US bombardment of Iran targeted infrastructure consistent with Trump's threats to strike power plants and bridges, according to expert analysis.",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.39,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "United States",
+        "target_location": "Pentagon bases in Bahrain, Kuwait, Jordan",
+        "description": "Iran reportedly retaliated by striking US military bases in Bahrain, Kuwait, and Jordan following resumed US bombing after the truce MoU.",
+        "method": "Ballistic Missile",
+        "lat": 26.07,
+        "lng": 50.55,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Saudi Arabia (unspecified)",
+        "description": "Houthis conducted attacks on Saudi Arabia, frustrating Pakistan and raising fears of wider regional escalation.",
+        "method": "Missile/Surface",
+        "lat": 24.68,
+        "lng": 46.72,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Palestinian Territories",
+        "target_location": "Gaza Strip",
+        "description": "Israeli attacks killed at least five Palestinians in Gaza in violation of the October ceasefire agreement, with more than 1,100 Palestinians killed since the agreement.",
+        "method": "Air/Precision Strike",
+        "lat": 31.35,
+        "lng": 34.31,
+        "source_tier": "verified"
       }
     ]
   },
@@ -150,6 +216,20 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "US strike near children's cancer hospital, Iran",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Israeli strikes on Gaza (post-ceasefire)",
+        "kia": "at least 5",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -170,6 +250,30 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera casualty tracker",
         "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Iran from US-Israel attacks",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-07-17"
+      },
+      {
+        "claim": "Deaths in Lebanon from US-Israel attacks",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-07-17"
+      },
+      {
+        "claim": "Deaths in Gulf states from US-Israel attacks",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-07-17"
+      },
+      {
+        "claim": "Palestinians killed since October ceasefire agreement",
+        "figure": "1,100+",
+        "claimed_by": "Al Jazeera",
+        "as_of": "2026-07-16"
       }
     ]
   },
@@ -194,6 +298,12 @@
         "speaker": "Ukrainian public reaction",
         "title": "Widespread public sentiment on Fedorov dismissal",
         "date": "2026-07-16"
+      },
+      {
+        "text": "Every change hit resistance.",
+        "speaker": "Mykhailo Fedorov",
+        "title": "Former Ukrainian Defence Minister",
+        "date": "2026-07-16"
       }
     ],
     "middle_east": [
@@ -213,6 +323,18 @@
         "text": "The Strait of Hormuz is an inviolable red line; if Trump attacks Iranian infrastructure, we will strike all infrastructure across the Gulf region.",
         "speaker": "Iranian government spokesperson",
         "title": "Iranian official",
+        "date": "2026-07-16"
+      },
+      {
+        "text": "Barbaric cowardly war crime.",
+        "speaker": "Iranian Government",
+        "title": "Official Iranian statement",
+        "date": "2026-07-16"
+      },
+      {
+        "text": "Israel is determined to keep its forces in security zones it has carved out inside Lebanon, Syria and the Gaza Strip.",
+        "speaker": "Israel Katz",
+        "title": "Israeli Defence Minister",
         "date": "2026-07-16"
       }
     ]
@@ -283,15 +405,99 @@
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "status": "Supplying dual-use goods",
       "description": "Lockheed Martin has expressed support for allowing Ukraine to produce PAC-3 interceptors domestically, a significant potential shift in Ukraine's air defence industrial capacity. This follows Israel's public acknowledgement of a need for far more interceptors than anticipated. Global demand for ballistic missile interceptors is described as being in a race."
+    },
+    {
+      "country": "Saudi Arabia",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "status": "Basing + logistics",
+      "description": "Saudi Arabia received a US $2 billion air defence package amid ongoing Houthi strikes on its territory. Saudi pipeline now carries approximately 7% of global energy supplies through the Red Sea, making it a key node in the Bab al-Mandeb closure threat."
+    },
+    {
+      "country": "NATO",
+      "flag": "\ud83c\udff3\ufe0f",
+      "status": "Active materiel + troops",
+      "description": "Following the Ankara summit, NATO members are absorbing lessons from Ukraine's drone warfare; Ukraine is on track to produce 5 million drones in 2026 and Lockheed Martin has expressed support for Ukraine producing PAC-3 interceptors domestically."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Monitoring",
+      "description": "Pakistan is growing increasingly concerned about being drawn into the US-Iran conflict following Houthi strikes on Saudi Arabia. Islamabad has a mutual defence agreement with Riyadh and has soldiers deployed there, complicating its mediation posture."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Strategic balancer",
+      "description": "Germany received Algeria's president with military honours, signalling a broader strategic energy and security bet on Algeria beyond LNG as Berlin continues to restructure its energy supply chains stripped of Russian pipeline gas."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Elevated \u2014 Red Sea closure threat",
     "wheat_futures": "Unchanged",
-    "notes": "Iran's explicit threat to close the Strait of Hormuz and Bab el-Mandeb strait, combined with the US naval blockade of Iranian ports, represents a major upside risk to oil prices; Israel's economy contracted 3.8% in Q1 2026 as the Iran conflict hammered consumer spending, while wealthy Russians are accelerating capital flight abroad amid deepening economic instability."
+    "notes": "Iran's reported order to Houthis to prepare closure of the Bab al-Mandeb strait poses a significant threat to global energy supplies, as the Red Sea corridor now carries approximately 7% of global energy supplies via Saudi pipeline diversion."
   },
   "update_log": [
+    {
+      "time": "18:49 UTC",
+      "text": "Iran reported to have ordered Houthis to close Red Sea/Bab al-Mandeb if US strikes Iranian power infrastructure, threatening global energy supply.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "US and Iran exchanged intensified strikes; Iran released US citizen Dena Karari, signalling a possible path to de-escalation.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:00 UTC",
+      "text": "Iran condemned US airstrike near children's cancer hospital as a 'barbaric cowardly war crime'; doctor said blast nearly struck the facility.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Al Jazeera live tracker reports cumulative ~3,468 dead in Iran, ~3,696 dead in Lebanon, and ~28 in Gulf states from US-Israel attacks.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "15:00 UTC",
+      "text": "Israeli Defence Minister Katz told US SecDef Hegseth Israel will maintain troops in Lebanon, Syria, and Gaza security zones indefinitely.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "US House approved $3.3 billion in Israel aid; more than half of House Democrats voted against in a historic intraparty split.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:00 UTC",
+      "text": "Mass protests erupted across Ukraine after Zelenskyy dismissed Defence Minister Mykhailo Fedorov, whose drone modernisation programme drew wide public support.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Serhii Koretskyi approved as Ukraine's new Prime Minister as Kyiv undergoes its second government reshuffle of 2026.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "Al Jazeera verified at least five Palestinians killed in Israeli strikes on Gaza in violation of October ceasefire agreement.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "US approved nearly $2 billion in weapons sale to Saudi Arabia to bolster air defences against Houthi escalation risk.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "UK PM Starmer held press conference in Kyiv; UK-Estonia landmark defence roadmap signed to deepen NATO eastern flank cooperation.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Pakistani officials expressed concern about being drawn into US-Iran conflict after Houthi attacks on Saudi Arabia complicated Islamabad's mediation role.",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:57 UTC",
       "text": "Iran formally declares Strait of Hormuz an inviolable 'red line' and threatens to strike all Gulf regional infrastructure if US attacks Iranian power grid.",
@@ -393,5 +599,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-07-17T12:57:47Z"
+  "last_updated": "2026-07-17T18:49:11Z"
 }
