@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 9.2,
-    "delta": "+0.2 from yesterday",
+    "score": 8.2,
+    "delta": "No previous score available",
     "level": "High",
-    "rationale": "US enters sixth consecutive night of strikes on Iran including civilian infrastructure, Iran retaliates with missiles and drones hitting Bahrain, Jordan, and Kuwait, while the Strait of Hormuz blockade intensifies and Iran threatens to expand energy chokepoint disruptions to the Red Sea."
+    "rationale": "Iran's explicit threat to close the Strait of Hormuz and direct Houthi orders to blockade the Red Sea, combined with Trump's consideration of expanded strikes on Kharg Island and Pickaxe mountain, push the US-Iran conflict toward critical threshold; concurrent Russian missile strikes on Kyiv and Ukraine's political crisis from Fedorov's firing add multi-front pressure."
   },
   "ticker_items": [
-    "US bombs Iran for sixth straight night, hitting civilian infrastructure targets.",
-    "Iran fires missiles and drones at Bahrain, Jordan, and Kuwait in retaliation.",
-    "US disables ship attempting to break naval blockade of Iranian ports.",
-    "Russia launches ballistic missile strike on Kyiv as Starmer visits Ukraine.",
-    "Iran threatens to extend energy blockade from Hormuz to Red Sea shipping lanes."
+    "Iran declares Strait of Hormuz a 'red line'; threatens Gulf-wide infrastructure strikes.",
+    "Iran directs Houthis to close Bab el-Mandeb strait if US hits Iranian power grid.",
+    "Trump weighs expanded Iran strikes: Kharg Island and Pickaxe nuclear site discussed.",
+    "Zelenskyy fires tech-forward Defense Minister Fedorov; protests erupt across Ukraine.",
+    "Russia fires missiles at Kyiv as UK PM Starmer arrives for press conference."
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Bahrain, Jordan, and Kuwait came under Iranian missile and drone fire on July 16, marking their first direct targeting in the current US-Iran conflict."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -38,6 +38,17 @@
         "method": "Air/Drone",
         "lat": 55.75,
         "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Early",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russian missiles struck Kyiv early Thursday, with loud explosions reported in the capital, hours before UK PM Starmer's arrival.",
+        "method": "Missile/Surface",
+        "lat": 50.45,
+        "lng": 30.52,
         "source_tier": "unverified"
       }
     ],
@@ -132,6 +143,13 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel attacks on Iran cumulative (tracker)",
+        "kia": "~3,468 in Iran; ~3,696 in Lebanon; ~28 in Gulf states",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -156,12 +174,25 @@
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Russia alone caused this war through its illegal use of force against Ukraine. Russia should stop attacks, accept a ceasefire and pursue a just peace.",
+        "speaker": "Ambassador Holland",
+        "title": "UK Ambassador to the OSCE",
+        "date": "2026-07-16"
+      }
+    ],
     "ukraine": [
       {
         "text": "What we do is called international terrorism.",
         "speaker": "Vitaly Zhikovich (alleged)",
         "title": "Ukrainian Colonel (alleged spy, per RT/Naturalnews)",
+        "date": "2026-07-16"
+      },
+      {
+        "text": "What a nightmare.",
+        "speaker": "Ukrainian public reaction",
+        "title": "Widespread public sentiment on Fedorov dismissal",
         "date": "2026-07-16"
       }
     ],
@@ -171,6 +202,18 @@
         "speaker": "Benjamin Netanyahu",
         "title": "Prime Minister of Israel",
         "date": "2026-07-15"
+      },
+      {
+        "text": "Iran is unhappy right now.",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-07-16"
+      },
+      {
+        "text": "The Strait of Hormuz is an inviolable red line; if Trump attacks Iranian infrastructure, we will strike all infrastructure across the Gulf region.",
+        "speaker": "Iranian government spokesperson",
+        "title": "Iranian official",
+        "date": "2026-07-16"
       }
     ]
   },
@@ -222,15 +265,83 @@
       "flag": "\ud83c\uddee\ud83c\uddf1",
       "status": "Active materiel + troops",
       "description": "Netanyahu warned Iran against attacking Israel, pledging an even more powerful response to any strike. Israel and Lebanon began US-mediated peace talks in Rome. More than half of House Democrats voted to cut $3.3 billion in US aid to Israel, reflecting a significant shift in bipartisan support."
+    },
+    {
+      "country": "Yemen (Houthis)",
+      "flag": "\ud83c\uddfe\ud83c\uddea",
+      "status": "Active materiel + troops",
+      "description": "The Houthi movement has been directed by Iran to prepare to close the Red Sea oil route at Bab el-Mandeb if the US strikes Iranian power infrastructure. Al Jazeera reports Yemen is edging closer to renewed confrontation following the Iranian aircraft incident. IRGC officers embedded in Yemen will have operational control of the decision to activate the closure."
+    },
+    {
+      "country": "Estonia",
+      "flag": "\ud83c\uddea\ud83c\uddea",
+      "status": "Basing + logistics",
+      "description": "Estonia and the UK signed an updated bilateral defence cooperation roadmap in Tallinn on July 16, enabling a larger UK military unit to be deployed to Estonia next year. The agreement aims to modernise UK Forward Land Forces presence and strengthen NATO's eastern flank."
+    },
+    {
+      "country": "Lockheed Martin / United States (industrial)",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "status": "Supplying dual-use goods",
+      "description": "Lockheed Martin has expressed support for allowing Ukraine to produce PAC-3 interceptors domestically, a significant potential shift in Ukraine's air defence industrial capacity. This follows Israel's public acknowledgement of a need for far more interceptors than anticipated. Global demand for ballistic missile interceptors is described as being in a race."
     }
   ],
   "financial": {
-    "usd_rub": "~77.8",
-    "brent_crude": "Elevated (specific figure unavailable)",
+    "usd_rub": "Unchanged",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Russia's 2026 federal budget deficit is projected to exceed official plans by over $12.85 billion due to higher military spending, while rising oil prices linked to Strait of Hormuz disruptions and Iranian threats to expand chokepoint closures are adding pressure to global energy markets."
+    "notes": "Iran's explicit threat to close the Strait of Hormuz and Bab el-Mandeb strait, combined with the US naval blockade of Iranian ports, represents a major upside risk to oil prices; Israel's economy contracted 3.8% in Q1 2026 as the Iran conflict hammered consumer spending, while wealthy Russians are accelerating capital flight abroad amid deepening economic instability."
   },
   "update_log": [
+    {
+      "time": "12:57 UTC",
+      "text": "Iran formally declares Strait of Hormuz an inviolable 'red line' and threatens to strike all Gulf regional infrastructure if US attacks Iranian power grid.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Iran directs Houthi forces in Yemen to stand ready to close the Bab el-Mandeb strait; IRGC officers embedded in Yemen will control the activation order.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Trump reportedly considering expanded strikes on Iran including seizure of Kharg Island and strike on Pickaxe nuclear site, discussed at Tuesday Situation Room meeting.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Russia launches missile strikes on Kyiv early Thursday, with loud explosions heard in the capital hours before UK PM Starmer's press conference.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "07:00 UTC",
+      "text": "Ukrainian parliament appoints Naftogaz CEO Serhii Koretskyi as new prime minister; protests erupt in Kyiv over Fedorov's dismissal as Defence Minister.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "UK PM Starmer visits Kyiv and signs updated UK-Estonia bilateral defence roadmap in Tallinn, deepening NATO eastern flank cooperation.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "05:00 UTC",
+      "text": "Israel Defence Minister Katz tells US Secretary Hegseth Israel will maintain troops in security zones in Lebanon, Syria, and Gaza.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "04:00 UTC",
+      "text": "Over half of House Democrats vote against $3.3 billion Israel aid package, splitting party leadership between Jeffries and Whip Katherine Clark.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "03:00 UTC",
+      "text": "Al Jazeera casualty tracker records approximately 3,468 dead in Iran, 3,696 in Lebanon, and 28 in Gulf states from US-Israel attacks since March 2026.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "02:00 UTC",
+      "text": "US Senate introduces bipartisan Graham Sanctioning bill with 60+ co-sponsors targeting purchasers of Russian oil.",
+      "source_tier": "unverified"
+    },
     {
       "time": "07:00 UTC",
       "text": "Al Jazeera reports US conducted sixth straight night of strikes on Iran, including hits on civilian infrastructure.",
@@ -282,5 +393,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-07-17T07:48:41Z"
+  "last_updated": "2026-07-17T12:57:47Z"
 }
