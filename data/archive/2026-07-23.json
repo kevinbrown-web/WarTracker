@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 9.1,
-    "delta": "0.0 from yesterday",
+    "score": 8.2,
+    "delta": "No previous score available",
     "level": "High",
-    "rationale": "Escalation remains at peak High as US-Iran war continues with Iran stepping up missile/drone attacks reaching Bahrain and Jordan, Houthis declare maritime blockade of Saudi ports threatening Bab al-Mandeb and Red Sea shipping, Brent surpasses $94-95/barrel, and Ukraine undergoes sweeping military leadership shakeup while intensifying long-range strikes deep into Russia."
+    "rationale": "Simultaneous active US-Iran war with Trump threatening strikes on nuclear sites, Houthi maritime blockade closing both Red Sea chokepoints, Ukraine military leadership overhaul amid protests, and North Korea reaffirming combat support for Russia collectively push conditions to High escalation."
   },
   "ticker_items": [
-    "Iran steps up attacks; sirens in Bahrain and Jordan intercept missile/drone waves.",
-    "Houthis declare Saudi port blockade; Bab al-Mandeb transits falling sharply.",
-    "Zelenskyy ousts Chief of General Staff, one day after replacing top commander Syrsky.",
-    "Brent crude surges past $95/barrel on Middle East shipping fears.",
-    "US-Ukraine sign drone cooperation agreement; Ukrainian combat drones to be exported for US testing."
+    "Ukraine names Drapatyi new commander after Zelenskyy sacks Syrskyi amid protests.",
+    "Trump threatens imminent strikes on Iran's Pickaxe Mountain nuclear site.",
+    "Houthis declare Saudi naval blockade; tankers reversing at Bab el-Mandeb.",
+    "Brent crude hits ~$94/barrel as dual Red Sea and Hormuz chokepoints threatened.",
+    "Russia issues arrest warrant for Ukraine's newly appointed military chief Drapatyi."
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Iraq's PM made a first official visit to Iran on 2026-07-23 signaling deepening Baghdad-Tehran alignment as the US-Iran war continues, though Iraq has not formally entered hostilities."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -49,6 +49,17 @@
         "method": "Missile/Surface",
         "lat": 51.5,
         "lng": 39.2,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Moscow region",
+        "description": "Ukraine launched approximately 400 drones targeting the Moscow region overnight, wounding two people and setting multiple facilities ablaze.",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
         "source_tier": "unverified"
       }
     ],
@@ -96,6 +107,50 @@
         "lat": 35.69,
         "lng": 51.39,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Bahrain",
+        "target_location": "Bahrain",
+        "description": "Iran launched missiles and drones toward Bahrain, with sirens sounding and Bahrain reporting intercept of two waves.",
+        "method": "Ballistic Missile",
+        "lat": 26.07,
+        "lng": 50.55,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Jordan",
+        "target_location": "Jordan",
+        "description": "Jordan announced interception of Iranian missile and drone waves as Iran stepped up regional attacks two weeks after war with US resumed.",
+        "method": "Ballistic Missile",
+        "lat": 31.96,
+        "lng": 35.95,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthi rebels",
+        "target_country": "Saudi Arabia / International Shipping",
+        "target_location": "Bab el-Mandeb Strait / Southern Red Sea",
+        "description": "Houthis deployed missiles and drones against ships in the southern Red Sea enforcing a declared embargo on Saudi crude exports through Bab el-Mandeb.",
+        "method": "Anti-Ship Missile",
+        "lat": 12.58,
+        "lng": 43.47,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Saudi Arabia",
+        "target_country": "Yemen",
+        "target_location": "Sana'a",
+        "description": "Saudi Arabia-backed strikes hit Sana'a Airport, prompting Houthis to vow an 'eye for an eye' retaliatory response.",
+        "method": "Air/Precision Strike",
+        "lat": 15.35,
+        "lng": 44.21,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -114,6 +169,27 @@
         "wia": "~2",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Moscow region drone strikes",
+        "kia": "0",
+        "wia": "~2",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US-Israel attacks on Lebanon (cumulative tracker)",
+        "kia": "~3,696",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel attacks on Gulf states (cumulative tracker)",
+        "kia": "~28",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -140,6 +216,12 @@
         "figure": "est. 1,600 casualties in single day (Fark thread claim)",
         "claimed_by": "Unverified aggregator",
         "as_of": "2026-07-13"
+      },
+      {
+        "claim": "Iran, Lebanon, and Gulf state deaths from US-Israel attacks",
+        "figure": "~7,192 combined",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
       }
     ]
   },
@@ -156,6 +238,18 @@
         "speaker": "Vladimir Putin",
         "title": "President of Russia",
         "date": "2026-07-20"
+      },
+      {
+        "text": "US weapons, intelligence, and Starlink support are helping guide Ukrainian attacks on targets inside Russia, including civilian sites.",
+        "speaker": "Sergey Lavrov",
+        "title": "Russian Foreign Minister",
+        "date": "2026-07-22"
+      },
+      {
+        "text": "Lavrov discussed Ukraine peace efforts, Europe's militarization, the Iran war, nuclear proliferation and Russia's ties with ASEAN.",
+        "speaker": "Sergey Lavrov",
+        "title": "Russian Foreign Minister",
+        "date": "2026-07-22"
       }
     ],
     "ukraine": [
@@ -163,6 +257,12 @@
         "text": "I have been tasked with stepping up counteroffensive actions.",
         "speaker": "Mykhailo Drapatyi",
         "title": "Commander-in-Chief, Ukrainian Armed Forces",
+        "date": "2026-07-22"
+      },
+      {
+        "text": "Zelenskyy dismissed Defense Minister Fedorov and Gen. Syrskyi amid military tensions and nationwide protests over strategic direction.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
         "date": "2026-07-22"
       }
     ],
@@ -190,6 +290,18 @@
         "speaker": "Iranian government",
         "title": "Tehran official statement",
         "date": "2026-07-21"
+      },
+      {
+        "text": "We'll be hitting that area pretty soon, and very heavily \u2014 there's not a thing they can do about it.",
+        "speaker": "Donald Trump",
+        "title": "President of the United States",
+        "date": "2026-07-22"
+      },
+      {
+        "text": "An eye for an eye.",
+        "speaker": "Houthi rebels",
+        "title": "Houthi movement spokesperson",
+        "date": "2026-07-22"
       }
     ]
   },
@@ -235,15 +347,89 @@
       "flag": "\ud83c\uddf8\ud83c\udde6",
       "status": "Strategic balancer",
       "description": "Saudi Arabia faces a direct Houthi maritime blockade of its ports, adding to its exposure from the broader US-Iran war. Riyadh is navigating extreme pressure between US partnership and Iranian proxy threats, while Gulf business models are disrupted by the ongoing conflict."
+    },
+    {
+      "country": "Iran",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
+      "status": "Active materiel + troops",
+      "description": "Iran resumed offensive operations two weeks after its war with the US restarted, launching missile and drone waves at Bahrain and Jordan. Tehran is rumored to be preparing a major retaliatory strike package. Iraqi PM's visit signals Iran is consolidating regional diplomatic support."
+    },
+    {
+      "country": "Israel",
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Israel is co-belligerent with the US in attacks on Iran per Al Jazeera casualty tracker data. Netanyahu's planned visit to New York is generating legal controversy over ICC warrant enforcement. Lebanon-Israel diplomatic relations have resumed under US auspices while southern Lebanon violence continues."
+    },
+    {
+      "country": "Iraq",
+      "flag": "\ud83c\uddee\ud83c\uddf6",
+      "status": "Strategic balancer",
+      "description": "Iraq's PM Ali al-Zaidi made a first official visit to Iran on 2026-07-23 to deepen bilateral ties amid the active US-Iran war. Baghdad is attempting to balance its US security relationship against deepening Iranian alignment. The visit signals Iraqi tilt toward Tehran as regional war pressures intensify."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Monitoring",
+      "description": "Chinese military researchers published restricted concepts in March 2025 on rapidly seizing Taipei via cognitive warfare per War on the Rocks analysis. No direct involvement in active conflicts reported today. Beijing is closely watching NATO drone-warfare capability development highlighted by Gen. Grynkewich."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "~$94\u201395/barrel",
+    "brent_crude": "~$94/barrel",
     "wheat_futures": "Unchanged",
-    "notes": "Brent crude surged past $95/barrel as Houthi blockade threats reduced Bab al-Mandeb transits and ~6 million barrels/day of crude to Asia are now at risk, triggering the largest single-day Indian equity market decline in two weeks."
+    "notes": "Brent crude surged to approximately $94/barrel \u2014 its highest level in over a month \u2014 as Houthi threats created a simultaneous two-chokepoint problem blocking both Bab el-Mandeb and reducing Hormuz transits, while Trump's threat of Iranian infrastructure strikes rattled energy markets."
   },
   "update_log": [
+    {
+      "time": "18:55 UTC",
+      "text": "Trump threatens imminent heavy strikes on Iran's Pickaxe Mountain nuclear site, stating 'there's not a thing they can do about it.'",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Houthis deploy missiles and drones against ships in southern Red Sea; tankers making sharp U-turns as Bab el-Mandeb blockade takes effect.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:00 UTC",
+      "text": "Brent crude hits approximately $94/barrel amid dual Red Sea and Strait of Hormuz disruption fears.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Iraq's PM makes first official visit to Iran, deepening Baghdad-Tehran ties amid active US-Iran conflict.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Russia issues arrest warrant for Ukraine's newly appointed Commander-in-Chief Mykhailo Drapatyi immediately after his appointment.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Zelenskyy confirms dismissal of Defense Minister Fedorov and Gen. Syrskyi; Drapatyi named new Commander-in-Chief.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Iran steps up missile and drone attacks on Bahrain and Jordan, two weeks after resumption of active war with US.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Houthis declare full naval blockade of Saudi Arabia and vow 'eye for an eye' after strikes on Sana'a Airport.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "North Korea reaffirms military support for Russia; Kim Jong Un visit to Moscow increasingly speculated.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "03:00 UTC",
+      "text": "Ukraine launched approximately 400 drones at Moscow region overnight, wounding two and damaging multiple facilities.",
+      "source_tier": "unverified"
+    },
     {
       "time": "13:18 UTC",
       "text": "Zelenskyy ousts Chief of General Staff one day after replacing top commander Syrsky, completing sweeping military leadership shakeup.",
@@ -305,5 +491,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-07-23T13:18:48Z"
+  "last_updated": "2026-07-23T18:55:30Z"
 }
