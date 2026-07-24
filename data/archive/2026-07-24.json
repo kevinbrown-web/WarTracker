@@ -3,14 +3,14 @@
     "score": 8.2,
     "delta": "No previous score available",
     "level": "High",
-    "rationale": "Simultaneous active US-Iran conflict with Trump threatening 'massive' new strikes, Houthi attacks on Saudi tankers closing Black Sea and Red Sea shipping lanes, Iranian strikes on US bases in Jordan, Ukraine-Russia war continuing with no Rubio-Lavrov breakthrough, EU 21st sanctions package, and North Korea reaffirming Russia support collectively push the global conflict environment to High."
+    "rationale": "Simultaneous active US-Iran war on Day 146 with oil above $100/barrel, Trump signaling imminent 'massive attack' on Iran, Houthis threatening Bab el-Mandeb closure and attacking Saudi tankers, Rubio-Lavrov talks yielding no Ukraine breakthroughs, and North Korea deepening Russia alignment create a multi-theater high-escalation environment."
   },
   "ticker_items": [
-    "Trump threatens 'massive' new strikes on Iran, says decision imminent.",
-    "Houthis attack two Saudi oil tankers in Red Sea; Trump vows retaliation.",
-    "Rubio-Lavrov talks in Manila yield no breakthroughs on Ukraine ceasefire.",
-    "EU adopts 21st sanctions package targeting Russia's banking and energy sectors.",
-    "Ukraine halts Black Sea port operations following escalated Russian strikes."
+    "Trump signals imminent 'massive' strike on Iran, bigger than ever before.",
+    "Oil tops $100/barrel as Houthis attack Saudi tankers in Red Sea.",
+    "Rubio-Lavrov talks on Ukraine end with no breakthroughs or optimism.",
+    "Houthi threats to close Bab el-Mandeb raise fears of global shipping crisis.",
+    "Ukraine fires ~400 drones at Moscow region; shipowners halt Black Sea port calls."
   ],
   "new_entrant": {
     "active": false,
@@ -105,6 +105,28 @@
         "lat": 0.0,
         "lng": 0.0,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Moscow region",
+        "description": "Ukraine launched approximately 400 drones overnight at the Moscow region, wounding two people and setting several facilities ablaze.",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Black Sea ports",
+        "description": "Intensified Russian strikes on Ukraine's Black Sea ports prompted shipowners to halt vessel arrivals, threatening grain export corridor.",
+        "method": "Missile/Surface",
+        "lat": 46.48,
+        "lng": 30.74,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -184,6 +206,28 @@
         "lat": 26.06,
         "lng": 50.55,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Red Sea / Bab el-Mandeb",
+        "description": "Houthi forces attacked at least two Saudi oil tankers in the Red Sea using missiles and drones, constricting crude trade flows and doubling war-risk insurance costs.",
+        "method": "Anti-Ship Missile",
+        "lat": 12.58,
+        "lng": 43.55,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza (Palestinian Territory)",
+        "target_location": "Gaza refugee camp",
+        "description": "Israeli forces conducted back-to-back airstrikes on a Gaza refugee camp, leaving a huge crater.",
+        "method": "Air/Precision Strike",
+        "lat": 31.5,
+        "lng": 34.47,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -258,6 +302,27 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Ukraine drone strike on Moscow region",
+        "kia": "0 reported",
+        "wia": "~2",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Houthi anti-ship attacks, Red Sea",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli strikes on Gaza refugee camp",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -302,6 +367,12 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera live tracker",
         "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Russian military losses described as 'devastating' by Kremlin inner circle",
+        "figure": "Unspecified",
+        "claimed_by": "Zelensky / Ukrainian sources",
+        "as_of": "2026-07-23"
       }
     ]
   },
@@ -310,6 +381,12 @@
       {
         "text": "Continued Western arms supplies to Ukraine were 'unacceptable' to Moscow.",
         "speaker": "Sergey Lavrov",
+        "title": "Russian Foreign Minister",
+        "date": "2026-07-23"
+      },
+      {
+        "text": "No new breakthroughs or cause for optimism.",
+        "speaker": "Sergei Lavrov",
         "title": "Russian Foreign Minister",
         "date": "2026-07-23"
       }
@@ -323,6 +400,18 @@
       },
       {
         "text": "The United States remains prepared to help broker an end to Russia's war in Ukraine but fresh proposals would be needed after previous peace ideas failed.",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
+        "date": "2026-07-23"
+      },
+      {
+        "text": "The situation on the front, together with our long-range sanctions and mid-range strikes, is creating a new atmosphere around Putin. A very toxic atmosphere.",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President of Ukraine",
+        "date": "2026-07-23"
+      },
+      {
+        "text": "The US is ready to help end the 'senseless war' in Ukraine but there is no quick path to a deal.",
         "speaker": "Marco Rubio",
         "title": "US Secretary of State",
         "date": "2026-07-23"
@@ -351,6 +440,12 @@
         "text": "Ansar Allah will consider intensifying operations against Saudi vessels if the Gulf Arab kingdom continues its blockade of Yemeni airports and ports.",
         "speaker": "Hezam al-Asad",
         "title": "Houthi Political Member",
+        "date": "2026-07-23"
+      },
+      {
+        "text": "The Middle East is being pushed to the edge of the unimaginable.",
+        "speaker": "Ant\u00f3nio Guterres",
+        "title": "UN Secretary-General",
         "date": "2026-07-23"
       }
     ]
@@ -421,15 +516,92 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Strategic balancer",
       "description": "Pakistani PM Shehbaz Sharif called Saudi Crown Prince MBS to condemn the Houthi attacks on Saudi vessels in the Red Sea. Pakistan is emerging as a diplomatic actor signaling support for Gulf state security."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Monitoring",
+      "description": "China expressed 'deep concern' over Middle East hostilities as Houthis threatened Chinese oil tankers in the Red Sea. Beijing called for all parties to 'remain calm' but took no direct action."
+    },
+    {
+      "country": "Oman",
+      "flag": "\ud83c\uddf4\ud83c\uddf2",
+      "status": "Mediator + arms supplier",
+      "description": "Oman is mediating between the US and Iran, with an Omani delegation in Tehran to discuss managing traffic through the Strait of Hormuz as US-Iran strikes continue."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "~$100/barrel",
+    "brent_crude": "~$100+ per barrel",
     "wheat_futures": "Unchanged",
-    "notes": "Brent crude approached $100/barrel after Houthi attacks on Saudi oil tankers in the Red Sea and ongoing Strait of Hormuz disruptions amplified energy supply risks, with US gas prices rising sharply ahead of midterms."
+    "notes": "Brent crude surpassed $100/barrel again as Houthi attacks on Saudi tankers and fears of Bab el-Mandeb closure rattled energy markets, with analysts warning of greater economic impact than previous spikes due to no sign of conflict ending and partially depleted strategic reserves."
   },
   "update_log": [
+    {
+      "time": "19:07 UTC",
+      "text": "Trump signals imminent 'massive attack' on Iran, larger than previous strikes, saying 'we are all set for it.'",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "Oman delegation in Tehran to discuss Strait of Hormuz traffic management amid continued US-Iran strikes.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:00 UTC",
+      "text": "Houthi attacks on Saudi oil tankers in Red Sea double war-risk insurance costs and threaten Bab el-Mandeb closure.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Brent crude oil tops $100/barrel; analysts warn of prolonged economic damage if Red Sea closure materializes.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:00 UTC",
+      "text": "Rubio and Lavrov meet on Ukraine; both sides signal no breakthroughs and little optimism for peace deal.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "US Senate rejects resolution curtailing Trump's Iran war powers; House had earlier passed non-binding measure to end war.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:00 UTC",
+      "text": "Zelensky says Ukraine's strikes are creating a 'toxic atmosphere' in Putin's inner circle amid reported Kremlin frustration.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Shipowners halt Black Sea port calls as Russia intensifies strikes threatening Ukraine's grain export corridor.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "North Korea reaffirms support for Russia at Moscow foreign minister talks; Kim Jong Un visit to Kremlin speculated.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Israeli strikes hit Gaza refugee camp leaving large crater; Lebanon's Hezbollah brands President Aoun's US visit 'submission.'",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "Ukraine fired approximately 400 drones at Moscow region overnight, wounding two and damaging facilities.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Al Jazeera and BBC report growing nuclear proliferation concerns over US-Saudi civil nuclear deal and regional arms race.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "07:00 UTC",
+      "text": "Bellingcat geolocates Shahed-136 type drones in use during Mali village attacks, marking new deployment theater.",
+      "source_tier": "analyst"
+    },
     {
       "time": "13:12 UTC",
       "text": "At least 11 killed in Ukraine as Russia and Ukraine continue to trade strikes; six also killed in Ukrainian attack on Kirov, Russia.",
@@ -526,5 +698,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-07-24T13:12:25Z"
+  "last_updated": "2026-07-24T19:07:51Z"
 }
