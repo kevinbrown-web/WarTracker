@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.4,
-    "delta": "+0.2 from yesterday",
+    "score": 8.2,
+    "delta": "No previous score available",
     "level": "High",
-    "rationale": "Houthis resume attacks on Saudi tankers in the Red Sea opening a new maritime front in the US-Iran war, while Iran escalates missile strikes killing US personnel in Jordan, and Ukraine undergoes simultaneous top military and defense leadership replacement amid internal political crisis."
+    "rationale": "Simultaneous active US-Iran conflict with Trump threatening 'massive' new strikes, Houthi attacks on Saudi tankers closing Black Sea and Red Sea shipping lanes, Iranian strikes on US bases in Jordan, Ukraine-Russia war continuing with no Rubio-Lavrov breakthrough, EU 21st sanctions package, and North Korea reaffirming Russia support collectively push the global conflict environment to High."
   },
   "ticker_items": [
-    "Houthis strike two Saudi oil tankers in Red Sea; one vessel reported on fire.",
-    "Iran fires missiles at Bahrain and Jordan; three US soldiers killed at Jordan base.",
-    "Ukraine fires/replaces defense minister and army chief simultaneously amid protests.",
-    "Trump threatens to seize frozen Iranian assets to pay war damages; Tehran condemns move.",
-    "Russia strikes Odessa port infrastructure targeting military cargo and drone components."
+    "Trump threatens 'massive' new strikes on Iran, says decision imminent.",
+    "Houthis attack two Saudi oil tankers in Red Sea; Trump vows retaliation.",
+    "Rubio-Lavrov talks in Manila yield no breakthroughs on Ukraine ceasefire.",
+    "EU adopts 21st sanctions package targeting Russia's banking and energy sectors.",
+    "Ukraine halts Black Sea port operations following escalated Russian strikes."
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Saudi Arabia has emerged as a direct Houthi target in the Red Sea, with two Saudi oil tankers struck on 2026-07-23, signaling expansion of the US-Iran war to include Gulf state shipping."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -49,6 +49,61 @@
         "method": "Air/Drone",
         "lat": 55.75,
         "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Black Sea ports region",
+        "description": "Russian strikes on Ukrainian Black Sea port infrastructure forced a halt to maritime operations.",
+        "method": "Missile/Surface",
+        "lat": 46.48,
+        "lng": 30.74,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Kirov",
+        "description": "Ukrainian attack on Russia's Kirov reportedly killed six people.",
+        "method": "Drone",
+        "lat": 58.6,
+        "lng": 49.65,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Moscow region / Wildberries warehouses",
+        "description": "Ukrainian drones struck Wildberries warehouse facilities again, causing fires and damage.",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Moscow region",
+        "description": "Ukraine reportedly launched approximately 400 drones at the Moscow region overnight, wounding two and damaging several facilities.",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Russian warehouse (unspecified)",
+        "description": "A Ukrainian drone strike hit a Russian warehouse, producing a large smoke cloud visible in authenticated imagery.",
+        "method": "Air/Drone",
+        "lat": 0.0,
+        "lng": 0.0,
         "source_tier": "unverified"
       }
     ],
@@ -96,6 +151,39 @@
         "lat": 35.69,
         "lng": 51.39,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Red Sea (tanker positions)",
+        "description": "Houthis claimed attacks on two Saudi oil tankers in the Red Sea, citing violation of their declared naval blockade on Saudi Arabia.",
+        "method": "Anti-Ship Missile",
+        "lat": 18.0,
+        "lng": 38.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "United States",
+        "target_location": "Jordan (US bases)",
+        "description": "Iran conducted strikes on US military bases in Jordan, reportedly exposing defense vulnerabilities.",
+        "method": "Ballistic Missile",
+        "lat": 31.24,
+        "lng": 36.51,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Multiple (Gulf States)",
+        "target_location": "Bahrain / Jordan",
+        "description": "Iran launched multiple waves of missiles and drones targeting Gulf states; Bahrain and Jordan air defenses intercepted the attacks.",
+        "method": "Ballistic Missile",
+        "lat": 26.06,
+        "lng": 50.55,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -142,6 +230,34 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian strikes on Ukraine (Al Jazeera 2026-07-24)",
+        "kia": "~11",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Ukrainian attack on Kirov, Russia",
+        "kia": "~6",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Moscow region drone attack",
+        "kia": "0",
+        "wia": "~2",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US-Israel attacks on Iran (cumulative, Al Jazeera tracker)",
+        "kia": "~3,468 (Iran) + ~3,696 (Lebanon) + ~28 (Gulf states)",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -168,17 +284,48 @@
         "figure": "dozens (suppressed)",
         "claimed_by": "New York Times / unnamed US officials",
         "as_of": "2026-07-20"
+      },
+      {
+        "claim": "Iran total dead from US-Israel strikes",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Lebanon total dead from US-Israel strikes",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Gulf states total dead from conflict spillover",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Continued Western arms supplies to Ukraine were 'unacceptable' to Moscow.",
+        "speaker": "Sergey Lavrov",
+        "title": "Russian Foreign Minister",
+        "date": "2026-07-23"
+      }
+    ],
     "ukraine": [
       {
         "text": "An unprecedented simultaneous replacement of the top defence and military brass comes amid a debate over strategy.",
         "speaker": "Al Jazeera",
         "title": "News report on Ukraine military leadership overhaul",
         "date": "2026-07-24"
+      },
+      {
+        "text": "The United States remains prepared to help broker an end to Russia's war in Ukraine but fresh proposals would be needed after previous peace ideas failed.",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
+        "date": "2026-07-23"
       }
     ],
     "middle_east": [
@@ -193,6 +340,18 @@
         "speaker": "Iranian Government",
         "title": "Tehran official statement",
         "date": "2026-07-24"
+      },
+      {
+        "text": "I am considering a massive attack. Bigger than ever before. I am close to making a decision. We are all set for it.",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-07-23"
+      },
+      {
+        "text": "Ansar Allah will consider intensifying operations against Saudi vessels if the Gulf Arab kingdom continues its blockade of Yemeni airports and ports.",
+        "speaker": "Hezam al-Asad",
+        "title": "Houthi Political Member",
+        "date": "2026-07-23"
       }
     ]
   },
@@ -232,15 +391,90 @@
       "flag": "\ud83c\uddf8\ud83c\udde6",
       "status": "Monitoring",
       "description": "Saudi Arabia is now a direct Houthi target with two of its oil tankers struck in the Red Sea on July 23. The kingdom's state media confirmed the attack on a Saudi vessel. A maritime blockade threat raises fears of energy supply disruption and possible military response."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "Russia continued strikes on Ukrainian territory, including Black Sea ports. Lavrov met Rubio but delivered no new peace proposals. Russia thanked North Korea for continued support."
+    },
+    {
+      "country": "European Union",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "status": "Supplying dual-use goods",
+      "description": "The EU agreed on its 21st sanctions package against Russia on July 23, tightening restrictions on the banking sector, oil price cap enforcement, and introducing a visa ban pathway for combatants. NATO is also studying Ukraine's battlefield feedback loop model for rapid technology deployment."
+    },
+    {
+      "country": "Yemen (Houthis)",
+      "flag": "\ud83c\uddfe\ud83c\uddea",
+      "status": "Active materiel + troops",
+      "description": "Houthis attacked two Saudi oil tankers in the Red Sea and vowed intensified operations if Saudi Arabia's blockade of Yemeni ports continues. Houthis have also prepared drones and missiles for potential strikes in the Bab al-Mandeb strait, threatening to expand the maritime conflict."
+    },
+    {
+      "country": "Iraq",
+      "flag": "\ud83c\uddee\ud83c\uddf6",
+      "status": "Mediator + arms supplier",
+      "description": "Iraqi Prime Minister Ali al-Zaid visited Tehran following a high-profile meeting with US President Trump, seeking to redefine Baghdad's relationship with Iran amid the ongoing US-Iran conflict. Iraq appears to be attempting a mediating role between the two parties."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Strategic balancer",
+      "description": "Pakistani PM Shehbaz Sharif called Saudi Crown Prince MBS to condemn the Houthi attacks on Saudi vessels in the Red Sea. Pakistan is emerging as a diplomatic actor signaling support for Gulf state security."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated (rising on Red Sea tanker attacks and Bab el-Mandeb closure risk)",
-    "wheat_futures": "Elevated (global food crisis warnings and Black Sea logistics disruption)",
-    "notes": "Bitcoin rose ~3% to approximately $66,886 amid geopolitical tensions, while Houthi tanker strikes in the Red Sea and rising Bab el-Mandeb closure risk (26% probability per prediction markets) are pushing energy markets higher."
+    "brent_crude": "~$100/barrel",
+    "wheat_futures": "Unchanged",
+    "notes": "Brent crude approached $100/barrel after Houthi attacks on Saudi oil tankers in the Red Sea and ongoing Strait of Hormuz disruptions amplified energy supply risks, with US gas prices rising sharply ahead of midterms."
   },
   "update_log": [
+    {
+      "time": "13:12 UTC",
+      "text": "At least 11 killed in Ukraine as Russia and Ukraine continue to trade strikes; six also killed in Ukrainian attack on Kirov, Russia.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Trump threatened 'major military punishment' for Iran and Houthis following Red Sea tanker attacks, telling Axios he is 'close to a decision' on a 'massive attack'.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:30 UTC",
+      "text": "Houthis claimed attacks on two Saudi oil tankers in the Red Sea; League of Arab States condemned the strikes.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Rubio-Lavrov talks in Manila concluded with no breakthroughs; Lavrov called continued Western arms deliveries to Ukraine 'unacceptable'.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "EU agreed on 21st sanctions package against Russia targeting banking, oil price cap, and introducing a visa ban pathway for combatants.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Ukraine halted Black Sea port operations following escalated Russian missile strikes on port infrastructure.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "07:00 UTC",
+      "text": "Iran strikes on US military bases in Jordan reported, with analysts noting exposed defense vulnerabilities.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "Stranded seafarers remain trapped as Strait of Hormuz shipping stalls amid ongoing US-Iran conflict; UN reiterates toll legality concerns.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "00:00 UTC",
+      "text": "North Korea reaffirmed support for Russia's war on Ukraine as North Korean FM met Putin in Moscow; Kim Jong Un visit to Kremlin speculated.",
+      "source_tier": "unverified"
+    },
     {
       "time": "08:02",
       "text": "Tehran condemns Trump's threat to seize frozen Iranian assets to pay US war damages as 'incendiary'.",
@@ -292,5 +526,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-07-24T08:02:49Z"
+  "last_updated": "2026-07-24T13:12:25Z"
 }
