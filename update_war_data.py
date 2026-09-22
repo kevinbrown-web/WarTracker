@@ -362,7 +362,7 @@ Escalation score:
         }
     )
     try:
-        with urllib.request.urlopen(req, timeout=60) as r:
+        with urllib.request.urlopen(req, timeout=120) as r:
             response = json.loads(r.read())
     except urllib.error.HTTPError as e:
         print(f"Anthropic API error: {e.code} {e.reason}")
