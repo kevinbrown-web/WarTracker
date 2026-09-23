@@ -1,20 +1,20 @@
 {
   "escalation": {
     "score": 7.8,
-    "delta": "No previous score",
+    "delta": "No previous score available",
     "level": "Elevated",
-    "rationale": "Multiple active conflict theaters simultaneously \u2014 US-Iran war with Hormuz closure, Houthi seizure of Red Sea coastline and strikes on Riyadh, ongoing Russia-Ukraine strikes including 6 killed after Zelensky-Trump talks, and fragile energy-truce diplomacy \u2014 collectively push the global threat environment to high-elevated levels."
+    "rationale": "Multiple simultaneous active conflicts \u2014 US-Iran war with Hormuz closure, Russia-Ukraine frontline grinding, Houthi seizure of Bab al-Mandab, Saudi Arabia strikes on Hodeidah, and Trump publicly threatening to 'annihilate' Iran at UNGA \u2014 collectively push the global threat environment to the high end of Elevated."
   },
   "ticker_items": [
-    "Russia kills 6 in Ukraine strikes hours after Zelensky-Trump UN meeting.",
-    "Houthis claim Saudi Arabia hit key port city; thousands flee Yemen conflict.",
-    "Iran offers Hormuz reopening in 7 days if US eases military pressure.",
-    "Trump pushes 'energy truce' concept with Russia; feasibility in doubt.",
-    "South Korea rules out Hormuz troop deployment; facilitates US-DPRK talks."
+    "Trump threatens to 'annihilate' Iran in UNGA address; touts 3-hour meeting.",
+    "Iran offers Hormuz reopening path; Trump calls for full economic isolation.",
+    "Houthis seize Bab al-Mandab; Saudi Arabia strikes key Yemeni port city.",
+    "Ukraine drone hits major Moscow refinery in large-scale strike.",
+    "Rubio questions NATO value after allies blocked US base access for Iran war."
   ],
   "new_entrant": {
     "active": true,
-    "text": "Pakistan is publicly confronting pressure to intervene militarily on behalf of Saudi Arabia amid Houthi missile strikes deep into Saudi territory, representing a potential new actor in the Gulf-Yemen theater."
+    "text": "Saudi Arabia has escalated direct military engagement against Houthi forces, striking a key Yemeni port city as Houthi missiles target deep inside Saudi territory, marking a significant expansion of Riyadh's active combat role."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -94,6 +94,39 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Moscow region (refinery)",
+        "description": "A previously little-known Ukrainian drone struck one of Russia's most important oil refineries in the Moscow area, causing significant damage.",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Progress rocket factory",
+        "description": "Ukrainian cruise missiles struck the Russian Progress rocket-producing factory, with reports indicating serious structural damage to the facility.",
+        "method": "Missile/Surface",
+        "lat": 51.66,
+        "lng": 55.08,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Donetsk region",
+        "description": "Russian forces continued intensified ground and drone attacks across key Donetsk strongholds including approaches toward Sloviansk and Kramatorsk.",
+        "method": "Air/Drone",
+        "lat": 48.0,
+        "lng": 37.8,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -162,6 +195,28 @@
         "lat": 35.69,
         "lng": 51.39,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Mecca region / deep Saudi territory",
+        "description": "Houthi forces launched missile attacks targeting deep inside Saudi Arabia, including near Mecca, prompting a rare condemnation from King Salman.",
+        "method": "Ballistic Missile",
+        "lat": 21.39,
+        "lng": 39.86,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Saudi Arabia",
+        "target_country": "Yemen",
+        "target_location": "Hodeidah (key port city)",
+        "description": "Saudi Arabia carried out a deadly airstrike on the Houthi-controlled port city of Hodeidah, killing an unspecified number of people.",
+        "method": "Air/Precision Strike",
+        "lat": 14.8,
+        "lng": 42.95,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -208,6 +263,27 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Saudi airstrike on Hodeidah port",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Houthi missile strikes inside Saudi Arabia",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Ukraine drone strike on Moscow refinery",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -228,6 +304,24 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera Live Tracker",
         "as_of": "2026-06-10 (last tracker update)"
+      },
+      {
+        "claim": "Deaths in Iran from US-Israel attacks",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Deaths in Lebanon from US-Israel attacks",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Deaths in Gulf states from US-Israel attacks",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10 (last modified)"
       }
     ]
   },
@@ -250,6 +344,12 @@
         "speaker": "Russian MoD spokesperson",
         "title": "Ministry of Defense",
         "date": "2026-09-17"
+      },
+      {
+        "text": "The UK orchestrated the Bucha false flag to derail the 2022 Russia-Ukraine peace talks.",
+        "speaker": "Russian Ministry of Foreign Affairs (attributed)",
+        "title": "Official statement",
+        "date": "2026-09-17"
       }
     ],
     "ukraine": [
@@ -262,6 +362,12 @@
       {
         "text": "Volodymyr Zelensky met Trump on Tuesday and discussed a potential bilateral ceasefire on energy-related targets.",
         "speaker": "Al Jazeera reporting on Zelensky",
+        "title": "President of Ukraine",
+        "date": "2026-09-23"
+      },
+      {
+        "text": "Keep choking Russia's revenues to impede its war efforts.",
+        "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-09-23"
       }
@@ -290,6 +396,36 @@
         "speaker": "Ahmed al-Sharaa",
         "title": "President of Syria",
         "date": "2026-09-23"
+      },
+      {
+        "text": "I have a big decision to make \u2014 I may annihilate the Islamic Republic.",
+        "speaker": "Donald Trump",
+        "title": "President of the United States",
+        "date": "2026-09-22"
+      },
+      {
+        "text": "Washington and Tehran are moving toward a settlement.",
+        "speaker": "Donald Trump",
+        "title": "President of the United States",
+        "date": "2026-09-22"
+      },
+      {
+        "text": "Only sovereign Lebanon can disarm Hezbollah; events in the West Bank are removing the rights of the Palestinian people to exist.",
+        "speaker": "Emmanuel Macron",
+        "title": "President of France",
+        "date": "2026-09-22"
+      },
+      {
+        "text": "Israel is building a concentration camp.",
+        "speaker": "Recep Tayyip Erdo\u011fan",
+        "title": "President of Turkey",
+        "date": "2026-09-22"
+      },
+      {
+        "text": "Iran has been behaving badly and stalling \u2014 the regime is weak and desperate.",
+        "speaker": "Donald Trump",
+        "title": "President of the United States",
+        "date": "2026-09-22"
       }
     ]
   },
@@ -371,15 +507,87 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Strategic balancer",
       "description": "Pakistan is facing direct pressure from Saudi Arabia to honor a collective security pledge and potentially intervene militarily against Houthi forces striking the Kingdom. Islamabad has not yet committed to military action and is weighing significant domestic and regional risks. This situation represents a potential major escalation vector in the Gulf-Yemen theater."
+    },
+    {
+      "country": "Israel",
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Israel conducted joint strikes with the US on Iran and Lebanon per casualty tracker data. Israeli election campaign is dominated by security concerns despite Al Jazeera reporting Israelis are objectively more secure than before October 2023. Israel continues to face international condemnation at UNGA over West Bank and Gaza conduct."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Mediator + arms supplier",
+      "description": "Erdo\u011fan used his UNGA address to call for peace, support Ukrainian territorial integrity, and condemn Israeli actions in Gaza as building a 'concentration camp.' Turkey continues to maintain diplomatic engagement across multiple conflict parties. Giorgia Meloni's feud with Trump and absence from UNGA removes a potential European mediating voice."
     }
   ],
   "financial": {
-    "usd_rub": "",
-    "brent_crude": "Falling \u2014 multi-session low",
-    "wheat_futures": "",
-    "notes": "Oil prices fell for a fifth consecutive session to a two-week low on hopes of Iran-US diplomacy and potential reopening of a critical Saudi pipeline, though diesel shortages persist globally due to Ukrainian strikes on Russian refineries and Hormuz disruption."
+    "usd_rub": "Unchanged",
+    "brent_crude": "Falling (third consecutive session decline)",
+    "wheat_futures": "Unchanged",
+    "notes": "Oil fell for a third session as Saudi supply fears eased, partially offsetting persistent Strait of Hormuz risk premium; airlines are cutting flights due to fuel scarcity per aggregated reporting."
   },
   "update_log": [
+    {
+      "time": "20:45 UTC",
+      "text": "Trump-Zelenskyy meeting at UNGA addresses Ukraine conflict resolution; ceasefire market expectations shift.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:30 UTC",
+      "text": "Trump calls for complete economic isolation of Iran at UNGA; delays formal resumption of talks until after November midterms.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:15 UTC",
+      "text": "Senior Iranian official offers Hormuz reopening path at UN; Trump says US-Iran ties 'developing'.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:00 UTC",
+      "text": "Saudi Arabia strikes Hodeidah port; Houthis confirm deadly attack on key Yemeni city.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "King Salman issues rare condemnation of Houthi 'terrorist' missile attacks targeting Mecca.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:00 UTC",
+      "text": "Trump threatens to 'annihilate' Iran and its people in combative UNGA address.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Rubio questions NATO's strategic value after allies blocked US base access during Iran conflict.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Zelenskyy urges sustained global pressure on Russia at UNGA to impede Moscow's war revenues.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Experts warn UN faces existential crisis of funding, Security Council gridlock, and declining relevance.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "European officials warn Russia may widen Ukraine conflict through covert sabotage operations across the continent.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "Ukrainian drone attack on Moscow strikes major refinery; previously unknown UAV type used in operation.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "00:00 UTC",
+      "text": "ISW assessment: Ukraine has successfully contested Russian strategic and operational initiative since late 2025.",
+      "source_tier": "unverified"
+    },
     {
       "time": "15:39 UTC",
       "text": "Russia kills six in Ukraine with strikes hours after Zelensky-Trump UNGA meeting on energy truce.",
@@ -496,5 +704,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-09-23T15:39:55Z"
+  "last_updated": "2026-09-23T20:45:19Z"
 }
