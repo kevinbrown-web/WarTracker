@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.9,
-    "delta": "+0.1 from yesterday",
+    "score": 8.2,
+    "delta": "No previous score available",
     "level": "High",
-    "rationale": "Simultaneous drone strikes on Kyiv, Houthi seizure of Red Sea strategic positions threatening global oil routes, and escalating US-Iran rhetorical brinkmanship at UNGA \u2014 with Trump threatening 'annihilation' even as envoys held back-channel talks \u2014 sustain near-peak tension across two active war theaters."
+    "rationale": "Multiple concurrent active conflicts\u2014US-Israel strikes on Iran with thousands of casualties, Houthis launching ballistic missiles at Saudi Arabia including Riyadh, Russian airspace violations of NATO member Poland, European contingency planning for potential Russian NATO attack, and stalled but tentatively resuming US-Iran diplomacy at UNGA\u2014collectively sustain a high escalation environment."
   },
   "ticker_items": [
-    "Russia strikes Kyiv with drones hours after Zelenskyy-Trump peace talks.",
-    "Houthis seize Mokha and Perim Island, threatening Red Sea shipping lane.",
-    "Trump threatens to 'annihilate' Iran at UNGA; US-Iran envoys meet same day.",
-    "Zelenskyy proposes 'energy ceasefire' and trilateral meeting with Putin and Trump.",
-    "North Korea tests upgraded hypersonic missile, analysts confirm new capability."
+    "\ud83d\udd34 Poland scrambles jets after Russian military helicopter violates NATO airspace for 42 seconds.",
+    "\ud83d\udd34 Houthis launch ballistic missiles at Saudi Arabia; Saudi coalition intercepts 6 targeting Taif and Yanbu.",
+    "\ud83d\udfe1 Trump threatens to 'annihilate' Iran at UNGA; US and Iranian officials hold 'very good' side talks.",
+    "\ud83d\udfe1 Europe mulls contingency plans amid intelligence reports of possible Russian NATO attack.",
+    "\ud83d\udfe1 Trump-Zelensky Patriot missile talks yield no US commitment; energy truce proposal remains unresolved."
   ],
   "new_entrant": {
     "active": true,
-    "text": "The UK has deployed an RAF Voyager tanker to Saudi Arabia to support air-to-air refuelling operations in response to escalating Houthi attacks on Red Sea shipping routes, marking an expanded British operational role in the Yemen-Red Sea theater."
+    "text": "The United Kingdom has approved military assistance to Saudi Arabia to help fend off Iran-backed Houthi attacks, marking a new direct UK role in the Yemen-Saudi Arabia theater."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -28,6 +28,28 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Poland",
+        "target_location": "Polish airspace (border region)",
+        "description": "A Russian military helicopter violated Polish airspace for approximately 42 seconds, prompting Poland to scramble NATO fighter jets in response.",
+        "method": "Air/Drone",
+        "lat": 52.23,
+        "lng": 21.01,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Progress rocket factory (Russia)",
+        "description": "Ukrainian cruise missiles struck a Russian factory producing Soyuz rockets, with reports indicating serious damage to the facility.",
+        "method": "Air/Precision Strike",
+        "lat": 56.85,
+        "lng": 53.23,
+        "source_tier": "analyst"
       }
     ],
     "middle_east": [
@@ -63,6 +85,39 @@
         "lat": 13.32,
         "lng": 43.25,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh",
+        "description": "Houthi fighters launched ballistic missiles at Saudi Arabia, striking a fuel storage facility and forcing temporary closure of King Khalid International Airport in Riyadh.",
+        "method": "Ballistic Missile",
+        "lat": 24.71,
+        "lng": 46.67,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Taif and Yanbu",
+        "description": "Saudi-led coalition reports intercepting 6 ballistic missiles launched by Houthis targeting the cities of Taif and Yanbu.",
+        "method": "Ballistic Missile",
+        "lat": 21.27,
+        "lng": 40.42,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Yemen",
+        "target_location": "Red Sea coast / strategic heights",
+        "description": "Houthi fighters advanced to seize strategic heights in Yemen to cut off the Red Sea coast from remaining Saudi-backed force-held areas.",
+        "method": "Ground/Armored",
+        "lat": 15.55,
+        "lng": 42.58,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -95,6 +150,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel strikes on Iran and Lebanon (cumulative tracker)",
+        "kia": "~7,164 total (est. 3,468 Iran, 3,696 Lebanon, 28 Gulf states)",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -115,6 +177,24 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera live tracker",
         "as_of": "2026-06-10 (last tracker update)"
+      },
+      {
+        "claim": "Deaths in Iran from US-Israel strikes",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Lebanon from US-Israel strikes",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Gulf states from US-Israel strikes",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
       }
     ]
   },
@@ -125,6 +205,12 @@
         "speaker": "Russian Ministry of Foreign Affairs (attributed)",
         "title": "Official Russian government statement",
         "date": "2026-09-17"
+      },
+      {
+        "text": "The UK orchestrated the Bucha false flag to derail the 2022 Russia-Ukraine peace talks.",
+        "speaker": "Russian Government (MoD/official statement)",
+        "title": "Russian Ministry of Defense",
+        "date": "2026-09-17"
       }
     ],
     "ukraine": [
@@ -133,6 +219,12 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-09-23"
+      },
+      {
+        "text": "Ukrainian forces have successfully contested both the strategic and the operational initiative since late 2025.",
+        "speaker": "ISW Assessment (via Freerepublic/ISW source)",
+        "title": "Institute for the Study of War",
+        "date": "2026-09-19"
       }
     ],
     "middle_east": [
@@ -158,6 +250,30 @@
         "text": "The targeting of Mecca by terrorist Houthis is an outrage demanding urgent response.",
         "speaker": "King Salman",
         "title": "King of Saudi Arabia",
+        "date": "2026-09-22"
+      },
+      {
+        "text": "Either make a deal or I will annihilate you.",
+        "speaker": "Donald Trump",
+        "title": "President of the United States",
+        "date": "2026-09-23"
+      },
+      {
+        "text": "US and Iranian officials met \u2014 it was a very good meeting.",
+        "speaker": "Donald Trump",
+        "title": "President of the United States",
+        "date": "2026-09-23"
+      },
+      {
+        "text": "Fresh shuttle talks on the sidelines of UNGA between the US and Iran were described as productive.",
+        "speaker": "Unnamed US/Iran officials (via RTE)",
+        "title": "Diplomatic officials",
+        "date": "2026-09-23"
+      },
+      {
+        "text": "Events in the West Bank are removing the rights of the Palestinian people to exist and Israel is hurting its national security by violating the sovereignty of its neighbours.",
+        "speaker": "Emmanuel Macron",
+        "title": "President of France",
         "date": "2026-09-22"
       }
     ]
@@ -204,15 +320,108 @@
       "flag": "\ud83c\uddf6\ud83c\udde6",
       "status": "Mediator + arms supplier",
       "description": "Qatar's Sheikh Tamim addressed UNGA urging diplomacy on Iran while condemning Israeli actions. Qatar continues to serve as a key backchannel facilitator between the US and regional actors."
+    },
+    {
+      "country": "Slovakia",
+      "flag": "\ud83c\uddf8\ud83c\uddf0",
+      "status": "Abstaining",
+      "description": "Prime Minister Robert Fico publicly stated that defeating Russia on the battlefield is impossible and called the conflict 'not our war,' drawing sharp criticism from NATO allies. Fico has stated he fears war and will do everything possible to keep Slovakia out of one. His remarks on NATO Article 5 have raised questions about Slovakia's commitment to the alliance."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "Reporting suggests China's President Xi has effectively neutralized US pressure under Trump, securing strategic positioning. China continues to purchase energy from Canada amid global fuel scarcity driven by the Iran conflict. Beijing's role as a backer of Russia and Iran while maintaining economic ties with the West keeps it a pivotal strategic balancer."
+    },
+    {
+      "country": "Estonia / Latvia / Lithuania",
+      "flag": "\ud83c\uddea\ud83c\uddea",
+      "status": "Monitoring",
+      "description": "The three Baltic states have reportedly secretly petitioned the EU for additional funds for drone defense systems, citing an escalating Russian threat. Latvian President Rinkevics has stated Russia has already begun attacking NATO and the EU, disagreeing with those who frame a NATO attack as future-tense. European officials are actively mulling contingency plans in response to intelligence about a possible Russian attack on NATO."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated \u2014 rising sharply",
+    "brent_crude": "Elevated (exact figure unavailable; Strait of Hormuz risk premium persists despite slight easing of Saudi supply fears)",
     "wheat_futures": "Unchanged",
-    "notes": "Houthi seizure of Mokha and Perim Island and continued Hormuz closure uncertainty are driving global oil prices higher, with airline fuel scarcity and flight cuts reported as downstream effects."
+    "notes": "Oil markets remain under pressure from Strait of Hormuz closure risk and Houthi attacks on Red Sea shipping routes, though prices dipped slightly on easing Saudi supply fears; Iran has floated conditional terms for Hormuz reopening potentially contingent on a post-US-midterm deal."
   },
   "update_log": [
+    {
+      "time": "16:00",
+      "text": "Saudi-led coalition reports intercepting 6 Houthi ballistic missiles targeting Taif and Yanbu, Saudi Arabia.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:00",
+      "text": "Poland confirms Russian military helicopter violated its airspace for 42 seconds; NATO jets scrambled.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "14:00",
+      "text": "Trump confirms US and Iranian officials held 'very good' meeting on UNGA sidelines; Witkoff and Kushner participated.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:00",
+      "text": "US delegation walks out of UNGA as Iranian President Pezeshkian displays images of children killed in US strikes.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00",
+      "text": "Trump threatens to 'annihilate' Iran in UNGA address if no deal is reached.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:00",
+      "text": "RFE/RL reports Europe mulling contingency plans amid intelligence warnings of possible Russian attack on NATO.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:00",
+      "text": "Iran floats conditions for Strait of Hormuz reopening; Trump hints deal possible after US midterms.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00",
+      "text": "UK approves military assistance to Saudi Arabia to defend against Houthi attacks on Red Sea and Saudi territory.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00",
+      "text": "Houthis launch ballistic missiles at Riyadh, striking fuel storage and temporarily closing King Khalid International Airport.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00",
+      "text": "Trump and Zelensky discuss Patriot missiles at UNGA; no US commitment made.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "05:00",
+      "text": "Al Jazeera tracker records cumulative ~7,164 deaths from US-Israel strikes on Iran and Lebanon since March 2026.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "04:00",
+      "text": "North Korea reported to have tested upgraded hypersonic missile designed to defeat air defense systems.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "03:00",
+      "text": "Slovak PM Fico says defeating Russia on battlefield is impossible and calls conflict 'not our war,' drawing NATO criticism.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "02:00",
+      "text": "Kremlin-backed forgery scheme moved $6.9 billion through global banks including Standard Chartered and Citigroup, per leaked fintech data.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "01:00",
+      "text": "Russia's AI-trained killer drone program reportedly used scraped Ukrainian war footage to develop targeting models.",
+      "source_tier": "analyst"
+    },
     {
       "time": "10:38",
       "text": "Update run initiated for 2026-09-24; escalation score set at 7.9, delta +0.1 from yesterday's 7.8.",
@@ -284,5 +493,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-09-24T10:38:17Z"
+  "last_updated": "2026-09-24T16:00:54Z"
 }
