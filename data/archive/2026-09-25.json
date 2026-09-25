@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.4,
-    "delta": "+0.2 from yesterday",
+    "score": 8.2,
+    "delta": "No previous score available",
     "level": "High",
-    "rationale": "Simultaneous high-intensity conflicts across Ukraine (9 killed in missile/drone strikes), an ongoing US-Iran war with Strait of Hormuz closure straining global energy, North Korean POW transfers confirming DPRK troop deployment, a Russian helicopter breaching Polish airspace, and Lithuania moving to lift its nuclear weapons ban collectively sustain a high escalation environment."
+    "rationale": "Multiple concurrent active war theaters \u2014 US-Israel strikes on Iran with confirmed thousands dead, Houthi capture of Mocha and attack on Saudi Yanbu prompting French military deployment, intensified Russian strikes across Ukraine, Danish intelligence warning of imminent Russian NATO attack, and Iran-closure of Hormuz driving Brent above $107 \u2014 combine to place the global conflict environment at High escalation."
   },
   "ticker_items": [
-    "Russia kills 9 in missile and drone strikes on Kyiv and Kharkiv region.",
-    "Iran pitches 7-day roadmap to end conflict with US, offers to reopen Hormuz.",
-    "Ukraine transfers two captured North Korean POWs to South Korea.",
-    "Russian helicopter breaches Polish airspace; NATO jets scrambled.",
-    "Lithuania parliament backs constitutional amendment to lift nuclear weapons ban."
+    "Brent crude surges above $107 after Houthi strike on Saudi military site.",
+    "France to deploy troops and defense systems to Saudi Arabia to protect Yanbu port.",
+    "Denmark warns Russia may attack NATO member within months; NATO declares readiness.",
+    "Ukraine transfers two captured North Korean POWs to South Korea, Zelenskyy confirms.",
+    "US invites Putin to G20 Miami summit in December amid Ukraine peace push."
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "France announced it will deploy military personnel and air defense systems to Saudi Arabia, marking a new direct French military presence in the Yemen-Gulf war theater."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -50,6 +50,17 @@
         "lat": 52.23,
         "lng": 21.01,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple regions",
+        "description": "Russian forces carried out repeated attacks across Ukraine over recent days, killing and injuring civilians and damaging homes, hospitals, shops and workplaces, per UN human rights monitors.",
+        "method": "Missile/Surface",
+        "lat": 49.0,
+        "lng": 32.0,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -62,6 +73,28 @@
         "method": "Ground/Armored",
         "lat": 13.58,
         "lng": 44.01,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Yanbu / Red Sea coast",
+        "description": "Houthi forces launched an attack on a Saudi military site, triggering a surge in Brent crude above $107 per barrel and prompting France to pledge troops and air defenses to protect Yanbu.",
+        "method": "Missile/Surface",
+        "lat": 24.09,
+        "lng": 38.06,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Yemen",
+        "target_location": "Taiz",
+        "description": "Yemeni government forces repelled Houthi attacks in Taiz governorate, claiming dozens of Houthis killed during battles for strategic highlands.",
+        "method": "Ground/Armored",
+        "lat": 13.58,
+        "lng": 44.02,
         "source_tier": "verified"
       }
     ]
@@ -88,6 +121,55 @@
         "wia": "1 (critically)",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian attacks across Ukraine (recent days)",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US-Israel attacks on Iran (cumulative tracker)",
+        "kia": "~3,468",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel attacks \u2014 Lebanon casualties (cumulative tracker)",
+        "kia": "~3,696",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel attacks \u2014 Gulf states casualties (cumulative tracker)",
+        "kia": "~28",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "West Bank ramming attack \u2014 son of Israeli ambassador",
+        "kia": "0",
+        "wia": "~1 critical",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Houthi battles in Taiz \u2014 claimed Houthi KIA",
+        "kia": "dozens",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Israeli operations in Lebanon (RT/genocide claim, 6 months cumulative)",
+        "kia": "~4,300",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -108,6 +190,30 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera live tracker",
         "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Iranian civilian and military deaths from US-Israel strikes",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Lebanese deaths from Israeli operations",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Gulf state deaths from US-Israel strikes",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Total killed in Lebanon (Israeli operations, 6 months)",
+        "figure": "~4,300",
+        "claimed_by": "RT / genocide prevention groups",
+        "as_of": "2026-09-23"
       }
     ]
   },
@@ -132,6 +238,18 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-09-24"
+      },
+      {
+        "text": "Putin is 'Patient Zero,' the one from whom the idea of war keeps spreading further. The world must stop the head of Russia, deprive Russia of any ability to wage war and spread evil, and force it to de-escalate.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-09-24"
+      },
+      {
+        "text": "Ukraine sent two North Korean prisoners of war to South Korea.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-09-24"
       }
     ],
     "middle_east": [
@@ -140,6 +258,18 @@
         "speaker": "Masoud Pezeshkian",
         "title": "President of Iran",
         "date": "2026-09-23"
+      },
+      {
+        "text": "Lebanon will not be an arena for the conflicts of others.",
+        "speaker": "Nawaf Salam",
+        "title": "Prime Minister of Lebanon",
+        "date": "2026-09-25"
+      },
+      {
+        "text": "Iran has consistently vowed to escalate its attacks against the US if struck again, including with new targets and weapons.",
+        "speaker": "Unnamed Iranian officials",
+        "title": "Iranian Government",
+        "date": "2026-09-24"
       }
     ]
   },
@@ -191,15 +321,110 @@
       "flag": "\ud83c\uddf6\ud83c\udde6",
       "status": "Mediator + arms supplier",
       "description": "Qatar's Sheikh Tamim addressed the UN General Assembly, warning of a 'dangerous situation' in the Middle East and condemning Israeli actions as crimes against humanity. Qatar continues to play a diplomatic bridging role amid the escalating regional crisis."
+    },
+    {
+      "country": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "status": "Basing + logistics",
+      "description": "President Macron announced France will deploy troops and air defense systems to Saudi Arabia to protect the Red Sea oil port of Yanbu from Houthi threats. This marks a new direct French military commitment in the Gulf theater."
+    },
+    {
+      "country": "Denmark",
+      "flag": "\ud83c\udde9\ud83c\uddf0",
+      "status": "Monitoring",
+      "description": "Danish military intelligence issued a prominent warning of rising hybrid attacks and the possibility of Russian military action against NATO within months, urging NATO unity and readiness. Denmark is not directly engaged but is elevating threat assessments."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Strategic balancer",
+      "description": "Turkey under Erdo\u011fan continues to forge its own path, refusing to be defined by either NATO or Russian alignment. Analysts note Ankara is seeking an improved position within the existing world order while maintaining relations with both blocs."
+    },
+    {
+      "country": "Czech Republic",
+      "flag": "\ud83c\udde8\ud83c\uddff",
+      "status": "Monitoring",
+      "description": "Prime Minister Babis reaffirmed NATO commitment but rejected calls for faster defense spending increases, citing budget constraints, even as Russia threat warnings intensify across the alliance."
+    },
+    {
+      "country": "South Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf7",
+      "status": "Monitoring",
+      "description": "South Korea received two North Korean POWs transferred by Ukraine, a diplomatically significant moment confirming North Korean troop deployment to Russia. Seoul's Foreign Ministry did not directly confirm Zelenskyy's statement, maintaining strategic ambiguity."
     }
   ],
   "financial": {
-    "usd_rub": "Unchanged",
-    "brent_crude": "Elevated \u2014 exact figure unavailable",
-    "wheat_futures": "Unchanged",
-    "notes": "Strait of Hormuz closure has pushed oil prices sharply higher; Gulf producers are sustaining exports via costly ship-to-ship transfers and pipeline workarounds, keeping supply intact but at significantly elevated cost, with global food prices also rising as a secondary effect."
+    "usd_rub": "",
+    "brent_crude": "$107+",
+    "wheat_futures": "",
+    "notes": "Brent crude surged above $107 per barrel following a Houthi attack on a Saudi military site, compounding existing price pressures from Iran's closure of the Strait of Hormuz and Gulf nations' costly oil transport workarounds."
   },
   "update_log": [
+    {
+      "time": "16:01 UTC",
+      "text": "France announces deployment of troops and air defense systems to Saudi Arabia to protect Yanbu Red Sea oil port from Houthi threat.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:30 UTC",
+      "text": "Brent crude surges above $107 per barrel after Houthi attack on Saudi military site dims Hormuz deal hopes.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Lebanon PM Nawaf Salam calls for full Israeli withdrawal in UN address, saying Lebanon won't be an arena for others' conflicts.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:00 UTC",
+      "text": "NATO Secretary General says alliance is 'ready' for Russian hybrid attacks, urges increased support for Ukraine.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Zelenskyy confirms at UNGA that Ukraine sent two captured North Korean POWs to South Korea.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "11:30 UTC",
+      "text": "Dozens of UN envoys walk out of Netanyahu's UNGA speech in protest.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "Zelenskyy tells UNGA that Putin is 'Patient Zero' for a pandemic of war spreading beyond Ukraine.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Denmark's military intelligence warns of rising risk of Russian attack on NATO, potentially within months.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "US Secretary of State Rubio confirms US invited Putin to G20 summit in Miami in December as part of Ukraine de-escalation effort.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "UN human rights monitors report new intensity to Russian attacks across Ukraine, hitting civilians, hospitals and infrastructure.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "07:00 UTC",
+      "text": "Yemeni government forces repel Houthi attacks in Taiz, claiming dozens of Houthis killed in battles for strategic highlands.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "Son of Israel's US ambassador critically injured in West Bank ramming attack near Beit Horon settlement.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "00:00 UTC",
+      "text": "RFE/RL reports Europe is actively mulling contingency plans amid intelligence warnings of possible Russian attack on NATO.",
+      "source_tier": "verified"
+    },
     {
       "time": "10:41 UTC",
       "text": "Iran proposes a seven-day roadmap to end the US-Iran war, offering to reopen the Strait of Hormuz if regional conflicts are halted.",
@@ -251,5 +476,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-09-25T10:41:35Z"
+  "last_updated": "2026-09-25T16:01:11Z"
 }
