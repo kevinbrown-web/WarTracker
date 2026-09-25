@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.2,
-    "delta": "No previous score available",
-    "level": "High",
-    "rationale": "Multiple concurrent active war theaters \u2014 US-Israel strikes on Iran with confirmed thousands dead, Houthi capture of Mocha and attack on Saudi Yanbu prompting French military deployment, intensified Russian strikes across Ukraine, Danish intelligence warning of imminent Russian NATO attack, and Iran-closure of Hormuz driving Brent above $107 \u2014 combine to place the global conflict environment at High escalation."
+    "score": 7.8,
+    "delta": "No previous score",
+    "level": "Elevated",
+    "rationale": "Simultaneous Houthi missile strikes on Saudi Aramco/Yanbu and Taif, Brent crude surging past $107, France deploying troops/defense systems to Saudi Arabia, Iran threatening to expand war into the Indian Ocean, Poland Starlink sabotage labeled a Russian hybrid attack, Danish and NATO intelligence warnings of imminent Russian NATO attack, and the US Senate's failure to halt Trump's Iran war powers all combine to push the score near High."
   },
   "ticker_items": [
-    "Brent crude surges above $107 after Houthi strike on Saudi military site.",
-    "France to deploy troops and defense systems to Saudi Arabia to protect Yanbu port.",
-    "Denmark warns Russia may attack NATO member within months; NATO declares readiness.",
-    "Ukraine transfers two captured North Korean POWs to South Korea, Zelenskyy confirms.",
-    "US invites Putin to G20 Miami summit in December amid Ukraine peace push."
+    "Houthis strike Saudi Aramco Yanbu facility; Brent crude surges above $107/bbl.",
+    "France to deploy troops and air-defense systems to Saudi Arabia.",
+    "Iran warns U.S. strikes could push war into Indian Ocean.",
+    "Poland Starlink station fire labeled deliberate sabotage; Denmark warns of Russian attack.",
+    "Ukraine transfers two North Korean POWs to South Korea, confirmed by Zelenskyy at UNGA."
   ],
   "new_entrant": {
     "active": true,
-    "text": "France announced it will deploy military personnel and air defense systems to Saudi Arabia, marking a new direct French military presence in the Yemen-Gulf war theater."
+    "text": "France announced it will deploy military personnel and defense systems to Saudi Arabia to protect the Red Sea port of Yanbu following Houthi attacks, marking a significant new direct French military commitment to the Arabian Peninsula theater."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -61,6 +61,17 @@
         "lat": 49.0,
         "lng": 32.0,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia (suspected/linked)",
+        "target_country": "Poland",
+        "target_location": "Central Poland (Starlink power station)",
+        "description": "A fire labeled as deliberate sabotage engulfed a power station and backup generator serving a Starlink relay site in central Poland; the site is now operating normally.",
+        "method": "Ground/Armored",
+        "lat": 52.1,
+        "lng": 19.8,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -96,6 +107,39 @@
         "lat": 13.58,
         "lng": 44.02,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Yanbu",
+        "description": "Houthi spokesperson Yahya Saree announced an attack on a Saudi Aramco facility in Yanbu on the Red Sea coast; Saudi Arabia intercepted incoming missiles.",
+        "method": "Ballistic Missile",
+        "lat": 24.09,
+        "lng": 38.06,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Taif",
+        "description": "Saudi air defenses intercepted Houthi missiles targeting the city of Taif; no confirmed damage reported.",
+        "method": "Ballistic Missile",
+        "lat": 21.27,
+        "lng": 40.41,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Saudi military site (unspecified)",
+        "description": "Houthi attack on a Saudi military site contributed to Brent crude prices surging above $107 per barrel.",
+        "method": "Missile/Surface",
+        "lat": 23.5,
+        "lng": 38.5,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -170,6 +214,20 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "West Bank ramming attack \u2014 son of Israeli Ambassador to US",
+        "kia": "1 (attacker)",
+        "wia": "1 (Neria Leiter, critically)",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "USS Lincoln crew suicides (reported cumulative figure)",
+        "kia": "0",
+        "wia": "~8 (attempted suicide)",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -214,6 +272,12 @@
         "figure": "~4,300",
         "claimed_by": "RT / genocide prevention groups",
         "as_of": "2026-09-23"
+      },
+      {
+        "claim": "North Korean soldiers serving with Russian forces \u2014 POWs confirmed",
+        "figure": "2 captured alive (transferred to South Korea)",
+        "claimed_by": "Ukraine President Zelenskyy / Al Jazeera",
+        "as_of": "2026-09-24"
       }
     ]
   },
@@ -223,6 +287,12 @@
         "text": "Russia is widening insecurity while refusing the path to peace.",
         "speaker": "Arron Newble",
         "title": "UK Counsellor for Politico-Military Affairs, OSCE statement",
+        "date": "2026-09-24"
+      },
+      {
+        "text": "Putin Is 'Patient Zero,' the one from whom the idea of war keeps spreading further.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
         "date": "2026-09-24"
       }
     ],
@@ -250,6 +320,18 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-09-24"
+      },
+      {
+        "text": "The world must stop the head of Russia, deprive Russia of any ability to wage war and spread evil, and force it to de-escalate.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-09-24"
+      },
+      {
+        "text": "North Korea uses its citizens like 'currency' to aid Russia in its war against Ukraine.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-09-24"
       }
     ],
     "middle_east": [
@@ -270,6 +352,30 @@
         "speaker": "Unnamed Iranian officials",
         "title": "Iranian Government",
         "date": "2026-09-24"
+      },
+      {
+        "text": "Allegations of Israeli genocide in Gaza are not only false but 'the biggest lie of the century.'",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister of Israel",
+        "date": "2026-09-24"
+      },
+      {
+        "text": "Iran is 'the victim of terrorism' by the United States and Israel.",
+        "speaker": "Masoud Pezeshkian",
+        "title": "President of Iran",
+        "date": "2026-09-23"
+      },
+      {
+        "text": "U.S. strikes could push war into the Indian Ocean.",
+        "speaker": "Yahya Rahim Safavi",
+        "title": "Adviser to Iran's Supreme Leader",
+        "date": "2026-09-24"
+      },
+      {
+        "text": "Houthi threats to Saudi holy sites are a 'red line.'",
+        "speaker": "Shehbaz Sharif",
+        "title": "Prime Minister of Pakistan",
+        "date": "2026-09-25"
       }
     ]
   },
@@ -351,15 +457,98 @@
       "flag": "\ud83c\uddf0\ud83c\uddf7",
       "status": "Monitoring",
       "description": "South Korea received two North Korean POWs transferred by Ukraine, a diplomatically significant moment confirming North Korean troop deployment to Russia. Seoul's Foreign Ministry did not directly confirm Zelenskyy's statement, maintaining strategic ambiguity."
+    },
+    {
+      "country": "Latvia",
+      "flag": "\ud83c\uddf1\ud83c\uddfb",
+      "status": "Active materiel + troops",
+      "description": "Latvian President Rink\u0113vi\u010ds stated that Russia has effectively already begun hybrid attacks on NATO/EU, and Latvia is preparing to join a Strait of Hormuz coalition. Latvia continues to highlight Iranian drone-tech transfers to Russia as a direct threat to European security."
+    },
+    {
+      "country": "Bahrain",
+      "flag": "\ud83c\udde7\ud83c\udded",
+      "status": "Mediator + arms supplier",
+      "description": "Bahrain is leading an 80-country coalition calling for the immediate, unconditional reopening of the Strait of Hormuz for commercial shipping. The group demands free passage without tolls or conditions imposed by any party. Bahrain's leadership reflects its central role as a U.S. Fifth Fleet host and Gulf security stakeholder."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Strategic balancer",
+      "description": "Prime Minister Sharif invoked the Mecca Joint Defence Agreement at UNGA, condemning Houthi attacks on Saudi holy sites as a red line. Pakistan's statement signals potential military commitment to Saudi defense under Islamic alliance frameworks. Pakistan remains a strategic balancer between Gulf partners and its complex relationship with Iran."
     }
   ],
   "financial": {
-    "usd_rub": "",
-    "brent_crude": "$107+",
-    "wheat_futures": "",
-    "notes": "Brent crude surged above $107 per barrel following a Houthi attack on a Saudi military site, compounding existing price pressures from Iran's closure of the Strait of Hormuz and Gulf nations' costly oil transport workarounds."
+    "usd_rub": "Unchanged",
+    "brent_crude": "$107+/bbl",
+    "wheat_futures": "Unchanged",
+    "notes": "Brent crude surged above $107 per barrel following Houthi missile strikes on Saudi Aramco facilities at Yanbu and a Saudi military site, compounding tight global supply signals and fears of further Houthi Red Sea escalation."
   },
   "update_log": [
+    {
+      "time": "20:48 UTC",
+      "text": "France announces troop and air-defense deployment to Saudi Arabia to protect Yanbu amid Houthi missile campaign.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:30 UTC",
+      "text": "Brent crude surges above $107/bbl following confirmed Houthi strikes on Saudi Aramco Yanbu facility and Saudi military site.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:00 UTC",
+      "text": "Iran warns U.S. strikes could push the conflict into the Indian Ocean, per Supreme Leader adviser Yahya Rahim Safavi.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:45 UTC",
+      "text": "Saudi Arabia intercepts Houthi ballistic missiles targeting Yanbu and Taif; Houthis claim Aramco facility strike.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:00 UTC",
+      "text": "Zelenskyy confirms at UNGA that Ukraine transferred two captured North Korean POWs to South Korea.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:30 UTC",
+      "text": "Pakistan PM invokes Mecca Joint Defence Agreement at UNGA, labeling Houthi attacks on Saudi holy sites a red line.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:00 UTC",
+      "text": "Netanyahu delivers defiant UNGA speech defending strikes on Iran and war in Gaza; dozens of delegations walk out.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "U.S. Senate fails again to adopt Iran War Powers Resolution; legal challenge filed by NIAC Action.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:00 UTC",
+      "text": "Bahrain leads 80-country call for immediate reopening of Strait of Hormuz without tolls or conditions.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Poland labels Starlink power station fire deliberate sabotage; Denmark warns of elevated Russian hybrid attack risk on NATO.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "NATO Secretary-General Rutte calls for calm amid intel warnings of Russia ramping up hybrid attacks in Europe.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "Son of Israeli Ambassador to U.S. critically injured in West Bank ramming attack; attacker killed by Israeli forces.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "RFE/RL: European officials mulling NATO contingency plans amid intelligence reports of potential Russian attack.",
+      "source_tier": "verified"
+    },
     {
       "time": "16:01 UTC",
       "text": "France announces deployment of troops and air defense systems to Saudi Arabia to protect Yanbu Red Sea oil port from Houthi threat.",
@@ -476,5 +665,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-09-25T16:01:11Z"
+  "last_updated": "2026-09-25T20:48:29Z"
 }
