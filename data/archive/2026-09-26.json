@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.1,
-    "delta": "+0.3 from yesterday",
+    "score": 8.2,
+    "delta": "No previous score available",
     "level": "High",
-    "rationale": "Multi-theater escalation persists: Russia kills a 14-year-old in a Kyiv drone strike, Saudi Arabia rallies allies against intensifying Houthi attacks threatening global oil routes, Trump rejects Iran's ceasefire proposal signaling possible resumed strikes, and NATO intercepts Russian warplanes over the Gulf of Finland amid invasion contingency planning."
+    "rationale": "Multiple simultaneous high-intensity conflict arcs \u2014 US-Israel strikes on Iran with confirmed thousands dead, Houthi attacks threatening Saudi critical oil infrastructure prompting rare Saudi Grand Mufti war declaration, Turkey/Pakistan mobilizing toward Saudi Arabia, Strait of Hormuz closure crisis with Trump rejecting Iran's seven-day reopening plan, RAF satellite jamming disclosed, and European NATO contingency planning against possible Russian attack \u2014 collectively drive the score to High."
   },
   "ticker_items": [
-    "Russia drone strike kills 14-year-old boy in Kyiv apartment building.",
-    "Trump rejects Iran's 7-day ceasefire offer; analysts expect resumed strikes post-midterms.",
-    "Saudi Grand Mufti urges troops to fight Houthis as France, Turkey, Pakistan rally to Riyadh.",
-    "Zelenskyy confirms Trump approved Ukraine Patriot missile production license.",
-    "NATO jets intercept Russian warplanes over Gulf of Finland amid invasion fears."
+    "Trump rejects Iran's 7-day Hormuz reopening roadmap submitted via Qatar.",
+    "Saudi Grand Mufti orders troops ready to sacrifice lives fighting Houthis.",
+    "Zelenskyy: Trump made 'final decision' to license Ukraine Patriot missile production.",
+    "RAF confirmed jamming adversary satellites for over a year, including nuclear deterrent defense.",
+    "Pakistan and Turkey military chiefs head to Riyadh for urgent Saudi defence talks."
   ],
   "new_entrant": {
     "active": true,
-    "text": "France is deploying military forces to protect Saudi Arabia's Yanbu oil terminal, marking a significant new direct French military commitment in the Houthi-Saudi conflict theater."
+    "text": "Pakistan and Turkey are edging toward active involvement in the Saudi-Houthi conflict, with military chiefs traveling to Riyadh for urgent joint-defence talks, potentially marking their formal entry into the Arabian Peninsula war."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -28,6 +28,17 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple Ukrainian cities",
+        "description": "Russia deploying new long-range jet-powered drones against Ukrainian urban targets, straining Ukrainian air defenses.",
+        "method": "Air/Drone",
+        "lat": 48.38,
+        "lng": 31.17,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -40,6 +51,28 @@
         "method": "Missile/Surface",
         "lat": 24.68,
         "lng": 46.72,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Yanbu / East-West Pipeline",
+        "description": "Houthi attacks struck Saudi Aramco's East-West Petroline system, knocking out the 7 million bpd route; Aramco restored partial operations within two weeks.",
+        "method": "Missile/Surface",
+        "lat": 24.09,
+        "lng": 38.06,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Saudi southern border / deep targets",
+        "description": "Houthis struck Saudi Arabia hard and deep, prompting rare Grand Mufti address ordering soldiers to be ready to sacrifice their lives.",
+        "method": "Missile/Surface",
+        "lat": 17.5,
+        "lng": 44.2,
         "source_tier": "unverified"
       }
     ]
@@ -59,6 +92,13 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Houthi attacks on Saudi Arabia",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -79,6 +119,24 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera Live Tracker",
         "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Killed in Iran from US-Israel strikes",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-09-25"
+      },
+      {
+        "claim": "Killed in Lebanon from US-Israel strikes",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-09-25"
+      },
+      {
+        "claim": "Killed in Gulf states from US-Israel strikes",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-09-25"
       }
     ]
   },
@@ -89,6 +147,12 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-09-24"
+      },
+      {
+        "text": "The UK orchestrated the Bucha false flag to derail the 2022 Russia-Ukraine peace talks.",
+        "speaker": "Russian Government",
+        "title": "Official Moscow statement",
+        "date": "2026-09-17"
       }
     ],
     "ukraine": [
@@ -100,6 +164,18 @@
       },
       {
         "text": "North Korea is using its citizens like currency to aid Russia in its war against Ukraine.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-09-24"
+      },
+      {
+        "text": "Putin is 'Patient Zero,' the one from whom the idea of war keeps spreading further. The world must stop the head of Russia, deprive Russia of any ability to wage war.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-09-24"
+      },
+      {
+        "text": "Ukraine sent two North Korean prisoners of war to South Korea; North Korea uses its citizens like 'currency' to aid Russia.",
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-09-24"
@@ -116,6 +192,18 @@
         "text": "Iran dismissed rumors that Tehran plans to produce a nuclear bomb.",
         "speaker": "Masoud Pezeshkian",
         "title": "President of Iran",
+        "date": "2026-09-25"
+      },
+      {
+        "text": "Gaza genocide allegations are not only false but 'the biggest lie of the century.'",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister of Israel",
+        "date": "2026-09-25"
+      },
+      {
+        "text": "Tehran submitted a proposal via Qatar to reopen the Strait of Hormuz and resume nuclear talks within a week if Washington agreed.",
+        "speaker": "Iranian Government",
+        "title": "Official Iranian position",
         "date": "2026-09-25"
       }
     ]
@@ -168,15 +256,82 @@
       "flag": "\ud83c\uddee\ud83c\uddf7",
       "status": "Strategic balancer",
       "description": "Iran's president dismissed nuclear bomb production rumors at the UN General Assembly. Tehran sought to publicly distance itself from rapid Houthi advances against Saudi Arabia even as Houthi attacks intensify. Iran's proposed seven-day ceasefire was rejected by Trump."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "RAF disclosed to have been secretly jamming adversary satellites for over a year, including in defense of the UK nuclear deterrent. This marks a significant active electronic-warfare posture. UK continues military support to Ukraine."
+    },
+    {
+      "country": "Saudi Arabia",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "status": "Active materiel + troops",
+      "description": "Saudi Grand Mufti issued a rare, strongly worded address ordering troops at the border to be ready to sacrifice their lives fighting Houthis. Saudi Aramco partially restored the East-West Petroline after Houthi attacks. Saudi Arabia is rallying Turkey, Pakistan, and France under joint-defence arrangements."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated \u2014 est. above $120/bbl",
+    "brent_crude": "Elevated \u2014 exact price not in headlines",
     "wheat_futures": "Unchanged",
-    "notes": "Bank of America warned Brent crude could exceed $150/barrel if Iran war disruptions and Strait of Hormuz closures persist, raising its year-end forecast significantly from $83/bbl."
+    "notes": "Saudi Aramco's partial restoration of the East-West Petroline after Houthi attacks provides marginal supply-route relief, but Trump's rejection of Iran's Hormuz reopening roadmap keeps oil-market pressure acute as US midterms approach."
   },
   "update_log": [
+    {
+      "time": "15:13",
+      "text": "Trump rejects Iran's seven-day Strait of Hormuz reopening proposal submitted via Qatar, maintaining closure crisis.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00",
+      "text": "Saudi Grand Mufti issues rare call for troops to be ready to sacrifice their lives against Houthis; Turkey and Pakistan military chiefs en route to Riyadh.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "13:30",
+      "text": "Zelenskyy confirms Trump made 'final decision' to license Ukraine's domestic Patriot missile production.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00",
+      "text": "Al Jazeera casualty tracker records 3,468 dead in Iran, 3,696 in Lebanon, 28 in Gulf states from US-Israel strikes.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "11:00",
+      "text": "RAF confirmed to have secretly jammed adversary satellites for over a year including in defense of UK nuclear deterrent, disclosed at Space Power Conference.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:30",
+      "text": "France deploys military to protect Saudi Yanbu oil terminal; Saudi Aramco restores partial East-West Petroline flow after Houthi strike damage.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00",
+      "text": "Netanyahu addresses UNGA, defends Israel's Iran strikes and Gaza campaign; mass delegate walkout occurs.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00",
+      "text": "Zelenskyy addresses UNGA, calls Putin 'Patient Zero' of global war spread, urges world to strip Russia of war-making capacity.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00",
+      "text": "Ukraine transfers two North Korean POWs to South Korea; Seoul does not directly confirm; South Korean president accuses Zelenskyy of using transfer as PR stunt.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "04:00",
+      "text": "RFE/RL reports Europe mulling NATO contingency plans amid intelligence warnings of possible Russian attack on Alliance territory.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "02:00",
+      "text": "Russia introduces new long-range jet-powered drones against Ukrainian cities, complicating Ukrainian air-defense coverage.",
+      "source_tier": "unverified"
+    },
     {
       "time": "10:24",
       "text": "Trump rejects Iran's seven-day ceasefire proposal; analysts say resumed strikes likely after November midterms.",
@@ -238,5 +393,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-09-26T10:24:40Z"
+  "last_updated": "2026-09-26T15:13:44Z"
 }
