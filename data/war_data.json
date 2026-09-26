@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.2,
+    "score": 7.8,
     "delta": "No previous score available",
-    "level": "High",
-    "rationale": "Multiple simultaneous high-intensity conflict arcs \u2014 US-Israel strikes on Iran with confirmed thousands dead, Houthi attacks threatening Saudi critical oil infrastructure prompting rare Saudi Grand Mufti war declaration, Turkey/Pakistan mobilizing toward Saudi Arabia, Strait of Hormuz closure crisis with Trump rejecting Iran's seven-day reopening plan, RAF satellite jamming disclosed, and European NATO contingency planning against possible Russian attack \u2014 collectively drive the score to High."
+    "level": "Elevated",
+    "rationale": "Multiple simultaneous high-intensity conflict arcs \u2014 Houthi missiles striking Saudi Arabia drawing French troops and Pakistan/Turkey toward intervention, Iran blocking Strait of Hormuz while offering a conditional reopening deal, Russia broadening Ukraine strikes to data centers, Poland boosting air defenses after Russian incursions, and NATO contingency planning amid credible Russian attack warnings \u2014 collectively push the global conflict environment to the upper end of Elevated."
   },
   "ticker_items": [
-    "Trump rejects Iran's 7-day Hormuz reopening roadmap submitted via Qatar.",
-    "Saudi Grand Mufti orders troops ready to sacrifice lives fighting Houthis.",
-    "Zelenskyy: Trump made 'final decision' to license Ukraine Patriot missile production.",
-    "RAF confirmed jamming adversary satellites for over a year, including nuclear deterrent defense.",
-    "Pakistan and Turkey military chiefs head to Riyadh for urgent Saudi defence talks."
+    "France sending troops to protect Saudi Arabia's Yanbu oil terminal from Houthis.",
+    "Iran offers to reopen Strait of Hormuz in 7 days if US meets conditions.",
+    "Poland boosts air defenses after alleged Russian airspace provocations.",
+    "Trump approves Ukraine to manufacture Patriot missiles domestically.",
+    "Russia vows war in Ukraine will continue 'through to the end' \u2014 Lavrov."
   ],
   "new_entrant": {
     "active": true,
-    "text": "Pakistan and Turkey are edging toward active involvement in the Saudi-Houthi conflict, with military chiefs traveling to Riyadh for urgent joint-defence talks, potentially marking their formal entry into the Arabian Peninsula war."
+    "text": "France is deploying military forces to protect Saudi Arabia's Yanbu oil terminal, marking a significant new direct Western military presence in the Saudi-Houthi conflict theater; Pakistan and Turkey are in urgent talks with Riyadh about potentially joining Saudi military operations against the Houthis."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -39,6 +39,39 @@
         "lat": 48.38,
         "lng": 31.17,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple cities (data centers)",
+        "description": "Russia launched strikes targeting Ukrainian data centers, aimed at disrupting civilian connectivity, education, and remote work infrastructure.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Donetsk region",
+        "description": "Russian forces intensified ground offensive operations toward Sloviansk and Kramatorsk amid continued fighting across the eastern front.",
+        "method": "Ground/Armored",
+        "lat": 48.63,
+        "lng": 37.75,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Multiple Russian territory targets",
+        "description": "Ukraine launched retaliatory strikes on Russian territory timed during Russian parliamentary voting sessions, per Al Jazeera reporting.",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -74,6 +107,28 @@
         "lat": 17.5,
         "lng": 44.2,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Yanbu / Taif",
+        "description": "Houthis fired missiles toward the Red Sea port of Yanbu and the city of Taif; Saudi Arabia reported interceptions of the incoming missiles.",
+        "method": "Ballistic Missile",
+        "lat": 24.09,
+        "lng": 38.06,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Unspecified (deep territory)",
+        "description": "Ansar Allah struck Saudi Arabia 'hard and deep' according to reports, prompting Saudi Grand Mufti to issue rare call for military response.",
+        "method": "Missile/Surface",
+        "lat": 23.89,
+        "lng": 45.08,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -99,6 +154,20 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Houthi missile strikes on Saudi Arabia",
+        "kia": "",
+        "wia": "",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian strikes on Ukrainian data centers",
+        "kia": "",
+        "wia": "",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -153,6 +222,18 @@
         "speaker": "Russian Government",
         "title": "Official Moscow statement",
         "date": "2026-09-17"
+      },
+      {
+        "text": "Russia's military operation in Ukraine will continue through to the end.",
+        "speaker": "Sergey Lavrov",
+        "title": "Russian Foreign Minister",
+        "date": "2026-09-26"
+      },
+      {
+        "text": "Russia welcomes US-China talks and all positive agreements reached between Beijing and Washington.",
+        "speaker": "Vladimir Putin",
+        "title": "President of Russia",
+        "date": "2026-09-25"
       }
     ],
     "ukraine": [
@@ -179,6 +260,18 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-09-24"
+      },
+      {
+        "text": "There's a big deficit for everybody.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-09-25"
+      },
+      {
+        "text": "Such strikes aim to disrupt people's ability to stay connected, study, work.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-09-25"
       }
     ],
     "middle_east": [
@@ -205,6 +298,18 @@
         "speaker": "Iranian Government",
         "title": "Official Iranian position",
         "date": "2026-09-25"
+      },
+      {
+        "text": "Gaza genocide allegations are the biggest lie of the century.",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister of Israel",
+        "date": "2026-09-25"
+      },
+      {
+        "text": "Iran is guilty of flagrant attacks across the region.",
+        "speaker": "Saudi Foreign Minister",
+        "title": "Saudi Foreign Minister",
+        "date": "2026-09-26"
       }
     ]
   },
@@ -268,15 +373,92 @@
       "flag": "\ud83c\uddf8\ud83c\udde6",
       "status": "Active materiel + troops",
       "description": "Saudi Grand Mufti issued a rare, strongly worded address ordering troops at the border to be ready to sacrifice their lives fighting Houthis. Saudi Aramco partially restored the East-West Petroline after Houthi attacks. Saudi Arabia is rallying Turkey, Pakistan, and France under joint-defence arrangements."
+    },
+    {
+      "country": "Poland",
+      "flag": "\ud83c\uddf5\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Poland has boosted its air defense posture in response to alleged Russian airspace provocations linked to the Ukraine war. Warsaw is coordinating with NATO partners as intelligence reports warn of possible broader Russian aggression against alliance territory."
+    },
+    {
+      "country": "Denmark / Greenland",
+      "flag": "\ud83c\udde9\ud83c\uddf0",
+      "status": "Basing + logistics",
+      "description": "A September 22 agreement between the US, Denmark, and Greenland expanded American strategic presence in the Arctic. The deal is being analyzed as a direct counter to Russian and Chinese Arctic ambitions."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated \u2014 exact price not in headlines",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Saudi Aramco's partial restoration of the East-West Petroline after Houthi attacks provides marginal supply-route relief, but Trump's rejection of Iran's Hormuz reopening roadmap keeps oil-market pressure acute as US midterms approach."
+    "notes": "Iran's continued Strait of Hormuz closure remains the dominant commodity market risk factor, with Gulf states and Western allies acutely exposed to oil supply disruption as Houthi attacks on Saudi infrastructure intensify."
   },
   "update_log": [
+    {
+      "time": "20:16 UTC",
+      "text": "Saudi FM accused Iran of 'flagrant attacks' at UNGA, calling for international action against Houthis.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "Lavrov declared Russia's war in Ukraine will continue 'through to the end' at UNGA sidelines.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "France confirmed military deployment to protect Saudi Arabia's Yanbu oil terminal from Houthi attacks.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Pakistan and Turkey military chiefs arrived in Riyadh for urgent talks on joining Saudi anti-Houthi coalition.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "13:00 UTC",
+      "text": "Iran proposed reopening Strait of Hormuz within seven days contingent on US meeting specific conditions.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Poland announced enhanced air defense measures following alleged Russian airspace provocations near Ukrainian theater.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "Houthis struck Saudi Arabia's Yanbu port and Taif region with missiles; Saudi Arabia reported successful interceptions.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Trump approved Ukraine to domestically manufacture Patriot air defense missiles, per Zelensky statement.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "Zelensky confirmed two North Korean POWs transferred to South Korea; Seoul criticized the announcement as a PR stunt.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Russia targeted Ukrainian data centers in strikes aimed at disrupting civilian communications and remote work.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "07:00 UTC",
+      "text": "Netanyahu addressed UNGA defending Israel's war record; dozens of UN delegates walked out in protest.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "Saudi Arabia's Grand Mufti issued rare call for Saudi forces to actively fight back against Houthi militants.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "05:00 UTC",
+      "text": "RFE/RL reported Europe is actively mulling NATO contingency plans after credible Russian attack intelligence emerged.",
+      "source_tier": "verified"
+    },
     {
       "time": "15:13",
       "text": "Trump rejects Iran's seven-day Strait of Hormuz reopening proposal submitted via Qatar, maintaining closure crisis.",
@@ -393,5 +575,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-09-26T15:13:44Z"
+  "last_updated": "2026-09-26T20:16:38Z"
 }
