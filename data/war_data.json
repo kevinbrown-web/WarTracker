@@ -3,18 +3,18 @@
     "score": 8.2,
     "delta": "No previous score available",
     "level": "High",
-    "rationale": "Multiple simultaneous active conflicts including Russia-Ukraine aerial exchanges, active US-Iran war with Trump rejecting Hormuz ceasefire deal, Houthi ballistic missile strikes on Saudi Arabia, and NATO contingency planning amid Russian hybrid attacks on Poland, Romania, and Moldova drive a high escalation score."
+    "rationale": "Simultaneous active US-Israel war with Iran (7 months ongoing, ~3,400+ dead), Houthi ballistic missile strikes on Riyadh and Saudi Aramco facilities, Trump's rejection of Iranian Strait of Hormuz peace proposal with threatened November strikes, and continued Russia-Ukraine mutual strikes killing 16 in 24 hours represent a multi-theater high-intensity crisis."
   },
   "ticker_items": [
-    "Trump rejects Iran's 7-day Strait of Hormuz reopening offer; deal collapses.",
-    "Russia kills 4 across Ukraine in cruise missile, glide bomb, drone strikes.",
-    "Houthis launch ballistic missiles at Riyadh and Saudi Aramco's Yanbu facility.",
-    "Germany's FM Wadephul meets Lavrov at UNGA \u2014 first such meeting since Feb 2022.",
-    "Poland offers $15K/year per US soldier to secure permanent American military base."
+    "Trump rejects Iranian Strait of Hormuz proposal; threatens resumed strikes in November.",
+    "Houthis launch ballistic missiles at Riyadh and Yanbu; Saudi air defenses intercept six.",
+    "Russia-Ukraine mutual strikes kill 16 in 24 hours; Lavrov blasts West at UNGA.",
+    "France deploying military to protect Saudi Yanbu oil terminal amid Houthi escalation.",
+    "Mojtaba Khamenei reportedly pulled from hospital rubble after US strike; location unknown."
   ],
   "new_entrant": {
     "active": true,
-    "text": "France is deploying military forces to protect Saudi Arabia's key Yanbu oil terminal as Houthi attacks mount, marking expanded French direct military involvement in the Yemen-Saudi theater."
+    "text": "France is deploying military forces to protect Saudi Arabia's Yanbu oil terminal as Houthi attacks mount, marking a significant new direct French military commitment to the Saudi-Yemen theater."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -83,6 +83,28 @@
         "lat": 47.0,
         "lng": 28.9,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations",
+        "description": "Russia conducted strikes across Ukraine as part of ongoing mutual exchange that killed 16 people on both sides over a 24-hour period.",
+        "method": "Drone/Air",
+        "lat": 49.0,
+        "lng": 32.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Russian oil refineries and industrial sites",
+        "description": "Ukraine continued targeting Russian oil refineries and industrial sites as part of an ongoing campaign striking deep into Russian territory.",
+        "method": "Missile/Surface",
+        "lat": 55.0,
+        "lng": 50.0,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -129,6 +151,50 @@
         "lat": 24.68,
         "lng": 46.72,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh",
+        "description": "Houthis launched ballistic missiles and drones at Riyadh; smoke reported near Riyadh's international airport during the attack.",
+        "method": "Ballistic Missile",
+        "lat": 24.69,
+        "lng": 46.72,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Yanbu",
+        "description": "Saudi air defenses intercepted six ballistic missiles aimed at the Saudi Aramco facilities at Yanbu oil terminal.",
+        "method": "Ballistic Missile",
+        "lat": 24.09,
+        "lng": 38.06,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Taif",
+        "description": "Houthis launched ballistic missiles targeting Taif; Saudi air defenses intercepted incoming projectiles.",
+        "method": "Ballistic Missile",
+        "lat": 21.27,
+        "lng": 40.42,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States / Israel",
+        "target_country": "Iran",
+        "target_location": "Multiple locations (ongoing campaign)",
+        "description": "US-Israel strikes on Iran are part of a seven-month active war; Mojtaba Khamenei reportedly pulled from hospital rubble after a near-fatal strike.",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.39,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -160,6 +226,20 @@
         "kia": "3",
         "wia": "Unknown",
         "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russia-Ukraine mutual strikes (24-hour period)",
+        "kia": "16",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Ukraine/Russia strikes \u2014 Trump-cited update",
+        "kia": "10",
+        "wia": "Unknown",
+        "civilian": true,
         "source_tier": "unverified"
       }
     ],
@@ -197,6 +277,18 @@
         "speaker": "Sergey Lavrov",
         "title": "Russian Foreign Minister",
         "date": "2026-09-26"
+      },
+      {
+        "text": "Europe is blocking efforts to resolve the conflict in Ukraine.",
+        "speaker": "Sergei Lavrov",
+        "title": "Russian Foreign Minister",
+        "date": "2026-09-26"
+      },
+      {
+        "text": "Moscow's military objectives would ultimately be achieved despite international opposition.",
+        "speaker": "Sergei Lavrov",
+        "title": "Russian Foreign Minister",
+        "date": "2026-09-26"
       }
     ],
     "ukraine": [
@@ -231,6 +323,18 @@
         "speaker": "Masoud Pezeshkian",
         "title": "President of Iran",
         "date": "2026-09-26"
+      },
+      {
+        "text": "Iran 'no longer' trusts the US after being attacked twice during talks.",
+        "speaker": "Masoud Pezeshkian",
+        "title": "President of Iran",
+        "date": "2026-09-26"
+      },
+      {
+        "text": "Gaza genocide allegations are the biggest lie of the century.",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister of Israel",
+        "date": "2026-09-25"
       }
     ]
   },
@@ -294,15 +398,99 @@
       "flag": "\ud83c\uddf8\ud83c\udde6",
       "status": "Active materiel + troops",
       "description": "Saudi Arabia is under intensifying Houthi ballistic missile and drone attack, with strikes targeting Riyadh's international airport and Aramco's Yanbu facility. Saudi Arabia is lining up international military support from France, Pakistan, and Turkey amid the escalating campaign."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "Russia continues active offensive operations in Ukraine with mutual strikes ongoing. Lavrov used his UNGA address to blame Europe for blocking peace talks. ISW assessment from September 19 noted Ukrainian forces have contested Russian initiative since late 2025 while Russia exaggerates battlefield gains."
+    },
+    {
+      "country": "Ukraine",
+      "flag": "\ud83c\uddfa\ud83c\udde6",
+      "status": "Active materiel + troops",
+      "description": "Ukraine is conducting strikes on Russian oil refineries and industrial sites. Zelenskyy addressed the UNGA calling for global action against Russia. Ukraine reportedly used transfer of North Korean POWs for diplomatic signaling, drawing criticism from South Korea."
+    },
+    {
+      "country": "Israel",
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Israel is co-belligerent with the US in the ongoing war against Iran, now in its seventh month. Netanyahu addressed the UNGA defending Israeli military actions and rejecting genocide allegations over Gaza, triggering a mass walkout by UN delegates."
+    },
+    {
+      "country": "South Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf7",
+      "status": "Monitoring",
+      "description": "South Korea is managing the unprecedented resettlement of North Korean POWs captured in Ukraine. President Lee Jae-myung criticized Zelenskyy for using the POW transfer as a PR stunt. Analysts note South Korea maintains deliberate strategic ambiguity on Taiwan."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated \u2014 exact price unavailable",
+    "brent_crude": "Elevated \u2014 exact figure unavailable",
     "wheat_futures": "Unchanged",
-    "notes": "Strait of Hormuz tensions remain unresolved after Trump rejected Iran's reopening proposal, keeping oil markets on edge; Russia has separately floated a grain deal proposal per reporting."
+    "notes": "Houthi ballistic missile strikes on Saudi Aramco facilities at Yanbu and Riyadh, combined with Trump's rejection of Iran's Strait of Hormuz reopening proposal, are sustaining significant upward pressure on global oil markets with the waterway closure risk unresolved."
   },
   "update_log": [
+    {
+      "time": "20:31 UTC",
+      "text": "Trump rejects Iranian proposal to reopen Strait of Hormuz; reportedly threatens to resume strikes on Iran in November.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:00 UTC",
+      "text": "Houthis fire ballistic missiles and drones at Riyadh, Yanbu, and Taif; Saudi air defenses intercept six ballistic missiles; smoke reported near Riyadh airport.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:30 UTC",
+      "text": "Al Jazeera reports intelligence war turning against Houthis as Russian-Iranian intelligence network supporting Red Sea operations comes under attack.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "Lavrov addresses UNGA, accuses Europe of blocking Ukraine peace talks and labels US and Western allies 'warmongers.'",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:00 UTC",
+      "text": "RTE reports 16 dead over 24 hours as Russia and Ukraine trade strikes; Trump calls on Zelenskyy to settle with Putin.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Mojtaba Khamenei reportedly pulled from hospital rubble after US strike nearly killed him a second time; whereabouts now unknown.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:00 UTC",
+      "text": "Iran's Pezeshkian states Tehran no longer trusts US after being attacked twice during negotiation periods.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Al Jazeera reports France deploying military to protect Saudi Yanbu oil terminal; Pakistan and Turkey to hold military talks with Riyadh.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "13:00 UTC",
+      "text": "Al Jazeera reports Yemen government calls general mobilisation and offers amnesty to Houthi defectors.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Polish defense ministry confirms offering $15,000/year per US soldier as talks on permanent US military base in Poland advance.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "RFE/RL reports Europe mulling contingency plans amid intelligence warnings Russia may be planning attack on NATO.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "North Korean POWs from Ukraine theater confirmed transferred to South Korea; resettlement process described as unprecedented.",
+      "source_tier": "unverified"
+    },
     {
       "time": "15:54 UTC",
       "text": "Trump rejects Iran's 7-day Strait of Hormuz reopening proposal; Iran awaits official US response as deal appears collapsed.",
@@ -414,5 +602,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-09-27T15:54:01Z"
+  "last_updated": "2026-09-27T20:31:11Z"
 }
