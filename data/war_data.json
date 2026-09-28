@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.5,
-    "delta": "+0.3 from yesterday",
+    "score": 8.2,
+    "delta": "No previous score available",
     "level": "High",
-    "rationale": "Iran firing on tankers in the Strait of Hormuz after Trump rejected ceasefire terms, combined with ongoing Russian drone strikes killing civilians in Ukraine and Moscow rejecting German de-escalation calls, sustains a high-threat multi-theatre environment."
+    "rationale": "Multiple simultaneous crisis vectors converge: an Iranian-linked terror plot against RAF Fairford (US strike base), active US-Israel military campaign against Iran with 3,400+ confirmed dead, Russian supersonic jets scrambling NATO fighters over the Gulf of Finland, Europe mulling contingency plans for possible Russian NATO attack, Houthi escalation threatening Saudi Arabia, and Trump rejecting Iran's Hormuz truce offer at UNGA."
   },
   "ticker_items": [
-    "Iran fires on tankers in Strait of Hormuz after Trump rejects ceasefire offer.",
-    "Russian drones kill at least 4 in Ukraine overnight, including one in Kyiv.",
-    "Moscow rejects German calls to de-escalate; Zelenskyy says Russia not ready for peace.",
-    "Houthis strike Riyadh and Saudi Aramco facilities; Saudi air defenses intercept six ballistic missiles.",
-    "UK police arrest several men near US-used airbase on suspicion of explosives offences."
+    "Five men arrested in suspected Iranian terror plot near RAF Fairford, UK.",
+    "Finnish F/A-18s and Swedish Gripens scramble jointly against supersonic Russian jets over Gulf of Finland.",
+    "Trump rejects Iran's 7-day Hormuz truce offer; Iran insists on diplomacy.",
+    "Russia strikes kill 8 across Ukraine; Oleshky residents near starvation.",
+    "Saudi Arabia rallies France, Pakistan, Turkey support as Houthi attacks intensify."
   ],
   "new_entrant": {
     "active": true,
-    "text": "Iran has escalated to direct kinetic action in the Strait of Hormuz by firing on tankers, marking a significant expansion of active hostilities beyond its proxy networks."
+    "text": "France is deploying military forces to protect Saudi Arabia's Yanbu oil terminal as Houthi attacks mount, marking a new direct French military commitment in the Yemen-Saudi theater."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -38,6 +38,28 @@
         "method": "Air/Drone",
         "lat": 47.84,
         "lng": 35.14,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations across Ukraine",
+        "description": "Russian strikes killed eight people across Ukraine on September 27, following Moscow's vow to achieve war aims 'no matter the circumstances.'",
+        "method": "Missile/Surface",
+        "lat": 48.38,
+        "lng": 31.17,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Ukraine (occupied territory)",
+        "target_location": "Oleshky",
+        "description": "Ukrainian military used drones to airdrop food supplies to residents of Russian-occupied Oleshky, described as being on the brink of starvation.",
+        "method": "Air/Drone",
+        "lat": 46.58,
+        "lng": 32.66,
         "source_tier": "unverified"
       }
     ],
@@ -74,6 +96,28 @@
         "lat": 13.58,
         "lng": 44.02,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Saudi Arabia",
+        "target_country": "Yemen",
+        "target_location": "Taiz",
+        "description": "Saudi Air Force struck a market in Taiz; Houthi health ministry accused Saudi Arabia of an 'abominable crime' and vowed retaliation.",
+        "method": "Air/Precision Strike",
+        "lat": 13.58,
+        "lng": 44.02,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Saudi Arabia (deep strikes reported)",
+        "description": "Houthis conducted deep strikes against Saudi Arabia, described as hitting targets 'hard and deep,' as Saudi Arabia seeks allied military support.",
+        "method": "Ballistic Missile",
+        "lat": 24.68,
+        "lng": 46.72,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -92,9 +136,42 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian strikes across Ukraine, Sep 27",
+        "kia": "8",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Saudi airstrike on Taiz market, Yemen",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
-    "claimed_totals": []
+    "claimed_totals": [
+      {
+        "claim": "Iranian deaths from US-Israel attacks",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10 (last updated)"
+      },
+      {
+        "claim": "Lebanese deaths from US-Israel attacks",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10 (last updated)"
+      },
+      {
+        "claim": "Gulf states deaths from US-Israel attacks",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10 (last updated)"
+      }
+    ]
   },
   "quotes": {
     "russia": [
@@ -103,6 +180,18 @@
         "speaker": "Russian Government",
         "title": "Official Position",
         "date": "2026-09-27"
+      },
+      {
+        "text": "Russia will achieve its war aims no matter the circumstances.",
+        "speaker": "Russian Government",
+        "title": "Official statement",
+        "date": "2026-09-26"
+      },
+      {
+        "text": "The UK orchestrated the Bucha false flag to derail the 2022 Russia-Ukraine peace talks.",
+        "speaker": "Russian MFA / Moscow",
+        "title": "Official claim",
+        "date": "2026-09-17"
       }
     ],
     "ukraine": [
@@ -134,6 +223,18 @@
       },
       {
         "text": "Gaza genocide allegations are not only false but the biggest lie of the century.",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister of Israel",
+        "date": "2026-09-25"
+      },
+      {
+        "text": "Only diplomacy can solve its conflict with the United States and Israel.",
+        "speaker": "Iranian Government",
+        "title": "Official Iranian position",
+        "date": "2026-09-27"
+      },
+      {
+        "text": "Gaza genocide allegations are the biggest lie of the century.",
         "speaker": "Benjamin Netanyahu",
         "title": "Prime Minister of Israel",
         "date": "2026-09-25"
@@ -188,15 +289,99 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Active materiel + troops",
       "description": "Two North Korean POWs captured fighting for Russia in Ukraine have been transferred to South Korea, creating an unprecedented diplomatic and resettlement situation. South Korea's president criticized Zelenskyy for what he called a PR stunt over the transfer."
+    },
+    {
+      "country": "Sweden",
+      "flag": "\ud83c\uddf8\ud83c\uddea",
+      "status": "Active materiel + troops",
+      "description": "Swedish Gripens participated in the first-ever joint scramble with Finnish forces against Russian supersonic jets over the Gulf of Finland. Sweden's NATO integration is demonstrably operational at the tactical air intercept level."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Strategic balancer",
+      "description": "Turkey is joining Pakistan in military consultations with Saudi Arabia regarding Houthi threats, expanding its regional security footprint. Ankara continues to balance relationships across multiple conflict theaters."
+    },
+    {
+      "country": "Switzerland",
+      "flag": "\ud83c\udde8\ud83c\udded",
+      "status": "Abstaining",
+      "description": "Swiss voters rejected by 70.1% a proposal to adopt stricter neutrality that would have blocked sanctions and NATO cooperation, preserving Switzerland's current flexible neutrality framework. This result allows Switzerland to continue imposing sanctions aligned with EU and Western partners."
+    },
+    {
+      "country": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "status": "Active materiel + troops",
+      "description": "The US is actively using RAF Fairford as a strike base against Iran and rejected Iran's seven-day Hormuz truce offer at UNGA, with Trump signaling intent to extract further concessions through sanctions. The Pentagon is also surveying Army Reserve troops for possible deployment to US Southern Command related to Cuba contingency planning."
     }
   ],
   "financial": {
-    "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
-    "wheat_futures": "Unchanged",
-    "notes": "Iranian strikes on Strait of Hormuz tankers and Houthi ballistic missile attacks on Saudi Aramco facilities at Yanbu raise significant near-term risk of oil supply disruption and price volatility."
+    "usd_rub": "",
+    "brent_crude": "",
+    "wheat_futures": "",
+    "notes": "No specific financial market data available in today's headlines; Strait of Hormuz closure risk persists after Trump rejected Iran's truce offer, maintaining upward pressure on oil price volatility."
   },
   "update_log": [
+    {
+      "time": "22:41 UTC",
+      "text": "Five men arrested in suspected Iranian-linked terror plot targeting RAF Fairford; US issues caution warning for Americans in UK.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "22:30 UTC",
+      "text": "Finnish F/A-18 Hornets and Swedish Gripens conduct first-ever joint NATO scramble against supersonic Russian jets over Gulf of Finland.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "22:15 UTC",
+      "text": "BBC reports major incident near RAF Fairford with 'more questions than answers' from diplomatic correspondent.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "21:00 UTC",
+      "text": "Trump rejects Iran's seven-day Hormuz truce proposal brought to UNGA; Iran insists only diplomacy can resolve conflict.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:00 UTC",
+      "text": "Russian strikes kill 8 across Ukraine; Ukrainian military uses drones to airdrop food aid to occupied, starving Oleshky.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "Swiss voters reject stricter neutrality proposal 70.1% to 29.9%, preserving ability to impose sanctions and cooperate with NATO.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:00 UTC",
+      "text": "Saudi Arabia secures military support pledges from France, Pakistan, and Turkey as Houthi deep strikes intensify.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Houthi health ministry accuses Saudi Air Force of striking Taiz market; vows retaliation.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Israel's Finance Minister Smotrich calls for 'war' in West Bank; analysts warn this should not be dismissed as mere rhetoric.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "RFE/RL confirms Europe is actively mulling contingency plans amid intelligence reports of possible Russian attack on NATO.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Al Jazeera live tracker records ~3,468 dead in Iran and ~3,696 dead in Lebanon from ongoing US-Israel military campaign.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "Netanyahu at UNGA defends Israel's Gaza and Iran operations, faces mass walkout; calls genocide allegations 'biggest lie of the century.'",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:10",
       "text": "Iran fires on tankers in the Strait of Hormuz following Trump's rejection of Tehran's ceasefire proposal.",
@@ -263,5 +448,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-09-28T12:10:38Z"
+  "last_updated": "2026-09-28T22:41:14Z"
 }
