@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.2,
+    "score": 8.2,
     "delta": "No previous score available",
-    "level": "Elevated",
-    "rationale": "Multiple simultaneous active conflict arcs \u2014 Russian drone strikes on central Kyiv killing civilians, an ongoing US-Israel vs Iran war with 3,468+ Iranian dead, Houthi interdiction of the Bab al-Mandab threatening global trade, North Korean troop deployment confirmed by captured POWs, and European NATO contingency planning against possible Russian attack \u2014 collectively push the global threat environment to the high end of Elevated."
+    "level": "High",
+    "rationale": "Multiple simultaneous active conflicts \u2014 US-Israel strikes on Iran (3,468+ dead), Russian drone strikes on central Kyiv, suspected Iranian bomb plot near RAF Fairford/US base, Houthi attacks escalating against Saudi Arabia, North Korean troops confirmed in Ukraine theater, and Europe contingency-planning for possible Russian NATO attack \u2014 combine to push escalation firmly into the High band."
   },
   "ticker_items": [
-    "Russian drones strike Kyiv's National Academy of Sciences; 2 killed including Azerbaijani national.",
-    "South Korea summons Ukraine envoy over Zelensky's public disclosure of North Korean POW transfer.",
-    "France deploys military to protect Saudi Yanbu oil terminal as Houthi attacks mount.",
-    "Iran warns new fronts will open if attacked again by US or Israel.",
-    "Russian Tu-95 nuclear-capable bomber crashes during training flight, killing six crew."
+    "Russian drones strike Kyiv's National Academy of Sciences in historic city center.",
+    "Suspected Iranian-linked bomb plot foiled near RAF Fairford US military base, UK.",
+    "South Korea furious at Ukraine after Zelensky publicly reveals North Korean POW transfer.",
+    "France, Pakistan, Turkiye rally to defend Saudi Arabia as Houthi attacks on Yanbu mount.",
+    "Trump 'very seriously' considering diesel export ban as Texas declares fuel-price disaster."
   ],
   "new_entrant": {
     "active": true,
-    "text": "France has deployed military forces to protect Saudi Arabia's Yanbu oil terminal, marking a new direct French military commitment in the Yemen-Saudi conflict theatre."
+    "text": "France is deploying military assets to protect Saudi Arabia's key Yanbu oil terminal as Houthi attacks escalate, marking a significant new direct French military commitment to the Arabian Peninsula theater."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -94,6 +94,28 @@
         "lat": 48.46,
         "lng": 35.04,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Daytime",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russian drones struck Ukraine's National Academy of Sciences in the historic heart of Kyiv, damaging the complex and surrounding area.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Daytime",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kharkiv",
+        "description": "A Russian drone or missile strike hit a residential building in the eastern city of Kharkiv, causing casualties.",
+        "method": "Air/Drone",
+        "lat": 49.99,
+        "lng": 36.23,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -139,6 +161,28 @@
         "method": "Air/Precision Strike",
         "lat": 13.58,
         "lng": 44.02,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Saudi Arabia",
+        "target_country": "Yemen",
+        "target_location": "Taiz",
+        "description": "Saudi Air Force carried out strikes on a market in Taiz; the Houthi-run health ministry accused Riyadh of an 'abominable crime' and vowed retaliation.",
+        "method": "Air/Precision Strike",
+        "lat": 13.58,
+        "lng": 44.01,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Yanbu / Southern Saudi Arabia",
+        "description": "Houthi forces launched attacks striking deep into Saudi Arabia, including reported hits in the Yanbu oil terminal vicinity, prompting allied military deployments.",
+        "method": "Ballistic Missile",
+        "lat": 24.09,
+        "lng": 38.06,
         "source_tier": "unverified"
       }
     ]
@@ -193,6 +237,20 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian drone strikes across Ukraine (Sep 28)",
+        "kia": "5",
+        "wia": "est. several",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Saudi strikes on Taiz market, Yemen",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -231,6 +289,24 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera live tracker",
         "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Iranian deaths from US-Israel strikes (cumulative)",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Lebanese deaths from US-Israel strikes (cumulative)",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Gulf state deaths from US-Israel strikes (cumulative)",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10 (last modified)"
       }
     ]
   },
@@ -267,6 +343,12 @@
         "speaker": "Volodymyr Zelensky",
         "title": "President of Ukraine",
         "date": "2026-09-23"
+      },
+      {
+        "text": "Ukraine has sent two captured North Korean soldiers to South Korea.",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President of Ukraine",
+        "date": "2026-09-22 (UNGA address)"
       }
     ],
     "middle_east": [
@@ -296,6 +378,24 @@
       },
       {
         "text": "We will continue to win.",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister of Israel",
+        "date": "2026-09-25"
+      },
+      {
+        "text": "Netanyahu targets Qatar to deflect from Gaza war crimes.",
+        "speaker": "Mohammed bin Abdulrahman Al Thani",
+        "title": "Prime Minister of Qatar",
+        "date": "2026-09-29"
+      },
+      {
+        "text": "The Iran war will end very soon with a US victory; a nuclear-armed Iran would wipe out Israel and destroy the Middle East.",
+        "speaker": "Donald Trump",
+        "title": "President of the United States",
+        "date": "2026-09-28"
+      },
+      {
+        "text": "Israel has achieved many victories across eight fronts; genocide allegations are rejected.",
         "speaker": "Benjamin Netanyahu",
         "title": "Prime Minister of Israel",
         "date": "2026-09-25"
@@ -372,11 +472,61 @@
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Elevated (specific figure unavailable)",
     "wheat_futures": "Unchanged",
-    "notes": "Trump is 'very seriously' considering a diesel export ban amid record-high US gas prices, a reversal from prior administration policy that has alarmed energy executives; Houthi control of the Bab al-Mandab Strait continues to threaten maritime trade for over a dozen nations dependent on the waterway."
+    "notes": "Texas Governor Abbott declared a statewide disaster as diesel prices averaged $5.86/gallon, and Trump is 'very seriously' considering a diesel export ban, signaling major energy market disruption from ongoing conflicts in Ukraine and the Middle East."
   },
   "update_log": [
+    {
+      "time": "21:34 UTC",
+      "text": "Update run compiled: major events across Ukraine, Middle East, and UK terror-plot; see full report.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Daytime",
+      "text": "Russian drones strike Ukraine's National Academy of Sciences in central Kyiv; five killed across Ukraine in strikes.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Daytime",
+      "text": "Five men arrested with explosives near RAF Fairford UK base used by US military; Iranian link suspected but unconfirmed.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Daytime",
+      "text": "South Korea summons Ukraine envoy, demands apology over Zelensky's public disclosure of North Korean POW transfer.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Daytime",
+      "text": "France deploys military to protect Saudi Arabia's Yanbu oil terminal; Pakistan and Turkiye in military talks with Riyadh.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Daytime",
+      "text": "Texas declares statewide disaster over diesel prices averaging $5.86/gallon driven by wars abroad.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Daytime",
+      "text": "Netanyahu makes rare secret trip to UAE; meeting with UAE President publicly acknowledged.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Daytime",
+      "text": "Trump says Iran war will end 'very soon' with US victory; warns of consequences of nuclear-armed Iran.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Daytime",
+      "text": "RFE/RL reports Europe mulling contingency plans amid intelligence warnings of possible Russian attack on NATO.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Daytime",
+      "text": "Al Jazeera casualty tracker: ~3,468 dead in Iran, ~3,696 dead in Lebanon from US-Israel strikes (as of Jun 10 update).",
+      "source_tier": "verified"
+    },
     {
       "time": "17:08 UTC",
       "text": "Russian Tu-95 nuclear-capable bomber crashes during training flight in Amur region, killing six crew members.",
@@ -473,5 +623,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-09-29T17:08:12Z"
+  "last_updated": "2026-09-29T21:34:50Z"
 }
