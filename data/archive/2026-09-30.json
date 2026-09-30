@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.4,
-    "delta": "+0.2 from yesterday",
+    "score": 8.1,
+    "delta": "No previous score available",
     "level": "High",
-    "rationale": "Russia's sustained ballistic missile and drone blitz on Kyiv, Putin's ordered army expansion, Zelenskyy's warning of 10,000 additional North Korean troops deploying, Russia's nuclear threat to Britain via its London embassy, and a suspected Iranian-linked terror plot near RAF Fairford collectively sustain near-peak escalation pressure across two major theatres."
+    "rationale": "Multiple simultaneous active conflicts \u2014 ongoing US-Israel strikes on Iran with 3,468+ confirmed dead, continued Russian ballistic missile and drone blitz on Ukrainian cities, North Korean troop deployments to Russia, Houthi cruise missile activity threatening Hormuz, and Russia planning its largest defense budget since the war began \u2014 collectively push the global conflict environment to a High escalation threshold."
   },
   "ticker_items": [
-    "Russia fires ballistic missiles and jet-powered drones at Kyiv; fires ongoing.",
-    "Putin orders fourth army expansion of 2026 as war enters fifth winter.",
-    "Zelenskyy: Russia preparing to deploy 10,000 more North Korean troops.",
-    "Russian embassy in London issues nuclear strike threat to UK and NATO.",
-    "Suspected Iranian-linked plot thwarted near US heavy-bomber base RAF Fairford."
+    "Russia launches ballistic missiles and jet-powered drones at Kyiv again.",
+    "Zelenskyy warns of 10,000 fresh North Korean troops deploying to Russia.",
+    "Putin signs fourth army expansion decree of 2026, adding 15,000 soldiers.",
+    "US-Iran indirect talks continue in New York; Trump denies sanctions relief offer.",
+    "Estonia blames Russia's FSB for arson sabotage at Ukraine-supplying defense factory."
   ],
   "new_entrant": {
     "active": true,
-    "text": "North Korea is escalating direct troop involvement, with Zelenskyy warning a fresh 10,000-troop deployment is imminent on top of ~8,000 already fighting alongside Russian forces in Ukraine."
+    "text": "North Korea is actively deploying additional troops (up to 10,000 warned by Zelenskyy) to fight alongside Russian forces in Ukraine, deepening Pyongyang's direct combat role."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -72,6 +72,50 @@
         "lat": 48.0,
         "lng": 37.8,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia launched ballistic missiles and jet-powered drones in a continued blitz against Kyiv, keeping the city on edge.",
+        "method": "Ballistic Missile",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia launched drone strikes against Kyiv in daytime attacks, continuing a pattern of sustained aerial bombardment.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kharkiv",
+        "description": "Russian air strikes on Kharkiv killed and injured multiple civilians including children.",
+        "method": "Air/Drone",
+        "lat": 49.99,
+        "lng": 36.23,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Dnipro",
+        "description": "Russian strikes hit Dnipro as part of a multi-city overnight attack killing at least six and injuring dozens.",
+        "method": "Air/Drone",
+        "lat": 48.46,
+        "lng": 35.04,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -85,6 +129,39 @@
         "lat": 12.58,
         "lng": 43.47,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States / Israel",
+        "target_country": "Iran",
+        "target_location": "Kuhestak, Sirik County",
+        "description": "US military struck a home in Kuhestak during a wedding on September 1, killing four people and wounding more than 50, including a 4-year-old child.",
+        "method": "Air/Precision Strike",
+        "lat": 26.55,
+        "lng": 57.07,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "International Shipping",
+        "target_location": "Strait of Hormuz",
+        "description": "Houthis conducted vessel strikes in the Strait of Hormuz area, with reports delayed days amid a deepening fog of war.",
+        "method": "Naval/Cruise Missile",
+        "lat": 26.57,
+        "lng": 56.47,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "International Shipping",
+        "target_location": "Red Sea",
+        "description": "Houthis reportedly deployed modified Iranian cruise missiles in the Red Sea, potentially altering the balance of the maritime conflict.",
+        "method": "Naval/Cruise Missile",
+        "lat": 15.55,
+        "lng": 42.55,
+        "source_tier": "verified"
       }
     ]
   },
@@ -110,6 +187,34 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Russian overnight strikes on Kyiv region, Kharkiv, Dnipro",
+        "kia": "~6",
+        "wia": "dozens, incl. 10 children",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Russian strikes on Kyiv region \u2014 Azerbaijani national killed",
+        "kia": "2",
+        "wia": "dozens, incl. 10 children",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US strike on wedding in Kuhestak, Iran (Sept 1 reported)",
+        "kia": "4",
+        "wia": "~50+",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Houthi advance displaces civilians in Yemen",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -130,6 +235,30 @@
         "figure": "~3,696",
         "claimed_by": "Al Jazeera live tracker",
         "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Deaths in Iran from US-Israel attacks",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10 (tracker last modified)"
+      },
+      {
+        "claim": "Deaths in Lebanon from US-Israel attacks",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10 (tracker last modified)"
+      },
+      {
+        "claim": "Deaths in Gulf states from US-Israel attacks",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10 (tracker last modified)"
+      },
+      {
+        "claim": "Houthi advance displaced civilians in Yemen",
+        "figure": "130,000+",
+        "claimed_by": "Research cited by Juan Cole",
+        "as_of": "2026-09-29"
       }
     ]
   },
@@ -146,6 +275,12 @@
         "speaker": "Russian Embassy London",
         "title": "Diplomatic Mission",
         "date": "2026-09-29"
+      },
+      {
+        "text": "Russia's total defence spending is expected to reach $590 billion over the next three years.",
+        "speaker": "Russian Government",
+        "title": "Budget Projection",
+        "date": "2026-09-29"
       }
     ],
     "ukraine": [
@@ -159,6 +294,12 @@
         "text": "We will turn Putin's new foot soldiers into stewed meat.",
         "speaker": "Ukrainian official (attributed)",
         "title": "Ukrainian Armed Forces",
+        "date": "2026-09-29"
+      },
+      {
+        "text": "The Kremlin is preparing for a new troop mobilization at home and a fresh deployment of 10,000 North Korean soldiers.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
         "date": "2026-09-29"
       }
     ],
@@ -174,6 +315,24 @@
         "speaker": "Reza Talaei-Nik",
         "title": "Iranian Defense Ministry Spokesman",
         "date": "2026-09-29"
+      },
+      {
+        "text": "Both sides remain interested in a diplomatic settlement but differ on how to achieve one.",
+        "speaker": "Al Jazeera",
+        "title": "Editorial summary of US-Iran talks",
+        "date": "2026-09-29"
+      },
+      {
+        "text": "I have offered Iran nothing to end the war.",
+        "speaker": "Donald Trump",
+        "title": "President of the United States",
+        "date": "2026-09-29"
+      },
+      {
+        "text": "Smotrich's words should not be dismissed as mere election rhetoric.",
+        "speaker": "Human rights experts and analysts",
+        "title": "Various analysts cited by Al Jazeera",
+        "date": "2026-09-27"
       }
     ]
   },
@@ -219,15 +378,98 @@
       "flag": "\ud83c\udde7\ud83c\uddfe",
       "status": "Basing + logistics",
       "description": "The EU is deliberating whether to lift potash sanctions on Belarus as part of broader diplomatic recalibration. Belarus continues to provide basing and logistical support to Russian forces, though EU member states are weighing economic incentives to reduce Minsk's alignment with Moscow."
+    },
+    {
+      "country": "Estonia",
+      "flag": "\ud83c\uddea\ud83c\uddea",
+      "status": "Supplying dual-use goods",
+      "description": "Estonian authorities confirmed that a mid-August arson attack on a defense factory supplying military vehicles to Ukraine was a Russian FSB-commissioned act of sabotage. The incident underscores Russia's grey-zone campaign against NATO's eastern flank defense industry. Estonia continues to supply Ukraine with military vehicles despite the sabotage."
+    },
+    {
+      "country": "Norway",
+      "flag": "\ud83c\uddf3\ud83c\uddf4",
+      "status": "Supplying dual-use goods",
+      "description": "Norway has authorized defense exports to Moldova, expanding its support for countries on NATO's eastern periphery threatened by Russian pressure. This marks a notable extension of Nordic defense assistance beyond Ukraine."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "Trump's hosting of Xi Jinping drew Republican criticism, with senators objecting to reception of 'a brutal, unelected, and oppressive dictator.' China benefits from new North Korean road bridges easing cross-border trade and logistics. Beijing's strategic balancing between economic engagement with the US and support for the Russia-North Korea axis continues."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "No verified financial rate data available in today's headlines; reports note EU LNG desperation and Ukraine grain squeeze as ongoing economic pressure points, while US missile production shortfalls from Iran war Tomahawk and Patriot expenditure are flagged as a medium-term defence-industrial concern."
+    "notes": "Texas Governor declared a statewide fuel disaster over soaring diesel prices caused by wars abroad, while Russian crude exports hit a month-and-a-half high though a Kremlin diesel sales ban is blunting revenue gains."
   },
   "update_log": [
+    {
+      "time": "17:06",
+      "text": "Russia launches combined ballistic missile and jet-drone blitz on Kyiv; Zelenskyy warns of new 10,000-strong North Korean deployment.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:06",
+      "text": "Putin signs fourth army expansion decree of 2026, adding 15,000 troops as war enters fifth winter.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:06",
+      "text": "Russian overnight strikes on Kyiv region, Kharkiv, and Dnipro kill at least six and injure dozens including 10 children.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:06",
+      "text": "US-Iran indirect talks confirmed ongoing in New York; Trump denies offering sanctions relief or frozen funds.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:06",
+      "text": "Rubio meets Saudi FM to discuss Yemen hostilities and Hormuz Strait security cooperation.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:06",
+      "text": "Estonia officially attributes August arson of Ukraine-supplying defense factory to Russian FSB sabotage operation.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:06",
+      "text": "Houthis reportedly using modified Iranian cruise missiles in Red Sea; fog of war deepens in Hormuz with delayed ship-strike reports.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:06",
+      "text": "Russia's 2027 defense budget projected to exceed $200 billion \u2014 highest since the start of the Ukraine war.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:06",
+      "text": "Pentagon confirms full US troop withdrawal from Iraq is complete, ending two decades of military presence.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:06",
+      "text": "Texas Governor declares statewide fuel disaster over diesel shortage driven by wars abroad.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:06",
+      "text": "NATO allies on eastern flank accelerating purchases of US-made drone interceptors following repeated incursions.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:06",
+      "text": "RFE/RL: Europe mulls contingency plans amid intelligence warnings Russia may plan NATO attack.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:06",
+      "text": "Al Jazeera tracker: US-Israel attacks on Iran have killed ~3,468 in Iran and ~3,696 in Lebanon as of last update.",
+      "source_tier": "verified"
+    },
     {
       "time": "11:28 UTC",
       "text": "Putin signs decree for fourth Russian army expansion of 2026 as Zelenskyy warns of imminent 10,000 DPRK troop deployment.",
@@ -279,5 +521,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-09-30T11:28:17Z"
+  "last_updated": "2026-09-30T17:06:02Z"
 }
