@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.1,
+    "score": 7.2,
     "delta": "No previous score available",
-    "level": "High",
-    "rationale": "Multiple simultaneous active conflicts \u2014 ongoing US-Israel strikes on Iran with 3,468+ confirmed dead, continued Russian ballistic missile and drone blitz on Ukrainian cities, North Korean troop deployments to Russia, Houthi cruise missile activity threatening Hormuz, and Russia planning its largest defense budget since the war began \u2014 collectively push the global conflict environment to a High escalation threshold."
+    "level": "Elevated",
+    "rationale": "Multiple simultaneous active conflict fronts \u2014 ongoing US-Iran war with civilian strike allegations, continued Russian ballistic missile and drone blitz on Ukrainian cities, North Korean troop deployments to Russia, Houthi cruise missile activity threatening Hormuz, and NATO contingency planning amid Russian mobilization expansion \u2014 collectively push the global conflict environment to the high end of Elevated."
   },
   "ticker_items": [
-    "Russia launches ballistic missiles and jet-powered drones at Kyiv again.",
-    "Zelenskyy warns of 10,000 fresh North Korean troops deploying to Russia.",
-    "Putin signs fourth army expansion decree of 2026, adding 15,000 soldiers.",
-    "US-Iran indirect talks continue in New York; Trump denies sanctions relief offer.",
-    "Estonia blames Russia's FSB for arson sabotage at Ukraine-supplying defense factory."
+    "Russia fires ballistic missiles and jet drones at Kyiv; casualties reported.",
+    "Zelenskyy warns of new Russian mobilization + 10,000 fresh North Korean troops.",
+    "US-Iran indirect talks continue in New York; Trump denies offering sanctions relief.",
+    "Russian Tu-95 strategic bomber crashes in Amur region; 6 crew killed.",
+    "Rubio holds talks with Saudi FM on Yemen and Strait of Hormuz security."
   ],
   "new_entrant": {
     "active": true,
-    "text": "North Korea is actively deploying additional troops (up to 10,000 warned by Zelenskyy) to fight alongside Russian forces in Ukraine, deepening Pyongyang's direct combat role."
+    "text": "North Korea is deploying an additional 10,000 troops to support Russian forces in Ukraine, representing a further escalation of Pyongyang's direct military participation in the conflict."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -116,6 +116,50 @@
         "lat": 48.46,
         "lng": 35.04,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia launched ballistic missiles and jet-propelled drones at Kyiv, continuing a pattern of daytime and overnight strikes on the capital.",
+        "method": "Ballistic Missile",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia conducted drone strikes on Kyiv as North Korea continues to send troops to support Russian operations.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kharkiv",
+        "description": "Russian air strikes struck the Kharkiv region, killing at least six people and injuring dozens including 10 children.",
+        "method": "Air/Drone",
+        "lat": 49.99,
+        "lng": 36.23,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Dnipro",
+        "description": "Russian air strikes hit the Dnipro region as part of a multi-city attack wave reported on September 28\u201329.",
+        "method": "Air/Drone",
+        "lat": 48.46,
+        "lng": 35.04,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -162,6 +206,28 @@
         "lat": 15.55,
         "lng": 42.55,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "United States",
+        "target_country": "Iran",
+        "target_location": "Kuhestak, Sirik County",
+        "description": "US military struck a home in Kuhestak where a wedding was underway, killing four people including a 4-year-old child and wounding more than 50.",
+        "method": "Air/Precision Strike",
+        "lat": 26.55,
+        "lng": 57.08,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza (Palestinian Territories)",
+        "target_location": "Gaza (multiple residential areas)",
+        "description": "Israeli attacks on residential areas across Gaza killed at least eight civilians and wounded others on Wednesday.",
+        "method": "Air/Precision Strike",
+        "lat": 31.35,
+        "lng": 34.31,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -213,6 +279,27 @@
         "incident": "Houthi advance displaces civilians in Yemen",
         "kia": "Unknown",
         "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian Tu-95 bomber crash, Amur region",
+        "kia": "6",
+        "wia": "0 (1 survivor)",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US strike on wedding, Kuhestak, Iran",
+        "kia": "4",
+        "wia": "~50+",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Israeli attacks on Gaza residential areas",
+        "kia": "~8",
+        "wia": "unknown",
         "civilian": true,
         "source_tier": "unverified"
       }
@@ -280,6 +367,12 @@
         "text": "Russia's total defence spending is expected to reach $590 billion over the next three years.",
         "speaker": "Russian Government",
         "title": "Budget Projection",
+        "date": "2026-09-29"
+      },
+      {
+        "text": "Europe is supplying drones and missiles to Ukraine \u2014 that is the real hybrid war, not what Russia is doing.",
+        "speaker": "Sergey Lavrov",
+        "title": "Russian Foreign Minister",
         "date": "2026-09-29"
       }
     ],
@@ -396,15 +489,102 @@
       "flag": "\ud83c\udde8\ud83c\uddf3",
       "status": "Strategic balancer",
       "description": "Trump's hosting of Xi Jinping drew Republican criticism, with senators objecting to reception of 'a brutal, unelected, and oppressive dictator.' China benefits from new North Korean road bridges easing cross-border trade and logistics. Beijing's strategic balancing between economic engagement with the US and support for the Russia-North Korea axis continues."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Strategic balancer",
+      "description": "Pakistan is part of the Saudi-led Mecca alliance defense pact. PM Sharif addressed the UNGA criticizing India and touting Pakistan's mediation role, including in the broader Middle East conflict context."
+    },
+    {
+      "country": "Egypt",
+      "flag": "\ud83c\uddea\ud83c\uddec",
+      "status": "Mediator + arms supplier",
+      "description": "Egypt is navigating competing diplomatic demands arising from regional wars, according to Foreign Policy analysis. Cairo is attempting to maneuver between Gulf states, Israel, and other actors, though analysts debate whether its diplomacy is effective or erratic."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Texas Governor declared a statewide fuel disaster over soaring diesel prices caused by wars abroad, while Russian crude exports hit a month-and-a-half high though a Kremlin diesel sales ban is blunting revenue gains."
+    "notes": "Texas Governor Greg Abbott declared a statewide disaster over soaring diesel prices and a worsening fuel shortage explicitly attributed to wars abroad, signaling real-economy spillover from Middle East and Hormuz hostilities into US domestic fuel markets."
   },
   "update_log": [
+    {
+      "time": "21:35",
+      "text": "Fog of war deepens in Strait of Hormuz as ship attacks go unreported for days, complicating maritime threat assessment.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:00",
+      "text": "Trump denies offering Iran sanctions relief; confirms indirect US-Iran negotiations are ongoing.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:30",
+      "text": "Al Jazeera reports US-Iran indirect talks in New York; both sides interested in settlement but differ on approach.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "20:00",
+      "text": "Zelenskyy warns of new Russian mobilization wave and imminent 10,000-strong North Korean troop deployment.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:30",
+      "text": "Russia fires ballistic missiles and jet-propelled drones at Kyiv, keeping city on high alert.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:00",
+      "text": "RFE/RL: Putin adds 15,000 new soldiers in fourth military expansion this year as Ukraine front stalls.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:30",
+      "text": "Rubio and Saudi Foreign Minister hold talks on Yemen conflict and Hormuz Strait security.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:00",
+      "text": "Israeli attacks on multiple residential areas in Gaza kill at least eight civilians.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:30",
+      "text": "Common Dreams reports US military struck a wedding in Kuhestak, Iran on September 1, killing four including a 4-year-old.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:00",
+      "text": "Russia's Tu-95 nuclear-capable strategic bomber crashes in Amur region during training mission; 6 of 7 crew killed.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:30",
+      "text": "RFE/RL: European NATO members mulling contingency plans amid intelligence reports of possible Russian attack on alliance.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:00",
+      "text": "North Korea completes two road bridges to Russia and China, easing strategic logistics and military transport.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:30",
+      "text": "Texas declares statewide fuel disaster, citing wars abroad for diesel shortage and price surge.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:00",
+      "text": "War on the Rocks analysts split on outcome of Trump-Xi summit; questions remain on Taiwan and trade.",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "14:30",
+      "text": "Houthis reportedly deploying modified Iranian cruise missiles in Red Sea, potentially altering maritime balance.",
+      "source_tier": "verified"
+    },
     {
       "time": "17:06",
       "text": "Russia launches combined ballistic missile and jet-drone blitz on Kyiv; Zelenskyy warns of new 10,000-strong North Korean deployment.",
@@ -521,5 +701,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-09-30T17:06:02Z"
+  "last_updated": "2026-09-30T21:35:26Z"
 }
