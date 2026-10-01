@@ -1,20 +1,20 @@
 {
   "escalation": {
     "score": 8.2,
-    "delta": "No previous score available",
+    "delta": "No previous score \u2014 baseline set at 8.2",
     "level": "High",
-    "rationale": "Multiple concurrent high-severity flashpoints \u2014 Russia issuing explicit nuclear first-use warnings over Kaliningrad, an active Hormuz conflict with Iran involving US-Israel strikes (3,468+ Iranian dead), ongoing Russian strikes on Ukrainian energy infrastructure, a flydubai co-pilot suicide-attack incident near Israeli airspace, and the US completion of Iraq withdrawal \u2014 collectively push the global threat environment firmly into the High tier."
+    "rationale": "Russia's verified nuclear warning over Kaliningrad, Putin's public refusal of ceasefire, active US-Israel war with Iran over Hormuz, US military withdrawal from Iraq creating a power vacuum, and Ukraine's collapsing war chest converge to produce a high-escalation environment across multiple simultaneous theatres."
   },
   "ticker_items": [
-    "Russia warns NATO: nuclear weapons ready if Kaliningrad blockade attempted.",
-    "Russia strikes Ukraine energy grid; at least 7 killed heading into winter.",
-    "US completes Iraq troop withdrawal after 23 years; Kurds express concern.",
-    "Flydubai co-pilot attempts to crash Tel Aviv-bound plane; emergency landing in Saudi Arabia.",
-    "Hormuz conflict ongoing: Iran blockade contested; Saudi East-West pipeline restarted as bypass."
+    "Russia warns NATO: nuclear response if Kaliningrad blockaded \u2014 Putin confirms.",
+    "Putin rules out Ukraine ceasefire, again threatens nuclear deployment.",
+    "US completes Iraq withdrawal; Iran and IS seen as prime beneficiaries.",
+    "Ukraine war chest critically low as winter approaches and Russia escalates.",
+    "Nearly 70% of Americans say US-Israel war on Iran not worth fighting \u2014 poll."
   ],
   "new_entrant": {
     "active": true,
-    "text": "Iraq formally exits its role as a US-hosted military theater as the last American troops withdrew on 2026-09-30, completing a 12-year counter-ISIS mission and significantly reshaping regional security dynamics for Kurdish forces and Iran-aligned factions."
+    "text": "The US has formally completed its military withdrawal from Iraq as of late September 2026, effectively exiting as a stabilising force and opening a new phase of Iranian and IS influence in the country."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -83,6 +83,39 @@
         "lat": 48.46,
         "lng": 35.04,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia conducted air strikes on the Kyiv region killing and injuring civilians including children, continuing a sustained infrastructure campaign.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kharkiv",
+        "description": "Russian strikes hit Kharkiv as part of coordinated multi-city attacks reported on 2026-09-28, causing casualties.",
+        "method": "Missile/Surface",
+        "lat": 49.99,
+        "lng": 36.23,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Dnipro",
+        "description": "Russian strikes on Dnipro caused casualties including injuries to at least 10 children per reports from 2026-09-28.",
+        "method": "Missile/Surface",
+        "lat": 48.46,
+        "lng": 35.05,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -105,6 +138,17 @@
         "description": "Iran continued contested blockade operations in the Strait of Hormuz; a vessel strike was reported with delayed confirmation amid a deepening fog of war.",
         "method": "Anti-Ship Missile",
         "lat": 26.56,
+        "lng": 56.25,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown \u2014 reported vessel strike",
+        "target_country": "Unknown",
+        "target_location": "Strait of Hormuz",
+        "description": "A vessel strike in or near the Strait of Hormuz was reported with significant delay, deepening the fog of war around maritime hostilities in the region.",
+        "method": "Anti-Ship Missile",
+        "lat": 26.6,
         "lng": 56.25,
         "source_tier": "unverified"
       }
@@ -160,6 +204,27 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian strikes on Kyiv, Kharkiv, Dnipro (2026-09-28)",
+        "kia": "~6",
+        "wia": "est. dozens incl. 10 children",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "flydubai co-pilot attack on Tel Aviv-bound flight",
+        "kia": "0 confirmed",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Palestinian man killed in occupied West Bank",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -198,6 +263,18 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera live tracker",
         "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Economic cost per air raid siren activation \u2014 Ukraine",
+        "figure": "$45 million per event",
+        "claimed_by": "Protothema/Ukrainian economic analysts",
+        "as_of": "2026-09-30"
+      },
+      {
+        "claim": "Russian defence budget share of state spending",
+        "figure": "35% (~17.1 trillion rubles / \u00a3154bn) projected",
+        "claimed_by": "Daily Mail citing Russian budget documents",
+        "as_of": "2026-09-30"
       }
     ]
   },
@@ -220,6 +297,12 @@
         "speaker": "Russian Government (official statement)",
         "title": "Russian Federation",
         "date": "2026-09-30"
+      },
+      {
+        "text": "Putin warned the West he would deploy nuclear weapons if necessary to defend Kaliningrad, and ruled out a ceasefire with Ukraine.",
+        "speaker": "Vladimir Putin",
+        "title": "President of Russia",
+        "date": "2026-10-01"
       }
     ],
     "ukraine": [
@@ -228,6 +311,12 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-09-30"
+      },
+      {
+        "text": "Ukrainian forces have successfully contested both the strategic and operational initiative since late 2025.",
+        "speaker": "ISW Assessment",
+        "title": "Institute for the Study of War",
+        "date": "2026-09-19"
       }
     ],
     "middle_east": [
@@ -247,6 +336,18 @@
         "text": "Netanyahu said one of the pilots of a flydubai plane bound for Tel Aviv had planned to crash the aircraft and kill its mostly Israeli passengers.",
         "speaker": "Benjamin Netanyahu",
         "title": "Israeli Prime Minister",
+        "date": "2026-09-30"
+      },
+      {
+        "text": "Saudi Arabia will not hesitate to respond firmly to any threat; the kingdom will not compromise on its security as Houthis choose chaos.",
+        "speaker": "Mohammed bin Salman",
+        "title": "Crown Prince of Saudi Arabia",
+        "date": "2026-09-30"
+      },
+      {
+        "text": "Latvia's president warns that Putin's appetite for risk is increasing.",
+        "speaker": "Edgars Rinkevics",
+        "title": "President of Latvia",
         "date": "2026-09-30"
       }
     ]
@@ -305,15 +406,99 @@
       "flag": "\ud83c\udde6\ud83c\uddea",
       "status": "Strategic balancer",
       "description": "The UAE confirmed a secret visit by Israeli PM Netanyahu to Abu Dhabi on 2026-09-28, signaling continued quiet diplomatic engagement with Israel despite the broader regional conflict. The UAE is navigating its position within the new Mecca Alliance security architecture while maintaining economic ties with multiple parties."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Supplying dual-use goods",
+      "description": "UK ministers are reportedly deliberating over defence commitments as Russia dramatically increases its military budget to 35% of state spending. The UK is monitoring NATO contingency planning discussions amid Russian Kaliningrad nuclear threats."
+    },
+    {
+      "country": "Japan",
+      "flag": "\ud83c\uddef\ud83c\uddf5",
+      "status": "Monitoring",
+      "description": "Japan is reassessing its defence posture vis-\u00e0-vis Russia amid frozen bilateral relations, constrained by its US alliance framework and residual energy ties with Moscow. Analysts note Japan's limited independent military capacity despite ambitions."
+    },
+    {
+      "country": "Denmark / Greenland",
+      "flag": "\ud83c\udde9\ud83c\uddf0",
+      "status": "Basing + logistics",
+      "description": "A revised US-Denmark-Greenland defence pact has been concluded after Trump dropped annexation demands. Analysts assess the pact as a modest improvement but note Trump's earlier annexation threats caused lasting diplomatic damage."
+    },
+    {
+      "country": "Belarus",
+      "flag": "\ud83c\udde7\ud83c\uddfe",
+      "status": "Basing + logistics",
+      "description": "War on the Rocks analysis revisits US-Belarus diplomacy in the context of the ongoing Ukraine war, indicating Minsk remains a Russian basing and logistics node with limited Western engagement prospects."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated \u2014 exact figure unavailable",
+    "brent_crude": "Rising \u2014 Middle East oil flows nearing pre-war levels despite ongoing Hormuz tensions",
     "wheat_futures": "Unchanged",
-    "notes": "Russia's extended diesel export ban through October and Saudi Arabia's East-West pipeline restart to bypass the Hormuz blockade are the dominant market-moving energy developments, with Brent crude facing upward pressure from dual supply disruption risks in both the Baltic and Gulf theaters."
+    "notes": "Oil futures rose despite increasing Middle East flows as Hormuz shipments and alternative Saudi pipeline routes rebound; Ukraine's war chest is reported critically depleted with winter infrastructure strikes accelerating economic paralysis at an estimated $45M cost per air raid siren activation."
   },
   "update_log": [
+    {
+      "time": "22:04 UTC",
+      "text": "Putin publicly rules out ceasefire with Ukraine and reiterates nuclear threat over Kaliningrad during Moscow speech.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:00 UTC",
+      "text": "Al Jazeera poll: ~70% of Americans say the US-Israel war on Iran is not worth fighting, up sharply since July.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:00 UTC",
+      "text": "Russia issues verified nuclear warning to NATO via Al Jazeera, claiming NATO is preparing air and naval blockade of Kaliningrad in the Baltic Sea.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "Saudi Crown Prince MBS states kingdom will respond firmly to Houthi threats; Rubio-Saudi FM talks confirm US-Saudi coordination on Hormuz and Yemen.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:00 UTC",
+      "text": "Trump publicly denies offering Iran sanctions relief; Tehran awaits formal US response to seven-day ceasefire proposal over Hormuz.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Saudi Arabia confirms East-West pipeline restart, bypassing Strait of Hormuz; oil futures rise on rebound in alternative routes.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:00 UTC",
+      "text": "Netanyahu confirms flydubai co-pilot attempted to crash Tel Aviv-bound aircraft; emergency landing in Saudi Arabia averted mass casualties.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "US-Denmark-Greenland revised defence pact concluded after Trump drops annexation demands; analysts call it a modest but diplomatically costly outcome.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Foreign Policy analysts warn Iran and Islamic State are primary beneficiaries of completed US military withdrawal from Iraq.",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "ISW September assessment: Ukrainian forces have successfully contested strategic and operational initiative since late 2025; Russian MoD accused of fabricating advance narratives.",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "Fog of war deepens in Hormuz Strait as ship attack reports surface days late, raising questions about scope of unreported maritime hostilities.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Russia air strikes on Kyiv, Kharkiv, and Dnipro kill at least 6 and wound dozens including 10 children per 2026-09-28 reports.",
+      "source_tier": "unverified"
+    },
     {
       "time": "17:45 UTC",
       "text": "Russia issues explicit nuclear-first-use warning to NATO over any attempt to blockade Kaliningrad, confirmed across multiple outlets.",
@@ -415,5 +600,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-10-01T17:45:31Z"
+  "last_updated": "2026-10-01T22:04:01Z"
 }
