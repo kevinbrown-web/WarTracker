@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.0,
-    "delta": "-0.2 from yesterday",
-    "level": "High",
-    "rationale": "Russia issues formal nuclear warning over NATO action on Kaliningrad, jet-powered drones overwhelm Kyiv defenses, and ongoing US-Iran tension with Trump threatening further strikes keep the score firmly in the High band, though Latvia's minister downplaying nuclear rhetoric and partial oil-route normalization prevent a further rise."
+    "score": 7.8,
+    "delta": "No previous score available",
+    "level": "Elevated",
+    "rationale": "Multiple concurrent crises drive a high elevated score: active US-Israel vs Iran conflict with confirmed mass casualties, Russian nuclear rhetoric over Kaliningrad escalating to Karaganov warning 'little left' of Europe, a suspected terrorist aviation incident on Dubai-Tel Aviv route, Houthi/Iranian Strait of Hormuz pressure triggering emergency European fuel talks, and Russia-NATO hybrid warfare intensifying across the Baltic flank."
   },
   "ticker_items": [
-    "Russia warns NATO of nuclear response if Kaliningrad is isolated.",
-    "Jet-powered Russian drones outpace Ukrainian air defenses over Kyiv.",
-    "Trump threatens additional strikes on Iran as ceasefire talks continue.",
-    "Latvia downplays nuclear rhetoric; cites hybrid attacks as primary threat.",
-    "Explosions reported near Taftanaz military airport in Syria's Idlib province."
+    "Russian strategist Karaganov warns 'little left' of Europe if NATO backs Ukraine further.",
+    "FlyDubai co-pilot attempted to crash Dubai-Tel Aviv flight; terrorism probe ongoing.",
+    "Iran readies broader retaliation targets as US-Iran diplomacy stalls.",
+    "Russian drone strikes Kyiv school; warhead failed to detonate.",
+    "Europe holds emergency diesel talks amid Iranian Hormuz disruption."
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "The Saudi-Turkey-Pakistan 'Mecca Pact' defense alliance, announced in late September 2026, faces its first operational test in the Red Sea, marking a new multilateral security actor entering the Middle East conflict dynamic."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -61,6 +61,17 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russian drone struck a Kyiv school; children and staff were sheltering and the warhead failed to detonate, according to Mayor Klitschko.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -73,6 +84,17 @@
         "method": "Air/Drone",
         "lat": 35.97,
         "lng": 36.79,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "Multiple (shipping)",
+        "target_location": "Strait of Hormuz",
+        "description": "Iranian forces continued harassment attacks on shipping in the Strait of Hormuz though crude oil exports reached their highest level in September since the Iran war began.",
+        "method": "Anti-Ship Missile",
+        "lat": 26.57,
+        "lng": 56.25,
         "source_tier": "verified"
       }
     ]
@@ -90,6 +112,13 @@
         "incident": "US-Israel attacks on Iran (cumulative tracker)",
         "kia": "~3,468 (Iran) + ~3,696 (Lebanon) + ~28 (Gulf states)",
         "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Yemen humanitarian crisis - hunger",
+        "kia": "",
+        "wia": "",
         "civilian": true,
         "source_tier": "verified"
       }
@@ -122,9 +151,34 @@
         "speaker": "Russian Government",
         "title": "Diplomatic document (via Reuters)",
         "date": "2026-10-01"
+      },
+      {
+        "text": "Russia did not start the war in Ukraine but was 'forced' into it by NATO's 'military exploration' of Russian territories.",
+        "speaker": "Vladimir Putin",
+        "title": "President of Russia",
+        "date": "2026-10-01"
+      },
+      {
+        "text": "Russia could initially use conventional weapons but would resort to nuclear attacks if Europe refused to surrender.",
+        "speaker": "Sergei Karaganov",
+        "title": "Russian Foreign Policy Strategist",
+        "date": "2026-10-01"
+      },
+      {
+        "text": "Putin has given all the necessary instructions to ensure the security of the Kaliningrad Region and the relevant bodies are following them very carefully.",
+        "speaker": "Nikolai Patrushev",
+        "title": "Russian Presidential Aide",
+        "date": "2026-10-01"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Children and staff at the school were in shelters when the drone hit, and its warhead didn't explode.",
+        "speaker": "Vitalii Klitschko",
+        "title": "Mayor of Kyiv",
+        "date": "2026-10-01"
+      }
+    ],
     "middle_east": [
       {
         "text": "Saudi Arabia will not hesitate to respond firmly to any threat.",
@@ -136,6 +190,18 @@
         "text": "Netanyahu is engaging in fear-mongering over attack warnings ahead of the general election.",
         "speaker": "Yair Lapid",
         "title": "Israeli Opposition Leader",
+        "date": "2026-09-30"
+      },
+      {
+        "text": "Netanyahu is engaging in 'fear-mongering' over attack warnings ahead of next month's general election.",
+        "speaker": "Yair Lapid",
+        "title": "Israeli Opposition Leader",
+        "date": "2026-09-30"
+      },
+      {
+        "text": "The Mecca pact between Saudi Arabia, T\u00fcrkiye and Pakistan aims to strengthen regional security and stability.",
+        "speaker": "Mohammed bin Salman",
+        "title": "Crown Prince of Saudi Arabia",
         "date": "2026-09-30"
       }
     ]
@@ -182,15 +248,92 @@
       "flag": "\ud83c\udde7\ud83c\uddfe",
       "status": "Basing + logistics",
       "description": "Analysts at War on the Rocks revisited the case for limited diplomacy with Belarus amid the ongoing Ukraine war. Belarus continues to provide Russian forces basing and logistics access, though direct Belarusian offensive action remains limited."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "China is closely monitoring Russian Duma elections, with the Chinese leadership having a stake in Russian political stability given structural parallels between both systems. Beijing continues to avoid direct military involvement while benefiting from Western distraction across multiple conflict theatres."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "Russia's FSB accuses London of attempting to create Russian government-in-exile puppet organizations aimed at destabilizing Russia internally. The UK continues to be a leading supporter of Ukraine with materiel and intelligence support."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Dipping slightly",
+    "brent_crude": "Dipping",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices dipped as US-Iran talks failed to yield a deal but Middle East shipments neared pre-war levels, with Saudi Arabia restarting its East-West pipeline to bypass Hormuz and Kpler data showing Hormuz flows rebounding."
+    "notes": "Brent crude dipped as Middle East shipments returned to the spotlight but Saudi Arabia's East-West pipeline restart and record September crude exports through the Strait of Hormuz eased supply fears, even as Europe held emergency diesel talks under US pressure to release strategic reserves."
   },
   "update_log": [
+    {
+      "time": "16:55 UTC",
+      "text": "Update run compiled: multiple active conflict theatres across Eastern Europe, Middle East, and Baltic region assessed.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Russian strategist Karaganov warns there will be 'little left' of some European countries if they continue backing Ukraine, escalating nuclear rhetoric following Kaliningrad warnings.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "FlyDubai co-pilot attempted to crash Dubai-Tel Aviv flight; passengers rushed cockpit; terrorism investigation ongoing.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Russian drone struck Kyiv school; warhead failed to detonate; children were sheltering, per Mayor Klitschko.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Iran readies broader retaliation targets as US-Iran ceasefire diplomacy stalls; Trump denies sanctions relief offer.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Saudi Arabia restarted East-West pipeline bypassing Strait of Hormuz as crude exports hit September high despite Iranian attacks.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Europe holds emergency diesel talks on how to respond to US pressure to release strategic fuel reserves amid Iran war disruptions.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Rubio and Saudi FM hold talks on Yemen and Hormuz Strait security cooperation.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Latvia's defense minister says Russian hybrid attacks, not nuclear rhetoric, are the main concern for Baltic security.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "South Korea demands apology from Ukraine over disclosure of two captured North Korean POWs transferred to Seoul.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Al Jazeera casualty tracker records approximately 3,468 dead in Iran, 3,696 in Lebanon, and 28 in Gulf states from US-Israel strikes.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "UN World Food Programme warns three in four households face hunger in parts of Yemen amid ongoing conflict.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Putin gives instructions to ensure Kaliningrad security as NATO mulls contingency plans for possible Russian attack.",
+      "source_tier": "unverified"
+    },
     {
       "time": "11:27 UTC",
       "text": "Explosions reported near Taftanaz military airport in Syria's Idlib province.",
@@ -237,5 +380,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-10-02T11:27:57Z"
+  "last_updated": "2026-10-02T16:55:18Z"
 }
