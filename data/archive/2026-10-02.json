@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.8,
+    "score": 8.2,
     "delta": "No previous score available",
-    "level": "Elevated",
-    "rationale": "Multiple concurrent crises drive a high elevated score: active US-Israel vs Iran conflict with confirmed mass casualties, Russian nuclear rhetoric over Kaliningrad escalating to Karaganov warning 'little left' of Europe, a suspected terrorist aviation incident on Dubai-Tel Aviv route, Houthi/Iranian Strait of Hormuz pressure triggering emergency European fuel talks, and Russia-NATO hybrid warfare intensifying across the Baltic flank."
+    "level": "High",
+    "rationale": "Simultaneous high-tempo crises: active US-Israel military campaign against Iran with confirmed casualty trackers showing 3,400+ dead, 9,000 additional US troops and a third carrier deploying to the Middle East, Putin issuing explicit 'all weapons' nuclear warnings over Kaliningrad, Russian strategist Karaganov warning of nuclear use against Europe, oil surging past $100/bbl, and a suspected Iranian-linked terror plot against RAF Fairford all combine to push the global escalation index to High."
   },
   "ticker_items": [
-    "Russian strategist Karaganov warns 'little left' of Europe if NATO backs Ukraine further.",
-    "FlyDubai co-pilot attempted to crash Dubai-Tel Aviv flight; terrorism probe ongoing.",
-    "Iran readies broader retaliation targets as US-Iran diplomacy stalls.",
-    "Russian drone strikes Kyiv school; warhead failed to detonate.",
-    "Europe holds emergency diesel talks amid Iranian Hormuz disruption."
+    "Putin warns West: Russia will use 'all weapons' if Kaliningrad threatened.",
+    "US deploys 9,000 troops, third carrier to Middle East amid Iran tensions.",
+    "Oil surges above $100/bbl on renewed US-Iran conflict fears.",
+    "Russian strategist Karaganov warns nuclear strikes could leave 'little left' of Europe.",
+    "Dual UK-Iranian national arrested over suspected RAF Fairford terror plot."
   ],
   "new_entrant": {
     "active": true,
-    "text": "The Saudi-Turkey-Pakistan 'Mecca Pact' defense alliance, announced in late September 2026, faces its first operational test in the Red Sea, marking a new multilateral security actor entering the Middle East conflict dynamic."
+    "text": "North Korea's battlefield participation in Ukraine is confirmed at a new diplomatic level after Ukraine transferred two captured North Korean POWs to South Korea, triggering a formal diplomatic dispute between Seoul and Kyiv."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -72,6 +72,17 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple \u2014 economy-wide",
+        "description": "Russia continued a sustained campaign of strikes on Ukrainian economic infrastructure causing billions in damage through lost sales, disrupted logistics, and energy hits.",
+        "method": "Missile/Surface",
+        "lat": 49.0,
+        "lng": 32.0,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -92,6 +103,28 @@
         "target_country": "Multiple (shipping)",
         "target_location": "Strait of Hormuz",
         "description": "Iranian forces continued harassment attacks on shipping in the Strait of Hormuz though crude oil exports reached their highest level in September since the Iran war began.",
+        "method": "Anti-Ship Missile",
+        "lat": 26.57,
+        "lng": 56.25,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Medina",
+        "description": "Houthi forces attacked a power station in Medina according to the Saudi-led coalition, which blamed the Houthis for the strike.",
+        "method": "Missile/Surface",
+        "lat": 24.47,
+        "lng": 39.61,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran",
+        "target_country": "International Shipping",
+        "target_location": "Strait of Hormuz",
+        "description": "Iranian forces continued attacks on shipping in the Strait of Hormuz, though crude oil exports from the region hit their highest level in September since the US-Iran war began.",
         "method": "Anti-Ship Missile",
         "lat": 26.57,
         "lng": 56.25,
@@ -121,6 +154,13 @@
         "wia": "",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Houthi attack on Medina power station",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -140,6 +180,24 @@
         "claim": "Deaths in Gulf states attributed to US-Israel strikes",
         "figure": "~28",
         "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Total killed in Iran from US-Israel strikes",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Total killed in Lebanon from US-Israel strikes",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Total killed in Gulf states from US-Israel strikes",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera casualty tracker",
         "as_of": "2026-06-10"
       }
     ]
@@ -169,6 +227,24 @@
         "speaker": "Nikolai Patrushev",
         "title": "Russian Presidential Aide",
         "date": "2026-10-01"
+      },
+      {
+        "text": "Russia will respond to aggression with all available weapons in its arsenal if it comes under a direct attack.",
+        "speaker": "Vladimir Putin",
+        "title": "President of the Russian Federation",
+        "date": "2026-10-01"
+      },
+      {
+        "text": "Russia did not start the war in Ukraine but was forced into that conflict by NATO's military exploration of Russian territories.",
+        "speaker": "Vladimir Putin",
+        "title": "President of the Russian Federation",
+        "date": "2026-10-01"
+      },
+      {
+        "text": "Russia would initially use conventional weapons but would resort to nuclear attacks if Europe refused to surrender.",
+        "speaker": "Sergei Karaganov",
+        "title": "Russian Foreign Policy Strategist",
+        "date": "2026-10-01"
       }
     ],
     "ukraine": [
@@ -176,6 +252,12 @@
         "text": "Children and staff at the school were in shelters when the drone hit, and its warhead didn't explode.",
         "speaker": "Vitalii Klitschko",
         "title": "Mayor of Kyiv",
+        "date": "2026-10-01"
+      },
+      {
+        "text": "Ukrainian strikes are having an impact on Russia's economy, Putin concedes.",
+        "speaker": "Vladimir Putin",
+        "title": "President of the Russian Federation (concession)",
         "date": "2026-10-01"
       }
     ],
@@ -202,6 +284,18 @@
         "text": "The Mecca pact between Saudi Arabia, T\u00fcrkiye and Pakistan aims to strengthen regional security and stability.",
         "speaker": "Mohammed bin Salman",
         "title": "Crown Prince of Saudi Arabia",
+        "date": "2026-09-30"
+      },
+      {
+        "text": "They'll be hit very hard.",
+        "speaker": "Donald Trump",
+        "title": "President of the United States",
+        "date": "2026-10-01"
+      },
+      {
+        "text": "Netanyahu is engaged in fear-mongering over attack warnings.",
+        "speaker": "Yair Lapid",
+        "title": "Israeli Opposition Leader",
         "date": "2026-09-30"
       }
     ]
@@ -260,15 +354,109 @@
       "flag": "\ud83c\uddec\ud83c\udde7",
       "status": "Active materiel + troops",
       "description": "Russia's FSB accuses London of attempting to create Russian government-in-exile puppet organizations aimed at destabilizing Russia internally. The UK continues to be a leading supporter of Ukraine with materiel and intelligence support."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "Russia is continuing offensive operations in eastern Ukraine with a focus on economic attrition, striking infrastructure to degrade Ukraine's war economy. Putin has issued explicit nuclear warnings regarding Kaliningrad and stated Russia was 'forced' into the Ukraine war by NATO, while Russian strategists escalate nuclear signaling toward Europe."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Strategic balancer",
+      "description": "Turkey has joined the new Mecca defense pact alongside Saudi Arabia and Pakistan, positioning Ankara as a regional security partner in the Gulf. Turkey continues to balance its NATO obligations with regional engagement, including with Gulf states aligning against Iranian influence."
+    },
+    {
+      "country": "Cuba",
+      "flag": "\ud83c\udde8\ud83c\uddfa",
+      "status": "Supplying dual-use goods",
+      "description": "A Cuban national residing in Russia has been charged by the US with conspiracy to finance terrorism, allegedly coordinating arson attacks across four European countries on behalf of Russia using the alias 'Dios.' The case highlights Russian use of proxy networks for hybrid warfare in Europe."
+    },
+    {
+      "country": "Egypt",
+      "flag": "\ud83c\uddea\ud83c\uddec",
+      "status": "Mediator + arms supplier",
+      "description": "Egypt is navigating complex diplomatic demands arising from simultaneous regional wars, balancing competing pressures from the US-Iran conflict and the Gaza war. Cairo's diplomatic role is described by analysts as strategically ambiguous \u2014 simultaneously seeking influence while managing domestic economic vulnerabilities."
     }
   ],
   "financial": {
-    "usd_rub": "Unchanged",
-    "brent_crude": "Dipping",
-    "wheat_futures": "Unchanged",
-    "notes": "Brent crude dipped as Middle East shipments returned to the spotlight but Saudi Arabia's East-West pipeline restart and record September crude exports through the Strait of Hormuz eased supply fears, even as Europe held emergency diesel talks under US pressure to release strategic reserves."
+    "usd_rub": "Unknown",
+    "brent_crude": ">$100/bbl",
+    "wheat_futures": "Unknown",
+    "notes": "Oil surged above $100 per barrel on renewed US-Iran tensions and fears of Strait of Hormuz supply disruptions, while the Trump administration is pressuring European allies to release emergency diesel reserves to counter soaring fuel prices."
   },
   "update_log": [
+    {
+      "time": "21:30 UTC",
+      "text": "US confirms dispatch of 9,000 troops and third aircraft carrier to Middle East as Trump threatens new Iran strikes post-midterms.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:00 UTC",
+      "text": "Oil prices breach $100/bbl as US-Iran tensions and Hormuz shipping attacks drive global energy crisis fears.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:30 UTC",
+      "text": "Russian strategist Sergei Karaganov warns nuclear strikes could leave 'little left' of European countries if they continue backing Ukraine.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:00 UTC",
+      "text": "Putin issues 'all weapons' nuclear warning and demands West not threaten Kaliningrad; Patrushev says security instructions already issued.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:30 UTC",
+      "text": "Al Jazeera casualty tracker confirms ~3,468 dead in Iran and ~3,696 dead in Lebanon from US-Israel strikes since March 2026.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "19:00 UTC",
+      "text": "Saudi-led coalition reports Houthi attack on Medina power station; US Secretary Rubio holds talks with Saudi FM on Yemen and Hormuz.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Sixth arrest made in RAF Fairford terror plot; suspect is a dual UK-Iranian national.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "Ukraine transfers two captured North Korean POWs to South Korea, triggering diplomatic dispute as Seoul demands apology from Kyiv.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:30 UTC",
+      "text": "US charges Cuba-based national with financing terrorism via arson attacks in Europe on behalf of Russia.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:00 UTC",
+      "text": "RFE/RL reports Middle East crude oil exports hit highest September level despite Iranian Hormuz attacks; refinery bottleneck persists.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:30 UTC",
+      "text": "Iran readying broader retaliation plans against US-linked targets if Washington escalates military campaign.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Baltic states and European analysts warn of intensifying Russian hybrid aggression including cyberattacks across NATO's eastern flank.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:30 UTC",
+      "text": "Trump suggests latest Iranian peace offer insufficient; says post-midterm escalation including resumed bombing remains an option.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:00 UTC",
+      "text": "Saudi Arabia, Turkey, and Pakistan announce Mecca defense pact aimed at strengthening regional security.",
+      "source_tier": "unverified"
+    },
     {
       "time": "16:55 UTC",
       "text": "Update run compiled: multiple active conflict theatres across Eastern Europe, Middle East, and Baltic region assessed.",
@@ -380,5 +568,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-10-02T16:55:18Z"
+  "last_updated": "2026-10-02T21:30:12Z"
 }
