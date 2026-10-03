@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.4,
-    "delta": "+0.2 from yesterday",
+    "score": 8.2,
+    "delta": "No previous score available",
     "level": "High",
-    "rationale": "Putin's explicit nuclear warnings over Kaliningrad, US deployment of a third carrier strike group with ~10,000 troops to the Middle East, Ukraine's first use of the FP-7 ballistic missile, Houthi drone strike on Medina, and Yemen army claiming 1,500 Houthi casualties in 24 hours collectively sustain a high escalation environment across two major theaters simultaneously."
+    "rationale": "Multiple simultaneous high-intensity conflicts are active: a confirmed US-Israel war on Iran with thousands of casualties, ongoing Russian strikes on Ukrainian cities, Houthi drone attack on Madinah, Putin's nuclear warning over Kaliningrad, and Zelenskyy's claim that Putin ordered troops to abandon rules of war \u2014 collectively representing a historically elevated multi-theater threat environment."
   },
   "ticker_items": [
-    "Putin threatens nuclear use if Kaliningrad or Russian territory attacked by NATO.",
-    "US deploys third carrier strike group, ~10,000 troops to Middle East amid Iran tensions.",
-    "Ukraine fields FP-7 domestic ballistic missile in combat for first time.",
-    "Houthis strike electricity station in Medina; Yemen army claims 1,500 Houthi casualties in 24 hrs.",
-    "Black Sea shipping crisis drives global wheat exports down 60%, prices rising sharply."
+    "Putin warns Russia could use 'all weapons' including nuclear if Kaliningrad attacked.",
+    "Houthis strike power station in Madinah; Saudi coalition confirms attack.",
+    "Zelenskyy: Putin ordered military to abandon rules of war in September.",
+    "Trump says Iran peace offer insufficient; may resume bombing after elections.",
+    "United Russia wins record 349 Duma seats; 50 Ukraine war veterans enter parliament."
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "South Korea has become an active diplomatic flashpoint after Ukraine publicly revealed it transferred two captured North Korean POWs to Seoul, breaching a secrecy agreement and prompting Seoul to threaten 'further measures' against Kyiv."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -49,6 +49,50 @@
         "method": "Ballistic Missile",
         "lat": 47.8,
         "lng": 37.5,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv region",
+        "description": "Russian overnight strikes on Kyiv region killed at least one Azerbaijani citizen and injured multiple civilians including children.",
+        "method": "Missile/Surface",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kharkiv",
+        "description": "Russian air strikes on Kharkiv injured civilians as part of a multi-city overnight attack pattern.",
+        "method": "Air/Drone",
+        "lat": 49.99,
+        "lng": 36.23,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Dnipro",
+        "description": "Russian strikes hit Dnipro as part of continued multi-city bombardment campaign.",
+        "method": "Missile/Surface",
+        "lat": 48.46,
+        "lng": 35.04,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Schools, hospitals, data centres (multiple)",
+        "description": "Zelenskyy stated Putin issued order in September directing Russian forces to strike schools, hospitals, and data centres, abandoning rules of war.",
+        "method": "Air/Precision Strike",
+        "lat": 50.45,
+        "lng": 30.52,
         "source_tier": "unverified"
       }
     ],
@@ -85,6 +129,28 @@
         "lat": 13.58,
         "lng": 44.02,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Madinah",
+        "description": "Houthi forces struck an electricity distribution station in the holy city of Madinah, drawing condemnation from multiple Muslim countries.",
+        "method": "Air/Drone",
+        "lat": 24.47,
+        "lng": 39.61,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Southern Saudi Arabia",
+        "description": "Houthi forces reportedly launched a sweeping ground offensive against Saudi positions in southern Saudi Arabia, marking a significant escalation.",
+        "method": "Ground/Armored",
+        "lat": 17.5,
+        "lng": 43.8,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -110,6 +176,20 @@
         "wia": "unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Russian overnight strikes \u2014 Kyiv, Kharkiv, Dnipro",
+        "kia": "~6",
+        "wia": "dozens, incl. ~10 children",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Houthi drone strike on Madinah power station",
+        "kia": "0 reported",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -118,6 +198,30 @@
         "figure": "~7,192 combined (Iran + Lebanon + Gulf)",
         "claimed_by": "Al Jazeera Live Tracker",
         "as_of": "2026-06-10 (last tracker update)"
+      },
+      {
+        "claim": "Deaths in Iran from US-Israel strikes",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10 (tracker last updated)"
+      },
+      {
+        "claim": "Deaths in Lebanon from US-Israel strikes",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10 (tracker last updated)"
+      },
+      {
+        "claim": "Deaths in Gulf states from US-Israel strikes",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10 (tracker last updated)"
+      },
+      {
+        "claim": "Ukraine strikes cost Russia % of GDP",
+        "figure": "1% of GDP (Russian estimate)",
+        "claimed_by": "Vladimir Putin",
+        "as_of": "2026-10-02"
       }
     ]
   },
@@ -142,7 +246,14 @@
         "date": "2026-10-02"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Putin gave the order in September for Russian forces to abandon the rules of war, as Russia began hitting schools, hospitals and data centres.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-10-02"
+      }
+    ],
     "middle_east": [
       {
         "text": "The Iran War will come to an end after the midterm election.",
@@ -155,6 +266,18 @@
         "speaker": "Donald Trump",
         "title": "President of the United States",
         "date": "2026-10-01"
+      },
+      {
+        "text": "The latest Iran peace offer is not enough; he may resume bombing after elections.",
+        "speaker": "Donald Trump",
+        "title": "President of the United States",
+        "date": "2026-10-01"
+      },
+      {
+        "text": "Netanyahu is exploiting the Flydubai incident for political fear-mongering ahead of the 27 October election.",
+        "speaker": "Yair Lapid",
+        "title": "Israeli Opposition Leader",
+        "date": "2026-09-30"
       }
     ]
   },
@@ -200,15 +323,99 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Active materiel + troops",
       "description": "North Korean soldiers remain deployed alongside Russian forces in Ukraine, with two captured troops transferred to South Korea causing a diplomatic incident. The revelation of the POW transfer has strained Ukraine-South Korea relations. North Korea's troop contribution to Russia continues to be a significant factor on the eastern front."
+    },
+    {
+      "country": "Hungary",
+      "flag": "\ud83c\udded\ud83c\uddfa",
+      "status": "Abstaining",
+      "description": "Hungarian State Secretary Gyorgy Velkey confirmed Budapest will not send soldiers or weapons to Ukraine. Hungary continues to operate as the primary dissenting voice within NATO and the EU on Ukraine support."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "UK Ambassador Sarah MacIntosh delivered a statement at the UN Third Committee on human rights, reaffirming Britain's commitment to universal rights. The UK continues active military and diplomatic support for Ukraine."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Strategic balancer",
+      "description": "Turkey is referenced in analysis regarding evolving US war strategy in relation to Israel-Turkey-Qatar dynamics. Ankara continues its complex positioning between NATO commitments and independent regional interests."
+    },
+    {
+      "country": "Egypt",
+      "flag": "\ud83c\uddea\ud83c\uddec",
+      "status": "Mediator + arms supplier",
+      "description": "Cairo is navigating competing regional demands amid multiple active wars, described by analysts as attempting clever but potentially clumsy diplomacy balancing US, Israeli, Houthi, and Gulf pressures simultaneously."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated",
-    "wheat_futures": "Rising",
-    "notes": "G7 announced a release of 100 million barrels of oil and diesel to curb soaring energy prices driven by the US-Israel war on Iran and Russia's war on Ukraine; Black Sea shipping disruptions have cut Russia-Ukraine combined wheat exports by 60% year-on-year, pushing global wheat prices significantly higher."
+    "brent_crude": "Elevated \u2014 exact price not reported in headlines",
+    "wheat_futures": "Unchanged",
+    "notes": "JP Morgan and Russia's central bank chief Nabiullina are both signalling serious recessionary risk driven by a global oil shock, while Russia's economy faces mounting pain despite Putin's domestic political consolidation following parliamentary elections."
   },
   "update_log": [
+    {
+      "time": "15:18 UTC",
+      "text": "Putin issues nuclear warning: Russia will use 'all weapons' including nuclear arms if Kaliningrad is attacked.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:10 UTC",
+      "text": "Zelenskyy: Putin ordered Russian military to abandon rules of war in September, targeting schools, hospitals, data centres.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:05 UTC",
+      "text": "Al Jazeera live tracker confirms ~3,468 dead in Iran, ~3,696 dead in Lebanon from US-Israel strikes since March 2026.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "14:50 UTC",
+      "text": "Saudi coalition confirms Houthi drone strike on electricity station in Madinah; multiple Muslim nations condemn attack.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "14:30 UTC",
+      "text": "Trump signals Iran peace offer insufficient and threatens to resume bombing after US elections.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "South Korea warns Ukraine of 'further measures' if Kyiv refuses public apology over North Korean POW disclosure.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:30 UTC",
+      "text": "RFE/RL: Russian overnight strikes on Kyiv region and Kharkiv kill Azerbaijani citizen, injure 10 children.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "United Russia wins record 349 Duma seats in parliamentary election; 50 Ukraine war veterans enter parliament.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "War on the Rocks analysis warns closed Eurasian airspace poses critical threat to US military mobility.",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "Europe mulling plans for a 'defence union' as RFE/RL reports Russia may be planning attack on NATO.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "New Yorker: Obstacles to lasting Iran peace are greater than ever despite temporary Strait of Hormuz stabilisation.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "07:00 UTC",
+      "text": "FlyDubai cockpit attack: Omani co-pilot found with pro-Palestinian material; Israeli authorities investigating motive.",
+      "source_tier": "unverified"
+    },
     {
       "time": "10:43",
       "text": "G7 announces 100 million barrel strategic oil and diesel reserve release to counter war-driven energy price surge.",
@@ -255,5 +462,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-10-03T10:43:53Z"
+  "last_updated": "2026-10-03T15:18:53Z"
 }
