@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.2,
+    "score": 7.8,
     "delta": "No previous score available",
-    "level": "High",
-    "rationale": "Multiple simultaneous high-intensity conflicts are active: a confirmed US-Israel war on Iran with thousands of casualties, ongoing Russian strikes on Ukrainian cities, Houthi drone attack on Madinah, Putin's nuclear warning over Kaliningrad, and Zelenskyy's claim that Putin ordered troops to abandon rules of war \u2014 collectively representing a historically elevated multi-theater threat environment."
+    "level": "Elevated",
+    "rationale": "Multiple simultaneous crisis vectors \u2014 active US-Israel war on Iran with 3,468+ Iranian dead, Ukraine's first combat use of indigenous FP-7 ballistic missile, Houthi drone strike on Madinah, Saudi offensive planning against Houthis, South Korea-Ukraine diplomatic rupture over North Korean POWs, and European NATO contingency planning against possible Russian attack \u2014 collectively sustain a high-elevated threat environment."
   },
   "ticker_items": [
-    "Putin warns Russia could use 'all weapons' including nuclear if Kaliningrad attacked.",
-    "Houthis strike power station in Madinah; Saudi coalition confirms attack.",
-    "Zelenskyy: Putin ordered military to abandon rules of war in September.",
-    "Trump says Iran peace offer insufficient; may resume bombing after elections.",
-    "United Russia wins record 349 Duma seats; 50 Ukraine war veterans enter parliament."
+    "Ukraine fires FP-7 ballistic missile in combat for first time; FP-9 targeting Moscow range due year-end.",
+    "Houthis strike Madinah electricity grid with drone; Saudi offensive planning accelerates.",
+    "South Korea threatens Ukraine over North Korean POW transfer disclosure.",
+    "US-Israel attacks on Iran: ~3,468 dead in Iran, ~3,696 in Lebanon per Al Jazeera tracker.",
+    "Japan announces first national external intelligence agency modeled on CIA."
   ],
   "new_entrant": {
     "active": true,
-    "text": "South Korea has become an active diplomatic flashpoint after Ukraine publicly revealed it transferred two captured North Korean POWs to Seoul, breaching a secrecy agreement and prompting Seoul to threaten 'further measures' against Kyiv."
+    "text": "Japan announced the creation of its first national external intelligence agency (CIA-equivalent), marking a significant institutional step toward active intelligence participation in regional security amid Russia and China tensions."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -94,6 +94,50 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv region",
+        "description": "Russian overnight air strikes on the Kyiv region killed civilians and injured multiple others including children.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kharkiv",
+        "description": "Russian strikes hit Kharkiv as part of a multi-city overnight attack pattern injuring civilians.",
+        "method": "Missile/Surface",
+        "lat": 49.99,
+        "lng": 36.23,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Dnipro",
+        "description": "Russian strikes struck Dnipro as part of the same overnight campaign that killed an Azerbaijani citizen.",
+        "method": "Missile/Surface",
+        "lat": 48.46,
+        "lng": 35.04,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Unknown",
+        "description": "Ukraine deployed its indigenously developed FP-7 ballistic missile in combat for the first time; target not yet disclosed by Kyiv.",
+        "method": "Ballistic Missile",
+        "lat": 0.0,
+        "lng": 0.0,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -151,6 +195,28 @@
         "lat": 17.5,
         "lng": 43.8,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Madinah",
+        "description": "Houthi forces struck an electricity distribution station in the holy city of Madinah with a drone, prompting condemnation from Muslim-majority countries.",
+        "method": "Air/Drone",
+        "lat": 24.47,
+        "lng": 39.61,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Western Yemen / Red Sea coast",
+        "description": "Houthi ground forces launched a sweeping offensive against Saudi positions threatening Red Sea shipping routes, prompting Saudi coalition to accelerate offensive planning.",
+        "method": "Ground/Armored",
+        "lat": 15.55,
+        "lng": 42.55,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -190,6 +256,20 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Russian strikes on Kyiv, Kharkiv, Dnipro (overnight ~Sep 28)",
+        "kia": "~2",
+        "wia": "Dozens, incl. 10 children",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "FlyDubai cockpit attack \u2014 captain injured by co-pilot",
+        "kia": "0",
+        "wia": "1 (captain stabbed)",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -244,12 +324,24 @@
         "speaker": "Vladimir Putin",
         "title": "President of Russia",
         "date": "2026-10-02"
+      },
+      {
+        "text": "The UK orchestrated the Bucha false flag to derail the 2022 Russia-Ukraine peace talks.",
+        "speaker": "Russian MoD / official statement",
+        "title": "Ministry of Defense",
+        "date": "2026-09-17"
       }
     ],
     "ukraine": [
       {
         "text": "Putin gave the order in September for Russian forces to abandon the rules of war, as Russia began hitting schools, hospitals and data centres.",
         "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-10-02"
+      },
+      {
+        "text": "Production [of FP-7] is next, while the larger FP-9, reportedly able to reach Moscow, is slated for completion by the end of this year.",
+        "speaker": "Volodymyr Zelensky",
         "title": "President of Ukraine",
         "date": "2026-10-02"
       }
@@ -278,6 +370,18 @@
         "speaker": "Yair Lapid",
         "title": "Israeli Opposition Leader",
         "date": "2026-09-30"
+      },
+      {
+        "text": "If the refusal to acknowledge the facts and issue a public apology continues, we will take additional measures.",
+        "speaker": "Lee (President)",
+        "title": "President of South Korea",
+        "date": "2026-10-02"
+      },
+      {
+        "text": "Worst president in American history.",
+        "speaker": "Mohsen Rezaei",
+        "title": "Iranian Security Official",
+        "date": "2026-10-02"
       }
     ]
   },
@@ -347,15 +451,71 @@
       "flag": "\ud83c\uddea\ud83c\uddec",
       "status": "Mediator + arms supplier",
       "description": "Cairo is navigating competing regional demands amid multiple active wars, described by analysts as attempting clever but potentially clumsy diplomacy balancing US, Israeli, Houthi, and Gulf pressures simultaneously."
+    },
+    {
+      "country": "Japan",
+      "flag": "\ud83c\uddef\ud83c\uddf5",
+      "status": "Strategic balancer",
+      "description": "Prime Minister Takaichi Sanae announced the creation of Japan's first national external intelligence agency modeled on the CIA, a historic shift in Japanese security posture. Japan-Russia relations remain frozen amid energy dependency constraints. The move signals accelerating securitization of Japan's foreign policy amid regional threats."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated \u2014 exact price not reported in headlines",
+    "brent_crude": "Elevated \u2014 exact figure unavailable",
     "wheat_futures": "Unchanged",
-    "notes": "JP Morgan and Russia's central bank chief Nabiullina are both signalling serious recessionary risk driven by a global oil shock, while Russia's economy faces mounting pain despite Putin's domestic political consolidation following parliamentary elections."
+    "notes": "JP Morgan and Russia's central bank chief Nabiullina are both signaling serious recessionary risk from a global oil shock, while analysts warn of US diesel prices potentially reaching $7/gallon amid Gulf disruption and refinery stress."
   },
   "update_log": [
+    {
+      "time": "20:17 UTC",
+      "text": "Ukraine confirms first combat use of domestically produced FP-7 ballistic missile; target undisclosed.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:17 UTC",
+      "text": "Houthis strike electricity infrastructure in Madinah, Saudi Arabia with drone; Saudi coalition condemns attack.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:17 UTC",
+      "text": "Saudi Arabia planning major multi-front offensive against Houthis to reopen Red Sea shipping lanes, per Reuters-cited regional and Western officials.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:17 UTC",
+      "text": "South Korea's President Lee threatens Ukraine with further unspecified measures over North Korean POW transfer disclosure.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:17 UTC",
+      "text": "Japan announces creation of first national external intelligence agency under PM Takaichi Sanae.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:17 UTC",
+      "text": "Al Jazeera tracker records ~3,468 dead in Iran, ~3,696 in Lebanon from US-Israel strikes as of last update.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "20:17 UTC",
+      "text": "Russia struck Kyiv, Kharkiv, and Dnipro in overnight attacks killing two including an Azerbaijani citizen, injuring 10 children.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "20:17 UTC",
+      "text": "RFE/RL: Europe mulling contingency plans amid intelligence reports of possible Russian attack on NATO.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "20:17 UTC",
+      "text": "North Korea-Russia first road bridge opened, confirmed by BBC, cementing bilateral logistics corridor.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "20:17 UTC",
+      "text": "FlyDubai Omani co-pilot attacked captain mid-flight on Dubai-Tel Aviv route; subdued by crew and passengers; Israeli investigation ongoing.",
+      "source_tier": "unverified"
+    },
     {
       "time": "15:18 UTC",
       "text": "Putin issues nuclear warning: Russia will use 'all weapons' including nuclear arms if Kaliningrad is attacked.",
@@ -462,5 +622,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-10-03T15:18:53Z"
+  "last_updated": "2026-10-03T20:17:01Z"
 }
