@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.9,
-    "delta": "+0.1 from yesterday",
-    "level": "High",
-    "rationale": "Russia's systematic targeting of Kyiv's Dnipro bridge crossings\u2014now damaging or closing four of six road bridges in consecutive days\u2014marks a deliberate infrastructure siege escalation, compounded by Saudi Arabia's reported imminent large-scale Yemen offensive against Houthis threatening Red Sea shipping lanes."
+    "score": 7.2,
+    "delta": "No previous score available",
+    "level": "Elevated",
+    "rationale": "Russia's systematic targeting of Kyiv's bridges for a third consecutive day, a confirmed US-Israel attack on Iran with over 7,000 combined casualties in Iran and Lebanon, Saudi Arabia preparing a major Yemen offensive, and historian warnings of widening global conflict collectively drive an elevated-to-high threat environment."
   },
   "ticker_items": [
-    "Russia strikes Kyiv's Northern Bridge; 4 of 6 Dnipro crossings now impacted.",
+    "Russia strikes Kyiv's Northern Bridge; traffic disrupted for third straight day.",
+    "US-Israel attacks on Iran: ~3,468 dead in Iran, ~3,696 dead in Lebanon.",
     "Saudi Arabia planning major multi-front offensive against Houthis in Yemen.",
-    "Occupied Oleshky, Kherson: residents trapped, starving under 'total blockade'.",
-    "South Korea threatens Ukraine over North Korean POW transfer disclosure.",
-    "Russia warns it will use 'any means' to defend Kaliningrad from NATO threats."
+    "South Korea threatens Ukraine over unauthorized disclosure of DPRK POW transfer.",
+    "RFE/RL: Europe mulling NATO contingency plans amid Russian attack warnings."
   ],
   "new_entrant": {
     "active": true,
-    "text": "Saudi Arabia is reportedly preparing a large-scale military offensive against Houthi forces in Yemen, including a coastal push toward Bab el-Mandeb Strait, marking a significant escalation of Riyadh's direct combat role."
+    "text": "Saudi Arabia is preparing to enter direct offensive operations against Houthi forces in Yemen, representing a significant escalation of Riyadh's military posture beyond previous indirect involvement."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -50,6 +50,39 @@
         "lat": 46.58,
         "lng": 32.77,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Early morning",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv \u2013 Northern Bridge",
+        "description": "Russian strike damaged Kyiv's Northern Bridge, suspending traffic and causing significant tailbacks for a third consecutive day as Moscow systematically targets Dnipro River crossings.",
+        "method": "Missile/Surface",
+        "lat": 50.51,
+        "lng": 30.49,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv region, Kharkiv, Dnipro",
+        "description": "Russian air strikes across multiple Ukrainian cities killed at least six people and injured dozens, including children, in a broad aerial assault.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Russian border regions (unspecified)",
+        "description": "Ukrainian retaliatory strikes caused casualties inside Russian territory, per mutual exchange of fire reported across multiple outlets.",
+        "method": "Missile/Surface",
+        "lat": 51.67,
+        "lng": 39.18,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -62,6 +95,17 @@
         "method": "Ground/Armored",
         "lat": 12.58,
         "lng": 43.47,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Southern Saudi Arabia / Bab el-Mandeb area",
+        "description": "Houthi forces conducted a sweeping ground offensive against Saudi positions near the Red Sea, prompting Riyadh to plan a large-scale multi-front military response.",
+        "method": "Ground/Armored",
+        "lat": 12.78,
+        "lng": 44.98,
         "source_tier": "unverified"
       }
     ]
@@ -95,6 +139,13 @@
         "wia": "est. dozens, incl. ~10 children",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian strikes on Kyiv and Ukrainian cities",
+        "kia": "6",
+        "wia": "est. dozens, incl. 10 children",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -115,6 +166,24 @@
         "figure": "~3,696",
         "claimed_by": "Al Jazeera live tracker",
         "as_of": "2026-06-10 (tracker last modified)"
+      },
+      {
+        "claim": "Deaths in Iran from US-Israel strikes",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Deaths in Lebanon from US-Israel strikes",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Deaths in Gulf states from US-Israel strikes",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10 (last modified)"
       }
     ]
   },
@@ -133,6 +202,12 @@
         "speaker": "Oleshky resident (via RFE/RL reporting)",
         "title": "Civilian, Russian-occupied Oleshky",
         "date": "2026-10-03"
+      },
+      {
+        "text": "Humanity is losing control of AI weapons; drones are becoming a digital panopticon.",
+        "speaker": "Ukraine Drone Chief (unnamed)",
+        "title": "Head of Ukraine drone program",
+        "date": "2026-10-02"
       }
     ],
     "middle_east": [
@@ -140,6 +215,12 @@
         "text": "Humanity is losing control of AI weapons; it has become a digital panopticon.",
         "speaker": "Unidentified Ukraine drone chief (paraphrased)",
         "title": "Head of Ukrainian Drone Program",
+        "date": "2026-10-02"
+      },
+      {
+        "text": "I don't know how many lives we've saved by giving Britain information about impending attacks. But under Burnham they're a rogue state.",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister of Israel",
         "date": "2026-10-02"
       }
     ]
@@ -180,15 +261,83 @@
       "flag": "\ud83c\udde7\ud83c\uddfe",
       "status": "Basing + logistics",
       "description": "War on the Rocks published fresh analysis advocating renewed diplomatic engagement with Belarus amid the Ukraine war, revisiting earlier arguments about avoiding strategic lock-in. Belarus continues to provide Russian forces with basing and logistics access, though Minsk has not committed its own troops directly to combat operations in Ukraine. Western analysts remain divided on whether diplomatic off-ramps with Minsk remain viable."
+    },
+    {
+      "country": "Moldova",
+      "flag": "\ud83c\uddf2\ud83c\udde9",
+      "status": "Monitoring",
+      "description": "Moldova's president issued a public warning about the risks of the escalating conflict in Ukraine spilling over into Moldovan territory, reflecting increased concern among Ukraine's smaller neighbors about regional security."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Mediator + arms supplier",
+      "description": "Turkey reportedly hosted a secret meeting between Hezbollah representatives and Syrian government officials aimed at de-escalating tensions between the two sides. Ankara continues its dual role as a NATO member and regional diplomatic broker."
+    },
+    {
+      "country": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "status": "Active materiel + troops",
+      "description": "The US participated in strikes on Iran alongside Israel earlier in 2026, with Al Jazeera's casualty tracker recording thousands of deaths. War on the Rocks analysts warn that closed Eurasian airspace is increasingly threatening US military mobility and power projection."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated \u2013 significant upward pressure",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "JP Morgan and Russia's central bank chief Nabiullina are both signaling serious recessionary risk tied to a global oil shock, while Russia has reportedly banned diesel exports unless sanctions are lifted, adding further upward pressure on European energy prices."
+    "notes": "No specific financial market data available in today's headlines; Saudi offensive preparations and continued Red Sea disruption by Houthis represent ongoing upside risk to Brent crude and shipping costs."
   },
   "update_log": [
+    {
+      "time": "16:03 UTC",
+      "text": "Al Jazeera casualty tracker confirms ~3,468 dead in Iran, ~3,696 in Lebanon, and ~28 in Gulf states from US-Israel strikes earlier in 2026.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Morning UTC",
+      "text": "Russia strikes Kyiv's Northern Bridge for the second consecutive day, disrupting traffic for a third day overall as Moscow targets Dnipro crossings.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Morning UTC",
+      "text": "At least six civilians killed in Russian air strikes across Kyiv, Kharkiv, and Dnipro regions.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Morning UTC",
+      "text": "Saudi Arabia confirmed to be planning a major multi-front offensive against Houthi forces in Yemen to secure the Bab el-Mandeb Strait.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Morning UTC",
+      "text": "South Korea's President Lee threatens 'further measures' against Ukraine if Kyiv refuses to apologize for disclosing DPRK POW transfer.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Morning UTC",
+      "text": "Latvia holds national elections amid ongoing Russian drone incursions; pro-NATO PM Kulbergs expected to retain power.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Morning UTC",
+      "text": "Russia warns it will use 'any means' to defend Kaliningrad from NATO threats, per OSCE envoy Polyanskiy.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Morning UTC",
+      "text": "Historian Margaret MacMillan warns via RFE/RL that interconnected global wars are increasing the risk of a wider conflict.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Morning UTC",
+      "text": "Secret meeting between Hezbollah and Syrian government officials held in Turkey to reduce bilateral tensions, per reports.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Morning UTC",
+      "text": "Ukraine's drone chief warns humanity is 'losing control' of AI weapons as drone technology accelerates on the front line.",
+      "source_tier": "unverified"
+    },
     {
       "time": "11:25 UTC",
       "text": "Russia's systematic bridge campaign against Kyiv now impacts 4 of 6 Dnipro River road crossings in consecutive days of strikes; Northern Bridge traffic suspended.",
@@ -225,5 +374,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-10-04T11:25:39Z"
+  "last_updated": "2026-10-04T16:03:39Z"
 }
