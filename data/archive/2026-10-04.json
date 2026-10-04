@@ -3,18 +3,18 @@
     "score": 7.2,
     "delta": "No previous score available",
     "level": "Elevated",
-    "rationale": "Russia's systematic targeting of Kyiv's bridges for a third consecutive day, a confirmed US-Israel attack on Iran with over 7,000 combined casualties in Iran and Lebanon, Saudi Arabia preparing a major Yemen offensive, and historian warnings of widening global conflict collectively drive an elevated-to-high threat environment."
+    "rationale": "Multiple converging flashpoints \u2014 Russian strikes killing 6 in Kyiv and damaging a bridge, Ukraine threatening escalated refinery strikes, Saudi Arabia preparing a major Yemen offensive amid Houthi attacks on Riyadh oil infrastructure, a US-Israel conflict with Iran producing thousands of confirmed casualties, and a verified RFE/RL historian warning of widening global conflict \u2014 collectively push the score to the upper Elevated range."
   },
   "ticker_items": [
-    "Russia strikes Kyiv's Northern Bridge; traffic disrupted for third straight day.",
-    "US-Israel attacks on Iran: ~3,468 dead in Iran, ~3,696 dead in Lebanon.",
-    "Saudi Arabia planning major multi-front offensive against Houthis in Yemen.",
-    "South Korea threatens Ukraine over unauthorized disclosure of DPRK POW transfer.",
-    "RFE/RL: Europe mulling NATO contingency plans amid Russian attack warnings."
+    "Russian strikes kill 6 in Kyiv, damage Northern Bridge for third day running.",
+    "Ukraine vows to escalate strikes on Russian oil refineries in response to new Moscow doctrine.",
+    "Saudi Arabia prepares large-scale Yemen offensive to break Houthi Red Sea chokehold.",
+    "Houthis launch fresh missile strike on Riyadh oil refinery; Saudis launch counter-strikes.",
+    "Moldova president warns war is 'dangerously reaching' her country after airspace incursions."
   ],
   "new_entrant": {
     "active": true,
-    "text": "Saudi Arabia is preparing to enter direct offensive operations against Houthi forces in Yemen, representing a significant escalation of Riyadh's military posture beyond previous indirect involvement."
+    "text": "Moldova has publicly warned that the Russia-Ukraine war is 'dangerously reaching' its territory following a spate of Russian airspace incursions, raising concern over potential spillover into a new country."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -83,6 +83,28 @@
         "lat": 51.67,
         "lng": 39.18,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russian strikes targeted and damaged Kyiv's Northern Bridge, disrupting traffic for a third consecutive day and killing at least six people in the capital.",
+        "method": "Missile/Surface",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Russia (unspecified)",
+        "description": "Ukrainian counter-strikes caused reported casualties inside Russian territory as part of ongoing cross-border operations.",
+        "method": "Drone/Air",
+        "lat": 51.5,
+        "lng": 35.0,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -106,6 +128,28 @@
         "method": "Ground/Armored",
         "lat": 12.78,
         "lng": 44.98,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh",
+        "description": "Houthi forces launched a missile or drone attack on an oil refinery in Riyadh, causing fires and raising fears of further oil price hikes.",
+        "method": "Missile/Surface",
+        "lat": 24.69,
+        "lng": 46.72,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Saudi Arabia",
+        "target_country": "Yemen",
+        "target_location": "Yemen (unspecified)",
+        "description": "Saudi Arabia launched counter-strikes on Houthi positions in Yemen in response to the Riyadh refinery attack.",
+        "method": "Air/Precision Strike",
+        "lat": 15.55,
+        "lng": 44.21,
         "source_tier": "unverified"
       }
     ]
@@ -146,6 +190,13 @@
         "wia": "est. dozens, incl. 10 children",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Russian strikes on Kyiv",
+        "kia": "6",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -184,6 +235,12 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera casualty tracker",
         "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Deaths in Gulf states from US-Israel strikes",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
       }
     ]
   },
@@ -194,6 +251,18 @@
         "speaker": "Dmitry Polyanskiy",
         "title": "Russia's envoy to the OSCE",
         "date": "2026-10-02"
+      },
+      {
+        "text": "Russia will use 'any means' necessary to defend Kaliningrad.",
+        "speaker": "Dmitry Polyanskiy",
+        "title": "Russia's envoy to OSCE",
+        "date": "2026-10-02"
+      },
+      {
+        "text": "The search for a new world order has only just begun.",
+        "speaker": "Valdai Discussion Club (paraphrased)",
+        "title": "Valdai 2026 forum",
+        "date": "2026-10-03"
       }
     ],
     "ukraine": [
@@ -208,6 +277,18 @@
         "speaker": "Ukraine Drone Chief (unnamed)",
         "title": "Head of Ukraine drone program",
         "date": "2026-10-02"
+      },
+      {
+        "text": "Ukraine will hit Russian refineries in response to Moscow's new doctrine of airstrikes; civilian infrastructure will not be targeted.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-10-03"
+      },
+      {
+        "text": "Russia is waging a disinformation campaign claiming Ukrainian women are being forcibly drafted, in an attempt to sow panic as the Kremlin's position weakens on the battlefield.",
+        "speaker": "Ukrainian government (paraphrased)",
+        "title": "Kyiv official statement",
+        "date": "2026-10-03"
       }
     ],
     "middle_east": [
@@ -222,6 +303,12 @@
         "speaker": "Benjamin Netanyahu",
         "title": "Prime Minister of Israel",
         "date": "2026-10-02"
+      },
+      {
+        "text": "The war is dangerously reaching Moldova following a spate of airspace incursions.",
+        "speaker": "Maia Sandu",
+        "title": "President of Moldova",
+        "date": "2026-10-03"
       }
     ]
   },
@@ -279,15 +366,76 @@
       "flag": "\ud83c\uddfa\ud83c\uddf8",
       "status": "Active materiel + troops",
       "description": "The US participated in strikes on Iran alongside Israel earlier in 2026, with Al Jazeera's casualty tracker recording thousands of deaths. War on the Rocks analysts warn that closed Eurasian airspace is increasingly threatening US military mobility and power projection."
+    },
+    {
+      "country": "India",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "status": "Supplying dual-use goods",
+      "description": "External Affairs Minister Jaishankar briefed a parliamentary panel on India's multifaceted engagement with Russia, covering trade, investment, and energy. India is set to send approximately 70,000 skilled workers to Russia this year. India continues to walk a strategic tightrope, maintaining ties with Moscow while managing Western relationships."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Elevated \u2014 exact figure unavailable",
     "wheat_futures": "Unchanged",
-    "notes": "No specific financial market data available in today's headlines; Saudi offensive preparations and continued Red Sea disruption by Houthis represent ongoing upside risk to Brent crude and shipping costs."
+    "notes": "Houthi strikes on a Riyadh oil refinery and intensifying Red Sea disruptions are driving concern about further oil price spikes, with reports warning of potential $7/gallon diesel prices in the United States."
   },
   "update_log": [
+    {
+      "time": "20:33 UTC",
+      "text": "Saudi Arabia prepares large-scale Yemen offensive targeting Houthi positions to secure Bab el-Mandeb Strait, per Reuters and multiple regional sources.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:33 UTC",
+      "text": "Houthis launch missile/drone strike on Riyadh oil refinery; Saudi Arabia retaliates with counter-strikes on Yemen.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:33 UTC",
+      "text": "Russian strikes kill at least 6 in Ukraine and damage Kyiv's Northern Bridge for the third consecutive day.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:33 UTC",
+      "text": "Ukraine's President Zelenskyy announces escalated strikes on Russian oil refineries in response to Moscow's new airstrike doctrine.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:33 UTC",
+      "text": "Moldova's president warns war is 'dangerously reaching' the country following Russian airspace incursions.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:33 UTC",
+      "text": "RFE/RL historian Margaret MacMillan warns of rising risk of wider global conflict as interconnected wars multiply.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "20:33 UTC",
+      "text": "Al Jazeera live tracker confirms ~3,468 dead in Iran, ~3,696 in Lebanon, and ~28 in Gulf states from US-Israel strikes (last updated 2026-06-10).",
+      "source_tier": "verified"
+    },
+    {
+      "time": "20:33 UTC",
+      "text": "South Korea's President Lee threatens further measures against Ukraine for revealing North Korean POW transfer to Seoul without authorization.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:33 UTC",
+      "text": "Russia accused of running AI-generated disinformation campaign falsely claiming Ukraine is forcibly drafting women.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:33 UTC",
+      "text": "Hezbollah and new Syrian government held secret meeting in Turkey to reduce tensions, per Reuters-cited sources.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:33 UTC",
+      "text": "Ethiopia: Government forces recapture airport in Tigray's capital as fighting continues in Amhara and Afar regions.",
+      "source_tier": "verified"
+    },
     {
       "time": "16:03 UTC",
       "text": "Al Jazeera casualty tracker confirms ~3,468 dead in Iran, ~3,696 in Lebanon, and ~28 in Gulf states from US-Israel strikes earlier in 2026.",
@@ -374,5 +522,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-10-04T16:03:39Z"
+  "last_updated": "2026-10-04T20:33:36Z"
 }
