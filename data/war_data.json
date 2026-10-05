@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "+0.3 from yesterday",
-    "level": "Elevated",
-    "rationale": "Russia struck a Kyiv bridge during German Chancellor Merz's visit, Houthis hit Saudi Aramco facilities in Riyadh prompting Saudi counter-strikes, and the Strait of Hormuz remains closed as the US deploys additional Patriot batteries to the Gulf amid unresolved Iran nuclear tensions."
+    "score": 8.2,
+    "delta": "No previous score available",
+    "level": "High",
+    "rationale": "Simultaneous crises across three theaters \u2014 Russia striking Kyiv during a German chancellor visit, Iran keeping Hormuz closed with active US-Israel casualty tolls exceeding 7,000, Houthi ballistic missile strikes on Saudi Aramco facilities, North Korea IRBM test threatening Guam, and US bombers withdrawn from RAF Fairford amid a suspected Iranian terror plot \u2014 combine to produce a multi-theater high-escalation environment."
   },
   "ticker_items": [
-    "Russia strikes Kyiv bridge as German Chancellor Merz visits Ukrainian capital.",
-    "Houthis claim missile/drone strike on Aramco facility in Riyadh; Saudis counter-strike Yemen.",
-    "Iran keeps Strait of Hormuz closed; US deploys extra Patriot batteries to Saudi Arabia, Qatar.",
-    "Ukraine faces reported $27B defense funding gap heading into winter.",
-    "South Korea warns Ukraine of 'further measures' over North Korean POW disclosure."
+    "Russian drone strikes Kyiv bridge during German Chancellor Merz's visit.",
+    "Iran keeps Strait of Hormuz closed, conditions unmet by US.",
+    "Houthis launch ballistic missiles and drones at Saudi Aramco in Riyadh.",
+    "North Korea IRBM test puts Guam and parts of Alaska in range.",
+    "US withdraws bombers from RAF Fairford after suspected Iranian terror plot."
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Saudi Arabia has been drawn into active exchange with Houthi forces, with Houthi ballistic missiles and drones striking Saudi Aramco facilities in Riyadh in retaliation for Saudi-backed Yemeni government strikes on Sanaa and Saada."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -50,6 +50,50 @@
         "lat": 48.46,
         "lng": 35.04,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russian drone struck a busy bridge over the Dnipro River in northern Kyiv while German Chancellor Friedrich Merz was visiting the Ukrainian capital.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv region",
+        "description": "Russia conducted overnight air strikes on the Kyiv region, killing at least two people including an Azerbaijani citizen and injuring dozens including 10 children.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kharkiv",
+        "description": "Russia conducted air strikes on Kharkiv as part of a broader overnight attack campaign against Ukrainian cities.",
+        "method": "Air/Drone",
+        "lat": 49.99,
+        "lng": 36.23,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Dnipro",
+        "description": "Russia conducted air strikes on Dnipro as part of a broader overnight attack campaign targeting Ukrainian urban centers.",
+        "method": "Air/Drone",
+        "lat": 48.46,
+        "lng": 35.04,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -74,6 +118,39 @@
         "lat": 15.35,
         "lng": 44.21,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh",
+        "description": "Houthis launched ballistic missiles and drone strikes against Saudi Aramco facilities in Riyadh in retaliation for Yemeni government strikes on Sanaa and Saada.",
+        "method": "Ballistic Missile",
+        "lat": 24.68,
+        "lng": 46.72,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Yemen Armed Forces (internationally recognized government)",
+        "target_country": "Yemen (Houthi-controlled)",
+        "target_location": "Sanaa",
+        "description": "Yemen's internationally recognized armed forces conducted strikes against Houthi vital targets in Sanaa as part of a declared major military operation.",
+        "method": "Air/Precision Strike",
+        "lat": 15.35,
+        "lng": 44.21,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Yemen Armed Forces (internationally recognized government)",
+        "target_country": "Yemen (Houthi-controlled)",
+        "target_location": "Saada",
+        "description": "Yemen's internationally recognized armed forces conducted strikes against Houthi targets in Saada governorate as part of the major declared operation.",
+        "method": "Air/Precision Strike",
+        "lat": 16.93,
+        "lng": 43.76,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -92,6 +169,27 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian overnight strikes on Kyiv region and Kharkiv",
+        "kia": "~2",
+        "wia": "est. dozens",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Houthi ballistic missile and drone strikes on Riyadh Aramco facilities",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Yemeni government strikes on Sanaa and Saada",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -100,6 +198,24 @@
         "figure": "~3,468 in Iran; ~3,696 in Lebanon; ~28 in Gulf states",
         "claimed_by": "Al Jazeera live tracker",
         "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Iranian deaths from US-Israel strikes",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Lebanese deaths from US-Israel strikes",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Gulf states deaths from US-Israel strikes",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10 (last modified)"
       }
     ]
   },
@@ -110,9 +226,22 @@
         "speaker": "Mark Rutte",
         "title": "NATO Secretary General",
         "date": "2026-10-04"
+      },
+      {
+        "text": "NATO Secretary General Mark Rutte has urged member states to blame incidents on Russia even without conclusive evidence.",
+        "speaker": "Mark Rutte (paraphrased by RT)",
+        "title": "NATO Secretary General",
+        "date": "2026-10-04"
       }
     ],
-    "ukraine": [],
+    "ukraine": [
+      {
+        "text": "Germany won't be intimidated.",
+        "speaker": "Friedrich Merz",
+        "title": "German Chancellor",
+        "date": "2026-10-04"
+      }
+    ],
     "middle_east": [
       {
         "text": "No military solution exists to Iran's conflict with the United States as negotiations reach an apparent impasse.",
@@ -124,6 +253,12 @@
         "text": "Reopening the Strait of Hormuz has been Iran's main goal, while the US continues to focus on nuclear talks.",
         "speaker": "Iranian government spokesperson",
         "title": "Tehran official",
+        "date": "2026-10-04"
+      },
+      {
+        "text": "Reopening the Strait of Hormuz has been Tehran's main goal, while the US continues to focus on nuclear talks.",
+        "speaker": "Iranian government spokesperson (paraphrased by Al Jazeera)",
+        "title": "Iranian government",
         "date": "2026-10-04"
       }
     ]
@@ -170,15 +305,102 @@
       "flag": "\ud83c\uddef\ud83c\uddf5",
       "status": "Basing + logistics",
       "description": "Japan continues to align with US strategic interests in the Asia-Pacific, advancing bilateral security arrangements with the Philippines. Analysts note Japan's relations with Russia remain frozen, shaped heavily by its US alliance obligations. Energy ties with Russia continue to act as a soft brake on full escalation of bilateral tensions."
+    },
+    {
+      "country": "India",
+      "flag": "\ud83c\uddee\ud83c\uddf3",
+      "status": "Mediator + arms supplier",
+      "description": "India's External Affairs Minister signaled a shift beyond mere advocacy toward active engagement in Russia-Ukraine war resolution, calling on middle and emerging powers to cooperate on connectivity, supply chains, and defense. India watches the US-China thaw cautiously given implications for its strategic positioning."
+    },
+    {
+      "country": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "status": "Active materiel + troops",
+      "description": "Hundreds rallied in Paris against continued French and European Ukraine aid, led by former MEP Florian Philippot, reflecting internal political pressure on France's Ukraine support posture. France remains formally committed to Ukraine aid despite domestic anti-war protests."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Rising",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Houthi strikes on Aramco facilities in Riyadh and the continued Strait of Hormuz closure are driving upward pressure on global oil prices, with media reporting world oil prices intensifying amid the Saudi-Yemen conflict escalation."
+    "notes": "The Strait of Hormuz remains closed by Iranian order, posing significant upward pressure on global oil prices, while Houthi strikes on Saudi Aramco facilities in Riyadh introduce additional supply-side risk to energy markets."
   },
   "update_log": [
+    {
+      "time": "23:24 UTC",
+      "text": "Update run compiled: multi-theater escalation across Ukraine, Iran/Hormuz, Yemen/Saudi Arabia, and North Korea missile test.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Houthis claim ballistic missile and drone strikes on Saudi Aramco facilities in Riyadh in retaliation for Yemeni government strikes on Sanaa.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Yemen's internationally recognized government declares major military operation against Houthis, strikes Sanaa and Saada.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Russian drone strikes Kyiv bridge over Dnipro River during German Chancellor Merz's visit; Russia steps up attacks across Ukraine.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "German Chancellor Merz announces \u20ac1 billion military aid and \u20ac350 million energy repair package for Ukraine in Kyiv visit.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Al Jazeera reports Iran says Hormuz will remain closed until US meets unspecified conditions; nuclear talks continue separately.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "US withdraws bombers from RAF Fairford, UK, after suspected terror plot linked to possible Iranian activity; sixth arrested man released on bail.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "North Korea conducts IRBM test placing Guam and parts of Alaska in range, rebuffing Trump diplomatic overtures.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Trump war council meets at Camp David amid Iran crisis; US offers aid to Russia for pneumonic plague outbreak in Siberia.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "RFE/RL verifies Russian overnight strikes kill two (including Azerbaijani citizen) and wound dozens including 10 children in Kyiv region and Kharkiv.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "South Korea threatens 'further measures' against Ukraine over unauthorized disclosure of North Korean POW transfer to Seoul.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Al Jazeera casualty tracker records preliminary US-Israel strike totals: ~3,468 dead in Iran, ~3,696 in Lebanon, ~28 in Gulf states (data last modified June 2026).",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Bosnians vote in elections pitting pro-Western candidates against nationalist forces in multi-layered political system.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "US Arctic forces deploy HIMARS, F-35s, and F-16s across western Alaska in Tundra Merlin rapid readiness exercise.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "ISW assessment (late September): Ukrainian forces have successfully contested Russian strategic and operational initiative since late 2025; Russian MoD greatly exaggerating advances.",
+      "source_tier": "unverified"
+    },
     {
       "time": "12:50 UTC",
       "text": "Russia struck a Kyiv bridge during German Chancellor Merz's visit; Merz pledged continued support amid air raid sirens.",
@@ -220,5 +442,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-10-05T12:50:37Z"
+  "last_updated": "2026-10-05T23:24:34Z"
 }
