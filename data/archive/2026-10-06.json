@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.4,
-    "delta": "+0.2 from yesterday",
+    "score": 8.2,
+    "delta": "No previous score available",
     "level": "High",
-    "rationale": "Russia struck Kyiv during the German Chancellor's visit, Putin warned NATO is near a 'point of no return,' Estonia announced active-defense strike capability targeting St. Petersburg, and ongoing US-Iran war with thinning global oil stockpiles sustains multi-theater pressure."
+    "rationale": "Multiple simultaneous high-intensity flashpoints \u2014 active US-Iran war with confirmed mass casualties, Russia drone strike on Kyiv bridge during German chancellor's visit, 'Muslim NATO' activation over Houthi attacks, Iran-linked bomber threat forcing US aircraft withdrawal from RAF Fairford, and German intelligence warning of imminent violent conflict with Russia \u2014 collectively push the global threat environment to a High level."
   },
   "ticker_items": [
-    "Russia strikes Kyiv as German Chancellor Merz arrives on solidarity visit.",
-    "Putin warns NATO one step from direct war in Valdai speech.",
-    "Estonia eyes weapons able to reach St. Petersburg under new 'active defense' plan.",
-    "Ukraine claims it has destroyed over half of Russia's oil refining capacity.",
-    "Saudi Aramco CEO warns global oil stockpile replenishment may take two years."
+    "Russia drone hits Kyiv's Northern Bridge as German Chancellor Merz visits.",
+    "US B-1 bombers withdrawn from RAF Fairford amid Iran-linked terror threat.",
+    "'Muslim NATO' activates collective defense as Houthis attack Saudi Arabia.",
+    "Saudi-led coalition recaptures Bab el-Mandeb Strait areas from Houthis.",
+    "Germany's spy chief warns of imminent violent conflict with Russia via hybrid war."
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Saudi Arabia, Turkey, and Pakistan have activated collective-defense commitments under the 'Muslim NATO' framework in response to escalating Houthi attacks on Saudi territory, marking a significant new multilateral military alignment in the Yemen conflict."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -36,6 +36,39 @@
         "target_location": "Multiple Russian oil refineries",
         "description": "Ukraine claims cumulative drone and missile strikes have now disabled more than half of Russia's oil refining capacity.",
         "method": "Drone",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv \u2014 Northern Bridge",
+        "description": "A Russian drone struck Kyiv's key Northern Bridge causing a fiery explosion during a visit by German Chancellor Friedrich Merz.",
+        "method": "Air/Drone",
+        "lat": 50.51,
+        "lng": 30.48,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia conducted intensive airstrikes on Kyiv as part of a broader wave of attacks timed to coincide with the German chancellor's state visit.",
+        "method": "Missile/Surface",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Multiple Russian oil refinery sites",
+        "description": "Ukraine claims long-range missile strikes have now neutralized more than half of Russia's oil refining capacity, significantly hampering Russian fuel supply to frontline forces.",
+        "method": "Missile/Surface",
         "lat": 55.75,
         "lng": 37.62,
         "source_tier": "unverified"
@@ -74,6 +107,17 @@
         "lat": 31.5,
         "lng": 34.47,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Saudi-led coalition",
+        "target_country": "Yemen",
+        "target_location": "Houthi positions \u2014 Red Sea coast / Bab el-Mandeb",
+        "description": "Saudi-led coalition launched an intensified air campaign enabling Yemeni government forces to recapture key positions around the Bab el-Mandeb Strait from Houthi rebels.",
+        "method": "Air/Precision Strike",
+        "lat": 12.58,
+        "lng": 43.47,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -99,6 +143,20 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Russia strikes Kyiv region, Kharkiv, Dnipro (recent period)",
+        "kia": "~6+",
+        "wia": "dozens, including 10 children",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel attacks on Iran \u2014 cumulative tracker",
+        "kia": "~3,468 (Iran) + ~3,696 (Lebanon) + ~28 (Gulf states)",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -119,6 +177,30 @@
         "figure": "~3,696",
         "claimed_by": "Al Jazeera live tracker",
         "as_of": "2026-06-10 (last tracker update)"
+      },
+      {
+        "claim": "Deaths in Iran from US-Israel attacks",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Lebanon from US-Israel attacks",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Gulf states from US-Israel attacks",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera casualty tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Ukraine long-range strikes vs. Russian oil refining capacity",
+        "figure": ">50% of capacity neutralized",
+        "claimed_by": "Ukraine government",
+        "as_of": "2026-10-05"
       }
     ]
   },
@@ -129,6 +211,12 @@
         "speaker": "Vladimir Putin",
         "title": "President of Russia",
         "date": "2026-10-01"
+      },
+      {
+        "text": "The UK orchestrated the Bucha false flag to derail the 2022 Russia-Ukraine peace talks.",
+        "speaker": "Russian MFA / official statement",
+        "title": "Russian Government",
+        "date": "2026-09-17"
       }
     ],
     "ukraine": [
@@ -137,6 +225,12 @@
         "speaker": "Ukraine Government (official claim)",
         "title": "Ukrainian authorities",
         "date": "2026-10-05"
+      },
+      {
+        "text": "Ukrainian forces have successfully contested both the strategic and the operational initiative since late 2025.",
+        "speaker": "ISW assessment citing Ukrainian operations",
+        "title": "Institute for the Study of War",
+        "date": "2026-09-19"
       }
     ],
     "middle_east": [
@@ -150,6 +244,24 @@
         "text": "Oil flows through the US-supervised route in the Strait of Hormuz are 'negligible'.",
         "speaker": "IRGC Commander (unnamed)",
         "title": "Islamic Revolutionary Guard Corps",
+        "date": "2026-10-05"
+      },
+      {
+        "text": "Iran must make a deal or face destruction.",
+        "speaker": "Donald Trump",
+        "title": "U.S. President",
+        "date": "2026-09-2026 (UN General Assembly period)"
+      },
+      {
+        "text": "It's peacetime and people have smart TVs at home.",
+        "speaker": "Brigadier General Gholamreza Jalali",
+        "title": "Head, Iran Passive Defense Organization",
+        "date": "2026-10-05"
+      },
+      {
+        "text": "The system is already straining.",
+        "speaker": "Amin Nasser",
+        "title": "CEO, Saudi Aramco",
         "date": "2026-10-05"
       }
     ]
@@ -202,15 +314,104 @@
       "flag": "\ud83c\uddee\ud83c\uddf7",
       "status": "Active materiel + troops",
       "description": "Iran continues to face severe challenges rebuilding its missile and drone production capacity following significant Israeli and US strikes in 2025 and early 2026, per War on the Rocks analysis. The US-Iran war is now seven months old with no clear political end state. Iran-backed Houthis continue striking Saudi and Red Sea targets."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Mediator + arms supplier",
+      "description": "Turkey activated collective-defense commitments under the 'Muslim NATO' framework alongside Saudi Arabia and Pakistan. Turkey also hosted secret talks between Hezbollah representatives and Syrian government officials aimed at reducing tensions. Ankara continues its dual role as a security partner and regional diplomatic actor."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Active materiel + troops",
+      "description": "Pakistan activated collective-defense commitments under the 'Muslim NATO' framework in response to Houthi attacks on Saudi Arabia, marking a notable expansion of Pakistani military commitment to the Gulf security architecture. The scale and nature of Pakistan's contribution beyond activation remains unspecified in current reporting."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "China participated in Russia-hosted consultations on Afghanistan alongside India, Iran, Pakistan, and a Taliban delegation. Analysis notes China is closely watching US Air Force posture as the USAF's Air University reportedly shuttered its China Aerospace Studies program. US-China interdependence and its limits remain a key geopolitical theme amid widening global conflict."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "The UK's RAF Fairford base was the site of a US bomber withdrawal following an Iran-linked terror threat, with Downing Street insisting the base remains safe. The Conservative opposition announced plans for a \u00a310 billion 'Britannia Shield' missile defense system modeled on concepts similar to Iron Dome. Russia has accused the UK of orchestrating the 2022 Bucha massacre as part of an influence operation."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "~$100/bbl",
+    "brent_crude": "Elevated \u2014 exact price unavailable",
     "wheat_futures": "Unchanged",
-    "notes": "Brent crude hovers around $100 per barrel despite reports of Middle East oil exports surpassing pre-war levels, as Houthi Red Sea disruptions and Saudi Aramco's warning of 'scarily thin' global stockpiles requiring up to two years to replenish sustain upward price pressure."
+    "notes": "Saudi Aramco's CEO warned global oil stockpiles are 'scarily thin' amid Middle East chaos, and after G7 nations agreed to release strategic reserves; Trump publicly blamed Ukraine's strikes on Russian refineries for rising US fuel prices, while the Graham Act signed 18 September adds major new sanction leverage over Russian and Iranian energy revenues."
   },
   "update_log": [
+    {
+      "time": "21:56 UTC",
+      "text": "Update run compiled: 2026-10-06T21:56:50Z. All headline data ingested for this period.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "'Muslim NATO' (Saudi Arabia, Turkey, Pakistan) activates collective-defense commitments in response to Houthi attacks on Saudi Arabia.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Saudi-led coalition launches intensified air campaign; Yemeni government forces recapture key positions around Bab el-Mandeb Strait from Houthis.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Russia strikes Kyiv's Northern Bridge with drone during German Chancellor Merz's state visit, causing fiery explosion.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "US President Trump confirms Iran-linked threat prompted withdrawal of B-1 bombers from RAF Fairford, UK.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Germany's foreign intelligence chief Martin Jaeger warns Germany risks being drawn into violent conflict with Russia due to escalating hybrid attacks.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Ukraine claims long-range missile strikes have neutralized over 50% of Russia's oil refining capacity.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Germany's Chancellor Merz pledges \u20ac1 billion in military aid to Ukraine during Kyiv visit.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "North Korea intermediate-range missile test puts Guam and parts of Alaska within range, per expert assessment.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Al Jazeera casualty tracker reports ~3,468 dead in Iran and ~3,696 dead in Lebanon from cumulative US-Israel attacks.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "War on the Rocks analyst assessment: Iran faces severe challenges rebuilding missile and drone production capacity after 2025-2026 strikes.",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "Unknown",
+      "text": "Trump signs Lindsey O. Graham Sanctioning Russia and Iran Act on 18 September, creating major new economic leverage over both states.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "RFE/RL: Europe mulls contingency plans amid intelligence reports Russia may be planning an attack on NATO.",
+      "source_tier": "verified"
+    },
     {
       "time": "12:18 UTC",
       "text": "Estonia confirms 'active defense' strategy with weapons capable of striking St. Petersburg, per Financial Times report cited by RT.",
@@ -272,5 +473,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-10-06T12:18:57Z"
+  "last_updated": "2026-10-06T21:56:50Z"
 }
