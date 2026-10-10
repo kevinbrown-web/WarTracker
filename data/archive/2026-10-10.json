@@ -1,0 +1,294 @@
+{
+  "escalation": {
+    "score": 8.2,
+    "delta": "+0.3 from yesterday",
+    "level": "High",
+    "rationale": "Houthi missile strikes killed three at Riyadh's King Khalid International Airport and forced suspension of 124+ flights, while Russia struck Kramatorsk buses killing at least 33 and hit Ukrainian infrastructure ahead of winter, and the US-Iran war context continues with Pentagon preparing possible Iran strikes."
+  },
+  "ticker_items": [
+    "Houthi attack kills 3 at Riyadh airport; 124+ flights suspended.",
+    "Russia strikes Kramatorsk buses: at least 33 reported dead.",
+    "US-Ukraine talks open in Miami amid Russian air assault on infrastructure.",
+    "South Korea recalls ambassador to Ukraine over North Korean POW disclosure row.",
+    "Ukrainian drones strike Russian Yandex data centres, disrupting services."
+  ],
+  "new_entrant": {
+    "active": true,
+    "text": "Saudi Arabia has entered active direct conflict escalation as Houthi forces struck Riyadh's King Khalid International Airport, killing three and prompting Saudi retaliatory airstrikes on Houthi targets, marking a significant geographic expansion of the Yemen-Iran war."
+  },
+  "strikes_today": {
+    "eastern_europe": [
+      {
+        "time_utc": "Morning",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Zaporizhzhia region",
+        "description": "Russian strikes hit residential areas in Zaporizhzhia region, killing one man and wounding five including a child.",
+        "method": "Missile/Surface",
+        "lat": 47.84,
+        "lng": 35.14,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kramatorsk",
+        "description": "Russian strike on two civilian buses in Kramatorsk killed at least 33 people according to Ukrainian officials.",
+        "method": "Missile/Surface",
+        "lat": 48.73,
+        "lng": 37.58,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Port of Odessa (Black Sea)",
+        "description": "Russia's Defense Ministry claimed a strike on a dry cargo ship delivering military cargo to the port of Odessa.",
+        "method": "Anti-Ship Missile",
+        "lat": 46.48,
+        "lng": 30.72,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Sumy region, Kiyanitsa",
+        "description": "Russia's Defense Ministry claimed capture of the village of Kiyanitsa in Ukraine's Sumy region; claim not independently verified.",
+        "method": "Ground/Armored",
+        "lat": 51.22,
+        "lng": 33.98,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Yandex data centres (Russia)",
+        "description": "Ukrainian drone strikes hit Russian tech firm Yandex data centres, causing customer service disruptions acknowledged by Yandex.",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "verified"
+      }
+    ],
+    "middle_east": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Yemen)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh, King Khalid International Airport",
+        "description": "Houthi missile strikes on Riyadh's King Khalid International Airport killed three Saudi citizens including a pilot and forced suspension of over 124 flights.",
+        "method": "Ballistic Missile",
+        "lat": 24.96,
+        "lng": 46.7,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Saudi Arabia",
+        "target_country": "Yemen",
+        "target_location": "Houthi-controlled areas, Yemen",
+        "description": "Saudi Arabia launched fresh airstrikes against Houthi targets in Yemen following the Riyadh airport attack.",
+        "method": "Air/Precision Strike",
+        "lat": 15.55,
+        "lng": 48.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Palestinian Territories",
+        "target_location": "Gaza City, Al-Rimal neighbourhood",
+        "description": "Israeli airstrike destroyed a residential building in the Al-Rimal neighbourhood of Gaza City, one year into a reported ceasefire.",
+        "method": "Air/Precision Strike",
+        "lat": 31.52,
+        "lng": 34.44,
+        "source_tier": "unverified"
+      }
+    ]
+  },
+  "casualties": {
+    "today": [
+      {
+        "incident": "Kramatorsk bus strikes, Ukraine",
+        "kia": "~33",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Zaporizhzhia residential strikes",
+        "kia": "1",
+        "wia": "5",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Riyadh airport Houthi attack",
+        "kia": "3",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel attacks on Iran (cumulative tracker)",
+        "kia": "est. 3,468 (Iran) + 3,696 (Lebanon) + 28 (Gulf states)",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      }
+    ],
+    "claimed_totals": [
+      {
+        "claim": "Iranian civilian and military deaths from US-Israel strikes",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Lebanese deaths from US-Israel strikes on Iran/Lebanon",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Gulf state deaths from US-Israel strikes",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10 (last modified)"
+      }
+    ]
+  },
+  "quotes": {
+    "russia": [
+      {
+        "text": "NATO's upcoming nuclear drills in Italy are pre-planned and no reason for Russia to miscalculate.",
+        "speaker": "Nassima Barrows",
+        "title": "NATO Nuclear Policy Director",
+        "date": "2026-10-09"
+      }
+    ],
+    "ukraine": [
+      {
+        "text": "Russia's intensifying attacks on Ukraine speak louder than its claims to want peace.",
+        "speaker": "Sarah MacIntosh",
+        "title": "UK Permanent Representative to the UN",
+        "date": "2026-10-09"
+      }
+    ],
+    "middle_east": [
+      {
+        "text": "The war with Iran will be over soon, one way or another.",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-10-09"
+      },
+      {
+        "text": "Russia's war against Ukraine is at a stalemate but could escalate into a broader regional conflict if the deadlock pushes either side toward increasingly dangerous actions.",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
+        "date": "2026-10-09"
+      }
+    ]
+  },
+  "observers": [
+    {
+      "country": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "status": "Active materiel + troops",
+      "description": "US Secretary of State Rubio warned the Ukraine stalemate could broaden into wider conflict while speaking in Lisbon. US-Ukraine talks opened in Miami on October 9 to discuss proposals for ending Russia's war and protecting Ukrainian infrastructure before winter. The Pentagon is simultaneously preparing possible military strikes on Iran as Trump signals imminent resolution of the Iran war."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "UK Ambassador Sarah MacIntosh delivered a sharp condemnation of Russia at the UN Security Council. The UK Conservative opposition proposed a \u00a310 billion 'Britannia Shield' air and missile defence programme, signalling cross-party pressure to expand national defence posture. UK continues active support for Ukraine diplomatically and materially."
+    },
+    {
+      "country": "South Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf7",
+      "status": "Abstaining",
+      "description": "South Korea recalled its ambassador to Ukraine following Ukraine's public disclosure of a North Korean POW transfer to Seoul, which Seoul said violated a non-disclosure agreement. President Lee Jae Myung had previously threatened punitive measures if Ukraine refused to apologise. The diplomatic row risks complicating South Korean-Ukrainian intelligence and materiel cooperation."
+    },
+    {
+      "country": "Iran",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
+      "status": "Active materiel + troops",
+      "description": "Iran remains under active US-Israeli military pressure with cumulative death tolls tracked at over 3,468 in Iran since strikes began. Trump signalled the Iran war may end soon either diplomatically or through further military action. Iran-backed Houthis significantly escalated attacks on Saudi Arabia, striking Riyadh's main international airport."
+    },
+    {
+      "country": "Saudi Arabia",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "status": "Active materiel + troops",
+      "description": "Saudi Arabia confirmed three citizens killed in Houthi missile strikes on Riyadh's King Khalid International Airport, including an airline pilot. Saudi forces launched retaliatory airstrikes on Houthi targets. Yemeni government forces claimed control of the strategic Bab el-Mandeb Strait, a major development in the Yemen theatre."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Supplying dual-use goods",
+      "description": "North Korea's involvement in the Ukraine conflict remains in diplomatic focus following South Korea's ambassador recall over the POW disclosure dispute. North Korean troops and materiel support to Russia continues per prior reporting, though no new operational updates appeared in today's headlines."
+    }
+  ],
+  "financial": {
+    "usd_rub": "Unchanged",
+    "brent_crude": "Unchanged",
+    "wheat_futures": "Unchanged",
+    "notes": "Houthi strikes on Riyadh's King Khalid International Airport suspended 124+ flights, sustaining oil price and air travel volatility noted in financial reporting, though specific price figures were not published in today's available headlines."
+  },
+  "update_log": [
+    {
+      "time": "20:47 UTC",
+      "text": "US-Ukraine talks underway in Miami to discuss ceasefire proposals and winter infrastructure protection amid ongoing Russian air assault.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "Saudi Arabia confirms three killed including pilot in Houthi missile attack on Riyadh's King Khalid International Airport; 124+ flights suspended.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Ukrainian officials report at least 33 killed in Russian missile strike on two civilian buses in Kramatorsk.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "South Korea formally recalls ambassador to Ukraine over disputed North Korean POW transfer disclosure.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Yandex confirms service disruptions after Ukrainian drone strikes on Russian data centres.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Russia's Defense Ministry claims capture of Kiyanitsa village in Ukraine's Sumy region; unverified.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "Russian strikes on Zaporizhzhia residential areas kill one, wound five including a child.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Russia's Defense Ministry claims strike on dry cargo ship delivering military cargo to Odessa port.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "07:00 UTC",
+      "text": "Trump states the Iran war will end soon 'one way or another' as Pentagon prepares possible strike options.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "UK Ambassador MacIntosh tells UN Security Council Russia's attacks on Ukraine speak louder than its peace claims.",
+      "source_tier": "unverified"
+    }
+  ],
+  "last_updated": "2026-10-10T20:47:25Z"
+}
