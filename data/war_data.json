@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.4,
-    "delta": "+0.2 from yesterday",
-    "rationale": "Score remains in High range as Russian guided bombs kill 11 civilians including 3 children in Zaporizhzhia, Trump-Putin diesel deal draws bipartisan condemnation and fuels Russia's war economy, Houthi missile strikes kill 3 at Riyadh's King Khalid International Airport marking a significant escalation in the Yemen-Saudi front, and Rubio warns the Ukraine stalemate risks widening into broader regional conflict.",
-    "level": "High"
+    "score": 8.2,
+    "delta": "No previous score available",
+    "level": "High",
+    "rationale": "Simultaneous active conflicts across Ukraine, Yemen-Saudi Arabia, and the ongoing US-Israel-Iran war\u2014combined with Trump's Russian diesel deal undermining sanctions, Houthi missile strikes on Riyadh's international airport, Russian strikes killing civilians including children in Zaporizhzhia, and diplomatic fractures (ICC sanctions, South Korea-Ukraine row)\u2014push the global conflict environment firmly into High territory."
   },
   "ticker_items": [
-    "Russian guided bombs kill 11 in Zaporizhzhia, including 3 children.",
-    "Trump-Putin diesel deal draws bipartisan US criticism; Kyiv calls it a 'gift' to Kremlin.",
-    "Houthi missiles kill 3 at Riyadh airport; 124+ flights suspended.",
-    "US-Ukraine-EU talks in Miami described as 'constructive' by envoy Witkoff.",
-    "South Korea recalls ambassador to Ukraine over North Korean POW disclosure row."
+    "Houthi missile strikes Riyadh airport terminal; multiple wounded, evacuations ordered.",
+    "Russian strikes kill 11 in Zaporizhzhia, including 3 children.",
+    "Trump-Putin diesel deal sparks bipartisan backlash; Zelensky blasts agreement.",
+    "Putin relayed Iran war proposal to Trump, Kremlin confirms.",
+    "US imposes new ICC sanctions hours after Nobel Peace Prize awarded to former ICC judge."
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "South Korea has recalled its ambassador to Ukraine, marking a significant diplomatic rupture after Ukraine publicly disclosed a secret North Korean prisoner transfer to Seoul."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -39,6 +39,17 @@
         "lat": 49.0,
         "lng": 32.0,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Morning",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Zaporizhzhia",
+        "description": "Russian air strikes on Zaporizhzhia killed at least 11 people including three children, according to regional authorities.",
+        "method": "Air/Precision Strike",
+        "lat": 47.84,
+        "lng": 35.14,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -74,6 +85,39 @@
         "lat": 33.07,
         "lng": 35.45,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthi rebels",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh",
+        "description": "A missile struck the passenger terminal at King Khalid International Airport in Riyadh, wounding multiple people and triggering evacuations; the airport has been targeted multiple times this week.",
+        "method": "Missile/Surface",
+        "lat": 24.96,
+        "lng": 46.7,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthi rebels",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh",
+        "description": "Repeated Houthi attacks on King Khalid International Airport continued amid intensified fighting between Yemen-based rebels and the Saudi-backed coalition.",
+        "method": "Missile/Surface",
+        "lat": 24.96,
+        "lng": 46.7,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown (drone)",
+        "target_country": "Sudan",
+        "target_location": "Unknown",
+        "description": "A drone strike in Sudan killed approximately 40 people including children, according to a rights group.",
+        "method": "Air/Drone",
+        "lat": 15.55,
+        "lng": 32.53,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -92,6 +136,34 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Russian strikes on Zaporizhzhia",
+        "kia": "11",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Houthi missile strike, Riyadh airport",
+        "kia": "0 confirmed",
+        "wia": "Multiple",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Drone strike in Sudan",
+        "kia": "~40",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian strikes kills 15 (Zelensky reference)",
+        "kia": "15",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -112,11 +184,42 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera casualty tracker",
         "as_of": "2026-06-10 (last tracker update)"
+      },
+      {
+        "claim": "Deaths in Iran from US-Israel attacks",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Deaths in Lebanon from US-Israel attacks",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Deaths in Gulf states from US-Israel attacks",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10 (last modified)"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Putin relayed an Iran war proposal to Trump during their phone call.",
+        "speaker": "Kremlin spokesperson",
+        "title": "Kremlin",
+        "date": "2026-10-10"
+      },
+      {
+        "text": "Trump lifted the Russian fuel ban after Ukraine's Zelensky ignored his requests to stop strikes on refineries in Russia.",
+        "speaker": "RT/Axios (attributed)",
+        "title": "Reported",
+        "date": "2026-10-10"
+      }
+    ],
     "ukraine": [
       {
         "text": "The diesel deal plays into Russia's hands \u2014 allowing it to kill more, wage war for longer.",
@@ -129,6 +232,12 @@
         "speaker": "Ukrainian Government",
         "title": "Official Ukrainian response",
         "date": "2026-10-09"
+      },
+      {
+        "text": "Zelensky blasted the diesel deal struck between Trump and Putin following Russian strikes killing 15.",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President of Ukraine",
+        "date": "2026-10-10"
       }
     ],
     "middle_east": [
@@ -136,6 +245,18 @@
         "text": "Propping up Putin's war economy is morally wrong as he uses that money to bomb cities.",
         "speaker": "Don Bacon",
         "title": "Representative (R-NE), U.S. Congress",
+        "date": "2026-10-10"
+      },
+      {
+        "text": "Threats to Western civilisation today are every bit as real as they were on the dramatic stage of antiquity.",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
+        "date": "2026-10-10"
+      },
+      {
+        "text": "It's not good. I'm not happy.",
+        "speaker": "Donald Trump",
+        "title": "US President",
         "date": "2026-10-10"
       }
     ]
@@ -194,15 +315,77 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Supplying dual-use goods",
       "description": "North Korea remains a background actor following the revelation of two North Korean POWs captured by Ukraine and transferred to South Korea. The disclosure sparked the diplomatic row between Kyiv and Seoul. North Korean troop and materiel contributions to Russia's war effort continue to be reported in the broader conflict context."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Basing + logistics",
+      "description": "The Bundeswehr is conducting military exercises under Operations Plan Germany, including 'Red Storm Charlie,' as NATO prepares for collective defense scenarios amid intelligence warnings about potential Russian aggression against the alliance."
+    },
+    {
+      "country": "Iran",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
+      "status": "Active materiel + troops",
+      "description": "Iran remains engaged in ongoing conflict with the US and Israel, with Al Jazeera's live tracker recording approximately 3,468 Iranian deaths from US-Israel attacks since March 2026. Putin reportedly relayed an Iran-war-related proposal to Trump. Rubio's civilizational rhetoric drew Iranian pushback."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated \u2014 sharply higher",
+    "brent_crude": "Elevated (no specific price in headlines)",
     "wheat_futures": "Unchanged",
-    "notes": "Oil prices spiked sharply amid the ongoing Iran war crisis and Houthi attacks on Riyadh airport, with Trump's pledge to halt US Iran airstrikes before midterms failing to calm markets; the Trump-Putin diesel deal adds further complexity to global energy supply calculations."
+    "notes": "Trump's deal to purchase Russian diesel amid surging US fuel prices has drawn bipartisan condemnation, with at least 16 US trucking companies filing for bankruptcy in under a month due to skyrocketing diesel costs; the deal is seen as politically motivated ahead of midterm elections."
   },
   "update_log": [
+    {
+      "time": "16:53 UTC",
+      "text": "Missile strikes Riyadh airport passenger terminal for the third time this week; multiple wounded, evacuations underway.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Morning",
+      "text": "Russian strikes kill 11 including 3 children in Zaporizhzhia, Ukraine.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Trump-Putin diesel deal confirmed; Zelensky publicly blasts agreement following Russian strikes killing 15.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Kremlin confirms Putin relayed Iran war proposal to Trump during phone call.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "US imposes new sanctions on ICC hours after Nobel Peace Prize awarded to former ICC judge Navi Pillay.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "US-Ukraine-EU Miami talks described as productive by envoy Witkoff ahead of next Russia engagement.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "South Korea recalls ambassador to Kyiv over North Korean POW disclosure dispute.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Drone strike kills approximately 40 including children in Sudan, rights group reports.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Al Jazeera reports Yemen may have returned to full-scale war as Houthi-Saudi coalition fighting intensifies.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "Unknown",
+      "text": "Europe mulling contingency plans amid intelligence warnings of possible Russian attack on NATO, per RFE/RL.",
+      "source_tier": "verified"
+    },
     {
       "time": "11:42 UTC",
       "text": "Update run compiled: Russian strikes on Zaporizhzhia kill 11 including 3 children; Houthi airport attack kills 3 in Riyadh; Trump-Putin diesel deal draws widespread condemnation.",
@@ -249,5 +432,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-10-11T11:42:05Z"
+  "last_updated": "2026-10-11T16:53:01Z"
 }
