@@ -3,18 +3,18 @@
     "score": 8.2,
     "delta": "No previous score available",
     "level": "High",
-    "rationale": "Simultaneous active conflicts across Ukraine, Yemen-Saudi Arabia, and the ongoing US-Israel-Iran war\u2014combined with Trump's Russian diesel deal undermining sanctions, Houthi missile strikes on Riyadh's international airport, Russian strikes killing civilians including children in Zaporizhzhia, and diplomatic fractures (ICC sanctions, South Korea-Ukraine row)\u2014push the global conflict environment firmly into High territory."
+    "rationale": "Multiple simultaneous high-severity events converge: Houthi missile strikes kill 12+ at Riyadh's King Khalid International Airport prompting Trump to weigh direct US military intervention; confirmed US-Israel strikes on Iran have killed 3,468+ with active casualty tracking ongoing; Trump's Russian diesel deal and demand for Zelenskyy's removal signal severe US-Ukraine political rupture; Russian strikes kill 11 including children in Zaporizhzhia; and South Korea recalls ambassador to Ukraine over North Korean POW dispute, fracturing a key coalition partner relationship."
   },
   "ticker_items": [
-    "Houthi missile strikes Riyadh airport terminal; multiple wounded, evacuations ordered.",
-    "Russian strikes kill 11 in Zaporizhzhia, including 3 children.",
-    "Trump-Putin diesel deal sparks bipartisan backlash; Zelensky blasts agreement.",
-    "Putin relayed Iran war proposal to Trump, Kremlin confirms.",
-    "US imposes new ICC sanctions hours after Nobel Peace Prize awarded to former ICC judge."
+    "Houthis strike Riyadh airport THREE times; 12 dead, 300+ wounded.",
+    "Trump weighs US military action against Houthis after Saudi attacks.",
+    "Trump calls on Ukraine to replace Zelenskyy; blames him for diesel prices.",
+    "Russian strikes kill 11 including 3 children in Zaporizhzhia.",
+    "Zelenskyy welcomes US-Russia energy ceasefire announcement."
   ],
   "new_entrant": {
     "active": true,
-    "text": "South Korea has recalled its ambassador to Ukraine, marking a significant diplomatic rupture after Ukraine publicly disclosed a secret North Korean prisoner transfer to Seoul."
+    "text": "The United States is actively weighing direct military involvement against Houthi forces in Yemen following repeated Houthi missile strikes on Riyadh's King Khalid International Airport on 2026-10-10."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -47,6 +47,17 @@
         "target_location": "Zaporizhzhia",
         "description": "Russian air strikes on Zaporizhzhia killed at least 11 people including three children, according to regional authorities.",
         "method": "Air/Precision Strike",
+        "lat": 47.84,
+        "lng": 35.14,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Morning",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Zaporizhzhia",
+        "description": "Russian strikes on Zaporizhzhia killed at least 11 people including three children, according to regional authorities.",
+        "method": "Missile/Surface",
         "lat": 47.84,
         "lng": 35.14,
         "source_tier": "unverified"
@@ -118,6 +129,50 @@
         "lat": 15.55,
         "lng": 32.53,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh \u2013 King Khalid International Airport",
+        "description": "Houthi forces launched multiple missile strikes on King Khalid International Airport in Riyadh, hitting passenger terminals across at least three separate attacks, killing at least 12 people and wounding more than 300.",
+        "method": "Ballistic Missile",
+        "lat": 24.96,
+        "lng": 46.7,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel / United States",
+        "target_country": "Iran",
+        "target_location": "Iran (multiple locations)",
+        "description": "Ongoing US-Israel strike campaign against Iran, with Al Jazeera live tracker citing preliminary figures of 3,468 dead in Iran and 3,696 dead in Lebanon as of last tracker update.",
+        "method": "Air/Precision Strike",
+        "lat": 35.69,
+        "lng": 51.39,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "South Lebanon",
+        "description": "Two people were killed near Israeli-occupied area in south Lebanon despite a ceasefire reached between Israel and Lebanon in June 2026.",
+        "method": "Air/Precision Strike",
+        "lat": 33.27,
+        "lng": 35.58,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Unknown",
+        "target_country": "Sudan",
+        "target_location": "Gold mine near Egypt border",
+        "description": "An air strike hit a gold mine near Sudan's border with Egypt, killing at least 72 people and injuring more than 50.",
+        "method": "Air/Drone",
+        "lat": 21.9,
+        "lng": 33.0,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -164,6 +219,34 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Houthi strikes on Riyadh airport (multiple waves)",
+        "kia": "~12",
+        "wia": "~300+",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Air strike on Sudan gold mine near Egypt border",
+        "kia": "~72",
+        "wia": "~50+",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Killings near Israeli-occupied south Lebanon",
+        "kia": "2",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Drone strike in Sudan (separate incident, rights group)",
+        "kia": "~40",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -202,6 +285,24 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera live tracker",
         "as_of": "2026-06-10 (last modified)"
+      },
+      {
+        "claim": "Iranian deaths from US-Israel strikes",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera live tracker (preliminary)",
+        "as_of": "2026-06-10 (last tracker update)"
+      },
+      {
+        "claim": "Lebanese deaths attributed to US-Israel strike campaign",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera live tracker (preliminary)",
+        "as_of": "2026-06-10 (last tracker update)"
+      },
+      {
+        "claim": "Deaths in Gulf states from US-Israel strike campaign",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera live tracker (preliminary)",
+        "as_of": "2026-06-10 (last tracker update)"
       }
     ]
   },
@@ -218,6 +319,12 @@
         "speaker": "RT/Axios (attributed)",
         "title": "Reported",
         "date": "2026-10-10"
+      },
+      {
+        "text": "The UK orchestrated the Bucha false flag to derail the 2022 Russia-Ukraine peace talks.",
+        "speaker": "Russian MFA / Official spokesperson",
+        "title": "Russian Government",
+        "date": "2026-09-17"
       }
     ],
     "ukraine": [
@@ -236,6 +343,12 @@
       {
         "text": "Zelensky blasted the diesel deal struck between Trump and Putin following Russian strikes killing 15.",
         "speaker": "Volodymyr Zelensky",
+        "title": "President of Ukraine",
+        "date": "2026-10-10"
+      },
+      {
+        "text": "The deal with Russia to release diesel into the US would help Moscow fund the war.",
+        "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-10-10"
       }
@@ -257,6 +370,18 @@
         "text": "It's not good. I'm not happy.",
         "speaker": "Donald Trump",
         "title": "US President",
+        "date": "2026-10-10"
+      },
+      {
+        "text": "We may. We're going to look at it. We just found out about the recent attack. So we'll make a decision. We move very quickly.",
+        "speaker": "Donald Trump",
+        "title": "President of the United States",
+        "date": "2026-10-10"
+      },
+      {
+        "text": "Now is the time to stand strong against Russian aggression as we did during the first Trump administration.",
+        "speaker": "Mike Pence",
+        "title": "Former Vice President of the United States",
         "date": "2026-10-10"
       }
     ]
@@ -327,15 +452,81 @@
       "flag": "\ud83c\uddee\ud83c\uddf7",
       "status": "Active materiel + troops",
       "description": "Iran remains engaged in ongoing conflict with the US and Israel, with Al Jazeera's live tracker recording approximately 3,468 Iranian deaths from US-Israel attacks since March 2026. Putin reportedly relayed an Iran-war-related proposal to Trump. Rubio's civilizational rhetoric drew Iranian pushback."
+    },
+    {
+      "country": "Israel",
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Israel's ongoing military operations include continued strike activity in Lebanon despite June ceasefire, killing two near an Israeli-occupied area in the south. Israel's joint strike campaign with the US on Iran has produced a preliminary death toll of over 3,468 in Iran and 3,696 in Lebanon per Al Jazeera tracking. Israeli combat medicine advances are being adopted by the US Army."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated (no specific price in headlines)",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Trump's deal to purchase Russian diesel amid surging US fuel prices has drawn bipartisan condemnation, with at least 16 US trucking companies filing for bankruptcy in under a month due to skyrocketing diesel costs; the deal is seen as politically motivated ahead of midterm elections."
+    "notes": "Trump's reversal of the Russian fuel export ban following the US-Russia diesel deal introduces significant downward pressure on global diesel prices, though broader energy market reaction data is not available in today's headlines."
   },
   "update_log": [
+    {
+      "time": "21:08 UTC",
+      "text": "Zelenskyy publicly welcomes US-announced energy ceasefire between Russia and Ukraine.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:00 UTC",
+      "text": "Third Houthi missile strike on Riyadh airport confirmed; at least 12 dead and more than 300 wounded.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Trump says US is evaluating joining Saudi Arabia's fight against Houthis following Riyadh airport strikes.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:00 UTC",
+      "text": "Trump demands Zelenskyy step down, blaming him for rising US diesel prices and failure to end war.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Second Houthi missile strike on King Khalid International Airport in Riyadh wounds multiple; flights cancelled.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Russian strikes kill 11 including 3 children in Zaporizhzhia, southeastern Ukraine.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Air strike kills at least 72 people at Sudan gold mine near Egypt border.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "First Houthi missile strike reported at Riyadh's King Khalid International Airport; airport evacuated.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "OpenAI announces disruption of Russian and Iranian AI-enabled influence operations using false-front journalists.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "BBC confirms Trump called for Ukraine to get a new president after Zelenskyy condemned the US-Russia diesel deal.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "Two people killed near Israeli-occupied area in south Lebanon despite June ceasefire agreement.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "00:00 UTC",
+      "text": "Al Jazeera US sanctions on ICC reported; court was prosecuting humanitarian crimes including in Gaza.",
+      "source_tier": "verified"
+    },
     {
       "time": "16:53 UTC",
       "text": "Missile strikes Riyadh airport passenger terminal for the third time this week; multiple wounded, evacuations underway.",
@@ -432,5 +623,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-10-11T16:53:01Z"
+  "last_updated": "2026-10-11T21:08:32Z"
 }
