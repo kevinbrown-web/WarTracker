@@ -1,0 +1,278 @@
+{
+  "escalation": {
+    "score": 8.5,
+    "delta": "+0.3 from yesterday",
+    "level": "High",
+    "rationale": "Simultaneous high-intensity pressure vectors across two theaters: Houthi ballistic missile strike kills 12 at Riyadh airport with warnings of more attacks, Trump openly calls for Zelenskyy's removal and eases Russian diesel sanctions fracturing Western unity, and Russia-Ukraine continue trading strikes \u2014 sustaining a multi-theater high-severity posture."
+  },
+  "ticker_items": [
+    "Houthi missile kills 12 at Riyadh airport; Houthis warn of further strikes.",
+    "Trump calls for Zelenskyy's replacement after diesel deal clash with Putin.",
+    "European leaders rally behind Zelenskyy; UK rejects US Russia diesel deal.",
+    "Ukraine drones reportedly strike multiple Yandex data centers in Russia.",
+    "South Korea recalls ambassador to Ukraine over North Korean POW disclosure row."
+  ],
+  "new_entrant": {
+    "active": false,
+    "text": ""
+  },
+  "strikes_today": {
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Multiple Russian cities (Yandex data centers)",
+        "description": "Ukraine drone strikes reportedly crippled multiple Yandex data centers, causing a dramatic drop in Russian bot traffic overnight.",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv region",
+        "description": "Russian overnight air strikes on the Kyiv region killed at least one person and injured several others as part of continued cross-theater strikes.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kharkiv",
+        "description": "Russia struck Kharkiv as part of ongoing exchanges of fire with Ukraine reported on 2026-10-11.",
+        "method": "Missile/Surface",
+        "lat": 49.99,
+        "lng": 36.23,
+        "source_tier": "verified"
+      }
+    ],
+    "middle_east": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh \u2014 King Khalid International Airport",
+        "description": "Houthi missile strike on King Khalid International Airport killed 12 people including one American and wounded over 300, prompting airport closure and school shutdowns.",
+        "method": "Ballistic Missile",
+        "lat": 24.96,
+        "lng": 46.7,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Sudan Armed Forces / RSF (unspecified)",
+        "target_country": "Sudan",
+        "target_location": "Sudan (unspecified region)",
+        "description": "A drone strike in Sudan killed 40 people including children, according to a rights group.",
+        "method": "Air/Drone",
+        "lat": 15.55,
+        "lng": 32.53,
+        "source_tier": "unverified"
+      }
+    ]
+  },
+  "casualties": {
+    "today": [
+      {
+        "incident": "Houthi missile strike \u2014 Riyadh airport",
+        "kia": "12",
+        "wia": "~309",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Sudan drone strike",
+        "kia": "~40",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian overnight strikes \u2014 Kyiv region & Kharkiv",
+        "kia": "~2",
+        "wia": "est. dozens, incl. 10 children",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Northern Israel unexploded ordnance explosion",
+        "kia": "0",
+        "wia": "~20",
+        "civilian": true,
+        "source_tier": "unverified"
+      }
+    ],
+    "claimed_totals": [
+      {
+        "claim": "US-Israel attacks on Iran \u2014 deaths in Iran",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "US-Israel attacks on Iran \u2014 deaths in Lebanon",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "US-Israel attacks on Iran \u2014 deaths in Gulf states",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-06-10"
+      }
+    ]
+  },
+  "quotes": {
+    "russia": [
+      {
+        "text": "The UK orchestrated the Bucha false flag to derail the 2022 Russia-Ukraine peace talks.",
+        "speaker": "Russian MFA (attributed claim)",
+        "title": "Russian Government",
+        "date": "2026-09-17"
+      }
+    ],
+    "ukraine": [
+      {
+        "text": "Propping up Putin's war economy is morally wrong as he uses that money to bomb cities.",
+        "speaker": "Don Bacon",
+        "title": "U.S. Representative (R-NE)",
+        "date": "2026-10-10"
+      }
+    ],
+    "middle_east": [
+      {
+        "text": "We're going to look at it. We just found out about the recent attack, so we'll make a decision. We move very quickly.",
+        "speaker": "Donald Trump",
+        "title": "U.S. President",
+        "date": "2026-10-11"
+      },
+      {
+        "text": "The attack on Riyadh is a dangerous escalation and the Iran-backed group must halt strikes on civilian targets.",
+        "speaker": "Ursula von der Leyen",
+        "title": "European Commission President",
+        "date": "2026-10-11"
+      },
+      {
+        "text": "Worse is yet to come.",
+        "speaker": "Houthi spokesperson (attributed)",
+        "title": "Houthi Movement",
+        "date": "2026-10-11"
+      }
+    ]
+  },
+  "observers": [
+    {
+      "country": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "status": "Strategic balancer",
+      "description": "Trump eased sanctions on Russian diesel imports, with the first shipment arriving on the U.S. East Coast, fracturing allied cohesion on Ukraine policy. Trump simultaneously called for Zelenskyy's removal and claimed Putin wants peace, while weighing potential military action alongside Saudi Arabia against the Houthis following the Riyadh airport strike."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "Defence Secretary Wes Streeting condemned the Houthi Riyadh strike as a 'dangerous escalation' and explicitly rejected the U.S.-Russia diesel deal, calling for increased pressure on Putin. The UK continues to back Zelenskyy amid growing U.S.-Ukraine diplomatic friction."
+    },
+    {
+      "country": "European Union",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "European leaders collectively rallied behind Zelenskyy following Trump's diesel deal with Russia and his call for new Ukrainian leadership. EU Commission President von der Leyen condemned the Riyadh airport attack and continued to signal firm support for Ukraine and pressure on Russia."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "Russia continued overnight strikes on Ukrainian cities including Kyiv and Kharkiv while benefiting diplomatically from Trump's diesel deal easing, which delivers economic relief to Moscow. Russian MoD continues to exaggerate frontline advances according to ISW assessment through September 2026."
+    },
+    {
+      "country": "Iran",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
+      "status": "Supplying dual-use goods",
+      "description": "Iran-backed Houthis carried out the deadliest attack on Saudi Arabia in over a decade, striking Riyadh's main international airport with a ballistic missile. Iran remains under pressure from prior US-Israel strikes with the Al Jazeera tracker recording over 3,400 deaths in Iran since March 2026."
+    },
+    {
+      "country": "South Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf7",
+      "status": "Monitoring",
+      "description": "Seoul recalled its ambassador to Ukraine over Kyiv's public disclosure of the transfer of two captured North Korean soldiers to South Korea, which Seoul claimed breached a non-disclosure agreement. The diplomatic row represents a significant strain on a key intelligence-sharing partnership for Ukraine."
+    },
+    {
+      "country": "Saudi Arabia",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "status": "Active materiel + troops",
+      "description": "Saudi Arabia extended the closure of King Khalid International Airport and moved Riyadh schools online following the Houthi missile strike killing 12. The Saudi-led coalition declared the strike a 'full-fledged war crime' and vowed retaliation against Houthi forces in Yemen."
+    }
+  ],
+  "financial": {
+    "usd_rub": "Unchanged",
+    "brent_crude": "Volatile \u2014 elevated",
+    "wheat_futures": "Unchanged",
+    "notes": "Crude oil futures face elevated volatility driven by the Houthi attack on Riyadh airport, uncertain US-Iran negotiations, and the first Russian diesel shipment arriving on the U.S. East Coast under the newly eased Trump-era sanctions framework."
+  },
+  "update_log": [
+    {
+      "time": "13:41 UTC",
+      "text": "Trump says US is 'looking at' joining Saudi Arabia in strikes against Houthis after American killed in Riyadh airport attack.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:00 UTC",
+      "text": "Saudi Arabia extends King Khalid International Airport closure and moves Riyadh schools online amid continued Houthi threat.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:30 UTC",
+      "text": "European leaders collectively back Zelenskyy after Trump calls for his replacement and eases Russian diesel sanctions.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "UK Defence Secretary Streeting rejects Trump's Russia diesel deal, calls for increased pressure on Putin.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Houthis warn airlines, travelers and airport workers to avoid all Saudi airports, threatening further strikes.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "Von der Leyen condemns Riyadh airport attack as a 'dangerous escalation' by Iran-backed Houthis.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Ukraine drone strikes reportedly cripple multiple Yandex data centers, causing dramatic drop in Russian bot traffic.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "Trump publicly states Ukraine needs a new leader after Zelenskyy criticized the US-Russia diesel deal.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "04:00 UTC",
+      "text": "Houthi ballistic missile strike kills 12 and wounds over 300 at King Khalid International Airport in Riyadh.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "02:00 UTC",
+      "text": "Russia and Ukraine continue to trade strikes; RFE/RL confirms fresh attacks on Kyiv and Kharkiv regions.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "00:30 UTC",
+      "text": "First Russian diesel shipment under Trump's eased sanctions deal arrives on U.S. East Coast, OSINT analysts confirm.",
+      "source_tier": "unverified"
+    }
+  ],
+  "last_updated": "2026-10-12T13:41:57Z"
+}

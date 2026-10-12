@@ -1,66 +1,55 @@
 {
   "escalation": {
-    "score": 8.2,
-    "delta": "No previous score available",
+    "score": 8.5,
+    "delta": "+0.3 from yesterday",
     "level": "High",
-    "rationale": "Multiple simultaneous high-severity events converge: Houthi missile strikes kill 12+ at Riyadh's King Khalid International Airport prompting Trump to weigh direct US military intervention; confirmed US-Israel strikes on Iran have killed 3,468+ with active casualty tracking ongoing; Trump's Russian diesel deal and demand for Zelenskyy's removal signal severe US-Ukraine political rupture; Russian strikes kill 11 including children in Zaporizhzhia; and South Korea recalls ambassador to Ukraine over North Korean POW dispute, fracturing a key coalition partner relationship."
+    "rationale": "Simultaneous high-intensity pressure vectors across two theaters: Houthi ballistic missile strike kills 12 at Riyadh airport with warnings of more attacks, Trump openly calls for Zelenskyy's removal and eases Russian diesel sanctions fracturing Western unity, and Russia-Ukraine continue trading strikes \u2014 sustaining a multi-theater high-severity posture."
   },
   "ticker_items": [
-    "Houthis strike Riyadh airport THREE times; 12 dead, 300+ wounded.",
-    "Trump weighs US military action against Houthis after Saudi attacks.",
-    "Trump calls on Ukraine to replace Zelenskyy; blames him for diesel prices.",
-    "Russian strikes kill 11 including 3 children in Zaporizhzhia.",
-    "Zelenskyy welcomes US-Russia energy ceasefire announcement."
+    "Houthi missile kills 12 at Riyadh airport; Houthis warn of further strikes.",
+    "Trump calls for Zelenskyy's replacement after diesel deal clash with Putin.",
+    "European leaders rally behind Zelenskyy; UK rejects US Russia diesel deal.",
+    "Ukraine drones reportedly strike multiple Yandex data centers in Russia.",
+    "South Korea recalls ambassador to Ukraine over North Korean POW disclosure row."
   ],
   "new_entrant": {
-    "active": true,
-    "text": "The United States is actively weighing direct military involvement against Houthi forces in Yemen following repeated Houthi missile strikes on Riyadh's King Khalid International Airport on 2026-10-10."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
       {
-        "time_utc": "Morning",
-        "attacker": "Russia",
-        "target_country": "Ukraine",
-        "target_location": "Zaporizhzhia",
-        "description": "Russian guided bombs struck residential buildings in Zaporizhzhia, killing at least 8\u201311 people including three children and wounding at least 16, with rescue workers searching rubble for survivors.",
-        "method": "Air/Precision Strike",
-        "lat": 47.84,
-        "lng": 35.14,
-        "source_tier": "verified"
-      },
-      {
-        "time_utc": "Overnight",
-        "attacker": "Russia",
-        "target_country": "Ukraine",
-        "target_location": "Multiple regions",
-        "description": "Russia launched a large-scale overnight drone attack across Ukraine concurrent with the Zaporizhzhia guided bomb strikes.",
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Multiple Russian cities (Yandex data centers)",
+        "description": "Ukraine drone strikes reportedly crippled multiple Yandex data centers, causing a dramatic drop in Russian bot traffic overnight.",
         "method": "Air/Drone",
-        "lat": 49.0,
-        "lng": 32.0,
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv region",
+        "description": "Russian overnight air strikes on the Kyiv region killed at least one person and injured several others as part of continued cross-theater strikes.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
         "source_tier": "verified"
       },
       {
-        "time_utc": "Morning",
+        "time_utc": "Unknown",
         "attacker": "Russia",
         "target_country": "Ukraine",
-        "target_location": "Zaporizhzhia",
-        "description": "Russian air strikes on Zaporizhzhia killed at least 11 people including three children, according to regional authorities.",
-        "method": "Air/Precision Strike",
-        "lat": 47.84,
-        "lng": 35.14,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Morning",
-        "attacker": "Russia",
-        "target_country": "Ukraine",
-        "target_location": "Zaporizhzhia",
-        "description": "Russian strikes on Zaporizhzhia killed at least 11 people including three children, according to regional authorities.",
+        "target_location": "Kharkiv",
+        "description": "Russia struck Kharkiv as part of ongoing exchanges of fire with Ukraine reported on 2026-10-11.",
         "method": "Missile/Surface",
-        "lat": 47.84,
-        "lng": 35.14,
-        "source_tier": "unverified"
+        "lat": 49.99,
+        "lng": 36.23,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -69,7 +58,7 @@
         "attacker": "Houthis",
         "target_country": "Saudi Arabia",
         "target_location": "Riyadh \u2014 King Khalid International Airport",
-        "description": "Houthi missile strikes targeted Riyadh's King Khalid International Airport, killing three Saudi citizens including an airline pilot and disrupting air travel, with at least 124 flights suspended.",
+        "description": "Houthi missile strike on King Khalid International Airport killed 12 people including one American and wounded over 300, prompting airport closure and school shutdowns.",
         "method": "Ballistic Missile",
         "lat": 24.96,
         "lng": 46.7,
@@ -77,101 +66,13 @@
       },
       {
         "time_utc": "Unknown",
-        "attacker": "Saudi Arabia / Yemeni Government Forces",
-        "target_country": "Yemen",
-        "target_location": "Houthi-controlled territories / Sanaa",
-        "description": "Saudi Arabia launched retaliatory airstrikes against Houthi targets following the Riyadh airport attack, while Yemeni government forces claimed control of the strategic Bab el-Mandeb Strait and Sanaa came under intense bombing.",
-        "method": "Air/Precision Strike",
-        "lat": 15.35,
-        "lng": 44.21,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Israel",
-        "target_country": "Lebanon",
-        "target_location": "Lebanon-Israel border area",
-        "description": "UNIFIL reported small arms fire targeted an Israeli border post in southern Lebanon; no casualties were reported.",
-        "method": "Ground/Armored",
-        "lat": 33.07,
-        "lng": 35.45,
-        "source_tier": "verified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Houthi rebels",
-        "target_country": "Saudi Arabia",
-        "target_location": "Riyadh",
-        "description": "A missile struck the passenger terminal at King Khalid International Airport in Riyadh, wounding multiple people and triggering evacuations; the airport has been targeted multiple times this week.",
-        "method": "Missile/Surface",
-        "lat": 24.96,
-        "lng": 46.7,
-        "source_tier": "verified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Houthi rebels",
-        "target_country": "Saudi Arabia",
-        "target_location": "Riyadh",
-        "description": "Repeated Houthi attacks on King Khalid International Airport continued amid intensified fighting between Yemen-based rebels and the Saudi-backed coalition.",
-        "method": "Missile/Surface",
-        "lat": 24.96,
-        "lng": 46.7,
-        "source_tier": "verified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Unknown (drone)",
+        "attacker": "Sudan Armed Forces / RSF (unspecified)",
         "target_country": "Sudan",
-        "target_location": "Unknown",
-        "description": "A drone strike in Sudan killed approximately 40 people including children, according to a rights group.",
+        "target_location": "Sudan (unspecified region)",
+        "description": "A drone strike in Sudan killed 40 people including children, according to a rights group.",
         "method": "Air/Drone",
         "lat": 15.55,
         "lng": 32.53,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Houthis",
-        "target_country": "Saudi Arabia",
-        "target_location": "Riyadh \u2013 King Khalid International Airport",
-        "description": "Houthi forces launched multiple missile strikes on King Khalid International Airport in Riyadh, hitting passenger terminals across at least three separate attacks, killing at least 12 people and wounding more than 300.",
-        "method": "Ballistic Missile",
-        "lat": 24.96,
-        "lng": 46.7,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Israel / United States",
-        "target_country": "Iran",
-        "target_location": "Iran (multiple locations)",
-        "description": "Ongoing US-Israel strike campaign against Iran, with Al Jazeera live tracker citing preliminary figures of 3,468 dead in Iran and 3,696 dead in Lebanon as of last tracker update.",
-        "method": "Air/Precision Strike",
-        "lat": 35.69,
-        "lng": 51.39,
-        "source_tier": "verified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Israel",
-        "target_country": "Lebanon",
-        "target_location": "South Lebanon",
-        "description": "Two people were killed near Israeli-occupied area in south Lebanon despite a ceasefire reached between Israel and Lebanon in June 2026.",
-        "method": "Air/Precision Strike",
-        "lat": 33.27,
-        "lng": 35.58,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Unknown",
-        "target_country": "Sudan",
-        "target_location": "Gold mine near Egypt border",
-        "description": "An air strike hit a gold mine near Sudan's border with Egypt, killing at least 72 people and injuring more than 50.",
-        "method": "Air/Drone",
-        "lat": 21.9,
-        "lng": 33.0,
         "source_tier": "unverified"
       }
     ]
@@ -179,210 +80,90 @@
   "casualties": {
     "today": [
       {
-        "incident": "Russian guided bomb strike on Zaporizhzhia residential buildings",
-        "kia": "~11",
-        "wia": "~16",
+        "incident": "Houthi missile strike \u2014 Riyadh airport",
+        "kia": "12",
+        "wia": "~309",
         "civilian": true,
         "source_tier": "verified"
       },
       {
-        "incident": "Houthi missile strike on Riyadh King Khalid International Airport",
-        "kia": "3",
-        "wia": "Unknown",
-        "civilian": true,
-        "source_tier": "verified"
-      },
-      {
-        "incident": "Russian strikes on Zaporizhzhia",
-        "kia": "11",
-        "wia": "Unknown",
-        "civilian": true,
-        "source_tier": "unverified"
-      },
-      {
-        "incident": "Houthi missile strike, Riyadh airport",
-        "kia": "0 confirmed",
-        "wia": "Multiple",
-        "civilian": true,
-        "source_tier": "verified"
-      },
-      {
-        "incident": "Drone strike in Sudan",
+        "incident": "Sudan drone strike",
         "kia": "~40",
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
       },
       {
-        "incident": "Russian strikes kills 15 (Zelensky reference)",
-        "kia": "15",
-        "wia": "Unknown",
+        "incident": "Russian overnight strikes \u2014 Kyiv region & Kharkiv",
+        "kia": "~2",
+        "wia": "est. dozens, incl. 10 children",
         "civilian": true,
-        "source_tier": "unverified"
+        "source_tier": "verified"
       },
       {
-        "incident": "Houthi strikes on Riyadh airport (multiple waves)",
-        "kia": "~12",
-        "wia": "~300+",
-        "civilian": true,
-        "source_tier": "unverified"
-      },
-      {
-        "incident": "Air strike on Sudan gold mine near Egypt border",
-        "kia": "~72",
-        "wia": "~50+",
-        "civilian": true,
-        "source_tier": "unverified"
-      },
-      {
-        "incident": "Killings near Israeli-occupied south Lebanon",
-        "kia": "2",
-        "wia": "Unknown",
-        "civilian": false,
-        "source_tier": "unverified"
-      },
-      {
-        "incident": "Drone strike in Sudan (separate incident, rights group)",
-        "kia": "~40",
-        "wia": "Unknown",
+        "incident": "Northern Israel unexploded ordnance explosion",
+        "kia": "0",
+        "wia": "~20",
         "civilian": true,
         "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
       {
-        "claim": "Total deaths in Iran from US-Israel strikes",
+        "claim": "US-Israel attacks on Iran \u2014 deaths in Iran",
         "figure": "~3,468",
-        "claimed_by": "Al Jazeera casualty tracker",
-        "as_of": "2026-06-10 (last tracker update)"
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-06-10"
       },
       {
-        "claim": "Total deaths in Lebanon from US-Israel strikes",
+        "claim": "US-Israel attacks on Iran \u2014 deaths in Lebanon",
         "figure": "~3,696",
-        "claimed_by": "Al Jazeera casualty tracker",
-        "as_of": "2026-06-10 (last tracker update)"
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-06-10"
       },
       {
-        "claim": "Total deaths in Gulf states from US-Israel strikes",
+        "claim": "US-Israel attacks on Iran \u2014 deaths in Gulf states",
         "figure": "~28",
-        "claimed_by": "Al Jazeera casualty tracker",
-        "as_of": "2026-06-10 (last tracker update)"
-      },
-      {
-        "claim": "Deaths in Iran from US-Israel attacks",
-        "figure": "~3,468",
-        "claimed_by": "Al Jazeera live tracker",
-        "as_of": "2026-06-10 (last modified)"
-      },
-      {
-        "claim": "Deaths in Lebanon from US-Israel attacks",
-        "figure": "~3,696",
-        "claimed_by": "Al Jazeera live tracker",
-        "as_of": "2026-06-10 (last modified)"
-      },
-      {
-        "claim": "Deaths in Gulf states from US-Israel attacks",
-        "figure": "~28",
-        "claimed_by": "Al Jazeera live tracker",
-        "as_of": "2026-06-10 (last modified)"
-      },
-      {
-        "claim": "Iranian deaths from US-Israel strikes",
-        "figure": "~3,468",
-        "claimed_by": "Al Jazeera live tracker (preliminary)",
-        "as_of": "2026-06-10 (last tracker update)"
-      },
-      {
-        "claim": "Lebanese deaths attributed to US-Israel strike campaign",
-        "figure": "~3,696",
-        "claimed_by": "Al Jazeera live tracker (preliminary)",
-        "as_of": "2026-06-10 (last tracker update)"
-      },
-      {
-        "claim": "Deaths in Gulf states from US-Israel strike campaign",
-        "figure": "~28",
-        "claimed_by": "Al Jazeera live tracker (preliminary)",
-        "as_of": "2026-06-10 (last tracker update)"
+        "claimed_by": "Al Jazeera tracker",
+        "as_of": "2026-06-10"
       }
     ]
   },
   "quotes": {
     "russia": [
       {
-        "text": "Putin relayed an Iran war proposal to Trump during their phone call.",
-        "speaker": "Kremlin spokesperson",
-        "title": "Kremlin",
-        "date": "2026-10-10"
-      },
-      {
-        "text": "Trump lifted the Russian fuel ban after Ukraine's Zelensky ignored his requests to stop strikes on refineries in Russia.",
-        "speaker": "RT/Axios (attributed)",
-        "title": "Reported",
-        "date": "2026-10-10"
-      },
-      {
         "text": "The UK orchestrated the Bucha false flag to derail the 2022 Russia-Ukraine peace talks.",
-        "speaker": "Russian MFA / Official spokesperson",
+        "speaker": "Russian MFA (attributed claim)",
         "title": "Russian Government",
         "date": "2026-09-17"
       }
     ],
     "ukraine": [
       {
-        "text": "The diesel deal plays into Russia's hands \u2014 allowing it to kill more, wage war for longer.",
-        "speaker": "Volodymyr Zelenskyy",
-        "title": "President of Ukraine",
-        "date": "2026-10-10"
-      },
-      {
-        "text": "The Trump-Putin diesel deal is a gift to the Kremlin.",
-        "speaker": "Ukrainian Government",
-        "title": "Official Ukrainian response",
-        "date": "2026-10-09"
-      },
-      {
-        "text": "Zelensky blasted the diesel deal struck between Trump and Putin following Russian strikes killing 15.",
-        "speaker": "Volodymyr Zelensky",
-        "title": "President of Ukraine",
-        "date": "2026-10-10"
-      },
-      {
-        "text": "The deal with Russia to release diesel into the US would help Moscow fund the war.",
-        "speaker": "Volodymyr Zelenskyy",
-        "title": "President of Ukraine",
+        "text": "Propping up Putin's war economy is morally wrong as he uses that money to bomb cities.",
+        "speaker": "Don Bacon",
+        "title": "U.S. Representative (R-NE)",
         "date": "2026-10-10"
       }
     ],
     "middle_east": [
       {
-        "text": "Propping up Putin's war economy is morally wrong as he uses that money to bomb cities.",
-        "speaker": "Don Bacon",
-        "title": "Representative (R-NE), U.S. Congress",
-        "date": "2026-10-10"
-      },
-      {
-        "text": "Threats to Western civilisation today are every bit as real as they were on the dramatic stage of antiquity.",
-        "speaker": "Marco Rubio",
-        "title": "US Secretary of State",
-        "date": "2026-10-10"
-      },
-      {
-        "text": "It's not good. I'm not happy.",
+        "text": "We're going to look at it. We just found out about the recent attack, so we'll make a decision. We move very quickly.",
         "speaker": "Donald Trump",
-        "title": "US President",
-        "date": "2026-10-10"
+        "title": "U.S. President",
+        "date": "2026-10-11"
       },
       {
-        "text": "We may. We're going to look at it. We just found out about the recent attack. So we'll make a decision. We move very quickly.",
-        "speaker": "Donald Trump",
-        "title": "President of the United States",
-        "date": "2026-10-10"
+        "text": "The attack on Riyadh is a dangerous escalation and the Iran-backed group must halt strikes on civilian targets.",
+        "speaker": "Ursula von der Leyen",
+        "title": "European Commission President",
+        "date": "2026-10-11"
       },
       {
-        "text": "Now is the time to stand strong against Russian aggression as we did during the first Trump administration.",
-        "speaker": "Mike Pence",
-        "title": "Former Vice President of the United States",
-        "date": "2026-10-10"
+        "text": "Worse is yet to come.",
+        "speaker": "Houthi spokesperson (attributed)",
+        "title": "Houthi Movement",
+        "date": "2026-10-11"
       }
     ]
   },
@@ -390,238 +171,108 @@
     {
       "country": "United States",
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "status": "Mediator + arms supplier",
-      "description": "President Trump announced a deal with Putin to temporarily ease sanctions on Russian diesel exports, drawing bipartisan condemnation and Ukrainian protests. US special envoy Witkoff described US-EU-Ukraine talks in Miami as 'constructive' ahead of next Russia engagement. Trump also pledged no US airstrikes on Iran before midterms, though oil markets largely ignored the announcement."
+      "status": "Strategic balancer",
+      "description": "Trump eased sanctions on Russian diesel imports, with the first shipment arriving on the U.S. East Coast, fracturing allied cohesion on Ukraine policy. Trump simultaneously called for Zelenskyy's removal and claimed Putin wants peace, while weighing potential military action alongside Saudi Arabia against the Houthis following the Riyadh airport strike."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "Defence Secretary Wes Streeting condemned the Houthi Riyadh strike as a 'dangerous escalation' and explicitly rejected the U.S.-Russia diesel deal, calling for increased pressure on Putin. The UK continues to back Zelenskyy amid growing U.S.-Ukraine diplomatic friction."
+    },
+    {
+      "country": "European Union",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "European leaders collectively rallied behind Zelenskyy following Trump's diesel deal with Russia and his call for new Ukrainian leadership. EU Commission President von der Leyen condemned the Riyadh airport attack and continued to signal firm support for Ukraine and pressure on Russia."
     },
     {
       "country": "Russia",
       "flag": "\ud83c\uddf7\ud83c\uddfa",
       "status": "Active materiel + troops",
-      "description": "Russia conducted large-scale guided bomb and overnight drone strikes on Ukrainian territory on October 10, killing at least 11 civilians in Zaporizhzhia. Russia agreed to the Trump diesel export deal, benefiting from partial sanctions relief. ISW assessments from late September indicate Ukrainian forces have successfully contested Russian operational initiative since late 2025."
+      "description": "Russia continued overnight strikes on Ukrainian cities including Kyiv and Kharkiv while benefiting diplomatically from Trump's diesel deal easing, which delivers economic relief to Moscow. Russian MoD continues to exaggerate frontline advances according to ISW assessment through September 2026."
     },
     {
-      "country": "Ukraine",
-      "flag": "\ud83c\uddfa\ud83c\udde6",
-      "status": "Active materiel + troops",
-      "description": "Ukraine condemned the Trump-Putin diesel deal as funding Moscow's war effort. Ukrainian officials participated in Miami peace talks with US and European counterparts. A diplomatic dispute with South Korea over disclosure of North Korean POW transfers led Seoul to recall its ambassador to Kyiv."
-    },
-    {
-      "country": "Saudi Arabia",
-      "flag": "\ud83c\uddf8\ud83c\udde6",
-      "status": "Active materiel + troops",
-      "description": "Saudi Arabia confirmed three citizens including an airline pilot were killed in Houthi missile strikes on Riyadh's King Khalid International Airport, marking a significant escalation. Saudi Arabia launched retaliatory airstrikes on Houthi targets in Yemen. At least 124 airline flights were suspended following the attack."
-    },
-    {
-      "country": "Yemen (Houthis)",
-      "flag": "\ud83c\uddfe\ud83c\uddea",
-      "status": "Active materiel + troops",
-      "description": "Houthis claimed responsibility for a series of missile attacks on Riyadh's main international airport, killing three people and disrupting air travel. The Houthi campaign against Saudi Arabia has intensified as part of the wider regional conflict triggered by US-Israeli strikes on Iran. Sanaa, the Houthi-held capital, came under intense bombing from Saudi coalition and Yemeni government forces."
+      "country": "Iran",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
+      "status": "Supplying dual-use goods",
+      "description": "Iran-backed Houthis carried out the deadliest attack on Saudi Arabia in over a decade, striking Riyadh's main international airport with a ballistic missile. Iran remains under pressure from prior US-Israel strikes with the Al Jazeera tracker recording over 3,400 deaths in Iran since March 2026."
     },
     {
       "country": "South Korea",
       "flag": "\ud83c\uddf0\ud83c\uddf7",
       "status": "Monitoring",
-      "description": "South Korea recalled its ambassador to Ukraine following Kyiv's public disclosure of the transfer of two North Korean prisoners of war to Seoul, which Seoul says violated a non-disclosure agreement. The diplomatic row marks a notable deterioration in Ukraine-South Korea relations. South Korea's intelligence and materiel contributions to the Ukraine conflict context remain under review."
+      "description": "Seoul recalled its ambassador to Ukraine over Kyiv's public disclosure of the transfer of two captured North Korean soldiers to South Korea, which Seoul claimed breached a non-disclosure agreement. The diplomatic row represents a significant strain on a key intelligence-sharing partnership for Ukraine."
     },
     {
-      "country": "France",
-      "flag": "\ud83c\uddeb\ud83c\uddf7",
-      "status": "Supplying dual-use goods",
-      "description": "French President Macron made moves described as a 'nuclear throwdown,' projecting nuclear strength amid domestic protests. France participated in the Miami diplomatic talks on Ukraine alongside other E3 partners. France's posture continues to reflect efforts to project strategic relevance in the evolving European security landscape."
-    },
-    {
-      "country": "United Kingdom",
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "status": "Basing + logistics",
-      "description": "The UK Conservative opposition proposed a \u00a310 billion 'Britannia Shield' integrated air and missile defence programme on October 6, reflecting heightened concern about missile and drone threats. The UK government's current involvement in Ukraine support and Middle East operations remains active. The proposal underscores growing European consensus on the need for enhanced air defence infrastructure."
-    },
-    {
-      "country": "North Korea",
-      "flag": "\ud83c\uddf0\ud83c\uddf5",
-      "status": "Supplying dual-use goods",
-      "description": "North Korea remains a background actor following the revelation of two North Korean POWs captured by Ukraine and transferred to South Korea. The disclosure sparked the diplomatic row between Kyiv and Seoul. North Korean troop and materiel contributions to Russia's war effort continue to be reported in the broader conflict context."
-    },
-    {
-      "country": "Germany",
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "status": "Basing + logistics",
-      "description": "The Bundeswehr is conducting military exercises under Operations Plan Germany, including 'Red Storm Charlie,' as NATO prepares for collective defense scenarios amid intelligence warnings about potential Russian aggression against the alliance."
-    },
-    {
-      "country": "Iran",
-      "flag": "\ud83c\uddee\ud83c\uddf7",
+      "country": "Saudi Arabia",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
       "status": "Active materiel + troops",
-      "description": "Iran remains engaged in ongoing conflict with the US and Israel, with Al Jazeera's live tracker recording approximately 3,468 Iranian deaths from US-Israel attacks since March 2026. Putin reportedly relayed an Iran-war-related proposal to Trump. Rubio's civilizational rhetoric drew Iranian pushback."
-    },
-    {
-      "country": "Israel",
-      "flag": "\ud83c\uddee\ud83c\uddf1",
-      "status": "Active materiel + troops",
-      "description": "Israel's ongoing military operations include continued strike activity in Lebanon despite June ceasefire, killing two near an Israeli-occupied area in the south. Israel's joint strike campaign with the US on Iran has produced a preliminary death toll of over 3,468 in Iran and 3,696 in Lebanon per Al Jazeera tracking. Israeli combat medicine advances are being adopted by the US Army."
+      "description": "Saudi Arabia extended the closure of King Khalid International Airport and moved Riyadh schools online following the Houthi missile strike killing 12. The Saudi-led coalition declared the strike a 'full-fledged war crime' and vowed retaliation against Houthi forces in Yemen."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Volatile \u2014 elevated",
     "wheat_futures": "Unchanged",
-    "notes": "Trump's reversal of the Russian fuel export ban following the US-Russia diesel deal introduces significant downward pressure on global diesel prices, though broader energy market reaction data is not available in today's headlines."
+    "notes": "Crude oil futures face elevated volatility driven by the Houthi attack on Riyadh airport, uncertain US-Iran negotiations, and the first Russian diesel shipment arriving on the U.S. East Coast under the newly eased Trump-era sanctions framework."
   },
   "update_log": [
     {
-      "time": "21:08 UTC",
-      "text": "Zelenskyy publicly welcomes US-announced energy ceasefire between Russia and Ukraine.",
+      "time": "13:41 UTC",
+      "text": "Trump says US is 'looking at' joining Saudi Arabia in strikes against Houthis after American killed in Riyadh airport attack.",
       "source_tier": "unverified"
     },
     {
-      "time": "20:00 UTC",
-      "text": "Third Houthi missile strike on Riyadh airport confirmed; at least 12 dead and more than 300 wounded.",
+      "time": "13:00 UTC",
+      "text": "Saudi Arabia extends King Khalid International Airport closure and moves Riyadh schools online amid continued Houthi threat.",
       "source_tier": "unverified"
     },
     {
-      "time": "18:30 UTC",
-      "text": "Trump says US is evaluating joining Saudi Arabia's fight against Houthis following Riyadh airport strikes.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "17:00 UTC",
-      "text": "Trump demands Zelenskyy step down, blaming him for rising US diesel prices and failure to end war.",
+      "time": "12:30 UTC",
+      "text": "European leaders collectively back Zelenskyy after Trump calls for his replacement and eases Russian diesel sanctions.",
       "source_tier": "verified"
     },
     {
-      "time": "16:00 UTC",
-      "text": "Second Houthi missile strike on King Khalid International Airport in Riyadh wounds multiple; flights cancelled.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "14:00 UTC",
-      "text": "Russian strikes kill 11 including 3 children in Zaporizhzhia, southeastern Ukraine.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "12:00 UTC",
-      "text": "Air strike kills at least 72 people at Sudan gold mine near Egypt border.",
-      "source_tier": "unverified"
+      "time": "11:00 UTC",
+      "text": "UK Defence Secretary Streeting rejects Trump's Russia diesel deal, calls for increased pressure on Putin.",
+      "source_tier": "verified"
     },
     {
       "time": "10:00 UTC",
-      "text": "First Houthi missile strike reported at Riyadh's King Khalid International Airport; airport evacuated.",
+      "text": "Houthis warn airlines, travelers and airport workers to avoid all Saudi airports, threatening further strikes.",
       "source_tier": "unverified"
     },
     {
       "time": "09:00 UTC",
-      "text": "OpenAI announces disruption of Russian and Iranian AI-enabled influence operations using false-front journalists.",
+      "text": "Von der Leyen condemns Riyadh airport attack as a 'dangerous escalation' by Iran-backed Houthis.",
       "source_tier": "unverified"
     },
     {
       "time": "08:00 UTC",
-      "text": "BBC confirms Trump called for Ukraine to get a new president after Zelenskyy condemned the US-Russia diesel deal.",
-      "source_tier": "verified"
+      "text": "Ukraine drone strikes reportedly cripple multiple Yandex data centers, causing dramatic drop in Russian bot traffic.",
+      "source_tier": "unverified"
     },
     {
       "time": "06:00 UTC",
-      "text": "Two people killed near Israeli-occupied area in south Lebanon despite June ceasefire agreement.",
+      "text": "Trump publicly states Ukraine needs a new leader after Zelenskyy criticized the US-Russia diesel deal.",
       "source_tier": "unverified"
     },
     {
-      "time": "00:00 UTC",
-      "text": "Al Jazeera US sanctions on ICC reported; court was prosecuting humanitarian crimes including in Gaza.",
+      "time": "04:00 UTC",
+      "text": "Houthi ballistic missile strike kills 12 and wounds over 300 at King Khalid International Airport in Riyadh.",
       "source_tier": "verified"
     },
     {
-      "time": "16:53 UTC",
-      "text": "Missile strikes Riyadh airport passenger terminal for the third time this week; multiple wounded, evacuations underway.",
+      "time": "02:00 UTC",
+      "text": "Russia and Ukraine continue to trade strikes; RFE/RL confirms fresh attacks on Kyiv and Kharkiv regions.",
       "source_tier": "verified"
     },
     {
-      "time": "Morning",
-      "text": "Russian strikes kill 11 including 3 children in Zaporizhzhia, Ukraine.",
+      "time": "00:30 UTC",
+      "text": "First Russian diesel shipment under Trump's eased sanctions deal arrives on U.S. East Coast, OSINT analysts confirm.",
       "source_tier": "unverified"
-    },
-    {
-      "time": "Unknown",
-      "text": "Trump-Putin diesel deal confirmed; Zelensky publicly blasts agreement following Russian strikes killing 15.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "Unknown",
-      "text": "Kremlin confirms Putin relayed Iran war proposal to Trump during phone call.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "Unknown",
-      "text": "US imposes new sanctions on ICC hours after Nobel Peace Prize awarded to former ICC judge Navi Pillay.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "Unknown",
-      "text": "US-Ukraine-EU Miami talks described as productive by envoy Witkoff ahead of next Russia engagement.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "Unknown",
-      "text": "South Korea recalls ambassador to Kyiv over North Korean POW disclosure dispute.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "Unknown",
-      "text": "Drone strike kills approximately 40 including children in Sudan, rights group reports.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "Unknown",
-      "text": "Al Jazeera reports Yemen may have returned to full-scale war as Houthi-Saudi coalition fighting intensifies.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "Unknown",
-      "text": "Europe mulling contingency plans amid intelligence warnings of possible Russian attack on NATO, per RFE/RL.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "11:42 UTC",
-      "text": "Update run compiled: Russian strikes on Zaporizhzhia kill 11 including 3 children; Houthi airport attack kills 3 in Riyadh; Trump-Putin diesel deal draws widespread condemnation.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "Unknown",
-      "text": "US envoy Witkoff describes Miami talks with US, E3, EU, Ukraine, and NATO representatives as 'constructive' ahead of next Russia engagement.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "Unknown",
-      "text": "South Korea recalls its ambassador to Ukraine over Kyiv's disclosure of North Korean POW transfer, escalating a diplomatic dispute.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "Unknown",
-      "text": "Secretary of State Rubio warns Ukraine stalemate could escalate into a broader regional conflict if the deadlock is not resolved.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "Unknown",
-      "text": "Saudi Arabia confirms three killed including an airline pilot in Houthi missile strikes on Riyadh's King Khalid International Airport; Saudi retaliatory airstrikes launched on Houthi targets.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "Unknown",
-      "text": "Russia strikes Zaporizhzhia with guided bombs, killing at least 8\u201311 people including three children, in addition to a large-scale overnight drone attack across Ukraine.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "Unknown",
-      "text": "Trump announces deal with Putin to temporarily ease sanctions on Russian diesel exports; Ukraine calls it a 'gift' to the Kremlin that will fund continued attacks.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "Unknown",
-      "text": "Trump pledges no US airstrikes on Iran before midterm elections; oil markets largely unresponsive to announcement.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "Unknown",
-      "text": "UNIFIL reports small arms fire at an Israeli border post in Lebanon; no casualties reported.",
-      "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-10-11T21:08:32Z"
+  "last_updated": "2026-10-12T13:41:57Z"
 }
