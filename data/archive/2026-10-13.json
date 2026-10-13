@@ -1,0 +1,207 @@
+{
+  "escalation": {
+    "score": 8.0,
+    "delta": "-0.2 from yesterday",
+    "level": "High",
+    "rationale": "Russia rejected Ukraine's 60-day truce offer and continues striking energy infrastructure despite Trump's declared energy ceasefire, while Houthi missile strikes on Riyadh airports and Iran's threats to attack cables and data centers sustain multi-theater high tension, though marginal diplomatic activity around the US-Russia diesel deal prevents further escalation."
+  },
+  "ticker_items": [
+    "Kremlin rejects Ukraine's 60-day truce and election proposal outright.",
+    "Russia still striking Ukrainian energy targets despite Trump's ceasefire claim.",
+    "Houthis hit Riyadh airport again; one killed, 11 injured.",
+    "Trump reportedly 'very angry' at Zelensky over attacks on Russian refineries.",
+    "Germany's Merz calls Trump's Russia diesel deal 'out of the question' for EU."
+  ],
+  "new_entrant": {
+    "active": false,
+    "text": ""
+  },
+  "strikes_today": {
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple energy facilities",
+        "description": "Russia continued striking Ukrainian power and energy infrastructure despite Trump's announced energy ceasefire agreement, according to Zelensky.",
+        "method": "Missile/Surface",
+        "lat": 49.0,
+        "lng": 32.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Russian oil refineries",
+        "description": "Ukraine reportedly continued striking Russian oil refineries, prompting US threats to cut arms sales and intelligence sharing.",
+        "method": "Drone/Air",
+        "lat": 55.0,
+        "lng": 37.6,
+        "source_tier": "unverified"
+      }
+    ],
+    "middle_east": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh",
+        "description": "Houthi missile struck Riyadh airport area, killing one and injuring 11 in a continued escalatory campaign against Saudi infrastructure.",
+        "method": "Ballistic Missile",
+        "lat": 24.7136,
+        "lng": 46.6753,
+        "source_tier": "unverified"
+      }
+    ]
+  },
+  "casualties": {
+    "today": [
+      {
+        "incident": "Houthi missile strike on Riyadh airport",
+        "kia": "1",
+        "wia": "11",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Sudan drone strike (recent)",
+        "kia": "~40",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US-Israel attacks on Iran (cumulative tracker)",
+        "kia": "~3,468 (Iran), ~3,696 (Lebanon), ~28 (Gulf states)",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      }
+    ],
+    "claimed_totals": []
+  },
+  "quotes": {
+    "russia": [
+      {
+        "text": "Zelensky does not deserve a respite on the battlefield.",
+        "speaker": "Sergey Lavrov",
+        "title": "Russian Foreign Minister",
+        "date": "2026-10-12"
+      }
+    ],
+    "ukraine": [
+      {
+        "text": "Russia continues to strike Ukraine's power facilities despite Trump's 'energy ceasefire' announcement.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-10-12"
+      }
+    ],
+    "middle_east": [
+      {
+        "text": "The US response to negotiations is insufficient.",
+        "speaker": "Mohsen Rezaei",
+        "title": "Head, Iran Supreme National Security Council",
+        "date": "2026-10-12"
+      }
+    ]
+  },
+  "observers": [
+    {
+      "country": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "status": "Mediator + arms supplier",
+      "description": "Trump declared an 'energy ceasefire' between Russia and Ukraine linked to a US-Russia diesel import deal, while simultaneously threatening Kyiv with cuts to arms sales and intelligence sharing over Ukrainian strikes on Russian refineries. CIA Director Ratcliffe reportedly conducted a covert mission to Moscow in late August 2026. Trump has also publicly questioned Zelenskyy's leadership, suggesting Ukraine needs a new president."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Supplying dual-use goods",
+      "description": "Chancellor Merz explicitly rejected Trump's Russia diesel deal as 'out of the question' for Germany and the EU, reaffirming European solidarity with Ukraine. Germany continues to navigate internal coalition pressures alongside its Ukraine support posture."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "Russia rejected Ukraine's 60-day truce and presidential election proposal outright, with Lavrov stating Zelenskyy 'does not deserve a respite.' Russian forces continued striking Ukrainian energy infrastructure despite the US-announced energy ceasefire, while the Kremlin remained silent on formally endorsing the ceasefire deal."
+    },
+    {
+      "country": "Iran",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
+      "status": "Strategic balancer",
+      "description": "Iran's Supreme National Security Council head called the latest US negotiating response 'insufficient' and threatened attacks on undersea cables, data centers, and AI facilities if the conflict escalates further. Iran continues to back Houthi operations against Saudi Arabia and remains in a fragile negotiating posture with Washington."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Monitoring",
+      "description": "China publicly condemned Houthi missile attacks on Saudi Arabia and warned against further escalation of regional tensions. Beijing's condemnation signals concern over Red Sea and Gulf stability affecting Chinese trade and energy interests."
+    },
+    {
+      "country": "South Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf7",
+      "status": "Abstaining",
+      "description": "South Korea recalled its ambassador to Ukraine over Kyiv's public disclosure of the transfer of two North Korean POWs to Seoul, accusing Ukraine of breaching a non-disclosure agreement. The diplomatic row has added friction to Seoul's posture toward Ukraine without affecting broader alliance commitments."
+    }
+  ],
+  "financial": {
+    "usd_rub": "Unchanged",
+    "brent_crude": "Falling",
+    "wheat_futures": "Unchanged",
+    "notes": "Oil prices declined on expectations of increased Russian diesel supply following Trump's energy ceasefire announcement and the US-Russia diesel import deal, with the first Russian diesel shipment already reported arriving on the US East Coast."
+  },
+  "update_log": [
+    {
+      "time": "13:03",
+      "text": "Kremlin formally rejects Ukraine's offer of a 60-day truce and presidential elections.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:03",
+      "text": "Zelenskyy states Russia continues striking energy infrastructure despite Trump's declared energy ceasefire.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:03",
+      "text": "Houthis strike Riyadh airport again; one killed, 11 injured; US restricts diplomat airport use in Saudi Arabia.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:03",
+      "text": "Trump reportedly threatens to cut arms sales and intelligence sharing to Ukraine unless Kyiv halts strikes on Russian refineries.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:03",
+      "text": "Germany's Chancellor Merz rejects Trump's Russia diesel deal as incompatible with EU policy.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:03",
+      "text": "Al Jazeera reports Trump has raised the prospect of replacing Zelenskyy, with Zaluzhnyi cited as a leading alternative.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "13:03",
+      "text": "Iran's security chief threatens attacks on cables and data centers if conflict escalates, calls US proposal insufficient.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:03",
+      "text": "China condemns Houthi attacks on Saudi Arabia and warns against regional escalation.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:03",
+      "text": "First Russian diesel shipment reported arrived on US East Coast per OSINT analysts.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:03",
+      "text": "European leaders rally behind Zelenskyy after Trump's diesel deal and leadership comments per RFE/RL.",
+      "source_tier": "verified"
+    }
+  ],
+  "last_updated": "2026-10-13T13:03:03Z"
+}
