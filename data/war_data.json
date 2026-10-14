@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.5,
-    "delta": "+0.3 from yesterday",
-    "level": "Elevated",
-    "rationale": "Drone attacks sinking a merchant vessel in the Black Sea near Bulgaria, ongoing Houthi strikes forcing Riyadh airport closure and CEO flight from Saudi energy summit, Iran threatening to destroy US tech infrastructure in the Gulf, and a Nord Stream war-crimes trial opening in Germany collectively push the score upward across multiple theatres."
+    "score": 7.8,
+    "delta": "No previous score available",
+    "level": "Elevated-High",
+    "rationale": "Multiple simultaneous flashpoints \u2014 active US-Israel strikes on Iran with ~3,400+ dead, Houthi drone attacks on Riyadh, NATO revealing anti-Russia war plans, Trump's Russian diesel deal fracturing Western unity, and Iran threatening regional internet infrastructure \u2014 collectively push the score into the high-elevated range."
   },
   "ticker_items": [
-    "Bulgaria: Ship sunk by drone in Black Sea; PM summons Russian ambassador.",
-    "Houthis: Top oil CEOs flee Riyadh summit after deadly Saudi airport strikes.",
-    "Iran warns it will destroy US tech assets in Gulf if attacked again.",
-    "Germany opens Nord Stream 'war crime' trial, blaming Ukrainian state authorities.",
-    "South Korea\u2013Ukraine rift deepens over North Korean POW transfer disclosure."
+    "Houthi drones intercepted over Riyadh; Aramco facilities and airports threatened.",
+    "Trump's Russian diesel deal sparks bipartisan US backlash; first shipment already arrived.",
+    "NATO reveals 'Block, Blunt, Break' war plan to stop Russian invasion of Europe.",
+    "Iran calls US nuclear/conflict proposal 'insufficient'; threatens cable and data center attacks.",
+    "South Korea recalls Kyiv ambassador over North Korean POW transfer dispute."
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Saudi Arabia has emerged as an active strike target in the Yemen-Houthi theater, with Houthi drones attacking Riyadh and Iran-backed forces threatening Aramco facilities and airports, while Turkey's MHP calls for Ankara to provide direct military support to Riyadh."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -27,6 +27,39 @@
         "method": "Drone",
         "lat": 42.8,
         "lng": 28.5,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv region",
+        "description": "Russian overnight strikes on the Kyiv region killed at least two people including an Azerbaijani citizen and injured dozens, including 10 children.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kharkiv",
+        "description": "Russian strikes on Kharkiv caused casualties as part of continued overnight bombardment campaign.",
+        "method": "Missile/Surface",
+        "lat": 49.99,
+        "lng": 36.23,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Dnipro",
+        "description": "Russian air strikes targeted Dnipro as part of a multi-city overnight attack pattern.",
+        "method": "Missile/Surface",
+        "lat": 48.46,
+        "lng": 35.04,
         "source_tier": "verified"
       }
     ],
@@ -52,6 +85,39 @@
         "lat": 24.7,
         "lng": 46.7,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh",
+        "description": "Armed drones launched by Houthis targeted Riyadh; Saudi armed forces confirmed interception before reaching civilians.",
+        "method": "Air/Drone",
+        "lat": 24.69,
+        "lng": 46.72,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Saudi-led coalition",
+        "target_country": "Yemen",
+        "target_location": "Sanaa",
+        "description": "Explosions reported in Sanaa shortly after Saudi-led coalition issued evacuation order, ahead of anticipated strikes.",
+        "method": "Air/Precision Strike",
+        "lat": 15.35,
+        "lng": 44.21,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Yemen",
+        "target_location": "Taiz",
+        "description": "Houthi shelling targeted residential areas and hospitals in Taiz as Yemeni government forces advanced in Marib.",
+        "method": "Rocket/Surface",
+        "lat": 13.58,
+        "lng": 44.02,
+        "source_tier": "verified"
       }
     ]
   },
@@ -84,6 +150,27 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian overnight strikes on Kyiv, Kharkiv, Dnipro",
+        "kia": "~2",
+        "wia": "dozens incl. 10 children",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel attacks on Iran (cumulative tracker)",
+        "kia": "~3,468 (Iran) + ~3,696 (Lebanon) + ~28 (Gulf states)",
+        "wia": "Not specified",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Houthi shelling of Taiz residential areas and hospitals",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -114,6 +201,12 @@
         "speaker": "Donald Trump",
         "title": "US President",
         "date": "2026-10-13"
+      },
+      {
+        "text": "The old restrictions are no more in the Ukrainian proxy war \u2014 the transformation foreshadowed in early summer has acquired concrete operational content.",
+        "speaker": "Yunus-Bek Yevkurov",
+        "title": "Russian Deputy Defence Minister",
+        "date": "2026-10-13"
       }
     ],
     "ukraine": [
@@ -141,6 +234,18 @@
         "text": "Iran called Britain's RAF Fairford plot claim a false flag.",
         "speaker": "Iran Foreign Ministry",
         "title": "Official Spokesperson",
+        "date": "2026-10-13"
+      },
+      {
+        "text": "The US response to negotiations is insufficient; potential attacks on cables and data centers could follow if fighting escalates further.",
+        "speaker": "Mohsen Rezaei",
+        "title": "Head, Iran Supreme National Security Council",
+        "date": "2026-10-12"
+      },
+      {
+        "text": "Block, blunt, break \u2014 NATO has a plan to stop a Russian invasion of Europe.",
+        "speaker": "NATO Supreme Commander",
+        "title": "NATO Supreme Allied Commander Europe",
         "date": "2026-10-13"
       }
     ]
@@ -187,15 +292,93 @@
       "flag": "\ud83c\uddf5\ud83c\uddf0",
       "status": "Strategic balancer",
       "description": "The Mecca Pact \u2014 analysed by War on the Rocks \u2014 represents Pakistan's bid to become geopolitically indispensable in the Middle East, including as a defence partner for Saudi Arabia alongside Turkey. Analysts describe it as Pakistan's most serious attempt to break its historical cycle of value spiking only during others' emergencies. Pakistan's role in potential Saudi defence is being debated in Israeli commentary."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "Russia continued overnight strikes on Ukrainian cities including Kyiv, Kharkiv, and Dnipro. Deputy Defence Minister Yevkurov signaled removal of operational restrictions on the Ukrainian front. Russian diesel exports to the US have begun arriving, providing economic relief amid Western sanctions."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Strategic balancer",
+      "description": "Turkey's Nationalist Movement Party called on Ankara to extend all possible military support to Saudi Arabia amid Houthi escalation. Turkey continues to balance NATO commitments with independent foreign policy in both the Ukraine and Middle East theaters. No confirmed Ankara government response to the MHP call was noted."
+    },
+    {
+      "country": "Israel",
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Israel remains engaged in active strikes on Iran alongside the US, with cumulative Iranian deaths exceeding 3,400. Israel's October 27 election is approaching, with Trump notably hedging on endorsing Netanyahu amid shifting public sentiment. Saudi Arabia rejected Israel's bid to join the anti-Houthi coalition."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Saudi Arabia faces IMF-projected 3.3% economic contraction as Houthi attacks on airports and oil infrastructure deter investment and prompt top oil CEO withdrawals from Riyadh's energy summit, adding upward pressure on crude risk premiums."
+    "notes": "The first Russian diesel shipment arrived on the US East Coast aboard the tanker MINERVA ZEN, undercutting Western sanctions pressure and sparking bipartisan US congressional backlash; Saudi Arabia's economy is projected to contract 3.3% in 2026 per IMF amid Houthi strikes and regional war."
   },
   "update_log": [
+    {
+      "time": "16:03 UTC",
+      "text": "NATO Supreme Commander publicly reveals 'Block, Blunt, Break' war plan designed to stop a Russian invasion of Europe.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "15:45 UTC",
+      "text": "Houthi drones intercepted over Riyadh; group threatens 'harsh' response against Aramco facilities and Saudi airports.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "15:30 UTC",
+      "text": "Trump calls for Zelenskyy's replacement while European leaders rally behind Kyiv at EU summit focused on Ukraine funding.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "14:50 UTC",
+      "text": "First Russian diesel shipment confirmed arrived on US East Coast; six bipartisan US senators urge Trump to reverse course.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:20 UTC",
+      "text": "Iran's security chief calls US proposal 'insufficient' and warns of attacks on regional internet cables and data centers.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:55 UTC",
+      "text": "MI5 chief warns state-backed threats from Russia and Iran now exceed Cold War levels, with AI adding new risk vectors.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "13:30 UTC",
+      "text": "Russian strikes on Kyiv, Kharkiv, and Dnipro kill at least two people including an Azerbaijani national; 10 children wounded.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "South Korea recalls Kyiv ambassador over Ukraine's public disclosure of North Korean POW transfer, deepening diplomatic rift.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "Al Jazeera tracker confirms ~3,468 dead in Iran, ~3,696 in Lebanon from cumulative US-Israel strikes.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:30 UTC",
+      "text": "War on the Rocks analysis notes growing doubts over terms of Ukraine's EU accession amid ongoing conflict.",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "09:15 UTC",
+      "text": "Houthi shelling kills and wounds civilians in Taiz residential areas and hospitals as Yemen government forces advance in Marib.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Russian Deputy Defence Minister Yevkurov signals removal of prior operational restrictions in Ukraine conflict.",
+      "source_tier": "unverified"
+    },
     {
       "time": "10:44 UTC",
       "text": "Germany opens Nord Stream war-crimes trial; prosecutors allege Ukrainian state authorities directed the 2022 pipeline sabotage.",
@@ -247,5 +430,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-10-14T10:44:22Z"
+  "last_updated": "2026-10-14T16:03:23Z"
 }
