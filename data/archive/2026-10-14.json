@@ -1,0 +1,251 @@
+{
+  "escalation": {
+    "score": 7.5,
+    "delta": "+0.3 from yesterday",
+    "level": "Elevated",
+    "rationale": "Drone attacks sinking a merchant vessel in the Black Sea near Bulgaria, ongoing Houthi strikes forcing Riyadh airport closure and CEO flight from Saudi energy summit, Iran threatening to destroy US tech infrastructure in the Gulf, and a Nord Stream war-crimes trial opening in Germany collectively push the score upward across multiple theatres."
+  },
+  "ticker_items": [
+    "Bulgaria: Ship sunk by drone in Black Sea; PM summons Russian ambassador.",
+    "Houthis: Top oil CEOs flee Riyadh summit after deadly Saudi airport strikes.",
+    "Iran warns it will destroy US tech assets in Gulf if attacked again.",
+    "Germany opens Nord Stream 'war crime' trial, blaming Ukrainian state authorities.",
+    "South Korea\u2013Ukraine rift deepens over North Korean POW transfer disclosure."
+  ],
+  "new_entrant": {
+    "active": false,
+    "text": ""
+  },
+  "strikes_today": {
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia (suspected)",
+        "target_country": "Bulgaria (international shipping)",
+        "target_location": "Black Sea, off Bulgaria",
+        "description": "Two merchant ships were struck by drones off the Bulgarian coast; one vessel sank and crew were evacuated, with Bulgaria's PM suspecting Russia and summoning the Russian ambassador.",
+        "method": "Drone",
+        "lat": 42.8,
+        "lng": 28.5,
+        "source_tier": "verified"
+      }
+    ],
+    "middle_east": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Palestine",
+        "target_location": "Gaza City",
+        "description": "An Israeli air strike killed a Palestinian woman in Gaza City and caused a large fire in an apartment building from which a young girl was rescued.",
+        "method": "Air/Precision Strike",
+        "lat": 31.5,
+        "lng": 34.47,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Yemen)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh",
+        "description": "Houthi drone and/or missile attacks struck Riyadh's main airport and energy infrastructure, forcing airport closure and prompting Saudi Arabia to investigate air-defence failures.",
+        "method": "Drone",
+        "lat": 24.7,
+        "lng": 46.7,
+        "source_tier": "unverified"
+      }
+    ]
+  },
+  "casualties": {
+    "today": [
+      {
+        "incident": "Black Sea drone attack \u2013 ship crew",
+        "kia": "Unknown",
+        "wia": "reported injuries",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Israeli air strike \u2013 Gaza City apartment",
+        "kia": "1",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Houthi strikes on Saudi airports/infrastructure",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Sudan drone strike (Bellingcat-adjacent reporting, 2026-10-10)",
+        "kia": "~40",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
+      }
+    ],
+    "claimed_totals": [
+      {
+        "claim": "Deaths in Iran from US-Israel attacks",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Lebanon from US-Israel attacks",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Gulf states from US-Israel attacks",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
+      }
+    ]
+  },
+  "quotes": {
+    "russia": [
+      {
+        "text": "Vladimir Putin is more willing than Vladimir Zelensky to reach a peace deal.",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-10-13"
+      }
+    ],
+    "ukraine": [
+      {
+        "text": "Propping up Putin's war economy is morally wrong as he uses that money to bomb cities.",
+        "speaker": "Don Bacon",
+        "title": "US Representative (R-Neb.)",
+        "date": "2026-10-13"
+      }
+    ],
+    "middle_east": [
+      {
+        "text": "The events of recent weeks are serious. Our response must be equally serious.",
+        "speaker": "Saudi Energy Minister",
+        "title": "Saudi Minister of Energy",
+        "date": "2026-10-13"
+      },
+      {
+        "text": "Iran will destroy U.S. technology infrastructure in the Gulf if Washington attacks again.",
+        "speaker": "Mohsen Rezaei",
+        "title": "Secretary, Iran Supreme National Security Council",
+        "date": "2026-10-13"
+      },
+      {
+        "text": "Iran called Britain's RAF Fairford plot claim a false flag.",
+        "speaker": "Iran Foreign Ministry",
+        "title": "Official Spokesperson",
+        "date": "2026-10-13"
+      }
+    ]
+  },
+  "observers": [
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Monitoring",
+      "description": "Germany opened the Nord Stream war-crimes trial on 2026-10-13, with prosecutors alleging Ukrainian state authorities were responsible for the pipeline sabotage. The politically sensitive proceedings are expected to air sworn testimony for the first time publicly. Germany continues to provide materiel support to Ukraine while managing the diplomatic fallout of the trial."
+    },
+    {
+      "country": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "status": "Active materiel + troops",
+      "description": "President Trump announced a deal permitting Russian diesel exports into US and global markets on 2026-10-09, drawing bipartisan criticism and Ukrainian protest. Trump publicly questioned Zelensky's fitness for leadership and suggested Russia is more willing to negotiate, signalling a continued pivot in Washington's posture. US forces remain operationally engaged in the Iran conflict theatre per the Al Jazeera casualty tracker."
+    },
+    {
+      "country": "Iran",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
+      "status": "Active materiel + troops",
+      "description": "Iran's Supreme National Security Council head Mohsen Rezaei declared US peace proposals 'insufficient' and threatened attacks on cables, data centres, and AI facilities if conflict escalates further. Tehran also denied British claims of plotting an attack on RAF Fairford, labelling them a false flag. Iran continues to back Houthi operations against Saudi Arabia and review US Strait of Hormuz proposals."
+    },
+    {
+      "country": "Saudi Arabia",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "status": "Strategic balancer",
+      "description": "Saudi Arabia faces a projected 3.3% economic contraction per the IMF, partly driven by sustained Houthi strikes on airports and energy infrastructure. Top oil-company CEOs withdrew from the World Petroleum Council summit in Riyadh following the attacks, underscoring the security risk to the kingdom's economic flagship events. Saudi Arabia is investigating air-defence failures and its energy minister vowed a serious response."
+    },
+    {
+      "country": "South Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf7",
+      "status": "Monitoring",
+      "description": "South Korea recalled its ambassador to Ukraine after Kyiv publicly disclosed the transfer of two North Korean POWs to Seoul, a move Seoul had demanded remain secret to avoid antagonising Pyongyang. The diplomatic rift is escalating, with both sides exchanging public accusations. Seoul is balancing concern over North Korean military involvement in the Russia-Ukraine war with its own peninsular security calculus."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "UK Prime Minister Andy Burnham told Parliament that Iran almost certainly directed a plot against RAF Fairford, a base used by US bombers, which Iran denied. Reports indicate the UK government is considering redirecting net-zero spending to boost defence budgets. UK military AI ambitions are expanding via new government partnerships, with analysts calling for guardrails."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Strategic balancer",
+      "description": "The Mecca Pact \u2014 analysed by War on the Rocks \u2014 represents Pakistan's bid to become geopolitically indispensable in the Middle East, including as a defence partner for Saudi Arabia alongside Turkey. Analysts describe it as Pakistan's most serious attempt to break its historical cycle of value spiking only during others' emergencies. Pakistan's role in potential Saudi defence is being debated in Israeli commentary."
+    }
+  ],
+  "financial": {
+    "usd_rub": "Unchanged",
+    "brent_crude": "Elevated",
+    "wheat_futures": "Unchanged",
+    "notes": "Saudi Arabia faces IMF-projected 3.3% economic contraction as Houthi attacks on airports and oil infrastructure deter investment and prompt top oil CEO withdrawals from Riyadh's energy summit, adding upward pressure on crude risk premiums."
+  },
+  "update_log": [
+    {
+      "time": "10:44 UTC",
+      "text": "Germany opens Nord Stream war-crimes trial; prosecutors allege Ukrainian state authorities directed the 2022 pipeline sabotage.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:30 UTC",
+      "text": "Bulgaria PM summons Russian ambassador after drone attack sinks one merchant vessel and damages another in the Black Sea.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "09:15 UTC",
+      "text": "Iran's Mohsen Rezaei threatens to destroy US tech and AI infrastructure in the Gulf if Washington launches further attacks, calling latest US proposals insufficient.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Israeli air strike kills Palestinian woman and ignites apartment fire in Gaza City; child rescued by civilians.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "Saudi Arabia keeps Riyadh airport closed as officials probe how Houthi drones evaded air defences; top oil CEOs pulled from Riyadh energy summit.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "05:00 UTC",
+      "text": "War on the Rocks analysis flags growing doubts over terms of Ukraine's EU accession ahead of the October EU summit.",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "04:00 UTC",
+      "text": "South Korea\u2013Ukraine diplomatic rift continues as Seoul presses Kyiv over unauthorised disclosure of North Korean POW transfer.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "03:00 UTC",
+      "text": "Trump publicly questions Zelensky's leadership and says Putin is more willing than Ukraine to reach a peace deal; European leaders rally behind Zelensky.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "02:00 UTC",
+      "text": "Ukraine's Operation Vivaldi counteroffensive reportedly deploying ground robots in assault and distraction roles.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "01:00 UTC",
+      "text": "Al Jazeera tracker confirms cumulative Iran-Lebanon-Gulf state death toll from US-Israel strikes stands at approximately 7,192 as of June 2026 data.",
+      "source_tier": "verified"
+    }
+  ],
+  "last_updated": "2026-10-14T10:44:22Z"
+}

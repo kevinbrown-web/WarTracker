@@ -1,154 +1,85 @@
 {
   "escalation": {
-    "score": 7.2,
-    "delta": "No previous score available",
+    "score": 7.5,
+    "delta": "+0.3 from yesterday",
     "level": "Elevated",
-    "rationale": "Multiple simultaneous flashpoints \u2014 Trump's unilateral 'energy ceasefire' straining US-Ukraine-Europe relations, Houthi strikes killing 13 at Riyadh airport, Iran threatening attacks on US data centers and Gulf infrastructure, IRGC targeting oil-shuttle shipping in the Strait of Hormuz, and NATO warning of potential Russian attack on the alliance \u2014 collectively push the global conflict environment to high-elevated territory."
+    "rationale": "Drone attacks sinking a merchant vessel in the Black Sea near Bulgaria, ongoing Houthi strikes forcing Riyadh airport closure and CEO flight from Saudi energy summit, Iran threatening to destroy US tech infrastructure in the Gulf, and a Nord Stream war-crimes trial opening in Germany collectively push the score upward across multiple theatres."
   },
   "ticker_items": [
-    "Houthis strike Riyadh airport; 13 killed, hundreds wounded in deadliest Saudi attack in decade.",
-    "Trump's 'energy ceasefire' collapses as Russia stays silent and energy prices rise.",
-    "Iran threatens US data centers and Gulf cables if attacks resume; calls US response 'insufficient'.",
-    "NATO commander vows 'anything and everything' in response to any alliance attack.",
-    "South Korea recalls Kyiv ambassador over North Korean POW disclosure dispute."
+    "Bulgaria: Ship sunk by drone in Black Sea; PM summons Russian ambassador.",
+    "Houthis: Top oil CEOs flee Riyadh summit after deadly Saudi airport strikes.",
+    "Iran warns it will destroy US tech assets in Gulf if attacked again.",
+    "Germany opens Nord Stream 'war crime' trial, blaming Ukrainian state authorities.",
+    "South Korea\u2013Ukraine rift deepens over North Korean POW transfer disclosure."
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Saudi Arabia has emerged as a direct Houthi strike target with the deadly Riyadh airport attack, raising fears of US military involvement in a widening Yemen-Saudi conflict."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
       {
         "time_utc": "Unknown",
-        "attacker": "Russia",
-        "target_country": "Ukraine",
-        "target_location": "Multiple energy facilities",
-        "description": "Russia continued striking Ukrainian power and energy infrastructure despite Trump's announced energy ceasefire agreement, according to Zelensky.",
-        "method": "Missile/Surface",
-        "lat": 49.0,
-        "lng": 32.0,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Ukraine",
-        "target_country": "Russia",
-        "target_location": "Russian oil refineries",
-        "description": "Ukraine reportedly continued striking Russian oil refineries, prompting US threats to cut arms sales and intelligence sharing.",
-        "method": "Drone/Air",
-        "lat": 55.0,
-        "lng": 37.6,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Russia",
-        "target_country": "Ukraine",
-        "target_location": "Kyiv region",
-        "description": "Russian overnight strikes targeted the Kyiv region as part of continued aerial bombardment campaign.",
-        "method": "Air/Drone",
-        "lat": 50.45,
-        "lng": 30.52,
+        "attacker": "Russia (suspected)",
+        "target_country": "Bulgaria (international shipping)",
+        "target_location": "Black Sea, off Bulgaria",
+        "description": "Two merchant ships were struck by drones off the Bulgarian coast; one vessel sank and crew were evacuated, with Bulgaria's PM suspecting Russia and summoning the Russian ambassador.",
+        "method": "Drone",
+        "lat": 42.8,
+        "lng": 28.5,
         "source_tier": "verified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Russia",
-        "target_country": "Ukraine",
-        "target_location": "Kharkiv",
-        "description": "Russian strikes hit Kharkiv as part of coordinated multi-city attack injuring civilians.",
-        "method": "Missile/Surface",
-        "lat": 49.99,
-        "lng": 36.23,
-        "source_tier": "verified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Russia",
-        "target_country": "Ukraine",
-        "target_location": "Dnipro",
-        "description": "Russian aerial strikes struck Dnipro as part of the ongoing multi-city bombardment campaign.",
-        "method": "Missile/Surface",
-        "lat": 48.46,
-        "lng": 35.04,
-        "source_tier": "unverified"
       }
     ],
     "middle_east": [
       {
         "time_utc": "Unknown",
-        "attacker": "Houthis",
-        "target_country": "Saudi Arabia",
-        "target_location": "Riyadh",
-        "description": "Houthi missile struck Riyadh airport area, killing one and injuring 11 in a continued escalatory campaign against Saudi infrastructure.",
-        "method": "Ballistic Missile",
-        "lat": 24.7136,
-        "lng": 46.6753,
+        "attacker": "Israel",
+        "target_country": "Palestine",
+        "target_location": "Gaza City",
+        "description": "An Israeli air strike killed a Palestinian woman in Gaza City and caused a large fire in an apartment building from which a young girl was rescued.",
+        "method": "Air/Precision Strike",
+        "lat": 31.5,
+        "lng": 34.47,
         "source_tier": "unverified"
       },
       {
         "time_utc": "Unknown",
-        "attacker": "Houthis",
+        "attacker": "Houthis (Yemen)",
         "target_country": "Saudi Arabia",
         "target_location": "Riyadh",
-        "description": "Houthi forces launched multiple strikes on Riyadh's main international airport over the weekend, killing 13 people and wounding hundreds in the deadliest attack on Saudi soil in over a decade.",
-        "method": "Ballistic Missile",
-        "lat": 24.96,
+        "description": "Houthi drone and/or missile attacks struck Riyadh's main airport and energy infrastructure, forcing airport closure and prompting Saudi Arabia to investigate air-defence failures.",
+        "method": "Drone",
+        "lat": 24.7,
         "lng": 46.7,
-        "source_tier": "verified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "IRGC",
-        "target_country": "International/Gulf States",
-        "target_location": "Strait of Hormuz",
-        "description": "Iranian IRGC forces struck additional vessels allegedly part of a US-UAE crude oil shuttle operation attempting to bypass the Strait of Hormuz.",
-        "method": "Anti-Ship Missile",
-        "lat": 26.56,
-        "lng": 56.25,
-        "source_tier": "verified"
+        "source_tier": "unverified"
       }
     ]
   },
   "casualties": {
     "today": [
       {
-        "incident": "Houthi missile strike on Riyadh airport",
+        "incident": "Black Sea drone attack \u2013 ship crew",
+        "kia": "Unknown",
+        "wia": "reported injuries",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Israeli air strike \u2013 Gaza City apartment",
         "kia": "1",
-        "wia": "11",
-        "civilian": true,
-        "source_tier": "unverified"
-      },
-      {
-        "incident": "Sudan drone strike (recent)",
-        "kia": "~40",
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "unverified"
       },
       {
-        "incident": "US-Israel attacks on Iran (cumulative tracker)",
-        "kia": "~3,468 (Iran), ~3,696 (Lebanon), ~28 (Gulf states)",
+        "incident": "Houthi strikes on Saudi airports/infrastructure",
+        "kia": "Unknown",
         "wia": "Unknown",
-        "civilian": true,
-        "source_tier": "verified"
-      },
-      {
-        "incident": "Houthi strikes on Riyadh airport",
-        "kia": "13",
-        "wia": "est. hundreds",
         "civilian": true,
         "source_tier": "unverified"
       },
       {
-        "incident": "Russian strikes on Kyiv, Kharkiv, Dnipro",
-        "kia": "~2",
-        "wia": "est. dozens, incl. 10 children",
-        "civilian": true,
-        "source_tier": "verified"
-      },
-      {
-        "incident": "Drone strike in Sudan",
+        "incident": "Sudan drone strike (Bellingcat-adjacent reporting, 2026-10-10)",
         "kia": "~40",
         "wia": "Unknown",
         "civilian": true,
@@ -157,255 +88,164 @@
     ],
     "claimed_totals": [
       {
-        "claim": "Deaths in Iran from US-Israel strikes",
+        "claim": "Deaths in Iran from US-Israel attacks",
         "figure": "~3,468",
         "claimed_by": "Al Jazeera live tracker",
-        "as_of": "2026-06-10 (last modified)"
+        "as_of": "2026-06-10"
       },
       {
-        "claim": "Deaths in Lebanon from US-Israel strikes",
+        "claim": "Deaths in Lebanon from US-Israel attacks",
         "figure": "~3,696",
         "claimed_by": "Al Jazeera live tracker",
-        "as_of": "2026-06-10 (last modified)"
+        "as_of": "2026-06-10"
       },
       {
-        "claim": "Deaths in Gulf states from US-Israel strikes",
+        "claim": "Deaths in Gulf states from US-Israel attacks",
         "figure": "~28",
         "claimed_by": "Al Jazeera live tracker",
-        "as_of": "2026-06-10 (last modified)"
+        "as_of": "2026-06-10"
       }
     ]
   },
   "quotes": {
     "russia": [
       {
-        "text": "Zelensky does not deserve a respite on the battlefield.",
-        "speaker": "Sergey Lavrov",
-        "title": "Russian Foreign Minister",
-        "date": "2026-10-12"
-      },
-      {
-        "text": "Russia has not publicly confirmed or rejected Trump's energy ceasefire proposal; Moscow's silence casts doubt on whether a truce is viable.",
-        "speaker": "Not attributed",
-        "title": "Kremlin/Moscow",
-        "date": "2026-10-12"
+        "text": "Vladimir Putin is more willing than Vladimir Zelensky to reach a peace deal.",
+        "speaker": "Donald Trump",
+        "title": "US President",
+        "date": "2026-10-13"
       }
     ],
     "ukraine": [
       {
-        "text": "Russia continues to strike Ukraine's power facilities despite Trump's 'energy ceasefire' announcement.",
-        "speaker": "Volodymyr Zelenskyy",
-        "title": "President of Ukraine",
-        "date": "2026-10-12"
-      },
-      {
-        "text": "Ukraine backs Trump's energy ceasefire despite being blindsided by the announcement.",
-        "speaker": "Ukrainian government spokesperson",
-        "title": "Ukrainian Government",
-        "date": "2026-10-12"
+        "text": "Propping up Putin's war economy is morally wrong as he uses that money to bomb cities.",
+        "speaker": "Don Bacon",
+        "title": "US Representative (R-Neb.)",
+        "date": "2026-10-13"
       }
     ],
     "middle_east": [
       {
-        "text": "The US response to negotiations is insufficient.",
+        "text": "The events of recent weeks are serious. Our response must be equally serious.",
+        "speaker": "Saudi Energy Minister",
+        "title": "Saudi Minister of Energy",
+        "date": "2026-10-13"
+      },
+      {
+        "text": "Iran will destroy U.S. technology infrastructure in the Gulf if Washington attacks again.",
         "speaker": "Mohsen Rezaei",
-        "title": "Head, Iran Supreme National Security Council",
-        "date": "2026-10-12"
+        "title": "Secretary, Iran Supreme National Security Council",
+        "date": "2026-10-13"
       },
       {
-        "text": "If the US attacks again, Iran will destroy US data centers, AI facilities, and cables in the Gulf.",
-        "speaker": "Mohsen Rezaei",
-        "title": "Head, Iran Supreme National Security Council",
-        "date": "2026-10-12"
-      },
-      {
-        "text": "NATO will do 'anything and everything' if the alliance is attacked.",
-        "speaker": "NATO Supreme Commander",
-        "title": "NATO Commander",
-        "date": "2026-10-12"
-      },
-      {
-        "text": "A military solution in Yemen risks complicating the volatile regional situation.",
-        "speaker": "Iranian government spokesperson",
-        "title": "Iranian Government",
-        "date": "2026-10-12"
+        "text": "Iran called Britain's RAF Fairford plot claim a false flag.",
+        "speaker": "Iran Foreign Ministry",
+        "title": "Official Spokesperson",
+        "date": "2026-10-13"
       }
     ]
   },
   "observers": [
     {
-      "country": "United States",
-      "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "status": "Mediator + arms supplier",
-      "description": "Trump declared an 'energy ceasefire' between Russia and Ukraine linked to a US-Russia diesel import deal, while simultaneously threatening Kyiv with cuts to arms sales and intelligence sharing over Ukrainian strikes on Russian refineries. CIA Director Ratcliffe reportedly conducted a covert mission to Moscow in late August 2026. Trump has also publicly questioned Zelenskyy's leadership, suggesting Ukraine needs a new president."
-    },
-    {
       "country": "Germany",
       "flag": "\ud83c\udde9\ud83c\uddea",
-      "status": "Supplying dual-use goods",
-      "description": "Chancellor Merz explicitly rejected Trump's Russia diesel deal as 'out of the question' for Germany and the EU, reaffirming European solidarity with Ukraine. Germany continues to navigate internal coalition pressures alongside its Ukraine support posture."
+      "status": "Monitoring",
+      "description": "Germany opened the Nord Stream war-crimes trial on 2026-10-13, with prosecutors alleging Ukrainian state authorities were responsible for the pipeline sabotage. The politically sensitive proceedings are expected to air sworn testimony for the first time publicly. Germany continues to provide materiel support to Ukraine while managing the diplomatic fallout of the trial."
     },
     {
-      "country": "Russia",
-      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "country": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
       "status": "Active materiel + troops",
-      "description": "Russia rejected Ukraine's 60-day truce and presidential election proposal outright, with Lavrov stating Zelenskyy 'does not deserve a respite.' Russian forces continued striking Ukrainian energy infrastructure despite the US-announced energy ceasefire, while the Kremlin remained silent on formally endorsing the ceasefire deal."
+      "description": "President Trump announced a deal permitting Russian diesel exports into US and global markets on 2026-10-09, drawing bipartisan criticism and Ukrainian protest. Trump publicly questioned Zelensky's fitness for leadership and suggested Russia is more willing to negotiate, signalling a continued pivot in Washington's posture. US forces remain operationally engaged in the Iran conflict theatre per the Al Jazeera casualty tracker."
     },
     {
       "country": "Iran",
       "flag": "\ud83c\uddee\ud83c\uddf7",
-      "status": "Strategic balancer",
-      "description": "Iran's Supreme National Security Council head called the latest US negotiating response 'insufficient' and threatened attacks on undersea cables, data centers, and AI facilities if the conflict escalates further. Iran continues to back Houthi operations against Saudi Arabia and remains in a fragile negotiating posture with Washington."
-    },
-    {
-      "country": "China",
-      "flag": "\ud83c\udde8\ud83c\uddf3",
-      "status": "Monitoring",
-      "description": "China publicly condemned Houthi missile attacks on Saudi Arabia and warned against further escalation of regional tensions. Beijing's condemnation signals concern over Red Sea and Gulf stability affecting Chinese trade and energy interests."
-    },
-    {
-      "country": "South Korea",
-      "flag": "\ud83c\uddf0\ud83c\uddf7",
-      "status": "Abstaining",
-      "description": "South Korea recalled its ambassador to Ukraine over Kyiv's public disclosure of the transfer of two North Korean POWs to Seoul, accusing Ukraine of breaching a non-disclosure agreement. The diplomatic row has added friction to Seoul's posture toward Ukraine without affecting broader alliance commitments."
-    },
-    {
-      "country": "Ukraine",
-      "flag": "\ud83c\uddfa\ud83c\udde6",
       "status": "Active materiel + troops",
-      "description": "Ukraine publicly accepted Trump's energy ceasefire despite not being consulted in advance. Ukrainian forces are conducting Operation Vivaldi, a counteroffensive employing ground robots for assault and distraction roles. A diplomatic crisis with South Korea deepened after Kyiv publicly disclosed the transfer of two North Korean POWs to Seoul against Seoul's wishes."
+      "description": "Iran's Supreme National Security Council head Mohsen Rezaei declared US peace proposals 'insufficient' and threatened attacks on cables, data centres, and AI facilities if conflict escalates further. Tehran also denied British claims of plotting an attack on RAF Fairford, labelling them a false flag. Iran continues to back Houthi operations against Saudi Arabia and review US Strait of Hormuz proposals."
     },
     {
       "country": "Saudi Arabia",
       "flag": "\ud83c\uddf8\ud83c\udde6",
+      "status": "Strategic balancer",
+      "description": "Saudi Arabia faces a projected 3.3% economic contraction per the IMF, partly driven by sustained Houthi strikes on airports and energy infrastructure. Top oil-company CEOs withdrew from the World Petroleum Council summit in Riyadh following the attacks, underscoring the security risk to the kingdom's economic flagship events. Saudi Arabia is investigating air-defence failures and its energy minister vowed a serious response."
+    },
+    {
+      "country": "South Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf7",
+      "status": "Monitoring",
+      "description": "South Korea recalled its ambassador to Ukraine after Kyiv publicly disclosed the transfer of two North Korean POWs to Seoul, a move Seoul had demanded remain secret to avoid antagonising Pyongyang. The diplomatic rift is escalating, with both sides exchanging public accusations. Seoul is balancing concern over North Korean military involvement in the Russia-Ukraine war with its own peninsular security calculus."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
       "status": "Active materiel + troops",
-      "description": "Saudi Arabia suffered its deadliest attack on home soil in over a decade after Houthi forces struck Riyadh's main airport, killing 13 and wounding hundreds. Riyadh airport remained closed as Saudi officials investigated the failure of air defenses. Saudi Arabia is simultaneously engaged in Iran-mediated talks over the Yemen conflict."
+      "description": "UK Prime Minister Andy Burnham told Parliament that Iran almost certainly directed a plot against RAF Fairford, a base used by US bombers, which Iran denied. Reports indicate the UK government is considering redirecting net-zero spending to boost defence budgets. UK military AI ambitions are expanding via new government partnerships, with analysts calling for guardrails."
     },
     {
-      "country": "NATO (collective)",
-      "flag": "\ud83c\udff3\ufe0f",
-      "status": "Basing + logistics",
-      "description": "NATO's supreme commander issued a warning that the alliance would do 'anything and everything' if attacked, amid European intelligence reports of potential Russian provocations. The US NATO envoy told member states to take responsibility for expanding military infrastructure eastward and warned that European arms orders may fall behind Pentagon demand due to limited production capacity."
-    },
-    {
-      "country": "European Union",
-      "flag": "\ud83c\uddea\ud83c\uddfa",
-      "status": "Supplying dual-use goods",
-      "description": "European leaders rallied behind Zelenskyy following Trump's diesel deal with Russia and calls for new Ukrainian leadership, affirming continued support for Kyiv. Doubts are growing over the terms of Ukraine's EU accession, with analysts noting institutional and political obstacles. European nations are debating contingency plans in response to intelligence assessments of potential Russian attacks on NATO territory."
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Strategic balancer",
+      "description": "The Mecca Pact \u2014 analysed by War on the Rocks \u2014 represents Pakistan's bid to become geopolitically indispensable in the Middle East, including as a defence partner for Saudi Arabia alongside Turkey. Analysts describe it as Pakistan's most serious attempt to break its historical cycle of value spiking only during others' emergencies. Pakistan's role in potential Saudi defence is being debated in Israeli commentary."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Rising",
+    "brent_crude": "Elevated",
     "wheat_futures": "Unchanged",
-    "notes": "Oil and gas prices rose Monday after Trump's 'energy ceasefire' failed to gain traction with either Russia or Ukraine, while IRGC strikes on Strait of Hormuz shipping and the Houthi closure of Riyadh airport added supply-chain risk premiums; US diesel prices remain above $6/gallon driving the Russian diesel import deal."
+    "notes": "Saudi Arabia faces IMF-projected 3.3% economic contraction as Houthi attacks on airports and oil infrastructure deter investment and prompt top oil CEO withdrawals from Riyadh's energy summit, adding upward pressure on crude risk premiums."
   },
   "update_log": [
     {
-      "time": "22:00",
-      "text": "NATO commander issues 'anything and everything' warning as European leaders monitor potential Russian attack planning.",
+      "time": "10:44 UTC",
+      "text": "Germany opens Nord Stream war-crimes trial; prosecutors allege Ukrainian state authorities directed the 2022 pipeline sabotage.",
       "source_tier": "verified"
     },
     {
-      "time": "20:00",
-      "text": "Iran's security chief threatens destruction of US data centers, AI facilities, and Gulf cables if attacked again.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "18:00",
-      "text": "Oil and gas prices rise as Trump's 'energy ceasefire' fails to gain traction with Russia or Ukraine.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "16:00",
-      "text": "IRGC strikes additional vessels in Strait of Hormuz allegedly part of US-UAE oil shuttle operation.",
+      "time": "10:30 UTC",
+      "text": "Bulgaria PM summons Russian ambassador after drone attack sinks one merchant vessel and damages another in the Black Sea.",
       "source_tier": "verified"
     },
     {
-      "time": "14:00",
-      "text": "South Korea recalls ambassador to Ukraine over public disclosure of North Korean POW transfer.",
+      "time": "09:15 UTC",
+      "text": "Iran's Mohsen Rezaei threatens to destroy US tech and AI infrastructure in the Gulf if Washington launches further attacks, calling latest US proposals insufficient.",
       "source_tier": "unverified"
     },
     {
-      "time": "12:00",
-      "text": "Riyadh airport remains closed as Saudi officials probe air defense failures after Houthi strikes killed 13.",
+      "time": "08:00 UTC",
+      "text": "Israeli air strike kills Palestinian woman and ignites apartment fire in Gaza City; child rescued by civilians.",
       "source_tier": "unverified"
     },
     {
-      "time": "10:00",
-      "text": "Ukraine publicly supports Trump's energy ceasefire despite being blindsided; Russia stays silent.",
+      "time": "06:00 UTC",
+      "text": "Saudi Arabia keeps Riyadh airport closed as officials probe how Houthi drones evaded air defences; top oil CEOs pulled from Riyadh energy summit.",
       "source_tier": "unverified"
     },
     {
-      "time": "08:00",
-      "text": "European leaders rally behind Zelenskyy after Trump eases restrictions on Russian diesel imports.",
+      "time": "05:00 UTC",
+      "text": "War on the Rocks analysis flags growing doubts over terms of Ukraine's EU accession ahead of the October EU summit.",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "04:00 UTC",
+      "text": "South Korea\u2013Ukraine diplomatic rift continues as Seoul presses Kyiv over unauthorised disclosure of North Korean POW transfer.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "03:00 UTC",
+      "text": "Trump publicly questions Zelensky's leadership and says Putin is more willing than Ukraine to reach a peace deal; European leaders rally behind Zelensky.",
       "source_tier": "verified"
     },
     {
-      "time": "06:00",
-      "text": "Russia continues overnight strikes on Kyiv, Kharkiv, and Dnipro killing at least two people including an Azerbaijani citizen.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "04:00",
-      "text": "First Russian diesel tanker MINERVA ZEN arrives on US East Coast less than a day after agreement announcement.",
+      "time": "02:00 UTC",
+      "text": "Ukraine's Operation Vivaldi counteroffensive reportedly deploying ground robots in assault and distraction roles.",
       "source_tier": "unverified"
     },
     {
-      "time": "02:00",
-      "text": "Houthi forces warn of strikes on US forces if Washington joins Saudi Arabia's military campaign in Yemen.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "13:03",
-      "text": "Kremlin formally rejects Ukraine's offer of a 60-day truce and presidential elections.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "13:03",
-      "text": "Zelenskyy states Russia continues striking energy infrastructure despite Trump's declared energy ceasefire.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "13:03",
-      "text": "Houthis strike Riyadh airport again; one killed, 11 injured; US restricts diplomat airport use in Saudi Arabia.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "13:03",
-      "text": "Trump reportedly threatens to cut arms sales and intelligence sharing to Ukraine unless Kyiv halts strikes on Russian refineries.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "13:03",
-      "text": "Germany's Chancellor Merz rejects Trump's Russia diesel deal as incompatible with EU policy.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "13:03",
-      "text": "Al Jazeera reports Trump has raised the prospect of replacing Zelenskyy, with Zaluzhnyi cited as a leading alternative.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "13:03",
-      "text": "Iran's security chief threatens attacks on cables and data centers if conflict escalates, calls US proposal insufficient.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "13:03",
-      "text": "China condemns Houthi attacks on Saudi Arabia and warns against regional escalation.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "13:03",
-      "text": "First Russian diesel shipment reported arrived on US East Coast per OSINT analysts.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "13:03",
-      "text": "European leaders rally behind Zelenskyy after Trump's diesel deal and leadership comments per RFE/RL.",
+      "time": "01:00 UTC",
+      "text": "Al Jazeera tracker confirms cumulative Iran-Lebanon-Gulf state death toll from US-Israel strikes stands at approximately 7,192 as of June 2026 data.",
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-10-13T22:00:51Z"
+  "last_updated": "2026-10-14T10:44:22Z"
 }
