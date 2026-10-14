@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.8,
+    "score": 8.2,
     "delta": "No previous score available",
-    "level": "Elevated-High",
-    "rationale": "Multiple simultaneous flashpoints \u2014 active US-Israel strikes on Iran with ~3,400+ dead, Houthi drone attacks on Riyadh, NATO revealing anti-Russia war plans, Trump's Russian diesel deal fracturing Western unity, and Iran threatening regional internet infrastructure \u2014 collectively push the score into the high-elevated range."
+    "level": "High",
+    "rationale": "Simultaneous active conflicts in Ukraine-Russia, a live US-Israel vs Iran war with 7,000+ documented deaths, Saudi-Houthi escalation including drone strikes on Riyadh, Iranian threats to Gulf digital infrastructure, NATO revealing its Russia war plan, and a Trump-Europe rift over Russian diesel collectively push conditions to High."
   },
   "ticker_items": [
-    "Houthi drones intercepted over Riyadh; Aramco facilities and airports threatened.",
-    "Trump's Russian diesel deal sparks bipartisan US backlash; first shipment already arrived.",
-    "NATO reveals 'Block, Blunt, Break' war plan to stop Russian invasion of Europe.",
-    "Iran calls US nuclear/conflict proposal 'insufficient'; threatens cable and data center attacks.",
-    "South Korea recalls Kyiv ambassador over North Korean POW transfer dispute."
+    "Houthi drones intercepted over Riyadh; Saudi coalition strikes Sanaa fuel depot.",
+    "Trump calls for Zelensky replacement; European leaders rally behind Kyiv.",
+    "Iran labels latest US negotiation response 'insufficient'; threatens cable attacks.",
+    "NATO reveals anti-Russia invasion war plan publicly for first time.",
+    "South Korea recalls Kyiv ambassador over North Korean POW disclosure row."
   ],
   "new_entrant": {
     "active": true,
-    "text": "Saudi Arabia has emerged as an active strike target in the Yemen-Houthi theater, with Houthi drones attacking Riyadh and Iran-backed forces threatening Aramco facilities and airports, while Turkey's MHP calls for Ankara to provide direct military support to Riyadh."
+    "text": "Saudi Arabia has escalated into direct active military engagement with Houthi forces in Yemen, launching coalition airstrikes on Sanaa while absorbing Houthi drone strikes on Riyadh, marking a sharp intensification of its direct combat role."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -61,6 +61,50 @@
         "lat": 48.46,
         "lng": 35.04,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple locations (unspecified)",
+        "description": "Russia conducted missile strikes on Ukraine; Zelensky stated Western partners provided no advance warning prior to the attack.",
+        "method": "Missile/Surface",
+        "lat": 49.0,
+        "lng": 32.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Russian territory (unspecified)",
+        "description": "Ukraine continued reciprocal strikes on Russian territory as part of ongoing exchange, with Zelensky stating Ukraine will strike Russia until ceasefire terms are followed.",
+        "method": "Missile/Surface",
+        "lat": 51.5,
+        "lng": 36.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia (suspected)",
+        "target_country": "United Kingdom / Europe",
+        "target_location": "Starlink ground infrastructure (Poland region)",
+        "description": "A Starlink ground infrastructure facility was sabotaged in what European officials characterized as a Russian hybrid warfare operation.",
+        "method": "Ground/Armored",
+        "lat": 52.0,
+        "lng": 20.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Lebanon",
+        "target_location": "Zibqin, southern Lebanon",
+        "description": "An Israeli quadcopter drone dropped a bomb on the outskirts of the village of Zibqin in southern Lebanon.",
+        "method": "Air/Drone",
+        "lat": 33.18,
+        "lng": 35.31,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -118,6 +162,39 @@
         "lat": 13.58,
         "lng": 44.02,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Saudi-led coalition",
+        "target_country": "Yemen",
+        "target_location": "Sanaa (fuel depot outskirts)",
+        "description": "Saudi-led coalition struck a fuel depot near Sanaa's capital after issuing a civilian evacuation warning; Houthis vowed retaliation against Riyadh and Dammam.",
+        "method": "Air/Precision Strike",
+        "lat": 15.35,
+        "lng": 44.21,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh",
+        "description": "Armed Houthi drones attacked Riyadh; Saudi armed forces confirmed interceptions before drones reached targets.",
+        "method": "Air/Drone",
+        "lat": 24.68,
+        "lng": 46.72,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Sanaa outskirts / broader Saudi territory",
+        "description": "Houthis threatened and began executing retaliatory strikes targeting Saudi Aramco facilities and airports following coalition airstrikes on Sanaa.",
+        "method": "Missile/Surface",
+        "lat": 24.68,
+        "lng": 46.72,
+        "source_tier": "verified"
       }
     ]
   },
@@ -171,6 +248,20 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Saudi coalition strike on Sanaa fuel depot",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Houthi drone attack on Riyadh",
+        "kia": "0 (drones intercepted)",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -191,6 +282,12 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera live tracker",
         "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Trinidad nationals killed in US boat strikes",
+        "figure": "~239",
+        "claimed_by": "Al Jazeera reporting",
+        "as_of": "2026-10-14"
       }
     ]
   },
@@ -214,6 +311,18 @@
         "text": "Propping up Putin's war economy is morally wrong as he uses that money to bomb cities.",
         "speaker": "Don Bacon",
         "title": "US Representative (R-Neb.)",
+        "date": "2026-10-13"
+      },
+      {
+        "text": "Ukraine received no advance warning from its Western partners ahead of the latest Russian missile strike.",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President of Ukraine",
+        "date": "2026-10-13"
+      },
+      {
+        "text": "Ukraine wants peace but will hit Russia until it follows ceasefire.",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President of Ukraine",
         "date": "2026-10-13"
       }
     ],
@@ -246,6 +355,24 @@
         "text": "Block, blunt, break \u2014 NATO has a plan to stop a Russian invasion of Europe.",
         "speaker": "NATO Supreme Commander",
         "title": "NATO Supreme Allied Commander Europe",
+        "date": "2026-10-13"
+      },
+      {
+        "text": "The US response to negotiations is insufficient.",
+        "speaker": "Mohsen Rezaei",
+        "title": "Head, Iran Supreme National Security Council",
+        "date": "2026-10-12"
+      },
+      {
+        "text": "If the war escalates sharply again, we could target cables, data centers, and AI facilities in the region.",
+        "speaker": "Mohsen Rezaei",
+        "title": "Head, Iran Supreme National Security Council",
+        "date": "2026-10-11"
+      },
+      {
+        "text": "Hybrid plots like the Starlink fire showed Europe was in Russia's crosshairs.",
+        "speaker": "Johann Wadephul",
+        "title": "German official",
         "date": "2026-10-13"
       }
     ]
@@ -310,15 +437,77 @@
       "flag": "\ud83c\uddee\ud83c\uddf1",
       "status": "Active materiel + troops",
       "description": "Israel remains engaged in active strikes on Iran alongside the US, with cumulative Iranian deaths exceeding 3,400. Israel's October 27 election is approaching, with Trump notably hedging on endorsing Netanyahu amid shifting public sentiment. Saudi Arabia rejected Israel's bid to join the anti-Houthi coalition."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Active materiel + troops",
+      "description": "North Korea opened its National Defense Revolution Museum showcasing ICBMs, signaling continued missile posturing. Two North Korean POWs captured in Ukraine were transferred to South Korea, causing a diplomatic rift between Seoul and Kyiv. Pyongyang's troop and materiel support for Russia remains an active concern."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Supplying dual-use goods",
+      "description": "Reports suggest Chinese assistance to Iran during the ongoing conflict, though Trump publicly stated he does not believe China or Russia are helping Iran. China's role remains under active investigation amid the Iran war. Beijing has not publicly confirmed or denied assistance."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
     "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "The first Russian diesel shipment arrived on the US East Coast aboard the tanker MINERVA ZEN, undercutting Western sanctions pressure and sparking bipartisan US congressional backlash; Saudi Arabia's economy is projected to contract 3.3% in 2026 per IMF amid Houthi strikes and regional war."
+    "notes": "Trump's Russian diesel deal\u2014allowing Russian diesel back into US and global markets\u2014has created significant transatlantic diplomatic friction, with European allies warning it props up Putin's war economy; no specific commodity prices available in today's headlines."
   },
   "update_log": [
+    {
+      "time": "21:02 UTC",
+      "text": "Houthi drones intercepted over Riyadh; Saudi coalition struck Sanaa fuel depot with civilian evacuation order issued in advance.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "21:02 UTC",
+      "text": "Al Jazeera verified cumulative death toll tracker shows ~3,468 dead in Iran, ~3,696 in Lebanon from US-Israel strikes.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "21:02 UTC",
+      "text": "NATO's Supreme Allied Commander publicly revealed a new war plan to stop a Russian invasion of Europe.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "21:02 UTC",
+      "text": "Trump called for Zelensky's replacement while European leaders rallied behind Ukraine at Poland summit.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "21:02 UTC",
+      "text": "Iran's Mohsen Rezaei threatened attacks on Gulf cables and data centers if conflict re-escalates sharply.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:02 UTC",
+      "text": "Starlink ground facility sabotaged in Europe; Germany and UK attribute to Russian hybrid warfare campaign.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:02 UTC",
+      "text": "South Korea recalled ambassador to Kyiv over public disclosure of North Korean POW transfer.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:02 UTC",
+      "text": "Israeli quadcopter drone dropped bomb near Zibqin, southern Lebanon.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:02 UTC",
+      "text": "Russia's Deputy Defence Minister stated old operational restrictions no longer apply in Ukraine conflict.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:02 UTC",
+      "text": "War on the Rocks analyst piece warns Ukrainian battlefield victories could paradoxically raise nuclear escalation risk.",
+      "source_tier": "analyst"
+    },
     {
       "time": "16:03 UTC",
       "text": "NATO Supreme Commander publicly reveals 'Block, Blunt, Break' war plan designed to stop a Russian invasion of Europe.",
@@ -430,5 +619,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-10-14T16:03:23Z"
+  "last_updated": "2026-10-14T21:02:11Z"
 }
