@@ -1,122 +1,56 @@
 {
   "escalation": {
-    "score": 8.2,
-    "delta": "No previous score available",
+    "score": 8.4,
+    "delta": "+0.2 from yesterday",
     "level": "High",
-    "rationale": "Simultaneous high-intensity fronts across Ukraine (Russian missile strikes on Kyiv energy grid, US intelligence sharing suspension allegations, Starlink throttling), the Middle East (Houthi missile on Riyadh, Aramco attack in Dhahran, ongoing US-Israel-Iran war with 7,000+ confirmed dead), and rising US-Russia entanglement via diesel deal and ceasefire pressure collectively push the global conflict environment to a high escalation threshold."
+    "rationale": "Ukraine formally ended the energy ceasefire and resumed drone strikes on Russian oil refineries, while Houthi ballistic missile attacks on Saudi Aramco headquarters and Riyadh-area targets significantly widened the Middle East conflict front, and US-Israel casualty tolls from Iran operations continue accumulating."
   },
   "ticker_items": [
-    "Russia strikes Kyiv energy grid; Ukraine accuses US of withholding missile warning intel.",
-    "Houthis launch missile at Riyadh; Saudi Aramco Dhahran building attacked, fire reported.",
-    "Ukraine alleges SpaceX throttled Starlink during active Russian attack operations.",
-    "China-North Korea New Yalu River Bridge opens, signaling deepening Pyongyang-Beijing ties.",
-    "Germany's Nord Stream sabotage trial opens in Hamburg against former Ukrainian officer."
+    "Ukraine drones strike Ryazan oil refinery; Zelenskyy declares energy truce 'done'.",
+    "Houthis claim direct hit on Saudi Aramco HQ in Dhahran; vow more strikes.",
+    "China-North Korea New Yalu River Bridge officially opens, deepening bilateral ties.",
+    "Trump admits US-Israel 'may have gone too far' killing Iranian leadership.",
+    "South Korea-Ukraine diplomatic rift deepens over North Korean POW transfer."
   ],
   "new_entrant": {
     "active": true,
-    "text": "The China-North Korea New Yalu River Bridge formally opened on 2026-10-16, institutionalizing deeper bilateral logistics and materiel flows between Beijing and Pyongyang in the context of ongoing North Korean troop deployments to Russia."
+    "text": "Saudi Arabia has emerged as a direct and significant Houthi strike target, with attacks on Aramco headquarters in Dhahran and Riyadh-area airports marking a major geographic escalation of the Yemen conflict."
   },
   "strikes_today": {
     "eastern_europe": [
       {
-        "time_utc": "Unknown",
-        "attacker": "Russia",
-        "target_country": "Ukraine",
-        "target_location": "Multiple cities",
-        "description": "Russia conducted overnight missile and drone strikes across Ukraine; Zelensky stated Ukraine received no advance warning from Western partners.",
-        "method": "Missile/Surface",
-        "lat": 50.45,
-        "lng": 30.52,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
+        "time_utc": "Early",
         "attacker": "Ukraine",
         "target_country": "Russia",
-        "target_location": "Russian oil refineries",
-        "description": "Ukraine resumed strikes on Russian oil refineries after Zelensky declared the energy ceasefire over.",
-        "method": "Drone",
-        "lat": 55.75,
-        "lng": 37.62,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Ukraine",
-        "target_country": "Russia",
-        "target_location": "Yandex data centers (multiple)",
-        "description": "Ukraine conducted drone attacks on three Yandex data centers within four days, targeting Russian AI infrastructure.",
+        "target_location": "Ryazan",
+        "description": "Ukrainian drones attacked an oil refinery in Russia's Ryazan region hours after Zelenskyy declared the energy ceasefire over.",
         "method": "Air/Drone",
-        "lat": 55.75,
-        "lng": 37.62,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Russia",
-        "target_country": "Ukraine",
-        "target_location": "Kyiv",
-        "description": "Russia launched a massive missile strike targeting energy infrastructure in Kyiv, knocking out power across multiple regions and prompting Ukrainian accusations that US partners withheld advance warning.",
-        "method": "Missile/Surface",
-        "lat": 50.45,
-        "lng": 30.52,
+        "lat": 54.62,
+        "lng": 39.74,
         "source_tier": "verified"
       },
       {
         "time_utc": "Unknown",
         "attacker": "Russia",
         "target_country": "Ukraine",
-        "target_location": "Odesa region",
-        "description": "A Russian jet-powered drone struck a supermarket in Ukraine's Odesa region, causing damage and casualties.",
-        "method": "Air/Drone",
-        "lat": 46.48,
-        "lng": 30.73,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Russia",
-        "target_country": "Ukraine",
-        "target_location": "Multiple regions",
-        "description": "Russian forces targeted multiple key power plants across Ukraine beyond Kyiv as part of a sustained energy infrastructure campaign, per Zelenskyy.",
+        "target_location": "Izmail, Odessa Oblast",
+        "description": "Russia claimed strikes on military cargo facilities at Ukraine's Izmail port and two dry cargo ships carrying military supplies toward Odessa.",
         "method": "Missile/Surface",
-        "lat": 49.0,
-        "lng": 32.0,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Russia",
-        "target_country": "Bulgaria",
-        "target_location": "Black Sea",
-        "description": "Bulgaria stated Russia was likely responsible for drone attacks in the Black Sea that sank two ships, though definitive proof was not presented.",
-        "method": "Air/Drone",
-        "lat": 43.2,
-        "lng": 29.5,
+        "lat": 45.35,
+        "lng": 28.84,
         "source_tier": "unverified"
       }
     ],
     "middle_east": [
       {
         "time_utc": "Unknown",
-        "attacker": "Houthis (Ansar Allah)",
+        "attacker": "Houthis",
         "target_country": "Saudi Arabia",
         "target_location": "Dhahran",
-        "description": "Houthis attacked a Saudi Aramco administrative building in Dhahran, causing a limited fire with no reported casualties.",
-        "method": "Missile/Surface",
-        "lat": 26.29,
-        "lng": 50.15,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Houthis (Ansar Allah)",
-        "target_country": "Saudi Arabia",
-        "target_location": "Riyadh",
-        "description": "A missile alert interrupted Saudi Minister Ahmed bin Sulaiman Al Rajhi mid-speech in Riyadh amid escalating Houthi hostilities.",
+        "description": "Houthi rebels targeted Saudi Aramco headquarters in Dhahran, reportedly inflicting damage on upper floors of the facility.",
         "method": "Ballistic Missile",
-        "lat": 24.69,
-        "lng": 46.72,
+        "lat": 26.32,
+        "lng": 50.13,
         "source_tier": "unverified"
       },
       {
@@ -124,21 +58,10 @@
         "attacker": "Houthis",
         "target_country": "Saudi Arabia",
         "target_location": "Riyadh",
-        "description": "Houthis launched a ballistic missile toward Riyadh; Saudi-led coalition intercepted it and the civil defence authority issued national early warning alerts.",
+        "description": "Debris from intercepted Houthi strikes caused injuries near Riyadh as part of a sustained missile campaign against Saudi airports and oil infrastructure.",
         "method": "Ballistic Missile",
-        "lat": 24.69,
+        "lat": 24.68,
         "lng": 46.72,
-        "source_tier": "verified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Houthis",
-        "target_country": "Saudi Arabia",
-        "target_location": "Dhahran",
-        "description": "An attack on a Saudi Aramco administrative building in Dhahran caused a limited fire, confirmed by Saudi Energy Ministry.",
-        "method": "Air/Drone",
-        "lat": 26.27,
-        "lng": 50.15,
         "source_tier": "unverified"
       }
     ]
@@ -146,147 +69,64 @@
   "casualties": {
     "today": [
       {
-        "incident": "Russia overnight strikes on Ukraine",
-        "kia": "Unknown",
-        "wia": "Unknown",
-        "civilian": true,
-        "source_tier": "unverified"
-      },
-      {
-        "incident": "Houthi strike on Aramco Dhahran HQ",
-        "kia": "0",
-        "wia": "0",
-        "civilian": false,
-        "source_tier": "unverified"
-      },
-      {
-        "incident": "Pakistani school roof collapse, Peshawar",
-        "kia": "~29",
-        "wia": "Unknown",
-        "civilian": true,
-        "source_tier": "unverified"
-      },
-      {
-        "incident": "Russia missile strike on Kyiv energy infrastructure",
-        "kia": "Unknown",
+        "incident": "US-Israel attacks on Iran (cumulative tracker)",
+        "kia": "~3,468 (Iran); ~3,696 (Lebanon); ~28 (Gulf states)",
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
       },
       {
-        "incident": "Russian jet-powered drone hits Odesa supermarket",
+        "incident": "Houthi strikes near Riyadh",
         "kia": "Unknown",
-        "wia": "Unknown",
-        "civilian": true,
-        "source_tier": "unverified"
-      },
-      {
-        "incident": "Houthi missile intercepted over Riyadh",
-        "kia": "0",
-        "wia": "0",
-        "civilian": false,
-        "source_tier": "verified"
-      },
-      {
-        "incident": "Aramco Dhahran building attack",
-        "kia": "Unknown",
-        "wia": "Unknown",
-        "civilian": false,
-        "source_tier": "unverified"
-      },
-      {
-        "incident": "Black Sea drone strikes sink two ships",
-        "kia": "Unknown",
-        "wia": "Unknown",
+        "wia": "Reported injuries from intercept debris",
         "civilian": true,
         "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
       {
-        "claim": "Deaths in Iran from US-Israel attacks",
-        "figure": "~3,468",
-        "claimed_by": "Al Jazeera live tracker",
-        "as_of": "2026-06-10 (last modified)"
-      },
-      {
-        "claim": "Deaths in Lebanon from US-Israel attacks",
-        "figure": "~3,696",
-        "claimed_by": "Al Jazeera live tracker",
-        "as_of": "2026-06-10 (last modified)"
-      },
-      {
-        "claim": "Deaths in Gulf states from US-Israel attacks",
-        "figure": "~28",
-        "claimed_by": "Al Jazeera live tracker",
-        "as_of": "2026-06-10 (last modified)"
-      },
-      {
-        "claim": "Deaths in Iran from US-Israel attacks",
-        "figure": "~3,468",
-        "claimed_by": "Al Jazeera live tracker (preliminary)",
-        "as_of": "2026-06-10"
-      },
-      {
-        "claim": "Deaths in Lebanon from US-Israel attacks",
-        "figure": "~3,696",
-        "claimed_by": "Al Jazeera live tracker (preliminary)",
-        "as_of": "2026-06-10"
-      },
-      {
-        "claim": "Deaths in Gulf states from US-Israel-Iran conflict",
-        "figure": "~28",
-        "claimed_by": "Al Jazeera live tracker (preliminary)",
-        "as_of": "2026-06-10"
+        "claim": "Iranian leadership killed in US-Israel strikes",
+        "figure": "Multiple senior figures",
+        "claimed_by": "Al Jazeera tracker / US-Israel reporting",
+        "as_of": "2026-10-15"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Robert Fico called EU loans to Ukraine 'gifts' and vowed Slovakia would opt out of further funding.",
+        "speaker": "Robert Fico",
+        "title": "Prime Minister of Slovakia",
+        "date": "2026-10-15"
+      }
+    ],
     "ukraine": [
       {
-        "text": "Ukraine received no advance warning from its Western partners ahead of the latest Russian missile strike.",
-        "speaker": "Volodymyr Zelensky",
-        "title": "President of Ukraine",
-        "date": "2026-10-13"
-      },
-      {
-        "text": "Kyiv is done with the energy ceasefire and strikes on Russian oil refineries will resume.",
-        "speaker": "Volodymyr Zelensky",
+        "text": "We're done.",
+        "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-10-15"
       },
       {
-        "text": "Russia keeps striking Ukraine's energy sites despite Trump ceasefire push.",
+        "text": "Zelenskyy angrily accused the United States of the 'dangerous' withdrawal of support critical to its defense against Russia.",
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
-        "date": "2026-10-14"
-      },
-      {
-        "text": "The country faced throttled Starlink access without warning in the middle of operations.",
-        "speaker": "Serhiy Beskrestnov",
-        "title": "Adviser to President Zelenskyy",
-        "date": "2026-10-14"
-      },
-      {
-        "text": "Ukraine accused the United States of helping Russia, saying Washington failed to warn it of incoming missile strikes.",
-        "speaker": "Ukrainian Government (attributed)",
-        "title": "Official statement",
-        "date": "2026-10-14"
+        "date": "2026-10-15"
       }
     ],
     "middle_east": [
       {
-        "text": "I am not seeking to attack Iran again before the Israeli election.",
-        "speaker": "Benjamin Netanyahu",
-        "title": "Prime Minister of Israel",
-        "date": "2026-10-14"
+        "text": "The United States and Israel might have gone too far with the killing of Iranian leaders, suggesting the campaign had complicated negotiations with the Islamic Republic.",
+        "speaker": "Donald Trump",
+        "title": "President of the United States",
+        "date": "2026-10-12"
       },
       {
-        "text": "Satellite internet could erode online governance in Iran amid war with the US and Israel.",
-        "speaker": "Iranian Official (unnamed)",
-        "title": "Iranian Government Official",
-        "date": "2026-10-14"
+        "text": "NATO's new Theory of Victory is not a provocation against Moscow. It is designed to deter attacks.",
+        "speaker": "Admiral Giuseppe Cavo Dragone",
+        "title": "NATO Supreme Allied Commander Transformation",
+        "date": "2026-10-15"
       }
     ]
   },
@@ -294,218 +134,98 @@
     {
       "country": "United States",
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "status": "Mediator + arms supplier",
-      "description": "Trump eased restrictions on Russian diesel exports, drawing bipartisan Senate pushback and criticism from Zelensky. Envoys Witkoff and Kushner are reportedly planning an October visit to Moscow for talks with Putin. Trump also signaled potential endorsement in Israel's upcoming national election."
+      "status": "Strategic balancer",
+      "description": "Trump's administration eased restrictions on Russian diesel exports and called for new Ukrainian leadership, drawing sharp criticism from Kyiv and European allies. Trump acknowledged US-Israel operations against Iran leadership may have 'gone too far,' complicating ongoing negotiations. US military base exposure to Iranian retaliatory threats is also escalating per UK intelligence assessments."
     },
     {
-      "country": "Russia",
-      "flag": "\ud83c\uddf7\ud83c\uddfa",
-      "status": "Active materiel + troops",
-      "description": "Russia continued overnight strikes on Ukrainian cities and energy infrastructure. The first Russian diesel shipment under the Trump-brokered deal arrived on the US East Coast. Russian MoD continues to exaggerate battlefield advances per ISW assessments."
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Supplying dual-use goods",
+      "description": "China officially opened the long-delayed New Yalu River Bridge with North Korea on October 16, signaling deepening bilateral ties. Reports indicate Chinese parts are being used by Houthis to build advanced medium-range ballistic missiles, raising significant proliferation concerns. China's strategic reassessment of India is also noted amid shifting US alliance postures."
     },
     {
-      "country": "Ukraine",
-      "flag": "\ud83c\uddfa\ud83c\udde6",
-      "status": "Active materiel + troops",
-      "description": "Ukraine declared the energy ceasefire over and resumed strikes on Russian oil refineries. Operation Vivaldi continues as a proving ground for robotic ground systems and combined arms doctrine. SpaceX Starlink speed restrictions are disrupting drone combat missions above 160 km/h."
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Basing + logistics",
+      "description": "UK Ambassador to the OSCE condemned Russia's attacks on Ukrainian civilian and energy infrastructure and called for sustained pressure. MI5 Director General Ken McCallum warned that Iran is shifting focus toward harder targets including UK military bases and Jewish communities. UK-US special relationship is reported at historic lows over disagreements on Ireland and the Falklands."
     },
     {
       "country": "Iran",
       "flag": "\ud83c\uddee\ud83c\uddf7",
       "status": "Active materiel + troops",
-      "description": "Iran's proxy network \u2014 particularly the Houthis \u2014 continues to escalate in the Red Sea and against Saudi Arabia. Reports indicate Iran is deploying new Strait of Hormuz tactics timed to US midterm political pressures. The Al Jazeera tracker records ~3,468 Iranian deaths from the earlier US-Israel strikes."
+      "description": "Iran is reportedly using a post-strike lull before US midterm elections to rearm and reposition, expecting conflict to escalate to a new level after the vote. Iranian-backed Houthi forces are dramatically widening their campaign against Saudi Arabia and maintaining pressure in the Red Sea corridor. Iran and Ansar Allah are described as locked in 'ever-escalating mode' against US-Israel pressure."
     },
     {
       "country": "Saudi Arabia",
       "flag": "\ud83c\uddf8\ud83c\udde6",
-      "status": "Active materiel + troops",
-      "description": "Saudi Arabia absorbed a Houthi strike on the Aramco Dhahran administrative building with limited fire and no casualties. MbS is reportedly sheltering in heavily guarded locations as tit-for-tat strikes with Ansar Allah continue. Several Western energy executives attended the Riyadh WPC Energy Congress remotely amid security concerns."
-    },
-    {
-      "country": "China",
-      "flag": "\ud83c\udde8\ud83c\uddf3",
-      "status": "Strategic balancer",
-      "description": "China and North Korea are opening the long-delayed New Yalu River Bridge, signaling deepening bilateral ties. China announced a joint support and training center in Laos, expanding PLA logistics reach in Southeast Asia. China and India have reset bilateral relations and are now engaged in regional South Asia positioning."
+      "status": "purchasing",
+      "description": "Saudi Arabia is now a direct and sustained Houthi strike target following attacks on Aramco HQ in Dhahran and airport infrastructure near Riyadh. Analysts describe Saudi Arabia facing a 'huge problem' in defending against the evolving Houthi missile and drone threat. Asian Tour golf events in Saudi Arabia have been postponed due to the security situation."
     },
     {
       "country": "North Korea",
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Supplying dual-use goods",
-      "description": "The New Yalu River Bridge opening formalizes closer economic and logistical integration with China. North Korean POWs captured in the Ukraine theater triggered a South Korea-Ukraine diplomatic rift after Kyiv publicly disclosed a prisoner transfer against Seoul's wishes. South Korea has recalled its ambassador to Ukraine over the incident."
+      "description": "The New Yalu River Bridge with China officially opened, facilitating deeper economic and potentially military logistics ties. South Korea recalled its ambassador to Ukraine following the unauthorized public disclosure of North Korean POW transfers by Kyiv, creating a significant diplomatic rift. North Korean troops and materiel remain a background factor in Russia-Ukraine theater assessments."
     },
     {
-      "country": "Pakistan",
-      "flag": "\ud83c\uddf5\ud83c\uddf0",
-      "status": "Mediator + arms supplier",
-      "description": "Pakistan, Saudi Arabia, and Turkey established the Mecca Pact secretariat in August 2026, positioning Islamabad as a regional diplomatic hub. Analysts at War on the Rocks assess this as Pakistan's most serious attempt to institutionalize its geopolitical relevance. A school roof collapse in Peshawar killed at least 29, mostly children, dominating domestic headlines."
-    },
-    {
-      "country": "Israel",
-      "flag": "\ud83c\uddee\ud83c\uddf1",
-      "status": "Active materiel + troops",
-      "description": "Israel's 'Yellow Line' in southern Lebanon is reshaping the military and civilian landscape, with demolished homes and stalled withdrawal processes. Netanyahu faces a pivotal national election with Trump signaling a potential endorsement. Analysts note Israel's maritime vulnerabilities and underdeveloped naval power as a growing strategic concern."
-    },
-    {
-      "country": "United Kingdom",
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "status": "Active materiel + troops",
-      "description": "The UK government has deepened its military AI ambitions via two major defense partnerships announced in recent weeks. War on the Rocks analysts warn that advancing AI capability without guardrails poses strategic risks. The UK continues to provide materiel support to Ukraine."
-    },
-    {
-      "country": "South Korea",
-      "flag": "\ud83c\uddf0\ud83c\uddf7",
-      "status": "Monitoring",
-      "description": "Seoul recalled its ambassador to Ukraine after Kyiv publicly disclosed the transfer of two North Korean POWs to South Korea against Seoul's explicit request for secrecy. South Korea is concerned about antagonizing Pyongyang. The diplomatic rift remains unresolved as both sides trade accusations."
-    },
-    {
-      "country": "Germany",
-      "flag": "\ud83c\udde9\ud83c\uddea",
-      "status": "Monitoring",
-      "description": "Germany opened the Nord Stream sabotage trial in Hamburg against former Ukrainian military officer Serhii Kuznietsov on October 14. Domestically, the AfD and BSW in Saxony-Anhalt are forging a pro-Russia political alliance pushing for negotiations with Moscow, complicating German policy cohesion."
+      "country": "Slovakia",
+      "flag": "\ud83c\uddf8\ud83c\uddf0",
+      "status": "Abstaining",
+      "description": "Prime Minister Fico publicly characterized EU financial support to Ukraine as 'gifts' and announced Slovakia's intention to opt out of further loan contributions. This marks a continued divergence from mainstream EU and NATO support postures toward Kyiv. Fico's stance aligns with broader pro-Russian rhetorical positioning within the EU's eastern flank."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated (exact figure unavailable)",
+    "brent_crude": "Elevated",
     "wheat_futures": "Unchanged",
-    "notes": "US CPI rose 3.7% year-on-year in September 2026, driven largely by surging gasoline and energy prices attributed to the Iran war, while a bipartisan Senate coalition is urging Trump to reinstate Russian diesel sanctions he recently lifted."
+    "notes": "Chevron CEO warned that commercial stockpiles, emergency reserves, and previously-sanctioned barrels have all been depleted following the Iran conflict shock, with diesel relief unlikely before 2027, while 12 US senators urged Trump to reverse his deal lifting sanctions on Russian diesel exports."
   },
   "update_log": [
     {
-      "time": "15:51 UTC",
-      "text": "Update run compiled: multiple simultaneous conflict fronts active across Eastern Europe and Middle East.",
+      "time": "10:14",
+      "text": "Asian Tour postpones Saudi Invitational golf event citing Houthi attack security risk.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00",
+      "text": "China-North Korea New Yalu River Bridge formally opens per Xinhua state media.",
       "source_tier": "verified"
     },
     {
-      "time": "Unknown",
-      "text": "Russian jet-powered drone strikes supermarket in Odesa region, Ukraine.",
+      "time": "08:30",
+      "text": "NATO Supreme Commander states alliance must be 'ready to win a war with Russia' under new Theory of Victory.",
       "source_tier": "unverified"
     },
     {
-      "time": "Unknown",
-      "text": "Saudi-led coalition intercepts Houthi ballistic missile launched toward Riyadh.",
+      "time": "07:00",
+      "text": "UK statement to OSCE condemns Russian civilian infrastructure attacks; calls for increased economic pressure.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00",
+      "text": "Houthis vow continued attacks on Saudi airports and oil facilities following Aramco HQ strike.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "05:30",
+      "text": "Russia claims strikes on Izmail port military cargo facilities and two dry cargo ships near Odessa.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "04:00",
+      "text": "Ukrainian drone strikes Ryazan oil refinery in Russia; Zelenskyy confirms energy ceasefire is over.",
       "source_tier": "verified"
     },
     {
-      "time": "Unknown",
-      "text": "Houthis attack Saudi Aramco administrative building in Dhahran; limited fire confirmed by Saudi Energy Ministry.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "Unknown",
-      "text": "Ukraine formally accuses US of withholding missile strike intelligence ahead of Russian attack on Kyiv.",
+      "time": "03:00",
+      "text": "Al Jazeera casualty tracker records ~3,468 dead in Iran and ~3,696 in Lebanon from US-Israel operations.",
       "source_tier": "verified"
     },
     {
-      "time": "Unknown",
-      "text": "Ukraine alleges SpaceX throttled military Starlink terminals during active combat operations under US pressure.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "Unknown",
-      "text": "Trump confirms continued US intelligence sharing with Ukraine but disputes Ukrainian characterization.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "Unknown",
-      "text": "Russia conducts massive strike on Ukraine energy infrastructure including Kyiv power plants.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "Unknown",
-      "text": "Bulgaria assesses Russia likely behind Black Sea drone strikes that sank two vessels.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "Unknown",
-      "text": "Nord Stream sabotage trial opens in Hamburg against former Ukrainian military officer Serhii Kuznietsov.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "Unknown",
-      "text": "China and North Korea open New Yalu River Bridge over a decade after Chinese construction was completed.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "Unknown",
-      "text": "Netanyahu states he is not seeking to strike Iran again before Israeli elections.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "Unknown",
-      "text": "War on the Rocks publishes analysis warning Ukrainian military success paradoxically raises nuclear escalation risks.",
-      "source_tier": "analyst"
-    },
-    {
-      "time": "Unknown",
-      "text": "South Korea-Ukraine diplomatic spat over North Korean POW transfer continues to escalate.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "Unknown",
-      "text": "US Embassy warns Americans in Horn of Africa of long-range attack risk amid Ethiopia-Eritrea tensions.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "10:26 UTC",
-      "text": "Ukraine resumes strikes on Russian oil refineries; Zelensky declares energy ceasefire over.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "10:00 UTC",
-      "text": "China and North Korea formally open New Yalu River Bridge, confirmed by Xinhua state media.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "09:45 UTC",
-      "text": "Houthi missile alert interrupts Saudi minister mid-speech in Riyadh amid ongoing hostilities.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "09:30 UTC",
-      "text": "Saudi Aramco administrative building in Dhahran struck by Houthis; limited fire, no casualties.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "08:00 UTC",
-      "text": "War on the Rocks: 'Golden Dome' missile defense assessed as technologically and financially infeasible.",
-      "source_tier": "analyst"
-    },
-    {
-      "time": "07:00 UTC",
-      "text": "SpaceX Starlink speed restriction confirmed disrupting Ukrainian drone combat missions above 160 km/h.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "06:00 UTC",
-      "text": "Russia conducts overnight strikes on Ukraine; Zelensky says Western partners gave no advance warning.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "05:00 UTC",
-      "text": "Ukraine's drone strikes on three Yandex data centers in four days exposed AI infrastructure vulnerability.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "04:00 UTC",
-      "text": "Israel's 'Yellow Line' in southern Lebanon continues to reshape military lines and block civilian returns.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "03:00 UTC",
-      "text": "Al Jazeera casualty tracker: ~3,468 killed in Iran, ~3,696 in Lebanon from US-Israel strikes (last updated 2026-06-10).",
-      "source_tier": "verified"
-    },
-    {
-      "time": "02:00 UTC",
-      "text": "South Korea-Ukraine diplomatic rift over North Korean POW disclosure remains unresolved; ambassador recalled.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "01:00 UTC",
-      "text": "First Russian diesel shipment under Trump-brokered deal confirmed arrived on US East Coast by OSINT.",
+      "time": "01:00",
+      "text": "Reports confirm Houthi ballistic missile strike caused damage to upper floors of Saudi Aramco HQ in Dhahran.",
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-10-15T15:51:29Z"
+  "last_updated": "2026-10-16T10:14:31Z"
 }
