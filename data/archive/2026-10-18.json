@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.5,
-    "delta": "+0.3 from yesterday",
+    "score": 8.2,
+    "delta": "No previous score",
     "level": "High",
-    "rationale": "Simultaneous high-intensity pressures across three theaters \u2014 US-Trump sanctions waiver for Russia triggering Zelensky-Trump rupture, Houthi escalation against Saudi Arabia with Brent crude surging past $110, and Iran continuing post-strike military hardening \u2014 sustain a high escalation posture with no de-escalatory signals."
+    "rationale": "Multiple simultaneous active conflict theatres \u2014 ongoing US-Israel strikes on Iran with thousands of casualties, Houthi escalation against Saudi Arabia drawing Egyptian pledges of defence assistance, continued Russian strikes on Ukraine amid US sanctions pause and Starlink restrictions, and Brent crude surging past $110/barrel \u2014 collectively push the global threat environment to a High threshold."
   },
   "ticker_items": [
-    "Brent crude surpasses $110/barrel amid Hormuz attacks and Ukraine energy strikes.",
-    "Trump waives Russia energy sanctions; Russia calls it 'historic', allies alarmed.",
-    "Zelensky-Trump relations near collapse over diesel deal and refinery strikes.",
-    "Houthis strike Saudi airport and Aden; Yemen fighting intensifies sharply.",
-    "North Korea opens New Yalu River Bridge to China, deepening bilateral ties."
+    "Trump pauses new US sanctions on Russia; Zelenskyy calls move 'unfortunate'.",
+    "Brent crude tops $110/barrel amid Iran conflict and Hormuz supply fears.",
+    "Egypt's Sisi offers military assistance to Saudi Arabia against Houthi strikes.",
+    "Starlink restrictions hampered Ukraine drone interceptors; since reported restored.",
+    "North Korea tests AI-assisted torpedo system days after submarine cruise missile launches."
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Egypt has formally offered direct defence assistance to Saudi Arabia against Houthi attacks, signalling potential Egyptian military involvement in the Yemen-Saudi theatre."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -50,6 +50,28 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Multiple Ukrainian cities",
+        "description": "Russian overnight strikes killed at least four people including an ambulance driver and wounded dozens across Ukraine.",
+        "method": "Missile/Surface",
+        "lat": 48.38,
+        "lng": 31.17,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Russian oil refineries",
+        "description": "Ukraine resumed strikes on Russian oil refinery infrastructure, drawing condemnation from Trump who called the attacks 'a disgrace'.",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -85,6 +107,39 @@
         "lat": 26.43,
         "lng": 50.1,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh (King Khalid International Airport)",
+        "description": "Houthi rebels repeatedly struck Riyadh's international airport, showcasing expanding missile and drone reach into Saudi Arabia.",
+        "method": "Ballistic Missile",
+        "lat": 24.96,
+        "lng": 46.7,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Yemen",
+        "target_location": "Aden (presidential palace and airport)",
+        "description": "Iran-backed Houthis struck Aden's presidential palace and airport, intensifying pressure on Yemen's recognised government forces.",
+        "method": "Missile/Surface",
+        "lat": 12.78,
+        "lng": 45.04,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Sudan Armed Forces",
+        "target_country": "Sudan",
+        "target_location": "South Darfur",
+        "description": "Sudan's army conducted a drone strike reportedly hitting a crowded livestock market; military claims it targeted RSF command centres.",
+        "method": "Air/Drone",
+        "lat": 11.86,
+        "lng": 24.89,
+        "source_tier": "verified"
       }
     ]
   },
@@ -110,6 +165,20 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Russian overnight strikes on Ukraine",
+        "kia": "4",
+        "wia": "est. dozens",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Sudan SAF drone strike, South Darfur livestock market",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -130,6 +199,18 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera live tracker",
         "as_of": "2026-06-10 (last tracker update)"
+      },
+      {
+        "claim": "Russian military personnel eliminated (KIA + WIA combined)",
+        "figure": "~1,557,350",
+        "claimed_by": "Ukraine MoD / Freerepublic aggregator",
+        "as_of": "2026-10-17"
+      },
+      {
+        "claim": "Russian air targets shot down",
+        "figure": "~569,514",
+        "claimed_by": "Ukraine MoD / Freerepublic aggregator",
+        "as_of": "2026-10-17"
       }
     ]
   },
@@ -140,12 +221,24 @@
         "speaker": "Russian government spokesperson",
         "title": "Official statement",
         "date": "2026-10-17"
+      },
+      {
+        "text": "The UN should stop turning a blind eye to torture of Russian POWs in Ukrainian secret prisons.",
+        "speaker": "Rodion Miroshnik",
+        "title": "Russian Ambassador / Envoy to the UN",
+        "date": "2026-10-17"
       }
     ],
     "ukraine": [
       {
         "text": "Zelensky condemned Trump's sanctions waiver as a 'betrayal' and resumed attacks on Russian oil refineries.",
         "speaker": "Volodymyr Zelensky",
+        "title": "President of Ukraine",
+        "date": "2026-10-17"
+      },
+      {
+        "text": "The pause on sanctions is unfortunate and will encourage Russia to continue its assault.",
+        "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-10-17"
       }
@@ -162,6 +255,18 @@
         "speaker": "Iranian government spokesperson",
         "title": "Official statement",
         "date": "2026-10-16"
+      },
+      {
+        "text": "Egypt will take any measure to help defend Saudi Arabia if it is requested of us.",
+        "speaker": "Abdel Fattah el-Sisi",
+        "title": "President of Egypt",
+        "date": "2026-10-17"
+      },
+      {
+        "text": "Putin is set on liquidating Ukraine and will not make concessions.",
+        "speaker": "Garry Kasparov",
+        "title": "Russian chess grandmaster and political dissident",
+        "date": "2026-10-17"
       }
     ]
   },
@@ -225,15 +330,87 @@
       "flag": "\ud83c\udde8\ud83c\udde6",
       "status": "Active materiel + troops",
       "description": "Canada held a competitive defence drone 'Sandbox' event at CFB Suffield, awarding a $1M prize to accelerate a domestic drone-kill industry. Canadian subscribers to Starlink are reportedly unlikely to face interference from US policy decisions on Ukrainian Starlink access. Canada is actively investing in counter-drone capabilities."
+    },
+    {
+      "country": "Egypt",
+      "flag": "\ud83c\uddea\ud83c\uddec",
+      "status": "Active materiel + troops",
+      "description": "President Sisi formally offered military assistance to Saudi Arabia in the face of Houthi attacks, pledging 'any measure' if requested. This marks a significant potential escalation of Egyptian involvement in the Yemen-Saudi conflict theatre."
+    },
+    {
+      "country": "European Union",
+      "flag": "\ud83c\uddea\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "European leaders rallied behind Zelenskyy following Trump's diesel deal with Russia, signalling continued European support for Ukraine despite transatlantic friction. Tensions with the Trump administration over NATO burden-sharing and Ukraine policy remain acute."
     }
   ],
   "financial": {
-    "usd_rub": "Unchanged",
+    "usd_rub": "",
     "brent_crude": "$110+/barrel",
-    "wheat_futures": "Unchanged",
-    "notes": "Brent crude surpassed $110 per barrel for the first time since May, driven by escalating attacks near the Strait of Hormuz and renewed Ukraine strikes on Russian energy infrastructure; Goldman Sachs warned prices could reach $120."
+    "wheat_futures": "",
+    "notes": "Brent crude surpassed $110 per barrel for the first time since May 2026, driven by Strait of Hormuz disruption fears from ongoing Iran conflict and renewed Ukraine-Russia energy infrastructure strikes; Goldman Sachs warned prices could reach $120/barrel, while US retail gasoline peaked at $6.53/gallon on September 21."
   },
   "update_log": [
+    {
+      "time": "14:58 UTC",
+      "text": "Egypt's President Sisi offers military assistance to Saudi Arabia against Houthi attacks, pledging 'any measure' if requested.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "Brent crude confirmed above $110/barrel, highest since May 2026, amid Iran conflict and Ukraine energy strike escalation.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:30 UTC",
+      "text": "Houthis strike Aden's presidential palace and airport, intensifying pressure on Yemen's government forces.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Zelenskyy publicly urges reinstatement of US sanctions on Russia after Trump pauses them, calling decision 'unfortunate'.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "Ukraine resumes strikes on Russian oil refineries; Trump calls attacks 'a disgrace' and blames Zelenskyy for rising energy prices.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:30 UTC",
+      "text": "Elon Musk reported responsible for Starlink slowdown that hampered Ukraine drone intercept operations; service since reported restored.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "Russia overnight strikes kill at least four people including an ambulance driver, wounding dozens across Ukraine.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Sudan Armed Forces drone strike hits South Darfur; RSF claims a crowded livestock market was struck, SAF says it targeted command centres.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "07:00 UTC",
+      "text": "North Korea announces successful test of AI-assisted torpedo system following submarine cruise missile launches.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "China opens New Yalu River Bridge to North Korea after decade of delays, signalling deepening bilateral strategic ties.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "05:00 UTC",
+      "text": "Iran denies Saudi accusations of involvement in Houthi strikes on Saudi oil facilities and Riyadh airport.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "04:00 UTC",
+      "text": "Al Jazeera casualty tracker confirms ~3,468 dead in Iran, ~3,696 in Lebanon, and ~28 in Gulf states from US-Israel strikes since February 2026.",
+      "source_tier": "verified"
+    },
     {
       "time": "10:00",
       "text": "Rubio confirms Ukraine has requested Starshield military-grade satellite access for deep strikes; future access 'under discussion.'",
@@ -315,5 +492,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-10-18T10:00:23Z"
+  "last_updated": "2026-10-18T14:58:59Z"
 }
