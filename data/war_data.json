@@ -1,52 +1,30 @@
 {
   "escalation": {
-    "score": 8.2,
-    "delta": "No previous score available",
+    "score": 8.5,
+    "delta": "+0.3 from yesterday",
     "level": "High",
-    "rationale": "Multiple simultaneous high-intensity conflict arcs are active: a US-Iran war with thousands dead, Houthi strikes on Saudi Aramco HQ and Aden presidential palace, Ukraine resuming Russian refinery strikes amid US intelligence and Starlink restrictions, and a China-North Korea bridge opening signaling deepened authoritarian axis ties."
+    "rationale": "Simultaneous high-intensity pressures across three theaters \u2014 US-Trump sanctions waiver for Russia triggering Zelensky-Trump rupture, Houthi escalation against Saudi Arabia with Brent crude surging past $110, and Iran continuing post-strike military hardening \u2014 sustain a high escalation posture with no de-escalatory signals."
   },
   "ticker_items": [
-    "Houthis strike Saudi Aramco Dhahran HQ, damaging multiple floors.",
-    "Ukraine resumes Russian refinery strikes; Trump calls it a 'disgrace.'",
-    "US reportedly restricted Starshield/Starlink data links to Ukraine briefly.",
-    "New Yalu River Bridge opens, deepening China-North Korea connectivity.",
-    "Trump rules out nuclear bomb on Iran but does not exclude all options."
+    "Brent crude surpasses $110/barrel amid Hormuz attacks and Ukraine energy strikes.",
+    "Trump waives Russia energy sanctions; Russia calls it 'historic', allies alarmed.",
+    "Zelensky-Trump relations near collapse over diesel deal and refinery strikes.",
+    "Houthis strike Saudi airport and Aden; Yemen fighting intensifies sharply.",
+    "North Korea opens New Yalu River Bridge to China, deepening bilateral ties."
   ],
   "new_entrant": {
-    "active": true,
-    "text": "China-North Korea bridge opening signals deepened bilateral integration that could facilitate materiel flows, while China's strategic reassessment of India marks a shifting regional alignment posture."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
       {
         "time_utc": "Unknown",
-        "attacker": "Russia",
-        "target_country": "Ukraine",
-        "target_location": "Kyiv",
-        "description": "Russia launched a new wave of attacks on Kyiv with no advance warning reportedly provided to Ukraine by US intelligence partners.",
-        "method": "Missile/Surface",
-        "lat": 50.45,
-        "lng": 30.52,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Russia",
-        "target_country": "Multiple / Black Sea shipping",
-        "target_location": "Black Sea (off Romania and Bulgaria coasts)",
-        "description": "Russian drone attacks struck at least seven cargo vessels in the Black Sea near NATO member states Romania and Bulgaria this month, raising NATO escalation concerns.",
-        "method": "Air/Drone",
-        "lat": 43.5,
-        "lng": 30.0,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
         "attacker": "Ukraine",
         "target_country": "Russia",
-        "target_location": "Russian oil refinery sites",
-        "description": "Ukraine resumed strikes on Russian oil refineries, prompting sharp condemnation from US President Trump.",
-        "method": "Air/Drone",
+        "target_location": "Russian oil refineries (multiple locations)",
+        "description": "Ukraine resumed strikes on Russian oil refineries after Zelensky condemned Trump's 'betrayal' over the diesel sanctions waiver deal.",
+        "method": "Drone/Air",
         "lat": 55.75,
         "lng": 37.62,
         "source_tier": "unverified"
@@ -55,9 +33,9 @@
         "time_utc": "Unknown",
         "attacker": "Ukraine",
         "target_country": "Russia",
-        "target_location": "Russian oil refinery regions",
-        "description": "Ukraine resumed strikes on Russian oil refineries, prompting strong criticism from US President Trump who called the attacks a 'disgrace.'",
-        "method": "Drone",
+        "target_location": "Russian airspace (multiple airports)",
+        "description": "Ukrainian drone missions disrupted Russian civilian airspace, causing days of flight delays at multiple airports.",
+        "method": "Air/Drone",
         "lat": 55.75,
         "lng": 37.62,
         "source_tier": "unverified"
@@ -66,79 +44,46 @@
         "time_utc": "Unknown",
         "attacker": "Russia",
         "target_country": "Ukraine",
-        "target_location": "Kyiv and frontline areas",
-        "description": "Russia launched fresh strikes on Ukraine including attacks on Kyiv, with Zelensky stating Ukraine received no advance warning from international partners.",
+        "target_location": "Ukraine (multiple locations)",
+        "description": "Russia and Ukraine continued trading fresh strikes as reported alongside European diplomatic activity over the Trump-Zelensky crisis.",
         "method": "Missile/Surface",
         "lat": 50.45,
         "lng": 30.52,
-        "source_tier": "unverified"
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
       {
         "time_utc": "Unknown",
         "attacker": "Houthis",
-        "target_country": "Yemen",
-        "target_location": "Aden (al-Maashiq Presidential Palace)",
-        "description": "Houthi missile strike hit the presidential palace in Yemen's interim capital Aden, killing five people and wounding sixteen.",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh (King Khalid International Airport)",
+        "description": "Houthi rebels conducted repeated strikes on Riyadh's main airport, demonstrating growing missile and drone capabilities.",
         "method": "Ballistic Missile",
-        "lat": 12.78,
+        "lat": 24.96,
+        "lng": 46.7,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Yemen",
+        "target_location": "Aden (presidential palace and airport)",
+        "description": "Iran-backed Houthis struck Aden's presidential palace and airport in a significant intra-Yemen escalation.",
+        "method": "Ballistic Missile",
+        "lat": 12.79,
         "lng": 45.04,
-        "source_tier": "unverified"
+        "source_tier": "verified"
       },
       {
         "time_utc": "Unknown",
         "attacker": "Houthis",
         "target_country": "Saudi Arabia",
-        "target_location": "Dhahran (Saudi Aramco HQ)",
-        "description": "Houthi rebels struck Saudi Aramco's headquarters in Dhahran, reportedly damaging three floors of the facility.",
-        "method": "Ballistic Missile",
-        "lat": 26.29,
-        "lng": 50.15,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Houthis",
-        "target_country": "Saudi Arabia",
-        "target_location": "Multiple Saudi military assets",
-        "description": "Houthis conducted additional attacks on Saudi military assets in a widening campaign attributed partly to Iranian support.",
+        "target_location": "Saudi oil facilities",
+        "description": "Houthis struck Saudi oil facilities as part of a broader escalation campaign against the kingdom cited by Saudi Arabia in accusations toward Iran.",
         "method": "Missile/Surface",
-        "lat": 24.68,
-        "lng": 46.72,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Houthi (Ansar Allah)",
-        "target_country": "Yemen",
-        "target_location": "Aden",
-        "description": "Houthi missile strike on the al-Maashiq Presidential Palace in Aden killed five people and wounded 16, targeting the interim seat of Yemen's internationally recognized government.",
-        "method": "Ballistic Missile",
-        "lat": 12.78,
-        "lng": 45.03,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Houthi (Ansar Allah)",
-        "target_country": "Yemen",
-        "target_location": "Aden \u2014 enemy HQ",
-        "description": "Ansar Allah claimed a strike on an enemy headquarters in Aden while also denying firing at Medina; CENTCOM separately claimed control of the Strait of Hormuz amid rising ship attacks.",
-        "method": "Missile/Surface",
-        "lat": 12.78,
-        "lng": 45.03,
-        "source_tier": "unverified"
-      },
-      {
-        "time_utc": "Unknown",
-        "attacker": "Houthi (Ansar Allah)",
-        "target_country": "Multiple / Strait of Hormuz",
-        "target_location": "Strait of Hormuz",
-        "description": "Ship attacks near the Strait of Hormuz hit new highs according to reporting, with CENTCOM claiming operational control of the strait.",
-        "method": "Anti-Ship Missile",
-        "lat": 26.56,
-        "lng": 56.26,
+        "lat": 26.43,
+        "lng": 50.1,
         "source_tier": "unverified"
       }
     ]
@@ -146,105 +91,76 @@
   "casualties": {
     "today": [
       {
-        "incident": "Houthi strike on Aden presidential palace",
-        "kia": "5",
-        "wia": "16",
-        "civilian": false,
-        "source_tier": "unverified"
-      },
-      {
-        "incident": "US-Israel attacks on Iran (cumulative tracker)",
-        "kia": "~3,468 (Iran) + ~3,696 (Lebanon) + ~28 (Gulf states)",
+        "incident": "US-Israel strikes on Iran (cumulative tracker)",
+        "kia": "~3,468 (Iran); ~3,696 (Lebanon); ~28 (Gulf states)",
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
       },
       {
-        "incident": "Houthi strike on Aden Presidential Palace",
-        "kia": "5",
-        "wia": "16",
+        "incident": "Yemen clashes (Houthis vs. government forces)",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "IDF negligence death \u2014 medic Gur Kehati in Lebanon",
+        "kia": "1",
+        "wia": "Unknown",
         "civilian": false,
         "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
       {
-        "claim": "Deaths in Iran from US-Israel strikes",
+        "claim": "US-Israel strikes on Iran \u2014 confirmed dead in Iran",
         "figure": "~3,468",
-        "claimed_by": "Al Jazeera tracker (preliminary)",
-        "as_of": "2026-06-10 (last modified)"
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10 (last tracker update)"
       },
       {
-        "claim": "Deaths in Lebanon from US-Israel strikes",
+        "claim": "US-Israel strikes on Iran \u2014 confirmed dead in Lebanon",
         "figure": "~3,696",
-        "claimed_by": "Al Jazeera tracker (preliminary)",
-        "as_of": "2026-06-10 (last modified)"
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10 (last tracker update)"
       },
       {
-        "claim": "Deaths in Gulf states from US-Israel strikes",
+        "claim": "US-Israel strikes on Iran \u2014 confirmed dead in Gulf states",
         "figure": "~28",
-        "claimed_by": "Al Jazeera tracker (preliminary)",
-        "as_of": "2026-06-10 (last modified)"
-      },
-      {
-        "claim": "Iranian deaths from US-Israel strikes",
-        "figure": "~3,468",
-        "claimed_by": "Al Jazeera Live Tracker",
-        "as_of": "2026-06-10"
-      },
-      {
-        "claim": "Lebanese deaths from US-Israel strikes",
-        "figure": "~3,696",
-        "claimed_by": "Al Jazeera Live Tracker",
-        "as_of": "2026-06-10"
-      },
-      {
-        "claim": "Gulf state deaths from US-Israel strikes",
-        "figure": "~28",
-        "claimed_by": "Al Jazeera Live Tracker",
-        "as_of": "2026-06-10"
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10 (last tracker update)"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Trump's decision to waive sanctions on Russian energy revenues is a historic move.",
+        "speaker": "Russian government spokesperson",
+        "title": "Official statement",
+        "date": "2026-10-17"
+      }
+    ],
     "ukraine": [
       {
-        "text": "Kyiv had received no advance warning from its international partners before a new wave of Russian attacks on the capital and battlefield.",
-        "speaker": "Volodymyr Zelenskyy",
-        "title": "President of Ukraine",
-        "date": "2026-10-15"
-      },
-      {
-        "text": "Ukraine needs to mobilize 50,000 to 60,000 people every month simply to keep pace with Russia.",
+        "text": "Zelensky condemned Trump's sanctions waiver as a 'betrayal' and resumed attacks on Russian oil refineries.",
         "speaker": "Volodymyr Zelensky",
         "title": "President of Ukraine",
-        "date": "2026-10-16"
+        "date": "2026-10-17"
       }
     ],
     "middle_east": [
       {
-        "text": "Russia is trying to kill as many civilians as possible in order to put pressure on Ukraine to capitulate.",
-        "speaker": "Miche\u00e1l Martin",
-        "title": "Taoiseach of Ireland",
-        "date": "2026-10-16"
-      },
-      {
-        "text": "Lebanon's army is committed to preventing armed displays and confiscating weapons.",
-        "speaker": "Joseph Aoun",
-        "title": "President of Lebanon",
-        "date": "2026-10-16"
-      },
-      {
-        "text": "Trump rules out using a nuclear bomb on Iran, but did not deny the US could use the 'mother of all bombs.'",
+        "text": "Saudi Arabia should accept Israel's offer of help against Houthi rebels \u2014 it is very helpful.",
         "speaker": "Donald Trump",
         "title": "President of the United States",
-        "date": "2026-10-16"
+        "date": "2026-10-17"
       },
       {
-        "text": "Mohammed bin Salman's appeals for US intervention against Houthi attacks have not succeeded in securing support.",
-        "speaker": "Times of India",
-        "title": "Editorial characterization",
+        "text": "Iran has denied any involvement in or encouragement of recent Houthi attacks against Saudi Arabia.",
+        "speaker": "Iranian government spokesperson",
+        "title": "Official statement",
         "date": "2026-10-16"
       }
     ]
@@ -253,190 +169,151 @@
     {
       "country": "United States",
       "flag": "\ud83c\uddfa\ud83c\uddf8",
-      "status": "Strategic balancer",
-      "description": "President Trump condemned Ukraine's strikes on Russian oil refineries as a 'disgrace' and declared an 'energy ceasefire' neither side confirmed, while authorizing purchase of Russian diesel. Nine bipartisan senators called for a probe into Starshield satellite disruptions. Trump also ruled out nuclear strikes on Iran and ground troop deployment."
-    },
-    {
-      "country": "China",
-      "flag": "\ud83c\udde8\ud83c\uddf3",
-      "status": "Supplying dual-use goods",
-      "description": "The New Yalu River Bridge linking China and North Korea opened on October 16, signaling deepening Sino-DPRK ties. Reports indicate Houthi rebels are attempting to build medium-range ballistic missiles using Chinese components. China also called on Israel to halt West Bank settlement expansion."
-    },
-    {
-      "country": "Iran",
-      "flag": "\ud83c\uddee\ud83c\uddf7",
       "status": "Active materiel + troops",
-      "description": "Iran continues to support Houthi operations against Saudi Arabia and Yemen government forces. Israeli officials reportedly view a pre-election strike on Iran as unlikely before October 27. The US-Iran military stalemate persists with analysts weighing next military options."
-    },
-    {
-      "country": "North Korea",
-      "flag": "\ud83c\uddf0\ud83c\uddf5",
-      "status": "Supplying dual-use goods",
-      "description": "The opening of the New Yalu River Bridge formalizes deeper logistics connectivity with China. Ukrainian platform Trophylab has documented captured North Korean military hardware being shared with 376 foreign firms for analysis."
-    },
-    {
-      "country": "United Kingdom",
-      "flag": "\ud83c\uddec\ud83c\udde7",
-      "status": "Active materiel + troops",
-      "description": "UK Defence Secretary Wes Streeting delivered a speech at CSIS on the future of US-UK defence cooperation, affirming continued British commitment to the transatlantic alliance amid US-Ukraine tensions."
-    },
-    {
-      "country": "Saudi Arabia",
-      "flag": "\ud83c\uddf8\ud83c\udde6",
-      "status": "Monitoring",
-      "description": "Saudi Arabia faces an intensifying Houthi missile and drone campaign targeting critical infrastructure including Aramco's Dhahran HQ. Riyadh has accused Iran of directly encouraging Houthi attacks. Multiple international sporting events in Saudi Arabia have been postponed due to the security situation."
-    },
-    {
-      "country": "European Union",
-      "flag": "\ud83c\uddea\ud83c\uddfa",
-      "status": "Active materiel + troops",
-      "description": "EU leaders rallied around Ukraine at the Brussels summit on October 16, with Zelenskyy seeking to shore up European backing as US-Ukraine relations deteriorate. European allies have criticized the Trump-Russia diesel deal as undermining Ukraine and potentially violating US law."
+      "description": "Trump waived new sanctions on Russian energy revenues, drawing sharp criticism from Ukraine and European allies. Simultaneously, Rubio confirmed Ukraine's request for access to military-grade Starshield for deep-strike operations is under discussion. A bipartisan Senate group demanded answers on Starlink disruptions that endangered American personnel."
     },
     {
       "country": "Russia",
       "flag": "\ud83c\uddf7\ud83c\uddfa",
       "status": "Active materiel + troops",
-      "description": "Russia continued trading strikes with Ukraine, including attacks on Kyiv. Russian diesel exports to the US were authorized by Trump, partially easing Russia's economic pressure. Russia maintains close ties with the Taliban and is courting Pakistan, expanding its diplomatic reach in Central Asia."
+      "description": "Russia hailed the US sanctions waiver as 'historic' and continued trading strikes with Ukraine. Ukrainian drone campaigns against Russian airspace caused widespread civilian flight disruptions across Russia. Refinery strikes resumed after Zelensky's break with Trump."
+    },
+    {
+      "country": "Ukraine",
+      "flag": "\ud83c\uddfa\ud83c\udde6",
+      "status": "Active materiel + troops",
+      "description": "Ukraine resumed strikes on Russian oil refineries in defiance of Trump's demands, triggering a near-complete breakdown in US-Ukraine relations. Operation Vivaldi continued as a proving ground for artillery-drone combined arms and ground robots. Zelensky is pushing for Starshield access to enable deeper strikes inside Russia."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "British Army chief issued the most explicit public warning of impending conflict with Russia in modern times, calling for a 'frank conversation' about sacrifices needed for national defense. UK forces participated in a Burnham-Zelensky photo op at Downing Street. Britain remains a key military backer of Ukraine."
+    },
+    {
+      "country": "Iran",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
+      "status": "Active materiel + troops",
+      "description": "Iran boosted air defenses and conducted IRGC-army joint exercises following Trump's public discussion of the 'Mother of All Bombs.' Iran denied involvement in Houthi attacks on Saudi Arabia. The February 2026 US-Israeli strikes on Iran continue to shape regional dynamics with a confirmed death toll exceeding 3,400."
     },
     {
       "country": "Israel",
       "flag": "\ud83c\uddee\ud83c\uddf1",
       "status": "Active materiel + troops",
-      "description": "Israel continues military operations in southern Lebanon and the West Bank, with the IDF holding a 'Yellow Line' that is reshaping the Lebanese border landscape. Reports of IDF negligence leading to soldier deaths in Lebanon emerged via a Haaretz investigation. China publicly called on Israel to halt West Bank settlement expansion."
+      "description": "Israel offered military assistance to Saudi Arabia against Houthis, which Trump publicly endorsed. Netanyahu faces domestic political pressure ahead of elections while managing multiple active fronts including Gaza, Lebanon residual operations, and the post-Iran-strike posture. Israel's growing influence in Cyprus is generating local concern."
+    },
+    {
+      "country": "Saudi Arabia",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "status": "Active materiel + troops",
+      "description": "Saudi Arabia faces repeated Houthi strikes on Riyadh's airport and oil facilities, and accused Iran of encouraging the escalation. Trump urged Riyadh to accept Israeli military assistance and suggested Saudi Arabia could join the Abraham Accords. Saudi Arabia has not yet publicly accepted the Israeli offer."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "China opened the long-delayed New Yalu River Bridge connecting Dandong to Sinuiju, North Korea, signaling deepening bilateral ties after over a decade of delays. War on the Rocks analysts note China is strategically reassessing its relationship with India amid reduced US strategic altruism. China is expanding military presence in Southeast Asia while maintaining ambiguity."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Supplying dual-use goods",
+      "description": "North Korea announced a test of an AI-assisted torpedo system and test-fired cruise missiles from a submarine following border tensions with South Korea over a landmine explosion. The New Yalu River Bridge opening with China expands logistics and trade capacity. Pyongyang continues to expand advanced weapons testing pace."
+    },
+    {
+      "country": "Canada",
+      "flag": "\ud83c\udde8\ud83c\udde6",
+      "status": "Active materiel + troops",
+      "description": "Canada held a competitive defence drone 'Sandbox' event at CFB Suffield, awarding a $1M prize to accelerate a domestic drone-kill industry. Canadian subscribers to Starlink are reportedly unlikely to face interference from US policy decisions on Ukrainian Starlink access. Canada is actively investing in counter-drone capabilities."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "$110+/barrel",
     "wheat_futures": "Unchanged",
-    "notes": "Trump's authorization of over 300,000 tons of Russian diesel imports, criticized bipartisanly as violating US law, and Houthi strikes on Saudi Aramco's Dhahran HQ and Strait of Hormuz shipping lanes represent the most significant energy market risk factors today."
+    "notes": "Brent crude surpassed $110 per barrel for the first time since May, driven by escalating attacks near the Strait of Hormuz and renewed Ukraine strikes on Russian energy infrastructure; Goldman Sachs warned prices could reach $120."
   },
   "update_log": [
     {
-      "time": "14:31",
-      "text": "Al Jazeera cumulative tracker records ~3,468 dead in Iran, ~3,696 in Lebanon, ~28 in Gulf states from US-Israel strikes.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "14:00",
-      "text": "EU summit leaders pledge continued support for Ukraine as Trump calls Kyiv's refinery strikes a 'disgrace' and restricts satellite intelligence.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "13:45",
-      "text": "Houthis strike Saudi Aramco Dhahran headquarters, damaging three floors; ship attacks near Hormuz hit new highs.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "13:30",
-      "text": "New Yalu River Bridge between China and North Korea officially opens after decade-plus delay, signaling deepened bilateral ties.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "13:00",
-      "text": "Houthi missile kills five, wounds 16 at Aden presidential palace; Yemen government calls for protection of state institutions.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "12:30",
-      "text": "Trump tells Newsmax he is 'not a big fan' of Zelensky and finds Putin easier to negotiate with.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "12:00",
-      "text": "Trump rules out nuclear bomb use against Iran in first public statement on the topic, per Al Jazeera.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "11:30",
-      "text": "Atlantic and RT report Ukraine's Starshield high-speed data links were briefly restricted by Washington, exposing critical dependency.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "11:00",
-      "text": "Ukraine resumes strikes on Russian oil refineries; Trump authorizes purchase of 300,000+ tons of Russian diesel amid Iran war fuel concerns.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "10:30",
-      "text": "RFE/RL reports European leaders backed Zelensky after Trump's Russian diesel deal; Russia and Ukraine continue exchanging strikes.",
-      "source_tier": "verified"
-    },
-    {
       "time": "10:00",
-      "text": "Army Chief Gen. Randy George, since ousted by Hegseth, had warned of critical missile defense munitions shortage extending to 2030 before Iran war began.",
+      "text": "Rubio confirms Ukraine has requested Starshield military-grade satellite access for deep strikes; future access 'under discussion.'",
       "source_tier": "unverified"
     },
     {
-      "time": "09:30",
-      "text": "Zelensky states Ukraine needs 50,000\u201360,000 new soldiers per month to maintain parity with Russian forces.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "09:00",
-      "text": "RFE/RL: Europe mulling contingency plans amid Russian provocations and intelligence warnings of possible NATO attack.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "08:30",
-      "text": "Houthis claim control over Bab el-Mandeb Strait in early September; Fox News analyst warns group is building homegrown weapons independent of Iran.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "08:00",
-      "text": "China's FM Wang Yi tells Israeli President Herzog to stop 'forced establishment' of West Bank settlements, per BBC.",
-      "source_tier": "verified"
-    },
-    {
-      "time": "09:48",
-      "text": "Bipartisan group of nine US senators formally calls for investigation into Starshield satellite disruptions affecting Ukraine's military.",
+      "time": "09:45",
+      "text": "Fighting intensifies across Yemen as Houthi strikes threaten Red Sea coast supply routes and aid agencies warn of deepening humanitarian crisis.",
       "source_tier": "verified"
     },
     {
       "time": "09:30",
-      "text": "Trump calls Ukraine's resumed strikes on Russian oil refineries a 'disgrace,' citing impact on US gas prices ahead of midterms.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "09:15",
-      "text": "Houthi missile strike kills 5 and wounds 16 at Aden's al-Maashiq Presidential Palace in Yemen.",
+      "text": "Brent crude exceeds $110/barrel for first time since May as Iran conflict and Ukraine energy strikes compound supply fears.",
       "source_tier": "unverified"
     },
     {
       "time": "09:00",
-      "text": "Houthis strike Saudi Aramco headquarters in Dhahran, reportedly damaging three floors of the complex.",
-      "source_tier": "unverified"
-    },
-    {
-      "time": "08:45",
-      "text": "Drone attacks on at least seven Black Sea cargo vessels near NATO members Romania and Bulgaria raise alliance escalation fears.",
+      "text": "Trump urges Saudi Arabia to accept Israeli military assistance against Houthis and suggests Riyadh could join the Abraham Accords.",
       "source_tier": "unverified"
     },
     {
       "time": "08:30",
-      "text": "New China\u2013North Korea Yalu River Bridge opens after more than a decade of delay, deepening bilateral ties.",
+      "text": "Iran denies Saudi accusations of involvement in Houthi attacks on kingdom; Saudi Arabia had accused Tehran of encouraging escalation.",
       "source_tier": "unverified"
     },
     {
       "time": "08:00",
-      "text": "Zelenskyy attends EU summit in Brussels, rallying European support as Trump-Ukraine relations deteriorate sharply.",
-      "source_tier": "unverified"
+      "text": "Al Jazeera reports Houthi strikes on Aden's presidential palace and airport represent significant intra-Yemen escalation.",
+      "source_tier": "verified"
     },
     {
       "time": "07:30",
-      "text": "Ousted US Army Chief Gen. Randy George's warning of missile defense munitions shortage extending to 2030 surfaces amid Iran war coverage.",
+      "text": "Russia hails Trump's sanctions waiver on Russian energy revenues as 'historic'; Ukraine and European allies express alarm.",
       "source_tier": "unverified"
     },
     {
       "time": "07:00",
-      "text": "Al Jazeera tracker records approximately 3,468 dead in Iran, 3,696 in Lebanon, and 28 in Gulf states from US-Israel strikes (cumulative, last updated June 2026).",
-      "source_tier": "verified"
+      "text": "New York Times analysis details how Trump and Zelensky reached brink of complete diplomatic break within one week.",
+      "source_tier": "unverified"
     },
     {
       "time": "06:30",
-      "text": "RFE/RL reports Ukraine's Trophylab platform has granted 376 foreign companies access to captured Russian and North Korean weapons hardware.",
+      "text": "Ukraine resumed strikes on Russian oil refineries after Zelensky denounced Trump's diesel deal as a betrayal; Trump called strikes 'a disgrace.'",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00",
+      "text": "Ukrainian drone missions disrupted Russian civilian airspace causing multi-day flight delays at Russian airports.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "05:30",
+      "text": "British Army chief issues most explicit public warning of impending conflict with Russia in modern times.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "05:00",
+      "text": "North Korea announces test of AI-assisted torpedo system days after submarine cruise missile launches.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "04:30",
+      "text": "China opens New Yalu River Bridge to North Korea after decade-plus delay, deepening bilateral strategic ties.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "04:00",
+      "text": "Trump rules out nuclear bomb use on Iran but does not deny potential use of 'Mother of All Bombs'; Iran boosts air defenses.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "03:30",
+      "text": "Bipartisan US Senate group demands answers on Starlink disruptions in Ukraine that reportedly endangered American personnel.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "03:00",
+      "text": "European leaders rally behind Zelensky after Trump eases Russian diesel restrictions and calls for new Ukrainian leadership.",
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-10-17T14:31:51Z"
+  "last_updated": "2026-10-18T10:00:23Z"
 }
