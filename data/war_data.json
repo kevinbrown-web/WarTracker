@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.5,
-    "delta": "+0.3 from yesterday",
-    "level": "High",
-    "rationale": "Ukraine's largest-ever drone salvo (1,000+) striking St. Petersburg oil infrastructure, active US-Iran war with missile defense shortages flagged, Egypt mobilizing to defend Saudi Arabia against Houthi attacks, and deteriorating US-Ukraine Starlink/Starshield relations collectively sustain a high escalation environment."
+    "score": 7.2,
+    "delta": "No previous score available",
+    "level": "Elevated",
+    "rationale": "Ukraine's unprecedented 1,000+ drone barrage igniting St. Petersburg oil infrastructure, simultaneous US-Ukraine alliance rupture over sanctions waivers and Starlink throttling, active Houthi strikes forcing Saudi skyscraper evacuation, Strait of Hormuz shipping disruptions, and Iran signaling a 'new operational plan' combine to push conditions firmly into elevated territory."
   },
   "ticker_items": [
-    "Ukraine launches 1,000+ drones at Russia; St. Petersburg oil terminal ablaze.",
-    "Egypt's Sisi seeks parliament authorization to aid Saudi Arabia vs. Houthis.",
-    "Rubio confirms Ukraine's Starshield access 'under discussion'; Zelenskyy disputes claims.",
-    "Trump says Iran war will end 'very quickly'; predicts lower US gas prices.",
-    "Saudi coalition helicopter crashes near Yemen border; two pilots killed."
+    "Ukraine fires 1,000+ drones at Russia; St. Petersburg oil terminal ablaze.",
+    "US Treasury refuses to confirm Ukraine is an American ally.",
+    "Houthis force Saudi Riyadh skyscraper to go fully remote amid attack threats.",
+    "Iran claims Strait of Hormuz reopening offer stands pending US conditions.",
+    "Trump endorses Netanyahu days before Oct. 27 Israeli elections."
   ],
   "new_entrant": {
     "active": true,
-    "text": "Egypt is actively seeking parliamentary authorization to deploy defensive military assistance to Saudi Arabia against Houthi attacks, marking a potential new direct participant in the Yemen conflict."
+    "text": "Egypt's parliament is actively weighing a formal defense commitment to Saudi Arabia against Houthi forces, potentially marking Cairo's entry as a direct military participant in the Yemen conflict."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -27,6 +27,28 @@
         "method": "Air/Drone",
         "lat": 59.93,
         "lng": 30.32,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "St. Petersburg",
+        "description": "Ukraine launched over 1,000 drones targeting Russia in one of its largest ever aerial bombardments, setting an oil export terminal and refinery ablaze in St. Petersburg.",
+        "method": "Air/Drone",
+        "lat": 59.95,
+        "lng": 30.32,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Multiple Russian regions",
+        "description": "Ukrainian drones struck oil depot infrastructure across multiple Russian regions as part of the large-scale 1,000+ drone barrage.",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
         "source_tier": "unverified"
       }
     ],
@@ -52,6 +74,39 @@
         "lat": 17.5,
         "lng": 43.5,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Yemen-Saudi border region",
+        "description": "Houthis claimed to have shot down a Saudi coalition helicopter near the Yemen border; the coalition attributed the crash to technical malfunction, killing two pilots.",
+        "method": "Air/Drone",
+        "lat": 17.0,
+        "lng": 44.0,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh",
+        "description": "Houthi threats against Riyadh's Kingdom Centre skyscraper prompted management to order all tenants to work remotely until further notice.",
+        "method": "Missile/Surface",
+        "lat": 24.71,
+        "lng": 46.67,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "International Shipping",
+        "target_location": "Strait of Hormuz / Red Sea",
+        "description": "Mine strikes and tanker fires attributed to Houthi and Iranian-aligned forces continue to disrupt oil flows through the Strait of Hormuz and surrounding waters.",
+        "method": "Naval/USV",
+        "lat": 26.56,
+        "lng": 56.25,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -76,6 +131,13 @@
         "kia": "Unknown",
         "wia": "Unknown",
         "civilian": false,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Yemen fighting \u2014 Houthi vs Yemeni government forces",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
         "source_tier": "verified"
       }
     ],
@@ -108,6 +170,12 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-10-17"
+      },
+      {
+        "text": "Zelensky has revealed evidence he says proves the US has slowed down the Starlink satellite system in Ukraine.",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President of Ukraine",
+        "date": "2026-10-17"
       }
     ],
     "middle_east": [
@@ -128,6 +196,18 @@
         "speaker": "Marco Rubio",
         "title": "US Secretary of State",
         "date": "2026-10-18"
+      },
+      {
+        "text": "Iran says it could reopen the Strait of Hormuz within six days if the US accepts its conditions.",
+        "speaker": "Mohsen Rezaei",
+        "title": "Secretary, Iran Supreme National Security Council",
+        "date": "2026-10-18"
+      },
+      {
+        "text": "We are heading for a great victory; it's not far off.",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister of Israel",
+        "date": "2026-10-17"
       }
     ]
   },
@@ -179,15 +259,71 @@
       "flag": "\ud83c\uddf0\ud83c\uddf5",
       "status": "Active materiel + troops",
       "description": "North Korea announced testing of an AI-assisted torpedo system days after test-firing submarine-launched cruise missiles, amid ongoing friction with South Korea. The opening of the China-North Korea bridge is expected to ease logistical constraints on Pyongyang."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Basing + logistics",
+      "description": "UK Prime Minister Burnham deployed Irish Guards in ceremonial uniform outside Downing Street in a display tied to Ukraine policy, drawing domestic criticism. UK commentary warns that failure to prepare for Russian kinetic operations in Europe could prove critical."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Unchanged",
+    "brent_crude": "Elevated \u2014 exact price unavailable",
     "wheat_futures": "Unchanged",
-    "notes": "Trump predicted lower US gas prices following a rapid end to the Iran war, while Gulf states reportedly suppressed information about infrastructure damage from Iranian attacks, suggesting potential underreported supply disruption."
+    "notes": "Strait of Hormuz shipping disruptions from mine strikes and tanker fires linked to Iran-aligned forces are disrupting global oil flows, while Trump's Russian diesel import waiver is being criticized as further distorting energy markets."
   },
   "update_log": [
+    {
+      "time": "17:51 UTC",
+      "text": "Egypt's parliament weighing formal defense commitment to Saudi Arabia against Houthi forces, per Al Jazeera analysis.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "17:51 UTC",
+      "text": "Iran signals 'new operational plan' if US resumes attacks; Strait of Hormuz reopening offer remains conditional.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:51 UTC",
+      "text": "Saudi Riyadh Kingdom Centre skyscraper orders all tenants to work remotely amid Houthi attack threats.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:51 UTC",
+      "text": "Two Saudi coalition pilots killed in helicopter incident near Yemen border; Houthis claim shoot-down, coalition cites malfunction.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:51 UTC",
+      "text": "Trump endorses Netanyahu ahead of October 27 Israeli elections; reports emerge of possible joint US-Israel Iran strike planning.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:51 UTC",
+      "text": "US Treasury Secretary Bessent refuses three times to confirm Ukraine is a US ally on Face the Nation.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:51 UTC",
+      "text": "Rep. Mike Turner calls for congressional investigation into Starlink speed throttling affecting Ukrainian military forces.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:51 UTC",
+      "text": "Ukraine launches 1,000+ drone barrage at Russia, setting St. Petersburg oil terminal and refinery ablaze.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:51 UTC",
+      "text": "China-North Korea New Yalu River Bridge opens after decade of delays, deepening bilateral logistics ties.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:51 UTC",
+      "text": "Defense One analyst assessment: Russia has moved past hybrid war to kinetic operations; Washington has not kept pace.",
+      "source_tier": "analyst"
+    },
     {
       "time": "11:23",
       "text": "Update compiled for 2026-10-19; escalation score set at 8.5/10 reflecting multi-front high-intensity activity.",
@@ -239,5 +375,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-10-19T11:23:52Z"
+  "last_updated": "2026-10-19T17:51:14Z"
 }
