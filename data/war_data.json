@@ -3,18 +3,18 @@
     "score": 7.2,
     "delta": "No previous score available",
     "level": "Elevated",
-    "rationale": "Ukraine's unprecedented 1,000+ drone barrage igniting St. Petersburg oil infrastructure, simultaneous US-Ukraine alliance rupture over sanctions waivers and Starlink throttling, active Houthi strikes forcing Saudi skyscraper evacuation, Strait of Hormuz shipping disruptions, and Iran signaling a 'new operational plan' combine to push conditions firmly into elevated territory."
+    "rationale": "Multiple simultaneous flashpoints \u2014 US-Ukraine Starlink/intelligence rupture, Ukraine striking Saint Petersburg refinery, Houthi attacks forcing evacuation of Riyadh skyscraper and killing Saudi officers, Iran threatening new operational plans amid Strait of Hormuz mining, and a verified US-Israel attack death toll tracker showing over 7,000 dead across Iran and Lebanon \u2014 collectively push the global conflict environment to the upper end of Elevated."
   },
   "ticker_items": [
-    "Ukraine fires 1,000+ drones at Russia; St. Petersburg oil terminal ablaze.",
-    "US Treasury refuses to confirm Ukraine is an American ally.",
-    "Houthis force Saudi Riyadh skyscraper to go fully remote amid attack threats.",
-    "Iran claims Strait of Hormuz reopening offer stands pending US conditions.",
-    "Trump endorses Netanyahu days before Oct. 27 Israeli elections."
+    "Ukraine drones strike Saint Petersburg oil refinery, sparking large fires.",
+    "Houthis claim downing Saudi recon helicopter; two officers killed.",
+    "Iran warns of 'new operational plan' if US resumes strikes on Iran.",
+    "US-Ukraine rift deepens over Starlink throttling and intelligence cutoffs.",
+    "Trump endorses Netanyahu nine days before Israeli elections on Oct. 27."
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Egypt's parliament is actively weighing a formal defense commitment to Saudi Arabia against Houthi forces, potentially marking Cairo's entry as a direct military participant in the Yemen conflict."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -49,6 +49,17 @@
         "method": "Air/Drone",
         "lat": 55.75,
         "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Saint Petersburg",
+        "description": "Ukraine launched a large-scale drone attack on Saint Petersburg, causing fires at an oil refinery and fuel depot.",
+        "method": "Air/Drone",
+        "lat": 59.93,
+        "lng": 30.32,
         "source_tier": "unverified"
       }
     ],
@@ -107,6 +118,39 @@
         "lat": 26.56,
         "lng": 56.25,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh / Saudi airspace",
+        "description": "Houthis claimed to have shot down a Saudi reconnaissance helicopter, killing two Saudi officers.",
+        "method": "Missile/Surface",
+        "lat": 24.69,
+        "lng": 46.72,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh (Kingdom Centre area)",
+        "description": "Escalating Houthi attack threats prompted the landmark Kingdom Centre skyscraper in Riyadh to order remote work for all tenants.",
+        "method": "Missile/Surface",
+        "lat": 24.71,
+        "lng": 46.67,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis / Iran-aligned forces",
+        "target_country": "International Shipping",
+        "target_location": "Strait of Hormuz",
+        "description": "Mine strikes and tanker fires reported in and around the Strait of Hormuz, with Iran offering to reopen passage within six days under conditions.",
+        "method": "Naval/USV",
+        "lat": 26.57,
+        "lng": 56.25,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -139,6 +183,20 @@
         "wia": "Unknown",
         "civilian": true,
         "source_tier": "verified"
+      },
+      {
+        "incident": "Saudi recon helicopter downed by Houthis",
+        "kia": "2",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Sudan drone attacks on civilians and infrastructure",
+        "kia": "~160",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "unverified"
       }
     ],
     "claimed_totals": [
@@ -159,6 +217,12 @@
         "figure": "~28",
         "claimed_by": "Al Jazeera live tracker",
         "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Total killed in US-Israel attacks on Iran and Lebanon",
+        "figure": "~7,164 (3,468 Iran + 3,696 Lebanon + 28 Gulf states)",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10 (last modified)"
       }
     ]
   },
@@ -176,6 +240,18 @@
         "speaker": "Volodymyr Zelensky",
         "title": "President of Ukraine",
         "date": "2026-10-17"
+      },
+      {
+        "text": "We will not prevail if the U.S. backs Russia.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-10-18"
+      },
+      {
+        "text": "Russia's war on Ukraine must be brought to an end.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-10-18"
       }
     ],
     "middle_east": [
@@ -208,6 +284,12 @@
         "speaker": "Benjamin Netanyahu",
         "title": "Prime Minister of Israel",
         "date": "2026-10-17"
+      },
+      {
+        "text": "Iran has a new operational plan if the U.S. resumes attacks.",
+        "speaker": "Mohsen Rezaei",
+        "title": "Secretary, Iran Supreme National Security Council",
+        "date": "2026-10-18"
       }
     ]
   },
@@ -265,15 +347,97 @@
       "flag": "\ud83c\uddec\ud83c\udde7",
       "status": "Basing + logistics",
       "description": "UK Prime Minister Burnham deployed Irish Guards in ceremonial uniform outside Downing Street in a display tied to Ukraine policy, drawing domestic criticism. UK commentary warns that failure to prepare for Russian kinetic operations in Europe could prove critical."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Monitoring",
+      "description": "Germany is hosting the war crimes trial in Hamburg of a Ukrainian army officer suspected of involvement in the 2022 Nord Stream pipeline sabotage. European states are adapting to Russian hybrid and kinetic operations per Warsaw Security Forum assessments."
+    },
+    {
+      "country": "Australia",
+      "flag": "\ud83c\udde6\ud83c\uddfa",
+      "status": "Monitoring",
+      "description": "Australia is being urged by analysts to adopt a more pragmatic approach to great-power competition, drawing lessons from Southeast Asian nations navigating US-China-Russia dynamics. No direct combat involvement reported."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "Elevated \u2014 exact price unavailable",
+    "brent_crude": "Unchanged",
     "wheat_futures": "Unchanged",
-    "notes": "Strait of Hormuz shipping disruptions from mine strikes and tanker fires linked to Iran-aligned forces are disrupting global oil flows, while Trump's Russian diesel import waiver is being criticized as further distorting energy markets."
+    "notes": "The Strait of Hormuz mining and tanker strikes are creating oil flow disruption pressure, while Trump's Russian diesel deal continues to draw bipartisan criticism for allegedly violating US law and undercutting Ukraine."
   },
   "update_log": [
+    {
+      "time": "21:47 UTC",
+      "text": "Ukraine launched a large-scale drone attack setting Saint Petersburg oil refinery and depot ablaze.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:47 UTC",
+      "text": "Houthis claim downing of Saudi reconnaissance helicopter; two Saudi officers reported killed.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:47 UTC",
+      "text": "Riyadh's Kingdom Centre skyscraper orders remote work amid escalating Houthi attack threats.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:47 UTC",
+      "text": "Iran's Rezaei warns of 'new operational plan' if US resumes strikes; Strait of Hormuz conditions stated.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:47 UTC",
+      "text": "GCC foreign ministers condemned Houthi attacks on Saudi Arabia as Yemen fighting displaces 233,000+.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "21:47 UTC",
+      "text": "Zelenskyy publicly confirmed US intelligence cutoff and Starlink/Starshield throttling; Bessent rebuffed him.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:47 UTC",
+      "text": "Trump endorsed Netanyahu for Israeli election on October 27 calling him a 'great warrior prime minister.'",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:47 UTC",
+      "text": "Al Jazeera casualty tracker records ~7,164 dead across Iran, Lebanon, and Gulf states from US-Israel strikes.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "21:47 UTC",
+      "text": "Hamburg court opened war crimes trial of Ukrainian officer suspected in 2022 Nord Stream sabotage.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:47 UTC",
+      "text": "Sudan drone attacks killed approximately 160 people according to rights groups, per Al Jazeera reporting.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:47 UTC",
+      "text": "China opened New Yalu River Bridge to North Korea after over a decade of delays, deepening bilateral ties.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:47 UTC",
+      "text": "North Korea announced successful test of an AI-assisted torpedo system days after submarine cruise missile tests.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "21:47 UTC",
+      "text": "Defense One analysts warn Washington has not adapted to Russia moving beyond hybrid warfare into kinetic operations.",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "21:47 UTC",
+      "text": "Warsaw Security Forum participants expressed confidence in Europe's ability to counter Russian sabotage threats.",
+      "source_tier": "unverified"
+    },
     {
       "time": "17:51 UTC",
       "text": "Egypt's parliament weighing formal defense commitment to Saudi Arabia against Houthi forces, per Al Jazeera analysis.",
@@ -375,5 +539,5 @@
       "source_tier": "verified"
     }
   ],
-  "last_updated": "2026-10-19T17:51:14Z"
+  "last_updated": "2026-10-19T21:47:13Z"
 }
