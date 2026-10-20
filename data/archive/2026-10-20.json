@@ -3,18 +3,18 @@
     "score": 8.2,
     "delta": "No previous score available",
     "level": "High",
-    "rationale": "Multiple simultaneous active conflicts (US-Israel vs Iran, Ukraine-Russia, Yemen re-eruption) converge with a Russian satellite close-approach to a Ukrainian intelligence asset, Putin's exclusionary Trump-Xi summit proposal, Lavrov in Tehran amid questions of Russian military support for Iran, and Houthi ballistic missile strikes killing 50+ in Shabwa \u2014 while NATO warns of Russian attack by 2029 and Brent crude holds above $108."
+    "rationale": "Multiple simultaneous active conflicts \u2014 US-Israel war on Iran with thousands dead, Houthi ballistic missile attacks killing 50+ in Yemen, Russia hitting Ukraine's power grid, Lavrov in Tehran amid Russian-Iranian military cooperation questions, and Netanyahu threatening unilateral strikes on Iran \u2014 collectively push the global threat environment to High."
   },
   "ticker_items": [
-    "Russia proposes Trump-Xi summit on Ukraine \u2014 excluding Zelenskyy entirely.",
-    "Russian satellite makes 'exceptionally close' pass to Ukrainian intel satellite.",
-    "Houthi ballistic missiles kill 50+ at Shabwa military training camp, Yemen.",
-    "Lavrov arrives in Tehran as US-Iran war continues; GCC presses Russia to mediate.",
-    "House Republicans threaten to block Pentagon funds unless Trump gets tougher on Russia."
+    "Houthis kill 50+ Yemeni government troops with ballistic missiles in Shabwa.",
+    "Russia strikes Ukraine power grid; Kyiv says no early warning from partners.",
+    "Lavrov arrives Tehran as Russia weighs mediation role in US-Iran war.",
+    "Netanyahu vows Israel will attack Iran alone if necessary.",
+    "Finland seeks 1 million land mines amid escalating Russian threat."
   ],
   "new_entrant": {
-    "active": true,
-    "text": "Pakistan's army chief traveled to Tehran on 2026-10-20 in a diplomatic bid to prevent renewed US-Iran fighting, signaling Islamabad's active entry as a mediator in the US-Iran conflict."
+    "active": false,
+    "text": ""
   },
   "strikes_today": {
     "eastern_europe": [
@@ -83,6 +83,17 @@
         "lat": 50.45,
         "lng": 30.52,
         "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "National power grid (multiple locations)",
+        "description": "Russia launched strikes against Ukraine's power grid with no early warning provided to Kyiv by Western partners.",
+        "method": "Missile/Surface",
+        "lat": 49.0,
+        "lng": 32.0,
+        "source_tier": "unverified"
       }
     ],
     "middle_east": [
@@ -140,6 +151,28 @@
         "lat": 23.88,
         "lng": 45.07,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Yemen",
+        "target_location": "Shabwa province, al-Alam military camp",
+        "description": "Houthi forces fired three ballistic missiles at a government security forces training camp in Shabwa, killing at least 50 recruits and wounding over 200.",
+        "method": "Ballistic Missile",
+        "lat": 15.35,
+        "lng": 47.0,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh",
+        "description": "Houthi attacks on Saudi cities, including strikes that have kept Riyadh's airport closed for over a week, disrupting major events including the Future Investment Initiative.",
+        "method": "Missile/Surface",
+        "lat": 24.68,
+        "lng": 46.72,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -192,6 +225,13 @@
         "kia": "~28",
         "wia": "Unknown",
         "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Houthi ballistic missile strike on al-Alam camp, Shabwa",
+        "kia": "~50-53",
+        "wia": "~200+",
+        "civilian": false,
         "source_tier": "verified"
       }
     ],
@@ -247,6 +287,12 @@
         "speaker": "Vladimir Putin",
         "title": "President of Russia",
         "date": "2026-10-19"
+      },
+      {
+        "text": "Lavrov arrived in Tehran for talks with Iranian counterpart Abbas Araqchi and President Masud Pezeshkian amid questions over what support, if any, Moscow is providing Iran.",
+        "speaker": "Sergei Lavrov",
+        "title": "Russian Foreign Minister",
+        "date": "2026-10-19"
       }
     ],
     "ukraine": [
@@ -258,6 +304,12 @@
       },
       {
         "text": "It's Putin who wants an endless war, not me \u2014 Putin is refusing peace, not Ukraine, and the U.S. military is delaying vital supplies.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-10-19"
+      },
+      {
+        "text": "Ukraine got no early warning from partners as Russia hits the power grid again.",
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-10-19"
@@ -291,6 +343,18 @@
       {
         "text": "Tehran will retaliate if the United States resumes attacks on Iran.",
         "speaker": "Abbas Araghchi",
+        "title": "Iranian Foreign Minister",
+        "date": "2026-10-19"
+      },
+      {
+        "text": "Israel will attack Iran alone if needed, pledging to overthrow its government and outlining a doctrine of striking first.",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister of Israel",
+        "date": "2026-10-19"
+      },
+      {
+        "text": "The Islamic Republic would take care of some 'unfinished jobs' if the US renewed its attack on the country.",
+        "speaker": "Iran's top diplomat",
         "title": "Iranian Foreign Minister",
         "date": "2026-10-19"
       }
@@ -368,15 +432,97 @@
       "flag": "\ud83c\uddef\ud83c\uddf5",
       "status": "Active materiel + troops",
       "description": "Japan and the US launched the Keen Sword 27 joint exercises on 2026-10-20, involving approximately 45,000 Japanese and 12,000 American service members, focused on defending Japan's southwestern islands amid rising regional tensions. South Korea is simultaneously navigating a complex hedging strategy to avoid entanglement in multiple regional flashpoints."
+    },
+    {
+      "country": "Israel",
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Israel is engaged in active conflict with Iran and is threatening unilateral strikes even without US backing. Netanyahu outlined a new security doctrine and threatened to impose a 'Gaza model' on Lebanon permanently. Israel approached Saudi Arabia with an offer to help fight Ansar Allah in Yemen, which was declined."
+    },
+    {
+      "country": "Finland",
+      "flag": "\ud83c\uddeb\ud83c\uddee",
+      "status": "Active materiel + troops",
+      "description": "Finland is seeking one million land mines to defend its eastern border with Russia, having withdrawn from the UN Ottawa Treaty banning such munitions along with regional Nordic and Baltic peers. This represents a significant escalation of Finnish defensive posture."
     }
   ],
   "financial": {
-    "usd_rub": "",
-    "brent_crude": "$108.06 (down ~1.6% on day)",
-    "wheat_futures": "",
-    "notes": "Brent crude dipped roughly 2% to $108.06 after hitting its highest level since May, as markets weigh Houthi attacks on Saudi targets and Strait of Hormuz disruption risk against diplomatic signals from Lavrov's Tehran visit; WTI fell to ~$100.88."
+    "usd_rub": "Unknown",
+    "brent_crude": "~$108.06",
+    "wheat_futures": "Unknown",
+    "notes": "Brent crude dropped ~1.6% to $108.06 after hitting its highest level since May, driven by Middle East conflict premium and the US-Russia diesel import deal impact on global energy markets."
   },
   "update_log": [
+    {
+      "time": "20:56 UTC",
+      "text": "Houthi ballistic missile strike kills 50-53 government security recruits at al-Alam military camp in Yemen's Shabwa province.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "20:00 UTC",
+      "text": "Russian FM Lavrov arrives in Tehran for talks on Iran-US war and regional security; GCC pressing Moscow to mediate Strait of Hormuz reopening.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "19:30 UTC",
+      "text": "Netanyahu declares Israel prepared to attack Iran without US backing and vows to seek regime change in Tehran.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "19:00 UTC",
+      "text": "Zelenskyy reports Russia struck Ukrainian power grid again with no early warning from Western partners.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:30 UTC",
+      "text": "Finland announces it is seeking one million land mines after withdrawing from Ottawa Treaty to defend eastern border with Russia.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "Trump states 'it's time for somebody else to negotiate on behalf of Ukraine,' escalating rift with Zelensky.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:00 UTC",
+      "text": "Iran warns of 'unfinished jobs' if US renews military attacks; Senate Democrats demand Pentagon reveal true costs of Iran war.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Japan and US launch Keen Sword 27 exercises with 57,000 combined troops amid rising China tensions over southwestern islands.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:00 UTC",
+      "text": "Brent crude falls ~1.6% to $108.06 after hitting highest level since May amid Middle East conflict and US-Russia diesel deal.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "NATO senior commander warns alliance must adapt faster; alliance reshaping strategy amid warning of possible Russian attack by 2029.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:00 UTC",
+      "text": "UK police re-arrest two men suspected of assisting Iranian intelligence linked to airbase used in strikes on Iran.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Al Jazeera live tracker confirms cumulative death toll: ~3,468 in Iran, ~3,696 in Lebanon, ~28 in Gulf states from US-Israel strikes.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "Starlink speed limit reportedly knocking out Ukrainian interceptor drones against Russian jet-powered Shaheds; Musk and White House deny responsibility.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Putin reportedly pushing for trilateral summit with Trump and Xi modeled on Yalta Conference to establish new world order.",
+      "source_tier": "unverified"
+    },
     {
       "time": "15:55 UTC",
       "text": "Pakistan army chief arrives in Tehran in bid to prevent renewed US-Iran military exchanges.",
@@ -518,5 +664,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-10-20T15:55:18Z"
+  "last_updated": "2026-10-20T20:56:52Z"
 }
