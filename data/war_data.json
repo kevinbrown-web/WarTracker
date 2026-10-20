@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 7.4,
-    "delta": "+0.2 from yesterday",
-    "level": "Elevated",
-    "rationale": "Russia launched mass ballistic missile and drone strikes on Kyiv's energy infrastructure with no allied early warning to Ukraine, while Iran threatened to target AI centers and undersea cables if US attacks resume, and Qatar warned Iran-war energy shockwaves have yet to peak, sustaining multi-theater pressure."
+    "score": 8.2,
+    "delta": "No previous score available",
+    "level": "High",
+    "rationale": "Multiple simultaneous active conflicts (US-Israel vs Iran, Ukraine-Russia, Yemen re-eruption) converge with a Russian satellite close-approach to a Ukrainian intelligence asset, Putin's exclusionary Trump-Xi summit proposal, Lavrov in Tehran amid questions of Russian military support for Iran, and Houthi ballistic missile strikes killing 50+ in Shabwa \u2014 while NATO warns of Russian attack by 2029 and Brent crude holds above $108."
   },
   "ticker_items": [
-    "Russia strikes Kyiv energy grid with ballistic missiles; power cut to hundreds of thousands.",
-    "Zelenskyy: Ukraine received zero early warning from allies before overnight strike.",
-    "Iran threatens AI centers, undersea cables if US resumes military operations.",
-    "Qatar warns global energy shockwaves from Iran war have not yet peaked.",
-    "Ukraine hits Yandex data centers; millions of Russians lose banking and app access."
+    "Russia proposes Trump-Xi summit on Ukraine \u2014 excluding Zelenskyy entirely.",
+    "Russian satellite makes 'exceptionally close' pass to Ukrainian intel satellite.",
+    "Houthi ballistic missiles kill 50+ at Shabwa military training camp, Yemen.",
+    "Lavrov arrives in Tehran as US-Iran war continues; GCC presses Russia to mediate.",
+    "House Republicans threaten to block Pentagon funds unless Trump gets tougher on Russia."
   ],
   "new_entrant": {
-    "active": false,
-    "text": ""
+    "active": true,
+    "text": "Pakistan's army chief traveled to Tehran on 2026-10-20 in a diplomatic bid to prevent renewed US-Iran fighting, signaling Islamabad's active entry as a mediator in the US-Iran conflict."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -61,6 +61,28 @@
         "lat": 55.75,
         "lng": 37.62,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Russian oil refineries (location unspecified)",
+        "description": "Ukraine resumed strikes on Russian oil refineries after Zelenskyy condemned Trump's 'betrayal' over the Russian diesel deal.",
+        "method": "Drone/Air",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Ukraine (unspecified)",
+        "description": "Russia and Ukraine continued to trade fresh strikes following Trump's easing of restrictions on Russian diesel exports.",
+        "method": "Missile/Surface",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
       }
     ],
     "middle_east": [
@@ -85,6 +107,39 @@
         "lat": 24.69,
         "lng": 46.68,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Yemen",
+        "target_location": "Shabwa province, al-Alam military camp",
+        "description": "Houthi forces fired three ballistic missiles at a government security forces training camp in Shabwa, killing over 50 and wounding 200+.",
+        "method": "Ballistic Missile",
+        "lat": 15.35,
+        "lng": 47.01,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Saudi cities (unspecified)",
+        "description": "Houthis conducted a wave of attacks on Saudi cities amid reports of renewed Iranian support for the group.",
+        "method": "Missile/Surface",
+        "lat": 24.68,
+        "lng": 46.72,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Unspecified",
+        "description": "A Saudi reconnaissance helicopter was shot down or crashed, killing two officers, with Houthis claiming a missile strike.",
+        "method": "Missile/Surface",
+        "lat": 23.88,
+        "lng": 45.07,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -103,6 +158,41 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Houthi ballistic missile strike, Shabwa training camp",
+        "kia": "~53",
+        "wia": "~200+",
+        "civilian": false,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Saudi reconnaissance helicopter shootdown",
+        "kia": "2",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US-Israel attacks on Iran (cumulative tracker)",
+        "kia": "~3,468",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel attacks on Lebanon (cumulative tracker)",
+        "kia": "~3,696",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel attacks on Gulf states (cumulative tracker)",
+        "kia": "~28",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -129,14 +219,45 @@
         "figure": "~233,000",
         "claimed_by": "Al Jazeera / GCC statement",
         "as_of": "2026-10-18"
+      },
+      {
+        "claim": "Iran civilian and combatant deaths from US-Israel strikes",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10 (last tracker update)"
+      },
+      {
+        "claim": "Lebanon deaths from US-Israel strikes",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10 (last tracker update)"
+      },
+      {
+        "claim": "Gulf state deaths from US-Israel strikes",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10 (last tracker update)"
       }
     ]
   },
   "quotes": {
-    "russia": [],
+    "russia": [
+      {
+        "text": "Putin has reportedly floated a three-way summit between himself, Trump and Xi Jinping to negotiate an end to the war in Ukraine \u2014 without Zelenskyy at the table.",
+        "speaker": "Vladimir Putin",
+        "title": "President of Russia",
+        "date": "2026-10-19"
+      }
+    ],
     "ukraine": [
       {
         "text": "Ukraine again received no early warning of the attack from partner countries.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-10-19"
+      },
+      {
+        "text": "It's Putin who wants an endless war, not me \u2014 Putin is refusing peace, not Ukraine, and the U.S. military is delaying vital supplies.",
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-10-19"
@@ -160,6 +281,18 @@
         "speaker": "Iranian Government Spokesperson",
         "title": "Official spokesperson",
         "date": "2026-10-18"
+      },
+      {
+        "text": "Israel will attack Iran alone if needed, and is committed to overthrowing its government and striking first.",
+        "speaker": "Benjamin Netanyahu",
+        "title": "Prime Minister of Israel",
+        "date": "2026-10-19"
+      },
+      {
+        "text": "Tehran will retaliate if the United States resumes attacks on Iran.",
+        "speaker": "Abbas Araghchi",
+        "title": "Iranian Foreign Minister",
+        "date": "2026-10-19"
       }
     ]
   },
@@ -217,15 +350,98 @@
       "flag": "\ud83c\uddf0\ud83c\uddf7",
       "status": "Strategic balancer",
       "description": "South Korea recalled its ambassador from Kyiv after Zelenskyy disclosed a POW transfer, and is now pulling more embassy staff from Ukraine. Seoul is navigating a complex hedging strategy balancing North Korean provocations, US alliance commitments, and entanglement risks in European and Middle Eastern conflicts."
+    },
+    {
+      "country": "China",
+      "flag": "\ud83c\udde8\ud83c\uddf3",
+      "status": "Strategic balancer",
+      "description": "China has been invited by Putin to join a three-way summit with Russia and the US to negotiate Ukraine's future \u2014 without Ukrainian participation. China-India relations have been improving amid reduced US strategic engagement in the Indo-Pacific, per analyst assessment. No direct Chinese military action reported today."
+    },
+    {
+      "country": "Pakistan",
+      "flag": "\ud83c\uddf5\ud83c\uddf0",
+      "status": "Mediator + arms supplier",
+      "description": "Pakistan's army chief traveled to Tehran on 2026-10-20 in an active diplomatic effort to prevent renewed US-Iran fighting without alienating Tehran, Riyadh, or Washington. Islamabad is attempting to position itself as a neutral mediator in the US-Iran conflict as escalation risks mount."
+    },
+    {
+      "country": "Japan",
+      "flag": "\ud83c\uddef\ud83c\uddf5",
+      "status": "Active materiel + troops",
+      "description": "Japan and the US launched the Keen Sword 27 joint exercises on 2026-10-20, involving approximately 45,000 Japanese and 12,000 American service members, focused on defending Japan's southwestern islands amid rising regional tensions. South Korea is simultaneously navigating a complex hedging strategy to avoid entanglement in multiple regional flashpoints."
     }
   ],
   "financial": {
     "usd_rub": "",
-    "brent_crude": "$108.06",
+    "brent_crude": "$108.06 (down ~1.6% on day)",
     "wheat_futures": "",
-    "notes": "Brent crude dipped 1.64% to $108.06 after hitting its highest level since May, with Iran-war energy disruptions and Strait of Hormuz uncertainty keeping prices elevated; Trump's Russian diesel deal is aimed at cushioning global energy markets while preserving peace-talk leverage with Moscow."
+    "notes": "Brent crude dipped roughly 2% to $108.06 after hitting its highest level since May, as markets weigh Houthi attacks on Saudi targets and Strait of Hormuz disruption risk against diplomatic signals from Lavrov's Tehran visit; WTI fell to ~$100.88."
   },
   "update_log": [
+    {
+      "time": "15:55 UTC",
+      "text": "Pakistan army chief arrives in Tehran in bid to prevent renewed US-Iran military exchanges.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:00 UTC",
+      "text": "Lavrov meets Iranian FM Araghchi and President Pezeshkian in Tehran; GCC presses Russia to help reopen Strait of Hormuz.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "NATO supreme transformation commander warns the West's greatest vulnerability may be production speed, not weapons quantity.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:00 UTC",
+      "text": "House Republicans warn they will block Pentagon funding unless Trump administration takes tougher stance on Russia.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "Houthis claim ballistic missile strikes on Saudi cities; Iran support for Houthis probed as Yemen war re-erupts.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "Houthi ballistic missile strike on al-Alam military camp in Shabwa kills at least 50 government forces troops, wounds 200+.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:30 UTC",
+      "text": "Russian military satellite made 'exceptionally close' approach to Finnish intelligence satellite serving Ukraine, described as potentially hostile.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Putin proposes three-way Trump-Xi-Putin summit on Ukraine, explicitly excluding Zelenskyy from negotiations.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "Japan and US launch Keen Sword 27 exercises with 57,000 combined troops amid rising Indo-Pacific tensions.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Zelenskyy rejects Trump's accusations, says Putin is refusing peace and US is delaying vital military supplies.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "07:00 UTC",
+      "text": "European leaders are reportedly giving up on influencing Trump and preparing to engage Putin directly on Ukraine.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00 UTC",
+      "text": "Trump endorses Netanyahu for reelection ahead of Israeli polls on October 27, citing joint Iran campaign.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "05:00 UTC",
+      "text": "Brent crude dips ~2% to $108.06 after reaching highest level since May amid Middle East conflict risk.",
+      "source_tier": "unverified"
+    },
     {
       "time": "10:31",
       "text": "Iran threatens to target AI centers and undersea cables if US resumes military operations, signaling preparation for new conflict round.",
@@ -302,5 +518,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-10-20T10:31:07Z"
+  "last_updated": "2026-10-20T15:55:18Z"
 }
