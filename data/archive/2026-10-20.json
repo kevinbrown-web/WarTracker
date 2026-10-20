@@ -1,0 +1,306 @@
+{
+  "escalation": {
+    "score": 7.4,
+    "delta": "+0.2 from yesterday",
+    "level": "Elevated",
+    "rationale": "Russia launched mass ballistic missile and drone strikes on Kyiv's energy infrastructure with no allied early warning to Ukraine, while Iran threatened to target AI centers and undersea cables if US attacks resume, and Qatar warned Iran-war energy shockwaves have yet to peak, sustaining multi-theater pressure."
+  },
+  "ticker_items": [
+    "Russia strikes Kyiv energy grid with ballistic missiles; power cut to hundreds of thousands.",
+    "Zelenskyy: Ukraine received zero early warning from allies before overnight strike.",
+    "Iran threatens AI centers, undersea cables if US resumes military operations.",
+    "Qatar warns global energy shockwaves from Iran war have not yet peaked.",
+    "Ukraine hits Yandex data centers; millions of Russians lose banking and app access."
+  ],
+  "new_entrant": {
+    "active": false,
+    "text": ""
+  },
+  "strikes_today": {
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russia launched a barrage of ballistic missiles and jet-powered drones targeting Kyiv and surrounding region, hitting power stations, killing at least one person and cutting power to hundreds of thousands.",
+        "method": "Ballistic Missile",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv region",
+        "description": "Russian drone strikes accompanied ballistic missile attacks on energy infrastructure across the Kyiv region overnight.",
+        "method": "Air/Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Moscow region (Yandex data centers)",
+        "description": "Ukraine struck Yandex data centers in Russia, disrupting banking, taxi, and food-delivery services for millions of Russian citizens.",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Russian oil refineries",
+        "description": "Ukraine resumed strikes on Russian oil refineries, prompting criticism from President Trump who called the attacks a disgrace.",
+        "method": "Air/Drone",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "unverified"
+      }
+    ],
+    "middle_east": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Saudi Arabia (airspace)",
+        "description": "Houthis claimed to have downed a Saudi reconnaissance helicopter, killing two officers.",
+        "method": "Missile/Surface",
+        "lat": 23.89,
+        "lng": 45.08,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh",
+        "description": "Escalating Houthi threats prompted management of Riyadh's Kingdom Centre skyscraper to send employees home to work remotely until further notice.",
+        "method": "Missile/Surface",
+        "lat": 24.69,
+        "lng": 46.68,
+        "source_tier": "unverified"
+      }
+    ]
+  },
+  "casualties": {
+    "today": [
+      {
+        "incident": "Russian ballistic missile strike on Kyiv",
+        "kia": "~1",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Houthi downing of Saudi reconnaissance helicopter",
+        "kia": "2",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      }
+    ],
+    "claimed_totals": [
+      {
+        "claim": "Deaths in Iran from US-Israel attacks",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Lebanon from US-Israel attacks",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Gulf states from US-Israel attacks",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera live tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Displaced persons in Yemen",
+        "figure": "~233,000",
+        "claimed_by": "Al Jazeera / GCC statement",
+        "as_of": "2026-10-18"
+      }
+    ]
+  },
+  "quotes": {
+    "russia": [],
+    "ukraine": [
+      {
+        "text": "Ukraine again received no early warning of the attack from partner countries.",
+        "speaker": "Volodymyr Zelenskyy",
+        "title": "President of Ukraine",
+        "date": "2026-10-19"
+      }
+    ],
+    "middle_east": [
+      {
+        "text": "Qatar warns global energy shockwaves from Iran war have yet to peak; calls for dialogue with Tehran.",
+        "speaker": "Qatar Deputy Prime Minister",
+        "title": "Deputy Prime Minister of Qatar",
+        "date": "2026-10-19"
+      },
+      {
+        "text": "Iran has a new operational plan if the U.S. resumes attacks.",
+        "speaker": "Mohsen Rezaei",
+        "title": "Secretary, Iran Supreme National Security Council",
+        "date": "2026-10-18"
+      },
+      {
+        "text": "Iran says it could reopen the Strait of Hormuz within six days if the US accepts its conditions.",
+        "speaker": "Iranian Government Spokesperson",
+        "title": "Official spokesperson",
+        "date": "2026-10-18"
+      }
+    ]
+  },
+  "observers": [
+    {
+      "country": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "status": "Mediator + arms supplier",
+      "description": "Secretary Rubio denied any US pause in intelligence sharing with Ukraine via Starshield, contradicting Zelenskyy's claims of no ballistic missile early warning. President Trump endorsed Netanyahu ahead of Israel's October 27 election and warned he is not inclined to handle Iran alone if Netanyahu loses. Trump's diesel deal with Russia continues to draw bipartisan criticism as the first shipment has already arrived on the US East Coast."
+    },
+    {
+      "country": "Russia",
+      "flag": "\ud83c\uddf7\ud83c\uddfa",
+      "status": "Active materiel + troops",
+      "description": "Russia conducted a major overnight ballistic missile and drone strike on Kyiv's energy infrastructure, damaging power stations and cutting power to hundreds of thousands. Russian domestic internet and financial services were disrupted by Ukrainian counter-strikes on Yandex data centers. Russia continues to receive diplomatic cover from the US diesel deal which delays further sanctions."
+    },
+    {
+      "country": "Ukraine",
+      "flag": "\ud83c\uddfa\ud83c\udde6",
+      "status": "Active materiel + troops",
+      "description": "Ukraine struck Russian Yandex data centers, causing widespread civilian disruption inside Russia. Ukraine also resumed strikes on Russian oil refineries despite US criticism. Operation Vivaldi continues as a proving ground for drone and ground robot integration alongside artillery."
+    },
+    {
+      "country": "Iran",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
+      "status": "Active materiel + troops",
+      "description": "Iran's Revolutionary Guards threatened to target AI infrastructure and undersea cables if the US resumes military operations, signaling preparation for a new round of conflict. Iran reported providing $200 million in aid to Hezbollah, pressuring Lebanon's government. The Strait of Hormuz remains a pressure point, with Iran offering to reopen it within six days under conditions the US has not accepted."
+    },
+    {
+      "country": "Qatar",
+      "flag": "\ud83c\uddf6\ud83c\udde6",
+      "status": "Mediator + arms supplier",
+      "description": "Qatar's Deputy PM warned that global energy shockwaves from the Iran war have not yet peaked and called for dialogue with Tehran. Qatar highlighted its US defense ties while rejecting proposed Strait of Hormuz transit fees. Qatar is positioning itself as a potential mediator between Washington and Tehran."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Active materiel + troops",
+      "description": "North Korea announced testing of an AI-assisted torpedo system days after submarine-launched cruise missile tests. China opened the long-delayed New Yalu River Bridge connecting Dandong to Sinuiju, potentially easing logistics for North Korea. South Korea is pulling additional embassy staff from Ukraine following the POW disclosure row."
+    },
+    {
+      "country": "Germany",
+      "flag": "\ud83c\udde9\ud83c\uddea",
+      "status": "Supplying dual-use goods",
+      "description": "Analysis from War on the Rocks highlights Germany's reinvention of military Keynesianism, fusing European security concerns with industrial policy following its 2025 fiscal rule loosening. Germany is ramping defense industrial capacity as NATO begins talks on new military requirements for a potential Russia confrontation."
+    },
+    {
+      "country": "Saudi Arabia",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "status": "Monitoring",
+      "description": "Saudi Arabia is under escalating Houthi pressure, with two officers killed in a downed reconnaissance helicopter and Riyadh's landmark Kingdom Centre skyscraper closing offices due to threat escalation. The GCC formally condemned Houthi attacks on Saudi Arabia as Yemen fighting displaces more than 233,000 people."
+    },
+    {
+      "country": "South Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf7",
+      "status": "Strategic balancer",
+      "description": "South Korea recalled its ambassador from Kyiv after Zelenskyy disclosed a POW transfer, and is now pulling more embassy staff from Ukraine. Seoul is navigating a complex hedging strategy balancing North Korean provocations, US alliance commitments, and entanglement risks in European and Middle Eastern conflicts."
+    }
+  ],
+  "financial": {
+    "usd_rub": "",
+    "brent_crude": "$108.06",
+    "wheat_futures": "",
+    "notes": "Brent crude dipped 1.64% to $108.06 after hitting its highest level since May, with Iran-war energy disruptions and Strait of Hormuz uncertainty keeping prices elevated; Trump's Russian diesel deal is aimed at cushioning global energy markets while preserving peace-talk leverage with Moscow."
+  },
+  "update_log": [
+    {
+      "time": "10:31",
+      "text": "Iran threatens to target AI centers and undersea cables if US resumes military operations, signaling preparation for new conflict round.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:25",
+      "text": "Qatar Deputy PM warns global energy shockwaves from Iran war have not yet peaked, calls for dialogue with Tehran.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:15",
+      "text": "Rubio denies US paused intelligence sharing with Ukraine via Starshield amid Zelenskyy's no-warning claims.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "09:50",
+      "text": "Russia launches overnight ballistic missile and drone barrage on Kyiv energy infrastructure; at least one killed, hundreds of thousands lose power.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "09:30",
+      "text": "Ukraine strikes Yandex data centers in Russia; banking, taxi, and food-delivery services disrupted for millions of Russians.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:10",
+      "text": "Zelenskyy states Ukraine received no early warning from partner countries ahead of overnight Russian ballistic missile attack.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:45",
+      "text": "Houthis claim downing of Saudi reconnaissance helicopter, killing two Saudi officers.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:20",
+      "text": "GCC foreign ministers condemn Houthi attacks on Saudi Arabia as Yemen fighting displaces over 233,000 people.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "07:55",
+      "text": "Riyadh's Kingdom Centre skyscraper orders all tenants to work remotely indefinitely amid Houthi threat escalation.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "07:30",
+      "text": "Trump endorses Netanyahu ahead of Israel's October 27 election, warns US will not handle Iran alone without Netanyahu.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:50",
+      "text": "Brent crude falls 1.64% to $108.06 after hitting highest level since May on Iran-war supply disruption fears.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "06:00",
+      "text": "South Korea pulls additional embassy staff from Ukraine following POW disclosure row with Zelenskyy.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "05:30",
+      "text": "NATO senior commander warns alliance must adapt faster, citing speed of adversary learning as greatest vulnerability.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "04:00",
+      "text": "Iran's Mohsen Rezaei confirms military has prepared a new operational plan in response to any resumed US attacks.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "02:00",
+      "text": "China opens New Yalu River Bridge to North Korea, potentially easing cross-border logistics for Pyongyang.",
+      "source_tier": "unverified"
+    }
+  ],
+  "last_updated": "2026-10-20T10:31:07Z"
+}
