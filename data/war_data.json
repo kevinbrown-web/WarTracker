@@ -1,20 +1,20 @@
 {
   "escalation": {
-    "score": 8.2,
+    "score": 7.8,
     "delta": "No previous score available",
-    "level": "High",
-    "rationale": "Multiple simultaneous high-intensity conflict arcs converge: ongoing Russian missile/drone strikes killing civilians in Ukraine, Hegseth's unannounced Israel visit signaling imminent US-Iran offensive planning, Iranian officials openly debating nuclear weapons acquisition post-Khamenei, a Houthi ballistic missile strike killing 53 Yemeni government soldiers, RAF deployment to defend Saudi Arabia, and a Russian satellite conducting unprecedented close-approach maneuvers against a Ukraine-linked commercial satellite."
+    "level": "Elevated",
+    "rationale": "Multiple converging crises drive a high Elevated rating: an active post-Iran-war environment with ~7,000+ combined dead in Iran/Lebanon, UK Typhoons deploying to Saudi Arabia against escalating Houthi strikes that killed 58 and pushed Brent to $108, Trump publicly softening on Russia while Ukraine faces mobilization desperation, Hegseth's unannounced Israel visit amid talk of Iran war restart, and UNIFIL withdrawal leaving Lebanon's south in a security vacuum ahead of Israeli elections on October 27."
   },
   "ticker_items": [
-    "Russia kills 9 in Ukraine missile/drone blitz as Zelenskyy lobbies allies in Norway.",
-    "Hegseth makes unannounced Israel visit; discusses Iran war restart with Netanyahu.",
-    "Iranian officials openly debate acquiring nuclear bomb following Khamenei's death.",
-    "Houthi ballistic missile kills 53 Yemeni government soldiers at military camp.",
-    "RAF Typhoons to deploy over Saudi Arabia to intercept Houthi missile attacks."
+    "UK deploys RAF Typhoons to Saudi Arabia to counter escalating Houthi strikes.",
+    "Houthi missile kills 58 at Yemen government training camp in Shabwa province.",
+    "Brent crude hits $108 as Houthi attacks threaten Saudi oil infrastructure.",
+    "Trump lifts Russian diesel sanctions; Zelensky cites 'positive signals' after Oslo talks.",
+    "Hegseth makes unannounced Israel visit as Trump weighs renewed Iran military action."
   ],
   "new_entrant": {
     "active": true,
-    "text": "The United Kingdom is deploying RAF Typhoon fighter jets in a defensive shield role over Saudi Arabia against Houthi attacks, representing a significant new direct military commitment to the Arabian Peninsula theater."
+    "text": "The United Kingdom has deployed RAF Typhoon FGR4 fighter jets to Saudi Arabia for defensive counter-air missions against Houthi strikes, marking a direct UK military entry into the Yemen-Saudi theater."
   },
   "strikes_today": {
     "eastern_europe": [
@@ -96,6 +96,39 @@
         "lat": 14.53,
         "lng": 47.01,
         "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Yemen (Saudi-backed forces)",
+        "target_location": "Shabwa Province",
+        "description": "A Houthi missile struck a Saudi-backed government forces training camp in Shabwa province, killing 58 and injuring more than 200.",
+        "method": "Missile/Surface",
+        "lat": 14.75,
+        "lng": 47.01,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Saudi Arabia (infrastructure, ongoing)",
+        "description": "Houthi forces continued missile and drone strikes against Saudi Arabian oil infrastructure, prompting Saudi Arabia to postpone its Future Investment Initiative and UK military intervention.",
+        "method": "Drone",
+        "lat": 24.68,
+        "lng": 46.72,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Multiple (Gulf region)",
+        "target_location": "Middle East (US diplomatic missions)",
+        "description": "Houthi strikes across the Middle East prompted new US State Department warnings to American citizens at diplomatic missions throughout the region.",
+        "method": "Missile/Surface",
+        "lat": 24.0,
+        "lng": 45.0,
+        "source_tier": "unverified"
       }
     ]
   },
@@ -135,6 +168,27 @@
         "wia": "Unknown",
         "civilian": false,
         "source_tier": "unverified"
+      },
+      {
+        "incident": "Houthi missile strike, Shabwa training camp, Yemen",
+        "kia": "~58",
+        "wia": "~200+",
+        "civilian": false,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "US-Israel attacks on Iran (cumulative tracker, last updated June 2026)",
+        "kia": "~3,468 (Iran) + ~3,696 (Lebanon) + ~28 (Gulf states)",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Yemen displacement since fighting escalated (UNHCR)",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
       }
     ],
     "claimed_totals": [
@@ -167,6 +221,30 @@
         "figure": "$266 million/day",
         "claimed_by": "Ukrainian Finance Ministry (via Sputnik analysis)",
         "as_of": "2026-10-20"
+      },
+      {
+        "claim": "Total dead in Iran from US-Israel strikes",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Total dead in Lebanon from US-Israel strikes",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Total dead in Gulf states from US-Israel strikes",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Displaced persons in Yemen since fighting escalated",
+        "figure": "250,000+",
+        "claimed_by": "UNHCR",
+        "as_of": "2026-10-20"
       }
     ]
   },
@@ -197,6 +275,18 @@
         "speaker": "Volodymyr Zelenskyy",
         "title": "President of Ukraine",
         "date": "2026-10-20"
+      },
+      {
+        "text": "Positive signals from American side.",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President of Ukraine",
+        "date": "2026-10-20"
+      },
+      {
+        "text": "US intelligence sharing works now.",
+        "speaker": "Volodymyr Zelensky",
+        "title": "President of Ukraine",
+        "date": "2026-10-20"
       }
     ],
     "middle_east": [
@@ -210,6 +300,24 @@
         "text": "As always, it was an honor to visit our warfighters in CENTCOM today. The best of our country, on a historic mission. Godspeed.",
         "speaker": "Pete Hegseth",
         "title": "US Secretary of Defense",
+        "date": "2026-10-20"
+      },
+      {
+        "text": "Russia is a big machine \u2014 they just keep grinding forward, and that's what they've done.",
+        "speaker": "Donald Trump",
+        "title": "President of the United States",
+        "date": "2026-10-20"
+      },
+      {
+        "text": "It's time to reach a peace deal to end the more than four-year conflict.",
+        "speaker": "Donald Trump",
+        "title": "President of the United States",
+        "date": "2026-10-20"
+      },
+      {
+        "text": "By prolonging the talks, Iran is influencing the US election without taking any unlawful action.",
+        "speaker": "Saeed Leylaz",
+        "title": "Tehran Analyst",
         "date": "2026-10-20"
       }
     ]
@@ -280,15 +388,96 @@
       "flag": "\ud83c\uddee\ud83c\uddf1",
       "status": "Active materiel + troops",
       "description": "Israel held unannounced security talks with US Defense Secretary Hegseth focused on Iran, one week before Israeli elections on October 27. Netanyahu's government is threatening to make its occupation of southern Lebanon permanent under a so-called 'Gaza model.' Israel also made a rejected offer to help Saudi Arabia fight Ansar Allah in Yemen."
+    },
+    {
+      "country": "France",
+      "flag": "\ud83c\uddeb\ud83c\uddf7",
+      "status": "Mediator + arms supplier",
+      "description": "President Macron is visiting Gulf states to negotiate energy-for-security arrangements amid rising regional energy prices. France is seeking to position itself as an independent security guarantor in the Gulf region, distinct from US policy. Macron's visit coincides with UK military deployment to Saudi Arabia and broader Western concern over Houthi escalation."
     }
   ],
   "financial": {
     "usd_rub": "Unchanged",
-    "brent_crude": "~$108/bbl",
+    "brent_crude": "$108.00",
     "wheat_futures": "Unchanged",
-    "notes": "Brent crude has reached $108 per barrel amid Houthi strikes on Saudi oil infrastructure and a widening Brent-WTI spread of approximately $5; Asian LNG prices have simultaneously soared to their highest level since December 2022, driven by a new war risk premium."
+    "notes": "Brent crude surged to $108 per barrel as Houthi strikes on Saudi oil infrastructure triggered a significant war risk premium, with the Brent-WTI spread widening to $5 and Asian LNG prices reaching their highest since December 2022."
   },
   "update_log": [
+    {
+      "time": "20:57 UTC",
+      "text": "UK RAF Typhoon FGR4 jets confirmed deploying to Saudi Arabia for defensive counter-air missions against Houthi strikes.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "20:00 UTC",
+      "text": "Houthi missile strike on Shabwa province government training camp kills 58, wounds 200+.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "19:30 UTC",
+      "text": "Brent crude hits $108 as Houthi attacks on Saudi oil infrastructure intensify; Saudi Arabia postpones Future Investment Initiative to 2027.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "18:00 UTC",
+      "text": "Zelensky cites 'positive signals' from US after Oslo summit with envoys and phone call with Secretary Rubio.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "17:00 UTC",
+      "text": "BBC reports Trump and Zelensky 'at loggerheads' despite Oslo diplomatic activity.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "16:00 UTC",
+      "text": "Pentagon and BAE Systems sign agreement to procure up to 25,000 APKWS rocket kits annually for up to seven years.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "15:00 UTC",
+      "text": "Defense Secretary Hegseth makes unannounced visit to Netanyahu in Israel as Trump weighs Iran military options.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "14:00 UTC",
+      "text": "US State Department issues new warnings to Americans across Middle East amid escalating Houthi strikes on Gulf targets.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "13:00 UTC",
+      "text": "Trump says Russia 'has been fine on Ukraine,' signals support for negotiations favorable to Moscow; lifts Russian diesel sanctions.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "12:00 UTC",
+      "text": "UNIFIL mandate nears end; UN peacekeepers preparing to withdraw from Lebanon as Israel remains present and Hezbollah retains arms.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "11:00 UTC",
+      "text": "War on the Rocks analysis describes Tehran as fundamentally transformed post-US-Israel strikes, with Mojtaba Khamenei as new Supreme Leader.",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "10:00 UTC",
+      "text": "Russia builds large over-the-horizon radar within NATO's eastern flank, reportedly capable of monitoring targets deep into Northern and Western Europe.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "War on the Rocks reports renewed fighting in Ethiopia's Tigray region as 2022 peace deal collapses, raising regional spillover risk.",
+      "source_tier": "analyst"
+    },
+    {
+      "time": "08:00 UTC",
+      "text": "Japan and US kick off one of their largest joint military exercises around Japan's southwestern islands amid rising China tensions.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "07:00 UTC",
+      "text": "UNHCR reports more than 250,000 displaced in Yemen since fighting escalated; UNICEF warns Taiz water systems at risk.",
+      "source_tier": "verified"
+    },
     {
       "time": "16:12 UTC",
       "text": "RAF Typhoon jets confirmed deploying to Saudi Arabia to provide defensive shield against Houthi missile attacks.",
@@ -400,5 +589,5 @@
       "source_tier": "unverified"
     }
   ],
-  "last_updated": "2026-10-21T16:12:11Z"
+  "last_updated": "2026-10-21T20:57:35Z"
 }
