@@ -1,0 +1,297 @@
+{
+  "escalation": {
+    "score": 7.5,
+    "delta": "-0.3 from yesterday",
+    "level": "High",
+    "rationale": "Slight de-escalation on Ukraine front as Witkoff-Putin talks show progress and Hubbard release signals goodwill, but offset by Iranian mine attacks on tankers in the Strait of Hormuz, Houthi strikes on Saudi sites pushing Brent above $110, and Trump openly weighing renewed military action against Iran."
+  },
+  "ticker_items": [
+    "US envoy Witkoff meets Putin in St. Petersburg; Ukraine ceasefire proposals discussed.",
+    "Russia releases American Stephen Hubbard as diplomatic gesture during Witkoff visit.",
+    "Iran claims mines set three tankers ablaze in Strait of Hormuz; US denies.",
+    "Brent crude tops $110 on Hormuz attacks and Houthi strikes on Saudi energy sites.",
+    "Russia and Ukraine trade overnight strikes despite peace talk momentum; 15 injured in Kyiv."
+  ],
+  "new_entrant": {
+    "active": true,
+    "text": "The United Kingdom has deployed RAF Typhoon FGR4 fighters to Saudi Arabia for defensive counter-air missions against Houthi strikes, marking a new direct British military role in the Yemen-Saudi conflict."
+  },
+  "strikes_today": {
+    "eastern_europe": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Russia",
+        "target_country": "Ukraine",
+        "target_location": "Kyiv",
+        "description": "Russian overnight drone/missile attack on Kyiv injured 15 people amid ongoing peace talk discussions.",
+        "method": "Drone",
+        "lat": 50.45,
+        "lng": 30.52,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Ukraine",
+        "target_country": "Russia",
+        "target_location": "Moscow",
+        "description": "Ukraine launched drone attack toward Moscow; Russia claimed interception of 163 drones with two people injured in Moscow.",
+        "method": "Drone",
+        "lat": 55.75,
+        "lng": 37.62,
+        "source_tier": "verified"
+      }
+    ],
+    "middle_east": [
+      {
+        "time_utc": "Unknown",
+        "attacker": "Iran (IRGC)",
+        "target_country": "International Shipping",
+        "target_location": "Strait of Hormuz",
+        "description": "Iran's Revolutionary Guard claimed mines set three tankers ablaze in the Strait of Hormuz; US military rejected the allegations as false.",
+        "method": "Naval/USV",
+        "lat": 26.58,
+        "lng": 56.25,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Houthis (Ansar Allah)",
+        "target_country": "Saudi Arabia",
+        "target_location": "Riyadh and Saudi energy sites",
+        "description": "Houthis struck Saudi energy infrastructure and installations, prompting UK RAF Typhoon deployment for defensive counter-air.",
+        "method": "Missile/Surface",
+        "lat": 24.69,
+        "lng": 46.72,
+        "source_tier": "unverified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Syria",
+        "target_location": "Jamla, western Deraa countryside",
+        "description": "Israeli forces killed a disabled man during a raid in southern Syria, according to Syrian state media SANA.",
+        "method": "Ground/Armored",
+        "lat": 32.61,
+        "lng": 36.1,
+        "source_tier": "verified"
+      },
+      {
+        "time_utc": "Unknown",
+        "attacker": "Israel",
+        "target_country": "Gaza/Palestine",
+        "target_location": "Gaza",
+        "description": "Israel eliminated a Hamas operative identified as having participated in the abduction and killing of Shani Louk during the October 7 attacks.",
+        "method": "Air/Precision Strike",
+        "lat": 31.5,
+        "lng": 34.47,
+        "source_tier": "unverified"
+      }
+    ]
+  },
+  "casualties": {
+    "today": [
+      {
+        "incident": "Russian strike on Kyiv",
+        "kia": "0 reported",
+        "wia": "15",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Ukrainian drone attack on Moscow",
+        "kia": "0 reported",
+        "wia": "2",
+        "civilian": true,
+        "source_tier": "verified"
+      },
+      {
+        "incident": "Houthi strike on Riyadh airport (Oct 11 reference)",
+        "kia": "12",
+        "wia": "~300+",
+        "civilian": true,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "Hormuz tanker mine attacks (Iranian claim)",
+        "kia": "Unknown",
+        "wia": "Unknown",
+        "civilian": false,
+        "source_tier": "unverified"
+      },
+      {
+        "incident": "US-Israel attacks on Iran (cumulative tracker)",
+        "kia": "~3,468 (Iran) + ~3,696 (Lebanon) + ~28 (Gulf states)",
+        "wia": "Unknown",
+        "civilian": true,
+        "source_tier": "verified"
+      }
+    ],
+    "claimed_totals": [
+      {
+        "claim": "Deaths in Iran from US-Israel strikes",
+        "figure": "~3,468",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Lebanon from US-Israel strikes",
+        "figure": "~3,696",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
+      },
+      {
+        "claim": "Deaths in Gulf states from US-Israel strikes",
+        "figure": "~28",
+        "claimed_by": "Al Jazeera Live Tracker",
+        "as_of": "2026-06-10"
+      }
+    ]
+  },
+  "quotes": {
+    "russia": [
+      {
+        "text": "The Kremlin would be ready to resume trilateral talks.",
+        "speaker": "Vladimir Putin",
+        "title": "President of Russia",
+        "date": "2026-10-21"
+      },
+      {
+        "text": "We have no trust in the Americans.",
+        "speaker": "Abbas Araghchi",
+        "title": "Iranian Foreign Minister",
+        "date": "2026-10-21"
+      }
+    ],
+    "ukraine": [
+      {
+        "text": "Washington describes talks with Zelensky in Oslo as highly productive, with the US, Ukraine and Europe reportedly aligned on next steps.",
+        "speaker": "Unnamed US Official",
+        "title": "US Government",
+        "date": "2026-10-21"
+      },
+      {
+        "text": "Rubio acknowledged tensions with Ukraine but denied that Washington had changed its military support policies.",
+        "speaker": "Marco Rubio",
+        "title": "US Secretary of State",
+        "date": "2026-10-20"
+      }
+    ],
+    "middle_east": [
+      {
+        "text": "The United States must decide whether to secure victory over Iran the 'nice way or the not nice way.'",
+        "speaker": "Donald Trump",
+        "title": "President of the United States",
+        "date": "2026-10-21"
+      },
+      {
+        "text": "The Tehran that the world knew is gone. It died in the fires with former Supreme Leader Ali Khamenei on the first day of the war in February.",
+        "speaker": "War on the Rocks Analyst",
+        "title": "Strategic Analyst",
+        "date": "2026-10-21"
+      }
+    ]
+  },
+  "observers": [
+    {
+      "country": "United States",
+      "flag": "\ud83c\uddfa\ud83c\uddf8",
+      "status": "Mediator + arms supplier",
+      "description": "Envoy Witkoff met Putin in St. Petersburg, securing release of American Stephen Hubbard and advancing Ukraine ceasefire proposals discussed in Oslo. Trump simultaneously weighs further military options against Iran while reportedly blocking an Israeli large-scale strike on Iranian nuclear and power facilities."
+    },
+    {
+      "country": "United Kingdom",
+      "flag": "\ud83c\uddec\ud83c\udde7",
+      "status": "Active materiel + troops",
+      "description": "RAF deployed Typhoon FGR4 fighters to Saudi Arabia for defensive counter-air operations against Houthi drone and missile attacks. This marks a significant expansion of British direct military engagement in the Arabian Peninsula conflict."
+    },
+    {
+      "country": "North Korea",
+      "flag": "\ud83c\uddf0\ud83c\uddf5",
+      "status": "Supplying dual-use goods",
+      "description": "Analysts note North Korea maintains a clear division of labor supplying weapons to Russia while sending goods to China, ensuring its two key alliances remain complementary. Kim Jong Un appeared in state-released photos after viral death rumours circulated online."
+    },
+    {
+      "country": "Turkey",
+      "flag": "\ud83c\uddf9\ud83c\uddf7",
+      "status": "Strategic balancer",
+      "description": "Canadian PM Carney visited Turkey seeking closer trade, energy, and defence ties, signalling Ankara's growing strategic importance as a NATO partner. Turkey continues to balance relationships between Western allies and Russia."
+    },
+    {
+      "country": "Iran",
+      "flag": "\ud83c\uddee\ud83c\uddf7",
+      "status": "Active materiel + troops",
+      "description": "Iran's IRGC claimed mine attacks on three tankers in the Strait of Hormuz and alleged downing of a US drone, escalating maritime tension. Iran's foreign minister declared no trust in American diplomacy, complicating any potential negotiations."
+    },
+    {
+      "country": "Israel",
+      "flag": "\ud83c\uddee\ud83c\uddf1",
+      "status": "Active materiel + troops",
+      "description": "Israel heads toward elections on October 27 amid a highly polarized political atmosphere. Netanyahu reportedly ordered preparation for a large-scale strike on Iran's nuclear and power facilities, but the operation was halted after opposition from Trump."
+    },
+    {
+      "country": "Saudi Arabia",
+      "flag": "\ud83c\uddf8\ud83c\udde6",
+      "status": "Active materiel + troops",
+      "description": "Saudi Arabia faces escalating Houthi attacks on energy sites and has postponed its flagship Future Investment Initiative conference until 2027. The UK's RAF deployment signals increasing international support for Saudi air defenses."
+    }
+  ],
+  "financial": {
+    "usd_rub": "Unchanged",
+    "brent_crude": "$109.64\u2013$110+",
+    "wheat_futures": "Unchanged",
+    "notes": "Brent crude surged above $110/barrel following Iranian mine attacks in the Strait of Hormuz, Houthi strikes on Saudi energy infrastructure, and falling US inventories, raising significant global supply disruption concerns."
+  },
+  "update_log": [
+    {
+      "time": "10:44 UTC",
+      "text": "Russia and Ukraine trade overnight strikes \u2014 15 injured in Kyiv, 2 in Moscow \u2014 despite active peace talk momentum from Oslo and St. Petersburg.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "10:30 UTC",
+      "text": "Iran's IRGC claims mines set three tankers ablaze in Strait of Hormuz and downed a US drone; US military flatly denies both claims.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "10:15 UTC",
+      "text": "Brent crude tops $110/barrel on Hormuz tanker incidents, Houthi strikes on Saudi energy sites, and falling US inventories.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:50 UTC",
+      "text": "UK confirms RAF Typhoon FGR4 deployment to Saudi Arabia for defensive counter-air operations against Houthi missiles and drones.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:30 UTC",
+      "text": "US envoy Witkoff meets Putin in St. Petersburg; Russia releases imprisoned American Stephen Hubbard as diplomatic goodwill gesture.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "09:00 UTC",
+      "text": "Trump says US must choose 'nice way or not nice way' against Iran as administration weighs further military options post-February war.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:45 UTC",
+      "text": "Reports indicate Trump blocked Netanyahu's planned large-scale Israeli strikes on Iranian nuclear facilities, power plants, and regime targets.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "08:20 UTC",
+      "text": "Israeli forces kill disabled man in southern Syria raid; Israel also eliminates Hamas operative linked to Shani Louk's October 7 abduction.",
+      "source_tier": "verified"
+    },
+    {
+      "time": "07:45 UTC",
+      "text": "Saudi Arabia postpones 'Davos in the Desert' Future Investment Initiative until 2027 amid escalating Houthi attacks.",
+      "source_tier": "unverified"
+    },
+    {
+      "time": "07:00 UTC",
+      "text": "Al Jazeera casualty tracker reports ~3,468 dead in Iran and ~3,696 in Lebanon from US-Israel strikes beginning February 2026.",
+      "source_tier": "verified"
+    }
+  ],
+  "last_updated": "2026-10-22T10:44:52Z"
+}
